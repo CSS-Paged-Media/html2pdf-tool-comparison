@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/f/flex-shrink/ -->
+<html lang="en">
+    <head>
+        <style>
+        .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 10px;
+  border: 5px solid red;
+  
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.flex1 { flex: 1 1 20em; }
+.flex2 { flex: 2 2 20em; } 
+        </style>
+    </head>
+    <body>
+        <ul class="flex-container">
+            <li class="flex-item flex1">1</li>
+            <li class="flex-item flex2">2</li>
+          </ul>
+    </body>
+</html>

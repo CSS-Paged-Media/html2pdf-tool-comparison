@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/e/empty-cells/ -->
+<html lang="en">
+    <head>
+        <style>
+        /* DEMO STYLES */
+.table-show {
+  empty-cells: show;
+}
+
+.table-hide {
+  empty-cells: hide;
+}
+
+/* PRESENTATONAL STYLES */
+body {
+  background: #333;
+  padding: 25px 0;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 3em;
+  text-align: center;
+}
+
+table {
+  margin: 25px auto;
+}
+
+td {
+  background: #fff;
+  border: 1px solid #999;
+  padding: 10px 15px;
+  color: green;
+  cursor: pointer;
+}
+
+td:hover {
+  background: #eaeaea;
+}
+
+h1 {
+  font-size: .5em;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Show Empty Cells</h1>
+
+        <table class="table-show">
+          <tbody>
+            <tr>
+              <td>&check;</td>
+              <td>&check;</td>
+              <td></td>
+              <td>&check;</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <h1>Hide The Cells</h1>
+        
+        <table class="table-hide">
+           <tbody>
+            <tr>
+              <td>&check;</td>
+              <td>&check;</td>
+              <td></td>
+              <td>&check;</td>
+            </tr>
+          </tbody>
+        </table>
+    </body>
+</html>

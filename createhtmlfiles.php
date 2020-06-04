@@ -24,8 +24,7 @@
         'border-collapse',
         /*'border-image', later */
         /*'border-radius',
-        'border-spacing',
-        'bottom',
+        */'border-spacing',/*
         'box-decoration-break',
         */'box-shadow',
         'box-sizing',
@@ -50,16 +49,16 @@
         'cursor',
         'direction',
         'display',
-        'empty-cells',
+        */'empty-cells',/*
         'fill',
         'filter',
-        'flex',
+        */'flex',
         'flex-basis',
         'flex-direction',
         'flex-flow',
         'flex-grow',
         'flex-shrink',
-        'flex-wrap',
+        'flex-wrap',/*
         'float',
         'font',
         'font-display',

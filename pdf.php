@@ -32,16 +32,20 @@ HTML File | mPDF Result | typeset.sh Result
                 $sOutputBaseName  = $sFileName . '.pdf';
 
                 // Render mPDF PDF
-                $oMPdf = new \Mpdf\Mpdf();
-                $oMPdf->WriteHTML($sHtmlFileContent);
-                $oMPdf->Output(
-                    'result/mpdf_' . $sOutputBaseName, 
-                    false
-                );
+                if(!is_file(__DIR__ . '/result/mpdf_' . $sOutputBaseName)){
+                    $oMPdf = new \Mpdf\Mpdf();
+                    $oMPdf->WriteHTML($sHtmlFileContent);
+                    $oMPdf->Output(
+                        'result/mpdf_' . $sOutputBaseName, 
+                        false
+                    );
+                }
 
                 // Render typeset.sh PDF
-                $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent);
-                $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
+                if(!is_file(__DIR__ . '/result/typeset_' . $sOutputBaseName)){
+                    $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent);
+                    $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
+                }
 
                 
                 $sReadMe .= '[' . $sFileName . '](html/' . $sFileName . ')'

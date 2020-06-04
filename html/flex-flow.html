@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/f/flex-flow/ -->
+<html lang="en">
+    <head>
+        <style>
+        .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+h1 {
+  padding-left: .5em; 
+}
+
+.shorthand { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.longhand { 
+  -webkit-flex-flow: wrap row;
+  flex-flow: wrap row;
+  
+}
+
+.longhand li {
+  background: deepskyblue;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <h1>flex-wrap: wrap; flex-direction: row;</h1>
+        <ul class="flex-container longhand">
+          <li class="flex-item">1</li>
+          <li class="flex-item">2</li>
+          <li class="flex-item">3</li>
+          <li class="flex-item">4</li>
+        </ul>
+        
+        <h1>flex-flow: row wrap;</h1>
+        <ul class="flex-container shorthand">
+          <li class="flex-item">1</li>
+          <li class="flex-item">2</li>
+          <li class="flex-item">3</li>
+          <li class="flex-item">4</li>
+        </ul>
+    </body>
+</html>
