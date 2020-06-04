@@ -44,9 +44,9 @@ HTML File | mPDF Result | typeset.sh Result
                 $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
 
                 
-                $sReadMe .= '(' . $sFileName . ')[html/' . $sFileName . ']'
-                    . ' | (mpdf_' . $sOutputBaseName . ')[result/mpdf_' . $sOutputBaseName . ']'  
-                    . ' | (typeset_' . $sOutputBaseName . ')[result/typeset_' . $sOutputBaseName . ']' 
+                $sReadMe .= '[' . $sFileName . '](html/' . $sFileName . ')'
+                    . ' | [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ')'  
+                    . ' | [typeset_' . $sOutputBaseName . '](result/typeset_' . $sOutputBaseName . ')' 
                     . PHP_EOL;
             }
 
