@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/c/counter-reset/ -->
+<html lang="en">
+    <head>
+        <style>
+        * {
+  box-sizing: border-box;
+}
+
+article {
+  padding: 1em;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  
+  counter-reset: section;
+}
+
+section {
+  counter-increment: section;
+}
+
+section h2:before {
+  content: counter(section) '. ';
+}
+        </style>
+    </head>
+    <body>
+        <article>
+            <section>
+            <h2>Papa-bear</h2>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+          </section>
+          <section>
+            <h2>Mama-bear</h2>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+          </section>
+          <section>
+            <h2>Baby-bear</h2>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+          </section>
+          </article>
+    </body>
+</html>

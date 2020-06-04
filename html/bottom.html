@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/top-right-bottom-left/ -->
+<html lang="en">
+    <head>
+        <style>
+        body {
+  padding: 40px 0;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: Silver;
+  position: relative;
+}
+
+.box--positive {
+    bottom: 50px;
+}
+
+.box--negative {
+  bottom: -50px;
+}
+
+.outline {
+  display: inline-block;
+  border: 2px dashed black;
+  margin: 40px 0 0 40px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="outline">
+            <div class="box box--positive">
+              <pre>positive</pre>
+            </div>
+          </div>
+          
+          <div class="outline">
+            <div class="box box--negative">
+              <pre>negative</pre>
+            </div>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/b/break-inside/ -->
+<html lang="en">
+    <head>
+        <style>
+        .example {
+  -webkit-columns: 150px;
+  -moz-columns: 150px;
+  columns: 150px;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;  
+}
+
+body {
+  font-size: 12px;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+li {
+  background: white;
+  padding: 1em;
+  margin-bottom: 1.3em;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+        </style>
+    </head>
+    <body>
+        <ul class="example">
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+            <li>Consectetuer adipiscing elit.</li>
+            <li>Eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li> 
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Aliquam tincidunt mauris eu risus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+            <li>Vestibulum auctor dapibus neque.</li> 
+          </ul>   
+    </body>
+</html>

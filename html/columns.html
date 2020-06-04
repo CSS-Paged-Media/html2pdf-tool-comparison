@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/c/columns/ -->
+<html lang="en">
+    <head>
+        <style>
+        .example {
+  -webkit-columns: 4 150px;
+  -moz-columns: 4 150px;
+  columns: 4 150px;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
+}
+
+body {
+  font-size: 12px;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+h1 {
+  -webkit-column-span: all;
+  -moz-column-span: all;
+  column-span: all;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1.3em;
+  text-align: justify;
+}
+
+.lead {
+  font-variant: small-caps;
+  font-size: 1.3em;
+  text-align: left;
+  font-style: italic;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="example">
+            <h1>Sed dignissim lacinia nunc</h1>
+            <p class="lead">Aenean quam. In scelerisque sem at dolor. Sed convallis tristique sem.</p>
+            <p>Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. </p>
+            <p>Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  </p>
+          
+            <p>Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. </p>
+          
+            <p>Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus.  </p>
+          </div>
+    </body>
+</html>

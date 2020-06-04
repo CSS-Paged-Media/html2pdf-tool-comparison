@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/c/column-rule/ -->
+<html lang="en">
+    <head>
+        <style>
+        .example {
+  -webkit-columns: 3 150px;
+  -moz-columns: 3 150px;
+  columns: 3 150px;
+  -webkit-column-gap: 5em;
+  -moz-column-gap: 5em;
+  column-gap: 5em;
+  -webkit-column-rule-width: 4px;
+  -moz-column-rule-width: 4px;
+  column-rule-width: 4px;
+  -webkit-column-rule-color: #e74c3c;
+  -moz-column-rule-color: #e74c3c;
+  column-rule-color: #e74c3c;
+  margin: 2em auto 7em;
+}
+
+.example-dotted {
+  -webkit-column-rule-style: dotted;
+  -moz-column-rule-style: dotted;
+  column-rule-style: dotted;
+}
+
+.example-dashed {
+  -webkit-column-rule-style: dashed;
+  -moz-column-rule-style: dashed;
+  column-rule-style: dashed;
+}
+
+.example-solid {
+  -webkit-column-rule-style: solid;
+  -moz-column-rule-style: solid;
+  column-rule-style: solid;
+}
+
+.example-double {
+  -webkit-column-rule-style: double;
+  -moz-column-rule-style: double;
+  column-rule-style: double;
+}
+
+.example-groove {
+  -webkit-column-rule-style: groove;
+  -moz-column-rule-style: groove;
+  column-rule-style: groove;
+}
+
+.example-ridge {
+  -webkit-column-rule-style: ridge;
+  -moz-column-rule-style: ridge;
+  column-rule-style: ridge;
+}
+
+.example-inset {
+  -webkit-column-rule-style: inset;
+  -moz-column-rule-style: inset;
+  column-rule-style: inset;
+}
+
+.example-outset {
+  -webkit-column-rule-style: outset;
+  -moz-column-rule-style: outset;
+  column-rule-style: outset;
+}
+
+.example-none {
+  -webkit-column-rule-style: none;
+  -moz-column-rule-style: none;
+  column-rule-style: none;
+}
+
+.example-hidden {
+  -webkit-column-rule-style: hidden;
+  -moz-column-rule-style: hidden;
+  column-rule-style: hidden;
+}
+
+body {
+  font-size: 12px;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+p {
+  margin-bottom: 1.3em;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 4em;
+  padding: 0.5em 0;
+  text-align: center;
+  font-family: "Courier New", monospace;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  background: white;
+  border-radius: 0.2em;
+  padding: 0 0.2em;
+}
+        </style>
+    </head>
+    <body>
+        <div class='example example-dotted'>
+            <h1>dotted</h1>
+            <p>This example uses <code>column-rule-style: dotted;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+          <div class='example example-dashed'>
+            <h1>dashed</h1>
+            <p>This example uses <code>column-rule-style: dashed;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+          <div class='example example-solid'>
+            <h1>solid</h1>
+            <p>This example uses <code>column-rule-style: solid;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+          <div class='example example-double'>
+            <h1>double</h1>
+            <p>This example uses <code>column-rule-style: double;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+          <div class='example example-groove'>
+            <h1>groove</h1>
+            <p>This example uses <code>column-rule-style: groove;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+          <div class='example example-ridge'>
+            <h1>ridge</h1>
+            <p>This example uses <code>column-rule-style: ridge;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+          <div class='example example-inset'>
+            <h1>inset</h1>
+            <p>This example uses <code>column-rule-style: inset;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+          <div class='example example-outset'>
+            <h1>outset</h1>
+            <p>This example uses <code>column-rule-style: outset;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+          <div class='example example-none'>
+            <h1>none</h1>
+            <p>This example uses <code>column-rule-style: none;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+          <div class='example example-hidden'>
+            <h1>hidden</h1>
+            <p>This example uses <code>column-rule-style: hidden;</code>.</p>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et. Sed posuere metus a pellentesque mattis.</p>
+            <p>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.</p>
+          </div>
+    </body>
+</html>

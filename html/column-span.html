@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/c/column-span/ -->
+<html lang="en">
+    <head>
+        <style>
+        .example {
+  -webkit-columns: 125px;
+  -moz-columns: 125px;
+  columns: 125px;
+  max-width: 300px;
+  margin: 2em auto 0;
+}
+
+hr {
+  -webkit-column-span: all;
+  -moz-column-span: all;
+  column-span: all;
+  margin: 1em auto;
+  border-style: dashed;
+  border-width: 1px 0 0;
+  border-top-color: #e74c3c;
+}
+
+body {
+  font-size: 12px;
+  font-family: serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+h1 {
+  font-size: 7em;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0.15em;
+  color: #2c3e50;
+}
+
+ul {
+  list-style: square;
+  margin-left: 2em;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="example">
+            <h1>A</h1>
+            <ul>
+              <li>aardvark</li>
+              <li>aardwolf</li>
+              <li>aasvogel</li>
+              <li>abacuses</li>
+              <li>abalones</li>
+            </ul>
+            <hr>
+          
+            <h1>B</h1>
+            <ul>
+              <li>baalisms</li>
+              <li>baaskaap</li>
+              <li>baaskaps</li>
+              <li>baasskap</li>
+              <li>babassus</li>
+            </ul>
+          
+            <hr>
+            <h1>C</h1>
+            <ul>
+              <li>cabalism</li>
+              <li>cabalist</li>
+              <li>caballed</li>
+              <li>cabarets</li>
+              <li>cabbaged</li>
+            </ul>  
+          </div>
+    </body>
+</html>

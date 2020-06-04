@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/c/column-fill/ -->
+<html lang="en">
+    <head>
+        <style>
+        .example {
+  -webkit-columns: 4;
+  -moz-columns: 4;
+  columns: 4;
+  height: 105px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0 0.5em;
+}
+
+.example-balance {
+  -webkit-column-fill: balance;
+  -moz-column-fill: balance;
+  column-fill: balance;
+  margin-bottom: 1em;
+}
+
+.example-auto {
+  -webkit-column-fill: auto;
+  -moz-column-fill: auto;
+  column-fill: auto;
+}
+
+body {
+  font-size: 12px;
+  font-family: serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+code {
+  font-family: "Courier New", monospace;
+}
+
+        </style>
+    </head>
+    <body>
+        <code>column-fill: balance;</code>
+        <div class="example example-balance">
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus libero libero, placerat at hendrerit nec, vulputate consectetur nisi. Morbi scelerisque lectus id sapien laoreet accumsan. Nunc eget tincidunt ligula, eget suscipit tellus. Sed iaculis nibh gravida faucibus porta. Sed lacinia tristique elementum. Etiam odio sem, dapibus eu tempus vel, consequat non turpis.</p>
+        
+        </div>
+        <code>column-fill: auto;</code>
+        <div class="example example-auto">
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus libero libero, placerat at hendrerit nec, vulputate consectetur nisi. Morbi scelerisque lectus id sapien laoreet accumsan. Nunc eget tincidunt ligula, eget suscipit tellus. Sed iaculis nibh gravida faucibus porta. Sed lacinia tristique elementum. Etiam odio sem, dapibus eu tempus vel, consequat non turpis.</p>
+        </div>
+        
+    </body>
+</html>

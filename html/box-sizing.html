@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/b/box-sizing/ -->
+<html lang="en">
+    <head>
+        <style>
+        .content-box { 
+  box-sizing: content-box; 
+}
+.padding-box {
+  box-sizing: padding-box; 
+}
+.border-box { 
+  box-sizing: border-box; 
+}
+
+/* Pen Styling, unrelated to box-sizing */
+body { 
+  font-family: sans-serif; 
+}
+.demo { 
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  background: #eee;
+}
+h4 {
+  margin: 0 0 0.5rem 0;
+}
+div[class*="box"] {
+  width: 300px;
+  padding: 20px;
+  background: #444;
+  color: white;
+  border: 10px solid red;
+  background-clip: content-box;
+  text-indent: 20px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+        </style>
+    </head>
+    <body>
+        <section class="demo">
+            <h4>box-sizing: content-box;</h4>
+          <div class="content-box">
+            <p>content</p>
+          </div>
+          </section>
+          
+          <section class="demo">
+          <h4>box-sizing: padding-box;</h4>
+          <div class="padding-box">
+            <p>content</p>
+          </div>
+          </section>
+            
+          <section class="demo">  
+          <h4>box-sizing: border-box;</h4>
+          <div class="border-box">
+            <p>content</p>
+          </div>
+          </section>
+          
+    </body>
+</html>

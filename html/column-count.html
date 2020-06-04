@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/c/column-count/ -->
+<html lang="en">
+    <head>
+        <style>
+        .example {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 3em;
+  -moz-column-gap: 3em;
+  column-gap: 3em;
+}
+
+body {
+  font-size: 12px;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  background: #ecf0f1;
+  padding: 2em 1em 0;
+}
+
+.fa {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  display: block;
+  color: #2c3e50;
+}
+
+p {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+p:first-line {
+  font-variant: small-caps;
+  font-size: 1.2em;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="example">
+            <i class="fa fa-mortar-board"></i>
+            <p>Nunc a vulputate turpis. Duis ornare lacus magna, vitae tincidunt leo elementum et.</p>
+            <i class="fa fa-bank"></i>
+            <p> Nulla vitae magna sed sapien ultricies dapibus a non libero. Fusce lobortis adipiscing purus vel rhoncus.</p>
+            <i class="fa fa-life-ring"></i>
+            <p>Proin blandit, tortor quis tristique porta, nisl est rhoncus turpis, non interdum nibh ligula sit amet dolor.</p>
+            <i class="fa fa-bolt"></i>
+            <p>Sed sagittis aliquam nulla vel viverra. Sed at augue eros. Nam tincidunt mi eu malesuada molestie.</p>
+          </div>
+    </body>
+</html>
