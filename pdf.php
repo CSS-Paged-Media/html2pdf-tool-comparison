@@ -29,13 +29,13 @@
                 $oMPdf = new \Mpdf\Mpdf();
                 $oMPdf->WriteHTML($sHtmlFileContent);
                 $oMPdf->Output(
-                    'mpdf_' . $sOutputBaseName, 
+                    'result/mpdf_' . $sOutputBaseName, 
                     false
                 );
 
                 // Render typeset.sh PDF
                 $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent);
-                $oTypesetPdf->toFile('typeset_' . $sOutputBaseName);
+                $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
             }
 
             if(is_dir($sFilePath)){

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/a/appearance/ -->
+<html lang="en">
+    <head>
+        <style>
+        .reset {
+  -webkit-appearance: none; 
+}
+
+.fake-like-search {
+  -webkit-appearance: searchfield;   
+}
+        </style>
+    </head>
+    <body>
+        <input type="search"> type=search 
+        <br><br>
+        <input type="text" class="fake-like-search"> type=text, made like search
+        <br><br>
+        <input type="search" class="reset"> type=search, reset 
+        <br><br>
+        <input type="text"> type=text
+        <br><br>
+        <input type="text" class="reset"> type=text, reset
+    </body>
+</html>

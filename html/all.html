@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/a/all/ -->
+<html lang="en">
+    <head>
+        <style>
+        .container {
+  font-family: sans-serif;
+  /* inherited */
+  
+  font-size: 1.5em;
+  /* inherited */
+  
+  text-align: center;
+  /* inherited */
+  
+  text-transform: uppercase;
+  /* inherited */
+  
+  text-shadow: 1px 1px 1px black;
+  /* inherited */
+}
+
+.parent {
+  color: green;
+  /* inherited */
+  
+  background-color: gainsboro;
+  /* not inherited */
+  
+  width: 80%;
+  /* not inherited */
+  
+  padding: 1em;
+  /* not inherited */
+  
+  border: 5px solid #E18728;
+  /* not inherited */
+}
+
+.alltest{
+    all:inherit;
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+          <div class="parent">
+            <div class="alltest">
+              <p>Change this div's <code>all</code> value.</p>
+            </div>
+          </div>
+        </div>    
+    </body>
+</html>
