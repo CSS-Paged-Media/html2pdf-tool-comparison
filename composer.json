@@ -1,0 +1,12 @@
+{
+	"require": {
+    "typesetsh/typesetsh": "^0.6.1",
+		"mpdf/mpdf": "^8.0"
+  },
+	"repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.typeset.sh"
+    }
+  ]
+}
