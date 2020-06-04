@@ -45,8 +45,8 @@ HTML File | mPDF Result | typeset.sh Result
 
                 
                 $sReadMe .= '[' . $sFileName . '](html/' . $sFileName . ')'
-                    . ' | ![](result/mpdf_' . str_replace('.pdf', '.png', $sOutputBaseName) . ') [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ')'  
-                    . ' | ![](result/typeset_' . str_replace('.pdf', '.png', $sOutputBaseName) . ') [typeset_' . $sOutputBaseName . '](result/typeset_' . $sOutputBaseName . ')' 
+                    . ' | ![](result/mpdf_' . str_replace('.pdf', '-0.png', $sOutputBaseName) . ')![](result/mpdf_' . str_replace('.pdf', '.png', $sOutputBaseName) . ') [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ')'  
+                    . ' | ![](result/typeset_' . str_replace('.pdf', '-0.png', $sOutputBaseName) . ')![](result/typeset_' . str_replace('.pdf', '.png', $sOutputBaseName) . ') [typeset_' . $sOutputBaseName . '](result/typeset_' . $sOutputBaseName . ')' 
                     . PHP_EOL;
             }
 
