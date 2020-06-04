@@ -12,7 +12,7 @@
         'background-attachment',
         'background-blend-mode',
         'background-clip',
-        'background-color',
+        */'background-color',/*
         'background-image',
         'background-origin',
         'background-position',
@@ -27,14 +27,14 @@
         'border-spacing',
         'bottom',
         'box-decoration-break',
-        'box-shadow',
+        */'box-shadow',/*
         'box-sizing',
         'break-inside',
         'caption-side',
         'caret-color',
         'clear',
         'clip-path',
-        'color',
+        */'color',/*
         'color-adjust',
         'column-count',
         'column-fill',
@@ -80,7 +80,7 @@
         'image-rendering',
         'initial-letter',
         'isolation',
-        'justify-content',
+        */'justify-content',/*
         'left',
         'letter-spacing',
         'line-clamp',

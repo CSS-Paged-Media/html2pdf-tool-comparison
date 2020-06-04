@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/c/color/ -->
+<html lang="en">
+    <head>
+        <style>
+        .named { color: aqua; }
+
+.hex { color: #00FFFF; }
+
+.rgba { color: rgba(0, 255, 255, .5); }
+
+.hsla { color: hsla(180, 100%, 50%, .5); }
+
+
+/* Styling for Pen, unrelated to color */
+
+body { 
+  font-family: serif;
+  font-size: 2.5em;
+}
+
+p {
+  min-width: 50%;
+  text-align: center;
+  margin: .5em 0;
+  text-transform: uppercase;
+}
+
+.demo {
+  width: 50%;
+  margin: 0 auto;
+}
+        </style>
+    </head>
+    <body>
+        <div class="demo">
+            <p class="named">Named Color</p> <!-- aqua -->
+            <p class="hex">Hex Color</p> <!-- #00FFFF -->
+            <p class="rgba">RGBa Color</p> <!-- rgba(0, 255, 255, .5) -->
+            <p class="hsla">HSLa Color</p> <!-- hsla(180, 100%, 50%, .5) -->
+            </div>
+    </body>
+</html>
