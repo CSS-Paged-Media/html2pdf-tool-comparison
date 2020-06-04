@@ -2,6 +2,12 @@
     require_once __DIR__ . '/vendor/autoload.php';
 
     function renderPdfs($sTestPath){
+        $sReadMe = '
+# A comparison between mPDF and typeset.sh
+
+HTML File | mPDF Result | typeset.sh Result
+------------ | ------------- | -------------' . PHP_EOL;
+
         $aFiles = scandir($sTestPath);
     
         unset($aFiles[array_search('.', $aFiles, true)]);
@@ -36,7 +42,15 @@
                 // Render typeset.sh PDF
                 $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent);
                 $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
+
+                
+                $sReadMe .= '(' . $sFileName . ')[html/' . $sFileName . ']'
+                    . ' | (mpdf_' . $sOutputBaseName . ')[result/mpdf_' . $sOutputBaseName . ']'  
+                    . ' | (typeset_' . $sOutputBaseName . ')[result/typeset_' . $sOutputBaseName . ']' 
+                    . PHP_EOL;
             }
+
+            file_put_contents(__DIR__ . '/README.md', $sReadMe);
 
             if(is_dir($sFilePath)){
                 renderPdfs($sFilePath);
