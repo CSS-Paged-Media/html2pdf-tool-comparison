@@ -5,50 +5,37 @@
         'block-overflow',
         'box-decoration-break',
         'caption-side',
-        'caret-color',
+        */'caret-color',/*
         'clip-path',
         'color-adjust',
         'contain',
         'content',
         'counter-increment',
         'cursor',
-        */'direction',/*
         'display',
         'fill',
-        */'float',/*
         'font-display',
         'font-feature-settings',
         'font-size-adjust',
         'font-stretch',
         'font-variant-numeric',
         'grid-template-columns-rows',
-        */'image-rendering',/*
         'isolation',
         'line-clamp',
-        */'offset-anchor',
-        'offset-distance',
-        'offset-path',
-        'offset-rotate',/*
-        'orphans',
-        */'outline',/*
+        */'orphans',/*
         'overflow-anchor',
         'overflow-wrap',
         'page-break',
         'place-items',
         'pointer-events',
         'quotes',
-        */'resize',/*
         'speak',
-        */'table-layout',/*
         'text-decoration-style',
         'text-justify',
         'text-rendering',
-        */'text-shadow',
-        'text-stroke',/*
         'touch-action',
         'transform-origin',
         'transform-style',
-        */'unicode-bidi',/*
         'unicode-range',
         'user-select',
         'white-space',

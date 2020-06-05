@@ -4,7 +4,7 @@
     error_reporting(E_ALL);
     
     require_once __DIR__ . '/vendor/autoload.php';
-
+    
     function renderPdfs($sTestPath){
         $aFiles = scandir($sTestPath);
     
@@ -50,7 +50,20 @@
                 // Render typeset.sh PDF
                 if(!is_file(__DIR__ . '/result/typeset_' . $sOutputBaseName)){
                     try{
-                        $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent);
+                        $resourceCache = new \typesetsh\Resource\Cache('./cache-dir/');
+                        $resourceCache->downloadLimit = 5242880;
+
+                        $resolveUrl = function($url) use ($resourceCache) {
+                            if (strpos($url, 'http://') === 0 || strpos($url, 'https://') === 0) {
+                                $file = $resourceCache->fetch($url);
+                        
+                                return $file;
+                            }
+                        
+                            throw new Exception("Access denied for local resource `$url`");
+                        };
+
+                        $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent, $resolveUrl);
                         $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
                     }catch(Exception $e){
                         copy(__DIR__ . '/error.pdf', 'result/typeset_' . $sOutputBaseName);
