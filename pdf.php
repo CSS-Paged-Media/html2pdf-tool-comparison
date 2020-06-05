@@ -4,7 +4,6 @@
     error_reporting(E_ALL);
     
     require_once __DIR__ . '/vendor/autoload.php';
-    require_once __DIR__ . '/vendor/pdfreactor/PDFreactor/wrappers/php/lib/PDFreactor.class.php';
                     
     use com\realobjects\pdfreactor\webservice\client\PDFreactor as PDFreactor;
     use com\realobjects\pdfreactor\webservice\client\LogLevel as LogLevel;

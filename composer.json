@@ -16,7 +16,8 @@
     "php": "^7.3",
     "typesetsh/typesetsh": "^0.6.1",
 	  "mpdf/mpdf": "^8.0",
-    "azettl/php-nano-template": "^0.0.4"
+    "azettl/php-nano-template": "^0.0.4",
+    "azettl/pdfreactor": "^10.1"
   },
 	"repositories": [
     {
