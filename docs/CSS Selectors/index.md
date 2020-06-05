@@ -29,7 +29,5 @@ description:
 * [V](/compare.html2pdf.tools/docs/CSS-Selectors/V/)
 
 
-## Direct HTML Files
 
-| HTML File | mPDF Result | typeset.sh Result | PDFreactor Result |
-|---------|---------|---------|---------|
+

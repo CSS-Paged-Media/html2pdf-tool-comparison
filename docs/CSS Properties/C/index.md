@@ -7,13 +7,13 @@ description:
 
 # C
 
-## Sub Pages
 
 
 ## Direct HTML Files
 
 | HTML File | mPDF Result | typeset.sh Result | PDFreactor Result |
 |---------|---------|---------|---------|
+
 | [caption-side.html](/html/CSS%20Properties/C/caption-side.html) | ![](mpdf__html_CSS_Properties_C_caption-side.html.png) [mpdf__html_CSS_Properties_C_caption-side.html.pdf](mpdf__html_CSS_Properties_C_caption-side.html.pdf) | ![](typeset__html_CSS_Properties_C_caption-side.html.png) [typeset__html_CSS_Properties_C_caption-side.html.pdf](typeset__html_CSS_Properties_C_caption-side.html.pdf) | ![](pdfreactor__html_CSS_Properties_C_caption-side.html.png) [pdfreactor__html_CSS_Properties_C_caption-side.html.pdf](pdfreactor__html_CSS_Properties_C_caption-side.html.pdf) |
 | [caret-color.html](/html/CSS%20Properties/C/caret-color.html) | ![](mpdf__html_CSS_Properties_C_caret-color.html.png) [mpdf__html_CSS_Properties_C_caret-color.html.pdf](mpdf__html_CSS_Properties_C_caret-color.html.pdf) | ![](typeset__html_CSS_Properties_C_caret-color.html.png) [typeset__html_CSS_Properties_C_caret-color.html.pdf](typeset__html_CSS_Properties_C_caret-color.html.pdf) | ![](pdfreactor__html_CSS_Properties_C_caret-color.html.png) [pdfreactor__html_CSS_Properties_C_caret-color.html.pdf](pdfreactor__html_CSS_Properties_C_caret-color.html.pdf) |
 | [clear.html](/html/CSS%20Properties/C/clear.html) | ![](mpdf__html_CSS_Properties_C_clear.html.png) [mpdf__html_CSS_Properties_C_clear.html.pdf](mpdf__html_CSS_Properties_C_clear.html.pdf) | ![](typeset__html_CSS_Properties_C_clear.html.png) [typeset__html_CSS_Properties_C_clear.html.pdf](typeset__html_CSS_Properties_C_clear.html.pdf) | ![](pdfreactor__html_CSS_Properties_C_clear.html.png) [pdfreactor__html_CSS_Properties_C_clear.html.pdf](pdfreactor__html_CSS_Properties_C_clear.html.pdf) |

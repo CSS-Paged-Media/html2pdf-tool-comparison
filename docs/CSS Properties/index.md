@@ -32,7 +32,5 @@ description:
 * [Z](/compare.html2pdf.tools/docs/CSS-Properties/Z/)
 
 
-## Direct HTML Files
 
-| HTML File | mPDF Result | typeset.sh Result | PDFreactor Result |
-|---------|---------|---------|---------|
+
