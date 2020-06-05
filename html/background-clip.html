@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/b/background-clip/ -->
+<html lang="en">
+    <head>
+        <style>
+        div { 
+  background-color: yellow;
+  width: 225px;
+  padding: 1em 0;
+  border: 5px solid rgba(156, 224, 251, .5);
+}
+
+.nomargin { margin: 0; }
+
+#border-box { background-clip: border-box; }
+
+#padding-box { background-clip: padding-box; }
+
+#content-box { background-clip: content-box; }
+
+/* styling for the Pen, unrelated to background-clip */
+
+body { font-family: sans-serif; }
+
+div { margin-bottom: 2em; }
+        </style>
+    </head>
+    <body>
+        <h2>background-clip: border-box;</h2>
+        <div id="border-box">
+          <p>This paragraph is the content.</p>
+        </div>
+        
+        <h2>background-clip: padding-box;</h2>
+        <div id="padding-box">
+          <p>This paragraph is the content.</p>
+        </div>
+        
+        <h2>background-clip: content-box;</h2>
+        <h3>browser default paragraph margins</h3>
+        <div id="content-box">
+          <p>This paragraph is the content.</p>
+        </div>
+        
+        <h2>background-clip: content-box;</h2>
+        <h3>paragraph is set to margin: 0;</h3>
+        <div id="content-box">
+          <p class="nomargin">This paragraph is the content.</p>
+        </div>
+    </body>
+</html>

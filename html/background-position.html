@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/b/background-position/ -->
+<html lang="en">
+    <head>
+        <style>
+        div {
+  width: 400px;
+  height: 200px;
+  border: 5px solid #E18728;
+  margin-bottom: .5em;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png); 
+  background-repeat: no-repeat;
+}
+
+#pixels { background-position: 350px 0; }
+
+#percentages { background-position: 100% 0; }
+
+#keywords { background-position: top right; }
+
+
+/* styling for Pen, unrelated to background-position */
+p { 
+  margin-top: 50px;
+  padding: 0 1em;
+}
+
+        </style>
+    </head>
+    <body>
+        <div id="pixels">
+            <p><code>background-position: 350px 0;</code></p>
+          </div>
+          
+          <div id="percentages">
+            <p><code>background-position: 100% 0;</code></p>
+          </div>
+          
+          <div id="keywords">
+            <p><code>background-position: top right;</code></p>
+          </div>
+    </body>
+</html>

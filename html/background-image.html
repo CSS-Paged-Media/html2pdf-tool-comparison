@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/b/background-image/ -->
+<html lang="en">
+    <head>
+        <style>
+        /* image background */
+#imageonly {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+}
+
+/* linear gradient background */
+#linear-gradient {
+  background: linear-gradient(black, white);
+}
+
+/* radial gradient background */
+#radial-gradient {
+  background: radial-gradient(circle, black, white);
+}
+
+/*multiple background images */
+
+#multiimage {
+  background: 
+   url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png) bottom center no-repeat,
+   url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png) repeat; 
+}
+
+
+
+
+/* styling for the Pen, unrelated to background */
+body { font-family: sans-serif; }
+
+div {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 1.5em;
+}
+        </style>
+    </head>
+    <body>
+        <h2>Image Background</h2>
+        <div id="imageonly">
+          <!-- image is from Subtle Patterns -->
+        </div>
+        
+        <h2>Gradient Background: Linear</h2>
+        <div id="linear-gradient">
+        </div>
+        
+        <h2>Gradient Background: Radial</h2>
+        <div id="radial-gradient">
+        </div>
+        
+        <h2>Multiple Backgound Images</h2>
+        <p>Two images: CodePen logo &amp; off-white pattern.</p>
+        <div id="multiimage">
+        </div>
+    </body>
+</html>

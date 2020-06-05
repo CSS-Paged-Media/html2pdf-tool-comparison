@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/b/background-attachment/ -->
+<html lang="en">
+    <head>
+        <style>
+        h2 {
+  text-align: center;
+  margin-top: 48px;
+}
+
+div {
+  height: 200px;
+  width: 50%;
+  max-width: 600px;
+  margin: 32px auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.scroll {
+  background: url("http://lorempixel.com/600/200/animals");
+  background-attachment: scroll;
+}
+
+.fixed {
+  background: url("http://lorempixel.com/600/200/animals");
+  background-attachment: fixed;
+}
+
+.local {
+  background: url("http://lorempixel.com/600/200/animals");
+  background-attachment: local;
+}
+
+.expand {
+  height: 400px;
+  width: 100%;
+}
+
+.extra-space {
+  margin-bottom: 50px;
+}
+
+        </style>
+    </head>
+    <body>
+        <h2><code>scroll (default)</code></h2>
+        <div class="scroll"><div class="expand"></div></div>
+        
+        <h2><code>fixed</code></h2>
+        <div class="fixed"><div class="expand"></div></div>
+        
+        <h2><code>local</code></h2>
+        <div class="local"><div class="expand"></div></div>
+        
+        <br class="extra-space">
+    </body>
+</html>

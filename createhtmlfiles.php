@@ -1,185 +1,78 @@
 <?php
     $aCSSProperties = [
-        'align-content',
-        'align-items',
-        'align-self',
-        'all',
-        /*'animation', makes no sense */
-        'appearance',
         /*'backdrop-filter',
         'backface-visibility',
-        'background',
+        */'background',
         'background-attachment',
         'background-blend-mode',
         'background-clip',
-        */'background-color',/*
         'background-image',
         'background-origin',
         'background-position',
         'background-repeat',
-        'background-size', later */
-        'bleed',
+        'background-size',
         /*'block-overflow', later */
-        'border',
-        'border-collapse',
-        /*'border-image', later */
-        /*'border-radius',
-        */'border-spacing',/*
-        'box-decoration-break',
-        */'box-shadow',
-        'box-sizing',
-        'break-inside',/*
+        'border-image',
+        'border-radius',
+        /*'box-decoration-break',
         'caption-side',
         'caret-color',
-        'clear',
+        */'clear',/*
         'clip-path',
-        */'color',/*
         'color-adjust',
-        */'column-count',
-        'column-fill',
-        'column-gap',
-        'column-rule',
-        'column-span',
-        'column-width',
-        'columns',/*
         'contain',
         'content',
         'counter-increment',
-        */'counter-reset',/*
         'cursor',
         'direction',
         'display',
-        */'empty-cells',/*
         'fill',
-        'filter',
-        */'flex',
-        'flex-basis',
-        'flex-direction',
-        'flex-flow',
-        'flex-grow',
-        'flex-shrink',
-        'flex-wrap',/*
+        */'filter',/*
         'float',
-        'font',
+        */'font',/*
         'font-display',
-        'font-family',
+        */'font-family',/*
         'font-feature-settings',
-        */'font-size',/*
         'font-size-adjust',
         'font-stretch',
-        */'font-style',
-        'font-variant',/*
         'font-variant-numeric',
-        */'font-weight',
-        'grid-row-column',/*
         'grid-template-columns-rows',
-        */'hanging-punctuation',
-        'height',
-        'hyphens',/*
         'image-rendering',
-        */'initial-letter',/*
         'isolation',
-        */'justify-content',
-        'letter-spacing',/*
         'line-clamp',
-        */'line-height',
-        'list-style',
-        'margin',
-        'mask-image',
-        'mask-repeat',
-        'max-height',
-        'max-width',
-        'min-height',
-        'min-width',
-        'mix-blend-mode',
-        'object-fit',
-        'object-position',/*
         'offset-anchor',
         'offset-distance',
         'offset-path',
         'offset-rotate',
-        */'opacity',
-        'order',/*
         'orphans',
         'outline',
-        */'outline-offset',
-        'overflow',/*
         'overflow-anchor',
         'overflow-wrap',
-        */'overscroll-behavior',/*
-        */'padding',/*
         'page-break',
-        */'perspective',
-        'perspective-origin',/*
         'place-items',
         'pointer-events',
-        'position',
+        */'position',/*
         'quotes',
         'resize',
-        'scroll-behavior',
-        'scroll-margin',
-        'scroll-padding',
-        'scroll-snap-align',
-        'scroll-snap-stop',
-        'scroll-snap-type',
-        'scrollbar',
-        'scrollbar-color',
-        'scrollbar-gutter',
-        'scrollbar-width',
-        */'shape-outside',/*
         'speak',
-        */'stroke',
-        'stroke-dasharray',
-        'stroke-dashoffset',
-        'stroke-linecap',
-        'stroke-linejoin',
-        'stroke-width',
-        'tab-size',/*
         'table-layout',
-        'text-align',
-        */'text-align-last',
-        'text-decoration',
-        'text-decoration-color',
-        'text-decoration-line',
-        'text-decoration-skip',
-        'text-decoration-skip-ink',/*
+        */'text-align',/*
         'text-decoration-style',
-        */'text-indent',/*
         'text-justify',
-        */'text-overflow',/*
         'text-rendering',
         'text-shadow',
         'text-stroke',
-        */'text-transform',
-        'text-underline-offset',
-        'text-underline-position',
-        'top',
-        'bottom',
-        'left',
-        'right',/*
         'touch-action',
-        */'transform',/*
         'transform-origin',
         'transform-style',
-        'transition',
-        'transition-delay',
-        'transition-duration',
-        'transition-property',
-        'transition-timing-function',
         'unicode-bidi',
         'unicode-range',
         'user-select',
-        */'vertical-align',
-        'visibility',/*
         'white-space',
         'widows',
-        */'width',/*
         'will-change',
-        */'word-break',/*
         'word-spacing',
-        */'writing-mode',/*
         'z-index',*/
-        'zoom'
     ];
 
     $sHtmlContent = '<!DOCTYPE html>

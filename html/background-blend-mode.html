@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/b/background-blend-mode/ -->
+<html lang="en">
+    <head>
+        <style>
+        body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.jpg');
+  height: 500px;
+  width: 50%;
+  display: block;
+  float: left;
+  background-color: red;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container--blend {
+  background-blend-mode: screen;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Example text</h1>
+          </div>
+          
+          <div class="container container--blend">
+              <h1>Example text</h1>
+          </div>
+          
+    </body>
+</html>

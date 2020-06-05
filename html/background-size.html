@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/b/background-size/ -->
+<html lang="en">
+    <head>
+        <style>
+        div {
+  width: 900px;
+  height: 400px;
+  border: 1px solid black;
+  margin-bottom: 1em;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/ferns-unsplash.jpg);
+  background-repeat: no-repeat;
+}
+
+#cover { background-size: cover; }
+
+#contain { background-size: contain; }
+
+#multi {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/ferns-unsplash.jpg);
+  background-size: 300px 100px, cover;
+}
+
+/* styling for pen, unrelated to background-size */
+body { font-family: sans-serif; }
+        </style>
+    </head>
+    <body>
+    <!-- image from unsplash.com -->
+<h2>background-size: cover;</h2>
+<div id="cover">
+</div>
+
+<h2>background-size: contain;</h2>
+<div id="contain">
+</div>
+
+<h2>Multiple Images</h2>
+<p>Semi-transparent white overlay at top left and fern image. Overlay sized in pixels, fern image set to cover. </p>
+<div id="multi">
+</div>
+
+    </body>
+</html>

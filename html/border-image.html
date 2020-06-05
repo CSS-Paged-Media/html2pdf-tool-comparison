@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/b/border-image/ -->
+<html lang="en">
+    <head>
+        <style>
+        .repeating-linear {
+  color: pink;
+  border: 10px solid pink;
+  border-image: repeating-linear-gradient( 45deg, pink, pink 1%, purple 1%, purple 8%) 10;
+}
+
+.repeating-linear:hover {
+  border-image: repeating-linear-gradient( 45deg, purple, purple 1%, pink 1%, pink 8%) 10;
+  color: purple;
+}
+/* styling for Pen, unrelated to border-image */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1D1F1F;
+}
+
+div {
+  margin: 4em auto;
+  width: 40vw;
+  height: 40vh;
+}
+        </style>
+    </head>
+    <body>
+        <div class="repeating-linear">
+        </div>
+    </body>
+</html>
