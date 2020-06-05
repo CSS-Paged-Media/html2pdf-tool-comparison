@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A comparison between different HTML2PDF tools
-permalink: /
+permalink: /docs/
 description: 
 ---
 
