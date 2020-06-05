@@ -88,7 +88,6 @@
                 $sPdfreactorError = '';
                 if(!is_file(__DIR__ . '/result/pdfreactor_' . $sOutputBaseName)){
                     try{
-
                         $oPdfReactor      = new PDFreactor();
                         $aPdfReactorConfig = array(
                             "document"=> $sHtmlFileContent

@@ -1,5 +1,19 @@
 {
-	"require": {
+  "name": "azettl/compare.html.to.pdf.tools",
+  "description": "A comparison between mPDF, typeset.sh, and PDFreactor.",
+  "keywords": [
+    "pdf"
+  ],
+  "license": "",
+  "authors": [
+    {
+      "name": "Andreas Zettl",
+      "email": "info@azettl.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
     "typesetsh/typesetsh": "^0.6.1",
 	  "mpdf/mpdf": "^8.0"
   },
