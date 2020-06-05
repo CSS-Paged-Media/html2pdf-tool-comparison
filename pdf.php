@@ -1,4 +1,8 @@
 <?php
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+    
     require_once __DIR__ . '/vendor/autoload.php';
 
     function renderPdfs($sTestPath){
@@ -35,18 +39,26 @@ HTML File | mPDF Result | typeset.sh Result
 
                 // Render mPDF PDF
                 if(!is_file(__DIR__ . '/result/mpdf_' . $sOutputBaseName)){
-                    $oMPdf = new \Mpdf\Mpdf();
-                    $oMPdf->WriteHTML($sHtmlFileContent);
-                    $oMPdf->Output(
-                        'result/mpdf_' . $sOutputBaseName, 
-                        false
-                    );
+                    try{
+                        $oMPdf = new \Mpdf\Mpdf();
+                        $oMPdf->WriteHTML($sHtmlFileContent);
+                        $oMPdf->Output(
+                            'result/mpdf_' . $sOutputBaseName, 
+                            false
+                        );
+                    }catch(Exception $e){
+                        copy(__DIR__ . '/error.pdf', 'result/mpdf_' . $sOutputBaseName);
+                    }
                 }
 
                 // Render typeset.sh PDF
                 if(!is_file(__DIR__ . '/result/typeset_' . $sOutputBaseName)){
-                    $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent);
-                    $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
+                    try{
+                        $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent);
+                        $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
+                    }catch(Exception $e){
+                        copy(__DIR__ . '/error.pdf', 'result/typeset_' . $sOutputBaseName);
+                    }
                 }
 
                 
