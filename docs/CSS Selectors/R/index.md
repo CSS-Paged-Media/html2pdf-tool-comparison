@@ -7,6 +7,11 @@ description:
 
 # R
 
+## Sub Pages
+
+
+## Direct HTML Files
+
 | HTML File | mPDF Result | typeset.sh Result | PDFreactor Result |
 |---------|---------|---------|---------|
 | [read-only.html](/html/CSS%20Selectors/R/read-only.html) | ![](mpdf__html_CSS_Selectors_R_read-only.html.png) [mpdf__html_CSS_Selectors_R_read-only.html.pdf](mpdf__html_CSS_Selectors_R_read-only.html.pdf) | ![](typeset__html_CSS_Selectors_R_read-only.html.png) [typeset__html_CSS_Selectors_R_read-only.html.pdf](typeset__html_CSS_Selectors_R_read-only.html.pdf) | ![](pdfreactor__html_CSS_Selectors_R_read-only.html.png) [pdfreactor__html_CSS_Selectors_R_read-only.html.pdf](pdfreactor__html_CSS_Selectors_R_read-only.html.pdf) |
