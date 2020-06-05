@@ -1,3 +1,9 @@
+---
+layout: page
+title: T
+permalink: /docs/CSS-Selectors/T/
+description: 
+---
 
 # T
 HTML File | mPDF Result | typeset.sh Result | PDFreactor Result

@@ -1,3 +1,9 @@
+---
+layout: page
+title: B
+permalink: /docs/CSS-Properties/B/
+description: 
+---
 
 # B
 HTML File | mPDF Result | typeset.sh Result | PDFreactor Result

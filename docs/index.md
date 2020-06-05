@@ -1,3 +1,9 @@
+---
+layout: page
+title: A comparison between different HTML2PDF tools
+permalink: /docs/
+description: 
+---
 
 # A comparison between [mPDF](https://mpdf.github.io/), [typeset.sh](https://typeset.sh/en/), and [PDFreactor](https://www.pdfreactor.com/)
 
