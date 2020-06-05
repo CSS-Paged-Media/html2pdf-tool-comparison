@@ -44,7 +44,7 @@
                             false
                         );
                     }catch(Exception $e){
-                        $sMPdfError = $e->getMessage();
+                        $sMPdfError = str_replace(__DIR__, '', $e->getMessage());
                         copy(__DIR__ . '/error.pdf', 'result/mpdf_' . $sOutputBaseName);
                     }
                 }
@@ -69,7 +69,7 @@
                         $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent, $resolveUrl);
                         $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
                     }catch(Exception $e){
-                        $sTypesetError = $e->getMessage();
+                        $sTypesetError = str_replace(__DIR__, '', $e->getMessage());
                         copy(__DIR__ . '/error.pdf', 'result/typeset_' . $sOutputBaseName);
                     }
                 }
