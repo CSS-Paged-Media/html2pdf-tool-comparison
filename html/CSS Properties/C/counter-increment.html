@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_counter-reset -->
+<html lang="en">
+    <head>
+        <style>
+        body {
+  /* Set "my-sec-counter" to 0 */
+  counter-reset: my-sec-counter;
+}
+
+h2::before {
+  /* Increment "my-sec-counter" by 1 */
+  counter-increment: my-sec-counter;
+  content: "Section " counter(my-sec-counter) ". ";
+}
+        </style>
+    </head>
+    <body>
+        <h2>HTML Tutorial</h2>
+        <h2>CSS Tutorial</h2>
+        <h2>JavaScript Tutorial</h2>
+        <h2>Bootstrap Tutorial</h2>
+        <h2>SQL Tutorial</h2>
+        <h2>PHP Tutorial</h2>
+    </body>
+</html>

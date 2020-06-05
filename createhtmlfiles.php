@@ -4,44 +4,40 @@
         'backface-visibility',
         'block-overflow',
         'box-decoration-break',
-        'caption-side',
-        */'caret-color',/*
-        'clip-path',
+        */'caption-side',/*
+        */'clip-path',/*
         'color-adjust',
         'contain',
-        'content',
-        'counter-increment',
-        'cursor',
+        */'content',/*
+        */'counter-increment',/*
+        */'cursor',/*
         'display',
         'fill',
         'font-display',
         'font-feature-settings',
         'font-size-adjust',
-        'font-stretch',
+        */'font-stretch',/*
         'font-variant-numeric',
         'grid-template-columns-rows',
         'isolation',
         'line-clamp',
-        */'orphans',/*
         'overflow-anchor',
         'overflow-wrap',
         'page-break',
         'place-items',
-        'pointer-events',
-        'quotes',
+        */'quotes',/*
         'speak',
         'text-decoration-style',
         'text-justify',
         'text-rendering',
-        'touch-action',
         'transform-origin',
         'transform-style',
         'unicode-range',
         'user-select',
-        'white-space',
+        */'white-space',/*
         'widows',
         'will-change',
-        'word-spacing',
+        */'word-spacing',/*
         'z-index',*/
     ];
 
