@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-rows https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-columns -->
+<html lang="en">
+    <head>
+        <style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px 300px;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+        .grid-container-col {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container-col > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+        </style>
+    </head>
+    <body>
+        <h1>The grid-template-rows Property</h1>
+
+        <p>Use the <em>grid-template-rows</em> property to define the size of the rows in a grid layout.</p>
+        <p>The first row in this grid is 100px high, and the second row is 300px high:</p>
+        
+        <div class="grid-container">
+          <div class="item1">1</div>
+          <div class="item2">2</div>
+          <div class="item3">3</div>  
+          <div class="item4">4</div>
+          <div class="item5">5</div>
+          <div class="item6">6</div>
+          <div class="item7">7</div>
+          <div class="item8">8</div>
+        </div>
+
+        <h1>The grid-template-columns Property</h1>
+
+        <p>Use the <em>grid-template-columns</em> property to define the number of columns in the grid layout.</p>
+        <p>This grid layout has four columns:</p>
+        
+        <div class="grid-container-col">
+          <div class="item1">1</div>
+          <div class="item2">2</div>
+          <div class="item3">3</div>  
+          <div class="item4">4</div>
+          <div class="item5">5</div>
+          <div class="item6">6</div>
+          <div class="item7">7</div>
+          <div class="item8">8</div>
+        </div>
+    </body>
+</html>

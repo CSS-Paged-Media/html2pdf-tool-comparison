@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-decoration-break -->
+<html lang="en">
+    <head>
+        <style>
+       span {
+  border: 5px solid red;
+  padding:  0em 1em;
+  border-radius: 16px;
+  font-size: 24px;
+  line-height: 2;
+}
+
+span.ex1 { 
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+span.ex2 { 
+  -webkit-box-decoration-break: slice;
+  -o-box-decoration-break: slice;
+  box-decoration-break: slice;
+} 
+        </style>
+    </head>
+    <body>
+        <h1>The box-decoration-break Property</h1>
+
+        <h2>box-decoration-break: clone:</h2>
+        <span class="ex1">CSS<br>is<br>easy<br>to learn</span>
+        
+        <h2>box-decoration-break: slice (default):</h2>
+        <span class="ex2">CSS<br>is<br>easy<br>to learn</span>
+        
+        
+    </body>
+</html>

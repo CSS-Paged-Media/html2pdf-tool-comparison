@@ -1,34 +1,26 @@
 <?php
     $aCSSProperties = [
         /*'backdrop-filter',
-        */'backface-visibility',/*
         'block-overflow',
-        'box-decoration-break',
+        */'box-decoration-break',/*
         'color-adjust',
         'contain',
-        */'display',/*
         'fill',
         'font-display',
-        */'font-feature-settings',
-        'font-size-adjust',/*
         'font-variant-numeric',
-        'grid-template-columns-rows',
-        'isolation',
+        */'grid-template-columns-rows',
+        'isolation',/*
         'line-clamp',
         'overflow-anchor',
         'overflow-wrap',
         'page-break',
         'place-items',
         'speak',
-        'text-decoration-style',
-        'text-justify',
+        */'text-decoration-style',
+        'text-justify',/*
         'text-rendering',
-        */'transform-origin',
-        'transform-style',/*
-        'unicode-range',
-        'user-select',
-        */'widows',
-        'z-index'
+        'unicode-range',*/
+        'user-select'
     ];
 
     $sHtmlContent = '<!DOCTYPE html>
