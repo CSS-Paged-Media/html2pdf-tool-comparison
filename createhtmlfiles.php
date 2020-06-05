@@ -2,70 +2,53 @@
     $aCSSProperties = [
         /*'backdrop-filter',
         'backface-visibility',
-        */'background',
-        'background-attachment',
-        'background-blend-mode',
-        'background-clip',
-        'background-image',
-        'background-origin',
-        'background-position',
-        'background-repeat',
-        'background-size',
-        /*'block-overflow', later */
-        'border-image',
-        'border-radius',
-        /*'box-decoration-break',
+        'block-overflow',
+        'box-decoration-break',
         'caption-side',
         'caret-color',
-        */'clear',/*
         'clip-path',
         'color-adjust',
         'contain',
         'content',
         'counter-increment',
         'cursor',
-        'direction',
+        */'direction',/*
         'display',
         'fill',
-        */'filter',/*
-        'float',
-        */'font',/*
+        */'float',/*
         'font-display',
-        */'font-family',/*
         'font-feature-settings',
         'font-size-adjust',
         'font-stretch',
         'font-variant-numeric',
         'grid-template-columns-rows',
-        'image-rendering',
+        */'image-rendering',/*
         'isolation',
         'line-clamp',
-        'offset-anchor',
+        */'offset-anchor',
         'offset-distance',
         'offset-path',
-        'offset-rotate',
+        'offset-rotate',/*
         'orphans',
-        'outline',
+        */'outline',/*
         'overflow-anchor',
         'overflow-wrap',
         'page-break',
         'place-items',
         'pointer-events',
-        */'position',/*
         'quotes',
-        'resize',
+        */'resize',/*
         'speak',
-        'table-layout',
-        */'text-align',/*
+        */'table-layout',/*
         'text-decoration-style',
         'text-justify',
         'text-rendering',
-        'text-shadow',
-        'text-stroke',
+        */'text-shadow',
+        'text-stroke',/*
         'touch-action',
         'transform-origin',
         'transform-style',
-        'unicode-bidi',
+        */'unicode-bidi',/*
         'unicode-range',
         'user-select',
         'white-space',

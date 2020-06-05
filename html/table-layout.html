@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/table-layout/ -->
+<html lang="en">
+    <head>
+        <style>
+        body {
+  padding: 14px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin: 20px auto;
+  table-layout: fixed;
+}
+
+.fixed {
+  table-layout: fixed;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: solid 1px;
+  text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <h2>Using the <code>table-layout</code> property</h2>
+
+        <table id="t">
+          <thead>
+            <tr>
+              <th>Example text</th>
+              <th>Example text</th>
+              <th>Example text</th>
+              <th>Example text</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>A much longer piece of content for demo purposes. More goes here.</td>
+              <td>Example text</td>
+              <td>Example text</td>
+              <td>Example text</td>
+            </tr>
+            <tr>
+              <td>Example text</td>
+              <td>Example text</td>
+              <td>Example text</td>
+              <td>Example text</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Example text</td>
+              <td>Example text</td>
+              <td>Example text</td>
+              <td>Example text</td>
+            </tr>
+          </tfoot>
+        </table>
+        
+        <button class="tl"><b>Toggle table-layout: fixed</b></button>
+    </body>
+</html>

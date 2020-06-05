@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/i/image-rendering/ -->
+<html lang="en">
+    <head>
+        <style>
+        .pixelated {
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
+}
+
+.resize {
+  width: 45%;
+  clear: none;
+  float: left;
+}
+.resize:last-of-type {
+  float: right;
+}
+.resize img {
+  width: 100%;
+}
+
+img {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+body {
+  background-color: #333;
+  color: #fafafa;
+  padding: 20px;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="original">
+            <h1>Original image size</h1> 
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png" alt="" />
+          </div>
+          
+          <div class="resize">
+            <h2><code>image-rendering: auto</code></h2>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png" alt="" />
+          </div>
+          
+          <div class="resize">
+            <h2><code>image-rendering: pixelated</code></h2>
+            <img class="pixelated" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png" alt="" />
+          </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/d/direction/ -->
+<html lang="en">
+    <head>
+        <style>
+        *[dir="ltr"] { direction: ltr; unicode-bidi: embed; }
+
+*[dir="rtl"] { direction: rtl; unicode-bidi: embed; }
+
+bdo[dir="ltr"] { direction: ltr; unicode-bidi: bidi-override; }
+
+bdo[dir="rtl"] { direction: rtl; unicode-bidi: bidi-override; }
+        </style>
+    </head>
+    <body>
+        <p>This text will go left to right.</p>
+        <p><bdo dir="rtl">This text will go right to left.</bdo></p>
+    </body>
+</html>
