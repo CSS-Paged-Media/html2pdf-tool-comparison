@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/o/optional/ -->
+<html lang="en">
+    <head>
+        <style>
+        * {
+  box-sizing: border-box;
+}
+
+:optional {
+  opacity: 0.4;
+  transition: .2s;
+}
+
+:optional:hover {
+  opacity: 1;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  background: #EFEFEF;
+  padding: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.inline {
+  display: inline;
+  margin-right: 1em;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 100%;
+  border: 1px solid silver;
+}
+
+input[type=submit] {
+  background: deepskyblue;
+  color: white;
+  padding:10px 0;
+  border-color: rgba(0,0,0,.1);
+  font-weight: bold;
+  opacity: 1;
+  width: 100%;
+}
+
+select {
+  width: 100%;
+  border: 1px solid silver;
+  padding: 5px;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+        </style>
+    </head>
+    <body>
+        <form>
+            <p>
+              <label for="first-name"><span class="fontawesome-user"></span> Name</label>
+              <input type="text" id="name" placeholder="John Doe" />
+            </p>
+            <p>
+              <label for="email"><span class="fontawesome-envelope"></span> Email</label>
+              <input type="text" id="email" placeholder="john.doe@gmail.com" required />
+            </p>
+            <p>
+              <input type="radio" name="gender" id="man" /> <label class="inline" for="man">Man</label>
+              <input type="radio" name="gender" id="woman" /> <label class="inline" for="woman">Woman</label>
+            </p>
+            <p>
+              <label for="continent"><span class="fontawesome-globe"></span> Continent</label>
+              <select id="continent">
+                <option value="0">Continent</option>
+                <option value="1">North America</option>
+                <option value="2">South America</option>
+                <option value="3">Europe</option>
+                <option value="4">Africa</option>
+                <option value="5">Asia</option>
+                <option value="6">Oceania</option>
+              </select>
+            </p>
+            <p>
+              <input type="submit" value="Sign up" />
+            </p>
+          </form>
+    </body>
+</html>

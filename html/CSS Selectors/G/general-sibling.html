@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/g/general-sibling/ -->
+<html lang="en">
+    <head>
+        <style>
+        img ~ p {
+  background-color: #FEF0B6;
+  padding: 5px;
+}
+
+        </style>
+    </head>
+    <body>
+        <p><strong>This paragraph will not be selected.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae blanditiis inventore, ducimus atque dolores vitae accusamus quas deleniti illum ab natus similique distinctio optio. Sed fugit harum, sequi ducimus?</p>
+
+        <img src="https://placeimg.com/200/200/arch" alt="" />
+        
+        <p><strong>This paragraph will be selected.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur debitis eveniet iste ratione quibusdam hic accusamus! Eveniet dignissimos ad, nihil molestiae aspernatur consequuntur officia voluptatum tenetur velit voluptate. Temporibus! </p>
+        
+        <p><strong>And this paragraph will also be selected.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas temporibus facere, porro et. Sed corrupti iusto reprehenderit ratione est deleniti molestias inventore consequuntur dicta tenetur! Animi excepturi quae blanditiis cum.</p>
+    </body>
+</html>

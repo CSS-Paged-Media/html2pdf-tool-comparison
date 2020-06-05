@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/r/required/ -->
+<html lang="en">
+    <head>
+        <style>
+        input:required,
+textarea:required {
+  border-color: red !important;
+}
+input:required + label {
+  color: red;
+}
+
+form {
+  padding: 20px; 
+  max-width: 500px;
+  margin: 0 auto;
+}
+form div {
+  padding: 5px;
+}
+label {
+  display: block;
+}
+input + label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  border: 1px solid #999;
+  padding: 5px;
+  width: 100%;
+}
+        </style>
+    </head>
+    <body>
+        <form>
+  
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+          
+            <div>
+              <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" required />
+              <label for="radio-choice-1">Choice 1</label>
+              
+              <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" required />
+              <label for="radio-choice-2">Choice 2</label>
+            </div>
+              
+            <div>
+              <label for="textarea">Comment</label>
+              <textarea cols="40" rows="8" name="textarea" id="textarea" required></textarea>
+            </div>
+          
+            <div class="buttons">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>  
+    </body>
+</html>

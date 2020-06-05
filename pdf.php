@@ -162,7 +162,7 @@ PDFreactor | 10.1.10722.15
 
 📢 The preview image is not always a 100% correct so please also look at the result PDFs for details.
 
-💖 The HTML examples are taken from the amazing [CSS Almanac by css-tricks.com](https://css-tricks.com/almanac/) and [w3schools.com](https://www.w3schools.com/).
+💖 The HTML examples are taken from the amazing [CSS Almanac by css-tricks.com](https://css-tricks.com/almanac/), [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/), and [w3schools.com](https://www.w3schools.com/).
 
 ' . PHP_EOL;
 

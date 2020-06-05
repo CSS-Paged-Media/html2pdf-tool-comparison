@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/s/selection/ -->
+<html lang="en">
+    <head>
+        <style>
+        .example-color::selection {
+  color: #8e44ad;
+}
+.example-background-color::selection {
+  background-color: #f1c40f;
+}
+.example-background::selection {
+  background: #e74c3c;
+}
+.example-both::selection {
+  background-color: #8e44ad;
+  color: white;
+}
+.example-shadow::selection {
+  text-shadow: 1px 1px 0 #27ae60;
+}
+.example-input::selection {
+  background: #2ecc71;
+}
+.example-textarea::selection {
+  background: #34495e;
+  color: white;
+}
+body {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  line-height: 1.45;
+  background: #E0DCCC;
+  color: #333;
+  padding: 1em;
+  font-size: 18px;
+}
+
+p,input,textarea  {
+  margin-bottom: 1em;
+}
+input,textarea {
+  display: block;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+        </style>
+    </head>
+    <body>
+        <p>Select me to see normal behavior.</p>
+        <p class='example-color'>Try selecting me for a different text color.</p>
+        <p class='example-background-color'>You can select me for a different background color.</p>
+        <p class='example-background'>You can also select me for a different background.</p>
+        <p class='example-both'>Guess what&hellip; you can select me for a different background color and text color.</p>
+        <p class='example-shadow'>How about a text-shadow? Sure, select me for a different text-shadow.</p>
+        <p class='example-background-color'>
+          What about nest elements? Select me for a different background color.
+          <span class='example-color'>And this sentence is just a color selection.</span>
+          Nesting works!
+        </p>
+        <input class='example-input' type='text' value='Inputs work!*'>
+        <textarea class='example-textarea' cols='30' name='' rows='10'>Textarea, too!*</textarea>
+        <div class='foot-notes'>*not Safari</div>
+    </body>
+</html>

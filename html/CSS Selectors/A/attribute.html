@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/a/attribute/ -->
+<html lang="en">
+    <head>
+        <style>
+        a[href="https://www.css-tricks.com"] { /*select only the link with the exact href value https://www.css-tricks.com */
+  color: #E18728;
+  font-size: 1.5em;
+}
+
+.gallery img[alt*="art"] { /* alt attribute contains the word art, as whole or partial word */
+  outline: 5px solid #E18728;
+  outline-offset: 2px;
+}
+
+.gallery2 img[alt~="art"] { /* alt attribute contains art as only value or in space-separated list */
+  outline: 5px solid #E18728;
+  outline-offset: 2px;
+}
+
+.gallery3 img[alt^="art"] { /* alt attribute starts with the value "art" */
+  outline: 5px solid #E18728;
+  outline-offset: 2px;
+}
+
+li[data-years|="1900"] { /* data-years attribute starts with 1900 as the only value or first in a dash-separated list */
+  color: red;
+}
+
+a[href$="pdf"]:after { /* href attribute ends with pdf */
+  content: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/pdficon_small.png);
+  padding-left: .3em;
+}
+
+
+
+/* styling for Pen, unrelated to attribute selectors */
+
+body { 
+  font-family: sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+img { margin-right: .5em; }
+
+hr { 
+  margin: 1em 0;
+  clear: both;
+}
+
+.story {
+  text-indent: 1em;
+  font-family: serif;
+  font-size: 1.2em;
+}
+
+.story:first-letter { font-size: 1.5em; }
+        </style>
+    </head>
+    <body>
+        <h2>Exact Match &mdash; [attribute="value"]</h2>
+        <p>Here we select the link with the exact href value "https://www.css-tricks.com", and change its color and font size. Notice that the link to the almanac is not styled.</p>
+        <p><a href="https://www.css-tricks.com">CSS-Tricks</a></p>
+        <p><a href="https://www.css-tricks.com/almanac">CSS-Tricks Almanac</a></p>
+        <hr>
+        
+        <h2>Attribute Value Contains &mdash; [attribute*="value"]</h2>
+        <p>Here we select the images with the full word or word fragment "art" in the alt text and give them an outline. Notice that the images with the alt text "abstract <i>art</i>" and "athlete <i>starting</i> a new sport" both get outlined. </p>
+        
+        <div class="gallery">
+          <img src="//placehold.it/150/150/abstract" alt="abstract art">
+          <img src="//placehold.it/150/150/food" alt="something to eat">
+          <img src="//placehold.it/150/150/sports" alt="athlete starting a new sport">
+        </div>
+        <hr>
+        
+        <h2>Attribute Value is in Space-Separated List &mdash; [attribute~="value"]</h2>
+        <p>In the list below, we select images with the word "art" in their alt attribute, either as the only value or as a whole word in a space separated list. Notice that the image with the alt text "athlete starting a new sport" is not outlined like it was in the "Attribute Contains" example.</p>
+        <div class="gallery2">
+          <img src="//placehold.it/150/150" alt="abstract art">
+          <img src="//placehold.it/150/150" alt="something to eat">
+          <img src="//placehold.it/150/150" alt="athlete starting a new sport">
+        </div>
+        <hr>
+        
+        <h2>Attribute Value Starts With &mdash; [attribute^="value"]</h2>
+        <p>Here we select the images with alt text that starts with "art". Notice that the image with the alt text "artistic pattern" is selected, but the image with the alt text "Arthur Miller" is not because attribute selectors are case-sensitive. </p>
+        <div class="gallery3">
+          <img src="//placehold.it/150/184/abstract" alt="artistic pattern">
+          <img src="//placehold.it/150/184/food" alt="a healthy meal">
+          <img src="//placehold.it/150/184/sports" alt="Arthur Miller">
+        </div>
+        <hr>
+        
+        <h2>Attribute Value is First in Dash-Separated List &mdash; [attribute|="value"]</h2>
+        <p>Selecting the list item with a data-decade attribute that has "1900" as the only value or the first in a dash separated list. Notice that only the 2nd list item is selected. The first list item has "1900" in its data attribute value, but it's after the dash.</p>
+        <ul>  
+          <li data-years="1800-1900">The 19th Century</li>
+          <li data-years="1900-2000">The 20th Century</li>
+          <li data-years="2000-2100">The 21st Century</li>
+        </ul>
+        <hr>
+        
+        <h2>Attribute Value Ends With &mdash; [attribute$="value"]</h2>
+        <p>In the paragraph below we select the link with the href that ends with "pdf" and apply an icon as :after content.</p>
+        <p class="story">A humble digital file becomes self-aware and starts conversations with web developers. <i>Read the fascinating account in <a href="//s3-us-west-2.amazonaws.com/s.cdpn.io/652/example.pdf">example.pdf</a></i></p>
+    </body>
+</html>

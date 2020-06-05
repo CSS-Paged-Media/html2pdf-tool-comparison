@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/d/disabled/ -->
+<html lang="en">
+    <head>
+        <style>
+        /* The good stuff starts here :)
+*/
+
+  input {
+    width: 60%;
+    margin: 0;
+    border: none;
+    outline: 1px solid lightgrey;
+    outline-offset: 2px;
+  }
+
+input:disabled {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg==) repeat;
+}
+
+/* BASIC PAGE CSS. NOT PART OF THE EXAMPLE
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font: 300 16px/1.25 "Helvetica Neue", sans-serif;
+  color: slategrey;
+  background: cornflowerblue;
+  padding: 1.5em;
+}
+
+form {
+  background: whitesmoke;
+  padding: 1.5em;
+  max-width: 400px;
+  width: 100%;
+  outline: 3px solid rgba(0, 0, 0, 0.25);
+}
+
+  hr {
+    visibility: hidden;
+  }
+
+  label {
+    margin-right: 3%;
+  text-align: left;
+    display: inline-block;
+    width: 35%;
+  }
+
+        </style>
+    </head>
+    <body>
+        <form action="#">
+            <label for="name">Enabled Input:</label>
+            <input type="text" autofocus>
+              <hr>
+            <label for="name">Disabled Input:</label>
+            <input type="text" disabled>
+        </form>  
+    </body>
+</html>

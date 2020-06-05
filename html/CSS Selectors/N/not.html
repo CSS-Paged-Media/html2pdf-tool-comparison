@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/n/not/ -->
+<html lang="en">
+    <head>
+        <style>
+        /**
+*
+* Global Styles
+*
+*/
+
+a {
+  color: #4186db;
+}
+
+html {
+  background: #303031;
+  color: #e78629;
+}
+
+
+.entry {
+  width: 42em;
+  margin: 0 auto;
+}
+
+
+/**
+*
+* Demo A
+* Class Selector on Nested Element
+*/
+.entry.A .entry-content :not(.intro) {
+  color: #31cdf7;
+}
+
+
+/**
+*
+* Demo B
+* Class Selector w/out Nesting
+*
+*/
+.entry.B :not(.intro) {
+  font-size: 14px;
+}
+
+
+/**
+*
+* Demo C
+* This demo uses the attribute as our simple selector
+* http://www.w3.org/TR/selectors/#simple-selectors-dfn
+*
+*/
+.entry.C button:not([disabled]) {
+  font-size: 20px;
+}
+
+
+/**
+*
+* Demo D
+* Attribute Selector
+*
+*/
+.entry.D a:not([href*="http://css-tricks"]) {
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+/**
+*
+* Demo E
+* won't work because ::first-line is a pseudo element
+*
+*/
+.entry.E p:not(::first-line) {
+  color: white;
+}
+
+
+/**
+*
+* Demo F
+* nth-child Pseudo Class
+*
+*/
+.entry.F p:not(:nth-child(2n+1)) {
+  border: 1px solid orange;
+  color: white;
+}
+        </style>
+    </head>
+    <body>
+        <article class="entry A">
+            <header>
+              <h1>A</h1>
+            </header>
+            <div class="entry-content">
+              <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+          </article>
+          
+          <hr>
+          
+          <article class="entry B">
+            <header>
+              <h1>B</h1>
+            </header>
+             <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          
+             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          </article>
+          
+          <hr>
+          
+          <article class="entry C">
+            <header>
+              <h1>C</h1>
+            </header>
+            <button>button A</button>
+            <button>button B</button>
+            <button disabled>button C</button>
+          </article>
+          
+          <hr>
+          
+          <article class="entry D">
+            <header>
+              <h1>D</h1>
+            </header>
+            <a href="https://css-tricks.com">Link1</a>
+            <a href="https://css-tricks.com">Link2</a>
+            <a href="https://google.com">Link3</a>
+            <a href="https://google.com">Link4</a>
+          </article>
+          
+          <hr>
+          
+          <article class="entry E">
+            <header>
+              <h1>E</h1>
+            </header>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+          </article>
+          
+          <hr>
+          
+          <article class="entry F">
+            <header>
+              <h1>F</h1>
+            </header>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          </article>
+    </body>
+</html>

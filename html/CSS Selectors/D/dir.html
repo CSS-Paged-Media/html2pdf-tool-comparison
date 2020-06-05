@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/d/dir/ -->
+<html lang="en">
+    <head>
+        <style>
+        body {
+  background-color: #000;
+  width: 100%;
+}
+
+div {
+  background-color: #eaeaea;
+  margin: 1em;
+  padding: 2em;
+  max-width: 100%;
+}
+
+div:dir(ltr) {
+  background-color: #333;
+  color: #fff;
+}
+
+div:dir(rtl) {
+  background: red;
+  color: #fff;
+}
+
+.support {
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+        </style>
+    </head>
+    <body>
+        <p class="support">This demo currently only works in Firefox</p>
+
+        <div dir="ltr">
+          <h1>left-to-right</h1>
+          <p>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</p>
+          <cite>&mdash;Bill Watterson</cite>
+        </div>
+        <div dir="rtl">
+          <h1>right to left</h1>
+          <p>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</p>
+          <cite>&mdash;Bill Watterson</cite>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/n/nth-child/ -->
+<html lang="en">
+    <head>
+        <style>
+        body {
+  padding: 1em 2em;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+li {
+  text-align: center;
+  line-height: 2;
+  background: slategrey;
+}
+div {
+  width: 12em;
+  float: left;
+  margin-right: 2em;
+}
+hr {
+  clear: both;
+  padding-top: 1em;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+
+.one li:nth-child(1) {
+  background: lightsteelblue;
+}
+
+.two :nth-child(2) :nth-child(3) {
+  background: lightsteelblue;
+}
+
+.three :nth-child(odd) li:nth-child(-n+3) {
+  background: lightsteelblue;
+}
+
+
+
+div:before {
+  font-family: monospace;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.one:before {
+  content: "li:nth-child(1)";
+}
+.two:before {
+  content: ":nth-child(2) :nth-child(3)";
+}
+.three:before {
+  content: ":nth-child(odd) li:nth-child(-n+3)";
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <ul>
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+            </ul>
+            <ol>
+              <li>Five</li>
+              <li>Six</li>  
+              <li>Seven</li>
+              <li>Eight</li>
+            </ol>
+            <i>select &lt;li&gt; elements that are the first child of their parent</i>
+          </div>
+          
+          <div class="two">
+            <ul>
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+            </ul>
+            <ol>
+              <li>Five</li>
+              <li>Six</li>
+              <li>Seven</li>
+              <li>Eight</li>
+            </ol>
+            <i>select the third child element of the second element</i>
+          </div>
+          
+          <div class="three">
+            <ul>
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+            </ul>
+            <ol>
+              <li>Five</li>
+              <li>Six</li>
+              <li>Seven</li>
+              <li>Eight</li>
+            </ol>
+            <ul>
+              <li>Nine</li>
+              <li>Ten</li>
+              <li>Eleven</li>
+              <li>Twelve</li>
+            </ul>
+            <i>select the first three &lt;li&gt; elements inside of every odd element</i>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/a/any-link/ -->
+<html lang="en">
+    <head>
+        <style>
+        body {
+  background-color: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+:any-link {
+  color: red;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/* [href] {
+  color: blue;
+} */
+        </style>
+    </head>
+    <body>
+        <div>
+            &lt;a> elements with...
+            <br><br>
+            <a href="https://google.com">valid href</a>
+            <br>
+            <a>no href</a>
+            <br>
+            <a href>href but no value</a>
+            <br>
+            <a href="">empty string href</a>
+          </div>
+    </body>
+</html>

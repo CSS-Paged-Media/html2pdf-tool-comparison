@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/f/focus/ -->
+<html lang="en">
+    <head>
+        <style>
+        :focus {
+  background: pink;
+}
+
+div {
+  margin: 16px 0;
+}
+
+textarea {
+  width: 500px;
+}
+
+button {
+  margin: 16px 0;
+  display: block;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1>HTML5 Methods for Making Things Tab-able</h1>
+
+        <p>All of the items below are tabbable. The text area and button are tabbable by default, and the divs use two different methods.</p>
+        
+        <textarea tabindex="1">A textarea. Focus states work by default.</textarea>
+        <button tabindex="2">And I'm a button. Again, works by default.</button>
+        <div contenteditable tabindex="3">Divs don't usually have a focus state. But I'm special, because I'm <code>contenteditable</code>.</div>
+        <div tabindex="4">I'm another div, and I have a <code>tabindex</code>. You can't edit me like the div above, but you can tab to me.</div>
+        <textarea tabindex="-1">I can't be tabbed to. This is a terrible idea, generally, but it can be done using tabindex="-1". Notice that (if you click) I still have a focus state, even though you can't tab to me.</textarea>
+    </body>
+</html>

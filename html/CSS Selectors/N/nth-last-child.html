@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/n/nth-last-child/ -->
+<html lang="en">
+    <head>
+        <style>
+        body {
+  padding: 1em 2em;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+li {
+  text-align: center;
+  line-height: 2;
+  background: slategrey;
+}
+div {
+  width: 12em;
+  float: left;
+  margin-right: 2em;
+}
+hr {
+  clear: both;
+  padding-top: 1em;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+
+.one li:nth-last-child(1) {
+  background: lightsteelblue;
+}
+
+.two ol :nth-last-child(3) {
+  background: lightsteelblue;
+}
+
+.three :nth-last-child(-n+2) :nth-last-child(1) {
+  background: lightsteelblue;
+}
+
+
+
+div:before {
+  font-family: monospace;
+  white-space: nowrap;
+  font-size: 12px;
+}
+div:after {
+  font-style: italic;
+}
+
+.one:before {
+  content: "li:nth-last-child(1)";
+}
+.one:after {
+  content: "select <li> elements that are the last child of their parent";
+}
+
+.two:before {
+  content: "ol :nth-last-child(3)";
+}
+.two:after {
+  content: "select the third-from-last child element of an <ol>";
+}
+
+.three:before {
+  content: ":nth-last-child(-n+2) :nth-last-child(-n+3)";
+}
+.three:after {
+  content: "select the last <li> element inside the last two elements";
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <ul>
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+            </ul>
+            <ol>
+              <li>Five</li>
+              <li>Six</li>  
+              <li>Seven</li>
+              <li>Eight</li>
+            </ol>
+          </div>
+          
+          <div class="two">
+            <ul>
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+            </ul>
+            <ol>
+              <li>Five</li>
+              <li>Six</li>
+              <li>Seven</li>
+              <li>Eight</li>
+            </ol>
+          </div>
+          
+          <div class="three">
+            <ul>
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+            </ul>
+            <ol>
+              <li>Five</li>
+              <li>Six</li>
+              <li>Seven</li>
+              <li>Eight</li>
+            </ol>
+            <ul>
+              <li>Nine</li>
+              <li>Ten</li>
+              <li>Eleven</li>
+              <li>Twelve</li>
+            </ul>
+          </div>
+    </body>
+</html>

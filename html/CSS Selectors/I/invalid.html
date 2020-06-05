@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/i/invalid/ -->
+<html lang="en">
+    <head>
+        <style>
+        input:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+
+input:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+
+body {
+  padding: 3em;
+}
+fieldset {
+ border: 0;   
+}
+input {
+  padding: 0.25em 0;
+  margin-bottom: 0.75em;
+}
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+          </fieldset>
+            
+          <fieldset>
+            <label for="emailRequired">Email (required):</label>
+            <input type="email" name="emailRequired" required>
+          </fieldset>
+    </body>
+</html>

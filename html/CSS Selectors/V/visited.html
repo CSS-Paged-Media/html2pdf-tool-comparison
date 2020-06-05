@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/v/visited/ -->
+<html lang="en">
+    <head>
+        <style>
+        a.csstricks {
+  color: green;
+}
+
+a.csstricks:visited {
+  color: #E18728;
+}
+
+a.codepen {
+  border: 2px solid blue;
+}
+
+a.codepen:visited {
+  border: 2px solid black;
+}
+
+a.google {
+  background-color: yellow;
+  color: black;
+}
+
+a.google:visited {
+  background-color: #E18728;
+  color: white;
+}
+/* Pen styling, unrelated to :visited */
+
+.links {
+  max-width: 70vw;
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+        </style>
+    </head>
+    <body>
+        <section class="links">
+            <p><a href="https://www.css-tricks.com" class="csstricks">This link goes to CSS-Tricks. After it's been visited, it will turn orange.</a></p>
+            <p><a href="https://www.codepen.io" class="codepen">This link goes to CodePen. After it's been visited, its border will turn black.</a></p>
+            <p><a href="https://www.google.com" class="google">This link goes to Google. After it's been visited, it will turn white and the background will turn orange. </a></p>
+          </section>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/v/valid/ -->
+<html lang="en">
+    <head>
+        <style>
+        input:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+
+input:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+
+body {
+  padding: 3em;
+}
+label {
+  display: block;
+}
+input {
+  padding: 0.25em 0;
+  margin-bottom: 0.75em;
+}
+        </style>
+    </head>
+    <body>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        
+        <label for="emailRequired">Email (required):</label>
+        <input type="email" id="emailRequired" name="emailRequired" required />
+        
+        <form action="#">
+          <label id="guess">Enter a number 1 through 9:</label>
+          <input type="text" id="guess" name="guess" pattern="[1-9]{1}" required />
+        </form>
+    </body>
+</html>

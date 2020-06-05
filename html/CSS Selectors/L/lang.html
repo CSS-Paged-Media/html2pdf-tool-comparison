@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/l/lang/ -->
+<html lang="en">
+    <head>
+        <style>
+        q:before { content: open-quote; }
+q:after { content: close-quote; }
+
+:lang(en) q { quotes: '“' '”'; }
+:lang(fr) q { quotes: '«' '»'; }
+:lang(de) q { quotes: '»' '«'; }
+        </style>
+    </head>
+    <body>
+        <p><q>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</q></p>
+
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/selectors/m/marker/ -->
+<html lang="en">
+    <head>
+        <style>
+        p.note {
+  display: list-item;
+  counter-increment: note-counter;
+  color: red;
+  margin-left: 5em;
+}
+
+p.note::marker {
+  content: "Note " counter(note-counter) ":";
+  text-align: left;
+}
+        </style>
+    </head>
+    <body>
+        <p>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way--in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</p>
+        <p class="note">Holy smokes, that's an epic intro!</p>
+        <p>There were a king with a large jaw and a queen with a plain face, on the throne of England; there were a king with a large jaw and a queen with a fair face, on the throne of France. In both countries it was clearer than crystal to the lords of the State preserves of loaves and fishes, that things in general were settled for ever.</p>
+        <p class="note">Those sound like lovely rulers.</p>
+    </body>
+</html>

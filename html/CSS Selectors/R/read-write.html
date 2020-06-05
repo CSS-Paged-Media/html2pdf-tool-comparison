@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_read-write -->
+<html lang="en">
+    <head>
+        <style>
+        input:-moz-read-write { /* For Firefox */
+  background-color: yellow;
+}
+
+input:read-write {
+  background-color: yellow;
+}
+        </style>
+    </head>
+    <body>
+    
+<h3>A demonstration of the :read-write selector.</h3>
+
+<p>A normal input element:<br><input value="hello"></p>
+
+<p>A readonly input element:<br><input readonly value="hello"></p>
+
+<p>The :read-write selector selects form elements with no "readonly" attribute.</p>
+
+    </body>
+</html>

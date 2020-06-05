@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Sample from  -->
+<html lang="en">
+    <head>
+        <style>
+        :-moz-any(div, ul, .match-me) span { 
+  color: #44a244;
+}
+
+:-webkit-any(div, ul, .match-me) span { 
+  color: #44a244;
+}
+:matches(div, ul, .match-me) span { 
+  color: #44a244;
+}
+        </style>
+    </head>
+    <body>
+        <div>
+            <span>This is green because <code>div</code> is one of the arguments we gave to :any</span>
+          </div>
+          
+          <ul>
+            <li>
+              <span>This is green because <code>ul</code> is one of the arguments we gave to :any</span>
+            </li>
+          </ul>
+          
+          <p>
+            <span>This is <strong>not</strong> green because <code>p</code> is <strong>not</strong> one of the arguments we gave to :any</span>
+          </p>
+          
+          <p class="match-me">
+            <span>This is green because <code>.match-me</code> is one of the arguments we gave to :any</span>
+          </p>
+    </body>
+</html>

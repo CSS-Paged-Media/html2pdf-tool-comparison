@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Sample from  -->
+<html lang="en">
+    <head>
+        <style>
+        body {
+  padding: 1em 2em;
+}
+
+ul {
+  list-style: none;
+  width: 12em;
+  border: 1px solid #444;
+  padding: 0
+}
+li {
+  text-align: center;
+  line-height: 2;
+  background: slategrey;
+}
+div {
+  float: left;
+  margin-right: 2em;
+}
+pre {
+  font-size: 14px;
+}
+hr {
+  clear: both;
+  padding-top: 1em;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+
+.four li:nth-last-of-type(3) {
+  background: lightsteelblue;
+}
+
+.five li:nth-last-of-type(3n+1) {
+  background: lightsteelblue;
+}
+
+.six li:nth-last-of-type(even) {
+  background: lightsteelblue;
+}
+        </style>
+    </head>
+    <body>
+        <div>
+            <pre>:nth-last-of-type(3)</pre>
+            <ul class="four">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+              <li>Five</li>
+              <li>Six</li>  
+              <li>Seven</li>
+              <li>Eight</li>
+            </ul>
+          </div>
+          
+          <div>
+            <pre>:nth-last-of-type(3n+1)</pre>
+            <ul class="five">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+              <li>Five</li>
+              <li>Six</li>
+              <li>Seven</li>
+              <li>Eight</li>
+            </ul>
+          </div>
+          
+          <div>
+            <pre>:nth-last-of-type(even)</pre>
+            <ul class="six">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+              <li>Four</li>
+              <li>Five</li>
+              <li>Six</li>
+              <li>Seven</li>
+              <li>Eight</li>
+            </ul>
+          </div>
+    </body>
+</html>
