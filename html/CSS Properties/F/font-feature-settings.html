@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-feature-settings -->
+<html lang="en">
+    <head>
+        <style>
+        /* enable small-caps */
+.ex1 { font-feature-settings: "smcp" on; }
+
+/* convert both upper and lowercase to small caps */
+.ex2 { font-feature-settings: "c2sc", "smcp"; }
+
+/* no common ligatures */
+.ex3 { font-feature-settings: "liga" 0; }
+
+/* enable automatic fractions */
+.ex4 { font-feature-settings: "frac"; }
+        </style>
+    </head>
+    <body>
+        <h1>The font-feature-settings Property</h1>
+
+        <div class="ex1">This is some text 0123.</div>
+        <div class="ex2">This is some text 0123.</div>
+        <div class="ex3">This is some text 0123.</div>
+        <div class="ex4">This is some text 0123.</div>
+        
+        <p><b>Note:</b> Internet Explorer 9 and earlier versions do not support the font-feature-settings property.</p>
+    </body>
+</html>

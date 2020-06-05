@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_backface-visibility -->
+<html lang="en">
+    <head>
+        <style>
+   div {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  transform: rotateY(180deg);
+}
+
+#div1 {
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+#div2 {
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: visible;
+}     
+        </style>
+    </head>
+    <body>
+        <h1>The backface-visibility Property</h1>
+
+        <p>This example shows the back face of two div elements.</p>
+        
+        <p>This div element has "backface-visibility: hidden", and the back face of the div element is invisible:</p>
+        <div id="div1">DIV 1</div>
+        
+        <p>This div element has "backface-visibility: visible", and the back face of the div element shows a mirror image of the front face:</p>
+        <div id="div2">DIV 2</div>
+        
+        <p><strong>Note:</strong> The backface-visibility property is not supported in Internet Explorer 9 and earlier versions. Safari supports it with a webkit prefix.</p>
+        
+    </body>
+</html>

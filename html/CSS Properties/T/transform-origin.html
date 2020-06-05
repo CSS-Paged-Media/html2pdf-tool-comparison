@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform-origin -->
+<html lang="en">
+    <head>
+        <style>
+      #div1 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#div2 {
+  padding: 50px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: red;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  transform: rotate(45deg);
+  transform-origin: 20% 40%;
+}  
+        </style>
+    </head>
+    <body>
+    
+<h1>The transform-origin Property</h1>
+
+<div id="div1">
+  <div id="div2">HELLO</div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Sample from https://www.w3schools.com/jsref/prop_style_widows.asp -->
+<html lang="en">
+    <head>
+        <style>
+        .othercontent {
+  width: 400px;
+  border-top: 19cm solid #c3c3c3;
+}
+
+@page {
+/* set size of printed page */
+  size: 21cm 27cm;
+  margin-top: 2cm;
+}
+
+  #p1 {
+    widows:2;
+  }
+        </style>
+    </head>
+    <body>
+    
+<div class="othercontent">
+    
+    <p style="font-size:120%" id="p1">
+    Line 2<br>
+    Line 3<br>
+    Line 4<br>
+    Line 5<br>
+    Line 6<br>
+    Line 7<br>
+    Line 8<br>
+    </p>
+    </div>
+    </body>
+</html>
