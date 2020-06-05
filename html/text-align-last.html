@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/text-align-last/ -->
+<html lang="en">
+    <head>
+        <style>
+        #left { 
+  -ms-text-align-last: left;
+  -moz-text-align-last: left;
+  text-align-last: left; 
+}
+
+#right { 
+  -ms-text-align-last: right;
+  -moz-text-align-last: right;
+  text-align-last: right; 
+}
+
+#center { 
+  -ms-text-align-last: center;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+#justify { 
+  -ms-text-align-last: justify;
+  -moz-text-align-last: justify;
+  text-align-last: justify; 
+}
+
+#start { 
+  /* IE does not recognize text-align-last: start; */
+  -moz-text-align-last: start;
+  text-align-last: start; 
+}
+
+#end { 
+  /* IE does not recognize text-align-last: end; */
+  -moz-text-align-last: end;
+  text-align-last: end; 
+}
+
+
+/* styling for Pen, unrelated to text-align-last */
+
+body { font-family: sans-serif; }
+
+div {
+  width: 40%;
+  padding: 2%;
+  line-height: 1.2;
+  border: 5px solid #E18728;
+  text-align: justify;
+  float: left;
+  margin: 1%;
+}
+        </style>
+    </head>
+    <body>
+        <div id="left">
+            <h2>text-align-last: left; </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus mauris, blandit vitae auctor id, rhoncus id eros. Nullam sit amet nulla ac sapien eleifend ultrices. Curabitur ac dictum metus. Pellentesque ullamcorper dolor sit amet mi imperdiet egestas. Nam eu tellus sed nibh tincidunt rutrum eu sed augue. Cras vestibulum elementum tortor in gravida. Sed augue risus, tempor in justo non, fermentum faucibus nibh.</p>
+            </div>
+            <div id="right">
+            <h2>text-align-last: right; </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus mauris, blandit vitae auctor id, rhoncus id eros. Nullam sit amet nulla ac sapien eleifend ultrices. Curabitur ac dictum metus. Pellentesque ullamcorper dolor sit amet mi imperdiet egestas. Nam eu tellus sed nibh tincidunt rutrum eu sed augue. Cras vestibulum elementum tortor in gravida. Sed augue risus, tempor in justo non, fermentum faucibus nibh.</p>
+            </div>
+            
+            <div id="center">
+            <h2>text-align-last: center;</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus mauris, blandit vitae auctor id, rhoncus id eros. Nullam sit amet nulla ac sapien eleifend ultrices. Curabitur ac dictum metus. Pellentesque ullamcorper dolor sit amet mi imperdiet egestas. Nam eu tellus sed nibh tincidunt rutrum eu sed augue. Cras vestibulum elementum tortor in gravida. Sed augue risus, tempor in justo non, fermentum faucibus nibh.</p>
+            </div>
+            
+            <div id="justify">
+            <h2>text-align-last: justify;</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus mauris, blandit vitae auctor id, rhoncus id eros. Nullam sit amet nulla ac sapien eleifend ultrices. Curabitur ac dictum metus. Pellentesque ullamcorper dolor sit amet mi imperdiet egestas. Nam eu tellus sed nibh tincidunt rutrum eu sed augue. Cras vestibulum elementum tortor in gravida. Sed augue risus, tempor in justo non, fermentum faucibus nibh.</p>
+            </div>
+            
+            <div id="start">
+            <h2>text-align-last: start;</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus mauris, blandit vitae auctor id, rhoncus id eros. Nullam sit amet nulla ac sapien eleifend ultrices. Curabitur ac dictum metus. Pellentesque ullamcorper dolor sit amet mi imperdiet egestas. Nam eu tellus sed nibh tincidunt rutrum eu sed augue. Cras vestibulum elementum tortor in gravida. Sed augue risus, tempor in justo non, fermentum faucibus nibh.</p>
+            </div>
+            <div id="end">
+            <h2>text-align-last: end;</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus mauris, blandit vitae auctor id, rhoncus id eros. Nullam sit amet nulla ac sapien eleifend ultrices. Curabitur ac dictum metus. Pellentesque ullamcorper dolor sit amet mi imperdiet egestas. Nam eu tellus sed nibh tincidunt rutrum eu sed augue. Cras vestibulum elementum tortor in gravida. Sed augue risus, tempor in justo non, fermentum faucibus nibh.</p>
+            </div>
+    </body>
+</html>

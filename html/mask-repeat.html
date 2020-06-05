@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/m/mask-repeat/ -->
+<html lang="en">
+    <head>
+        <style>
+        * {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #8f7a66;
+}
+
+.el {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+
+  background-image: url(https://images.unsplash.com/photo-1528287942171-fbe365d1d9ac?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&w=1200&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  mask-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/sun.svg);
+  mask-size: 100vmin;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="el"></div>
+    </body>
+</html>

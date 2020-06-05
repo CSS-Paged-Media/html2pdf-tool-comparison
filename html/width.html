@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/w/width/ -->
+<html lang="en">
+    <head>
+        <style>
+        html {
+	background: #292a2b;
+	color: #FFF;
+}
+
+.box-width {
+	height: 50px;
+	background: #e78629;
+}
+
+
+.viewport {
+	outline: 1px solid #ed862a;
+	.box-width.percentage {
+		width: 100%; // %
+	}
+  .box-width.pixel {
+		width: 200px; // px
+	}
+	.box-width.em {
+		width: 20em; // em
+	}
+	.box-width.em {
+		width: 20rem; // rem
+	}
+}
+
+.container {
+	outline: 1px solid #ed862a;
+	width: 500px;
+	.box-width.percentage-half {
+		width: 50%; // half %
+	}
+	.box-width.percentage-full {
+		width: 100%; // full %
+	}
+	.box-width.pixel {
+		width: 200px; // px
+	}
+	.box-width.em {
+		width: 20em; // em
+	}
+	.box-width.em {
+		width: 20rem; // rem
+	}
+}
+
+.absolute-position {
+  position: relative;
+  .box-width.no-width { // width is calculated based on content
+    outline: 1px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.box-width.row-percent {
+	width: 50%;
+}
+
+.box-width.row-em {
+	width: 20em;
+}
+        </style>
+    </head>
+    <body>
+    <!-- Entire Viewport -->
+<h1>Entire Viewport</h1>
+<div class="viewport">
+	<p>Width <code>%</code></p>
+	<div class="box-width percentage">100%</div>
+	<p>Width  <code>px</code></p>
+	<div class="box-width pixel">200px</div>
+	<p>Width  <code>em</code> <small>(based on 16px computed font-size)</small></p>
+	<div class="box-width em">20em</div>
+	<p>Width  <code>rem</code> <small>(based on 16px computed font-size of root element)</small></p>
+	<div class="box-width em">20rem</div>
+</div>
+
+<!-- Container 480px -->
+<h1>Container 480px</h1>
+<div class="container">
+	<p>Width <code>%</code></p>
+	<div class="box-width percentage-half">50%</div>
+	<div class="box-width percentage-full">100%</div>
+	<p>Width  <code>px</code></p>
+	<div class="box-width pixel">200px</div>
+	<p>Width  <code>em</code> <small>(based on 16px computed font-size)</small></p>
+	<div class="box-width em">20em</div>
+	<p>Width  <code>rem</code> <small>(based on 16px computed font-size of root element)</small></p>
+	<div class="box-width em">20rem</div>
+</div>
+
+<!-- Absolute Position -->
+<h1>Absolute Position</h1>
+<div class="absolute-position">
+	<div class="box-width no-width">Based on content if width is not defined</div>
+  <div class="box-width rem"></div>
+  <div class="box-width em"></div>
+</div>
+
+<!-- Table Rows -->
+<h1>Table Rows :(</h1>
+<table>
+	<tr class="box-width row-percent">
+		<td>%</td>
+	</tr>
+	<tr class="box-width row-em">
+		<td>em</td>
+	</tr>
+</table>
+    </body>
+</html>

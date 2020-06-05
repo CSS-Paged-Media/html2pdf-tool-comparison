@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/m/mix-blend-mode/ -->
+<html lang="en">
+    <head>
+        <style>
+        html {
+  background: #fff;
+}
+
+body {
+  height: 100%;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nocturno Display Medium 4", Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+}
+
+body {
+  background: url(http://unsplash.it/1499/1000);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blend {
+  mix-blend-mode: exclusion;
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 6vw;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+blockquote {
+  margin-bottom: 100px;
+  line-height: 1.1;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="blend">
+            <blockquote class="red">“Attack design doldrums with stylistic souplesse”</blockquote>
+            <blockquote class="yellow">“Fashionable figures break away from the populist peloton”</blockquote>
+            <blockquote class="green">“Comprehensive characters for culturally correct creations”</blockquote>
+          </div>
+          
+          <!-- 
+          All quotes are taken from House Industries’ introduction of Velo:
+          
+          http://houseindustries.cmail1.com/t/ViewEmail/y/68885BCE0F413AE5/B9C37F14E9781D9EA7F290B8E8FDC6A0
+          -->
+    </body>
+</html>

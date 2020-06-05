@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/transform/ -->
+<html lang="en">
+    <head>
+        <style>
+        .element {
+  background-color: #0074d9;
+  height: 20px;
+  width: 20px;
+  -webkit-transform: scale(20);
+          transform: scale(20);
+  font-size: 1px;
+  padding: 1px;
+  color: white;
+  line-height: 2px;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="element">
+            This element is 20px wide and 20px tall but, with the scale function set to 20, it is now 400px wide and 400px tall. Text, padding and margins are also effected by this property.
+            </div>
+    </body>
+</html>

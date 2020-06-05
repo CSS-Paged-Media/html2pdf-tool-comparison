@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/o/overscroll-behavior/ -->
+<html lang="en">
+    <head>
+        <style>
+        p {
+  height: 100px;
+  width: 100px;
+  overflow: scroll;
+  margin: 20px;
+}
+
+p:nth-child(2) {
+  overscroll-behavior: contain;
+}
+
+body {
+  display: flex;
+  padding: 20px;
+  min-height: 200vh;
+}
+        </style>
+    </head>
+    <body>
+        <p><strong>Default!</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat placeat qui praesentium. Earum itaque architecto laboriosam voluptates beatae dolore molestiae quas magni quo non vel doloribus, accusamus repellendus quaerat aut!</p>
+        <p><strong>Contain!</strong> Perspiciatis dolorum corporis minus soluta! Culpa aspernatur non facilis porro. Magni qui cumque eligendi ducimus neque dolor minima, provident quod nihil? Nostrum deleniti laudantium illum corporis iure quasi error earum?</p>
+    </body>
+</html>

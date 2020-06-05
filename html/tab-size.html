@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/tab-size/ -->
+<html lang="en">
+    <head>
+        <style>
+        p.fourtabs {
+	tab-size:4;
+	-moz-tab-size: 4;
+	-o-tab-size:  4;
+  white-space: pre-wrap;
+}
+
+
+pre.twelvetabs {
+	tab-size: 12;
+	-moz-tab-size: 12;
+	-o-tab-size:  12;
+}
+
+
+h4 {
+ color:#e08628;
+ margin-bottom: 0px;
+}
+
+body {
+ background-color:#efefef;
+ color:#3c3c3c;
+}
+        </style>
+    </head>
+    <body>
+    
+<h3>Example 1</h3>
+<h4>&lt;pre&gt; with default tab-size of 8 space characters</h4>
+<pre>
+without tab
+	with 1 tab
+		with 2 tabs
+</pre>
+
+<h3>Example 2</h3>
+
+<h4>&lt;p&gt; with tab-size customized to 4 space characters and 'white-space: pre-wrap'</h4>
+<p class="fourtabs">without tab
+	with 1 tab
+		with 2 tabs		
+</p>
+<h4>&lt;p&gt; with tab-size customized to 4 space characters, but without 'white-space: prewrap'</h4>
+<p>without tab
+	with 1 tab
+		with 2 tabs		
+</p>
+
+<h3>Example 3</h3>
+<h4>&lt;pre&gt; with tab-size set to 12 space characters</h4>
+<pre class="twelvetabs">without tab
+	with 1 tab
+		with 2 tabs	
+</pre>
+    </body>
+</html>

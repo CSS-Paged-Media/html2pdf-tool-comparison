@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/s/stroke-width/ -->
+<html lang="en">
+    <head>
+        <style>
+        .stroke-1 {
+  stroke: red;
+  stroke-width: 1;
+}
+
+.stroke-2 {
+  stroke: yellow;
+  stroke-width: .25em;
+}
+
+.stroke-3 {
+  stroke: green;
+  stroke-width: 5%;
+}
+
+.stroke-4 {
+  stroke: url(#pattern);
+  stroke-width: 10;
+}
+
+/* DEMO STYLES */
+body {
+  background: #333;
+}
+
+.module {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  fill: #333;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="module">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle class="stroke-1" cx="60" cy="60" r="50"/>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle class="stroke-2" cx="60" cy="60" r="50"/>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle class="stroke-3" cx="60" cy="60" r="50"/>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <!-- Pattern courtesy of https://iros.github.io/patternfills/ -->
+                <pattern id="pattern" patternUnits="userSpaceOnUse" width="10" height="10">
+                  <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nOScgaGVpZ2h0PSc5JyBmaWxsPSdibGFjaycgLz4KPC9zdmc+" x="0" y="0" width="10" height="10"></image>
+                </pattern>
+              </defs>
+              <circle class="stroke-4" cx="60" cy="60" r="50"/>
+            </svg>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/o/object-fit/ -->
+<html lang="en">
+    <head>
+        <style>
+        .object-fit_fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-fit_contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-fit_cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fit_none {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.object-fit_scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+html {
+  color: #eee;
+  padding: 30px;
+  font-family: 'Source Code Pro', Monaco;
+  background-color: #333;
+}
+
+p {
+  font-weight: 200;
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+img {
+  height: 120px;
+  background-color: #444;
+}
+
+img[class] {
+  width: 100%;
+}
+
+.original-image {
+  margin-bottom: 50px;
+}
+
+.image {
+  float: left;
+  width: 40%;
+  margin: 0 30px 20px 0;
+}
+.image:nth-child(2n) {
+  clear: left;
+}
+.image:nth-child(2n+1) {
+  margin-right: 0;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="original-image">
+            <p>original image</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png"> 
+            </div>
+            
+            <div class="image">
+              <p>object-fit: fill</p>
+            <img class="object-fit_fill" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png">
+            </div>
+            
+            <div class="image">
+              <p>object-fit: contain</p>
+            <img class="object-fit_contain" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png">
+            </div>
+            
+            <div class="image">
+              <p>object-fit: cover</p>
+            <img class="object-fit_cover" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png">
+            </div>
+            
+            <div class="image">
+              <p>object-fit: none</p>
+            <img class="object-fit_none" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png">
+            </div>
+            
+            <div class="image">
+              <p>object-fit: scale-down</p>
+            <img class="object-fit_scale-down" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png">
+             </div>
+    </body>
+</html>

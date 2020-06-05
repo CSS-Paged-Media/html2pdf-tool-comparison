@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/g/grid-row-column/ -->
+<html lang="en">
+    <head>
+        <style>
+        .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.grid > div {
+  min-height: 100px;
+  background: white;
+  display: grid;
+  place-items: center;
+}
+
+.grid > div::after {
+  content: attr(style);
+  white-space: pre-wrap;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div style="
+              grid-column: 1 / 3;
+              grid-row: 2 / 3;
+            ">
+            </div>
+            <div style="
+              grid-column: 3 / -1;
+              grid-row: 1 / 2;
+            ">
+            </div>
+            <div style="
+              grid-column: 3 / 4;
+              grid-row: 2 / 4;
+            ">
+            </div>
+          </div>
+    </body>
+</html>

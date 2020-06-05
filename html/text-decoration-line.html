@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/text-decoration-line/ -->
+<html lang="en">
+    <head>
+        <style>
+        .underline {
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline; 
+}
+
+.overline { 
+  -webkit-text-decoration-line: overline;
+  text-decoration-line: overline;
+}
+
+.line-through {
+  -webkit-text-decoration-line: line-through;
+  text-decoration-line: line-through;
+}
+
+.blink { 
+  -webkit-text-decoration-line: blink;
+  text-decoration-line: blink;
+}
+
+.multilines {
+  -webkit-text-decoration-line: underline overline line-through;
+  text-decoration-line: underline overline line-through;
+}
+
+
+/* Styling for Pen, unrelated to text-decoration-line */
+
+body { 
+  font-family: sans-serif;
+  font-size: 2em;
+}
+        </style>
+    </head>
+    <body>
+        <p class="underline">text-decoration-line: underline;</p>
+        <p class="overline">text-decoration-line: overline;</p>
+        <p class="line-through">text-decoration-line: line-through;</p>
+        <p class="multilines"> text-decoration-line: underline overline line-through;</p>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/s/stroke-dashoffset/ -->
+<html lang="en">
+    <head>
+        <style>
+        .stroke-1 {
+  stroke: lime;
+  stroke-dasharray: 25;
+  stroke-dashoffset: 0;
+}
+
+.stroke-2 {
+  stroke: aqua;
+  stroke-dasharray: 25;
+  stroke-dashoffset: 50%;
+}
+
+.stroke-3 {
+  stroke: salmon;
+  stroke-dasharray: 25;
+  stroke-dashoffset: 100%;
+}
+
+/* DEMO STYLES */
+body {
+  background: #333;
+}
+
+.module {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+line {
+  stroke-width: 20;
+}
+        </style>
+    </head>
+    <body>
+        <div class="module">
+            <svg width="500px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <line class="stroke-1" x1="40" x2="450" y1="20" y2="20" />
+            <line class="stroke-2" x1="40" x2="450" y1="60" y2="60" />
+            <line class="stroke-3" x1="40" x2="450" y1="100" y2="100" />
+          </svg>
+          </div>
+    </body>
+</html>

@@ -64,26 +64,25 @@
         'font-display',
         'font-family',
         'font-feature-settings',
-        'font-size',
+        */'font-size',/*
         'font-size-adjust',
         'font-stretch',
-        'font-style',
-        'font-variant',
+        */'font-style',
+        'font-variant',/*
         'font-variant-numeric',
-        'font-weight',
-        'grid-row / grid-column',
-        'grid-template-columns / grid-template-rows',
-        'hanging-punctuation',
+        */'font-weight',
+        'grid-row-column',/*
+        'grid-template-columns-rows',
+        */'hanging-punctuation',
         'height',
-        'hyphens',
+        'hyphens',/*
         'image-rendering',
-        'initial-letter',
+        */'initial-letter',/*
         'isolation',
-        */'justify-content',/*
-        'left',
-        'letter-spacing',
+        */'justify-content',
+        'letter-spacing',/*
         'line-clamp',
-        'line-height',
+        */'line-height',
         'list-style',
         'margin',
         'mask-image',
@@ -94,30 +93,29 @@
         'min-width',
         'mix-blend-mode',
         'object-fit',
-        'object-position',
+        'object-position',/*
         'offset-anchor',
         'offset-distance',
         'offset-path',
         'offset-rotate',
-        'opacity',
-        'order',
+        */'opacity',
+        'order',/*
         'orphans',
         'outline',
-        'outline-offset',
-        'overflow',
+        */'outline-offset',
+        'overflow',/*
         'overflow-anchor',
         'overflow-wrap',
-        'overscroll-behavior',
-        'padding',
+        */'overscroll-behavior',/*
+        */'padding',/*
         'page-break',
-        'perspective',
-        'perspective-origin',
+        */'perspective',
+        'perspective-origin',/*
         'place-items',
         'pointer-events',
         'position',
         'quotes',
         'resize',
-        'right',
         'scroll-behavior',
         'scroll-margin',
         'scroll-padding',
@@ -128,39 +126,39 @@
         'scrollbar-color',
         'scrollbar-gutter',
         'scrollbar-width',
-        'shape-outside',
+        */'shape-outside',/*
         'speak',
-        'stroke',
+        */'stroke',
         'stroke-dasharray',
         'stroke-dashoffset',
         'stroke-linecap',
         'stroke-linejoin',
         'stroke-width',
-        'tab-size',
+        'tab-size',/*
         'table-layout',
         'text-align',
-        'text-align-last',
+        */'text-align-last',
         'text-decoration',
         'text-decoration-color',
         'text-decoration-line',
         'text-decoration-skip',
-        'text-decoration-skip-ink',
+        'text-decoration-skip-ink',/*
         'text-decoration-style',
-        'text-indent',
+        */'text-indent',/*
         'text-justify',
-        'text-overflow',
+        */'text-overflow',/*
         'text-rendering',
         'text-shadow',
         'text-stroke',
-        'text-transform',
+        */'text-transform',
         'text-underline-offset',
         'text-underline-position',
-        */'top',
+        'top',
         'bottom',
         'left',
         'right',/*
         'touch-action',
-        'transform',
+        */'transform',/*
         'transform-origin',
         'transform-style',
         'transition',
@@ -171,17 +169,17 @@
         'unicode-bidi',
         'unicode-range',
         'user-select',
-        'vertical-align',
-        'visibility',
+        */'vertical-align',
+        'visibility',/*
         'white-space',
         'widows',
-        'width',
+        */'width',/*
         'will-change',
-        'word-break',
+        */'word-break',/*
         'word-spacing',
-        'writing-mode',
-        'z-index',
-        'zoom'*/
+        */'writing-mode',/*
+        'z-index',*/
+        'zoom'
     ];
 
     $sHtmlContent = '<!DOCTYPE html>

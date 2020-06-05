@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/f/font-size/ -->
+<html lang="en">
+    <head>
+        <style>
+        html {
+  background-color: #cecece;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+div {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 50px;
+  padding: 20px;
+}
+
+.module-2 {
+  font-size: 42px;
+  line-height: 36px;
+}
+
+.module-2 p {
+  font-size: 110%;
+}
+        </style>
+    </head>
+    <body>
+        <div class="module-1">
+            <p>I am sized relative to the document.</p>
+          </div>
+          
+          <div class="module-2">
+            <p>I am sized relative to the parent element.</p>
+          </div>
+    </body>
+</html>

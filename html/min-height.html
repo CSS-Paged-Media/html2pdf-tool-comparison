@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/m/min-height/ -->
+<html lang="en">
+    <head>
+        <style>
+        html {
+  background: #e78629;
+}
+
+p {
+  background: #212121;
+  color: #FFF;
+}
+
+.nesting {
+  background: white;
+}
+
+table {
+  float: left;
+  margin-right: .5em;
+  background: white;
+}
+
+p.min-height-px {
+  height: 100%;
+  min-height: 50px;
+}
+
+p.min-height-em {
+  height: 100%;
+  min-height: 8em;
+}
+
+/**
+* height value determined by 
+* content and not these % values
+*/
+p.min-height-percent {
+  height: 100%;
+  min-height: 50%;
+}
+
+.nesting.example1 {
+  height: 100px;
+}
+.nesting.example1 .min-heightnested {
+  min-height: 70%;
+  /* works because height is an absolute length value */
+}
+
+.nesting.example2 {
+  height: 100%;
+}
+.nesting.example2 .min-heightnested {
+  height: auto;
+}
+
+.table-example1 {
+  min-height: 500px;
+  height: 100px;
+}
+
+.table-example2 {
+  min-height: 100px;
+  height: 100%;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1>Min-Height</h1>
+        <h3>Block Level Elements</h3>
+        <p class="min-height-px">Content in a paragraph : <code>height: 100% / min-height: 50px</code></p>
+        
+        <p class="min-height-em">Content in a paragraph : <code>height: 100% / min-height: 8em</code></p>
+        
+        <p class="min-height-percent">Content in a paragraph : <code>height: 100% / min-height: 50%</code></p>
+        
+        <h3>Elements Nested</h3>
+        <div class="nesting example1">
+          <p class="min-heightnested">Example#1 : Containing element : <code>height: 100px</code>.  Content in a paragraph : <code>min-height: 70%</code></p>
+        </div>
+        
+        <div class="nesting example2">
+          <p class="min-heightnested">Example#2 : Containing element : <code>height: 100%</code>.  Content in a paragraph : <code>height: auto</code></p>
+        </div>
+        
+        <h3>Tables</h3>
+        <code>height: 100px; min-height: 500px;</code>
+        <table class="browser-support-table table-example1">
+                <thead>
+                    <tr>
+                <th>Height</th>
+                        <th class="chrome"><span>Chrome</span></th>
+                        <th class="safari"><span>Safari</span></th>
+                        <th class="firefox"><span>Firefox</span></th>
+                        <th class="opera"><span>Opera</span></th>
+                        <th class="ie"><span>IE</span></th>
+                        <th class="android"><span>Android</span></th>
+                        <th class="iOS"><span>iOS</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                <td>100px</td>
+                        <td class="yep-nope">All</td>
+                        <td class="yep-nope">All</td>
+                        <td class="yep-nope">All</td>
+                        <td class="yep-nope">All</td>
+                        <td class="yep-nope">All</td>
+                        <td class="yep-nope">All</td>
+                        <td class="yep-nope">All</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+        <code>height: 100%; min-height: 100px;</code>
+        <table class="browser-support-table table-example2">
+                <thead>
+                    <tr>
+                <th>Height</th>
+                        <th class="chrome"><span>Chrome</span></th>
+                        <th class="safari"><span>Safari</span></th>
+                        <th class="firefox"><span>Firefox</span></th>
+                        <th class="opera"><span>Opera</span></th>
+                        <th class="ie"><span>IE</span></th>
+                        <th class="android"><span>Android</span></th>
+                        <th class="iOS"><span>iOS</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                <td>100%</td>
+                        <td class="yep">All</td>
+                        <td class="yep">All</td>
+                        <td class="yep">All</td>
+                        <td class="yep">All</td>
+                        <td class="yep">All</td>
+                        <td class="yep">All</td>
+                        <td class="yep">All</td>
+                    </tr>
+                </tbody>
+            </table>
+    </body>
+</html>

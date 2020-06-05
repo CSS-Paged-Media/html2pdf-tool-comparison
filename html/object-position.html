@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/o/object-position/ -->
+<html lang="en">
+    <head>
+        <style>
+        img {
+  background-color: yellow;
+  height: 180px;
+}
+
+.image {
+  height: 170px;
+  object-fit: none;
+  /*  background-color: yellow;*/
+}
+
+.image--center {
+  object-position: 50% 50%;
+}
+
+.image--bottom-right {
+  object-position: 100% 100%;
+}
+
+.image--bottom-left {
+  object-position: 0  100%;
+}
+
+.image--top-left {
+  object-position: 0  0;
+}
+
+.image--up {
+  object-position: 50%  120%;
+}
+
+.image--down {
+  object-position: 50%  -20%;
+}
+
+.image--left {
+  object-position: 120%  50%;
+}
+
+.image--right {
+  object-position: -20%  50%;
+}
+
+.image--background-image {
+  object-position: 140%  90%;
+  background-image: url("http://fillmurray.com/g/50/50");
+}
+
+html {
+  color: #eee;
+  padding: 30px;
+  font-family: 'Source Code Pro', Monaco;
+  background-color: #333;
+}
+
+.container {
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 0;
+  width: 45%;
+}
+.container:nth-child(2n + 1) {
+  margin-right: 0;
+}
+
+p {
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+img[class] {
+  width: 100%;
+}
+
+.original-image {
+  margin-bottom: 50px;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="original-image">
+            <p>original image <br> (with a yellow background)</p>
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+          
+          
+          <div class="container">
+              <p>object-position: 50% 50%</p>
+          <img class="image image--center" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+          
+          <div class="container">
+              <p>object-position: 100% 150%</p>
+          <img class="image image--bottom-right" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+          
+          <div class="container">
+              <p>object-position: 0 150%</p>
+          <img class="image image--bottom-left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+          
+          <div class="container">
+                <p>object-position: 0 0</p>
+          <img class="image image--top-left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+          
+          <div class="container">
+              <p>object-position: 50% 120%</p>
+          <img class="image image--up" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+          
+          <div class="container">
+              <p>object-position: 50% -20%</p>
+          <img class="image image--down" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+          
+          <div class="container">
+              <p>object-position: 120% 50%</p>
+          <img class="image image--left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+          
+          <div class="container">
+              <p>object-position: -20% 50%</p>
+          <img class="image image--right" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+          
+          
+          <div class="container">
+              <p>object-position: 140% 90% <br>(with background image)</p>
+          <img class="image image--background-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"> 
+          </div>
+    </body>
+</html>

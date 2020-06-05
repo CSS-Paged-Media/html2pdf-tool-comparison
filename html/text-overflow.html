@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/text-overflow/ -->
+<html lang="en">
+    <head>
+        <style>
+        .overflow {
+  	width: 10em;
+  outline: 1px solid #000;
+  margin: 0 0 2em 0;
+  
+  /**
+   * Required properties to achieve text-overflow
+   */
+	  white-space: nowrap;
+  	overflow: hidden;
+}
+
+body style {
+  display: block;
+  font: 14px monospace;
+  padding: 3px;
+  margin: 0 0 5px 0;
+}
+
+        </style>
+    </head>
+    <body>
+        <style>.clip { text-overflow: clip; }</style>
+        <p class="overflow clip">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
+        
+        <style>.ellipsis { text-overflow: ellipsis; }</style>
+        <p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
+        
+        <style>.word { text-overflow: ellipsis-word; }</style>
+        <p class="overflow word">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
+        
+        <style>.text { text-overflow: "---"; }</style>
+        <p class="overflow text">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
+        
+        <style>.double { text-overflow: ellipsis ellipsis; text-align: center; }</style>
+        <p class="overflow double">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>
+    </body>
+</html>

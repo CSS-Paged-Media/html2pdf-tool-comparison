@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/m/max-width/ -->
+<html lang="en">
+    <head>
+        <style>
+        html {
+  background: #444444;
+  color: #ffffff;
+}
+
+.demo {
+  background: #000;
+}
+
+.max {
+  background: #e78629;
+}
+
+.max600 {
+  width: 80%;
+  max-width: 600px;
+}
+
+.max320 {
+  width: 100%;
+  max-width: 320px;
+}
+
+.max-percent {
+  width: 100%;
+  max-width: 50%;
+}
+
+.em40 {
+  width: 100%;
+  max-width: 40em;
+}
+
+.rem40 {
+  width: 100%;
+  max-width: 40rem;
+}
+
+.maxtable {
+  width: 100%;
+  max-width: 600px;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1>max-width</h1>
+
+        <figure class="demo">
+          <p class="max max600">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <figcaption>Width = 80% / Maximum Width = 600px</figcaption>
+        </figure>
+        
+        <figure class="demo">
+          <p class="max max320">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <figcaption>Width = 100% / Maximum Width = 320px</figcaption>
+        </figure>
+        
+        <figure class="demo">
+          <p class="max max-percent">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <figcaption>Width = 100% / Maximum Width = 50%</figcaption>
+        </figure>
+        
+        <figure class="demo">
+          <p class="max em40">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <figcaption>Width = 100% / Maximum Width = 40em</figcaption>
+        </figure>
+        
+        <figure class="demo">
+          <p class="max rem40">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <figcaption>Width = 100% / Maximum Width = 40rem</figcaption>
+        </figure>
+        
+        <h3>Tables</h3>
+        <figure class="demo">
+          <table class="max maxtable">
+                <thead>
+                    <tr>
+                        <th class="chrome"><span>Chrome</span></th>
+                        <th class="safari"><span>Safari</span></th>
+                        <th class="firefox"><span>Firefox</span></th>
+                        <th class="opera"><span>Opera</span></th>
+                        <th class="ie"><span>IE</span></th>
+                        <th class="android"><span>Android</span></th>
+                        <th class="iOS"><span>iOS</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="yep-nope">24+</td>
+                        <td class="yep-nope">5.1+</td>
+                        <td class="yep-nope">18+</td>
+                        <td class="yep-nope">12.1+</td>
+                        <td class="yep-nope">8+</td>
+                        <td class="yep-nope">1.0+</td>
+                        <td class="yep-nope">2.1+</td>
+                    </tr>
+                </tbody>
+            </table>
+          <figcaption>Width = 100% / Maximum Width = 600px</figcaption>
+        </figure>
+        
+        <footer>
+          <p><small>*These examples use the entire viewport width in order to understand and grasp the concepts outlined. Squeeze your browser to witness the results.</small></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/s/stroke-linecap/ -->
+<html lang="en">
+    <head>
+        <style>
+        .stroke-1 {
+  stroke-linecap: butt;
+}
+
+.stroke-2 {
+  stroke-linecap: square;
+}
+
+.stroke-3 {
+  stroke-linecap: round;
+}
+
+/* DEMO STYLES */
+body {
+  background: #333;
+}
+
+.module {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+line {
+  stroke: orange;
+  stroke-width: 20;
+}
+        </style>
+    </head>
+    <body>
+        <div class="module">
+            <svg width="300px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <line class="stroke-1" x1="40" x2="250" y1="20" y2="20" />
+            <line class="stroke-2" x1="40" x2="250" y1="60" y2="60" />
+            <line class="stroke-3" x1="40" x2="250" y1="100" y2="100" />
+          </svg>
+          </div>
+    </body>
+</html>

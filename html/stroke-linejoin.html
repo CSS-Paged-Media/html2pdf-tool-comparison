@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/s/stroke-linejoin/ -->
+<html lang="en">
+    <head>
+        <style>
+        .no-support {
+  text-align: center;
+  padding: 5px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ee6620;
+  color: #fff;
+  font-size: 16px;
+}
+
+@supports(stroke-linejoin: bevel) {
+  .no-support {
+    display: none;
+  }
+}
+
+.example-wrapper {
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 320px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#svg_crop {
+  stroke-linejoin: crop;
+}
+
+#svg_arcs {
+  stroke-linejoin: arcs;
+}
+
+#svg_miter {
+  stroke-linejoin: miter;
+}
+
+#svg_bevel {
+  stroke-linejoin: bevel;
+}
+
+#svg_round {
+  stroke-linejoin: round;
+}
+        </style>
+    </head>
+    <body>
+        <div class="no-support">
+            <p>Heads up: It doesn't look like your browser supports stroke-linejoin! Check <a href="https://caniuse.com/#feat=css-snappoints">Can I use</a> for current browser support. Maybe try opening this CodePen in a different browser, like Chrome?</p>
+          </div>
+          <div class="example-wrapper">
+            <p><code>stroke-linejoin: crop;</code></p>
+          
+            <div class="container">
+              <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+               <g>
+                  <path id="svg_crop" d="M46.39845375127366,241.5329820183668 L194.23880503787478,39.2996083282315 C194.93585864152854,40.62325596571734 152.99423462673445,215.53287338109538 289.2000307318228,267.53302990999157" opacity="1" stroke-width="10" stroke="#000" fill="#fff" />
+               </g>
+              </svg>
+            </div>
+          
+            <p><code>stroke-linejoin: arcs;</code></p>
+            
+            <div class="container">
+              <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+               <g>
+                  <path id="svg_arcs" d="M46.39845375127366,241.5329820183668 L194.23880503787478,39.2996083282315 C194.93585864152854,40.62325596571734 152.99423462673445,215.53287338109538 289.2000307318228,267.53302990999157" opacity="1" stroke-width="10" stroke="#000" fill="#fff" />
+               </g>
+              </svg>
+            </div>
+            
+              <p><code>stroke-linejoin: miter;</code></p>
+            
+            <div class="container">
+              <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+               <g>
+                  <path id="svg_miter" d="M46.39845375127366,241.5329820183668 L194.23880503787478,39.2996083282315 C194.93585864152854,40.62325596571734 152.99423462673445,215.53287338109538 289.2000307318228,267.53302990999157" opacity="1" stroke-width="10" stroke="#000" fill="#fff" />
+               </g>
+              </svg>
+            </div>
+            
+            <p><code>stroke-linejoin: bevel;</code></p>
+            
+            <div class="container">
+              <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+               <g>
+                  <path id="svg_bevel" d="M46.39845375127366,241.5329820183668 L194.23880503787478,39.2996083282315 C194.93585864152854,40.62325596571734 152.99423462673445,215.53287338109538 289.2000307318228,267.53302990999157" opacity="1" stroke-width="10" stroke="#000" fill="#fff" />
+               </g>
+              </svg>
+            </div>
+            
+            <p><code>stroke-linejoin: round;</code></p>
+            
+            <div class="container">
+              <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+               <g>
+                  <path id="svg_round" d="M46.39845375127366,241.5329820183668 L194.23880503787478,39.2996083282315 C194.93585864152854,40.62325596571734 152.99423462673445,215.53287338109538 289.2000307318228,267.53302990999157" opacity="1" stroke-width="10" stroke="#000" fill="#fff" />
+               </g>
+              </svg>
+            </div>
+          </div>
+          
+    </body>
+</html>

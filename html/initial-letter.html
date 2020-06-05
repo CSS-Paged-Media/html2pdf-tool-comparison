@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/i/initial-letter/ -->
+<html lang="en">
+    <head>
+        <style>
+        body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding: 50px 0;
+}
+
+article {
+  width: 60%;
+}
+
+article::first-letter {
+  -webkit-initial-letter: 4 5;
+  initial-letter: 4 5;
+  background: lightyellow;
+  border: 10px solid #000;
+  color: orange;
+  font-weight: bold;
+  margin-right: 1em;
+  padding: 2em;
+}
+
+        </style>
+    </head>
+    <body>
+        <article>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way - in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</article>
+    </body>
+</html>

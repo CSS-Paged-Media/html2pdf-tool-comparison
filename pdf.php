@@ -5,6 +5,8 @@
         $sReadMe = '
 # A comparison between mPDF and typeset.sh
 
+The preview image is not always a 100% correct so please also look at the result PDFs for details.
+
 HTML File | mPDF Result | typeset.sh Result
 ------------ | ------------- | -------------' . PHP_EOL;
 

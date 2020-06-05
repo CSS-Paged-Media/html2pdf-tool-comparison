@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/text-decoration-skip-ink/ -->
+<html lang="en">
+    <head>
+        <style>
+        .no-support {
+  text-align: center;
+  padding: 10px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ee6620;
+  color: #fff;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+@supports(text-decoration-skip-ink: none) {
+  .no-support {
+    display: none;
+  }
+}
+
+.example-wrapper {
+  font-family: serif;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underline {
+  text-decoration: underline blue;
+  font-size: 26px;
+}
+
+.skip-ink-auto {
+  text-decoration-skip-ink: auto;
+}
+
+.skip-ink-none {
+  text-decoration-skip-ink: none;
+}
+        </style>
+    </head>
+    <body>
+        <div class="no-support">
+            <p>Heads up: It doesn't look like your browser supports <code>text-decoration-skip-ink</code>! Check <a href="https://caniuse.com/#feat=text-decoration">Can I use</a> for current browser support. Maybe try opening this CodePen in a different browser that supports <code>text-decoration-skip-ink</code>?</p>
+          </div>
+          
+          <div class="example-wrapper">
+            <p><code>text-decoration-skip-ink: auto;</code>
+            <p class="underline skip-ink-auto">Great green gobs of greasy, grimy gopher guts</p>
+          </div>
+          
+          <div class="example-wrapper">
+            <p><code>text-decoration-skip-ink: none;</code>
+            <p class="underline skip-ink-none">Great green gobs of greasy, grimy gopher guts</p>
+          </div>
+    </body>
+</html>

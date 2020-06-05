@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/text-underline-position/ -->
+<html lang="en">
+    <head>
+        <style>
+        p { text-decoration: underline; }
+
+.under-below { 
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under; 
+}
+
+
+/* styling for Pen, unrelated to text-underline-position */
+
+body { 
+  font-size: 2em; 
+  font-family: sans-serif;
+}
+        </style>
+    </head>
+    <body>
+        <p class="under-below">Hey, get some yellow spaghetti squash.</p>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/o/order/ -->
+<html lang="en">
+    <head>
+        <style>
+        .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.flex-item:nth-of-type(1) { order: 3; }
+.flex-item:nth-of-type(2) { order: 4; }
+.flex-item:nth-of-type(3) { order: 1; }
+.flex-item:nth-of-type(4) { order: 5; }
+.flex-item:nth-of-type(5) { order: 2; }
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <ul class="flex-container">
+            <li class="flex-item">1</li>
+            <li class="flex-item">2</li>
+            <li class="flex-item">3</li>
+            <li class="flex-item">4</li>
+            <li class="flex-item">5</li>
+          </ul>
+    </body>
+</html>

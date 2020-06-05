@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/v/visibility/ -->
+<html lang="en">
+    <head>
+        <style>
+        .hidden {
+  visibility: hidden;
+  background: pink;
+  border: 10px dotted teal;
+  padding: 10px;
+}
+
+.visible {
+  border: 1px solid black;
+  visibility: visible;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="hidden">
+            Hi, I'm hidden. Notice that all of my styling is hidden as well, and that I still take up space, even though you can't see me.
+            <div class="visible">
+              Howdy, my parent element is hidden, but I'm still visible. <br>Hover over me to make my parent visible.
+            </div>
+          </div>
+    </body>
+</html>

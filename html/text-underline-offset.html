@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/text-underline-offset/ -->
+<html lang="en">
+    <head>
+        <style>
+        .fixed h1 {
+  text-underline-offset: 8px;
+}
+
+.relative h1 {
+  text-underline-offset: 0.5em;
+}
+
+h1:first-child {
+  font-size: 16px; 
+}
+
+h1:last-child {
+  font-size: 60px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.demo {
+  padding: 2rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fixed {
+  background-color: #FA5900;
+}
+
+.relative {
+  background-color: #0C5BB6;
+}
+
+h1 {
+  color: #fff;
+  font-family: cursive;
+  text-align: center;
+  text-decoration: underline;  
+}
+
+@supports not (text-underline-offset: auto) {
+  section::before {    
+    content: "Your browser doesn't support text-underline-offset";
+    display: block;
+    color: #e43;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 1em;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="demo fixed">
+              <h1>using offset</h1>
+              <h1>using px</h1>
+            </div>
+            <div class="demo relative">
+              <h1>using offset</h1>
+              <h1>using em</h1>
+            </div>
+          </section>
+    </body>
+</html>

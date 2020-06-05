@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/w/writing-mode/ -->
+<html lang="en">
+    <head>
+        <style>
+        p {
+  font-family: Georgia, serif;
+  font-size: 18px;
+}
+
+.vertical-rl {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  color: #0074d9;
+  display: inline-block;
+}
+
+        </style>
+    </head>
+    <body>
+        <p>This is text that needs to be read from top to bottom, and from right to left:</p>
+
+        <p class="vertical-rl">This is text that needs to be read from top to bottom, and from right to left.</p>
+        
+    </body>
+</html>

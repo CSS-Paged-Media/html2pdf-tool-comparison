@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Sample from https://css-tricks.com/almanac/properties/t/text-decoration-color/ -->
+<html lang="en">
+    <head>
+        <style>
+         p, a {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #E18728;
+  text-decoration-color: #E18728; 
+ }
+
+a:visited {
+  -webkit-text-decoration-color: #94530D;
+  text-decoration-color: #94530D; 
+}
+
+a:hover { 
+  -webkit-text-decoration-color: #28B1E1;
+  text-decoration-color: #28B1E1; 
+}
+
+a:active {
+  -webkit-text-decoration-color: #006E94;
+  text-decoration-color: #006E94; 
+}
+
+/* styling for Pen, unrelated to text-decoration-color */
+body {
+  font-family: sans-serif; 
+  font-size: 2.5em;
+}
+        </style>
+    </head>
+    <body>
+        <p>Check out my cool underline.</p>
+
+        <a href="#">I'm a link with a cool underline. Hover me!</a>
+        
+    </body>
+</html>
