@@ -42,7 +42,7 @@
                 echo $sOutputBaseName . '<br />';
 
                 // Render mPDF PDF
-                $sMPdfError = '';
+                $sMPdfStatus = 'Ok';
                 if(!is_file(__DIR__ . '/result/mpdf_' . $sOutputBaseName)){
                     
                     try{
@@ -53,13 +53,13 @@
                             false
                         );
                     }catch(Exception $e){
-                        $sMPdfError = str_replace(__DIR__, '', $e->getMessage());
+                        $sMPdfStatus = str_replace(__DIR__, '', $e->getMessage());
                         copy(__DIR__ . '/error.pdf', 'result/mpdf_' . $sOutputBaseName);
                     }
                 }
 
                 // Render typeset.sh PDF
-                $sTypesetError = '';
+                $sTypesetStatus = 'Ok';
                 if(!is_file(__DIR__ . '/result/typeset_' . $sOutputBaseName)){
                     
                     try{
@@ -79,13 +79,13 @@
                         $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent, $resolveUrl);
                         $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
                     }catch(Exception $e){
-                        $sTypesetError = str_replace(__DIR__, '', $e->getMessage());
+                        $sTypesetStatus = str_replace(__DIR__, '', $e->getMessage());
                         copy(__DIR__ . '/error.pdf', 'result/typeset_' . $sOutputBaseName);
                     }
                 }
 
                 // Render PDFreactor
-                $sPdfreactorError = '';
+                $sPdfreactorStatus = 'Ok';
                 if(!is_file(__DIR__ . '/result/pdfreactor_' . $sOutputBaseName)){
                     try{
                         $oPdfReactor      = new PDFreactor();
@@ -97,18 +97,18 @@
                             $oPdfReactor->convertAsBinary($aPdfReactorConfig)
                         );
                     }catch(Exception $e){
-                        $sPdfreactorError = str_replace(__DIR__, '', $e->getMessage());
+                        $sPdfreactorStatus = str_replace(__DIR__, '', $e->getMessage());
                         copy(__DIR__ . '/error.pdf', 'result/pdfreactor_' . $sOutputBaseName);
                     }
                 }
                 
                 $sReadMeLine = '[' . $sFileName . '](' . str_replace([__DIR__, '.pdf', ' '], ['', '', '%20'], $sFilePath) . ')'
                     . ' | ![](result/mpdf_' . str_replace('.pdf', '.png', $sOutputBaseName) 
-                    . ') [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sMPdfError)  
+                    . ') [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sMPdfStatus)  
                     . ' | ![](result/typeset_' . str_replace('.pdf', '.png', $sOutputBaseName) 
-                    . ') [typeset_' . $sOutputBaseName . '](result/typeset_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sTypesetError)
+                    . ') [typeset_' . $sOutputBaseName . '](result/typeset_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sTypesetStatus)
                     . ' | ![](result/pdfreactor_' . str_replace('.pdf', '.png', $sOutputBaseName) 
-                    . ') [pdfreactor_' . $sOutputBaseName . '](result/pdfreactor_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sPdfreactorError)
+                    . ') [pdfreactor_' . $sOutputBaseName . '](result/pdfreactor_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sPdfreactorStatus)
                     . PHP_EOL;
                 file_put_contents(__DIR__ . '/README.md', $sReadMeLine, FILE_APPEND);
             }
@@ -125,7 +125,7 @@
 
 ## ' . str_replace(__DIR__, '', $sFilePath) . '
 
-HTML File | mPDF Result | mPDF Exception | typeset.sh Result | typeset.sh Exception | PDFreactor Result | PDFreactor Exception
+HTML File | mPDF Result | mPDF Render Status | typeset.sh Result | typeset.sh Render Status | PDFreactor Result | PDFreactor Render Status
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------' . PHP_EOL;
                     file_put_contents(__DIR__ . '/README.md', $sReadMeLine, FILE_APPEND);
                 }
