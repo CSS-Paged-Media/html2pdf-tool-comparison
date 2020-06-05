@@ -1,9 +1,15 @@
 
-# A comparison between mPDF and typeset.sh
+# A comparison between [mPDF](https://mpdf.github.io/), [typeset.sh](https://typeset.sh/en/), and [PDFreactor](https://www.pdfreactor.com/)
 
-The preview image is not always a 100% correct so please also look at the result PDFs for details.
+Tools | Versions
+------------ | -------------
+mPDF | v8.0.6
+typeset.sh | 0.6.3
+PDFreactor | 10.1.10722.15
 
-The HTML examples are taken from the amazing [CSS Almanac by css-tricks.com](https://css-tricks.com/almanac/) and [w3schools.com](https://www.w3schools.com/).
+📢 The preview image is not always a 100% correct so please also look at the result PDFs for details.
+
+💖 The HTML examples are taken from the amazing [CSS Almanac by css-tricks.com](https://css-tricks.com/almanac/) and [w3schools.com](https://www.w3schools.com/).
 
 
 
