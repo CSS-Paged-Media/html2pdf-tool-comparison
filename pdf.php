@@ -57,7 +57,7 @@
                     }
                 }
                 
-                $sReadMeLine = '[' . $sFileName . '](' . str_replace([__DIR__, '.pdf'], '', $sFilePath) . ')'
+                $sReadMeLine = '[' . $sFileName . '](' . str_replace([__DIR__, '.pdf', ' '], ['', '', '%20'], $sFilePath) . ')'
                     . ' | ![](result/mpdf_' . str_replace('.pdf', '.png', $sOutputBaseName) 
                     . ') [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ')'  
                     . ' | ![](result/typeset_' . str_replace('.pdf', '.png', $sOutputBaseName) 
