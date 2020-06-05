@@ -20,13 +20,6 @@
         if (count($aFiles) < 1){
             return;
         }
-        
-        // Load Nano and set README Table line template
-        $oNano = new com\azettl\nano\template();
-        $oNano->setTemplate(
-            '[{filename}]({filepath}) | ![](result/mpdf_{thumb}) [mpdf_{outputname}](result/mpdf_{outputname}) | {status.mpdf} | ![](result/typeset_{thumb}) [typeset_{outputname}](result/typeset_{outputname}) | {status.typeset} | ![](result/pdfreactor_{thumb}) [pdfreactor_{outputname}](result/pdfreactor_{outputname}) | {status.pdfreactor}{newline}'
-        );
-        $oNano->setShowEmpty(false);
     
         foreach($aFiles as $sFileName){
             $sFilePath = $sTestPath . DIRECTORY_SEPARATOR . $sFileName;
@@ -109,6 +102,13 @@
                         copy(__DIR__ . '/error.pdf', 'result/pdfreactor_' . $sOutputBaseName);
                     }
                 }
+        
+                // Load Nano and set README Table line template
+                $oNano = new com\azettl\nano\template();
+                $oNano->setTemplate(
+                    '[{filename}]({filepath}) | ![](result/mpdf_{thumb}) [mpdf_{outputname}](result/mpdf_{outputname}) | {status.mpdf} | ![](result/typeset_{thumb}) [typeset_{outputname}](result/typeset_{outputname}) | {status.typeset} | ![](result/pdfreactor_{thumb}) [pdfreactor_{outputname}](result/pdfreactor_{outputname}) | {status.pdfreactor}{newline}'
+                );
+                $oNano->setShowEmpty(false);
                 
                 $oNano->setData(
                     [
@@ -124,9 +124,8 @@
                         'newline' => PHP_EOL
                     ]
                 );
-
                 $sReadMeLine = $oNano->render();
-                file_put_contents(__DIR__ . '/README.md', $sReadMeLine, FILE_APPEND);
+                file_put_contents(__DIR__ . '/README.md', $sReadMeLine . PHP_EOL, FILE_APPEND);
             }
 
             if(is_dir($sFilePath)){
