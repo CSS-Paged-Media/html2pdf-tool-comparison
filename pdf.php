@@ -35,6 +35,7 @@
 
                 // Render mPDF PDF
                 if(!is_file(__DIR__ . '/result/mpdf_' . $sOutputBaseName)){
+                    $sMPdfError = '';
                     try{
                         $oMPdf = new \Mpdf\Mpdf();
                         $oMPdf->WriteHTML($sHtmlFileContent);
@@ -43,12 +44,14 @@
                             false
                         );
                     }catch(Exception $e){
+                        $sMPdfError = $e->getMessage();
                         copy(__DIR__ . '/error.pdf', 'result/mpdf_' . $sOutputBaseName);
                     }
                 }
 
                 // Render typeset.sh PDF
                 if(!is_file(__DIR__ . '/result/typeset_' . $sOutputBaseName)){
+                    $sTypesetError = '';
                     try{
                         $resourceCache = new \typesetsh\Resource\Cache('./cache-dir/');
                         $resourceCache->downloadLimit = 5242880;
@@ -66,15 +69,16 @@
                         $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent, $resolveUrl);
                         $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
                     }catch(Exception $e){
+                        $sTypesetError = $e->getMessage();
                         copy(__DIR__ . '/error.pdf', 'result/typeset_' . $sOutputBaseName);
                     }
                 }
                 
                 $sReadMeLine = '[' . $sFileName . '](' . str_replace([__DIR__, '.pdf', ' '], ['', '', '%20'], $sFilePath) . ')'
                     . ' | ![](result/mpdf_' . str_replace('.pdf', '.png', $sOutputBaseName) 
-                    . ') [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ')'  
+                    . ') [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sMPdfError)  
                     . ' | ![](result/typeset_' . str_replace('.pdf', '.png', $sOutputBaseName) 
-                    . ') [typeset_' . $sOutputBaseName . '](result/typeset_' . $sOutputBaseName . ')' 
+                    . ') [typeset_' . $sOutputBaseName . '](result/typeset_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sTypesetError)
                     . PHP_EOL;
                 file_put_contents(__DIR__ . '/README.md', $sReadMeLine, FILE_APPEND);
             }
@@ -91,8 +95,8 @@
 
 ## ' . str_replace(__DIR__, '', $sFilePath) . '
 
-HTML File | mPDF Result | typeset.sh Result
------------- | ------------- | -------------' . PHP_EOL;
+HTML File | mPDF Result | mPDF Exception | typeset.sh Result | typeset.sh Exception
+------------ | ------------- | ------------- | ------------- | -------------' . PHP_EOL;
                     file_put_contents(__DIR__ . '/README.md', $sReadMeLine, FILE_APPEND);
                 }
 
