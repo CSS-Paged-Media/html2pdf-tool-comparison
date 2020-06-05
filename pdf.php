@@ -20,6 +20,13 @@
         if (count($aFiles) < 1){
             return;
         }
+        
+        // Load Nano and set README Table line template
+        $oNano = new com\azettl\nano\template();
+        $oNano->setTemplate(
+            '[{filename}]({filepath}) | ![](result/mpdf_{thumb}) [mpdf_{outputname}](result/mpdf_{outputname}) | {status.mpdf} | ![](result/typeset_{thumb}) [typeset_{outputname}](result/typeset_{outputname}) | {status.typeset} | ![](result/pdfreactor_{thumb}) [pdfreactor_{outputname}](result/pdfreactor_{outputname}) | {status.pdfreactor}{newline}'
+        );
+        $oNano->setShowEmpty(false);
     
         foreach($aFiles as $sFileName){
             $sFilePath = $sTestPath . DIRECTORY_SEPARATOR . $sFileName;
@@ -42,9 +49,9 @@
                 echo $sOutputBaseName . '<br />';
 
                 // Render mPDF PDF
-                $sMPdfStatus = 'Ok';
+                $sMPdfStatus = '';
                 if(!is_file(__DIR__ . '/result/mpdf_' . $sOutputBaseName)){
-                    
+                    $sMPdfStatus = 'Ok';
                     try{
                         $oMPdf = new \Mpdf\Mpdf();
                         $oMPdf->WriteHTML($sHtmlFileContent);
@@ -59,9 +66,9 @@
                 }
 
                 // Render typeset.sh PDF
-                $sTypesetStatus = 'Ok';
+                $sTypesetStatus = '';
                 if(!is_file(__DIR__ . '/result/typeset_' . $sOutputBaseName)){
-                    
+                    $sTypesetStatus = 'Ok';
                     try{
                         $resourceCache = new \typesetsh\Resource\Cache('./cache-dir/');
                         $resourceCache->downloadLimit = 5242880;
@@ -85,8 +92,9 @@
                 }
 
                 // Render PDFreactor
-                $sPdfreactorStatus = 'Ok';
+                $sPdfreactorStatus = '';
                 if(!is_file(__DIR__ . '/result/pdfreactor_' . $sOutputBaseName)){
+                    $sPdfreactorStatus = 'Ok';
                     try{
                         $oPdfReactor      = new PDFreactor();
                         $aPdfReactorConfig = array(
@@ -102,14 +110,22 @@
                     }
                 }
                 
-                $sReadMeLine = '[' . $sFileName . '](' . str_replace([__DIR__, '.pdf', ' '], ['', '', '%20'], $sFilePath) . ')'
-                    . ' | ![](result/mpdf_' . str_replace('.pdf', '.png', $sOutputBaseName) 
-                    . ') [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sMPdfStatus)  
-                    . ' | ![](result/typeset_' . str_replace('.pdf', '.png', $sOutputBaseName) 
-                    . ') [typeset_' . $sOutputBaseName . '](result/typeset_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sTypesetStatus)
-                    . ' | ![](result/pdfreactor_' . str_replace('.pdf', '.png', $sOutputBaseName) 
-                    . ') [pdfreactor_' . $sOutputBaseName . '](result/pdfreactor_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sPdfreactorStatus)
-                    . PHP_EOL;
+                $oNano->setData(
+                    [
+                        'filename' => $sFileName,
+                        'outputname' => $sOutputBaseName,
+                        'thumb' => str_replace('.pdf', '.png', $sOutputBaseName),
+                        'filepath' => str_replace([__DIR__, '.pdf', ' '], ['', '', '%20'], $sFilePath),
+                        'status' => [
+                            'mpdf' => str_replace(PHP_EOL, '<br/>', $sMPdfStatus),
+                            'typeset' => str_replace(PHP_EOL, '<br/>', $sTypesetStatus),
+                            'pdfreactor' => str_replace(PHP_EOL, '<br/>', $sPdfreactorStatus)
+                        ],
+                        'newline' => PHP_EOL
+                    ]
+                );
+
+                $sReadMeLine = $oNano->render();
                 file_put_contents(__DIR__ . '/README.md', $sReadMeLine, FILE_APPEND);
             }
 
