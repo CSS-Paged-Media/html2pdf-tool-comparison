@@ -4,6 +4,11 @@
     error_reporting(E_ALL);
     
     require_once __DIR__ . '/vendor/autoload.php';
+    require_once __DIR__ . '/vendor/pdfreactor/PDFreactor/wrappers/php/lib/PDFreactor.class.php';
+                    
+    use com\realobjects\pdfreactor\webservice\client\PDFreactor as PDFreactor;
+    use com\realobjects\pdfreactor\webservice\client\LogLevel as LogLevel;
+    use com\realobjects\pdfreactor\webservice\client\ViewerPreferences as ViewerPreferences;
     
     function renderPdfs($sTestPath){
         $aFiles = scandir($sTestPath);
@@ -33,9 +38,13 @@
                     $sFilePath . '.pdf'
                 );
 
+                echo $sFilePath . '<br />';
+                echo $sOutputBaseName . '<br />';
+
                 // Render mPDF PDF
+                $sMPdfError = '';
                 if(!is_file(__DIR__ . '/result/mpdf_' . $sOutputBaseName)){
-                    $sMPdfError = '';
+                    
                     try{
                         $oMPdf = new \Mpdf\Mpdf();
                         $oMPdf->WriteHTML($sHtmlFileContent);
@@ -50,8 +59,9 @@
                 }
 
                 // Render typeset.sh PDF
+                $sTypesetError = '';
                 if(!is_file(__DIR__ . '/result/typeset_' . $sOutputBaseName)){
-                    $sTypesetError = '';
+                    
                     try{
                         $resourceCache = new \typesetsh\Resource\Cache('./cache-dir/');
                         $resourceCache->downloadLimit = 5242880;
@@ -73,12 +83,33 @@
                         copy(__DIR__ . '/error.pdf', 'result/typeset_' . $sOutputBaseName);
                     }
                 }
+
+                // Render PDFreactor
+                $sPdfreactorError = '';
+                if(!is_file(__DIR__ . '/result/pdfreactor_' . $sOutputBaseName)){
+                    try{
+
+                        $oPdfReactor      = new PDFreactor();
+                        $aPdfReactorConfig = array(
+                            "document"=> $sHtmlFileContent
+                        );
+                        file_put_contents(
+                            __DIR__ . '/result/pdfreactor_' . $sOutputBaseName, 
+                            $oPdfReactor->convertAsBinary($aPdfReactorConfig)
+                        );
+                    }catch(Exception $e){
+                        $sPdfreactorError = str_replace(__DIR__, '', $e->getMessage());
+                        copy(__DIR__ . '/error.pdf', 'result/pdfreactor_' . $sOutputBaseName);
+                    }
+                }
                 
                 $sReadMeLine = '[' . $sFileName . '](' . str_replace([__DIR__, '.pdf', ' '], ['', '', '%20'], $sFilePath) . ')'
                     . ' | ![](result/mpdf_' . str_replace('.pdf', '.png', $sOutputBaseName) 
                     . ') [mpdf_' . $sOutputBaseName . '](result/mpdf_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sMPdfError)  
                     . ' | ![](result/typeset_' . str_replace('.pdf', '.png', $sOutputBaseName) 
                     . ') [typeset_' . $sOutputBaseName . '](result/typeset_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sTypesetError)
+                    . ' | ![](result/pdfreactor_' . str_replace('.pdf', '.png', $sOutputBaseName) 
+                    . ') [pdfreactor_' . $sOutputBaseName . '](result/pdfreactor_' . $sOutputBaseName . ') | ' . str_replace(PHP_EOL, '<br/>', $sPdfreactorError)
                     . PHP_EOL;
                 file_put_contents(__DIR__ . '/README.md', $sReadMeLine, FILE_APPEND);
             }
@@ -95,8 +126,8 @@
 
 ## ' . str_replace(__DIR__, '', $sFilePath) . '
 
-HTML File | mPDF Result | mPDF Exception | typeset.sh Result | typeset.sh Exception
------------- | ------------- | ------------- | ------------- | -------------' . PHP_EOL;
+HTML File | mPDF Result | mPDF Exception | typeset.sh Result | typeset.sh Exception | PDFreactor Result | PDFreactor Exception
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------' . PHP_EOL;
                     file_put_contents(__DIR__ . '/README.md', $sReadMeLine, FILE_APPEND);
                 }
 
