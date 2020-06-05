@@ -8,7 +8,7 @@ description:
 # A comparison between [mPDF](https://mpdf.github.io/), [typeset.sh](https://typeset.sh/en/), and [PDFreactor](https://www.pdfreactor.com/)
 
 | Tools | Versions |
-| ------------ | ------------- |
+|---------|---------|
 | mPDF | v8.0.6 |
 | typeset.sh | 0.6.3 |
 | PDFreactor | 10.1.10722.15 |
