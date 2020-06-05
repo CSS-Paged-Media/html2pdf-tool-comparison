@@ -6,6 +6,7 @@ description:
 ---
 
 # R
+
 | HTML File | mPDF Result | typeset.sh Result | PDFreactor Result |
 |---------|---------|---------|---------|
 | [resize.html](/html/CSS%20Properties/R/resize.html) | ![](mpdf__html_CSS_Properties_R_resize.html.png) [mpdf__html_CSS_Properties_R_resize.html.pdf](mpdf__html_CSS_Properties_R_resize.html.pdf) | ![](typeset__html_CSS_Properties_R_resize.html.png) [typeset__html_CSS_Properties_R_resize.html.pdf](typeset__html_CSS_Properties_R_resize.html.pdf) | ![](pdfreactor__html_CSS_Properties_R_resize.html.png) [pdfreactor__html_CSS_Properties_R_resize.html.pdf](pdfreactor__html_CSS_Properties_R_resize.html.pdf) |
