@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/C/checked.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/C/checked.html){:target="_blank"}
 
 <details>
     <summary>
@@ -36,7 +36,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"ossm"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"ossm"</span>&gt;</span> 
         <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"ossm"</span>&gt;</span>CSS is Awesome<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -44,13 +44,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_C_checked.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_C_checked.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_C_checked.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_C_checked.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_C_checked.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_C_checked.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_checked.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_C_checked.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_C_checked.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_C_checked.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_checked.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_C_checked.html.pdf){:target="_blank"} |
 
 ## 🔬 CHILD
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/C/child.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/C/child.html){:target="_blank"}
 
 <details>
     <summary>
@@ -77,7 +77,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Numbered list item 3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -85,13 +85,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_C_child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_C_child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_C_child.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_C_child.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_C_child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_C_child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_child.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_C_child.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_C_child.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_C_child.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_child.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_C_child.html.pdf){:target="_blank"} |
 
 ## 🔬 CLASS
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/C/class.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/C/class.html){:target="_blank"}
 
 <details>
     <summary>
@@ -138,7 +138,7 @@ description:
             
             
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -146,6 +146,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_C_class.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_C_class.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_C_class.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_C_class.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_C_class.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_C_class.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_class.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_C_class.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_C_class.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_C_class.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_class.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_C_class.html.pdf){:target="_blank"} |
 
 

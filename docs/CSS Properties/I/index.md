@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/I/image-rendering.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/I/image-rendering.html){:target="_blank"}
 
 <details>
     <summary>
@@ -69,7 +69,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"pixelated"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span> /&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -77,13 +77,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_I_image-rendering.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_image-rendering.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_image-rendering.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_I_image-rendering.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_I_image-rendering.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_I_image-rendering.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_I_image-rendering.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_image-rendering.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_I_image-rendering.html.pdf){:target="_blank"} |
 
 ## 🔬 INITIAL-LETTER
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/I/initial-letter.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/I/initial-letter.html){:target="_blank"}
 
 <details>
     <summary>
@@ -123,7 +123,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way - in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.<span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -131,13 +131,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_I_initial-letter.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_initial-letter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_initial-letter.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_I_initial-letter.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_I_initial-letter.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_I_initial-letter.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_I_initial-letter.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_initial-letter.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_I_initial-letter.html.pdf){:target="_blank"} |
 
 ## 🔬 ISOLATION
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/I/isolation.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/I/isolation.html){:target="_blank"}
 
 <details>
     <summary>
@@ -183,7 +183,7 @@ description:
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -191,6 +191,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_I_isolation.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_isolation.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_isolation.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_I_isolation.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_I_isolation.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_isolation.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_isolation.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_I_isolation.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_I_isolation.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_I_isolation.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_isolation.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_I_isolation.html.pdf){:target="_blank"} |
 
 

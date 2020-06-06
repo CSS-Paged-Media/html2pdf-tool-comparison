@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/P/placeholder-shown.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/P/placeholder-shown.html){:target="_blank"}
 
 <details>
     <summary>
@@ -61,7 +61,7 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
             
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -69,13 +69,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_P_placeholder-shown.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_P_placeholder-shown.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_P_placeholder-shown.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_P_placeholder-shown.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder-shown.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder-shown.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_P_placeholder-shown.html.pdf){:target="_blank"} |
 
 ## 🔬 PLACEHOLDER
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/P/placeholder.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/P/placeholder.html){:target="_blank"}
 
 <details>
     <summary>
@@ -130,7 +130,7 @@ description:
             
           <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -138,6 +138,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_P_placeholder.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_P_placeholder.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_P_placeholder.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_P_placeholder.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_P_placeholder.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_P_placeholder.html.pdf){:target="_blank"} |
 
 

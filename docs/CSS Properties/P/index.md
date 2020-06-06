@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/padding.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/padding.html){:target="_blank"}
 
 <details>
     <summary>
@@ -34,7 +34,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box"</span>&gt;</span>The width of this box is 440px, even though it is defined at 400px in the CSS.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -42,13 +42,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_P_padding.html.png) | ![typeset Preview](typeset__html_CSS_Properties_P_padding.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_P_padding.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_P_padding.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_P_padding.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_P_padding.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_padding.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_P_padding.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_P_padding.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_P_padding.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_padding.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_P_padding.html.pdf){:target="_blank"} |
 
 ## 🔬 PERSPECTIVE-ORIGIN
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/perspective-origin.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/perspective-origin.html){:target="_blank"}
 
 <details>
     <summary>
@@ -253,7 +253,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -261,13 +261,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_P_perspective-origin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_P_perspective-origin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_P_perspective-origin.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_P_perspective-origin.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_P_perspective-origin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_P_perspective-origin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_perspective-origin.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_P_perspective-origin.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_P_perspective-origin.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_P_perspective-origin.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_perspective-origin.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_P_perspective-origin.html.pdf){:target="_blank"} |
 
 ## 🔬 PERSPECTIVE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/perspective.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/perspective.html){:target="_blank"}
 
 <details>
     <summary>
@@ -364,7 +364,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -372,13 +372,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_P_perspective.html.png) | ![typeset Preview](typeset__html_CSS_Properties_P_perspective.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_P_perspective.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_P_perspective.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_P_perspective.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_P_perspective.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_perspective.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_P_perspective.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_P_perspective.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_P_perspective.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_perspective.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_P_perspective.html.pdf){:target="_blank"} |
 
 ## 🔬 POSITION
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/position.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/position.html){:target="_blank"}
 
 <details>
     <summary>
@@ -415,7 +415,7 @@ description:
           <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"absolute"</span>&gt;</span>This div element has position: absolute;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span> 
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -423,6 +423,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_P_position.html.png) | ![typeset Preview](typeset__html_CSS_Properties_P_position.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_P_position.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_P_position.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_P_position.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_P_position.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_position.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_P_position.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_P_position.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_P_position.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_position.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_P_position.html.pdf){:target="_blank"} |
 
 

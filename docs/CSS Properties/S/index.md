@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/shape-outside.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/shape-outside.html){:target="_blank"}
 
 <details>
     <summary>
@@ -40,7 +40,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis impedit libero esse odio excepturi fuga est ut itaque a quod suscipit, rerum asperiores. Consequuntur voluptates illo rerum recusandae pariatur asperiores, aspernatur, saepe ipsum error dolorem, quod inventore possimus modi deleniti tenetur et officiis. Nemo ab in totam ratione sequi error, ea dolorum repudiandae omnis, eaque facere impedit fugiat. Dolorum distinctio autem sequi enim quidem esse accusamus repudiandae voluptatum nobis, velit, molestiae. Eaque maiores, harum. Saepe esse repellendus sint. Labore provident optio quis commodi quod quaerat quo similique perspiciatis libero facere. Suscipit odit quas nemo, enim laudantium, provident repellendus natus nostrum facilis expedita adipisci qui, harum minus quidem officia cupiditate repellat ut praesentium. Possimus corporis, error atque ex adipisci, illum suscipit pariatur saepe impedit aliquam amet eos reiciendis quidem hic, nisi. Sint nobis modi, nesciunt quasi placeat quia. Veniam inventore corrupti quisquam illum debitis vitae accusamus nobis alias cum iste error magnam, cupiditate earum! Incidunt at consequuntur, rem ipsa odio ipsum deleniti repudiandae blanditiis harum ut in, fugit officia rerum ad, corporis dolore! Commodi repellendus esse quibusdam enim qui totam ipsum, consequuntur officia vel dolores, quod corrupti eveniet maiores minus explicabo, sapiente ratione doloribus laboriosam impedit nesciunt a obcaecati quam veritatis! Placeat, velit possimus delectus, atque voluptate iste alias illo, dolor odit ipsa facere quibusdam? Non omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis impedit libero esse odio excepturi fuga est ut itaque a quod suscipit, rerum asperiores. Consequuntur voluptates illo rerum recusandae pariatur asperiores, aspernatur, saepe ipsum error dolorem, quod inventore possimus modi deleniti tenetur et officiis. Nemo ab in totam ratione sequi error, ea dolorum repudiandae omnis, eaque facere impedit fugiat. Dolorum distinctio autem sequi enim quidem esse accusamus repudiandae voluptatum nobis, velit, molestiae. Eaque maiores, harum. Saepe esse repellendus sint. Labore provident optio quis commodi quod quaerat quo similique perspiciatis libero facere. Suscipit odit quas nemo, enim laudantium, provident repellendus natus nostrum facilis expedita adipisci qui, harum minus quidem officia cupiditate repellat ut praesentium. Possimus corporis, error atque ex adipisci, illum suscipit pariatur saepe impedit aliquam amet eos reiciendis quidem hic, nisi. Sint nobis modi, nesciunt quasi placeat quia. Veniam inventore corrupti quisquam illum debitis vitae accusamus nobis alias cum iste error magnam, cupiditate earum! Incidunt at consequuntur, rem ipsa odio ipsum deleniti repudiandae blanditiis harum ut in, fugit officia rerum ad, corporis dolore! Commodi repellendus esse quibusdam enim qui totam ipsum, consequuntur officia vel dolores, quod corrupti eveniet maiores minus explicabo, sapiente ratione doloribus laboriosam impedit nesciunt a obcaecati quam veritatis! Placeat, velit possimus delectus, atque voluptate iste alias illo, dolor odit ipsa facere quibusdam? Non omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores tempore<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -48,13 +48,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_S_shape-outside.html.png) | ![typeset Preview](typeset__html_CSS_Properties_S_shape-outside.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_S_shape-outside.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_S_shape-outside.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_S_shape-outside.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_S_shape-outside.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_shape-outside.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_shape-outside.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_S_shape-outside.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_S_shape-outside.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_shape-outside.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_shape-outside.html.pdf){:target="_blank"} |
 
 ## 🔬 STROKE-DASHARRAY
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-dasharray.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-dasharray.html){:target="_blank"}
 
 <details>
     <summary>
@@ -126,7 +126,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -134,13 +134,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_S_stroke-dasharray.html.png) | ![typeset Preview](typeset__html_CSS_Properties_S_stroke-dasharray.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_S_stroke-dasharray.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_S_stroke-dasharray.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-dasharray.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-dasharray.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-dasharray.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-dasharray.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-dasharray.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-dasharray.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-dasharray.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-dasharray.html.pdf){:target="_blank"} |
 
 ## 🔬 STROKE-DASHOFFSET
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-dashoffset.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-dashoffset.html){:target="_blank"}
 
 <details>
     <summary>
@@ -195,7 +195,7 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -203,13 +203,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_S_stroke-dashoffset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_S_stroke-dashoffset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_S_stroke-dashoffset.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_S_stroke-dashoffset.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-dashoffset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-dashoffset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-dashoffset.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-dashoffset.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-dashoffset.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-dashoffset.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-dashoffset.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-dashoffset.html.pdf){:target="_blank"} |
 
 ## 🔬 STROKE-LINECAP
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-linecap.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-linecap.html){:target="_blank"}
 
 <details>
     <summary>
@@ -259,7 +259,7 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -267,13 +267,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_S_stroke-linecap.html.png) | ![typeset Preview](typeset__html_CSS_Properties_S_stroke-linecap.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_S_stroke-linecap.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_S_stroke-linecap.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-linecap.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-linecap.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-linecap.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-linecap.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-linecap.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-linecap.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-linecap.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-linecap.html.pdf){:target="_blank"} |
 
 ## 🔬 STROKE-LINEJOIN
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-linejoin.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-linejoin.html){:target="_blank"}
 
 <details>
     <summary>
@@ -395,7 +395,7 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -403,13 +403,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_S_stroke-linejoin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_S_stroke-linejoin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_S_stroke-linejoin.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_S_stroke-linejoin.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-linejoin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-linejoin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-linejoin.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-linejoin.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-linejoin.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-linejoin.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-linejoin.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-linejoin.html.pdf){:target="_blank"} |
 
 ## 🔬 STROKE-WIDTH
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-width.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-width.html){:target="_blank"}
 
 <details>
     <summary>
@@ -480,7 +480,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -488,13 +488,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_S_stroke-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_S_stroke-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_S_stroke-width.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_S_stroke-width.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-width.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-width.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke-width.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke-width.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke-width.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke-width.html.pdf){:target="_blank"} |
 
 ## 🔬 STROKE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke.html){:target="_blank"}
 
 <details>
     <summary>
@@ -565,7 +565,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -573,6 +573,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_S_stroke.html.png) | ![typeset Preview](typeset__html_CSS_Properties_S_stroke.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_S_stroke.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_S_stroke.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_S_stroke.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_S_stroke.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_S_stroke.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_S_stroke.html.pdf){:target="_blank"} |
 
 

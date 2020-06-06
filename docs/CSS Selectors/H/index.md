@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/H/hover.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/H/hover.html){:target="_blank"}
 
 <details>
     <summary>
@@ -31,7 +31,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://google.com"</span>&gt;</span>Go to Google<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -39,6 +39,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_H_hover.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_H_hover.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_H_hover.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_H_hover.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_H_hover.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_H_hover.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_H_hover.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_H_hover.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_H_hover.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_H_hover.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_H_hover.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_H_hover.html.pdf){:target="_blank"} |
 
 

@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/J/justify-content.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/J/justify-content.html){:target="_blank"}
 
 <details>
     <summary>
@@ -131,7 +131,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -139,6 +139,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_J_justify-content.html.png) | ![typeset Preview](typeset__html_CSS_Properties_J_justify-content.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_J_justify-content.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_J_justify-content.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_J_justify-content.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_J_justify-content.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_J_justify-content.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_J_justify-content.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_J_justify-content.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_J_justify-content.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_J_justify-content.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_J_justify-content.html.pdf){:target="_blank"} |
 
 

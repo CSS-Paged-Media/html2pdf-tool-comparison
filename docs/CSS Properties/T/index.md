@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/tab-size.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/tab-size.html){:target="_blank"}
 
 <details>
     <summary>
@@ -78,7 +78,7 @@ without tab
 		with 2 tabs	
 <span class="hljs-tag">&lt;/<span class="hljs-name">pre</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -86,13 +86,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_tab-size.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_tab-size.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_tab-size.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_tab-size.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_tab-size.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_tab-size.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_tab-size.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_tab-size.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_tab-size.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_tab-size.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_tab-size.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_tab-size.html.pdf){:target="_blank"} |
 
 ## 🔬 TABLE-LAYOUT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/table-layout.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/table-layout.html){:target="_blank"}
 
 <details>
     <summary>
@@ -170,7 +170,7 @@ without tab
         
         <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tl"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Toggle table-layout: fixed<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -178,13 +178,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_table-layout.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_table-layout.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_table-layout.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_table-layout.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_table-layout.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_table-layout.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_table-layout.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_table-layout.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_table-layout.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_table-layout.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_table-layout.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_table-layout.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-ALIGN-LAST
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-align-last.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-align-last.html){:target="_blank"}
 
 <details>
     <summary>
@@ -276,7 +276,7 @@ without tab
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus mauris, blandit vitae auctor id, rhoncus id eros. Nullam sit amet nulla ac sapien eleifend ultrices. Curabitur ac dictum metus. Pellentesque ullamcorper dolor sit amet mi imperdiet egestas. Nam eu tellus sed nibh tincidunt rutrum eu sed augue. Cras vestibulum elementum tortor in gravida. Sed augue risus, tempor in justo non, fermentum faucibus nibh.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -284,13 +284,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-align-last.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-align-last.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-align-last.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-align-last.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-align-last.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align-last.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align-last.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align-last.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-align-last.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-ALIGN
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-align.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-align.html){:target="_blank"}
 
 <details>
     <summary>
@@ -323,7 +323,7 @@ without tab
 <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The three headings above are aligned center, left and right.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -331,13 +331,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-align.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-align.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-align.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-align.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-align.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-align.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-DECORATION-COLOR
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-color.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-color.html){:target="_blank"}
 
 <details>
     <summary>
@@ -382,7 +382,7 @@ without tab
         <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>I'm a link with a cool underline. Hover me!<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -390,13 +390,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-color.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-color.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-color.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-color.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-color.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-color.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-color.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-DECORATION-LINE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-line.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-line.html){:target="_blank"}
 
 <details>
     <summary>
@@ -447,7 +447,7 @@ without tab
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"line-through"</span>&gt;</span>text-decoration-line: line-through;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"multilines"</span>&gt;</span> text-decoration-line: underline overline line-through;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -455,13 +455,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-line.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-line.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-line.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-line.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-line.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-line.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-line.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-line.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-line.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-DECORATION-SKIP-INK
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-skip-ink.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-skip-ink.html){:target="_blank"}
 
 <details>
     <summary>
@@ -526,7 +526,7 @@ without tab
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"underline skip-ink-none"</span>&gt;</span>Great green gobs of greasy, grimy gopher guts<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -534,13 +534,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip-ink.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-DECORATION-SKIP
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-skip.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-skip.html){:target="_blank"}
 
 <details>
     <summary>
@@ -570,7 +570,7 @@ without tab
 
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">'ink'</span>&gt;</span>An example of the <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">'https://css-tricks.com/almanac/properties/t/text-decoration-skip/'</span>&gt;</span>very cool text-decoration-skip property<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -578,13 +578,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-skip.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-skip.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-skip.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-DECORATION-STYLE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-style.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration-style.html){:target="_blank"}
 
 <details>
     <summary>
@@ -632,7 +632,7 @@ without tab
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"d"</span>&gt;</span>This is some text with a wavy over- and underline.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -640,13 +640,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-style.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-style.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-style.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-style.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-style.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-style.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-style.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-DECORATION
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-decoration.html){:target="_blank"}
 
 <details>
     <summary>
@@ -690,7 +690,7 @@ without tab
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"blink"</span>&gt;</span>text-decoration: blink;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wavy"</span>&gt;</span>text-decoration: red underline overline wavy;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -698,13 +698,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-INDENT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-indent.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-indent.html){:target="_blank"}
 
 <details>
     <summary>
@@ -752,7 +752,7 @@ without tab
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fourth"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -760,13 +760,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-indent.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-indent.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-indent.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-indent.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-indent.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-indent.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-indent.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-indent.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-indent.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-indent.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-indent.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-indent.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-JUSTIFY
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-justify.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-justify.html){:target="_blank"}
 
 <details>
     <summary>
@@ -789,7 +789,7 @@ without tab
 
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -797,13 +797,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-justify.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-justify.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-justify.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-justify.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-justify.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-justify.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-justify.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-justify.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-justify.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-justify.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-justify.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-justify.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-OVERFLOW
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-overflow.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-overflow.html){:target="_blank"}
 
 <details>
     <summary>
@@ -851,7 +851,7 @@ without tab
         <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"><span class="hljs-selector-class">.double</span> { <span class="hljs-attribute">text-overflow</span>: ellipsis ellipsis; <span class="hljs-attribute">text-align</span>: center; }</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"overflow double"</span>&gt;</span>This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -859,13 +859,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-overflow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-overflow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-overflow.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-overflow.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-overflow.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-overflow.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-overflow.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-overflow.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-overflow.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-SHADOW
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-shadow.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-shadow.html){:target="_blank"}
 
 <details>
     <summary>
@@ -997,7 +997,7 @@ without tab
             Vampire Diaries
           <span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1005,13 +1005,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-shadow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-shadow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-shadow.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-shadow.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-shadow.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-shadow.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-shadow.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-shadow.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-shadow.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-STROKE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-stroke.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-stroke.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1038,7 +1038,7 @@ without tab
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>A header with attitude.<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1046,13 +1046,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-stroke.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-stroke.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-stroke.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-stroke.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-stroke.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-stroke.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-stroke.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-stroke.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-stroke.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-TRANSFORM
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-transform.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-transform.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1086,7 +1086,7 @@ without tab
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"capitalize"</span>&gt;</span>This text includes an acronym: CSS.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1094,13 +1094,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-transform.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-transform.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-transform.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-transform.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-transform.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-transform.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-transform.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-transform.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-transform.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-transform.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-transform.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-transform.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-UNDERLINE-OFFSET
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-underline-offset.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-underline-offset.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1186,7 +1186,7 @@ without tab
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1194,13 +1194,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-underline-offset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-underline-offset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-underline-offset.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-underline-offset.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-underline-offset.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-offset.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-offset.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-offset.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-underline-offset.html.pdf){:target="_blank"} |
 
 ## 🔬 TEXT-UNDERLINE-POSITION
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-underline-position.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/text-underline-position.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1231,7 +1231,7 @@ without tab
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"under-below"</span>&gt;</span>Hey, get some yellow spaghetti squash.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1239,13 +1239,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-underline-position.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-underline-position.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-underline-position.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-underline-position.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-underline-position.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-position.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-position.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-position.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-underline-position.html.pdf){:target="_blank"} |
 
 ## 🔬 TOP
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/top.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/top.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1298,7 +1298,7 @@ without tab
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1306,13 +1306,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_top.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_top.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_top.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_top.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_top.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_top.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_top.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_top.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_top.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_top.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_top.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_top.html.pdf){:target="_blank"} |
 
 ## 🔬 TRANSFORM-ORIGIN
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/transform-origin.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/transform-origin.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1353,7 +1353,7 @@ without tab
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1361,13 +1361,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_transform-origin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform-origin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform-origin.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_transform-origin.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_transform-origin.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-origin.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-origin.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-origin.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_transform-origin.html.pdf){:target="_blank"} |
 
 ## 🔬 TRANSFORM-STYLE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/transform-style.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/transform-style.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1415,7 +1415,7 @@ without tab
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1423,13 +1423,13 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_transform-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform-style.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_transform-style.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-style.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_transform-style.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-style.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-style.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-style.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_transform-style.html.pdf){:target="_blank"} |
 
 ## 🔬 TRANSFORM
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/transform.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/T/transform.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1474,7 +1474,7 @@ without tab
             This element is 20px wide and 20px tall but, with the scale function set to 20, it is now 400px wide and 400px tall. Text, padding and margins are also effected by this property.
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1482,6 +1482,6 @@ without tab
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_transform.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_transform.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_transform.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_T_transform.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_transform.html.pdf){:target="_blank"} |
 
 

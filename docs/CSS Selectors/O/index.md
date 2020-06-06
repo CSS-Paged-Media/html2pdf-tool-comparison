@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/only-child.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/only-child.html){:target="_blank"}
 
 <details>
     <summary>
@@ -37,7 +37,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is the second child of its parent<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -45,13 +45,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_only-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_only-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_only-child.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_O_only-child.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_O_only-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_only-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_only-child.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_O_only-child.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_O_only-child.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_O_only-child.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_only-child.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_O_only-child.html.pdf){:target="_blank"} |
 
 ## 🔬 ONLY-OF-TYPE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/only-of-type.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/only-of-type.html){:target="_blank"}
 
 <details>
     <summary>
@@ -84,7 +84,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>We are together.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>  
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -92,13 +92,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_only-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_only-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_only-of-type.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_O_only-of-type.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_O_only-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_only-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_only-of-type.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_O_only-of-type.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_O_only-of-type.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_O_only-of-type.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_only-of-type.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_O_only-of-type.html.pdf){:target="_blank"} |
 
 ## 🔬 OPTIONAL
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/optional.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/optional.html){:target="_blank"}
 
 <details>
     <summary>
@@ -202,7 +202,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -210,13 +210,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_optional.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_optional.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_optional.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_O_optional.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_O_optional.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_optional.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_optional.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_O_optional.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_O_optional.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_O_optional.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_optional.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_O_optional.html.pdf){:target="_blank"} |
 
 ## 🔬 OUT-OF-RANGE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/out-of-range.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/out-of-range.html){:target="_blank"}
 
 <details>
     <summary>
@@ -235,7 +235,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"number"</span> <span class="hljs-attr">min</span>=<span class="hljs-string">"5"</span> <span class="hljs-attr">max</span>=<span class="hljs-string">"10"</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -243,6 +243,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_out-of-range.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_out-of-range.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_out-of-range.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_O_out-of-range.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_O_out-of-range.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_out-of-range.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_out-of-range.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_O_out-of-range.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_O_out-of-range.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_O_out-of-range.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_out-of-range.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_O_out-of-range.html.pdf){:target="_blank"} |
 
 

@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/U/universal.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/U/universal.html){:target="_blank"}
 
 <details>
     <summary>
@@ -34,7 +34,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Test for after.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -42,13 +42,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_U_universal.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_U_universal.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_U_universal.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_U_universal.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_U_universal.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_U_universal.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_U_universal.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_U_universal.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_U_universal.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_U_universal.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_U_universal.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_U_universal.html.pdf){:target="_blank"} |
 
 ## 🔬 USER-INVALID
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/U/user-invalid.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/U/user-invalid.html){:target="_blank"}
 
 <details>
     <summary>
@@ -73,7 +73,7 @@ description:
             <span class="hljs-comment">&lt;!-- Rest of the form... --&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -81,6 +81,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_U_user-invalid.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_U_user-invalid.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_U_user-invalid.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_U_user-invalid.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_U_user-invalid.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_U_user-invalid.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_U_user-invalid.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_U_user-invalid.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_U_user-invalid.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_U_user-invalid.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_U_user-invalid.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_U_user-invalid.html.pdf){:target="_blank"} |
 
 

@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/L/left.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/L/left.html){:target="_blank"}
 
 <details>
     <summary>
@@ -64,7 +64,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -72,13 +72,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_L_left.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_left.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_left.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_L_left.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_L_left.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_left.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_left.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_left.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_L_left.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_L_left.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_left.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_left.html.pdf){:target="_blank"} |
 
 ## 🔬 LETTER-SPACING
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/L/letter-spacing.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/L/letter-spacing.html){:target="_blank"}
 
 <details>
     <summary>
@@ -104,7 +104,7 @@ description:
         
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tight"</span>&gt;</span>This type is letter-spaced tightly at <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>-1px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -112,13 +112,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_L_letter-spacing.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_letter-spacing.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_letter-spacing.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_L_letter-spacing.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_letter-spacing.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_L_letter-spacing.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_L_letter-spacing.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_letter-spacing.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_letter-spacing.html.pdf){:target="_blank"} |
 
 ## 🔬 LINE-HEIGHT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/L/line-height.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/L/line-height.html){:target="_blank"}
 
 <details>
     <summary>
@@ -159,7 +159,7 @@ description:
         
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"p3"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Paragraph 3:<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -167,13 +167,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_L_line-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_line-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_line-height.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_L_line-height.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_L_line-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_line-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_line-height.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_line-height.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_L_line-height.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_L_line-height.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_line-height.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_line-height.html.pdf){:target="_blank"} |
 
 ## 🔬 LIST-STYLE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/L/list-style.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/L/list-style.html){:target="_blank"}
 
 <details>
     <summary>
@@ -336,7 +336,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -344,6 +344,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_L_list-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_list-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_list-style.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_L_list-style.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_L_list-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_list-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_list-style.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_list-style.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_L_list-style.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_L_list-style.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_list-style.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_list-style.html.pdf){:target="_blank"} |
 
 

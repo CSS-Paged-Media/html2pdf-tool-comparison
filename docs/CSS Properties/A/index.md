@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-content.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-content.html){:target="_blank"}
 
 <details>
     <summary>
@@ -159,7 +159,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -167,13 +167,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_A_align-content.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_align-content.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_align-content.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_align-content.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_align-content.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_A_align-content.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_align-content.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_align-content.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_A_align-content.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_align-content.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_align-content.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_align-content.html.pdf){:target="_blank"} |
 
 ## 🔬 ALIGN-ITEMS
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-items.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-items.html){:target="_blank"}
 
 <details>
     <summary>
@@ -286,7 +286,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -294,13 +294,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_A_align-items.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_align-items.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_align-items.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_align-items.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_align-items.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_A_align-items.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_align-items.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_align-items.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_A_align-items.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_align-items.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_align-items.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_align-items.html.pdf){:target="_blank"} |
 
 ## 🔬 ALIGN-SELF
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-self.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-self.html){:target="_blank"}
 
 <details>
     <summary>
@@ -348,7 +348,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item stretch"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -356,13 +356,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_A_align-self.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_align-self.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_align-self.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_align-self.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_align-self.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_A_align-self.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_align-self.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_align-self.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_A_align-self.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_align-self.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_align-self.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_align-self.html.pdf){:target="_blank"} |
 
 ## 🔬 ALL
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/all.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/all.html){:target="_blank"}
 
 <details>
     <summary>
@@ -421,7 +421,7 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>    
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -429,13 +429,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_A_all.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_all.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_all.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_all.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_all.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_A_all.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_all.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_all.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_A_all.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_all.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_all.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_all.html.pdf){:target="_blank"} |
 
 ## 🔬 APPEARANCE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/appearance.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/appearance.html){:target="_blank"}
 
 <details>
     <summary>
@@ -466,7 +466,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"reset"</span>&gt;</span> type=text, reset
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -474,6 +474,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_A_appearance.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_appearance.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_appearance.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_appearance.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_appearance.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_A_appearance.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_appearance.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_appearance.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_A_appearance.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_appearance.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_appearance.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_appearance.html.pdf){:target="_blank"} |
 
 

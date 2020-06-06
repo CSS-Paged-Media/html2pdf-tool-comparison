@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/M/marker.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/M/marker.html){:target="_blank"}
 
 <details>
     <summary>
@@ -41,7 +41,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>There were a king with a large jaw and a queen with a plain face, on the throne of England; there were a king with a large jaw and a queen with a fair face, on the throne of France. In both countries it was clearer than crystal to the lords of the State preserves of loaves and fishes, that things in general were settled for ever.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"note"</span>&gt;</span>Those sound like lovely rulers.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -49,13 +49,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_M_marker.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_M_marker.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_M_marker.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_M_marker.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_M_marker.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_M_marker.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_M_marker.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_M_marker.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_M_marker.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_M_marker.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_M_marker.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_M_marker.html.pdf){:target="_blank"} |
 
 ## 🔬 MATCHES
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/M/matches.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/M/matches.html){:target="_blank"}
 
 <details>
     <summary>
@@ -78,7 +78,7 @@ description:
         
         <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>&gt;</span>CSS-Tricks<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -86,6 +86,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_M_matches.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_M_matches.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_M_matches.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_M_matches.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_M_matches.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_M_matches.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_M_matches.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_M_matches.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_M_matches.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_M_matches.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_M_matches.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_M_matches.html.pdf){:target="_blank"} |
 
 

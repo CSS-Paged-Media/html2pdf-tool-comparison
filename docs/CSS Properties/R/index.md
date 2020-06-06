@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/R/resize.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/R/resize.html){:target="_blank"}
 
 <details>
     <summary>
@@ -51,7 +51,7 @@ description:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel neque nec magna lacinia commodo in vel ante. Aliquam tincidunt, purus sit amet congue placerat, lacus mauris rhoncus nisl, nec ornare libero purus eget augue. In sed dui placerat nisl cursus aliquet. Integer nisl lorem, maximus et viverra non, aliquet vel arcu. Cras ullamcorper, arcu id molestie scelerisque, est turpis interdum mauris, sit amet pretium mi lectus at metus. Phasellus ornare odio in ipsum faucibus, et tempus est porttitor. Nullam sollicitudin eleifend mi at semper. Vivamus vel neque nec magna lacinia commodo in vel ante. Aliquam tincidunt, purus sit amet congue placerat, lacus mauris rhoncus nisl, nec ornare libero purus eget augue.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -59,13 +59,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_R_resize.html.png) | ![typeset Preview](typeset__html_CSS_Properties_R_resize.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_R_resize.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_R_resize.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_R_resize.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_R_resize.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_resize.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_R_resize.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_R_resize.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_R_resize.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_resize.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_R_resize.html.pdf){:target="_blank"} |
 
 ## 🔬 RIGHT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/R/right.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/R/right.html){:target="_blank"}
 
 <details>
     <summary>
@@ -118,7 +118,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -126,6 +126,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_R_right.html.png) | ![typeset Preview](typeset__html_CSS_Properties_R_right.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_R_right.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_R_right.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_R_right.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_R_right.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_right.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_R_right.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_R_right.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_R_right.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_right.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_R_right.html.pdf){:target="_blank"} |
 
 

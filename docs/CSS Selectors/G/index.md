@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/G/general-sibling.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/G/general-sibling.html){:target="_blank"}
 
 <details>
     <summary>
@@ -38,7 +38,7 @@ description:
         
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>And this paragraph will also be selected.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas temporibus facere, porro et. Sed corrupti iusto reprehenderit ratione est deleniti molestias inventore consequuntur dicta tenetur! Animi excepturi quae blanditiis cum.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -46,6 +46,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_G_general-sibling.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_G_general-sibling.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_G_general-sibling.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_G_general-sibling.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_G_general-sibling.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_G_general-sibling.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_G_general-sibling.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_G_general-sibling.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_G_general-sibling.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_G_general-sibling.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_G_general-sibling.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_G_general-sibling.html.pdf){:target="_blank"} |
 
 

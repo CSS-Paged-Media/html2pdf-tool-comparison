@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/B/before.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/B/before.html){:target="_blank"}
 
 <details>
     <summary>
@@ -33,7 +33,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Test for before.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -41,13 +41,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_B_before.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_B_before.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_B_before.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_B_before.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_B_before.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_B_before.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_before.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_B_before.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_B_before.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_B_before.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_before.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_B_before.html.pdf){:target="_blank"} |
 
 ## 🔬 BLANK
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/B/blank.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/B/blank.html){:target="_blank"}
 
 <details>
     <summary>
@@ -81,7 +81,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is not empty or blank.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -89,6 +89,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_B_blank.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_B_blank.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_B_blank.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_B_blank.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_B_blank.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_B_blank.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_blank.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_B_blank.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_B_blank.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_B_blank.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_blank.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_B_blank.html.pdf){:target="_blank"} |
 
 

@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/U/unicode-bidi.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/U/unicode-bidi.html){:target="_blank"}
 
 <details>
     <summary>
@@ -35,7 +35,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This text will go left to right.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">bdo</span> <span class="hljs-attr">dir</span>=<span class="hljs-string">"rtl"</span>&gt;</span>This text will go right to left.<span class="hljs-tag">&lt;/<span class="hljs-name">bdo</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -43,13 +43,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_U_unicode-bidi.html.png) | ![typeset Preview](typeset__html_CSS_Properties_U_unicode-bidi.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_U_unicode-bidi.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_U_unicode-bidi.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_U_unicode-bidi.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_U_unicode-bidi.html.pdf){:target="_blank"} |
 
 ## 🔬 USER-SELECT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/U/user-select.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/U/user-select.html){:target="_blank"}
 
 <details>
     <summary>
@@ -72,7 +72,7 @@ description:
 
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>The text of this div element cannot be selected. If you double-click me, my text will not be highlighted.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -80,6 +80,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_U_user-select.html.png) | ![typeset Preview](typeset__html_CSS_Properties_U_user-select.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_user-select.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_U_user-select.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_U_user-select.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_U_user-select.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_user-select.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_U_user-select.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_U_user-select.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_U_user-select.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_user-select.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_U_user-select.html.pdf){:target="_blank"} |
 
 

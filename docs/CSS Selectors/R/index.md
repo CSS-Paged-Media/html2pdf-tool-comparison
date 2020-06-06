@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/R/read-only.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/R/read-only.html){:target="_blank"}
 
 <details>
     <summary>
@@ -41,7 +41,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The :read-only selector selects form elements with a "readonly" attribute.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -49,13 +49,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_R_read-only.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_R_read-only.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_R_read-only.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_R_read-only.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_R_read-only.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_R_read-only.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_R_read-only.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_R_read-only.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_R_read-only.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_R_read-only.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_R_read-only.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_R_read-only.html.pdf){:target="_blank"} |
 
 ## 🔬 READ-WRITE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/R/read-write.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/R/read-write.html){:target="_blank"}
 
 <details>
     <summary>
@@ -86,7 +86,7 @@ description:
 <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The :read-write selector selects form elements with no "readonly" attribute.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -94,13 +94,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_R_read-write.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_R_read-write.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_R_read-write.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_R_read-write.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_R_read-write.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_R_read-write.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_R_read-write.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_R_read-write.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_R_read-write.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_R_read-write.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_R_read-write.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_R_read-write.html.pdf){:target="_blank"} |
 
 ## 🔬 REQUIRED
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/R/required.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/R/required.html){:target="_blank"}
 
 <details>
     <summary>
@@ -175,7 +175,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>  
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -183,13 +183,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_R_required.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_R_required.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_R_required.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_R_required.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_R_required.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_R_required.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_R_required.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_R_required.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_R_required.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_R_required.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_R_required.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_R_required.html.pdf){:target="_blank"} |
 
 ## 🔬 ROOT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/R/root.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/R/root.html){:target="_blank"}
 
 <details>
     <summary>
@@ -214,7 +214,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>We can take advantage of being able to apply CSS to the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>html<span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> element to skip the wrapper <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>div<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> and keep our markup clean!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -222,6 +222,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_R_root.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_R_root.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_R_root.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_R_root.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_R_root.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_R_root.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_R_root.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_R_root.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_R_root.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_R_root.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_R_root.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_R_root.html.pdf){:target="_blank"} |
 
 

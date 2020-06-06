@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/margin.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/margin.html){:target="_blank"}
 
 <details>
     <summary>
@@ -35,7 +35,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Collapsing Margins<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Example text.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -43,13 +43,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_M_margin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_margin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_margin.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_margin.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_margin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_margin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_margin.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_margin.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_margin.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_M_margin.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_margin.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_margin.html.pdf){:target="_blank"} |
 
 ## 🔬 MASK-IMAGE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mask-image.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mask-image.html){:target="_blank"}
 
 <details>
     <summary>
@@ -89,7 +89,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"el"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -97,13 +97,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_M_mask-image.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_mask-image.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_mask-image.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_mask-image.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mask-image.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_mask-image.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mask-image.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_mask-image.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mask-image.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_M_mask-image.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mask-image.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_mask-image.html.pdf){:target="_blank"} |
 
 ## 🔬 MASK-REPEAT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mask-repeat.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mask-repeat.html){:target="_blank"}
 
 <details>
     <summary>
@@ -143,7 +143,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"el"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -151,13 +151,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_M_mask-repeat.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_mask-repeat.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_mask-repeat.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_mask-repeat.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mask-repeat.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_mask-repeat.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mask-repeat.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_mask-repeat.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mask-repeat.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_M_mask-repeat.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mask-repeat.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_mask-repeat.html.pdf){:target="_blank"} |
 
 ## 🔬 MAX-HEIGHT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/max-height.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/max-height.html){:target="_blank"}
 
 <details>
     <summary>
@@ -307,7 +307,7 @@ description:
                 <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -315,13 +315,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_M_max-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_max-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_max-height.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_max-height.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_max-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_max-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_max-height.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_max-height.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_max-height.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_M_max-height.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_max-height.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_max-height.html.pdf){:target="_blank"} |
 
 ## 🔬 MAX-WIDTH
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/max-width.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/max-width.html){:target="_blank"}
 
 <details>
     <summary>
@@ -438,7 +438,7 @@ description:
           <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>*These examples use the entire viewport width in order to understand and grasp the concepts outlined. Squeeze your browser to witness the results.<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -446,13 +446,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_M_max-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_max-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_max-width.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_max-width.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_max-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_max-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_max-width.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_max-width.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_max-width.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_M_max-width.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_max-width.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_max-width.html.pdf){:target="_blank"} |
 
 ## 🔬 MIN-HEIGHT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/min-height.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/min-height.html){:target="_blank"}
 
 <details>
     <summary>
@@ -603,7 +603,7 @@ description:
                 <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -611,13 +611,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_M_min-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_min-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_min-height.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_min-height.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_min-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_min-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_min-height.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_min-height.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_min-height.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_M_min-height.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_min-height.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_min-height.html.pdf){:target="_blank"} |
 
 ## 🔬 MIN-WIDTH
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/min-width.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/min-width.html){:target="_blank"}
 
 <details>
     <summary>
@@ -744,7 +744,7 @@ description:
           <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>*These examples use the entire viewport width in order to understand and grasp the concepts outlined. Squeeze your browser to witness the results.<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -752,13 +752,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_M_min-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_min-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_min-width.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_min-width.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_min-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_min-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_min-width.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_min-width.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_min-width.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_M_min-width.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_min-width.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_min-width.html.pdf){:target="_blank"} |
 
 ## 🔬 MIX-BLEND-MODE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mix-blend-mode.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mix-blend-mode.html){:target="_blank"}
 
 <details>
     <summary>
@@ -844,7 +844,7 @@ description:
           http://houseindustries.cmail1.com/t/ViewEmail/y/68885BCE0F413AE5/B9C37F14E9781D9EA7F290B8E8FDC6A0
           --&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -852,6 +852,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_M_mix-blend-mode.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_mix-blend-mode.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_mix-blend-mode.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_mix-blend-mode.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mix-blend-mode.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_mix-blend-mode.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mix-blend-mode.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_mix-blend-mode.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mix-blend-mode.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_M_mix-blend-mode.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mix-blend-mode.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_mix-blend-mode.html.pdf){:target="_blank"} |
 
 

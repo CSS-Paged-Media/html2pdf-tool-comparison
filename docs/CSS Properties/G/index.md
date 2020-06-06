@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/G/grid-row-column.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/G/grid-row-column.html){:target="_blank"}
 
 <details>
     <summary>
@@ -65,7 +65,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -73,13 +73,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_G_grid-row-column.html.png) | ![typeset Preview](typeset__html_CSS_Properties_G_grid-row-column.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_G_grid-row-column.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_G_grid-row-column.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_G_grid-row-column.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_G_grid-row-column.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_G_grid-row-column.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_G_grid-row-column.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_G_grid-row-column.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_G_grid-row-column.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_G_grid-row-column.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_G_grid-row-column.html.pdf){:target="_blank"} |
 
 ## 🔬 GRID-TEMPLATE-COLUMNS-ROWS
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/G/grid-template-columns-rows.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/G/grid-template-columns-rows.html){:target="_blank"}
 
 <details>
     <summary>
@@ -155,7 +155,7 @@ description:
           <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item8"</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -163,6 +163,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_G_grid-template-columns-rows.html.png) | ![typeset Preview](typeset__html_CSS_Properties_G_grid-template-columns-rows.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_G_grid-template-columns-rows.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_G_grid-template-columns-rows.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_G_grid-template-columns-rows.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_G_grid-template-columns-rows.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_G_grid-template-columns-rows.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_G_grid-template-columns-rows.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_G_grid-template-columns-rows.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_G_grid-template-columns-rows.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_G_grid-template-columns-rows.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_G_grid-template-columns-rows.html.pdf){:target="_blank"} |
 
 

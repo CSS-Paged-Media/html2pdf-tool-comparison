@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/object-fit.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/object-fit.html){:target="_blank"}
 
 <details>
     <summary>
@@ -119,7 +119,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"object-fit_scale-down"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png"</span>&gt;</span>
              <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -127,13 +127,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_object-fit.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_object-fit.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_object-fit.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_object-fit.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_object-fit.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_object-fit.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_object-fit.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_object-fit.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_object-fit.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_object-fit.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_object-fit.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_object-fit.html.pdf){:target="_blank"} |
 
 ## 🔬 OBJECT-POSITION
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/object-position.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/object-position.html){:target="_blank"}
 
 <details>
     <summary>
@@ -279,7 +279,7 @@ description:
           <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--background-image"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -287,13 +287,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_object-position.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_object-position.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_object-position.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_object-position.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_object-position.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_object-position.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_object-position.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_object-position.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_object-position.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_object-position.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_object-position.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_object-position.html.pdf){:target="_blank"} |
 
 ## 🔬 OFFSET-ANCHOR
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/offset-anchor.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/offset-anchor.html){:target="_blank"}
 
 <details>
     <summary>
@@ -310,7 +310,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -318,13 +318,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_offset-anchor.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_offset-anchor.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_offset-anchor.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_offset-anchor.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-anchor.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-anchor.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-anchor.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_offset-anchor.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-anchor.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-anchor.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-anchor.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_offset-anchor.html.pdf){:target="_blank"} |
 
 ## 🔬 OFFSET-DISTANCE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/offset-distance.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/offset-distance.html){:target="_blank"}
 
 <details>
     <summary>
@@ -341,7 +341,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -349,13 +349,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_offset-distance.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_offset-distance.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_offset-distance.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_offset-distance.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-distance.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-distance.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-distance.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_offset-distance.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-distance.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-distance.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-distance.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_offset-distance.html.pdf){:target="_blank"} |
 
 ## 🔬 OFFSET-PATH
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/offset-path.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/offset-path.html){:target="_blank"}
 
 <details>
     <summary>
@@ -372,7 +372,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -380,13 +380,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_offset-path.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_offset-path.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_offset-path.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_offset-path.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-path.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-path.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-path.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_offset-path.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-path.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-path.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-path.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_offset-path.html.pdf){:target="_blank"} |
 
 ## 🔬 OFFSET-ROTATE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/offset-rotate.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/offset-rotate.html){:target="_blank"}
 
 <details>
     <summary>
@@ -403,7 +403,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -411,13 +411,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_offset-rotate.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_offset-rotate.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_offset-rotate.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_offset-rotate.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-rotate.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-rotate.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-rotate.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_offset-rotate.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-rotate.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-rotate.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-rotate.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_offset-rotate.html.pdf){:target="_blank"} |
 
 ## 🔬 OPACITY
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/opacity.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/opacity.html){:target="_blank"}
 
 <details>
     <summary>
@@ -551,7 +551,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>Elements with an <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>opacity<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> value of '0' are invisible<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -559,13 +559,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_opacity.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_opacity.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_opacity.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_opacity.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_opacity.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_opacity.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_opacity.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_opacity.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_opacity.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_opacity.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_opacity.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_opacity.html.pdf){:target="_blank"} |
 
 ## 🔬 ORDER
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/order.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/order.html){:target="_blank"}
 
 <details>
     <summary>
@@ -623,7 +623,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -631,13 +631,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_order.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_order.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_order.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_order.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_order.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_order.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_order.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_order.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_order.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_order.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_order.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_order.html.pdf){:target="_blank"} |
 
 ## 🔬 ORPHANS
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/orphans.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/orphans.html){:target="_blank"}
 
 <details>
     <summary>
@@ -686,7 +686,7 @@ description:
             Line 8<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span> 
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -694,13 +694,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_orphans.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_orphans.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_orphans.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_orphans.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_orphans.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_orphans.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_orphans.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_orphans.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_orphans.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_orphans.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_orphans.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_orphans.html.pdf){:target="_blank"} |
 
 ## 🔬 OUTLINE-OFFSET
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/outline-offset.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/outline-offset.html){:target="_blank"}
 
 <details>
     <summary>
@@ -735,7 +735,7 @@ description:
 
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -743,13 +743,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_outline-offset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_outline-offset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_outline-offset.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_outline-offset.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_outline-offset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_outline-offset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_outline-offset.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_outline-offset.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_outline-offset.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_outline-offset.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_outline-offset.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_outline-offset.html.pdf){:target="_blank"} |
 
 ## 🔬 OUTLINE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/outline.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/outline.html){:target="_blank"}
 
 <details>
     <summary>
@@ -783,7 +783,7 @@ description:
 
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -791,13 +791,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_outline.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_outline.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_outline.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_outline.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_outline.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_outline.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_outline.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_outline.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_outline.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_outline.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_outline.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_outline.html.pdf){:target="_blank"} |
 
 ## 🔬 OVERFLOW
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/overflow.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/overflow.html){:target="_blank"}
 
 <details>
     <summary>
@@ -824,7 +824,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae suscipit, autem magnam ab. Possimus perferendis officiis doloremque impedit quia quos labore optio quas cum incidunt. Blanditiis dicta, sunt numquam quos.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -832,13 +832,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_overflow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_overflow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_overflow.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_overflow.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_overflow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_overflow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_overflow.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_overflow.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_overflow.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_overflow.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_overflow.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_overflow.html.pdf){:target="_blank"} |
 
 ## 🔬 OVERSCROLL-BEHAVIOR
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/overscroll-behavior.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/O/overscroll-behavior.html){:target="_blank"}
 
 <details>
     <summary>
@@ -871,7 +871,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Default!<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat placeat qui praesentium. Earum itaque architecto laboriosam voluptates beatae dolore molestiae quas magni quo non vel doloribus, accusamus repellendus quaerat aut!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Contain!<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Perspiciatis dolorum corporis minus soluta! Culpa aspernatur non facilis porro. Magni qui cumque eligendi ducimus neque dolor minima, provident quod nihil? Nostrum deleniti laudantium illum corporis iure quasi error earum?<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -879,6 +879,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_overscroll-behavior.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_overscroll-behavior.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_overscroll-behavior.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_O_overscroll-behavior.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_O_overscroll-behavior.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_overscroll-behavior.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_overscroll-behavior.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_overscroll-behavior.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_O_overscroll-behavior.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_O_overscroll-behavior.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_overscroll-behavior.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_O_overscroll-behavior.html.pdf){:target="_blank"} |
 
 

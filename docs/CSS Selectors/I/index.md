@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/id.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/id.html){:target="_blank"}
 
 <details>
     <summary>
@@ -40,7 +40,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"reusable"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"unique"</span>&gt;</span>"Very well, Sir Francis," replied Mr. Fogg; "if he had been caught he would have been condemned and punished, and then would have quietly returned to Europe.  I don't see how this affair could have delayed his master." The conversation fell again.  During the night the train left the mountains behind, and passed Nassik, and the next day proceeded over the flat, well-cultivated country of the Khandeish...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -48,13 +48,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_I_id.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_I_id.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_I_id.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_I_id.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_I_id.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_I_id.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_id.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_I_id.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_I_id.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_I_id.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_id.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_I_id.html.pdf){:target="_blank"} |
 
 ## 🔬 IN-RANGE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/in-range.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/in-range.html){:target="_blank"}
 
 <details>
     <summary>
@@ -73,7 +73,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"number"</span> <span class="hljs-attr">min</span>=<span class="hljs-string">"5"</span> <span class="hljs-attr">max</span>=<span class="hljs-string">"10"</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -81,13 +81,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_I_in-range.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_I_in-range.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_I_in-range.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_I_in-range.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_I_in-range.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_I_in-range.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_in-range.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_I_in-range.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_I_in-range.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_I_in-range.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_in-range.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_I_in-range.html.pdf){:target="_blank"} |
 
 ## 🔬 INVALID
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/invalid.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/invalid.html){:target="_blank"}
 
 <details>
     <summary>
@@ -130,7 +130,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"email"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"emailRequired"</span> <span class="hljs-attr">required</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -138,13 +138,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_I_invalid.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_I_invalid.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_I_invalid.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_I_invalid.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_I_invalid.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_I_invalid.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_invalid.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_I_invalid.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_I_invalid.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_I_invalid.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_invalid.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_I_invalid.html.pdf){:target="_blank"} |
 
 ## 🔬 IS
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/is.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/is.html){:target="_blank"}
 
 <details>
     <summary>
@@ -186,7 +186,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>This is green because <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>.match-me<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is one of the arguments we gave to :any<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -194,6 +194,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_I_is.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_I_is.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_I_is.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_I_is.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_I_is.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_I_is.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_is.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_I_is.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_I_is.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_I_is.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_is.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_I_is.html.pdf){:target="_blank"} |
 
 

@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/not.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/not.html){:target="_blank"}
 
 <details>
     <summary>
@@ -179,7 +179,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -187,13 +187,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_N_not.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_N_not.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_N_not.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_N_not.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_not.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_N_not.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_not.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_not.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_not.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_N_not.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_not.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_not.html.pdf){:target="_blank"} |
 
 ## 🔬 NTH-CHILD
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/nth-child.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/nth-child.html){:target="_blank"}
 
 <details>
     <summary>
@@ -317,7 +317,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>select the first three <span class="hljs-symbol">&amp;lt;</span>li<span class="hljs-symbol">&amp;gt;</span> elements inside of every odd element<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -325,13 +325,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_N_nth-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_N_nth-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_N_nth-child.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_N_nth-child.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_nth-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_N_nth-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_nth-child.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_nth-child.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_nth-child.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_N_nth-child.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_nth-child.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_nth-child.html.pdf){:target="_blank"} |
 
 ## 🔬 NTH-LAST-CHILD
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/nth-last-child.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/nth-last-child.html){:target="_blank"}
 
 <details>
     <summary>
@@ -466,7 +466,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -474,13 +474,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_N_nth-last-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_N_nth-last-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_N_nth-last-child.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_N_nth-last-child.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_nth-last-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_N_nth-last-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_nth-last-child.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_nth-last-child.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_nth-last-child.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_N_nth-last-child.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_nth-last-child.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_nth-last-child.html.pdf){:target="_blank"} |
 
 ## 🔬 NTH-LAST-OF-TYPE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/nth-last-of-type.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/nth-last-of-type.html){:target="_blank"}
 
 <details>
     <summary>
@@ -576,7 +576,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -584,13 +584,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_N_nth-last-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_N_nth-last-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_N_nth-last-of-type.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_N_nth-last-of-type.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_nth-last-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_N_nth-last-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_nth-last-of-type.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_nth-last-of-type.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_nth-last-of-type.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_N_nth-last-of-type.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_nth-last-of-type.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_nth-last-of-type.html.pdf){:target="_blank"} |
 
 ## 🔬 NTH-OF-TYPE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/nth-of-type.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/N/nth-of-type.html){:target="_blank"}
 
 <details>
     <summary>
@@ -686,7 +686,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -694,6 +694,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_N_nth-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_N_nth-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_N_nth-of-type.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_N_nth-of-type.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_nth-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_N_nth-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_nth-of-type.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_nth-of-type.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_N_nth-of-type.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_N_nth-of-type.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_N_nth-of-type.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_N_nth-of-type.html.pdf){:target="_blank"} |
 
 

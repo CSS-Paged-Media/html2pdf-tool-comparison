@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-child.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-child.html){:target="_blank"}
 
 <details>
     <summary>
@@ -50,7 +50,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Jules Verne was a French author who pioneered the genre of science fiction in the late nineteenth and early twentieth century. Follow him on Twitter.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -58,13 +58,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-child.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-child.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-child.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-child.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-child.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-child.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-child.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-child.html.pdf){:target="_blank"} |
 
 ## 🔬 FIRST-LETTER
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-letter.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-letter.html){:target="_blank"}
 
 <details>
     <summary>
@@ -86,7 +86,7 @@ description:
             The first letter is bold and red
            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -94,13 +94,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-letter.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-letter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-letter.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-letter.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-letter.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-letter.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.pdf){:target="_blank"} |
 
 ## 🔬 FIRST-LINE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-line.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-line.html){:target="_blank"}
 
 <details>
     <summary>
@@ -163,7 +163,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"p4"</span>&gt;</span>This paragraph color is set to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>#444<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> with <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>#p4 { color: #444 !important; }<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>  
             <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -171,13 +171,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-line.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-line.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-line.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-line.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-line.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-line.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-line.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-line.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-line.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-line.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-line.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-line.html.pdf){:target="_blank"} |
 
 ## 🔬 FIRST-OF-TYPE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-of-type.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-of-type.html){:target="_blank"}
 
 <details>
     <summary>
@@ -216,7 +216,7 @@ description:
          
          
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -224,13 +224,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-of-type.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-of-type.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-of-type.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-of-type.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.pdf){:target="_blank"} |
 
 ## 🔬 FOCUS-VISIBLE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus-visible.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus-visible.html){:target="_blank"}
 
 <details>
     <summary>
@@ -262,7 +262,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"focus-visible-only"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">":focus-visible only"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"focus-visible-only"</span>&gt;</span>:focus-visible only<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -270,13 +270,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-visible.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-visible.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-visible.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-visible.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-visible.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-visible.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.pdf){:target="_blank"} |
 
 ## 🔬 FOCUS-WITHIN
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus-within.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus-within.html){:target="_blank"}
 
 <details>
     <summary>
@@ -507,7 +507,7 @@ description:
             
           <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -515,13 +515,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-within.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-within.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-within.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-within.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-within.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-within.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.pdf){:target="_blank"} |
 
 ## 🔬 FOCUS
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus.html){:target="_blank"}
 
 <details>
     <summary>
@@ -562,7 +562,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">tabindex</span>=<span class="hljs-string">"4"</span>&gt;</span>I'm another div, and I have a <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>tabindex<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>. You can't edit me like the div above, but you can tab to me.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">tabindex</span>=<span class="hljs-string">"-1"</span>&gt;</span>I can't be tabbed to. This is a terrible idea, generally, but it can be done using tabindex="-1". Notice that (if you click) I still have a focus state, even though you can't tab to me.<span class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -570,6 +570,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_focus.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus.html.pdf){:target="_blank"} |
 
 

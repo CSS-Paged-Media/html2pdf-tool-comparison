@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/V/valid.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/V/valid.html){:target="_blank"}
 
 <details>
     <summary>
@@ -55,7 +55,7 @@ description:
           <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"guess"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"guess"</span> <span class="hljs-attr">pattern</span>=<span class="hljs-string">"[1-9]{1}"</span> <span class="hljs-attr">required</span> /&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -63,13 +63,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_V_valid.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_V_valid.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_V_valid.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_V_valid.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_V_valid.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_V_valid.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_V_valid.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_V_valid.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_V_valid.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_V_valid.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_V_valid.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_V_valid.html.pdf){:target="_blank"} |
 
 ## 🔬 VISITED
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/V/visited.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/V/visited.html){:target="_blank"}
 
 <details>
     <summary>
@@ -122,7 +122,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.google.com"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"google"</span>&gt;</span>This link goes to Google. After it's been visited, it will turn white and the background will turn orange. <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -130,6 +130,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_V_visited.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_V_visited.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_V_visited.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_V_visited.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_V_visited.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_V_visited.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_V_visited.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_V_visited.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_V_visited.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_V_visited.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_V_visited.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_V_visited.html.pdf){:target="_blank"} |
 
 

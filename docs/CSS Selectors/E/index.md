@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/E/empty.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/E/empty.html){:target="_blank"}
 
 <details>
     <summary>
@@ -39,7 +39,7 @@ description:
 
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-comment">&lt;!-- test --&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -47,13 +47,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_E_empty.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_E_empty.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_E_empty.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_E_empty.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_E_empty.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_E_empty.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_E_empty.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_E_empty.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_E_empty.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_E_empty.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_E_empty.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_E_empty.html.pdf){:target="_blank"} |
 
 ## 🔬 ENABLED
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/E/enabled.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/E/enabled.html){:target="_blank"}
 
 <details>
     <summary>
@@ -80,7 +80,7 @@ description:
             Country: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">disabled</span>=<span class="hljs-string">"disabled"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"Disneyland"</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -88,6 +88,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_E_enabled.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_E_enabled.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_E_enabled.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_E_enabled.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_E_enabled.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_E_enabled.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_E_enabled.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_E_enabled.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_E_enabled.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_E_enabled.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_E_enabled.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_E_enabled.html.pdf){:target="_blank"} |
 
 

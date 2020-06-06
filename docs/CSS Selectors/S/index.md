@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/S/selection.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/S/selection.html){:target="_blank"}
 
 <details>
     <summary>
@@ -81,7 +81,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">class</span>=<span class="hljs-string">'example-textarea'</span> <span class="hljs-attr">cols</span>=<span class="hljs-string">'30'</span> <span class="hljs-attr">name</span>=<span class="hljs-string">''</span> <span class="hljs-attr">rows</span>=<span class="hljs-string">'10'</span>&gt;</span>Textarea, too!*<span class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">'foot-notes'</span>&gt;</span>*not Safari<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -89,6 +89,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_S_selection.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_S_selection.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_S_selection.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_S_selection.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_S_selection.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_S_selection.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_S_selection.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_S_selection.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_S_selection.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_S_selection.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_S_selection.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_S_selection.html.pdf){:target="_blank"} |
 
 

@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/white-space.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/white-space.html){:target="_blank"}
 
 <details>
     <summary>
@@ -63,7 +63,7 @@ This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
 <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -71,13 +71,13 @@ This is some text. This is some text. This is some text.
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_white-space.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_white-space.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_white-space.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_white-space.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_white-space.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_white-space.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_white-space.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_white-space.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_W_white-space.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_white-space.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_white-space.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_white-space.html.pdf){:target="_blank"} |
 
 ## 🔬 WIDOWS
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/widows.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/widows.html){:target="_blank"}
 
 <details>
     <summary>
@@ -119,7 +119,7 @@ This is some text. This is some text. This is some text.
     <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -127,13 +127,13 @@ This is some text. This is some text. This is some text.
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_widows.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_widows.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_widows.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_widows.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_widows.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_widows.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_widows.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_widows.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_W_widows.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_widows.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_widows.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_widows.html.pdf){:target="_blank"} |
 
 ## 🔬 WIDTH
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/width.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/width.html){:target="_blank"}
 
 <details>
     <summary>
@@ -257,7 +257,7 @@ This is some text. This is some text. This is some text.
 	<span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -265,13 +265,13 @@ This is some text. This is some text. This is some text.
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_width.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_width.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_width.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_width.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_W_width.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_width.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_width.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_width.html.pdf){:target="_blank"} |
 
 ## 🔬 WORD-BREAK
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/word-break.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/word-break.html){:target="_blank"}
 
 <details>
     <summary>
@@ -309,7 +309,7 @@ This is some text. This is some text. This is some text.
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"txt"</span>&gt;</span>Marco<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -317,13 +317,13 @@ This is some text. This is some text. This is some text.
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_word-break.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_word-break.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_word-break.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_word-break.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_word-break.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_word-break.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-break.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_word-break.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_W_word-break.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_word-break.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-break.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_word-break.html.pdf){:target="_blank"} |
 
 ## 🔬 WORD-SPACING
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/word-spacing.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/word-spacing.html){:target="_blank"}
 
 <details>
     <summary>
@@ -361,7 +361,7 @@ This is some text. This is some text. This is some text.
 <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"c"</span>&gt;</span>This is some text. This is some text.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -369,13 +369,13 @@ This is some text. This is some text. This is some text.
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_word-spacing.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_word-spacing.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_word-spacing.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_word-spacing.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_word-spacing.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_word-spacing.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-spacing.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_word-spacing.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_W_word-spacing.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_word-spacing.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-spacing.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_word-spacing.html.pdf){:target="_blank"} |
 
 ## 🔬 WRITING-MODE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/writing-mode.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/writing-mode.html){:target="_blank"}
 
 <details>
     <summary>
@@ -407,7 +407,7 @@ This is some text. This is some text. This is some text.
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"vertical-rl"</span>&gt;</span>This is text that needs to be read from top to bottom, and from right to left.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -415,6 +415,6 @@ This is some text. This is some text. This is some text.
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_writing-mode.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_writing-mode.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_writing-mode.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_writing-mode.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_writing-mode.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_writing-mode.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_writing-mode.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_writing-mode.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_W_writing-mode.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_writing-mode.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_writing-mode.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_writing-mode.html.pdf){:target="_blank"} |
 
 

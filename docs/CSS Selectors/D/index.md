@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/default.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/default.html){:target="_blank"}
 
 <details>
     <summary>
@@ -45,7 +45,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -53,13 +53,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_D_default.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_D_default.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_default.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_D_default.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_D_default.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_D_default.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_default.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_D_default.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_D_default.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_D_default.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_default.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_D_default.html.pdf){:target="_blank"} |
 
 ## 🔬 DESCENDANT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/descendant.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/descendant.html){:target="_blank"}
 
 <details>
     <summary>
@@ -85,7 +85,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -93,13 +93,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_D_descendant.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_D_descendant.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_descendant.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_D_descendant.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_D_descendant.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_D_descendant.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_descendant.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_D_descendant.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_D_descendant.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_D_descendant.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_descendant.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_D_descendant.html.pdf){:target="_blank"} |
 
 ## 🔬 DIR
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/dir.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/dir.html){:target="_blank"}
 
 <details>
     <summary>
@@ -153,7 +153,7 @@ description:
           <span class="hljs-tag">&lt;<span class="hljs-name">cite</span>&gt;</span><span class="hljs-symbol">&amp;mdash;</span>Bill Watterson<span class="hljs-tag">&lt;/<span class="hljs-name">cite</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -161,13 +161,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_D_dir.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_D_dir.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_dir.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_D_dir.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_D_dir.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_D_dir.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_dir.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_D_dir.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_D_dir.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_D_dir.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_dir.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_D_dir.html.pdf){:target="_blank"} |
 
 ## 🔬 DISABLED
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/disabled.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/disabled.html){:target="_blank"}
 
 <details>
     <summary>
@@ -239,7 +239,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">disabled</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>  
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -247,6 +247,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_D_disabled.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_D_disabled.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_disabled.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_D_disabled.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_D_disabled.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_D_disabled.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_disabled.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_D_disabled.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_D_disabled.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_D_disabled.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_disabled.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_D_disabled.html.pdf){:target="_blank"} |
 
 

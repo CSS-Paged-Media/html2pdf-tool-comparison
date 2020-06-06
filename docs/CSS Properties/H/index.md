@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/H/hanging-punctuation.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/H/hanging-punctuation.html){:target="_blank"}
 
 <details>
     <summary>
@@ -38,7 +38,7 @@ description:
             “Let your tears flow, but let them also cease. Let deepest sighs be drawn from your breast, but let them also find an end.” — Seneca
           <span class="hljs-tag">&lt;/<span class="hljs-name">blockquote</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -46,13 +46,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_H_hanging-punctuation.html.png) | ![typeset Preview](typeset__html_CSS_Properties_H_hanging-punctuation.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_H_hanging-punctuation.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_H_hanging-punctuation.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_H_hanging-punctuation.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_H_hanging-punctuation.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_H_hanging-punctuation.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_H_hanging-punctuation.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_H_hanging-punctuation.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_H_hanging-punctuation.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_H_hanging-punctuation.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_H_hanging-punctuation.html.pdf){:target="_blank"} |
 
 ## 🔬 HEIGHT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/H/height.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/H/height.html){:target="_blank"}
 
 <details>
     <summary>
@@ -194,7 +194,7 @@ description:
                 <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -202,13 +202,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_H_height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_H_height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_H_height.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_H_height.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_H_height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_H_height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_H_height.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_H_height.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_H_height.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_H_height.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_H_height.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_H_height.html.pdf){:target="_blank"} |
 
 ## 🔬 HYPHENS
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/H/hyphens.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/H/hyphens.html){:target="_blank"}
 
 <details>
     <summary>
@@ -245,7 +245,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>From <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"http://www.webdesignerdepot.com/2012/03/15-dummy-text-generators-you-should-know/"</span>&gt;</span>this article<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> on WebDesignerDepot.<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -253,6 +253,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_H_hyphens.html.png) | ![typeset Preview](typeset__html_CSS_Properties_H_hyphens.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_H_hyphens.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_H_hyphens.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_H_hyphens.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_H_hyphens.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_H_hyphens.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_H_hyphens.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_H_hyphens.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_H_hyphens.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_H_hyphens.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_H_hyphens.html.pdf){:target="_blank"} |
 
 

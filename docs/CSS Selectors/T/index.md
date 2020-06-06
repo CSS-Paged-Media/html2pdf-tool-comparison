@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/T/target.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/T/target.html){:target="_blank"}
 
 <details>
     <summary>
@@ -40,7 +40,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"news2"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>New content 2...<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -48,13 +48,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_T_target.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_T_target.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_T_target.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_T_target.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_T_target.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_T_target.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_T_target.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_T_target.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_T_target.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_T_target.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_T_target.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_T_target.html.pdf){:target="_blank"} |
 
 ## 🔬 TYPE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/T/type.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/T/type.html){:target="_blank"}
 
 <details>
     <summary>
@@ -73,7 +73,7 @@ description:
     <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hello Type.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -81,6 +81,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_T_type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_T_type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_T_type.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_T_type.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_T_type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_T_type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_T_type.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_T_type.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_T_type.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_T_type.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_T_type.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_T_type.html.pdf){:target="_blank"} |
 
 

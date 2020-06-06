@@ -8,5 +8,4 @@ description:
 ## 🔬 Test Sections
 <div class="boxes"><a href="/CSS-Properties/">CSS Properties</a>
 <a href="/CSS-Selectors/">CSS Selectors</a>
-<a href="/PDFreactor-Examples/">PDFreactor Examples</a>
 </div>

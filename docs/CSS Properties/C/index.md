@@ -11,7 +11,7 @@ description:
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/caption-side.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/caption-side.html){:target="_blank"}
 
 <details>
     <summary>
@@ -96,7 +96,7 @@ description:
 <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -104,13 +104,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_caption-side.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_caption-side.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_caption-side.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_caption-side.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_caption-side.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_caption-side.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_caption-side.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_caption-side.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_caption-side.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_caption-side.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_caption-side.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_caption-side.html.pdf){:target="_blank"} |
 
 ## 🔬 CARET-COLOR
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/caret-color.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/caret-color.html){:target="_blank"}
 
 <details>
     <summary>
@@ -144,7 +144,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Note:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> Edge and Safari 10 and earlier do not support the caret-color property.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -152,13 +152,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_caret-color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_caret-color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_caret-color.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_caret-color.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_caret-color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_caret-color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_caret-color.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_caret-color.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_caret-color.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_caret-color.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_caret-color.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_caret-color.html.pdf){:target="_blank"} |
 
 ## 🔬 CLEAR
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/clear.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/clear.html){:target="_blank"}
 
 <details>
     <summary>
@@ -205,7 +205,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"div3"</span>&gt;</span>div3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"div4"</span>&gt;</span>div4 - Here, clear: left; moves div4 down below the floating div3. The value "left" clears elements floated to the left. You can also clear "right" and "both".<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -213,13 +213,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_clear.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_clear.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_clear.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_clear.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_clear.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_clear.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_clear.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_clear.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_clear.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_clear.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_clear.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_clear.html.pdf){:target="_blank"} |
 
 ## 🔬 CLIP-PATH
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/clip-path.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/clip-path.html){:target="_blank"}
 
 <details>
     <summary>
@@ -240,7 +240,7 @@ description:
 
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Note:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> Edge does not support clip-path on HTML elements (only on SVG elements).<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -248,13 +248,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_clip-path.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_clip-path.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_clip-path.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_clip-path.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_clip-path.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_clip-path.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_clip-path.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_clip-path.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_clip-path.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_clip-path.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_clip-path.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_clip-path.html.pdf){:target="_blank"} |
 
 ## 🔬 COLOR
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/color.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/color.html){:target="_blank"}
 
 <details>
     <summary>
@@ -302,7 +302,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"hsla"</span>&gt;</span>HSLa Color<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span> <span class="hljs-comment">&lt;!-- hsla(180, 100%, 50%, .5) --&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -310,13 +310,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_color.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_color.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_color.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_color.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_color.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_color.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_color.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_color.html.pdf){:target="_blank"} |
 
 ## 🔬 COLUMN-COUNT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-count.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-count.html){:target="_blank"}
 
 <details>
     <summary>
@@ -377,7 +377,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Sed sagittis aliquam nulla vel viverra. Sed at augue eros. Nam tincidunt mi eu malesuada molestie.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -385,13 +385,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_column-count.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-count.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-count.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-count.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-count.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-count.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-count.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-count.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-count.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_column-count.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-count.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-count.html.pdf){:target="_blank"} |
 
 ## 🔬 COLUMN-FILL
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-fill.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-fill.html){:target="_blank"}
 
 <details>
     <summary>
@@ -452,7 +452,7 @@ description:
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -460,13 +460,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_column-fill.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-fill.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-fill.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-fill.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-fill.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-fill.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-fill.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-fill.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-fill.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_column-fill.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-fill.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-fill.html.pdf){:target="_blank"} |
 
 ## 🔬 COLUMN-GAP
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-gap.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-gap.html){:target="_blank"}
 
 <details>
     <summary>
@@ -513,7 +513,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Sed sagittis aliquam nulla vel viverra. Sed at augue eros. Nam tincidunt mi eu malesuada molestie.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -521,13 +521,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_column-gap.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-gap.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-gap.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-gap.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-gap.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-gap.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-gap.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-gap.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-gap.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_column-gap.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-gap.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-gap.html.pdf){:target="_blank"} |
 
 ## 🔬 COLUMN-RULE
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-rule.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-rule.html){:target="_blank"}
 
 <details>
     <summary>
@@ -706,7 +706,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Fusce lobortis adipiscing purus vel rhoncus. Proin sit amet euismod justo, egestas auctor eros. Nulla vitae magna sed sapien ultricies dapibus a non libero. Sed posuere metus a pellentesque mattis.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -714,13 +714,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_column-rule.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-rule.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-rule.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-rule.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-rule.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-rule.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-rule.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-rule.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-rule.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_column-rule.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-rule.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-rule.html.pdf){:target="_blank"} |
 
 ## 🔬 COLUMN-SPAN
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-span.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-span.html){:target="_blank"}
 
 <details>
     <summary>
@@ -804,7 +804,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>  
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -812,13 +812,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_column-span.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-span.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-span.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-span.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-span.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-span.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-span.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-span.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-span.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_column-span.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-span.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-span.html.pdf){:target="_blank"} |
 
 ## 🔬 COLUMN-WIDTH
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-width.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/column-width.html){:target="_blank"}
 
 <details>
     <summary>
@@ -891,7 +891,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tag"</span>&gt;</span>mattis<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>   
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -899,13 +899,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_column-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-width.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-width.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-width.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-width.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-width.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_column-width.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-width.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-width.html.pdf){:target="_blank"} |
 
 ## 🔬 COLUMNS
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/columns.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/columns.html){:target="_blank"}
 
 <details>
     <summary>
@@ -970,7 +970,7 @@ description:
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus.  <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -978,13 +978,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_columns.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_columns.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_columns.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_columns.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_columns.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_columns.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_columns.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_columns.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_columns.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_columns.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_columns.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_columns.html.pdf){:target="_blank"} |
 
 ## 🔬 CONTENT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/content.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/content.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1011,7 +1011,7 @@ description:
         <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1019,13 +1019,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_content.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_content.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_content.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_content.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_content.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_content.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_content.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_content.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_content.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_content.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_content.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_content.html.pdf){:target="_blank"} |
 
 ## 🔬 COUNTER-INCREMENT
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/counter-increment.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/counter-increment.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1056,7 +1056,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>SQL Tutorial<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>PHP Tutorial<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1064,13 +1064,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_counter-increment.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_counter-increment.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_counter-increment.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_counter-increment.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_counter-increment.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_counter-increment.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_counter-increment.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_counter-increment.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_counter-increment.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_counter-increment.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_counter-increment.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_counter-increment.html.pdf){:target="_blank"} |
 
 ## 🔬 COUNTER-RESET
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/counter-reset.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/counter-reset.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1119,7 +1119,7 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1127,13 +1127,13 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_counter-reset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_counter-reset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_counter-reset.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_counter-reset.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_counter-reset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_counter-reset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_counter-reset.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_counter-reset.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_counter-reset.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_counter-reset.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_counter-reset.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_counter-reset.html.pdf){:target="_blank"} |
 
 ## 🔬 CURSOR
 
 ### Input HTML & CSS
 
-[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/cursor.html)
+[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/C/cursor.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1223,7 +1223,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"zoom-in"</span>&gt;</span>zoom-in<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"zoom-out"</span>&gt;</span>zoom-out<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1231,6 +1231,6 @@ description:
 | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
 |---------|---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_C_cursor.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_cursor.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_cursor.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_cursor.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_cursor.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_cursor.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_cursor.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_cursor.html.pdf) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_cursor.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_C_cursor.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_cursor.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_cursor.html.pdf){:target="_blank"} |
 
 
