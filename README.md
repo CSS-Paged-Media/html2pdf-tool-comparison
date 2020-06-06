@@ -1,4 +1,3 @@
-
 # A comparison between [mPDF](https://mpdf.github.io/), [typeset.sh](https://typeset.sh/en/), and [PDFreactor](https://www.pdfreactor.com/)
 
 Tools | Versions
