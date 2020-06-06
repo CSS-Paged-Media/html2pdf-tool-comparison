@@ -10,5 +10,5 @@ description:
 
 
 ## Files
-* [QUOTES](/compare.html2pdf.tools/docs/CSS-Properties/Q/quotes)
+* [QUOTES](/compare.html2pdf.tools/docs/CSS-Properties/Q/quotes.html)
 

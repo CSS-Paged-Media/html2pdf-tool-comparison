@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [EMPTY](/compare.html2pdf.tools/docs/CSS-Selectors/E/empty)
-* [ENABLED](/compare.html2pdf.tools/docs/CSS-Selectors/E/enabled)
+* [EMPTY](/compare.html2pdf.tools/docs/CSS-Selectors/E/empty.html)
+* [ENABLED](/compare.html2pdf.tools/docs/CSS-Selectors/E/enabled.html)
 

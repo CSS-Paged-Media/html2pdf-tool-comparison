@@ -10,5 +10,5 @@ description:
 
 
 ## Files
-* [JUSTIFY-CONTENT](/compare.html2pdf.tools/docs/CSS-Properties/J/justify-content)
+* [JUSTIFY-CONTENT](/compare.html2pdf.tools/docs/CSS-Properties/J/justify-content.html)
 

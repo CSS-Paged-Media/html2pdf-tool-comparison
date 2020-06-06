@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [PLACEHOLDER-SHOWN](/compare.html2pdf.tools/docs/CSS-Selectors/P/placeholder-shown)
-* [PLACEHOLDER](/compare.html2pdf.tools/docs/CSS-Selectors/P/placeholder)
+* [PLACEHOLDER-SHOWN](/compare.html2pdf.tools/docs/CSS-Selectors/P/placeholder-shown.html)
+* [PLACEHOLDER](/compare.html2pdf.tools/docs/CSS-Selectors/P/placeholder.html)
 

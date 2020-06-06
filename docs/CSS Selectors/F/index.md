@@ -10,11 +10,11 @@ description:
 
 
 ## Files
-* [FIRST-CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-child)
-* [FIRST-LETTER](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-letter)
-* [FIRST-LINE](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-line)
-* [FIRST-OF-TYPE](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-of-type)
-* [FOCUS-VISIBLE](/compare.html2pdf.tools/docs/CSS-Selectors/F/focus-visible)
-* [FOCUS-WITHIN](/compare.html2pdf.tools/docs/CSS-Selectors/F/focus-within)
-* [FOCUS](/compare.html2pdf.tools/docs/CSS-Selectors/F/focus)
+* [FIRST-CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-child.html)
+* [FIRST-LETTER](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-letter.html)
+* [FIRST-LINE](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-line.html)
+* [FIRST-OF-TYPE](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-of-type.html)
+* [FOCUS-VISIBLE](/compare.html2pdf.tools/docs/CSS-Selectors/F/focus-visible.html)
+* [FOCUS-WITHIN](/compare.html2pdf.tools/docs/CSS-Selectors/F/focus-within.html)
+* [FOCUS](/compare.html2pdf.tools/docs/CSS-Selectors/F/focus.html)
 

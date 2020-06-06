@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [VERTICAL-ALIGN](/compare.html2pdf.tools/docs/CSS-Properties/V/vertical-align)
-* [VISIBILITY](/compare.html2pdf.tools/docs/CSS-Properties/V/visibility)
+* [VERTICAL-ALIGN](/compare.html2pdf.tools/docs/CSS-Properties/V/vertical-align.html)
+* [VISIBILITY](/compare.html2pdf.tools/docs/CSS-Properties/V/visibility.html)
 

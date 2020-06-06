@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A comparison between different HTML2PDF tools
-permalink: /compare.html2pdf.tools/docs/CSS-Properties/B/border-image/
+permalink: /compare.html2pdf.tools/docs/CSS-Properties/B/border-image.html
 description: 
 ---
 

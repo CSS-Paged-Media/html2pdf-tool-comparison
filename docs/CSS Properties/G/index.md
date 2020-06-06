@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [GRID-ROW-COLUMN](/compare.html2pdf.tools/docs/CSS-Properties/G/grid-row-column)
-* [GRID-TEMPLATE-COLUMNS-ROWS](/compare.html2pdf.tools/docs/CSS-Properties/G/grid-template-columns-rows)
+* [GRID-ROW-COLUMN](/compare.html2pdf.tools/docs/CSS-Properties/G/grid-row-column.html)
+* [GRID-TEMPLATE-COLUMNS-ROWS](/compare.html2pdf.tools/docs/CSS-Properties/G/grid-template-columns-rows.html)
 

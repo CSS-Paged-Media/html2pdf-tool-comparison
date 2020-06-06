@@ -10,7 +10,7 @@ description:
 
 
 ## Files
-* [HANGING-PUNCTUATION](/compare.html2pdf.tools/docs/CSS-Properties/H/hanging-punctuation)
-* [HEIGHT](/compare.html2pdf.tools/docs/CSS-Properties/H/height)
-* [HYPHENS](/compare.html2pdf.tools/docs/CSS-Properties/H/hyphens)
+* [HANGING-PUNCTUATION](/compare.html2pdf.tools/docs/CSS-Properties/H/hanging-punctuation.html)
+* [HEIGHT](/compare.html2pdf.tools/docs/CSS-Properties/H/height.html)
+* [HYPHENS](/compare.html2pdf.tools/docs/CSS-Properties/H/hyphens.html)
 

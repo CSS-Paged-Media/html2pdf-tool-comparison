@@ -10,7 +10,7 @@ description:
 
 
 ## Files
-* [IMAGE-RENDERING](/compare.html2pdf.tools/docs/CSS-Properties/I/image-rendering)
-* [INITIAL-LETTER](/compare.html2pdf.tools/docs/CSS-Properties/I/initial-letter)
-* [ISOLATION](/compare.html2pdf.tools/docs/CSS-Properties/I/isolation)
+* [IMAGE-RENDERING](/compare.html2pdf.tools/docs/CSS-Properties/I/image-rendering.html)
+* [INITIAL-LETTER](/compare.html2pdf.tools/docs/CSS-Properties/I/initial-letter.html)
+* [ISOLATION](/compare.html2pdf.tools/docs/CSS-Properties/I/isolation.html)
 

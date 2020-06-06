@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A comparison between different HTML2PDF tools
-permalink: /compare.html2pdf.tools/docs/CSS-Selectors/I/id/
+permalink: /compare.html2pdf.tools/docs/CSS-Selectors/I/id.html
 description: 
 ---
 

@@ -10,9 +10,9 @@ description:
 
 
 ## Files
-* [ALIGN-CONTENT](/compare.html2pdf.tools/docs/CSS-Properties/A/align-content)
-* [ALIGN-ITEMS](/compare.html2pdf.tools/docs/CSS-Properties/A/align-items)
-* [ALIGN-SELF](/compare.html2pdf.tools/docs/CSS-Properties/A/align-self)
-* [ALL](/compare.html2pdf.tools/docs/CSS-Properties/A/all)
-* [APPEARANCE](/compare.html2pdf.tools/docs/CSS-Properties/A/appearance)
+* [ALIGN-CONTENT](/compare.html2pdf.tools/docs/CSS-Properties/A/align-content.html)
+* [ALIGN-ITEMS](/compare.html2pdf.tools/docs/CSS-Properties/A/align-items.html)
+* [ALIGN-SELF](/compare.html2pdf.tools/docs/CSS-Properties/A/align-self.html)
+* [ALL](/compare.html2pdf.tools/docs/CSS-Properties/A/all.html)
+* [APPEARANCE](/compare.html2pdf.tools/docs/CSS-Properties/A/appearance.html)
 

@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [MARKER](/compare.html2pdf.tools/docs/CSS-Selectors/M/marker)
-* [MATCHES](/compare.html2pdf.tools/docs/CSS-Selectors/M/matches)
+* [MARKER](/compare.html2pdf.tools/docs/CSS-Selectors/M/marker.html)
+* [MATCHES](/compare.html2pdf.tools/docs/CSS-Selectors/M/matches.html)
 

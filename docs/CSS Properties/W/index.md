@@ -10,10 +10,10 @@ description:
 
 
 ## Files
-* [WHITE-SPACE](/compare.html2pdf.tools/docs/CSS-Properties/W/white-space)
-* [WIDOWS](/compare.html2pdf.tools/docs/CSS-Properties/W/widows)
-* [WIDTH](/compare.html2pdf.tools/docs/CSS-Properties/W/width)
-* [WORD-BREAK](/compare.html2pdf.tools/docs/CSS-Properties/W/word-break)
-* [WORD-SPACING](/compare.html2pdf.tools/docs/CSS-Properties/W/word-spacing)
-* [WRITING-MODE](/compare.html2pdf.tools/docs/CSS-Properties/W/writing-mode)
+* [WHITE-SPACE](/compare.html2pdf.tools/docs/CSS-Properties/W/white-space.html)
+* [WIDOWS](/compare.html2pdf.tools/docs/CSS-Properties/W/widows.html)
+* [WIDTH](/compare.html2pdf.tools/docs/CSS-Properties/W/width.html)
+* [WORD-BREAK](/compare.html2pdf.tools/docs/CSS-Properties/W/word-break.html)
+* [WORD-SPACING](/compare.html2pdf.tools/docs/CSS-Properties/W/word-spacing.html)
+* [WRITING-MODE](/compare.html2pdf.tools/docs/CSS-Properties/W/writing-mode.html)
 

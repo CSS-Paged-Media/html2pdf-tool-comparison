@@ -10,8 +10,8 @@ description:
 
 
 ## Files
-* [PADDING](/compare.html2pdf.tools/docs/CSS-Properties/P/padding)
-* [PERSPECTIVE-ORIGIN](/compare.html2pdf.tools/docs/CSS-Properties/P/perspective-origin)
-* [PERSPECTIVE](/compare.html2pdf.tools/docs/CSS-Properties/P/perspective)
-* [POSITION](/compare.html2pdf.tools/docs/CSS-Properties/P/position)
+* [PADDING](/compare.html2pdf.tools/docs/CSS-Properties/P/padding.html)
+* [PERSPECTIVE-ORIGIN](/compare.html2pdf.tools/docs/CSS-Properties/P/perspective-origin.html)
+* [PERSPECTIVE](/compare.html2pdf.tools/docs/CSS-Properties/P/perspective.html)
+* [POSITION](/compare.html2pdf.tools/docs/CSS-Properties/P/position.html)
 
