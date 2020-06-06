@@ -329,6 +329,6 @@ header h1 a:active{
 }
 
 article h2:first-of-type,
-aside h2:first-of-type {
+aside section:first-of-type h2:first-of-type {
     margin-top: 0;
 }
