@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}" />
+        <title>{{ page.title }} | {{ site.title }}</title>
+    </head>
+  <body>
+    {% include header.html %}
+    <article>
+        {{ content }}
+    </article>
+    <aside>
+        {% include generalaside.html %}
+    </aside>
+    {% include footer.html %}
+  </body>
+</html>

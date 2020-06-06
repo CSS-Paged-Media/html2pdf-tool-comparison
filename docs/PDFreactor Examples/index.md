@@ -1,5 +1,5 @@
 ---
-layout: details
+layout: list
 title: PDFreactor Examples
 permalink: /PDFreactor-Examples/
 description: 

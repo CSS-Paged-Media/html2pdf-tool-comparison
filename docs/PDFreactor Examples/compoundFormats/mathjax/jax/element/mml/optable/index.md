@@ -1,5 +1,5 @@
 ---
-layout: details
+layout: list
 title: optable
 permalink: /PDFreactor-Examples/compoundFormats/mathjax/jax/element/mml/optable/
 description: 

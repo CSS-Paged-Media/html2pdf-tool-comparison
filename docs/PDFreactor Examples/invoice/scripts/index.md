@@ -1,5 +1,5 @@
 ---
-layout: details
+layout: list
 title: scripts
 permalink: /PDFreactor-Examples/invoice/scripts/
 description: 

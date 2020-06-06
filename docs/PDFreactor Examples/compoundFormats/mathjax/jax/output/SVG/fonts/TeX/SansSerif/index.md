@@ -1,5 +1,5 @@
 ---
-layout: details
+layout: list
 title: SansSerif
 permalink: /PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/
 description: 

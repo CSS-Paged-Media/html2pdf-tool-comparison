@@ -1,5 +1,5 @@
 ---
-layout: details
+layout: list
 title: SVG
 permalink: /PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/
 description: 

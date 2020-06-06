@@ -1,5 +1,5 @@
 ---
-layout: details
+layout: list
 title: Caligraphic
 permalink: /PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Caligraphic/
 description: 

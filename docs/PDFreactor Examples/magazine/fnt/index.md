@@ -1,5 +1,5 @@
 ---
-layout: details
+layout: list
 title: fnt
 permalink: /PDFreactor-Examples/magazine/fnt/
 description: 

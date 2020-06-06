@@ -192,11 +192,11 @@ h2{
 
 footer{
     width:calc(100% - 4rem);
-    margin:6rem 2rem 6rem 2rem
+    margin:2rem
 }
 
 footer p{
-    text-align:right
+    text-align:center
 }
 
 article img,

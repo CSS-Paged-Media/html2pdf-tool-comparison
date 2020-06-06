@@ -1,5 +1,5 @@
 ---
-layout: details
+layout: list
 title: Typewriter
 permalink: /PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Typewriter/
 description: 
