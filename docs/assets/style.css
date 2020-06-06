@@ -5,8 +5,7 @@ body{
 
 body{
     font-size:1.2rem;
-    font-family:monospace;
-    animation:fadein 3s
+    font-family:monospace
 }
 body {
 	display: flex;
@@ -92,15 +91,6 @@ footer {
 	display: flex;
 	flex-flow: row wrap;
 }
-
-footer * {
-	flex: 1 1 0%;
-	justify-content: space-between;
-}
-
-footer p {
-	text-align: right;
-}
 /* Smart Phones und Tablets mit mittlerer Auflösung */
 
 @media all and (min-width: 35em) {
@@ -141,19 +131,6 @@ footer p {
 	}
 }
 
-
-@keyframes fadein {
-    from
-    {
-        opacity:0
-    }
-
-    to
-    {
-        opacity:1
-    }
-}
-
 a{
     color:#195584;
     text-decoration: none;
@@ -187,6 +164,7 @@ h1{
     font-size:48px;
     font-weight:700;
     line-height: 87px;
+    word-break: break-all;
 }
 
 h2{
@@ -200,7 +178,8 @@ footer{
 }
 
 footer p{
-    text-align:center
+    text-align:center;
+    width: 100%;
 }
 
 article img,
