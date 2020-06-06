@@ -169,7 +169,7 @@ a:visited,a:hover,a:active{
 }
 
 .boxes a{
-    padding:2rem;border:.5vw solid rgb(188, 11, 6);
+    padding:2rem;border:.5rem solid rgb(188, 11, 6);
     
     text-decoration:none;font-weight:bold;font-size:1.4rem;background:rgba(188, 11, 6, .02)
 }
@@ -187,13 +187,13 @@ h1{
     padding-top:0;
     margin:0;
     overflow:hidden;
-    font-size:3vw;
+    font-size:48px;
     font-weight:700;
     line-height: 87px;
 }
 
 h2{
-    font-size:2.5vw;
+    font-size:38px;
     margin-top:4rem;
 }
 
