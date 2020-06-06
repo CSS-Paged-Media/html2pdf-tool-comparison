@@ -5,7 +5,7 @@ permalink: /CSS-Properties/
 description: 
 ---
 
-## Index
+## 📑 Index
 <div class="boxes">
                             <a href="/CSS-Properties/A/">
                                 A
