@@ -11,7 +11,7 @@ description:
 
 ## BEFORE
 
-See the Rendering results for [B](/html/CSS%20Selectors/B):
+See the Rendering results for [before.html](/html/CSS%20Selectors/B/before.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_B.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_B.pdf](pdfreactor__html_CSS_Selecto
 
 ## BLANK
 
-See the Rendering results for [B](/html/CSS%20Selectors/B):
+See the Rendering results for [blank.html](/html/CSS%20Selectors/B/blank.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_B.png) 

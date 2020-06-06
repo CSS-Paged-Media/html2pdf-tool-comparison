@@ -11,7 +11,7 @@ description:
 
 ## EMPTY
 
-See the Rendering results for [E](/html/CSS%20Selectors/E):
+See the Rendering results for [empty.html](/html/CSS%20Selectors/E/empty.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_E.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_E.pdf](pdfreactor__html_CSS_Selecto
 
 ## ENABLED
 
-See the Rendering results for [E](/html/CSS%20Selectors/E):
+See the Rendering results for [enabled.html](/html/CSS%20Selectors/E/enabled.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_E.png) 

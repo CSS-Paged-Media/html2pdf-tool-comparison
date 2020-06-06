@@ -11,7 +11,7 @@ description:
 
 ## RESIZE
 
-See the Rendering results for [R](/html/CSS%20Properties/R):
+See the Rendering results for [resize.html](/html/CSS%20Properties/R/resize.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_R.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_R.pdf](pdfreactor__html_CSS_Proper
 
 ## RIGHT
 
-See the Rendering results for [R](/html/CSS%20Properties/R):
+See the Rendering results for [right.html](/html/CSS%20Properties/R/right.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_R.png) 

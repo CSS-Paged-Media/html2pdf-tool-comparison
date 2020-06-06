@@ -11,7 +11,7 @@ description:
 
 ## NOT
 
-See the Rendering results for [N](/html/CSS%20Selectors/N):
+See the Rendering results for [not.html](/html/CSS%20Selectors/N/not.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_N.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_N.pdf](pdfreactor__html_CSS_Selecto
 
 ## NTH-CHILD
 
-See the Rendering results for [N](/html/CSS%20Selectors/N):
+See the Rendering results for [nth-child.html](/html/CSS%20Selectors/N/nth-child.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_N.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_N.pdf](pdfreactor__html_CSS_Selecto
 
 ## NTH-LAST-CHILD
 
-See the Rendering results for [N](/html/CSS%20Selectors/N):
+See the Rendering results for [nth-last-child.html](/html/CSS%20Selectors/N/nth-last-child.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_N.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_N.pdf](pdfreactor__html_CSS_Selecto
 
 ## NTH-LAST-OF-TYPE
 
-See the Rendering results for [N](/html/CSS%20Selectors/N):
+See the Rendering results for [nth-last-of-type.html](/html/CSS%20Selectors/N/nth-last-of-type.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_N.png) 
@@ -87,7 +87,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_N.pdf](pdfreactor__html_CSS_Selecto
 
 ## NTH-OF-TYPE
 
-See the Rendering results for [N](/html/CSS%20Selectors/N):
+See the Rendering results for [nth-of-type.html](/html/CSS%20Selectors/N/nth-of-type.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_N.png) 

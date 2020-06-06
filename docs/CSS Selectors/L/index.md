@@ -11,7 +11,7 @@ description:
 
 ## LANG
 
-See the Rendering results for [L](/html/CSS%20Selectors/L):
+See the Rendering results for [lang.html](/html/CSS%20Selectors/L/lang.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_L.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_L.pdf](pdfreactor__html_CSS_Selecto
 
 ## LAST-CHILD
 
-See the Rendering results for [L](/html/CSS%20Selectors/L):
+See the Rendering results for [last-child.html](/html/CSS%20Selectors/L/last-child.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_L.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_L.pdf](pdfreactor__html_CSS_Selecto
 
 ## LAST-OF-TYPE
 
-See the Rendering results for [L](/html/CSS%20Selectors/L):
+See the Rendering results for [last-of-type.html](/html/CSS%20Selectors/L/last-of-type.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_L.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_L.pdf](pdfreactor__html_CSS_Selecto
 
 ## LINK
 
-See the Rendering results for [L](/html/CSS%20Selectors/L):
+See the Rendering results for [link.html](/html/CSS%20Selectors/L/link.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_L.png) 

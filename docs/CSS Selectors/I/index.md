@@ -11,7 +11,7 @@ description:
 
 ## ID
 
-See the Rendering results for [I](/html/CSS%20Selectors/I):
+See the Rendering results for [id.html](/html/CSS%20Selectors/I/id.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_I.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_I.pdf](pdfreactor__html_CSS_Selecto
 
 ## IN-RANGE
 
-See the Rendering results for [I](/html/CSS%20Selectors/I):
+See the Rendering results for [in-range.html](/html/CSS%20Selectors/I/in-range.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_I.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_I.pdf](pdfreactor__html_CSS_Selecto
 
 ## INVALID
 
-See the Rendering results for [I](/html/CSS%20Selectors/I):
+See the Rendering results for [invalid.html](/html/CSS%20Selectors/I/invalid.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_I.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_I.pdf](pdfreactor__html_CSS_Selecto
 
 ## IS
 
-See the Rendering results for [I](/html/CSS%20Selectors/I):
+See the Rendering results for [is.html](/html/CSS%20Selectors/I/is.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_I.png) 

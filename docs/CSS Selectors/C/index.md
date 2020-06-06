@@ -11,7 +11,7 @@ description:
 
 ## CHECKED
 
-See the Rendering results for [C](/html/CSS%20Selectors/C):
+See the Rendering results for [checked.html](/html/CSS%20Selectors/C/checked.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_C.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_C.pdf](pdfreactor__html_CSS_Selecto
 
 ## CHILD
 
-See the Rendering results for [C](/html/CSS%20Selectors/C):
+See the Rendering results for [child.html](/html/CSS%20Selectors/C/child.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_C.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_C.pdf](pdfreactor__html_CSS_Selecto
 
 ## CLASS
 
-See the Rendering results for [C](/html/CSS%20Selectors/C):
+See the Rendering results for [class.html](/html/CSS%20Selectors/C/class.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_C.png) 

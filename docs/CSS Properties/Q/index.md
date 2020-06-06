@@ -11,7 +11,7 @@ description:
 
 ## QUOTES
 
-See the Rendering results for [Q](/html/CSS%20Properties/Q):
+See the Rendering results for [quotes.html](/html/CSS%20Properties/Q/quotes.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_Q.png) 

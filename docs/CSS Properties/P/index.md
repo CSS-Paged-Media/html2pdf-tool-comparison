@@ -11,7 +11,7 @@ description:
 
 ## PADDING
 
-See the Rendering results for [P](/html/CSS%20Properties/P):
+See the Rendering results for [padding.html](/html/CSS%20Properties/P/padding.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_P.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_P.pdf](pdfreactor__html_CSS_Proper
 
 ## PERSPECTIVE-ORIGIN
 
-See the Rendering results for [P](/html/CSS%20Properties/P):
+See the Rendering results for [perspective-origin.html](/html/CSS%20Properties/P/perspective-origin.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_P.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_P.pdf](pdfreactor__html_CSS_Proper
 
 ## PERSPECTIVE
 
-See the Rendering results for [P](/html/CSS%20Properties/P):
+See the Rendering results for [perspective.html](/html/CSS%20Properties/P/perspective.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_P.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_P.pdf](pdfreactor__html_CSS_Proper
 
 ## POSITION
 
-See the Rendering results for [P](/html/CSS%20Properties/P):
+See the Rendering results for [position.html](/html/CSS%20Properties/P/position.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_P.png) 

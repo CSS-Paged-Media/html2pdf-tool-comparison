@@ -11,7 +11,7 @@ description:
 
 ## DIRECTION
 
-See the Rendering results for [D](/html/CSS%20Properties/D):
+See the Rendering results for [direction.html](/html/CSS%20Properties/D/direction.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_D.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_D.pdf](pdfreactor__html_CSS_Proper
 
 ## DISPLAY
 
-See the Rendering results for [D](/html/CSS%20Properties/D):
+See the Rendering results for [display.html](/html/CSS%20Properties/D/display.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_D.png) 

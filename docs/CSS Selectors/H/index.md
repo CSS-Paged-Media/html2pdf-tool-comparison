@@ -11,7 +11,7 @@ description:
 
 ## HOVER
 
-See the Rendering results for [H](/html/CSS%20Selectors/H):
+See the Rendering results for [hover.html](/html/CSS%20Selectors/H/hover.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_H.png) 

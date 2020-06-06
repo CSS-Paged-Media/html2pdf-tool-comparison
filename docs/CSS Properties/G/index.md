@@ -11,7 +11,7 @@ description:
 
 ## GRID-ROW-COLUMN
 
-See the Rendering results for [G](/html/CSS%20Properties/G):
+See the Rendering results for [grid-row-column.html](/html/CSS%20Properties/G/grid-row-column.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_G.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_G.pdf](pdfreactor__html_CSS_Proper
 
 ## GRID-TEMPLATE-COLUMNS-ROWS
 
-See the Rendering results for [G](/html/CSS%20Properties/G):
+See the Rendering results for [grid-template-columns-rows.html](/html/CSS%20Properties/G/grid-template-columns-rows.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_G.png) 

@@ -11,7 +11,7 @@ description:
 
 ## FIRST-CHILD
 
-See the Rendering results for [F](/html/CSS%20Selectors/F):
+See the Rendering results for [first-child.html](/html/CSS%20Selectors/F/first-child.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_F.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_F.pdf](pdfreactor__html_CSS_Selecto
 
 ## FIRST-LETTER
 
-See the Rendering results for [F](/html/CSS%20Selectors/F):
+See the Rendering results for [first-letter.html](/html/CSS%20Selectors/F/first-letter.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_F.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_F.pdf](pdfreactor__html_CSS_Selecto
 
 ## FIRST-LINE
 
-See the Rendering results for [F](/html/CSS%20Selectors/F):
+See the Rendering results for [first-line.html](/html/CSS%20Selectors/F/first-line.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_F.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_F.pdf](pdfreactor__html_CSS_Selecto
 
 ## FIRST-OF-TYPE
 
-See the Rendering results for [F](/html/CSS%20Selectors/F):
+See the Rendering results for [first-of-type.html](/html/CSS%20Selectors/F/first-of-type.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_F.png) 
@@ -87,7 +87,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_F.pdf](pdfreactor__html_CSS_Selecto
 
 ## FOCUS-VISIBLE
 
-See the Rendering results for [F](/html/CSS%20Selectors/F):
+See the Rendering results for [focus-visible.html](/html/CSS%20Selectors/F/focus-visible.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_F.png) 
@@ -106,7 +106,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_F.pdf](pdfreactor__html_CSS_Selecto
 
 ## FOCUS-WITHIN
 
-See the Rendering results for [F](/html/CSS%20Selectors/F):
+See the Rendering results for [focus-within.html](/html/CSS%20Selectors/F/focus-within.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_F.png) 
@@ -125,7 +125,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_F.pdf](pdfreactor__html_CSS_Selecto
 
 ## FOCUS
 
-See the Rendering results for [F](/html/CSS%20Selectors/F):
+See the Rendering results for [focus.html](/html/CSS%20Selectors/F/focus.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_F.png) 

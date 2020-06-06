@@ -11,7 +11,7 @@ description:
 
 ## HANGING-PUNCTUATION
 
-See the Rendering results for [H](/html/CSS%20Properties/H):
+See the Rendering results for [hanging-punctuation.html](/html/CSS%20Properties/H/hanging-punctuation.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_H.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_H.pdf](pdfreactor__html_CSS_Proper
 
 ## HEIGHT
 
-See the Rendering results for [H](/html/CSS%20Properties/H):
+See the Rendering results for [height.html](/html/CSS%20Properties/H/height.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_H.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_H.pdf](pdfreactor__html_CSS_Proper
 
 ## HYPHENS
 
-See the Rendering results for [H](/html/CSS%20Properties/H):
+See the Rendering results for [hyphens.html](/html/CSS%20Properties/H/hyphens.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_H.png) 

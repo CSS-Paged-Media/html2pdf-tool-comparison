@@ -11,7 +11,7 @@ description:
 
 ## VALID
 
-See the Rendering results for [V](/html/CSS%20Selectors/V):
+See the Rendering results for [valid.html](/html/CSS%20Selectors/V/valid.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_V.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_V.pdf](pdfreactor__html_CSS_Selecto
 
 ## VISITED
 
-See the Rendering results for [V](/html/CSS%20Selectors/V):
+See the Rendering results for [visited.html](/html/CSS%20Selectors/V/visited.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_V.png) 

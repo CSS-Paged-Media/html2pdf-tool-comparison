@@ -11,7 +11,7 @@ description:
 
 ## UNIVERSAL
 
-See the Rendering results for [U](/html/CSS%20Selectors/U):
+See the Rendering results for [universal.html](/html/CSS%20Selectors/U/universal.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_U.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_U.pdf](pdfreactor__html_CSS_Selecto
 
 ## USER-INVALID
 
-See the Rendering results for [U](/html/CSS%20Selectors/U):
+See the Rendering results for [user-invalid.html](/html/CSS%20Selectors/U/user-invalid.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_U.png) 

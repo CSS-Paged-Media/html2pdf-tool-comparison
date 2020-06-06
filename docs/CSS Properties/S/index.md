@@ -11,7 +11,7 @@ description:
 
 ## SHAPE-OUTSIDE
 
-See the Rendering results for [S](/html/CSS%20Properties/S):
+See the Rendering results for [shape-outside.html](/html/CSS%20Properties/S/shape-outside.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_S.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_S.pdf](pdfreactor__html_CSS_Proper
 
 ## STROKE-DASHARRAY
 
-See the Rendering results for [S](/html/CSS%20Properties/S):
+See the Rendering results for [stroke-dasharray.html](/html/CSS%20Properties/S/stroke-dasharray.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_S.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_S.pdf](pdfreactor__html_CSS_Proper
 
 ## STROKE-DASHOFFSET
 
-See the Rendering results for [S](/html/CSS%20Properties/S):
+See the Rendering results for [stroke-dashoffset.html](/html/CSS%20Properties/S/stroke-dashoffset.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_S.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_S.pdf](pdfreactor__html_CSS_Proper
 
 ## STROKE-LINECAP
 
-See the Rendering results for [S](/html/CSS%20Properties/S):
+See the Rendering results for [stroke-linecap.html](/html/CSS%20Properties/S/stroke-linecap.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_S.png) 
@@ -87,7 +87,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_S.pdf](pdfreactor__html_CSS_Proper
 
 ## STROKE-LINEJOIN
 
-See the Rendering results for [S](/html/CSS%20Properties/S):
+See the Rendering results for [stroke-linejoin.html](/html/CSS%20Properties/S/stroke-linejoin.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_S.png) 
@@ -106,7 +106,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_S.pdf](pdfreactor__html_CSS_Proper
 
 ## STROKE-WIDTH
 
-See the Rendering results for [S](/html/CSS%20Properties/S):
+See the Rendering results for [stroke-width.html](/html/CSS%20Properties/S/stroke-width.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_S.png) 
@@ -125,7 +125,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_S.pdf](pdfreactor__html_CSS_Proper
 
 ## STROKE
 
-See the Rendering results for [S](/html/CSS%20Properties/S):
+See the Rendering results for [stroke.html](/html/CSS%20Properties/S/stroke.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_S.png) 

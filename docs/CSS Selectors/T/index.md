@@ -11,7 +11,7 @@ description:
 
 ## TARGET
 
-See the Rendering results for [T](/html/CSS%20Selectors/T):
+See the Rendering results for [target.html](/html/CSS%20Selectors/T/target.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_T.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_T.pdf](pdfreactor__html_CSS_Selecto
 
 ## TYPE
 
-See the Rendering results for [T](/html/CSS%20Selectors/T):
+See the Rendering results for [type.html](/html/CSS%20Selectors/T/type.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_T.png) 

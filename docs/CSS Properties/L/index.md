@@ -11,7 +11,7 @@ description:
 
 ## LEFT
 
-See the Rendering results for [L](/html/CSS%20Properties/L):
+See the Rendering results for [left.html](/html/CSS%20Properties/L/left.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_L.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_L.pdf](pdfreactor__html_CSS_Proper
 
 ## LETTER-SPACING
 
-See the Rendering results for [L](/html/CSS%20Properties/L):
+See the Rendering results for [letter-spacing.html](/html/CSS%20Properties/L/letter-spacing.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_L.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_L.pdf](pdfreactor__html_CSS_Proper
 
 ## LINE-HEIGHT
 
-See the Rendering results for [L](/html/CSS%20Properties/L):
+See the Rendering results for [line-height.html](/html/CSS%20Properties/L/line-height.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_L.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_L.pdf](pdfreactor__html_CSS_Proper
 
 ## LIST-STYLE
 
-See the Rendering results for [L](/html/CSS%20Properties/L):
+See the Rendering results for [list-style.html](/html/CSS%20Properties/L/list-style.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_L.png) 

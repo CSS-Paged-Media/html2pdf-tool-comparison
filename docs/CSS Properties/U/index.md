@@ -11,7 +11,7 @@ description:
 
 ## UNICODE-BIDI
 
-See the Rendering results for [U](/html/CSS%20Properties/U):
+See the Rendering results for [unicode-bidi.html](/html/CSS%20Properties/U/unicode-bidi.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_U.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_U.pdf](pdfreactor__html_CSS_Proper
 
 ## USER-SELECT
 
-See the Rendering results for [U](/html/CSS%20Properties/U):
+See the Rendering results for [user-select.html](/html/CSS%20Properties/U/user-select.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_U.png) 

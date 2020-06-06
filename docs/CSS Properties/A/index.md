@@ -11,7 +11,7 @@ description:
 
 ## ALIGN-CONTENT
 
-See the Rendering results for [A](/html/CSS%20Properties/A):
+See the Rendering results for [align-content.html](/html/CSS%20Properties/A/align-content.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_A.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_A.pdf](pdfreactor__html_CSS_Proper
 
 ## ALIGN-ITEMS
 
-See the Rendering results for [A](/html/CSS%20Properties/A):
+See the Rendering results for [align-items.html](/html/CSS%20Properties/A/align-items.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_A.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_A.pdf](pdfreactor__html_CSS_Proper
 
 ## ALIGN-SELF
 
-See the Rendering results for [A](/html/CSS%20Properties/A):
+See the Rendering results for [align-self.html](/html/CSS%20Properties/A/align-self.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_A.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_A.pdf](pdfreactor__html_CSS_Proper
 
 ## ALL
 
-See the Rendering results for [A](/html/CSS%20Properties/A):
+See the Rendering results for [all.html](/html/CSS%20Properties/A/all.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_A.png) 
@@ -87,7 +87,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_A.pdf](pdfreactor__html_CSS_Proper
 
 ## APPEARANCE
 
-See the Rendering results for [A](/html/CSS%20Properties/A):
+See the Rendering results for [appearance.html](/html/CSS%20Properties/A/appearance.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_A.png) 

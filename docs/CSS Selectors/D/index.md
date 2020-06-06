@@ -11,7 +11,7 @@ description:
 
 ## DEFAULT
 
-See the Rendering results for [D](/html/CSS%20Selectors/D):
+See the Rendering results for [default.html](/html/CSS%20Selectors/D/default.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_D.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_D.pdf](pdfreactor__html_CSS_Selecto
 
 ## DESCENDANT
 
-See the Rendering results for [D](/html/CSS%20Selectors/D):
+See the Rendering results for [descendant.html](/html/CSS%20Selectors/D/descendant.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_D.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_D.pdf](pdfreactor__html_CSS_Selecto
 
 ## DIR
 
-See the Rendering results for [D](/html/CSS%20Selectors/D):
+See the Rendering results for [dir.html](/html/CSS%20Selectors/D/dir.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_D.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_D.pdf](pdfreactor__html_CSS_Selecto
 
 ## DISABLED
 
-See the Rendering results for [D](/html/CSS%20Selectors/D):
+See the Rendering results for [disabled.html](/html/CSS%20Selectors/D/disabled.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_D.png) 

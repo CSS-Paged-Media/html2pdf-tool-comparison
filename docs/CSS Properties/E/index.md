@@ -11,7 +11,7 @@ description:
 
 ## EMPTY-CELLS
 
-See the Rendering results for [E](/html/CSS%20Properties/E):
+See the Rendering results for [empty-cells.html](/html/CSS%20Properties/E/empty-cells.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_E.png) 

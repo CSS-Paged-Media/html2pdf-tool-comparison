@@ -11,7 +11,7 @@ description:
 
 ## GENERAL-SIBLING
 
-See the Rendering results for [G](/html/CSS%20Selectors/G):
+See the Rendering results for [general-sibling.html](/html/CSS%20Selectors/G/general-sibling.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_G.png) 

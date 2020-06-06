@@ -11,7 +11,7 @@ description:
 
 ## Z-INDEX
 
-See the Rendering results for [Z](/html/CSS%20Properties/Z):
+See the Rendering results for [z-index.html](/html/CSS%20Properties/Z/z-index.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_Z.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_Z.pdf](pdfreactor__html_CSS_Proper
 
 ## ZOOM
 
-See the Rendering results for [Z](/html/CSS%20Properties/Z):
+See the Rendering results for [zoom.html](/html/CSS%20Properties/Z/zoom.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_Z.png) 

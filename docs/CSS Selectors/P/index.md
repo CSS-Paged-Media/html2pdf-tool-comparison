@@ -11,7 +11,7 @@ description:
 
 ## PLACEHOLDER-SHOWN
 
-See the Rendering results for [P](/html/CSS%20Selectors/P):
+See the Rendering results for [placeholder-shown.html](/html/CSS%20Selectors/P/placeholder-shown.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_P.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_P.pdf](pdfreactor__html_CSS_Selecto
 
 ## PLACEHOLDER
 
-See the Rendering results for [P](/html/CSS%20Selectors/P):
+See the Rendering results for [placeholder.html](/html/CSS%20Selectors/P/placeholder.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_P.png) 

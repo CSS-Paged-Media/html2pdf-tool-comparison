@@ -11,7 +11,7 @@ description:
 
 ## IMAGE-RENDERING
 
-See the Rendering results for [I](/html/CSS%20Properties/I):
+See the Rendering results for [image-rendering.html](/html/CSS%20Properties/I/image-rendering.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_I.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_I.pdf](pdfreactor__html_CSS_Proper
 
 ## INITIAL-LETTER
 
-See the Rendering results for [I](/html/CSS%20Properties/I):
+See the Rendering results for [initial-letter.html](/html/CSS%20Properties/I/initial-letter.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_I.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Properties_I.pdf](pdfreactor__html_CSS_Proper
 
 ## ISOLATION
 
-See the Rendering results for [I](/html/CSS%20Properties/I):
+See the Rendering results for [isolation.html](/html/CSS%20Properties/I/isolation.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_I.png) 

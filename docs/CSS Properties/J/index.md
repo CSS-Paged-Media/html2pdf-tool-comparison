@@ -11,7 +11,7 @@ description:
 
 ## JUSTIFY-CONTENT
 
-See the Rendering results for [J](/html/CSS%20Properties/J):
+See the Rendering results for [justify-content.html](/html/CSS%20Properties/J/justify-content.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Properties_J.png) 

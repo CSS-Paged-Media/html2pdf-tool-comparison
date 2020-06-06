@@ -11,7 +11,7 @@ description:
 
 ## SELECTION
 
-See the Rendering results for [S](/html/CSS%20Selectors/S):
+See the Rendering results for [selection.html](/html/CSS%20Selectors/S/selection.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_S.png) 

@@ -11,7 +11,7 @@ description:
 
 ## READ-ONLY
 
-See the Rendering results for [R](/html/CSS%20Selectors/R):
+See the Rendering results for [read-only.html](/html/CSS%20Selectors/R/read-only.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_R.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_R.pdf](pdfreactor__html_CSS_Selecto
 
 ## READ-WRITE
 
-See the Rendering results for [R](/html/CSS%20Selectors/R):
+See the Rendering results for [read-write.html](/html/CSS%20Selectors/R/read-write.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_R.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_R.pdf](pdfreactor__html_CSS_Selecto
 
 ## REQUIRED
 
-See the Rendering results for [R](/html/CSS%20Selectors/R):
+See the Rendering results for [required.html](/html/CSS%20Selectors/R/required.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_R.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_R.pdf](pdfreactor__html_CSS_Selecto
 
 ## ROOT
 
-See the Rendering results for [R](/html/CSS%20Selectors/R):
+See the Rendering results for [root.html](/html/CSS%20Selectors/R/root.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_R.png) 

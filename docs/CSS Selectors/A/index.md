@@ -11,7 +11,7 @@ description:
 
 ## ACTIVE
 
-See the Rendering results for [A](/html/CSS%20Selectors/A):
+See the Rendering results for [active.html](/html/CSS%20Selectors/A/active.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_A.png) 
@@ -30,7 +30,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_A.pdf](pdfreactor__html_CSS_Selecto
 
 ## ADJACENT-SIBLING
 
-See the Rendering results for [A](/html/CSS%20Selectors/A):
+See the Rendering results for [adjacent-sibling.html](/html/CSS%20Selectors/A/adjacent-sibling.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_A.png) 
@@ -49,7 +49,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_A.pdf](pdfreactor__html_CSS_Selecto
 
 ## AFTER
 
-See the Rendering results for [A](/html/CSS%20Selectors/A):
+See the Rendering results for [after.html](/html/CSS%20Selectors/A/after.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_A.png) 
@@ -68,7 +68,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_A.pdf](pdfreactor__html_CSS_Selecto
 
 ## ANY-LINK
 
-See the Rendering results for [A](/html/CSS%20Selectors/A):
+See the Rendering results for [any-link.html](/html/CSS%20Selectors/A/any-link.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_A.png) 
@@ -87,7 +87,7 @@ Link to PDF: [pdfreactor__html_CSS_Selectors_A.pdf](pdfreactor__html_CSS_Selecto
 
 ## ATTRIBUTE
 
-See the Rendering results for [A](/html/CSS%20Selectors/A):
+See the Rendering results for [attribute.html](/html/CSS%20Selectors/A/attribute.html):
 
 ### mPDF
 ![](mpdf__html_CSS_Selectors_A.png) 
