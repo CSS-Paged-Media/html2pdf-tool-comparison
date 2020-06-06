@@ -14,18 +14,18 @@ description:
 See the Rendering results for [empty-cells.html](/html/CSS%20Properties/E/empty-cells.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_E.png) 
+![](mpdf__html_CSS_Properties_E_empty-cells.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_E.pdf](mpdf__html_CSS_Properties_E.pdf)
+Link to PDF: [mpdf__html_CSS_Properties_E_empty-cells.html.pdf](mpdf__html_CSS_Properties_E_empty-cells.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_E.png) 
+![](typeset__html_CSS_Properties_E_empty-cells.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_E.pdf](typeset__html_CSS_Properties_E.pdf)
+Link to PDF: [typeset__html_CSS_Properties_E_empty-cells.html.pdf](typeset__html_CSS_Properties_E_empty-cells.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_E.png) 
+![](pdfreactor__html_CSS_Properties_E_empty-cells.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_E.pdf](pdfreactor__html_CSS_Properties_E.pdf)
+Link to PDF: [pdfreactor__html_CSS_Properties_E_empty-cells.html.pdf](pdfreactor__html_CSS_Properties_E_empty-cells.html.pdf)
 
 

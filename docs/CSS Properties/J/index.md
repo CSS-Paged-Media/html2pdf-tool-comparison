@@ -14,18 +14,18 @@ description:
 See the Rendering results for [justify-content.html](/html/CSS%20Properties/J/justify-content.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_J.png) 
+![](mpdf__html_CSS_Properties_J_justify-content.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_J.pdf](mpdf__html_CSS_Properties_J.pdf)
+Link to PDF: [mpdf__html_CSS_Properties_J_justify-content.html.pdf](mpdf__html_CSS_Properties_J_justify-content.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_J.png) 
+![](typeset__html_CSS_Properties_J_justify-content.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_J.pdf](typeset__html_CSS_Properties_J.pdf)
+Link to PDF: [typeset__html_CSS_Properties_J_justify-content.html.pdf](typeset__html_CSS_Properties_J_justify-content.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_J.png) 
+![](pdfreactor__html_CSS_Properties_J_justify-content.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_J.pdf](pdfreactor__html_CSS_Properties_J.pdf)
+Link to PDF: [pdfreactor__html_CSS_Properties_J_justify-content.html.pdf](pdfreactor__html_CSS_Properties_J_justify-content.html.pdf)
 
 
