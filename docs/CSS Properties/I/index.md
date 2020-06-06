@@ -9,7 +9,9 @@ description:
 
 ## IMAGE-RENDERING
 
-[📄 Input HTML](/html/CSS%20Properties/I/image-rendering.html):
+[📄 Input HTML](/html/CSS%20Properties/I/image-rendering.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## INITIAL-LETTER
 
-[📄 Input HTML](/html/CSS%20Properties/I/initial-letter.html):
+[📄 Input HTML](/html/CSS%20Properties/I/initial-letter.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## ISOLATION
 
-[📄 Input HTML](/html/CSS%20Properties/I/isolation.html):
+[📄 Input HTML](/html/CSS%20Properties/I/isolation.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

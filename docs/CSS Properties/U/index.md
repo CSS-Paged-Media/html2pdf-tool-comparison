@@ -9,7 +9,9 @@ description:
 
 ## UNICODE-BIDI
 
-[📄 Input HTML](/html/CSS%20Properties/U/unicode-bidi.html):
+[📄 Input HTML](/html/CSS%20Properties/U/unicode-bidi.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## USER-SELECT
 
-[📄 Input HTML](/html/CSS%20Properties/U/user-select.html):
+[📄 Input HTML](/html/CSS%20Properties/U/user-select.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

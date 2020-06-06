@@ -9,7 +9,9 @@ description:
 
 ## MORTGAGE
 
-[📄 Input HTML](/html/PDFreactor%20Examples/mortgage/mortgage.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/mortgage/mortgage.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

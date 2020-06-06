@@ -9,7 +9,9 @@ description:
 
 ## FIRST-CHILD
 
-[📄 Input HTML](/html/CSS%20Selectors/F/first-child.html):
+[📄 Input HTML](/html/CSS%20Selectors/F/first-child.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## FIRST-LETTER
 
-[📄 Input HTML](/html/CSS%20Selectors/F/first-letter.html):
+[📄 Input HTML](/html/CSS%20Selectors/F/first-letter.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## FIRST-LINE
 
-[📄 Input HTML](/html/CSS%20Selectors/F/first-line.html):
+[📄 Input HTML](/html/CSS%20Selectors/F/first-line.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## FIRST-OF-TYPE
 
-[📄 Input HTML](/html/CSS%20Selectors/F/first-of-type.html):
+[📄 Input HTML](/html/CSS%20Selectors/F/first-of-type.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## FOCUS-VISIBLE
 
-[📄 Input HTML](/html/CSS%20Selectors/F/focus-visible.html):
+[📄 Input HTML](/html/CSS%20Selectors/F/focus-visible.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -54,7 +64,9 @@ description:
 
 ## FOCUS-WITHIN
 
-[📄 Input HTML](/html/CSS%20Selectors/F/focus-within.html):
+[📄 Input HTML](/html/CSS%20Selectors/F/focus-within.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -63,7 +75,9 @@ description:
 
 ## FOCUS
 
-[📄 Input HTML](/html/CSS%20Selectors/F/focus.html):
+[📄 Input HTML](/html/CSS%20Selectors/F/focus.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

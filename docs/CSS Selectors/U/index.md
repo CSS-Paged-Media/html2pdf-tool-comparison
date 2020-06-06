@@ -9,7 +9,9 @@ description:
 
 ## UNIVERSAL
 
-[📄 Input HTML](/html/CSS%20Selectors/U/universal.html):
+[📄 Input HTML](/html/CSS%20Selectors/U/universal.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## USER-INVALID
 
-[📄 Input HTML](/html/CSS%20Selectors/U/user-invalid.html):
+[📄 Input HTML](/html/CSS%20Selectors/U/user-invalid.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

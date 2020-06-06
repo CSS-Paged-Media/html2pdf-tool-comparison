@@ -9,7 +9,9 @@ description:
 
 ## BACKFACE-VISIBILITY
 
-[📄 Input HTML](/html/CSS%20Properties/B/backface-visibility.html):
+[📄 Input HTML](/html/CSS%20Properties/B/backface-visibility.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## BACKGROUND-ATTACHMENT
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-attachment.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background-attachment.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## BACKGROUND-BLEND-MODE
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-blend-mode.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background-blend-mode.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## BACKGROUND-CLIP
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-clip.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background-clip.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## BACKGROUND-COLOR
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-color.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background-color.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -54,7 +64,9 @@ description:
 
 ## BACKGROUND-IMAGE
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-image.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background-image.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -63,7 +75,9 @@ description:
 
 ## BACKGROUND-ORIGIN
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-origin.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background-origin.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -72,7 +86,9 @@ description:
 
 ## BACKGROUND-POSITION
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-position.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background-position.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -81,7 +97,9 @@ description:
 
 ## BACKGROUND-REPEAT
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-repeat.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background-repeat.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -90,7 +108,9 @@ description:
 
 ## BACKGROUND-SIZE
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-size.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background-size.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -99,7 +119,9 @@ description:
 
 ## BACKGROUND
 
-[📄 Input HTML](/html/CSS%20Properties/B/background.html):
+[📄 Input HTML](/html/CSS%20Properties/B/background.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -108,7 +130,9 @@ description:
 
 ## BLEED
 
-[📄 Input HTML](/html/CSS%20Properties/B/bleed.html):
+[📄 Input HTML](/html/CSS%20Properties/B/bleed.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -117,7 +141,9 @@ description:
 
 ## BORDER-COLLAPSE
 
-[📄 Input HTML](/html/CSS%20Properties/B/border-collapse.html):
+[📄 Input HTML](/html/CSS%20Properties/B/border-collapse.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -126,7 +152,9 @@ description:
 
 ## BORDER-IMAGE
 
-[📄 Input HTML](/html/CSS%20Properties/B/border-image.html):
+[📄 Input HTML](/html/CSS%20Properties/B/border-image.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -135,7 +163,9 @@ description:
 
 ## BORDER-RADIUS
 
-[📄 Input HTML](/html/CSS%20Properties/B/border-radius.html):
+[📄 Input HTML](/html/CSS%20Properties/B/border-radius.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -144,7 +174,9 @@ description:
 
 ## BORDER-SPACING
 
-[📄 Input HTML](/html/CSS%20Properties/B/border-spacing.html):
+[📄 Input HTML](/html/CSS%20Properties/B/border-spacing.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -153,7 +185,9 @@ description:
 
 ## BORDER
 
-[📄 Input HTML](/html/CSS%20Properties/B/border.html):
+[📄 Input HTML](/html/CSS%20Properties/B/border.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -162,7 +196,9 @@ description:
 
 ## BOTTOM
 
-[📄 Input HTML](/html/CSS%20Properties/B/bottom.html):
+[📄 Input HTML](/html/CSS%20Properties/B/bottom.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -171,7 +207,9 @@ description:
 
 ## BOX-DECORATION-BREAK
 
-[📄 Input HTML](/html/CSS%20Properties/B/box-decoration-break.html):
+[📄 Input HTML](/html/CSS%20Properties/B/box-decoration-break.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -180,7 +218,9 @@ description:
 
 ## BOX-SHADOW
 
-[📄 Input HTML](/html/CSS%20Properties/B/box-shadow.html):
+[📄 Input HTML](/html/CSS%20Properties/B/box-shadow.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -189,7 +229,9 @@ description:
 
 ## BOX-SIZING
 
-[📄 Input HTML](/html/CSS%20Properties/B/box-sizing.html):
+[📄 Input HTML](/html/CSS%20Properties/B/box-sizing.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -198,7 +240,9 @@ description:
 
 ## BREAK-INSIDE
 
-[📄 Input HTML](/html/CSS%20Properties/B/break-inside.html):
+[📄 Input HTML](/html/CSS%20Properties/B/break-inside.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

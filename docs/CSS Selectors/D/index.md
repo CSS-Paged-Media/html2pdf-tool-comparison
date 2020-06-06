@@ -9,7 +9,9 @@ description:
 
 ## DEFAULT
 
-[📄 Input HTML](/html/CSS%20Selectors/D/default.html):
+[📄 Input HTML](/html/CSS%20Selectors/D/default.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## DESCENDANT
 
-[📄 Input HTML](/html/CSS%20Selectors/D/descendant.html):
+[📄 Input HTML](/html/CSS%20Selectors/D/descendant.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## DIR
 
-[📄 Input HTML](/html/CSS%20Selectors/D/dir.html):
+[📄 Input HTML](/html/CSS%20Selectors/D/dir.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## DISABLED
 
-[📄 Input HTML](/html/CSS%20Selectors/D/disabled.html):
+[📄 Input HTML](/html/CSS%20Selectors/D/disabled.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

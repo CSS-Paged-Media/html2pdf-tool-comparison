@@ -9,7 +9,9 @@ description:
 
 ## SELECTION
 
-[📄 Input HTML](/html/CSS%20Selectors/S/selection.html):
+[📄 Input HTML](/html/CSS%20Selectors/S/selection.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

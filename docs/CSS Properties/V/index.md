@@ -9,7 +9,9 @@ description:
 
 ## VERTICAL-ALIGN
 
-[📄 Input HTML](/html/CSS%20Properties/V/vertical-align.html):
+[📄 Input HTML](/html/CSS%20Properties/V/vertical-align.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## VISIBILITY
 
-[📄 Input HTML](/html/CSS%20Properties/V/visibility.html):
+[📄 Input HTML](/html/CSS%20Properties/V/visibility.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

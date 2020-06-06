@@ -18,7 +18,9 @@ description:
 
 ## TEXTBOOK
 
-[📄 Input HTML](/html/PDFreactor%20Examples/textbook/textbook.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/textbook/textbook.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

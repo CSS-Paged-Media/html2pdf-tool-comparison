@@ -14,7 +14,9 @@ description:
 
 ## WIZARDOFOZ
 
-[📄 Input HTML](/html/PDFreactor%20Examples/novel/wizardOfOz.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/novel/wizardOfOz.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -23,7 +25,9 @@ description:
 
 ## WIZARDOFOZXSLT
 
-[📄 Input HTML](/html/PDFreactor%20Examples/novel/wizardOfOzXSLT.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/novel/wizardOfOzXSLT.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

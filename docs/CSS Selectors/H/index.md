@@ -9,7 +9,9 @@ description:
 
 ## HOVER
 
-[📄 Input HTML](/html/CSS%20Selectors/H/hover.html):
+[📄 Input HTML](/html/CSS%20Selectors/H/hover.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

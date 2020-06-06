@@ -9,7 +9,9 @@ description:
 
 ## ACCESSIBILITY
 
-[📄 Input HTML](/html/PDFreactor%20Examples/accessibility/accessibility.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/accessibility/accessibility.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

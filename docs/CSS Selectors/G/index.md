@@ -9,7 +9,9 @@ description:
 
 ## GENERAL-SIBLING
 
-[📄 Input HTML](/html/CSS%20Selectors/G/general-sibling.html):
+[📄 Input HTML](/html/CSS%20Selectors/G/general-sibling.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

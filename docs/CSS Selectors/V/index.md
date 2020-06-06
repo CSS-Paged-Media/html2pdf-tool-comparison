@@ -9,7 +9,9 @@ description:
 
 ## VALID
 
-[📄 Input HTML](/html/CSS%20Selectors/V/valid.html):
+[📄 Input HTML](/html/CSS%20Selectors/V/valid.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## VISITED
 
-[📄 Input HTML](/html/CSS%20Selectors/V/visited.html):
+[📄 Input HTML](/html/CSS%20Selectors/V/visited.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

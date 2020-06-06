@@ -9,7 +9,9 @@ description:
 
 ## ONLY-CHILD
 
-[📄 Input HTML](/html/CSS%20Selectors/O/only-child.html):
+[📄 Input HTML](/html/CSS%20Selectors/O/only-child.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## ONLY-OF-TYPE
 
-[📄 Input HTML](/html/CSS%20Selectors/O/only-of-type.html):
+[📄 Input HTML](/html/CSS%20Selectors/O/only-of-type.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## OPTIONAL
 
-[📄 Input HTML](/html/CSS%20Selectors/O/optional.html):
+[📄 Input HTML](/html/CSS%20Selectors/O/optional.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## OUT-OF-RANGE
 
-[📄 Input HTML](/html/CSS%20Selectors/O/out-of-range.html):
+[📄 Input HTML](/html/CSS%20Selectors/O/out-of-range.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

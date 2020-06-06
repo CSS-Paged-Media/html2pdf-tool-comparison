@@ -9,7 +9,9 @@ description:
 
 ## READ-ONLY
 
-[📄 Input HTML](/html/CSS%20Selectors/R/read-only.html):
+[📄 Input HTML](/html/CSS%20Selectors/R/read-only.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## READ-WRITE
 
-[📄 Input HTML](/html/CSS%20Selectors/R/read-write.html):
+[📄 Input HTML](/html/CSS%20Selectors/R/read-write.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## REQUIRED
 
-[📄 Input HTML](/html/CSS%20Selectors/R/required.html):
+[📄 Input HTML](/html/CSS%20Selectors/R/required.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## ROOT
 
-[📄 Input HTML](/html/CSS%20Selectors/R/root.html):
+[📄 Input HTML](/html/CSS%20Selectors/R/root.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

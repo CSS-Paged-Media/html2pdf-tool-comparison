@@ -9,7 +9,9 @@ description:
 
 ## OBJECT-FIT
 
-[📄 Input HTML](/html/CSS%20Properties/O/object-fit.html):
+[📄 Input HTML](/html/CSS%20Properties/O/object-fit.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## OBJECT-POSITION
 
-[📄 Input HTML](/html/CSS%20Properties/O/object-position.html):
+[📄 Input HTML](/html/CSS%20Properties/O/object-position.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## OFFSET-ANCHOR
 
-[📄 Input HTML](/html/CSS%20Properties/O/offset-anchor.html):
+[📄 Input HTML](/html/CSS%20Properties/O/offset-anchor.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## OFFSET-DISTANCE
 
-[📄 Input HTML](/html/CSS%20Properties/O/offset-distance.html):
+[📄 Input HTML](/html/CSS%20Properties/O/offset-distance.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## OFFSET-PATH
 
-[📄 Input HTML](/html/CSS%20Properties/O/offset-path.html):
+[📄 Input HTML](/html/CSS%20Properties/O/offset-path.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -54,7 +64,9 @@ description:
 
 ## OFFSET-ROTATE
 
-[📄 Input HTML](/html/CSS%20Properties/O/offset-rotate.html):
+[📄 Input HTML](/html/CSS%20Properties/O/offset-rotate.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -63,7 +75,9 @@ description:
 
 ## OPACITY
 
-[📄 Input HTML](/html/CSS%20Properties/O/opacity.html):
+[📄 Input HTML](/html/CSS%20Properties/O/opacity.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -72,7 +86,9 @@ description:
 
 ## ORDER
 
-[📄 Input HTML](/html/CSS%20Properties/O/order.html):
+[📄 Input HTML](/html/CSS%20Properties/O/order.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -81,7 +97,9 @@ description:
 
 ## ORPHANS
 
-[📄 Input HTML](/html/CSS%20Properties/O/orphans.html):
+[📄 Input HTML](/html/CSS%20Properties/O/orphans.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -90,7 +108,9 @@ description:
 
 ## OUTLINE-OFFSET
 
-[📄 Input HTML](/html/CSS%20Properties/O/outline-offset.html):
+[📄 Input HTML](/html/CSS%20Properties/O/outline-offset.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -99,7 +119,9 @@ description:
 
 ## OUTLINE
 
-[📄 Input HTML](/html/CSS%20Properties/O/outline.html):
+[📄 Input HTML](/html/CSS%20Properties/O/outline.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -108,7 +130,9 @@ description:
 
 ## OVERFLOW
 
-[📄 Input HTML](/html/CSS%20Properties/O/overflow.html):
+[📄 Input HTML](/html/CSS%20Properties/O/overflow.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -117,7 +141,9 @@ description:
 
 ## OVERSCROLL-BEHAVIOR
 
-[📄 Input HTML](/html/CSS%20Properties/O/overscroll-behavior.html):
+[📄 Input HTML](/html/CSS%20Properties/O/overscroll-behavior.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

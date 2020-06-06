@@ -9,7 +9,9 @@ description:
 
 ## ALIGN-CONTENT
 
-[📄 Input HTML](/html/CSS%20Properties/A/align-content.html):
+[📄 Input HTML](/html/CSS%20Properties/A/align-content.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## ALIGN-ITEMS
 
-[📄 Input HTML](/html/CSS%20Properties/A/align-items.html):
+[📄 Input HTML](/html/CSS%20Properties/A/align-items.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## ALIGN-SELF
 
-[📄 Input HTML](/html/CSS%20Properties/A/align-self.html):
+[📄 Input HTML](/html/CSS%20Properties/A/align-self.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## ALL
 
-[📄 Input HTML](/html/CSS%20Properties/A/all.html):
+[📄 Input HTML](/html/CSS%20Properties/A/all.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## APPEARANCE
 
-[📄 Input HTML](/html/CSS%20Properties/A/appearance.html):
+[📄 Input HTML](/html/CSS%20Properties/A/appearance.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

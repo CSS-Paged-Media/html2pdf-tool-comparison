@@ -9,7 +9,9 @@ description:
 
 ## MULTICOLUMN
 
-[📄 Input HTML](/html/PDFreactor%20Examples/multicolumn/multicolumn.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/multicolumn/multicolumn.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

@@ -9,7 +9,9 @@ description:
 
 ## FILTER
 
-[📄 Input HTML](/html/CSS%20Properties/F/filter.html):
+[📄 Input HTML](/html/CSS%20Properties/F/filter.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## FLEX-BASIS
 
-[📄 Input HTML](/html/CSS%20Properties/F/flex-basis.html):
+[📄 Input HTML](/html/CSS%20Properties/F/flex-basis.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## FLEX-DIRECTION
 
-[📄 Input HTML](/html/CSS%20Properties/F/flex-direction.html):
+[📄 Input HTML](/html/CSS%20Properties/F/flex-direction.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## FLEX-FLOW
 
-[📄 Input HTML](/html/CSS%20Properties/F/flex-flow.html):
+[📄 Input HTML](/html/CSS%20Properties/F/flex-flow.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## FLEX-GROW
 
-[📄 Input HTML](/html/CSS%20Properties/F/flex-grow.html):
+[📄 Input HTML](/html/CSS%20Properties/F/flex-grow.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -54,7 +64,9 @@ description:
 
 ## FLEX-SHRINK
 
-[📄 Input HTML](/html/CSS%20Properties/F/flex-shrink.html):
+[📄 Input HTML](/html/CSS%20Properties/F/flex-shrink.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -63,7 +75,9 @@ description:
 
 ## FLEX-WRAP
 
-[📄 Input HTML](/html/CSS%20Properties/F/flex-wrap.html):
+[📄 Input HTML](/html/CSS%20Properties/F/flex-wrap.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -72,7 +86,9 @@ description:
 
 ## FLEX
 
-[📄 Input HTML](/html/CSS%20Properties/F/flex.html):
+[📄 Input HTML](/html/CSS%20Properties/F/flex.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -81,7 +97,9 @@ description:
 
 ## FLOAT
 
-[📄 Input HTML](/html/CSS%20Properties/F/float.html):
+[📄 Input HTML](/html/CSS%20Properties/F/float.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -90,7 +108,9 @@ description:
 
 ## FONT-FAMILY
 
-[📄 Input HTML](/html/CSS%20Properties/F/font-family.html):
+[📄 Input HTML](/html/CSS%20Properties/F/font-family.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -99,7 +119,9 @@ description:
 
 ## FONT-FEATURE-SETTINGS
 
-[📄 Input HTML](/html/CSS%20Properties/F/font-feature-settings.html):
+[📄 Input HTML](/html/CSS%20Properties/F/font-feature-settings.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -108,7 +130,9 @@ description:
 
 ## FONT-SIZE-ADJUST
 
-[📄 Input HTML](/html/CSS%20Properties/F/font-size-adjust.html):
+[📄 Input HTML](/html/CSS%20Properties/F/font-size-adjust.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -117,7 +141,9 @@ description:
 
 ## FONT-SIZE
 
-[📄 Input HTML](/html/CSS%20Properties/F/font-size.html):
+[📄 Input HTML](/html/CSS%20Properties/F/font-size.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -126,7 +152,9 @@ description:
 
 ## FONT-STRETCH
 
-[📄 Input HTML](/html/CSS%20Properties/F/font-stretch.html):
+[📄 Input HTML](/html/CSS%20Properties/F/font-stretch.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -135,7 +163,9 @@ description:
 
 ## FONT-STYLE
 
-[📄 Input HTML](/html/CSS%20Properties/F/font-style.html):
+[📄 Input HTML](/html/CSS%20Properties/F/font-style.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -144,7 +174,9 @@ description:
 
 ## FONT-VARIANT
 
-[📄 Input HTML](/html/CSS%20Properties/F/font-variant.html):
+[📄 Input HTML](/html/CSS%20Properties/F/font-variant.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -153,7 +185,9 @@ description:
 
 ## FONT-WEIGHT
 
-[📄 Input HTML](/html/CSS%20Properties/F/font-weight.html):
+[📄 Input HTML](/html/CSS%20Properties/F/font-weight.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -162,7 +196,9 @@ description:
 
 ## FONT
 
-[📄 Input HTML](/html/CSS%20Properties/F/font.html):
+[📄 Input HTML](/html/CSS%20Properties/F/font.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

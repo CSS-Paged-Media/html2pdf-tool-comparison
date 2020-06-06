@@ -9,7 +9,9 @@ description:
 
 ## DIRECTION
 
-[📄 Input HTML](/html/CSS%20Properties/D/direction.html):
+[📄 Input HTML](/html/CSS%20Properties/D/direction.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## DISPLAY
 
-[📄 Input HTML](/html/CSS%20Properties/D/display.html):
+[📄 Input HTML](/html/CSS%20Properties/D/display.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

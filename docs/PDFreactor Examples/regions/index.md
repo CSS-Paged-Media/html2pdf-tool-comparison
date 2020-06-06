@@ -9,7 +9,9 @@ description:
 
 ## REGIONS
 
-[📄 Input HTML](/html/PDFreactor%20Examples/regions/regions.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/regions/regions.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

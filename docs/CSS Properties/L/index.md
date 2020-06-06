@@ -9,7 +9,9 @@ description:
 
 ## LEFT
 
-[📄 Input HTML](/html/CSS%20Properties/L/left.html):
+[📄 Input HTML](/html/CSS%20Properties/L/left.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## LETTER-SPACING
 
-[📄 Input HTML](/html/CSS%20Properties/L/letter-spacing.html):
+[📄 Input HTML](/html/CSS%20Properties/L/letter-spacing.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## LINE-HEIGHT
 
-[📄 Input HTML](/html/CSS%20Properties/L/line-height.html):
+[📄 Input HTML](/html/CSS%20Properties/L/line-height.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## LIST-STYLE
 
-[📄 Input HTML](/html/CSS%20Properties/L/list-style.html):
+[📄 Input HTML](/html/CSS%20Properties/L/list-style.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

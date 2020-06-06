@@ -9,7 +9,9 @@ description:
 
 ## CHECKED
 
-[📄 Input HTML](/html/CSS%20Selectors/C/checked.html):
+[📄 Input HTML](/html/CSS%20Selectors/C/checked.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## CHILD
 
-[📄 Input HTML](/html/CSS%20Selectors/C/child.html):
+[📄 Input HTML](/html/CSS%20Selectors/C/child.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## CLASS
 
-[📄 Input HTML](/html/CSS%20Selectors/C/class.html):
+[📄 Input HTML](/html/CSS%20Selectors/C/class.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

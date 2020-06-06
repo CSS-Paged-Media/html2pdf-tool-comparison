@@ -9,7 +9,9 @@ description:
 
 ## NOT
 
-[📄 Input HTML](/html/CSS%20Selectors/N/not.html):
+[📄 Input HTML](/html/CSS%20Selectors/N/not.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## NTH-CHILD
 
-[📄 Input HTML](/html/CSS%20Selectors/N/nth-child.html):
+[📄 Input HTML](/html/CSS%20Selectors/N/nth-child.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## NTH-LAST-CHILD
 
-[📄 Input HTML](/html/CSS%20Selectors/N/nth-last-child.html):
+[📄 Input HTML](/html/CSS%20Selectors/N/nth-last-child.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## NTH-LAST-OF-TYPE
 
-[📄 Input HTML](/html/CSS%20Selectors/N/nth-last-of-type.html):
+[📄 Input HTML](/html/CSS%20Selectors/N/nth-last-of-type.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## NTH-OF-TYPE
 
-[📄 Input HTML](/html/CSS%20Selectors/N/nth-of-type.html):
+[📄 Input HTML](/html/CSS%20Selectors/N/nth-of-type.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

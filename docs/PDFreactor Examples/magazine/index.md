@@ -18,7 +18,9 @@ description:
 
 ## MAGAZINE
 
-[📄 Input HTML](/html/PDFreactor%20Examples/magazine/magazine.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/magazine/magazine.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

@@ -9,7 +9,9 @@ description:
 
 ## FOOTNOTES
 
-[📄 Input HTML](/html/PDFreactor%20Examples/footnotes/footnotes.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/footnotes/footnotes.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

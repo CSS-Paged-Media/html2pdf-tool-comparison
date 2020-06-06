@@ -9,7 +9,9 @@ description:
 
 ## MARKER
 
-[📄 Input HTML](/html/CSS%20Selectors/M/marker.html):
+[📄 Input HTML](/html/CSS%20Selectors/M/marker.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## MATCHES
 
-[📄 Input HTML](/html/CSS%20Selectors/M/matches.html):
+[📄 Input HTML](/html/CSS%20Selectors/M/matches.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

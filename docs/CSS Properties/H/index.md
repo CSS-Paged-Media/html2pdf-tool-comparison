@@ -9,7 +9,9 @@ description:
 
 ## HANGING-PUNCTUATION
 
-[📄 Input HTML](/html/CSS%20Properties/H/hanging-punctuation.html):
+[📄 Input HTML](/html/CSS%20Properties/H/hanging-punctuation.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## HEIGHT
 
-[📄 Input HTML](/html/CSS%20Properties/H/height.html):
+[📄 Input HTML](/html/CSS%20Properties/H/height.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## HYPHENS
 
-[📄 Input HTML](/html/CSS%20Properties/H/hyphens.html):
+[📄 Input HTML](/html/CSS%20Properties/H/hyphens.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

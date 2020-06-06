@@ -9,7 +9,9 @@ description:
 
 ## TARGET
 
-[📄 Input HTML](/html/CSS%20Selectors/T/target.html):
+[📄 Input HTML](/html/CSS%20Selectors/T/target.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## TYPE
 
-[📄 Input HTML](/html/CSS%20Selectors/T/type.html):
+[📄 Input HTML](/html/CSS%20Selectors/T/type.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

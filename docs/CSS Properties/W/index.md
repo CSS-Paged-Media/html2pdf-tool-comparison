@@ -9,7 +9,9 @@ description:
 
 ## WHITE-SPACE
 
-[📄 Input HTML](/html/CSS%20Properties/W/white-space.html):
+[📄 Input HTML](/html/CSS%20Properties/W/white-space.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## WIDOWS
 
-[📄 Input HTML](/html/CSS%20Properties/W/widows.html):
+[📄 Input HTML](/html/CSS%20Properties/W/widows.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## WIDTH
 
-[📄 Input HTML](/html/CSS%20Properties/W/width.html):
+[📄 Input HTML](/html/CSS%20Properties/W/width.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## WORD-BREAK
 
-[📄 Input HTML](/html/CSS%20Properties/W/word-break.html):
+[📄 Input HTML](/html/CSS%20Properties/W/word-break.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## WORD-SPACING
 
-[📄 Input HTML](/html/CSS%20Properties/W/word-spacing.html):
+[📄 Input HTML](/html/CSS%20Properties/W/word-spacing.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -54,7 +64,9 @@ description:
 
 ## WRITING-MODE
 
-[📄 Input HTML](/html/CSS%20Properties/W/writing-mode.html):
+[📄 Input HTML](/html/CSS%20Properties/W/writing-mode.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

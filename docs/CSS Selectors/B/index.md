@@ -9,7 +9,9 @@ description:
 
 ## BEFORE
 
-[📄 Input HTML](/html/CSS%20Selectors/B/before.html):
+[📄 Input HTML](/html/CSS%20Selectors/B/before.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## BLANK
 
-[📄 Input HTML](/html/CSS%20Selectors/B/blank.html):
+[📄 Input HTML](/html/CSS%20Selectors/B/blank.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

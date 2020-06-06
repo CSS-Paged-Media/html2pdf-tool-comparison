@@ -9,7 +9,9 @@ description:
 
 ## SHAPE-OUTSIDE
 
-[📄 Input HTML](/html/CSS%20Properties/S/shape-outside.html):
+[📄 Input HTML](/html/CSS%20Properties/S/shape-outside.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## STROKE-DASHARRAY
 
-[📄 Input HTML](/html/CSS%20Properties/S/stroke-dasharray.html):
+[📄 Input HTML](/html/CSS%20Properties/S/stroke-dasharray.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## STROKE-DASHOFFSET
 
-[📄 Input HTML](/html/CSS%20Properties/S/stroke-dashoffset.html):
+[📄 Input HTML](/html/CSS%20Properties/S/stroke-dashoffset.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## STROKE-LINECAP
 
-[📄 Input HTML](/html/CSS%20Properties/S/stroke-linecap.html):
+[📄 Input HTML](/html/CSS%20Properties/S/stroke-linecap.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## STROKE-LINEJOIN
 
-[📄 Input HTML](/html/CSS%20Properties/S/stroke-linejoin.html):
+[📄 Input HTML](/html/CSS%20Properties/S/stroke-linejoin.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -54,7 +64,9 @@ description:
 
 ## STROKE-WIDTH
 
-[📄 Input HTML](/html/CSS%20Properties/S/stroke-width.html):
+[📄 Input HTML](/html/CSS%20Properties/S/stroke-width.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -63,7 +75,9 @@ description:
 
 ## STROKE
 
-[📄 Input HTML](/html/CSS%20Properties/S/stroke.html):
+[📄 Input HTML](/html/CSS%20Properties/S/stroke.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

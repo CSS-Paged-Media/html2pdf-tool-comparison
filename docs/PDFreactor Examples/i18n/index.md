@@ -9,7 +9,9 @@ description:
 
 ## I18N-SAMPLE
 
-[📄 Input HTML](/html/PDFreactor%20Examples/i18n/i18n-sample.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/i18n/i18n-sample.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

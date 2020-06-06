@@ -9,7 +9,9 @@ description:
 
 ## RESIZE
 
-[📄 Input HTML](/html/CSS%20Properties/R/resize.html):
+[📄 Input HTML](/html/CSS%20Properties/R/resize.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## RIGHT
 
-[📄 Input HTML](/html/CSS%20Properties/R/right.html):
+[📄 Input HTML](/html/CSS%20Properties/R/right.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

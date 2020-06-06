@@ -14,7 +14,9 @@ description:
 
 ## NEWSPAPER
 
-[📄 Input HTML](/html/PDFreactor%20Examples/newspaper/newspaper.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/newspaper/newspaper.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

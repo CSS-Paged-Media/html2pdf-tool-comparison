@@ -9,7 +9,9 @@ description:
 
 ## GRID-ROW-COLUMN
 
-[📄 Input HTML](/html/CSS%20Properties/G/grid-row-column.html):
+[📄 Input HTML](/html/CSS%20Properties/G/grid-row-column.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## GRID-TEMPLATE-COLUMNS-ROWS
 
-[📄 Input HTML](/html/CSS%20Properties/G/grid-template-columns-rows.html):
+[📄 Input HTML](/html/CSS%20Properties/G/grid-template-columns-rows.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

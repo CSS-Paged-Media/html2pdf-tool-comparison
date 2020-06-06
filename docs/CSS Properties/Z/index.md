@@ -9,7 +9,9 @@ description:
 
 ## Z-INDEX
 
-[📄 Input HTML](/html/CSS%20Properties/Z/z-index.html):
+[📄 Input HTML](/html/CSS%20Properties/Z/z-index.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## ZOOM
 
-[📄 Input HTML](/html/CSS%20Properties/Z/zoom.html):
+[📄 Input HTML](/html/CSS%20Properties/Z/zoom.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

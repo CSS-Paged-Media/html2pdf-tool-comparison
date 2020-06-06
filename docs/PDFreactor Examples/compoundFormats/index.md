@@ -18,7 +18,9 @@ description:
 
 ## COMPOUNDFORMATS
 
-[📄 Input HTML](/html/PDFreactor%20Examples/compoundFormats/compoundFormats.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/compoundFormats/compoundFormats.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

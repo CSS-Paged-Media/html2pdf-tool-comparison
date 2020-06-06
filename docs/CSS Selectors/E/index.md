@@ -9,7 +9,9 @@ description:
 
 ## EMPTY
 
-[📄 Input HTML](/html/CSS%20Selectors/E/empty.html):
+[📄 Input HTML](/html/CSS%20Selectors/E/empty.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## ENABLED
 
-[📄 Input HTML](/html/CSS%20Selectors/E/enabled.html):
+[📄 Input HTML](/html/CSS%20Selectors/E/enabled.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

@@ -9,7 +9,9 @@ description:
 
 ## PLACEHOLDER-SHOWN
 
-[📄 Input HTML](/html/CSS%20Selectors/P/placeholder-shown.html):
+[📄 Input HTML](/html/CSS%20Selectors/P/placeholder-shown.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## PLACEHOLDER
 
-[📄 Input HTML](/html/CSS%20Selectors/P/placeholder.html):
+[📄 Input HTML](/html/CSS%20Selectors/P/placeholder.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

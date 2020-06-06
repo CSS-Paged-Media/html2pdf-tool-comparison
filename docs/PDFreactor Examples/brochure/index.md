@@ -18,7 +18,9 @@ description:
 
 ## BROCHURE
 
-[📄 Input HTML](/html/PDFreactor%20Examples/brochure/brochure.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/brochure/brochure.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

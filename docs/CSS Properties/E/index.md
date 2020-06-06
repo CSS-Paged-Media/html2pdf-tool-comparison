@@ -9,7 +9,9 @@ description:
 
 ## EMPTY-CELLS
 
-[📄 Input HTML](/html/CSS%20Properties/E/empty-cells.html):
+[📄 Input HTML](/html/CSS%20Properties/E/empty-cells.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

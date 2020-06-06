@@ -68,6 +68,8 @@ footer p{
 
 main{
     padding:2rem;
+    margin: 0 auto;
+    max-width: 720px;
 }
 
 main img{

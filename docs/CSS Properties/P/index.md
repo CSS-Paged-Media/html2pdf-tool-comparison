@@ -9,7 +9,9 @@ description:
 
 ## PADDING
 
-[📄 Input HTML](/html/CSS%20Properties/P/padding.html):
+[📄 Input HTML](/html/CSS%20Properties/P/padding.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## PERSPECTIVE-ORIGIN
 
-[📄 Input HTML](/html/CSS%20Properties/P/perspective-origin.html):
+[📄 Input HTML](/html/CSS%20Properties/P/perspective-origin.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## PERSPECTIVE
 
-[📄 Input HTML](/html/CSS%20Properties/P/perspective.html):
+[📄 Input HTML](/html/CSS%20Properties/P/perspective.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## POSITION
 
-[📄 Input HTML](/html/CSS%20Properties/P/position.html):
+[📄 Input HTML](/html/CSS%20Properties/P/position.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

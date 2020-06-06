@@ -9,7 +9,9 @@ description:
 
 ## LANG
 
-[📄 Input HTML](/html/CSS%20Selectors/L/lang.html):
+[📄 Input HTML](/html/CSS%20Selectors/L/lang.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## LAST-CHILD
 
-[📄 Input HTML](/html/CSS%20Selectors/L/last-child.html):
+[📄 Input HTML](/html/CSS%20Selectors/L/last-child.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## LAST-OF-TYPE
 
-[📄 Input HTML](/html/CSS%20Selectors/L/last-of-type.html):
+[📄 Input HTML](/html/CSS%20Selectors/L/last-of-type.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## LINK
 
-[📄 Input HTML](/html/CSS%20Selectors/L/link.html):
+[📄 Input HTML](/html/CSS%20Selectors/L/link.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

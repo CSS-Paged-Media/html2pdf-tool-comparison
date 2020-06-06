@@ -9,7 +9,9 @@ description:
 
 ## FLEXBOX
 
-[📄 Input HTML](/html/PDFreactor%20Examples/flexbox/flexbox.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/flexbox/flexbox.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

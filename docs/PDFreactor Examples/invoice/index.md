@@ -14,7 +14,9 @@ description:
 
 ## INVOICE
 
-[📄 Input HTML](/html/PDFreactor%20Examples/invoice/invoice.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/invoice/invoice.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

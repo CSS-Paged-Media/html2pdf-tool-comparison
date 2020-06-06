@@ -9,7 +9,9 @@ description:
 
 ## CAPTION-SIDE
 
-[📄 Input HTML](/html/CSS%20Properties/C/caption-side.html):
+[📄 Input HTML](/html/CSS%20Properties/C/caption-side.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## CARET-COLOR
 
-[📄 Input HTML](/html/CSS%20Properties/C/caret-color.html):
+[📄 Input HTML](/html/CSS%20Properties/C/caret-color.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## CLEAR
 
-[📄 Input HTML](/html/CSS%20Properties/C/clear.html):
+[📄 Input HTML](/html/CSS%20Properties/C/clear.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## CLIP-PATH
 
-[📄 Input HTML](/html/CSS%20Properties/C/clip-path.html):
+[📄 Input HTML](/html/CSS%20Properties/C/clip-path.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## COLOR
 
-[📄 Input HTML](/html/CSS%20Properties/C/color.html):
+[📄 Input HTML](/html/CSS%20Properties/C/color.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -54,7 +64,9 @@ description:
 
 ## COLUMN-COUNT
 
-[📄 Input HTML](/html/CSS%20Properties/C/column-count.html):
+[📄 Input HTML](/html/CSS%20Properties/C/column-count.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -63,7 +75,9 @@ description:
 
 ## COLUMN-FILL
 
-[📄 Input HTML](/html/CSS%20Properties/C/column-fill.html):
+[📄 Input HTML](/html/CSS%20Properties/C/column-fill.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -72,7 +86,9 @@ description:
 
 ## COLUMN-GAP
 
-[📄 Input HTML](/html/CSS%20Properties/C/column-gap.html):
+[📄 Input HTML](/html/CSS%20Properties/C/column-gap.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -81,7 +97,9 @@ description:
 
 ## COLUMN-RULE
 
-[📄 Input HTML](/html/CSS%20Properties/C/column-rule.html):
+[📄 Input HTML](/html/CSS%20Properties/C/column-rule.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -90,7 +108,9 @@ description:
 
 ## COLUMN-SPAN
 
-[📄 Input HTML](/html/CSS%20Properties/C/column-span.html):
+[📄 Input HTML](/html/CSS%20Properties/C/column-span.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -99,7 +119,9 @@ description:
 
 ## COLUMN-WIDTH
 
-[📄 Input HTML](/html/CSS%20Properties/C/column-width.html):
+[📄 Input HTML](/html/CSS%20Properties/C/column-width.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -108,7 +130,9 @@ description:
 
 ## COLUMNS
 
-[📄 Input HTML](/html/CSS%20Properties/C/columns.html):
+[📄 Input HTML](/html/CSS%20Properties/C/columns.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -117,7 +141,9 @@ description:
 
 ## CONTENT
 
-[📄 Input HTML](/html/CSS%20Properties/C/content.html):
+[📄 Input HTML](/html/CSS%20Properties/C/content.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -126,7 +152,9 @@ description:
 
 ## COUNTER-INCREMENT
 
-[📄 Input HTML](/html/CSS%20Properties/C/counter-increment.html):
+[📄 Input HTML](/html/CSS%20Properties/C/counter-increment.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -135,7 +163,9 @@ description:
 
 ## COUNTER-RESET
 
-[📄 Input HTML](/html/CSS%20Properties/C/counter-reset.html):
+[📄 Input HTML](/html/CSS%20Properties/C/counter-reset.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -144,7 +174,9 @@ description:
 
 ## CURSOR
 
-[📄 Input HTML](/html/CSS%20Properties/C/cursor.html):
+[📄 Input HTML](/html/CSS%20Properties/C/cursor.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

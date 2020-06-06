@@ -14,7 +14,9 @@ description:
 
 ## BOOKMARKS
 
-[📄 Input HTML](/html/PDFreactor%20Examples/pdffeatures/bookmarks.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/pdffeatures/bookmarks.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -23,7 +25,9 @@ description:
 
 ## COMMENTS
 
-[📄 Input HTML](/html/PDFreactor%20Examples/pdffeatures/comments.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/pdffeatures/comments.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

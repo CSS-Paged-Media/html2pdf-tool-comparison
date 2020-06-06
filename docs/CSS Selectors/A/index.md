@@ -9,7 +9,9 @@ description:
 
 ## ACTIVE
 
-[📄 Input HTML](/html/CSS%20Selectors/A/active.html):
+[📄 Input HTML](/html/CSS%20Selectors/A/active.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## ADJACENT-SIBLING
 
-[📄 Input HTML](/html/CSS%20Selectors/A/adjacent-sibling.html):
+[📄 Input HTML](/html/CSS%20Selectors/A/adjacent-sibling.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## AFTER
 
-[📄 Input HTML](/html/CSS%20Selectors/A/after.html):
+[📄 Input HTML](/html/CSS%20Selectors/A/after.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## ANY-LINK
 
-[📄 Input HTML](/html/CSS%20Selectors/A/any-link.html):
+[📄 Input HTML](/html/CSS%20Selectors/A/any-link.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## ATTRIBUTE
 
-[📄 Input HTML](/html/CSS%20Selectors/A/attribute.html):
+[📄 Input HTML](/html/CSS%20Selectors/A/attribute.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

@@ -9,7 +9,9 @@ description:
 
 ## ID
 
-[📄 Input HTML](/html/CSS%20Selectors/I/id.html):
+[📄 Input HTML](/html/CSS%20Selectors/I/id.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## IN-RANGE
 
-[📄 Input HTML](/html/CSS%20Selectors/I/in-range.html):
+[📄 Input HTML](/html/CSS%20Selectors/I/in-range.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## INVALID
 
-[📄 Input HTML](/html/CSS%20Selectors/I/invalid.html):
+[📄 Input HTML](/html/CSS%20Selectors/I/invalid.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## IS
 
-[📄 Input HTML](/html/CSS%20Selectors/I/is.html):
+[📄 Input HTML](/html/CSS%20Selectors/I/is.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

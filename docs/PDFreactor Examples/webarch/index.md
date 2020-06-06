@@ -9,7 +9,9 @@ description:
 
 ## WEBARCH
 
-[📄 Input HTML](/html/PDFreactor%20Examples/webarch/webarch.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/webarch/webarch.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

@@ -9,7 +9,9 @@ description:
 
 ## MARGIN
 
-[📄 Input HTML](/html/CSS%20Properties/M/margin.html):
+[📄 Input HTML](/html/CSS%20Properties/M/margin.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## MASK-IMAGE
 
-[📄 Input HTML](/html/CSS%20Properties/M/mask-image.html):
+[📄 Input HTML](/html/CSS%20Properties/M/mask-image.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## MASK-REPEAT
 
-[📄 Input HTML](/html/CSS%20Properties/M/mask-repeat.html):
+[📄 Input HTML](/html/CSS%20Properties/M/mask-repeat.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## MAX-HEIGHT
 
-[📄 Input HTML](/html/CSS%20Properties/M/max-height.html):
+[📄 Input HTML](/html/CSS%20Properties/M/max-height.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## MAX-WIDTH
 
-[📄 Input HTML](/html/CSS%20Properties/M/max-width.html):
+[📄 Input HTML](/html/CSS%20Properties/M/max-width.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -54,7 +64,9 @@ description:
 
 ## MIN-HEIGHT
 
-[📄 Input HTML](/html/CSS%20Properties/M/min-height.html):
+[📄 Input HTML](/html/CSS%20Properties/M/min-height.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -63,7 +75,9 @@ description:
 
 ## MIN-WIDTH
 
-[📄 Input HTML](/html/CSS%20Properties/M/min-width.html):
+[📄 Input HTML](/html/CSS%20Properties/M/min-width.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -72,7 +86,9 @@ description:
 
 ## MIX-BLEND-MODE
 
-[📄 Input HTML](/html/CSS%20Properties/M/mix-blend-mode.html):
+[📄 Input HTML](/html/CSS%20Properties/M/mix-blend-mode.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|

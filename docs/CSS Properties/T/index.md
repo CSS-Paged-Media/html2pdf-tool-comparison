@@ -9,7 +9,9 @@ description:
 
 ## TAB-SIZE
 
-[📄 Input HTML](/html/CSS%20Properties/T/tab-size.html):
+[📄 Input HTML](/html/CSS%20Properties/T/tab-size.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -18,7 +20,9 @@ description:
 
 ## TABLE-LAYOUT
 
-[📄 Input HTML](/html/CSS%20Properties/T/table-layout.html):
+[📄 Input HTML](/html/CSS%20Properties/T/table-layout.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -27,7 +31,9 @@ description:
 
 ## TEXT-ALIGN-LAST
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-align-last.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-align-last.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -36,7 +42,9 @@ description:
 
 ## TEXT-ALIGN
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-align.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-align.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -45,7 +53,9 @@ description:
 
 ## TEXT-DECORATION-COLOR
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-color.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-color.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -54,7 +64,9 @@ description:
 
 ## TEXT-DECORATION-LINE
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-line.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-line.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -63,7 +75,9 @@ description:
 
 ## TEXT-DECORATION-SKIP-INK
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-skip-ink.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-skip-ink.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -72,7 +86,9 @@ description:
 
 ## TEXT-DECORATION-SKIP
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-skip.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-skip.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -81,7 +97,9 @@ description:
 
 ## TEXT-DECORATION-STYLE
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-style.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-decoration-style.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -90,7 +108,9 @@ description:
 
 ## TEXT-DECORATION
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-decoration.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-decoration.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -99,7 +119,9 @@ description:
 
 ## TEXT-INDENT
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-indent.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-indent.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -108,7 +130,9 @@ description:
 
 ## TEXT-JUSTIFY
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-justify.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-justify.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -117,7 +141,9 @@ description:
 
 ## TEXT-OVERFLOW
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-overflow.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-overflow.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -126,7 +152,9 @@ description:
 
 ## TEXT-SHADOW
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-shadow.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-shadow.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -135,7 +163,9 @@ description:
 
 ## TEXT-STROKE
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-stroke.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-stroke.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -144,7 +174,9 @@ description:
 
 ## TEXT-TRANSFORM
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-transform.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-transform.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -153,7 +185,9 @@ description:
 
 ## TEXT-UNDERLINE-OFFSET
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-underline-offset.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-underline-offset.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -162,7 +196,9 @@ description:
 
 ## TEXT-UNDERLINE-POSITION
 
-[📄 Input HTML](/html/CSS%20Properties/T/text-underline-position.html):
+[📄 Input HTML](/html/CSS%20Properties/T/text-underline-position.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -171,7 +207,9 @@ description:
 
 ## TOP
 
-[📄 Input HTML](/html/CSS%20Properties/T/top.html):
+[📄 Input HTML](/html/CSS%20Properties/T/top.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -180,7 +218,9 @@ description:
 
 ## TRANSFORM-ORIGIN
 
-[📄 Input HTML](/html/CSS%20Properties/T/transform-origin.html):
+[📄 Input HTML](/html/CSS%20Properties/T/transform-origin.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -189,7 +229,9 @@ description:
 
 ## TRANSFORM-STYLE
 
-[📄 Input HTML](/html/CSS%20Properties/T/transform-style.html):
+[📄 Input HTML](/html/CSS%20Properties/T/transform-style.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
@@ -198,7 +240,9 @@ description:
 
 ## TRANSFORM
 
-[📄 Input HTML](/html/CSS%20Properties/T/transform.html):
+[📄 Input HTML](/html/CSS%20Properties/T/transform.html)
+
+### Output PDF
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
