@@ -154,13 +154,6 @@ footer p {
     }
 }
 
-header h1 a,
-header h1 a:visited,
-header h1 a:hover,
-header h1 a:active{
-    color:#fff;
-}
-
 a{
     color:#195584;
     text-decoration: none;
@@ -325,4 +318,14 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 
 code {
     max-height: 420px;
+}
+
+
+
+header h1 a,
+header h1 a:visited,
+header h1 a:hover,
+header h1 a:active{
+    color:#fff;
+    margin-right:0;
 }
