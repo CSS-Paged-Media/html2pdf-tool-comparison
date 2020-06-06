@@ -14,7 +14,20 @@ description:
 
 ## 🔬 BOOKMARKS
 
+### Input HTML & CSS
+
 [📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/pdffeatures/bookmarks.html)
+
+<details>
+    <summary>
+        View BOOKMARKS Code
+    </summary>
+    <pre>
+        <code>
+            
+        </code>
+    </pre>
+</details>
 
 ### Output PDF
 
@@ -25,7 +38,20 @@ description:
 
 ## 🔬 COMMENTS
 
+### Input HTML & CSS
+
 [📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/pdffeatures/comments.html)
+
+<details>
+    <summary>
+        View COMMENTS Code
+    </summary>
+    <pre>
+        <code>
+            
+        </code>
+    </pre>
+</details>
 
 ### Output PDF
 

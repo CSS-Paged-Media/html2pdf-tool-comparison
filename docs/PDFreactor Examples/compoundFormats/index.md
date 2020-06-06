@@ -18,7 +18,20 @@ description:
 
 ## 🔬 COMPOUNDFORMATS
 
+### Input HTML & CSS
+
 [📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/compoundFormats/compoundFormats.html)
+
+<details>
+    <summary>
+        View COMPOUNDFORMATS Code
+    </summary>
+    <pre>
+        <code>
+            
+        </code>
+    </pre>
+</details>
 
 ### Output PDF
 

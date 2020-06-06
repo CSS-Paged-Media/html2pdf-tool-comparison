@@ -9,7 +9,20 @@ description:
 
 ## 🔬 ACCESSIBILITY
 
+### Input HTML & CSS
+
 [📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/accessibility/accessibility.html)
+
+<details>
+    <summary>
+        View ACCESSIBILITY Code
+    </summary>
+    <pre>
+        <code>
+            
+        </code>
+    </pre>
+</details>
 
 ### Output PDF
 

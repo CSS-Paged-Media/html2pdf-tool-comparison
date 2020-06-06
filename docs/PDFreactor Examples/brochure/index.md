@@ -18,7 +18,20 @@ description:
 
 ## 🔬 BROCHURE
 
+### Input HTML & CSS
+
 [📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/brochure/brochure.html)
+
+<details>
+    <summary>
+        View BROCHURE Code
+    </summary>
+    <pre>
+        <code>
+            
+        </code>
+    </pre>
+</details>
 
 ### Output PDF
 

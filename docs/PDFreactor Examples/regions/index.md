@@ -9,7 +9,20 @@ description:
 
 ## 🔬 REGIONS
 
+### Input HTML & CSS
+
 [📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/regions/regions.html)
+
+<details>
+    <summary>
+        View REGIONS Code
+    </summary>
+    <pre>
+        <code>
+            
+        </code>
+    </pre>
+</details>
 
 ### Output PDF
 

@@ -9,7 +9,20 @@ description:
 
 ## 🔬 I18N-SAMPLE
 
+### Input HTML & CSS
+
 [📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/i18n/i18n-sample.html)
+
+<details>
+    <summary>
+        View I18N-SAMPLE Code
+    </summary>
+    <pre>
+        <code>
+            
+        </code>
+    </pre>
+</details>
 
 ### Output PDF
 

@@ -14,7 +14,20 @@ description:
 
 ## 🔬 WIZARDOFOZ
 
+### Input HTML & CSS
+
 [📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/novel/wizardOfOz.html)
+
+<details>
+    <summary>
+        View WIZARDOFOZ Code
+    </summary>
+    <pre>
+        <code>
+            
+        </code>
+    </pre>
+</details>
 
 ### Output PDF
 
@@ -25,7 +38,20 @@ description:
 
 ## 🔬 WIZARDOFOZXSLT
 
+### Input HTML & CSS
+
 [📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/novel/wizardOfOzXSLT.html)
+
+<details>
+    <summary>
+        View WIZARDOFOZXSLT Code
+    </summary>
+    <pre>
+        <code>
+            
+        </code>
+    </pre>
+</details>
 
 ### Output PDF
 
