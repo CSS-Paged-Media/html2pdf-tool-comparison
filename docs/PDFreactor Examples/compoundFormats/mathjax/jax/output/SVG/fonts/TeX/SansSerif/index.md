@@ -5,10 +5,19 @@ permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/font
 description: 
 ---
 
-## Sub Pages
-* [Bold](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Bold/)
-* [Italic](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Italic/)
-* [Regular](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Regular/)
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Bold/">
+                                Bold
+                            </a>
 
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Italic/">
+                                Italic
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/Regular/">
+                                Regular
+                            </a>
+</div>
 
 

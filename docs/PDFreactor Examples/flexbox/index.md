@@ -9,21 +9,21 @@ description:
 
 ## FLEXBOX
 
-See the Rendering results for [flexbox.html](/html/PDFreactor%20Examples/flexbox/flexbox.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/flexbox/flexbox.html):
 
 ### mPDF
-![](mpdf__html_PDFreactor_Examples_flexbox_flexbox.html.png) 
+![mPDF Preview](mpdf__html_PDFreactor_Examples_flexbox_flexbox.html.png) 
 
-Link to PDF: [mpdf__html_PDFreactor_Examples_flexbox_flexbox.html.pdf](mpdf__html_PDFreactor_Examples_flexbox_flexbox.html.pdf)
+[📕 mPDF Output](mpdf__html_PDFreactor_Examples_flexbox_flexbox.html.pdf)
 
 ### typeset.sh
-![](typeset__html_PDFreactor_Examples_flexbox_flexbox.html.png) 
+![typeset Preview](typeset__html_PDFreactor_Examples_flexbox_flexbox.html.png) 
 
-Link to PDF: [typeset__html_PDFreactor_Examples_flexbox_flexbox.html.pdf](typeset__html_PDFreactor_Examples_flexbox_flexbox.html.pdf)
+[📕 typeset Output](typeset__html_PDFreactor_Examples_flexbox_flexbox.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_PDFreactor_Examples_flexbox_flexbox.html.png) 
+![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_flexbox_flexbox.html.png) 
 
-Link to PDF: [pdfreactor__html_PDFreactor_Examples_flexbox_flexbox.html.pdf](pdfreactor__html_PDFreactor_Examples_flexbox_flexbox.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_flexbox_flexbox.html.pdf)
 
 

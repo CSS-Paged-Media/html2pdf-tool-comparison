@@ -9,40 +9,40 @@ description:
 
 ## VALID
 
-See the Rendering results for [valid.html](/html/CSS%20Selectors/V/valid.html):
+[📄 Input HTML](/html/CSS%20Selectors/V/valid.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_V_valid.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_V_valid.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_V_valid.html.pdf](mpdf__html_CSS_Selectors_V_valid.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_V_valid.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_V_valid.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_V_valid.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_V_valid.html.pdf](typeset__html_CSS_Selectors_V_valid.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_V_valid.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_V_valid.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_V_valid.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_V_valid.html.pdf](pdfreactor__html_CSS_Selectors_V_valid.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_V_valid.html.pdf)
 
 ## VISITED
 
-See the Rendering results for [visited.html](/html/CSS%20Selectors/V/visited.html):
+[📄 Input HTML](/html/CSS%20Selectors/V/visited.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_V_visited.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_V_visited.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_V_visited.html.pdf](mpdf__html_CSS_Selectors_V_visited.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_V_visited.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_V_visited.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_V_visited.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_V_visited.html.pdf](typeset__html_CSS_Selectors_V_visited.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_V_visited.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_V_visited.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_V_visited.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_V_visited.html.pdf](pdfreactor__html_CSS_Selectors_V_visited.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_V_visited.html.pdf)
 
 

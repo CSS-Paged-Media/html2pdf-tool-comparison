@@ -5,27 +5,30 @@ permalink: /docs/PDFreactor-Examples/invoice/
 description: 
 ---
 
-## Sub Pages
-* [scripts](/compare.html2pdf.tools/docs/PDFreactor-Examples/invoice/scripts/)
-
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/invoice/scripts/">
+                                scripts
+                            </a>
+</div>
 
 ## INVOICE
 
-See the Rendering results for [invoice.html](/html/PDFreactor%20Examples/invoice/invoice.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/invoice/invoice.html):
 
 ### mPDF
-![](mpdf__html_PDFreactor_Examples_invoice_invoice.html.png) 
+![mPDF Preview](mpdf__html_PDFreactor_Examples_invoice_invoice.html.png) 
 
-Link to PDF: [mpdf__html_PDFreactor_Examples_invoice_invoice.html.pdf](mpdf__html_PDFreactor_Examples_invoice_invoice.html.pdf)
+[📕 mPDF Output](mpdf__html_PDFreactor_Examples_invoice_invoice.html.pdf)
 
 ### typeset.sh
-![](typeset__html_PDFreactor_Examples_invoice_invoice.html.png) 
+![typeset Preview](typeset__html_PDFreactor_Examples_invoice_invoice.html.png) 
 
-Link to PDF: [typeset__html_PDFreactor_Examples_invoice_invoice.html.pdf](typeset__html_PDFreactor_Examples_invoice_invoice.html.pdf)
+[📕 typeset Output](typeset__html_PDFreactor_Examples_invoice_invoice.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_PDFreactor_Examples_invoice_invoice.html.png) 
+![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_invoice_invoice.html.png) 
 
-Link to PDF: [pdfreactor__html_PDFreactor_Examples_invoice_invoice.html.pdf](pdfreactor__html_PDFreactor_Examples_invoice_invoice.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_invoice_invoice.html.pdf)
 
 

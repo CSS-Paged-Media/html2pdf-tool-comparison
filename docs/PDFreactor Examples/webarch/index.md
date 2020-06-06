@@ -9,21 +9,21 @@ description:
 
 ## WEBARCH
 
-See the Rendering results for [webarch.html](/html/PDFreactor%20Examples/webarch/webarch.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/webarch/webarch.html):
 
 ### mPDF
-![](mpdf__html_PDFreactor_Examples_webarch_webarch.html.png) 
+![mPDF Preview](mpdf__html_PDFreactor_Examples_webarch_webarch.html.png) 
 
-Link to PDF: [mpdf__html_PDFreactor_Examples_webarch_webarch.html.pdf](mpdf__html_PDFreactor_Examples_webarch_webarch.html.pdf)
+[📕 mPDF Output](mpdf__html_PDFreactor_Examples_webarch_webarch.html.pdf)
 
 ### typeset.sh
-![](typeset__html_PDFreactor_Examples_webarch_webarch.html.png) 
+![typeset Preview](typeset__html_PDFreactor_Examples_webarch_webarch.html.png) 
 
-Link to PDF: [typeset__html_PDFreactor_Examples_webarch_webarch.html.pdf](typeset__html_PDFreactor_Examples_webarch_webarch.html.pdf)
+[📕 typeset Output](typeset__html_PDFreactor_Examples_webarch_webarch.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_PDFreactor_Examples_webarch_webarch.html.png) 
+![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_webarch_webarch.html.png) 
 
-Link to PDF: [pdfreactor__html_PDFreactor_Examples_webarch_webarch.html.pdf](pdfreactor__html_PDFreactor_Examples_webarch_webarch.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_webarch_webarch.html.pdf)
 
 

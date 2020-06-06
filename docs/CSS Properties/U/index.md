@@ -9,40 +9,40 @@ description:
 
 ## UNICODE-BIDI
 
-See the Rendering results for [unicode-bidi.html](/html/CSS%20Properties/U/unicode-bidi.html):
+[📄 Input HTML](/html/CSS%20Properties/U/unicode-bidi.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_U_unicode-bidi.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_U_unicode-bidi.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf](mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_U_unicode-bidi.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_U_unicode-bidi.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_U_unicode-bidi.html.pdf](typeset__html_CSS_Properties_U_unicode-bidi.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_U_unicode-bidi.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf)
 
 ## USER-SELECT
 
-See the Rendering results for [user-select.html](/html/CSS%20Properties/U/user-select.html):
+[📄 Input HTML](/html/CSS%20Properties/U/user-select.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_U_user-select.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_U_user-select.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_U_user-select.html.pdf](mpdf__html_CSS_Properties_U_user-select.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_U_user-select.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_U_user-select.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_U_user-select.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_U_user-select.html.pdf](typeset__html_CSS_Properties_U_user-select.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_U_user-select.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_U_user-select.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_user-select.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_U_user-select.html.pdf](pdfreactor__html_CSS_Properties_U_user-select.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_user-select.html.pdf)
 
 

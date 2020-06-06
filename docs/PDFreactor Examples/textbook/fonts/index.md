@@ -5,9 +5,15 @@ permalink: /docs/PDFreactor-Examples/textbook/fonts/
 description: 
 ---
 
-## Sub Pages
-* [Gentium](/compare.html2pdf.tools/docs/PDFreactor-Examples/textbook/fonts/Gentium/)
-* [OpenSans](/compare.html2pdf.tools/docs/PDFreactor-Examples/textbook/fonts/OpenSans/)
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/textbook/fonts/Gentium/">
+                                Gentium
+                            </a>
 
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/textbook/fonts/OpenSans/">
+                                OpenSans
+                            </a>
+</div>
 
 

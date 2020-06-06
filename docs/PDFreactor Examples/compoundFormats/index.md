@@ -5,28 +5,34 @@ permalink: /docs/PDFreactor-Examples/compoundFormats/
 description: 
 ---
 
-## Sub Pages
-* [mathjax](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/)
-* [resources](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/resources/)
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/">
+                                mathjax
+                            </a>
 
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/resources/">
+                                resources
+                            </a>
+</div>
 
 ## COMPOUNDFORMATS
 
-See the Rendering results for [compoundFormats.html](/html/PDFreactor%20Examples/compoundFormats/compoundFormats.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/compoundFormats/compoundFormats.html):
 
 ### mPDF
-![](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) 
+![mPDF Preview](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) 
 
-Link to PDF: [mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
+[📕 mPDF Output](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
 
 ### typeset.sh
-![](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) 
+![typeset Preview](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) 
 
-Link to PDF: [typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
+[📕 typeset Output](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) 
+![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) 
 
-Link to PDF: [pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
 
 

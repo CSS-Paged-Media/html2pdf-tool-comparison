@@ -1,11 +1,11 @@
 ---
 layout: page
-title: A comparison between different HTML2PDF tools
+title: A comparison between mPDF, typeset.sh, and PDFreactor
 permalink: /
 description: 
 ---
 
-# A comparison between [mPDF](https://mpdf.github.io/), [typeset.sh](https://typeset.sh/en/), and [PDFreactor](https://www.pdfreactor.com/)
+A comparison between [mPDF](https://mpdf.github.io/), [typeset.sh](https://typeset.sh/en/), and [PDFreactor](https://www.pdfreactor.com/)
 
 | Tools | Versions |
 |---------|---------|

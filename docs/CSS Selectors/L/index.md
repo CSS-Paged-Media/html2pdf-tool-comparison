@@ -9,78 +9,78 @@ description:
 
 ## LANG
 
-See the Rendering results for [lang.html](/html/CSS%20Selectors/L/lang.html):
+[📄 Input HTML](/html/CSS%20Selectors/L/lang.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_L_lang.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_L_lang.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_L_lang.html.pdf](mpdf__html_CSS_Selectors_L_lang.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_L_lang.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_L_lang.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_L_lang.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_L_lang.html.pdf](typeset__html_CSS_Selectors_L_lang.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_L_lang.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_L_lang.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_lang.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_L_lang.html.pdf](pdfreactor__html_CSS_Selectors_L_lang.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_lang.html.pdf)
 
 ## LAST-CHILD
 
-See the Rendering results for [last-child.html](/html/CSS%20Selectors/L/last-child.html):
+[📄 Input HTML](/html/CSS%20Selectors/L/last-child.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_L_last-child.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_L_last-child.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_L_last-child.html.pdf](mpdf__html_CSS_Selectors_L_last-child.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-child.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_L_last-child.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_L_last-child.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_L_last-child.html.pdf](typeset__html_CSS_Selectors_L_last-child.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_L_last-child.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_L_last-child.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-child.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_L_last-child.html.pdf](pdfreactor__html_CSS_Selectors_L_last-child.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-child.html.pdf)
 
 ## LAST-OF-TYPE
 
-See the Rendering results for [last-of-type.html](/html/CSS%20Selectors/L/last-of-type.html):
+[📄 Input HTML](/html/CSS%20Selectors/L/last-of-type.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_L_last-of-type.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_L_last-of-type.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_L_last-of-type.html.pdf](mpdf__html_CSS_Selectors_L_last-of-type.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-of-type.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_L_last-of-type.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_L_last-of-type.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_L_last-of-type.html.pdf](typeset__html_CSS_Selectors_L_last-of-type.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_L_last-of-type.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_L_last-of-type.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-of-type.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_L_last-of-type.html.pdf](pdfreactor__html_CSS_Selectors_L_last-of-type.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-of-type.html.pdf)
 
 ## LINK
 
-See the Rendering results for [link.html](/html/CSS%20Selectors/L/link.html):
+[📄 Input HTML](/html/CSS%20Selectors/L/link.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_L_link.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_L_link.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_L_link.html.pdf](mpdf__html_CSS_Selectors_L_link.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_L_link.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_L_link.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_L_link.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_L_link.html.pdf](typeset__html_CSS_Selectors_L_link.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_L_link.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_L_link.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_link.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_L_link.html.pdf](pdfreactor__html_CSS_Selectors_L_link.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_link.html.pdf)
 
 

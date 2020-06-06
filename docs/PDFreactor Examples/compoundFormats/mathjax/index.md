@@ -5,9 +5,15 @@ permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/
 description: 
 ---
 
-## Sub Pages
-* [extensions](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/extensions/)
-* [jax](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/)
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/extensions/">
+                                extensions
+                            </a>
 
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/">
+                                jax
+                            </a>
+</div>
 
 

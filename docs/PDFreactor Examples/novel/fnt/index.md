@@ -5,8 +5,11 @@ permalink: /docs/PDFreactor-Examples/novel/fnt/
 description: 
 ---
 
-## Sub Pages
-* [Alegreya](/compare.html2pdf.tools/docs/PDFreactor-Examples/novel/fnt/Alegreya/)
-
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/novel/fnt/Alegreya/">
+                                Alegreya
+                            </a>
+</div>
 
 

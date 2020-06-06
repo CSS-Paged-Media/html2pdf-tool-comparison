@@ -9,21 +9,21 @@ description:
 
 ## JUSTIFY-CONTENT
 
-See the Rendering results for [justify-content.html](/html/CSS%20Properties/J/justify-content.html):
+[📄 Input HTML](/html/CSS%20Properties/J/justify-content.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_J_justify-content.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_J_justify-content.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_J_justify-content.html.pdf](mpdf__html_CSS_Properties_J_justify-content.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_J_justify-content.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_J_justify-content.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_J_justify-content.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_J_justify-content.html.pdf](typeset__html_CSS_Properties_J_justify-content.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_J_justify-content.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_J_justify-content.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_J_justify-content.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_J_justify-content.html.pdf](pdfreactor__html_CSS_Properties_J_justify-content.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_J_justify-content.html.pdf)
 
 

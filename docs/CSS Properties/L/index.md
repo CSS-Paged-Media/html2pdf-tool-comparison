@@ -9,78 +9,78 @@ description:
 
 ## LEFT
 
-See the Rendering results for [left.html](/html/CSS%20Properties/L/left.html):
+[📄 Input HTML](/html/CSS%20Properties/L/left.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_L_left.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_L_left.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_L_left.html.pdf](mpdf__html_CSS_Properties_L_left.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_L_left.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_L_left.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_L_left.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_L_left.html.pdf](typeset__html_CSS_Properties_L_left.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_L_left.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_L_left.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_left.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_L_left.html.pdf](pdfreactor__html_CSS_Properties_L_left.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_left.html.pdf)
 
 ## LETTER-SPACING
 
-See the Rendering results for [letter-spacing.html](/html/CSS%20Properties/L/letter-spacing.html):
+[📄 Input HTML](/html/CSS%20Properties/L/letter-spacing.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_L_letter-spacing.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_L_letter-spacing.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_L_letter-spacing.html.pdf](mpdf__html_CSS_Properties_L_letter-spacing.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_L_letter-spacing.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_L_letter-spacing.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_L_letter-spacing.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_L_letter-spacing.html.pdf](typeset__html_CSS_Properties_L_letter-spacing.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_L_letter-spacing.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_L_letter-spacing.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_letter-spacing.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_L_letter-spacing.html.pdf](pdfreactor__html_CSS_Properties_L_letter-spacing.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_letter-spacing.html.pdf)
 
 ## LINE-HEIGHT
 
-See the Rendering results for [line-height.html](/html/CSS%20Properties/L/line-height.html):
+[📄 Input HTML](/html/CSS%20Properties/L/line-height.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_L_line-height.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_L_line-height.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_L_line-height.html.pdf](mpdf__html_CSS_Properties_L_line-height.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_L_line-height.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_L_line-height.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_L_line-height.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_L_line-height.html.pdf](typeset__html_CSS_Properties_L_line-height.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_L_line-height.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_L_line-height.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_line-height.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_L_line-height.html.pdf](pdfreactor__html_CSS_Properties_L_line-height.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_line-height.html.pdf)
 
 ## LIST-STYLE
 
-See the Rendering results for [list-style.html](/html/CSS%20Properties/L/list-style.html):
+[📄 Input HTML](/html/CSS%20Properties/L/list-style.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_L_list-style.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_L_list-style.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_L_list-style.html.pdf](mpdf__html_CSS_Properties_L_list-style.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_L_list-style.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_L_list-style.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_L_list-style.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_L_list-style.html.pdf](typeset__html_CSS_Properties_L_list-style.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_L_list-style.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_L_list-style.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_list-style.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_L_list-style.html.pdf](pdfreactor__html_CSS_Properties_L_list-style.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_list-style.html.pdf)
 
 

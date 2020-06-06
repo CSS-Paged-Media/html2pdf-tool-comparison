@@ -5,8 +5,11 @@ permalink: /docs/PDFreactor-Examples/invoice/scripts/
 description: 
 ---
 
-## Sub Pages
-* [angular](/compare.html2pdf.tools/docs/PDFreactor-Examples/invoice/scripts/angular/)
-
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/invoice/scripts/angular/">
+                                angular
+                            </a>
+</div>
 
 

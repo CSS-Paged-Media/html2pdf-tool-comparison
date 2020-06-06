@@ -9,21 +9,21 @@ description:
 
 ## FOOTNOTES
 
-See the Rendering results for [footnotes.html](/html/PDFreactor%20Examples/footnotes/footnotes.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/footnotes/footnotes.html):
 
 ### mPDF
-![](mpdf__html_PDFreactor_Examples_footnotes_footnotes.html.png) 
+![mPDF Preview](mpdf__html_PDFreactor_Examples_footnotes_footnotes.html.png) 
 
-Link to PDF: [mpdf__html_PDFreactor_Examples_footnotes_footnotes.html.pdf](mpdf__html_PDFreactor_Examples_footnotes_footnotes.html.pdf)
+[📕 mPDF Output](mpdf__html_PDFreactor_Examples_footnotes_footnotes.html.pdf)
 
 ### typeset.sh
-![](typeset__html_PDFreactor_Examples_footnotes_footnotes.html.png) 
+![typeset Preview](typeset__html_PDFreactor_Examples_footnotes_footnotes.html.png) 
 
-Link to PDF: [typeset__html_PDFreactor_Examples_footnotes_footnotes.html.pdf](typeset__html_PDFreactor_Examples_footnotes_footnotes.html.pdf)
+[📕 typeset Output](typeset__html_PDFreactor_Examples_footnotes_footnotes.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_PDFreactor_Examples_footnotes_footnotes.html.png) 
+![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_footnotes_footnotes.html.png) 
 
-Link to PDF: [pdfreactor__html_PDFreactor_Examples_footnotes_footnotes.html.pdf](pdfreactor__html_PDFreactor_Examples_footnotes_footnotes.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_footnotes_footnotes.html.pdf)
 
 

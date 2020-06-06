@@ -5,28 +5,34 @@ permalink: /docs/PDFreactor-Examples/magazine/
 description: 
 ---
 
-## Sub Pages
-* [fnt](/compare.html2pdf.tools/docs/PDFreactor-Examples/magazine/fnt/)
-* [img](/compare.html2pdf.tools/docs/PDFreactor-Examples/magazine/img/)
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/magazine/fnt/">
+                                fnt
+                            </a>
 
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/magazine/img/">
+                                img
+                            </a>
+</div>
 
 ## MAGAZINE
 
-See the Rendering results for [magazine.html](/html/PDFreactor%20Examples/magazine/magazine.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/magazine/magazine.html):
 
 ### mPDF
-![](mpdf__html_PDFreactor_Examples_magazine_magazine.html.png) 
+![mPDF Preview](mpdf__html_PDFreactor_Examples_magazine_magazine.html.png) 
 
-Link to PDF: [mpdf__html_PDFreactor_Examples_magazine_magazine.html.pdf](mpdf__html_PDFreactor_Examples_magazine_magazine.html.pdf)
+[📕 mPDF Output](mpdf__html_PDFreactor_Examples_magazine_magazine.html.pdf)
 
 ### typeset.sh
-![](typeset__html_PDFreactor_Examples_magazine_magazine.html.png) 
+![typeset Preview](typeset__html_PDFreactor_Examples_magazine_magazine.html.png) 
 
-Link to PDF: [typeset__html_PDFreactor_Examples_magazine_magazine.html.pdf](typeset__html_PDFreactor_Examples_magazine_magazine.html.pdf)
+[📕 typeset Output](typeset__html_PDFreactor_Examples_magazine_magazine.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_PDFreactor_Examples_magazine_magazine.html.png) 
+![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_magazine_magazine.html.png) 
 
-Link to PDF: [pdfreactor__html_PDFreactor_Examples_magazine_magazine.html.pdf](pdfreactor__html_PDFreactor_Examples_magazine_magazine.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_magazine_magazine.html.pdf)
 
 

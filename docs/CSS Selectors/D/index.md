@@ -9,78 +9,78 @@ description:
 
 ## DEFAULT
 
-See the Rendering results for [default.html](/html/CSS%20Selectors/D/default.html):
+[📄 Input HTML](/html/CSS%20Selectors/D/default.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_D_default.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_D_default.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_D_default.html.pdf](mpdf__html_CSS_Selectors_D_default.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_D_default.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_D_default.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_D_default.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_D_default.html.pdf](typeset__html_CSS_Selectors_D_default.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_D_default.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_D_default.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_default.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_D_default.html.pdf](pdfreactor__html_CSS_Selectors_D_default.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_default.html.pdf)
 
 ## DESCENDANT
 
-See the Rendering results for [descendant.html](/html/CSS%20Selectors/D/descendant.html):
+[📄 Input HTML](/html/CSS%20Selectors/D/descendant.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_D_descendant.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_D_descendant.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_D_descendant.html.pdf](mpdf__html_CSS_Selectors_D_descendant.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_D_descendant.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_D_descendant.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_D_descendant.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_D_descendant.html.pdf](typeset__html_CSS_Selectors_D_descendant.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_D_descendant.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_D_descendant.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_descendant.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_D_descendant.html.pdf](pdfreactor__html_CSS_Selectors_D_descendant.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_descendant.html.pdf)
 
 ## DIR
 
-See the Rendering results for [dir.html](/html/CSS%20Selectors/D/dir.html):
+[📄 Input HTML](/html/CSS%20Selectors/D/dir.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_D_dir.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_D_dir.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_D_dir.html.pdf](mpdf__html_CSS_Selectors_D_dir.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_D_dir.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_D_dir.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_D_dir.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_D_dir.html.pdf](typeset__html_CSS_Selectors_D_dir.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_D_dir.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_D_dir.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_dir.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_D_dir.html.pdf](pdfreactor__html_CSS_Selectors_D_dir.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_dir.html.pdf)
 
 ## DISABLED
 
-See the Rendering results for [disabled.html](/html/CSS%20Selectors/D/disabled.html):
+[📄 Input HTML](/html/CSS%20Selectors/D/disabled.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_D_disabled.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_D_disabled.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_D_disabled.html.pdf](mpdf__html_CSS_Selectors_D_disabled.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_D_disabled.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_D_disabled.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_D_disabled.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_D_disabled.html.pdf](typeset__html_CSS_Selectors_D_disabled.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_D_disabled.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_D_disabled.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_disabled.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_D_disabled.html.pdf](pdfreactor__html_CSS_Selectors_D_disabled.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_disabled.html.pdf)
 
 

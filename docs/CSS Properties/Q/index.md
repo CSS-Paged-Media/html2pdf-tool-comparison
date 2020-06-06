@@ -9,21 +9,21 @@ description:
 
 ## QUOTES
 
-See the Rendering results for [quotes.html](/html/CSS%20Properties/Q/quotes.html):
+[📄 Input HTML](/html/CSS%20Properties/Q/quotes.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_Q_quotes.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_Q_quotes.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_Q_quotes.html.pdf](mpdf__html_CSS_Properties_Q_quotes.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_Q_quotes.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_Q_quotes.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_Q_quotes.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_Q_quotes.html.pdf](typeset__html_CSS_Properties_Q_quotes.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_Q_quotes.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_Q_quotes.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_Q_quotes.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_Q_quotes.html.pdf](pdfreactor__html_CSS_Properties_Q_quotes.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_Q_quotes.html.pdf)
 
 

@@ -5,8 +5,11 @@ permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/font
 description: 
 ---
 
-## Sub Pages
-* [Regular](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size1/Regular/)
-
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size1/Regular/">
+                                Regular
+                            </a>
+</div>
 
 

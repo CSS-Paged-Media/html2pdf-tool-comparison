@@ -9,40 +9,40 @@ description:
 
 ## Z-INDEX
 
-See the Rendering results for [z-index.html](/html/CSS%20Properties/Z/z-index.html):
+[📄 Input HTML](/html/CSS%20Properties/Z/z-index.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_Z_z-index.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_Z_z-index.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_Z_z-index.html.pdf](mpdf__html_CSS_Properties_Z_z-index.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_Z_z-index.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_Z_z-index.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_Z_z-index.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_Z_z-index.html.pdf](typeset__html_CSS_Properties_Z_z-index.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_Z_z-index.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_Z_z-index.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_Z_z-index.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_Z_z-index.html.pdf](pdfreactor__html_CSS_Properties_Z_z-index.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_Z_z-index.html.pdf)
 
 ## ZOOM
 
-See the Rendering results for [zoom.html](/html/CSS%20Properties/Z/zoom.html):
+[📄 Input HTML](/html/CSS%20Properties/Z/zoom.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_Z_zoom.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_Z_zoom.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_Z_zoom.html.pdf](mpdf__html_CSS_Properties_Z_zoom.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_Z_zoom.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_Z_zoom.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_Z_zoom.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_Z_zoom.html.pdf](typeset__html_CSS_Properties_Z_zoom.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_Z_zoom.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_Z_zoom.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_Z_zoom.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_Z_zoom.html.pdf](pdfreactor__html_CSS_Properties_Z_zoom.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_Z_zoom.html.pdf)
 
 

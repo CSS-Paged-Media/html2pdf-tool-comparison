@@ -9,116 +9,116 @@ description:
 
 ## WHITE-SPACE
 
-See the Rendering results for [white-space.html](/html/CSS%20Properties/W/white-space.html):
+[📄 Input HTML](/html/CSS%20Properties/W/white-space.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_W_white-space.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_W_white-space.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_W_white-space.html.pdf](mpdf__html_CSS_Properties_W_white-space.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_W_white-space.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_W_white-space.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_W_white-space.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_W_white-space.html.pdf](typeset__html_CSS_Properties_W_white-space.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_W_white-space.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_W_white-space.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_white-space.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_W_white-space.html.pdf](pdfreactor__html_CSS_Properties_W_white-space.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_white-space.html.pdf)
 
 ## WIDOWS
 
-See the Rendering results for [widows.html](/html/CSS%20Properties/W/widows.html):
+[📄 Input HTML](/html/CSS%20Properties/W/widows.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_W_widows.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_W_widows.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_W_widows.html.pdf](mpdf__html_CSS_Properties_W_widows.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_W_widows.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_W_widows.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_W_widows.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_W_widows.html.pdf](typeset__html_CSS_Properties_W_widows.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_W_widows.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_W_widows.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_widows.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_W_widows.html.pdf](pdfreactor__html_CSS_Properties_W_widows.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_widows.html.pdf)
 
 ## WIDTH
 
-See the Rendering results for [width.html](/html/CSS%20Properties/W/width.html):
+[📄 Input HTML](/html/CSS%20Properties/W/width.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_W_width.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_W_width.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_W_width.html.pdf](mpdf__html_CSS_Properties_W_width.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_W_width.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_W_width.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_W_width.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_W_width.html.pdf](typeset__html_CSS_Properties_W_width.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_W_width.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_W_width.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_width.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_W_width.html.pdf](pdfreactor__html_CSS_Properties_W_width.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_width.html.pdf)
 
 ## WORD-BREAK
 
-See the Rendering results for [word-break.html](/html/CSS%20Properties/W/word-break.html):
+[📄 Input HTML](/html/CSS%20Properties/W/word-break.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_W_word-break.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_W_word-break.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_W_word-break.html.pdf](mpdf__html_CSS_Properties_W_word-break.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_W_word-break.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_W_word-break.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_W_word-break.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_W_word-break.html.pdf](typeset__html_CSS_Properties_W_word-break.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_W_word-break.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_W_word-break.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_word-break.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_W_word-break.html.pdf](pdfreactor__html_CSS_Properties_W_word-break.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-break.html.pdf)
 
 ## WORD-SPACING
 
-See the Rendering results for [word-spacing.html](/html/CSS%20Properties/W/word-spacing.html):
+[📄 Input HTML](/html/CSS%20Properties/W/word-spacing.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_W_word-spacing.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_W_word-spacing.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_W_word-spacing.html.pdf](mpdf__html_CSS_Properties_W_word-spacing.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_W_word-spacing.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_W_word-spacing.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_W_word-spacing.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_W_word-spacing.html.pdf](typeset__html_CSS_Properties_W_word-spacing.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_W_word-spacing.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_W_word-spacing.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_word-spacing.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_W_word-spacing.html.pdf](pdfreactor__html_CSS_Properties_W_word-spacing.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-spacing.html.pdf)
 
 ## WRITING-MODE
 
-See the Rendering results for [writing-mode.html](/html/CSS%20Properties/W/writing-mode.html):
+[📄 Input HTML](/html/CSS%20Properties/W/writing-mode.html):
 
 ### mPDF
-![](mpdf__html_CSS_Properties_W_writing-mode.html.png) 
+![mPDF Preview](mpdf__html_CSS_Properties_W_writing-mode.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Properties_W_writing-mode.html.pdf](mpdf__html_CSS_Properties_W_writing-mode.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Properties_W_writing-mode.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Properties_W_writing-mode.html.png) 
+![typeset Preview](typeset__html_CSS_Properties_W_writing-mode.html.png) 
 
-Link to PDF: [typeset__html_CSS_Properties_W_writing-mode.html.pdf](typeset__html_CSS_Properties_W_writing-mode.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Properties_W_writing-mode.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Properties_W_writing-mode.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_writing-mode.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Properties_W_writing-mode.html.pdf](pdfreactor__html_CSS_Properties_W_writing-mode.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_writing-mode.html.pdf)
 
 

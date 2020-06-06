@@ -5,8 +5,11 @@ permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/input/MathML/
 description: 
 ---
 
-## Sub Pages
-* [entities](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/input/MathML/entities/)
-
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/input/MathML/entities/">
+                                entities
+                            </a>
+</div>
 
 

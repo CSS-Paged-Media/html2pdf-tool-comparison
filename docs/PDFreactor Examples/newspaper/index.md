@@ -5,27 +5,30 @@ permalink: /docs/PDFreactor-Examples/newspaper/
 description: 
 ---
 
-## Sub Pages
-* [fnt](/compare.html2pdf.tools/docs/PDFreactor-Examples/newspaper/fnt/)
-
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/newspaper/fnt/">
+                                fnt
+                            </a>
+</div>
 
 ## NEWSPAPER
 
-See the Rendering results for [newspaper.html](/html/PDFreactor%20Examples/newspaper/newspaper.html):
+[📄 Input HTML](/html/PDFreactor%20Examples/newspaper/newspaper.html):
 
 ### mPDF
-![](mpdf__html_PDFreactor_Examples_newspaper_newspaper.html.png) 
+![mPDF Preview](mpdf__html_PDFreactor_Examples_newspaper_newspaper.html.png) 
 
-Link to PDF: [mpdf__html_PDFreactor_Examples_newspaper_newspaper.html.pdf](mpdf__html_PDFreactor_Examples_newspaper_newspaper.html.pdf)
+[📕 mPDF Output](mpdf__html_PDFreactor_Examples_newspaper_newspaper.html.pdf)
 
 ### typeset.sh
-![](typeset__html_PDFreactor_Examples_newspaper_newspaper.html.png) 
+![typeset Preview](typeset__html_PDFreactor_Examples_newspaper_newspaper.html.png) 
 
-Link to PDF: [typeset__html_PDFreactor_Examples_newspaper_newspaper.html.pdf](typeset__html_PDFreactor_Examples_newspaper_newspaper.html.pdf)
+[📕 typeset Output](typeset__html_PDFreactor_Examples_newspaper_newspaper.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_PDFreactor_Examples_newspaper_newspaper.html.png) 
+![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_newspaper_newspaper.html.png) 
 
-Link to PDF: [pdfreactor__html_PDFreactor_Examples_newspaper_newspaper.html.pdf](pdfreactor__html_PDFreactor_Examples_newspaper_newspaper.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_newspaper_newspaper.html.pdf)
 
 

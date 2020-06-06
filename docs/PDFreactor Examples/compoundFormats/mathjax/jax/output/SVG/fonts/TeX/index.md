@@ -5,19 +5,55 @@ permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/font
 description: 
 ---
 
-## Sub Pages
-* [AMS](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/AMS/)
-* [Caligraphic](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Caligraphic/)
-* [Fraktur](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Fraktur/)
-* [Main](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Main/)
-* [Math](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Math/)
-* [SansSerif](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/)
-* [Script](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Script/)
-* [Size1](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size1/)
-* [Size2](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size2/)
-* [Size3](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size3/)
-* [Size4](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size4/)
-* [Typewriter](/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Typewriter/)
+## Index
+<div class="boxes">
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/AMS/">
+                                AMS
+                            </a>
 
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Caligraphic/">
+                                Caligraphic
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Fraktur/">
+                                Fraktur
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Main/">
+                                Main
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Math/">
+                                Math
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/">
+                                SansSerif
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Script/">
+                                Script
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size1/">
+                                Size1
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size2/">
+                                Size2
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size3/">
+                                Size3
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size4/">
+                                Size4
+                            </a>
+
+                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Typewriter/">
+                                Typewriter
+                            </a>
+</div>
 
 

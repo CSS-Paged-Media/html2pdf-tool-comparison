@@ -9,40 +9,40 @@ description:
 
 ## UNIVERSAL
 
-See the Rendering results for [universal.html](/html/CSS%20Selectors/U/universal.html):
+[📄 Input HTML](/html/CSS%20Selectors/U/universal.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_U_universal.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_U_universal.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_U_universal.html.pdf](mpdf__html_CSS_Selectors_U_universal.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_U_universal.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_U_universal.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_U_universal.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_U_universal.html.pdf](typeset__html_CSS_Selectors_U_universal.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_U_universal.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_U_universal.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_U_universal.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_U_universal.html.pdf](pdfreactor__html_CSS_Selectors_U_universal.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_U_universal.html.pdf)
 
 ## USER-INVALID
 
-See the Rendering results for [user-invalid.html](/html/CSS%20Selectors/U/user-invalid.html):
+[📄 Input HTML](/html/CSS%20Selectors/U/user-invalid.html):
 
 ### mPDF
-![](mpdf__html_CSS_Selectors_U_user-invalid.html.png) 
+![mPDF Preview](mpdf__html_CSS_Selectors_U_user-invalid.html.png) 
 
-Link to PDF: [mpdf__html_CSS_Selectors_U_user-invalid.html.pdf](mpdf__html_CSS_Selectors_U_user-invalid.html.pdf)
+[📕 mPDF Output](mpdf__html_CSS_Selectors_U_user-invalid.html.pdf)
 
 ### typeset.sh
-![](typeset__html_CSS_Selectors_U_user-invalid.html.png) 
+![typeset Preview](typeset__html_CSS_Selectors_U_user-invalid.html.png) 
 
-Link to PDF: [typeset__html_CSS_Selectors_U_user-invalid.html.pdf](typeset__html_CSS_Selectors_U_user-invalid.html.pdf)
+[📕 typeset Output](typeset__html_CSS_Selectors_U_user-invalid.html.pdf)
 
 ### PDFreactor
-![](pdfreactor__html_CSS_Selectors_U_user-invalid.html.png) 
+![PDFreactor Preview](pdfreactor__html_CSS_Selectors_U_user-invalid.html.png) 
 
-Link to PDF: [pdfreactor__html_CSS_Selectors_U_user-invalid.html.pdf](pdfreactor__html_CSS_Selectors_U_user-invalid.html.pdf)
+[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_U_user-invalid.html.pdf)
 
 
