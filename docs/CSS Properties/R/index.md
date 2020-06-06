@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="RESIZE" id="RESIZE">#</a> RESIZE
+## <a name="RESIZE" id="RESIZE" href="#RESIZE">#</a> RESIZE
 
 [📄 Input HTML](/html/CSS%20Properties/R/resize.html)
 
@@ -18,7 +18,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_R_resize.html.png) | ![typeset Preview](typeset__html_CSS_Properties_R_resize.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_R_resize.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_R_resize.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_R_resize.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_resize.html.pdf) |
 
-## <a name="RIGHT" id="RIGHT">#</a> RIGHT
+## <a name="RIGHT" id="RIGHT" href="#RIGHT">#</a> RIGHT
 
 [📄 Input HTML](/html/CSS%20Properties/R/right.html)
 

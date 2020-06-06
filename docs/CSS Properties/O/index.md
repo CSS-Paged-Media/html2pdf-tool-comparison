@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="OBJECT-FIT" id="OBJECT-FIT">#</a> OBJECT-FIT
+## <a name="OBJECT-FIT" id="OBJECT-FIT" href="#OBJECT-FIT">#</a> OBJECT-FIT
 
 [📄 Input HTML](/html/CSS%20Properties/O/object-fit.html)
 
@@ -18,7 +18,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_object-fit.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_object-fit.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_object-fit.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_object-fit.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_object-fit.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_object-fit.html.pdf) |
 
-## <a name="OBJECT-POSITION" id="OBJECT-POSITION">#</a> OBJECT-POSITION
+## <a name="OBJECT-POSITION" id="OBJECT-POSITION" href="#OBJECT-POSITION">#</a> OBJECT-POSITION
 
 [📄 Input HTML](/html/CSS%20Properties/O/object-position.html)
 
@@ -29,7 +29,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_object-position.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_object-position.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_object-position.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_object-position.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_object-position.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_object-position.html.pdf) |
 
-## <a name="OFFSET-ANCHOR" id="OFFSET-ANCHOR">#</a> OFFSET-ANCHOR
+## <a name="OFFSET-ANCHOR" id="OFFSET-ANCHOR" href="#OFFSET-ANCHOR">#</a> OFFSET-ANCHOR
 
 [📄 Input HTML](/html/CSS%20Properties/O/offset-anchor.html)
 
@@ -40,7 +40,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_offset-anchor.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_offset-anchor.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_offset-anchor.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-anchor.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-anchor.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-anchor.html.pdf) |
 
-## <a name="OFFSET-DISTANCE" id="OFFSET-DISTANCE">#</a> OFFSET-DISTANCE
+## <a name="OFFSET-DISTANCE" id="OFFSET-DISTANCE" href="#OFFSET-DISTANCE">#</a> OFFSET-DISTANCE
 
 [📄 Input HTML](/html/CSS%20Properties/O/offset-distance.html)
 
@@ -51,7 +51,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_offset-distance.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_offset-distance.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_offset-distance.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-distance.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-distance.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-distance.html.pdf) |
 
-## <a name="OFFSET-PATH" id="OFFSET-PATH">#</a> OFFSET-PATH
+## <a name="OFFSET-PATH" id="OFFSET-PATH" href="#OFFSET-PATH">#</a> OFFSET-PATH
 
 [📄 Input HTML](/html/CSS%20Properties/O/offset-path.html)
 
@@ -62,7 +62,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_offset-path.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_offset-path.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_offset-path.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-path.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-path.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-path.html.pdf) |
 
-## <a name="OFFSET-ROTATE" id="OFFSET-ROTATE">#</a> OFFSET-ROTATE
+## <a name="OFFSET-ROTATE" id="OFFSET-ROTATE" href="#OFFSET-ROTATE">#</a> OFFSET-ROTATE
 
 [📄 Input HTML](/html/CSS%20Properties/O/offset-rotate.html)
 
@@ -73,7 +73,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_offset-rotate.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_offset-rotate.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_offset-rotate.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_offset-rotate.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_offset-rotate.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_offset-rotate.html.pdf) |
 
-## <a name="OPACITY" id="OPACITY">#</a> OPACITY
+## <a name="OPACITY" id="OPACITY" href="#OPACITY">#</a> OPACITY
 
 [📄 Input HTML](/html/CSS%20Properties/O/opacity.html)
 
@@ -84,7 +84,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_opacity.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_opacity.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_opacity.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_opacity.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_opacity.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_opacity.html.pdf) |
 
-## <a name="ORDER" id="ORDER">#</a> ORDER
+## <a name="ORDER" id="ORDER" href="#ORDER">#</a> ORDER
 
 [📄 Input HTML](/html/CSS%20Properties/O/order.html)
 
@@ -95,7 +95,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_order.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_order.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_order.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_order.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_order.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_order.html.pdf) |
 
-## <a name="ORPHANS" id="ORPHANS">#</a> ORPHANS
+## <a name="ORPHANS" id="ORPHANS" href="#ORPHANS">#</a> ORPHANS
 
 [📄 Input HTML](/html/CSS%20Properties/O/orphans.html)
 
@@ -106,7 +106,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_orphans.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_orphans.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_orphans.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_orphans.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_orphans.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_orphans.html.pdf) |
 
-## <a name="OUTLINE-OFFSET" id="OUTLINE-OFFSET">#</a> OUTLINE-OFFSET
+## <a name="OUTLINE-OFFSET" id="OUTLINE-OFFSET" href="#OUTLINE-OFFSET">#</a> OUTLINE-OFFSET
 
 [📄 Input HTML](/html/CSS%20Properties/O/outline-offset.html)
 
@@ -117,7 +117,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_outline-offset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_outline-offset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_outline-offset.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_outline-offset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_outline-offset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_outline-offset.html.pdf) |
 
-## <a name="OUTLINE" id="OUTLINE">#</a> OUTLINE
+## <a name="OUTLINE" id="OUTLINE" href="#OUTLINE">#</a> OUTLINE
 
 [📄 Input HTML](/html/CSS%20Properties/O/outline.html)
 
@@ -128,7 +128,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_outline.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_outline.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_outline.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_outline.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_outline.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_outline.html.pdf) |
 
-## <a name="OVERFLOW" id="OVERFLOW">#</a> OVERFLOW
+## <a name="OVERFLOW" id="OVERFLOW" href="#OVERFLOW">#</a> OVERFLOW
 
 [📄 Input HTML](/html/CSS%20Properties/O/overflow.html)
 
@@ -139,7 +139,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_O_overflow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_O_overflow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_O_overflow.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_O_overflow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_O_overflow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_O_overflow.html.pdf) |
 
-## <a name="OVERSCROLL-BEHAVIOR" id="OVERSCROLL-BEHAVIOR">#</a> OVERSCROLL-BEHAVIOR
+## <a name="OVERSCROLL-BEHAVIOR" id="OVERSCROLL-BEHAVIOR" href="#OVERSCROLL-BEHAVIOR">#</a> OVERSCROLL-BEHAVIOR
 
 [📄 Input HTML](/html/CSS%20Properties/O/overscroll-behavior.html)
 

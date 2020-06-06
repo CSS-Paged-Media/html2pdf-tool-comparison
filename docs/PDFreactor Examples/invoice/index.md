@@ -12,7 +12,7 @@ description:
                             </a>
 </div>
 
-## <a name="INVOICE" id="INVOICE">#</a> INVOICE
+## <a name="INVOICE" id="INVOICE" href="#INVOICE">#</a> INVOICE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/invoice/invoice.html)
 

@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="WEBARCH" id="WEBARCH">#</a> WEBARCH
+## <a name="WEBARCH" id="WEBARCH" href="#WEBARCH">#</a> WEBARCH
 
 [📄 Input HTML](/html/PDFreactor%20Examples/webarch/webarch.html)
 

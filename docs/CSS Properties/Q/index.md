@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="QUOTES" id="QUOTES">#</a> QUOTES
+## <a name="QUOTES" id="QUOTES" href="#QUOTES">#</a> QUOTES
 
 [📄 Input HTML](/html/CSS%20Properties/Q/quotes.html)
 

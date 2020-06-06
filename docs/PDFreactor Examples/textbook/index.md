@@ -16,7 +16,7 @@ description:
                             </a>
 </div>
 
-## <a name="TEXTBOOK" id="TEXTBOOK">#</a> TEXTBOOK
+## <a name="TEXTBOOK" id="TEXTBOOK" href="#TEXTBOOK">#</a> TEXTBOOK
 
 [📄 Input HTML](/html/PDFreactor%20Examples/textbook/textbook.html)
 

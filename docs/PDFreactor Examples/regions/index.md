@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="REGIONS" id="REGIONS">#</a> REGIONS
+## <a name="REGIONS" id="REGIONS" href="#REGIONS">#</a> REGIONS
 
 [📄 Input HTML](/html/PDFreactor%20Examples/regions/regions.html)
 

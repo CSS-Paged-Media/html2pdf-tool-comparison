@@ -16,7 +16,7 @@ description:
                             </a>
 </div>
 
-## <a name="MAGAZINE" id="MAGAZINE">#</a> MAGAZINE
+## <a name="MAGAZINE" id="MAGAZINE" href="#MAGAZINE">#</a> MAGAZINE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/magazine/magazine.html)
 
