@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [Z-INDEX](/compare.html2pdf.tools/docs/CSS-Properties/Z/z-index.html)
-* [ZOOM](/compare.html2pdf.tools/docs/CSS-Properties/Z/zoom.html)
+* [Z-INDEX](/compare.html2pdf.tools/docs/CSS-Properties/Z/z-index.md)
+* [ZOOM](/compare.html2pdf.tools/docs/CSS-Properties/Z/zoom.md)
 

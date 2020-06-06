@@ -10,8 +10,8 @@ description:
 
 
 ## Files
-* [ID](/compare.html2pdf.tools/docs/CSS-Selectors/I/id.html)
-* [IN-RANGE](/compare.html2pdf.tools/docs/CSS-Selectors/I/in-range.html)
-* [INVALID](/compare.html2pdf.tools/docs/CSS-Selectors/I/invalid.html)
-* [IS](/compare.html2pdf.tools/docs/CSS-Selectors/I/is.html)
+* [ID](/compare.html2pdf.tools/docs/CSS-Selectors/I/id.md)
+* [IN-RANGE](/compare.html2pdf.tools/docs/CSS-Selectors/I/in-range.md)
+* [INVALID](/compare.html2pdf.tools/docs/CSS-Selectors/I/invalid.md)
+* [IS](/compare.html2pdf.tools/docs/CSS-Selectors/I/is.md)
 

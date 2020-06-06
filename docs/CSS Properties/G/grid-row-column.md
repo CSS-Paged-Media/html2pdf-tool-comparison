@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A comparison between different HTML2PDF tools
-permalink: /compare.html2pdf.tools/docs/CSS-Properties/G/grid-row-column.html
+permalink: /compare.html2pdf.tools/docs/CSS-Properties/G/grid-row-column.md
 description: 
 ---
 

@@ -10,12 +10,12 @@ description:
 
 
 ## Files
-* [MARGIN](/compare.html2pdf.tools/docs/CSS-Properties/M/margin.html)
-* [MASK-IMAGE](/compare.html2pdf.tools/docs/CSS-Properties/M/mask-image.html)
-* [MASK-REPEAT](/compare.html2pdf.tools/docs/CSS-Properties/M/mask-repeat.html)
-* [MAX-HEIGHT](/compare.html2pdf.tools/docs/CSS-Properties/M/max-height.html)
-* [MAX-WIDTH](/compare.html2pdf.tools/docs/CSS-Properties/M/max-width.html)
-* [MIN-HEIGHT](/compare.html2pdf.tools/docs/CSS-Properties/M/min-height.html)
-* [MIN-WIDTH](/compare.html2pdf.tools/docs/CSS-Properties/M/min-width.html)
-* [MIX-BLEND-MODE](/compare.html2pdf.tools/docs/CSS-Properties/M/mix-blend-mode.html)
+* [MARGIN](/compare.html2pdf.tools/docs/CSS-Properties/M/margin.md)
+* [MASK-IMAGE](/compare.html2pdf.tools/docs/CSS-Properties/M/mask-image.md)
+* [MASK-REPEAT](/compare.html2pdf.tools/docs/CSS-Properties/M/mask-repeat.md)
+* [MAX-HEIGHT](/compare.html2pdf.tools/docs/CSS-Properties/M/max-height.md)
+* [MAX-WIDTH](/compare.html2pdf.tools/docs/CSS-Properties/M/max-width.md)
+* [MIN-HEIGHT](/compare.html2pdf.tools/docs/CSS-Properties/M/min-height.md)
+* [MIN-WIDTH](/compare.html2pdf.tools/docs/CSS-Properties/M/min-width.md)
+* [MIX-BLEND-MODE](/compare.html2pdf.tools/docs/CSS-Properties/M/mix-blend-mode.md)
 

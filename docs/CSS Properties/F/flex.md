@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A comparison between different HTML2PDF tools
-permalink: /compare.html2pdf.tools/docs/CSS-Properties/F/flex.html
+permalink: /compare.html2pdf.tools/docs/CSS-Properties/F/flex.md
 description: 
 ---
 

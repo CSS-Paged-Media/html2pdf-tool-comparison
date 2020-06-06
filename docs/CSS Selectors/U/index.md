@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [UNIVERSAL](/compare.html2pdf.tools/docs/CSS-Selectors/U/universal.html)
-* [USER-INVALID](/compare.html2pdf.tools/docs/CSS-Selectors/U/user-invalid.html)
+* [UNIVERSAL](/compare.html2pdf.tools/docs/CSS-Selectors/U/universal.md)
+* [USER-INVALID](/compare.html2pdf.tools/docs/CSS-Selectors/U/user-invalid.md)
 

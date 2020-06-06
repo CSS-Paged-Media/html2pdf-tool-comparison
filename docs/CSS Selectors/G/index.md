@@ -10,5 +10,5 @@ description:
 
 
 ## Files
-* [GENERAL-SIBLING](/compare.html2pdf.tools/docs/CSS-Selectors/G/general-sibling.html)
+* [GENERAL-SIBLING](/compare.html2pdf.tools/docs/CSS-Selectors/G/general-sibling.md)
 

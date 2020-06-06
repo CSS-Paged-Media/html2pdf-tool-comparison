@@ -10,5 +10,5 @@ description:
 
 
 ## Files
-* [EMPTY-CELLS](/compare.html2pdf.tools/docs/CSS-Properties/E/empty-cells.html)
+* [EMPTY-CELLS](/compare.html2pdf.tools/docs/CSS-Properties/E/empty-cells.md)
 

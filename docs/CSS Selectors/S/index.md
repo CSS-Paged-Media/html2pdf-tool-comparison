@@ -10,5 +10,5 @@ description:
 
 
 ## Files
-* [SELECTION](/compare.html2pdf.tools/docs/CSS-Selectors/S/selection.html)
+* [SELECTION](/compare.html2pdf.tools/docs/CSS-Selectors/S/selection.md)
 

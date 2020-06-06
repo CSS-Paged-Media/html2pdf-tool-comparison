@@ -10,8 +10,8 @@ description:
 
 
 ## Files
-* [LANG](/compare.html2pdf.tools/docs/CSS-Selectors/L/lang.html)
-* [LAST-CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/L/last-child.html)
-* [LAST-OF-TYPE](/compare.html2pdf.tools/docs/CSS-Selectors/L/last-of-type.html)
-* [LINK](/compare.html2pdf.tools/docs/CSS-Selectors/L/link.html)
+* [LANG](/compare.html2pdf.tools/docs/CSS-Selectors/L/lang.md)
+* [LAST-CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/L/last-child.md)
+* [LAST-OF-TYPE](/compare.html2pdf.tools/docs/CSS-Selectors/L/last-of-type.md)
+* [LINK](/compare.html2pdf.tools/docs/CSS-Selectors/L/link.md)
 

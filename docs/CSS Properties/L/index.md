@@ -10,8 +10,8 @@ description:
 
 
 ## Files
-* [LEFT](/compare.html2pdf.tools/docs/CSS-Properties/L/left.html)
-* [LETTER-SPACING](/compare.html2pdf.tools/docs/CSS-Properties/L/letter-spacing.html)
-* [LINE-HEIGHT](/compare.html2pdf.tools/docs/CSS-Properties/L/line-height.html)
-* [LIST-STYLE](/compare.html2pdf.tools/docs/CSS-Properties/L/list-style.html)
+* [LEFT](/compare.html2pdf.tools/docs/CSS-Properties/L/left.md)
+* [LETTER-SPACING](/compare.html2pdf.tools/docs/CSS-Properties/L/letter-spacing.md)
+* [LINE-HEIGHT](/compare.html2pdf.tools/docs/CSS-Properties/L/line-height.md)
+* [LIST-STYLE](/compare.html2pdf.tools/docs/CSS-Properties/L/list-style.md)
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A comparison between different HTML2PDF tools
-permalink: /compare.html2pdf.tools/docs/CSS-Properties/O/offset-path.html
+permalink: /compare.html2pdf.tools/docs/CSS-Properties/O/offset-path.md
 description: 
 ---
 

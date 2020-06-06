@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [DIRECTION](/compare.html2pdf.tools/docs/CSS-Properties/D/direction.html)
-* [DISPLAY](/compare.html2pdf.tools/docs/CSS-Properties/D/display.html)
+* [DIRECTION](/compare.html2pdf.tools/docs/CSS-Properties/D/direction.md)
+* [DISPLAY](/compare.html2pdf.tools/docs/CSS-Properties/D/display.md)
 

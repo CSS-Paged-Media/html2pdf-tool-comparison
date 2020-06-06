@@ -10,9 +10,9 @@ description:
 
 
 ## Files
-* [NOT](/compare.html2pdf.tools/docs/CSS-Selectors/N/not.html)
-* [NTH-CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/N/nth-child.html)
-* [NTH-LAST-CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/N/nth-last-child.html)
-* [NTH-LAST-OF-TYPE](/compare.html2pdf.tools/docs/CSS-Selectors/N/nth-last-of-type.html)
-* [NTH-OF-TYPE](/compare.html2pdf.tools/docs/CSS-Selectors/N/nth-of-type.html)
+* [NOT](/compare.html2pdf.tools/docs/CSS-Selectors/N/not.md)
+* [NTH-CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/N/nth-child.md)
+* [NTH-LAST-CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/N/nth-last-child.md)
+* [NTH-LAST-OF-TYPE](/compare.html2pdf.tools/docs/CSS-Selectors/N/nth-last-of-type.md)
+* [NTH-OF-TYPE](/compare.html2pdf.tools/docs/CSS-Selectors/N/nth-of-type.md)
 

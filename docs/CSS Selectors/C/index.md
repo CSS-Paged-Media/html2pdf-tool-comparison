@@ -10,7 +10,7 @@ description:
 
 
 ## Files
-* [CHECKED](/compare.html2pdf.tools/docs/CSS-Selectors/C/checked.html)
-* [CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/C/child.html)
-* [CLASS](/compare.html2pdf.tools/docs/CSS-Selectors/C/class.html)
+* [CHECKED](/compare.html2pdf.tools/docs/CSS-Selectors/C/checked.md)
+* [CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/C/child.md)
+* [CLASS](/compare.html2pdf.tools/docs/CSS-Selectors/C/class.md)
 

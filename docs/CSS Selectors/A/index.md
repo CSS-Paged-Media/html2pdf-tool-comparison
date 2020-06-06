@@ -10,9 +10,9 @@ description:
 
 
 ## Files
-* [ACTIVE](/compare.html2pdf.tools/docs/CSS-Selectors/A/active.html)
-* [ADJACENT-SIBLING](/compare.html2pdf.tools/docs/CSS-Selectors/A/adjacent-sibling.html)
-* [AFTER](/compare.html2pdf.tools/docs/CSS-Selectors/A/after.html)
-* [ANY-LINK](/compare.html2pdf.tools/docs/CSS-Selectors/A/any-link.html)
-* [ATTRIBUTE](/compare.html2pdf.tools/docs/CSS-Selectors/A/attribute.html)
+* [ACTIVE](/compare.html2pdf.tools/docs/CSS-Selectors/A/active.md)
+* [ADJACENT-SIBLING](/compare.html2pdf.tools/docs/CSS-Selectors/A/adjacent-sibling.md)
+* [AFTER](/compare.html2pdf.tools/docs/CSS-Selectors/A/after.md)
+* [ANY-LINK](/compare.html2pdf.tools/docs/CSS-Selectors/A/any-link.md)
+* [ATTRIBUTE](/compare.html2pdf.tools/docs/CSS-Selectors/A/attribute.md)
 

@@ -10,8 +10,8 @@ description:
 
 
 ## Files
-* [READ-ONLY](/compare.html2pdf.tools/docs/CSS-Selectors/R/read-only.html)
-* [READ-WRITE](/compare.html2pdf.tools/docs/CSS-Selectors/R/read-write.html)
-* [REQUIRED](/compare.html2pdf.tools/docs/CSS-Selectors/R/required.html)
-* [ROOT](/compare.html2pdf.tools/docs/CSS-Selectors/R/root.html)
+* [READ-ONLY](/compare.html2pdf.tools/docs/CSS-Selectors/R/read-only.md)
+* [READ-WRITE](/compare.html2pdf.tools/docs/CSS-Selectors/R/read-write.md)
+* [REQUIRED](/compare.html2pdf.tools/docs/CSS-Selectors/R/required.md)
+* [ROOT](/compare.html2pdf.tools/docs/CSS-Selectors/R/root.md)
 

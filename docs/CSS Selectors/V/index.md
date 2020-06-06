@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [VALID](/compare.html2pdf.tools/docs/CSS-Selectors/V/valid.html)
-* [VISITED](/compare.html2pdf.tools/docs/CSS-Selectors/V/visited.html)
+* [VALID](/compare.html2pdf.tools/docs/CSS-Selectors/V/valid.md)
+* [VISITED](/compare.html2pdf.tools/docs/CSS-Selectors/V/visited.md)
 

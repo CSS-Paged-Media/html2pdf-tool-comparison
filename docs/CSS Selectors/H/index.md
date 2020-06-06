@@ -10,5 +10,5 @@ description:
 
 
 ## Files
-* [HOVER](/compare.html2pdf.tools/docs/CSS-Selectors/H/hover.html)
+* [HOVER](/compare.html2pdf.tools/docs/CSS-Selectors/H/hover.md)
 

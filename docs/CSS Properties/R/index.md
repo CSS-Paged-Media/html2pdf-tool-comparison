@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [RESIZE](/compare.html2pdf.tools/docs/CSS-Properties/R/resize.html)
-* [RIGHT](/compare.html2pdf.tools/docs/CSS-Properties/R/right.html)
+* [RESIZE](/compare.html2pdf.tools/docs/CSS-Properties/R/resize.md)
+* [RIGHT](/compare.html2pdf.tools/docs/CSS-Properties/R/right.md)
 

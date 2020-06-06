@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [UNICODE-BIDI](/compare.html2pdf.tools/docs/CSS-Properties/U/unicode-bidi.html)
-* [USER-SELECT](/compare.html2pdf.tools/docs/CSS-Properties/U/user-select.html)
+* [UNICODE-BIDI](/compare.html2pdf.tools/docs/CSS-Properties/U/unicode-bidi.md)
+* [USER-SELECT](/compare.html2pdf.tools/docs/CSS-Properties/U/user-select.md)
 

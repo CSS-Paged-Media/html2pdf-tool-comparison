@@ -10,6 +10,6 @@ description:
 
 
 ## Files
-* [BEFORE](/compare.html2pdf.tools/docs/CSS-Selectors/B/before.html)
-* [BLANK](/compare.html2pdf.tools/docs/CSS-Selectors/B/blank.html)
+* [BEFORE](/compare.html2pdf.tools/docs/CSS-Selectors/B/before.md)
+* [BLANK](/compare.html2pdf.tools/docs/CSS-Selectors/B/blank.md)
 

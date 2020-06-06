@@ -10,8 +10,8 @@ description:
 
 
 ## Files
-* [DEFAULT](/compare.html2pdf.tools/docs/CSS-Selectors/D/default.html)
-* [DESCENDANT](/compare.html2pdf.tools/docs/CSS-Selectors/D/descendant.html)
-* [DIR](/compare.html2pdf.tools/docs/CSS-Selectors/D/dir.html)
-* [DISABLED](/compare.html2pdf.tools/docs/CSS-Selectors/D/disabled.html)
+* [DEFAULT](/compare.html2pdf.tools/docs/CSS-Selectors/D/default.md)
+* [DESCENDANT](/compare.html2pdf.tools/docs/CSS-Selectors/D/descendant.md)
+* [DIR](/compare.html2pdf.tools/docs/CSS-Selectors/D/dir.md)
+* [DISABLED](/compare.html2pdf.tools/docs/CSS-Selectors/D/disabled.md)
 
