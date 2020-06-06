@@ -579,7 +579,7 @@ padding-inline-start: 1em;         <span class="hljs-tag">&lt;<span class="hljs-
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>For more information on supported list-style-types, please see the PDFreactor manual.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
-</code></pre>
+</code><button class='button-code-copy'>📋 Copy Code</button></pre>
 </details>
 
 ### Output PDF

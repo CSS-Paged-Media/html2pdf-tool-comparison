@@ -45,7 +45,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">q</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"c"</span>&gt;</span>This is a <span class="hljs-tag">&lt;<span class="hljs-name">q</span>&gt;</span>quote<span class="hljs-tag">&lt;/<span class="hljs-name">q</span>&gt;</span> inside a quote.<span class="hljs-tag">&lt;/<span class="hljs-name">q</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
 </details>
 
 ### Output PDF

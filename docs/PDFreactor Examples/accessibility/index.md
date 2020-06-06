@@ -519,7 +519,7 @@ config.setOutputIntent(outputIntent);<span class="hljs-tag">&lt;/<span class="hl
 
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
-</code></pre>
+</code><button class='button-code-copy'>📋 Copy Code</button></pre>
 </details>
 
 ### Output PDF

@@ -10,7 +10,8 @@ body{
 }
 body {
 	display: flex;
-	flex-flow: row wrap;
+    flex-flow: row wrap;
+    color:#333;
 }
 /* Mobile first - alle Dokument-Blöcke bekommen 100% Breite */
 
@@ -318,3 +319,22 @@ code {
     max-height: 420px;
 }
 
+.button-code-copy {
+    border: 0;
+    height: 32px;
+    display: none;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background: #fff;
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0 22px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    box-shadow:4px 4px 8px hsla(0,0%,0%,.2);
+}

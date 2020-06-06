@@ -51,7 +51,7 @@ description:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel neque nec magna lacinia commodo in vel ante. Aliquam tincidunt, purus sit amet congue placerat, lacus mauris rhoncus nisl, nec ornare libero purus eget augue. In sed dui placerat nisl cursus aliquet. Integer nisl lorem, maximus et viverra non, aliquet vel arcu. Cras ullamcorper, arcu id molestie scelerisque, est turpis interdum mauris, sit amet pretium mi lectus at metus. Phasellus ornare odio in ipsum faucibus, et tempus est porttitor. Nullam sollicitudin eleifend mi at semper. Vivamus vel neque nec magna lacinia commodo in vel ante. Aliquam tincidunt, purus sit amet congue placerat, lacus mauris rhoncus nisl, nec ornare libero purus eget augue.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
 </details>
 
 ### Output PDF
@@ -118,7 +118,7 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
 </details>
 
 ### Output PDF

@@ -81,7 +81,7 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">class</span>=<span class="hljs-string">'example-textarea'</span> <span class="hljs-attr">cols</span>=<span class="hljs-string">'30'</span> <span class="hljs-attr">name</span>=<span class="hljs-string">''</span> <span class="hljs-attr">rows</span>=<span class="hljs-string">'10'</span>&gt;</span>Textarea, too!*<span class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">'foot-notes'</span>&gt;</span>*not Safari<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code><button class='button-code-copy'>📋 Copy Code</button></pre>
 </details>
 
 ### Output PDF
