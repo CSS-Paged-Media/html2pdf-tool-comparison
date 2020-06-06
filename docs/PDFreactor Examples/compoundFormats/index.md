@@ -20,19 +20,8 @@ description:
 
 [📄 Input HTML](/html/PDFreactor%20Examples/compoundFormats/compoundFormats.html):
 
-### mPDF
-![mPDF Preview](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) 
-
-[📕 mPDF Output](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
-
-### typeset.sh
-![typeset Preview](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) 
-
-[📕 typeset Output](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
-
-### PDFreactor
-![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) 
-
-[📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
+| mPDF | typeset.sh | PDFreactor |
+|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) [📕 mPDF Output](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf) | ![typeset Preview](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) [📕 typeset Output](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf)
 
 

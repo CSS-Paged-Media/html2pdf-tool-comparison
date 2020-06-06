@@ -11,38 +11,16 @@ description:
 
 [📄 Input HTML](/html/CSS%20Selectors/B/before.html):
 
-### mPDF
-![mPDF Preview](mpdf__html_CSS_Selectors_B_before.html.png) 
-
-[📕 mPDF Output](mpdf__html_CSS_Selectors_B_before.html.pdf)
-
-### typeset.sh
-![typeset Preview](typeset__html_CSS_Selectors_B_before.html.png) 
-
-[📕 typeset Output](typeset__html_CSS_Selectors_B_before.html.pdf)
-
-### PDFreactor
-![PDFreactor Preview](pdfreactor__html_CSS_Selectors_B_before.html.png) 
-
-[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_before.html.pdf)
+| mPDF | typeset.sh | PDFreactor |
+|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_B_before.html.png) [📕 mPDF Output](mpdf__html_CSS_Selectors_B_before.html.pdf) | ![typeset Preview](typeset__html_CSS_Selectors_B_before.html.png) [📕 typeset Output](typeset__html_CSS_Selectors_B_before.html.pdf) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_B_before.html.png) [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_before.html.pdf)
 
 ## BLANK
 
 [📄 Input HTML](/html/CSS%20Selectors/B/blank.html):
 
-### mPDF
-![mPDF Preview](mpdf__html_CSS_Selectors_B_blank.html.png) 
-
-[📕 mPDF Output](mpdf__html_CSS_Selectors_B_blank.html.pdf)
-
-### typeset.sh
-![typeset Preview](typeset__html_CSS_Selectors_B_blank.html.png) 
-
-[📕 typeset Output](typeset__html_CSS_Selectors_B_blank.html.pdf)
-
-### PDFreactor
-![PDFreactor Preview](pdfreactor__html_CSS_Selectors_B_blank.html.png) 
-
-[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_blank.html.pdf)
+| mPDF | typeset.sh | PDFreactor |
+|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_B_blank.html.png) [📕 mPDF Output](mpdf__html_CSS_Selectors_B_blank.html.pdf) | ![typeset Preview](typeset__html_CSS_Selectors_B_blank.html.png) [📕 typeset Output](typeset__html_CSS_Selectors_B_blank.html.pdf) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_B_blank.html.png) [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_blank.html.pdf)
 
 

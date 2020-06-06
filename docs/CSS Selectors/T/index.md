@@ -11,38 +11,16 @@ description:
 
 [📄 Input HTML](/html/CSS%20Selectors/T/target.html):
 
-### mPDF
-![mPDF Preview](mpdf__html_CSS_Selectors_T_target.html.png) 
-
-[📕 mPDF Output](mpdf__html_CSS_Selectors_T_target.html.pdf)
-
-### typeset.sh
-![typeset Preview](typeset__html_CSS_Selectors_T_target.html.png) 
-
-[📕 typeset Output](typeset__html_CSS_Selectors_T_target.html.pdf)
-
-### PDFreactor
-![PDFreactor Preview](pdfreactor__html_CSS_Selectors_T_target.html.png) 
-
-[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_T_target.html.pdf)
+| mPDF | typeset.sh | PDFreactor |
+|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_T_target.html.png) [📕 mPDF Output](mpdf__html_CSS_Selectors_T_target.html.pdf) | ![typeset Preview](typeset__html_CSS_Selectors_T_target.html.png) [📕 typeset Output](typeset__html_CSS_Selectors_T_target.html.pdf) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_T_target.html.png) [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_T_target.html.pdf)
 
 ## TYPE
 
 [📄 Input HTML](/html/CSS%20Selectors/T/type.html):
 
-### mPDF
-![mPDF Preview](mpdf__html_CSS_Selectors_T_type.html.png) 
-
-[📕 mPDF Output](mpdf__html_CSS_Selectors_T_type.html.pdf)
-
-### typeset.sh
-![typeset Preview](typeset__html_CSS_Selectors_T_type.html.png) 
-
-[📕 typeset Output](typeset__html_CSS_Selectors_T_type.html.pdf)
-
-### PDFreactor
-![PDFreactor Preview](pdfreactor__html_CSS_Selectors_T_type.html.png) 
-
-[📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_T_type.html.pdf)
+| mPDF | typeset.sh | PDFreactor |
+|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_T_type.html.png) [📕 mPDF Output](mpdf__html_CSS_Selectors_T_type.html.pdf) | ![typeset Preview](typeset__html_CSS_Selectors_T_type.html.png) [📕 typeset Output](typeset__html_CSS_Selectors_T_type.html.pdf) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_T_type.html.png) [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_T_type.html.pdf)
 
 

@@ -11,38 +11,16 @@ description:
 
 [📄 Input HTML](/html/CSS%20Properties/U/unicode-bidi.html):
 
-### mPDF
-![mPDF Preview](mpdf__html_CSS_Properties_U_unicode-bidi.html.png) 
-
-[📕 mPDF Output](mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf)
-
-### typeset.sh
-![typeset Preview](typeset__html_CSS_Properties_U_unicode-bidi.html.png) 
-
-[📕 typeset Output](typeset__html_CSS_Properties_U_unicode-bidi.html.pdf)
-
-### PDFreactor
-![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.png) 
-
-[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf)
+| mPDF | typeset.sh | PDFreactor |
+|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_U_unicode-bidi.html.png) [📕 mPDF Output](mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf) | ![typeset Preview](typeset__html_CSS_Properties_U_unicode-bidi.html.png) [📕 typeset Output](typeset__html_CSS_Properties_U_unicode-bidi.html.pdf) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.png) [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf)
 
 ## USER-SELECT
 
 [📄 Input HTML](/html/CSS%20Properties/U/user-select.html):
 
-### mPDF
-![mPDF Preview](mpdf__html_CSS_Properties_U_user-select.html.png) 
-
-[📕 mPDF Output](mpdf__html_CSS_Properties_U_user-select.html.pdf)
-
-### typeset.sh
-![typeset Preview](typeset__html_CSS_Properties_U_user-select.html.png) 
-
-[📕 typeset Output](typeset__html_CSS_Properties_U_user-select.html.pdf)
-
-### PDFreactor
-![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_user-select.html.png) 
-
-[📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_user-select.html.pdf)
+| mPDF | typeset.sh | PDFreactor |
+|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_U_user-select.html.png) [📕 mPDF Output](mpdf__html_CSS_Properties_U_user-select.html.pdf) | ![typeset Preview](typeset__html_CSS_Properties_U_user-select.html.png) [📕 typeset Output](typeset__html_CSS_Properties_U_user-select.html.pdf) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_user-select.html.png) [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_user-select.html.pdf)
 
 
