@@ -9,9 +9,80 @@ description:
 
 
 
-## Files
-* [DEFAULT](/compare.html2pdf.tools/docs/CSS-Selectors/D/default.md)
-* [DESCENDANT](/compare.html2pdf.tools/docs/CSS-Selectors/D/descendant.md)
-* [DIR](/compare.html2pdf.tools/docs/CSS-Selectors/D/dir.md)
-* [DISABLED](/compare.html2pdf.tools/docs/CSS-Selectors/D/disabled.md)
+## DEFAULT
+
+See the Rendering results for [D](/html/CSS%20Selectors/D):
+
+### mPDF
+![](mpdf__html_CSS_Selectors_D.png) 
+
+Link to PDF: [mpdf__html_CSS_Selectors_D.pdf](mpdf__html_CSS_Selectors_D.pdf)
+
+### typeset.sh
+![](typeset__html_CSS_Selectors_D.png) 
+
+Link to PDF: [typeset__html_CSS_Selectors_D.pdf](typeset__html_CSS_Selectors_D.pdf)
+
+### PDFreactor
+![](pdfreactor__html_CSS_Selectors_D.png) 
+
+Link to PDF: [pdfreactor__html_CSS_Selectors_D.pdf](pdfreactor__html_CSS_Selectors_D.pdf)
+
+## DESCENDANT
+
+See the Rendering results for [D](/html/CSS%20Selectors/D):
+
+### mPDF
+![](mpdf__html_CSS_Selectors_D.png) 
+
+Link to PDF: [mpdf__html_CSS_Selectors_D.pdf](mpdf__html_CSS_Selectors_D.pdf)
+
+### typeset.sh
+![](typeset__html_CSS_Selectors_D.png) 
+
+Link to PDF: [typeset__html_CSS_Selectors_D.pdf](typeset__html_CSS_Selectors_D.pdf)
+
+### PDFreactor
+![](pdfreactor__html_CSS_Selectors_D.png) 
+
+Link to PDF: [pdfreactor__html_CSS_Selectors_D.pdf](pdfreactor__html_CSS_Selectors_D.pdf)
+
+## DIR
+
+See the Rendering results for [D](/html/CSS%20Selectors/D):
+
+### mPDF
+![](mpdf__html_CSS_Selectors_D.png) 
+
+Link to PDF: [mpdf__html_CSS_Selectors_D.pdf](mpdf__html_CSS_Selectors_D.pdf)
+
+### typeset.sh
+![](typeset__html_CSS_Selectors_D.png) 
+
+Link to PDF: [typeset__html_CSS_Selectors_D.pdf](typeset__html_CSS_Selectors_D.pdf)
+
+### PDFreactor
+![](pdfreactor__html_CSS_Selectors_D.png) 
+
+Link to PDF: [pdfreactor__html_CSS_Selectors_D.pdf](pdfreactor__html_CSS_Selectors_D.pdf)
+
+## DISABLED
+
+See the Rendering results for [D](/html/CSS%20Selectors/D):
+
+### mPDF
+![](mpdf__html_CSS_Selectors_D.png) 
+
+Link to PDF: [mpdf__html_CSS_Selectors_D.pdf](mpdf__html_CSS_Selectors_D.pdf)
+
+### typeset.sh
+![](typeset__html_CSS_Selectors_D.png) 
+
+Link to PDF: [typeset__html_CSS_Selectors_D.pdf](typeset__html_CSS_Selectors_D.pdf)
+
+### PDFreactor
+![](pdfreactor__html_CSS_Selectors_D.png) 
+
+Link to PDF: [pdfreactor__html_CSS_Selectors_D.pdf](pdfreactor__html_CSS_Selectors_D.pdf)
+
 
