@@ -17,34 +17,30 @@ description:
     <summary>
         View TARGET Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        :target {
-  border: 2px solid #D4D4D4;
-  background-color: #e5eecc;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-pseudo">:target</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid <span class="hljs-number">#D4D4D4</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e5eecc</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;This is a heading&lt;/h1&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>This is a heading<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;p&gt;&lt;a href=&quot;#news1&quot;&gt;Jump to New content 1&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;#news2&quot;&gt;Jump to New content 2&lt;/a&gt;&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#news1"</span>&gt;</span>Jump to New content 1<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#news2"</span>&gt;</span>Jump to New content 2<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p&gt;Click on the links above and the :target selector highlight the current active HTML anchor.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Click on the links above and the :target selector highlight the current active HTML anchor.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p id=&quot;news1&quot;&gt;&lt;b&gt;New content 1...&lt;/b&gt;&lt;/p&gt;
-        &lt;p id=&quot;news2&quot;&gt;&lt;b&gt;New content 2...&lt;/b&gt;&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"news1"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>New content 1...<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"news2"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>New content 2...<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -64,24 +60,20 @@ description:
     <summary>
         View TYPE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/t/type/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p { /* &quot;p&quot; is the type selector */
-  margin: 0 0 1em 0;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/t/type/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span> { <span class="hljs-comment">/* "p" is the type selector */</span>
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">1em</span> <span class="hljs-number">0</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;Hello Type.&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hello Type.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

@@ -17,27 +17,23 @@ description:
     <summary>
         View BEFORE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/after-and-before/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div::before {
-  content: &quot;before&quot;;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/after-and-before/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">::before</span> {
+  <span class="hljs-attribute">content</span>: <span class="hljs-string">"before"</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div&gt;
-            &lt;h1&gt;Hello World&lt;/h1&gt;    
-            &lt;p&gt;Test for before.&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Hello World<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>    
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Test for before.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -57,39 +53,35 @@ description:
     <summary>
         View BLANK Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/b/blank/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p {
-  min-height: 30px;
-  width: 250px;
-  background-color: lightblue;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/b/blank/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">30px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">250px</span>;
+  <span class="hljs-attribute">background-color</span>: lightblue;
 }
 
-p:blank { display: none; }
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-pseudo">:blank</span> { <span class="hljs-attribute">display</span>: none; }
 
-p:-moz-only-whitespace { display: none; } /* Mozilla-only pseudo-class that works like :blank will */
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;blanks&quot;&gt;
-            &lt;p&gt;This paragraph is not empty or blank.&lt;/p&gt;
-            &lt;p&gt;&lt;!--this is empty and blank --&gt;&lt;/p&gt;
-            &lt;p&gt;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-pseudo">:-moz-only-whitespace</span> { <span class="hljs-attribute">display</span>: none; } <span class="hljs-comment">/* Mozilla-only pseudo-class that works like :blank will */</span>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"blanks"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is not empty or blank.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-comment">&lt;!--this is empty and blank --&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
               
-              &lt;!-- this is not empty, because it has whitespace. But it is blank.--&gt;
+              <span class="hljs-comment">&lt;!-- this is not empty, because it has whitespace. But it is blank.--&gt;</span>
               
-            &lt;/p&gt;
-            &lt;p&gt;This paragraph is not empty or blank.&lt;/p&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is not empty or blank.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

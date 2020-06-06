@@ -17,57 +17,53 @@ description:
     <summary>
         View WHITE-SPACE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text_white-space --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
- p.a {
-  white-space: nowrap;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text_white-space --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+ <span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.a</span> {
+  <span class="hljs-attribute">white-space</span>: nowrap;
 }
 
-p.b {
-  white-space: normal;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.b</span> {
+  <span class="hljs-attribute">white-space</span>: normal;
 }
 
-p.c {
-  white-space: pre;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.c</span> {
+  <span class="hljs-attribute">white-space</span>: pre;
 }       
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-&lt;h1&gt;The white-space Property&lt;/h1&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The white-space Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-&lt;h2&gt;white-space: nowrap:&lt;/h2&gt;
-&lt;p class=&quot;a&quot;&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>white-space: nowrap:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"a"</span>&gt;</span>
 This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
-&lt;/p&gt;
+<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-&lt;h2&gt;white-space: normal:&lt;/h2&gt;
-&lt;p class=&quot;b&quot;&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>white-space: normal:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"b"</span>&gt;</span>
 This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
-&lt;/p&gt;
+<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-&lt;h2&gt;white-space: pre:&lt;/h2&gt;
-&lt;p class=&quot;c&quot;&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>white-space: pre:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"c"</span>&gt;</span>
 This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
 This is some text. This is some text. This is some text.
-&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -87,47 +83,43 @@ This is some text. This is some text. This is some text.
     <summary>
         View WIDOWS Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/jsref/prop_style_widows.asp --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .othercontent {
-  width: 400px;
-  border-top: 19cm solid #c3c3c3;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/jsref/prop_style_widows.asp --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.othercontent</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">border-top</span>: <span class="hljs-number">19cm</span> solid <span class="hljs-number">#c3c3c3</span>;
 }
 
-@page {
-/* set size of printed page */
-  size: 21cm 27cm;
-  margin-top: 2cm;
+<span class="hljs-keyword">@page</span> {
+<span class="hljs-comment">/* set size of printed page */</span>
+  <span class="hljs-attribute">size</span>: <span class="hljs-number">21cm</span> <span class="hljs-number">27cm</span>;
+  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">2cm</span>;
 }
 
-  #p1 {
-    widows:2;
+  <span class="hljs-selector-id">#p1</span> {
+    <span class="hljs-attribute">widows</span>:<span class="hljs-number">2</span>;
   }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-&lt;div class=&quot;othercontent&quot;&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"othercontent"</span>&gt;</span>
     
-    &lt;p style=&quot;font-size:120%&quot; id=&quot;p1&quot;&gt;
-    Line 2&lt;br&gt;
-    Line 3&lt;br&gt;
-    Line 4&lt;br&gt;
-    Line 5&lt;br&gt;
-    Line 6&lt;br&gt;
-    Line 7&lt;br&gt;
-    Line 8&lt;br&gt;
-    &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"font-size:120%"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"p1"</span>&gt;</span>
+    Line 2<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+    Line 3<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+    Line 4<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+    Line 5<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+    Line 6<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+    Line 7<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+    Line 8<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -147,13 +139,11 @@ This is some text. This is some text. This is some text.
     <summary>
         View WIDTH Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/w/width/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/w/width/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
         html {
 	background: #292a2b;
 	color: #FFF;
@@ -218,58 +208,56 @@ This is some text. This is some text. This is some text.
 .box-width.row-em {
 	width: 20em;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;!-- Entire Viewport --&gt;
-&lt;h1&gt;Entire Viewport&lt;/h1&gt;
-&lt;div class=&quot;viewport&quot;&gt;
-	&lt;p&gt;Width &lt;code&gt;%&lt;/code&gt;&lt;/p&gt;
-	&lt;div class=&quot;box-width percentage&quot;&gt;100%&lt;/div&gt;
-	&lt;p&gt;Width  &lt;code&gt;px&lt;/code&gt;&lt;/p&gt;
-	&lt;div class=&quot;box-width pixel&quot;&gt;200px&lt;/div&gt;
-	&lt;p&gt;Width  &lt;code&gt;em&lt;/code&gt; &lt;small&gt;(based on 16px computed font-size)&lt;/small&gt;&lt;/p&gt;
-	&lt;div class=&quot;box-width em&quot;&gt;20em&lt;/div&gt;
-	&lt;p&gt;Width  &lt;code&gt;rem&lt;/code&gt; &lt;small&gt;(based on 16px computed font-size of root element)&lt;/small&gt;&lt;/p&gt;
-	&lt;div class=&quot;box-width em&quot;&gt;20rem&lt;/div&gt;
-&lt;/div&gt;
+        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- Entire Viewport --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Entire Viewport<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"viewport"</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Width <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>%<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width percentage"</span>&gt;</span>100%<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Width  <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width pixel"</span>&gt;</span>200px<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Width  <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>em<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>(based on 16px computed font-size)<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width em"</span>&gt;</span>20em<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Width  <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>rem<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>(based on 16px computed font-size of root element)<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width em"</span>&gt;</span>20rem<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-&lt;!-- Container 480px --&gt;
-&lt;h1&gt;Container 480px&lt;/h1&gt;
-&lt;div class=&quot;container&quot;&gt;
-	&lt;p&gt;Width &lt;code&gt;%&lt;/code&gt;&lt;/p&gt;
-	&lt;div class=&quot;box-width percentage-half&quot;&gt;50%&lt;/div&gt;
-	&lt;div class=&quot;box-width percentage-full&quot;&gt;100%&lt;/div&gt;
-	&lt;p&gt;Width  &lt;code&gt;px&lt;/code&gt;&lt;/p&gt;
-	&lt;div class=&quot;box-width pixel&quot;&gt;200px&lt;/div&gt;
-	&lt;p&gt;Width  &lt;code&gt;em&lt;/code&gt; &lt;small&gt;(based on 16px computed font-size)&lt;/small&gt;&lt;/p&gt;
-	&lt;div class=&quot;box-width em&quot;&gt;20em&lt;/div&gt;
-	&lt;p&gt;Width  &lt;code&gt;rem&lt;/code&gt; &lt;small&gt;(based on 16px computed font-size of root element)&lt;/small&gt;&lt;/p&gt;
-	&lt;div class=&quot;box-width em&quot;&gt;20rem&lt;/div&gt;
-&lt;/div&gt;
+<span class="hljs-comment">&lt;!-- Container 480px --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Container 480px<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Width <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>%<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width percentage-half"</span>&gt;</span>50%<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width percentage-full"</span>&gt;</span>100%<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Width  <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width pixel"</span>&gt;</span>200px<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Width  <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>em<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>(based on 16px computed font-size)<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width em"</span>&gt;</span>20em<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Width  <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>rem<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>(based on 16px computed font-size of root element)<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width em"</span>&gt;</span>20rem<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-&lt;!-- Absolute Position --&gt;
-&lt;h1&gt;Absolute Position&lt;/h1&gt;
-&lt;div class=&quot;absolute-position&quot;&gt;
-	&lt;div class=&quot;box-width no-width&quot;&gt;Based on content if width is not defined&lt;/div&gt;
-  &lt;div class=&quot;box-width rem&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;box-width em&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
+<span class="hljs-comment">&lt;!-- Absolute Position --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Absolute Position<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"absolute-position"</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width no-width"</span>&gt;</span>Based on content if width is not defined<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width rem"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width em"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-&lt;!-- Table Rows --&gt;
-&lt;h1&gt;Table Rows :(&lt;/h1&gt;
-&lt;table&gt;
-	&lt;tr class=&quot;box-width row-percent&quot;&gt;
-		&lt;td&gt;%&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr class=&quot;box-width row-em&quot;&gt;
-		&lt;td&gt;em&lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-comment">&lt;!-- Table Rows --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Table Rows :(<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width row-percent"</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>%<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+	<span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box-width row-em"</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>em<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+	<span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -289,43 +277,39 @@ This is some text. This is some text. This is some text.
     <summary>
         View WORD-BREAK Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/w/word-break/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .txt {
-  word-break: break-all;
-  line-height: 1;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  color: #eee;
-  width: 1em;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/w/word-break/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.txt</span> {
+  <span class="hljs-attribute">word-break</span>: break-all;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">text-transform</span>: uppercase;
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">40px</span>;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#eee</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">1em</span>;
 }
 
-html, body {
-  height: 100%;
+<span class="hljs-selector-tag">html</span>, <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
 }
 
-body {
-  font-family: Palatino, serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0074d9;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">font-family</span>: Palatino, serif;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">align-items</span>: center;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#0074d9</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1 class=&quot;txt&quot;&gt;Marco&lt;/h1&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"txt"</span>&gt;</span>Marco<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -345,43 +329,39 @@ body {
     <summary>
         View WORD-SPACING Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text_word-spacing --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p.a { 
-  word-spacing: normal;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text_word-spacing --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.a</span> { 
+  <span class="hljs-attribute">word-spacing</span>: normal;
 }
 
-p.b { 
-  word-spacing: 30px;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.b</span> { 
+  <span class="hljs-attribute">word-spacing</span>: <span class="hljs-number">30px</span>;
 }
 
-p.c { 
-  word-spacing: 1cm;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.c</span> { 
+  <span class="hljs-attribute">word-spacing</span>: <span class="hljs-number">1cm</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-&lt;h1&gt;The word-spacing Property&lt;/h1&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The word-spacing Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-&lt;h2&gt;word-spacing: normal:&lt;/h2&gt;
-&lt;p class=&quot;a&quot;&gt;This is some text. This is some text.&lt;/p&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>word-spacing: normal:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"a"</span>&gt;</span>This is some text. This is some text.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-&lt;h2&gt;word-spacing: 30px:&lt;/h2&gt;
-&lt;p class=&quot;b&quot;&gt;This is some text. This is some text.&lt;/p&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>word-spacing: 30px:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"b"</span>&gt;</span>This is some text. This is some text.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-&lt;h2&gt;word-spacing: 1cm:&lt;/h2&gt;
-&lt;p class=&quot;c&quot;&gt;This is some text. This is some text.&lt;/p&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>word-spacing: 1cm:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"c"</span>&gt;</span>This is some text. This is some text.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -401,37 +381,33 @@ p.c {
     <summary>
         View WRITING-MODE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/w/writing-mode/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p {
-  font-family: Georgia, serif;
-  font-size: 18px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/w/writing-mode/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">font-family</span>: Georgia, serif;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
 }
 
-.vertical-rl {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  color: #0074d9;
-  display: inline-block;
+<span class="hljs-selector-class">.vertical-rl</span> {
+  <span class="hljs-attribute">-webkit-writing-mode</span>: vertical-rl;
+      <span class="hljs-attribute">-ms-writing-mode</span>: tb-rl;
+          <span class="hljs-attribute">writing-mode</span>: vertical-rl;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#0074d9</span>;
+  <span class="hljs-attribute">display</span>: inline-block;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;This is text that needs to be read from top to bottom, and from right to left:&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is text that needs to be read from top to bottom, and from right to left:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-        &lt;p class=&quot;vertical-rl&quot;&gt;This is text that needs to be read from top to bottom, and from right to left.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"vertical-rl"</span>&gt;</span>This is text that needs to be read from top to bottom, and from right to left.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

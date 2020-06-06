@@ -17,83 +17,79 @@ description:
     <summary>
         View EMPTY-CELLS Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/e/empty-cells/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        /* DEMO STYLES */
-.table-show {
-  empty-cells: show;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/e/empty-cells/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-comment">/* DEMO STYLES */</span>
+<span class="hljs-selector-class">.table-show</span> {
+  <span class="hljs-attribute">empty-cells</span>: show;
 }
 
-.table-hide {
-  empty-cells: hide;
+<span class="hljs-selector-class">.table-hide</span> {
+  <span class="hljs-attribute">empty-cells</span>: hide;
 }
 
-/* PRESENTATONAL STYLES */
-body {
-  background: #333;
-  padding: 25px 0;
-  color: #fff;
-  font-family: Helvetica;
-  font-size: 3em;
-  text-align: center;
+<span class="hljs-comment">/* PRESENTATONAL STYLES */</span>
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#333</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">25px</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
+  <span class="hljs-attribute">font-family</span>: Helvetica;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">3em</span>;
+  <span class="hljs-attribute">text-align</span>: center;
 }
 
-table {
-  margin: 25px auto;
+<span class="hljs-selector-tag">table</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">25px</span> auto;
 }
 
-td {
-  background: #fff;
-  border: 1px solid #999;
-  padding: 10px 15px;
-  color: green;
-  cursor: pointer;
+<span class="hljs-selector-tag">td</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#fff</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#999</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span> <span class="hljs-number">15px</span>;
+  <span class="hljs-attribute">color</span>: green;
+  <span class="hljs-attribute">cursor</span>: pointer;
 }
 
-td:hover {
-  background: #eaeaea;
+<span class="hljs-selector-tag">td</span><span class="hljs-selector-pseudo">:hover</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#eaeaea</span>;
 }
 
-h1 {
-  font-size: .5em;
+<span class="hljs-selector-tag">h1</span> {
+  <span class="hljs-attribute">font-size</span>: .<span class="hljs-number">5em</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Show Empty Cells&lt;/h1&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Show Empty Cells<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;table class=&quot;table-show&quot;&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;&amp;check;&lt;/td&gt;
-              &lt;td&gt;&amp;check;&lt;/td&gt;
-              &lt;td&gt;&lt;/td&gt;
-              &lt;td&gt;&amp;check;&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"table-show"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-symbol">&amp;check;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-symbol">&amp;check;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-symbol">&amp;check;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
         
-        &lt;h1&gt;Hide The Cells&lt;/h1&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Hide The Cells<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
         
-        &lt;table class=&quot;table-hide&quot;&gt;
-           &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;&amp;check;&lt;/td&gt;
-              &lt;td&gt;&amp;check;&lt;/td&gt;
-              &lt;td&gt;&lt;/td&gt;
-              &lt;td&gt;&amp;check;&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"table-hide"</span>&gt;</span>
+           <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-symbol">&amp;check;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-symbol">&amp;check;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-symbol">&amp;check;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

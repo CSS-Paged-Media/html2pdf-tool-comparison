@@ -17,39 +17,35 @@ description:
     <summary>
         View DEFAULT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/d/default/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        input[type=&quot;radio&quot;]:default + label:after {
-   content: ' (default)';
-   color: #999;
-   font-style: italic;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/d/default/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=<span class="hljs-string">"radio"</span>]</span><span class="hljs-selector-pseudo">:default</span> + <span class="hljs-selector-tag">label</span><span class="hljs-selector-pseudo">:after</span> {
+   <span class="hljs-attribute">content</span>: <span class="hljs-string">' (default)'</span>;
+   <span class="hljs-attribute">color</span>: <span class="hljs-number">#999</span>;
+   <span class="hljs-attribute">font-style</span>: italic;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul&gt;
-            &lt;li&gt;
-              &lt;input type=&quot;radio&quot; name=&quot;color&quot; value=&quot;red&quot; id=&quot;red&quot;&gt; 
-              &lt;label for=&quot;red&quot;&gt;red&lt;/label&gt;
-            &lt;/li&gt;
-            &lt;li&gt;
-              &lt;input type=&quot;radio&quot; name=&quot;green&quot; value=&quot;green&quot; id=&quot;green&quot; checked&gt; 
-              &lt;label for=&quot;green&quot;&gt;green&lt;/label&gt;
-            &lt;/li&gt;
-            &lt;li&gt;
-              &lt;input type=&quot;radio&quot; name=&quot;blue&quot; value=&quot;blue&quot; id=&quot;blue&quot;&gt; 
-              &lt;label for=&quot;blue&quot;&gt;blue&lt;/label&gt;
-            &lt;/li&gt;
-          &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"color"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"red"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"red"</span>&gt;</span> 
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"red"</span>&gt;</span>red<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"green"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"green"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"green"</span> <span class="hljs-attr">checked</span>&gt;</span> 
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"green"</span>&gt;</span>green<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"blue"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"blue"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"blue"</span>&gt;</span> 
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"blue"</span>&gt;</span>blue<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -69,31 +65,27 @@ description:
     <summary>
         View DESCENDANT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/d/descendant/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-            div span{
-                color:red;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/d/descendant/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+            <span class="hljs-selector-tag">div</span> <span class="hljs-selector-tag">span</span>{
+                <span class="hljs-attribute">color</span>:red;
             }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div&gt;
-            &lt;span&gt;I will match&lt;/span&gt;
-            &lt;ul&gt;
-              &lt;li&gt;
-                 &lt;span&gt;I will match too&lt;/span&gt;
-              &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>I will match<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+                 <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>I will match too<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -113,59 +105,55 @@ description:
     <summary>
         View DIR Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/d/dir/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  background-color: #000;
-  width: 100%;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/d/dir/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#000</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
 }
 
-div {
-  background-color: #eaeaea;
-  margin: 1em;
-  padding: 2em;
-  max-width: 100%;
+<span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#eaeaea</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">100%</span>;
 }
 
-div:dir(ltr) {
-  background-color: #333;
-  color: #fff;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:dir(ltr)</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#333</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
 }
 
-div:dir(rtl) {
-  background: red;
-  color: #fff;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">:dir(rtl)</span> {
+  <span class="hljs-attribute">background</span>: red;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
 }
 
-.support {
-  color: #fff;
-  text-align: center;
-  display: block;
+<span class="hljs-selector-class">.support</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">display</span>: block;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p class=&quot;support&quot;&gt;This demo currently only works in Firefox&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"support"</span>&gt;</span>This demo currently only works in Firefox<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-        &lt;div dir=&quot;ltr&quot;&gt;
-          &lt;h1&gt;left-to-right&lt;/h1&gt;
-          &lt;p&gt;Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.&lt;/p&gt;
-          &lt;cite&gt;&amp;mdash;Bill Watterson&lt;/cite&gt;
-        &lt;/div&gt;
-        &lt;div dir=&quot;rtl&quot;&gt;
-          &lt;h1&gt;right to left&lt;/h1&gt;
-          &lt;p&gt;Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.&lt;/p&gt;
-          &lt;cite&gt;&amp;mdash;Bill Watterson&lt;/cite&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">dir</span>=<span class="hljs-string">"ltr"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>left-to-right<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">cite</span>&gt;</span><span class="hljs-symbol">&amp;mdash;</span>Bill Watterson<span class="hljs-tag">&lt;/<span class="hljs-name">cite</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">dir</span>=<span class="hljs-string">"rtl"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>right to left<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">cite</span>&gt;</span><span class="hljs-symbol">&amp;mdash;</span>Bill Watterson<span class="hljs-tag">&lt;/<span class="hljs-name">cite</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -185,77 +173,73 @@ div:dir(rtl) {
     <summary>
         View DISABLED Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/d/disabled/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        /* The good stuff starts here :)
-*/
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/d/disabled/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-comment">/* The good stuff starts here :)
+*/</span>
 
-  input {
-    width: 60%;
-    margin: 0;
-    border: none;
-    outline: 1px solid lightgrey;
-    outline-offset: 2px;
+  <span class="hljs-selector-tag">input</span> {
+    <span class="hljs-attribute">width</span>: <span class="hljs-number">60%</span>;
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">border</span>: none;
+    <span class="hljs-attribute">outline</span>: <span class="hljs-number">1px</span> solid lightgrey;
+    <span class="hljs-attribute">outline-offset</span>: <span class="hljs-number">2px</span>;
   }
 
-input:disabled {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg==) repeat;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:disabled</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg==) repeat;
 }
 
-/* BASIC PAGE CSS. NOT PART OF THE EXAMPLE
-*/
+<span class="hljs-comment">/* BASIC PAGE CSS. NOT PART OF THE EXAMPLE
+*/</span>
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  <span class="hljs-attribute">-webkit-box-sizing</span>: border-box;
+  <span class="hljs-attribute">-moz-box-sizing</span>: border-box;
+  <span class="hljs-attribute">box-sizing</span>: border-box;
 }
 
-body {
-  font: 300 16px/1.25 &quot;Helvetica Neue&quot;, sans-serif;
-  color: slategrey;
-  background: cornflowerblue;
-  padding: 1.5em;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">font</span>: <span class="hljs-number">300</span> <span class="hljs-number">16px</span>/<span class="hljs-number">1.25</span> <span class="hljs-string">"Helvetica Neue"</span>, sans-serif;
+  <span class="hljs-attribute">color</span>: slategrey;
+  <span class="hljs-attribute">background</span>: cornflowerblue;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1.5em</span>;
 }
 
-form {
-  background: whitesmoke;
-  padding: 1.5em;
-  max-width: 400px;
-  width: 100%;
-  outline: 3px solid rgba(0, 0, 0, 0.25);
+<span class="hljs-selector-tag">form</span> {
+  <span class="hljs-attribute">background</span>: whitesmoke;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1.5em</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">outline</span>: <span class="hljs-number">3px</span> solid <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.25</span>);
 }
 
-  hr {
-    visibility: hidden;
+  <span class="hljs-selector-tag">hr</span> {
+    <span class="hljs-attribute">visibility</span>: hidden;
   }
 
-  label {
-    margin-right: 3%;
-  text-align: left;
-    display: inline-block;
-    width: 35%;
+  <span class="hljs-selector-tag">label</span> {
+    <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">3%</span>;
+  <span class="hljs-attribute">text-align</span>: left;
+    <span class="hljs-attribute">display</span>: inline-block;
+    <span class="hljs-attribute">width</span>: <span class="hljs-number">35%</span>;
   }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;form action=&quot;#&quot;&gt;
-            &lt;label for=&quot;name&quot;&gt;Enabled Input:&lt;/label&gt;
-            &lt;input type=&quot;text&quot; autofocus&gt;
-              &lt;hr&gt;
-            &lt;label for=&quot;name&quot;&gt;Disabled Input:&lt;/label&gt;
-            &lt;input type=&quot;text&quot; disabled&gt;
-        &lt;/form&gt;  
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">"#"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"name"</span>&gt;</span>Enabled Input:<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">autofocus</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"name"</span>&gt;</span>Disabled Input:<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">disabled</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>  
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

@@ -17,24 +17,20 @@ description:
     <summary>
         View ACTIVE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/active/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        h2:active {
-  background: yellow;   
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/active/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">h2</span><span class="hljs-selector-pseudo">:active</span> {
+  <span class="hljs-attribute">background</span>: yellow;   
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;click anywhere&lt;/h2&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>click anywhere<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -54,44 +50,40 @@ description:
     <summary>
         View ADJACENT-SIBLING Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/adjacent-sibling/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  line-height: 1.45;
-  color: #333;
-  padding: 1em;
-  font-size: 18px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/adjacent-sibling/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">'Source Sans Pro'</span>, Arial, sans-serif;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.45</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#333</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
 }
 
-img + p { 
-  font-style: italic;
-  margin: 0;
-  font-size: 14px;
+<span class="hljs-selector-tag">img</span> + <span class="hljs-selector-tag">p</span> { 
+  <span class="hljs-attribute">font-style</span>: italic;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">14px</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;This example demonstrates the use of CSS &lt;a href=&quot;https://css-tricks.com/almanac/selectors/a/adjacent-sibling/&quot;&gt;Adjacent Sibling&lt;/a&gt; selectors. Here, we want to add some additional styling to the caption text only. We'll use the adjacent sibling combinator to only select the paragraph tags that directly follow an image.&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This example demonstrates the use of CSS <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://css-tricks.com/almanac/selectors/a/adjacent-sibling/"</span>&gt;</span>Adjacent Sibling<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> selectors. Here, we want to add some additional styling to the caption text only. We'll use the adjacent sibling combinator to only select the paragraph tags that directly follow an image.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-        &lt;img src=&quot;http://images.nga.gov/?service=asset&amp;action=show_preview&amp;asset=135937&quot; /&gt;
-        &lt;p&gt;Vincent van Gogh Green Wheat Fields, Auvers 1890 Painting&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"http://images.nga.gov/?service=asset&amp;action=show_preview&amp;asset=135937"</span> /&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Vincent van Gogh Green Wheat Fields, Auvers 1890 Painting<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;img src=&quot;http://images.nga.gov/?service=asset&amp;action=show_preview&amp;asset=120079&quot; /&gt;
-        &lt;p&gt;Claude Monet The Japanese Footbridge 1899 Painting&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"http://images.nga.gov/?service=asset&amp;action=show_preview&amp;asset=120079"</span> /&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Claude Monet The Japanese Footbridge 1899 Painting<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -111,27 +103,23 @@ img + p {
     <summary>
         View AFTER Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/after-and-before/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div::after {
-  content: &quot;after&quot;;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/after-and-before/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">::after</span> {
+  <span class="hljs-attribute">content</span>: <span class="hljs-string">"after"</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div&gt;
-            &lt;h1&gt;Hello World&lt;/h1&gt;    
-            &lt;p&gt;Test for after.&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Hello World<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>    
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Test for after.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -151,48 +139,44 @@ img + p {
     <summary>
         View ANY-LINK Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/any-link/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  background-color: #eaeaea;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/any-link/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#eaeaea</span>;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">align-items</span>: center;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100vh</span>;
 }
 
-:any-link {
-  color: red;
-  font-weight: 900;
-  text-decoration: none;
+<span class="hljs-selector-pseudo">:any-link</span> {
+  <span class="hljs-attribute">color</span>: red;
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">900</span>;
+  <span class="hljs-attribute">text-decoration</span>: none;
 }
 
-/* [href] {
+<span class="hljs-comment">/* [href] {
   color: blue;
-} */
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div&gt;
-            &amp;lt;a&gt; elements with...
-            &lt;br&gt;&lt;br&gt;
-            &lt;a href=&quot;https://google.com&quot;&gt;valid href&lt;/a&gt;
-            &lt;br&gt;
-            &lt;a&gt;no href&lt;/a&gt;
-            &lt;br&gt;
-            &lt;a href&gt;href but no value&lt;/a&gt;
-            &lt;br&gt;
-            &lt;a href=&quot;&quot;&gt;empty string href&lt;/a&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+} */</span>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-symbol">&amp;lt;</span>a&gt; elements with...
+            <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://google.com"</span>&gt;</span>valid href<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span>&gt;</span>no href<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>&gt;</span>href but no value<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">""</span>&gt;</span>empty string href<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -212,120 +196,116 @@ img + p {
     <summary>
         View ATTRIBUTE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/attribute/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        a[href=&quot;https://www.css-tricks.com&quot;] { /*select only the link with the exact href value https://www.css-tricks.com */
-  color: #E18728;
-  font-size: 1.5em;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/a/attribute/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">a</span><span class="hljs-selector-attr">[href=<span class="hljs-string">"https://www.css-tricks.com"</span>]</span> { <span class="hljs-comment">/*select only the link with the exact href value https://www.css-tricks.com */</span>
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#E18728</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.5em</span>;
 }
 
-.gallery img[alt*=&quot;art&quot;] { /* alt attribute contains the word art, as whole or partial word */
-  outline: 5px solid #E18728;
-  outline-offset: 2px;
+<span class="hljs-selector-class">.gallery</span> <span class="hljs-selector-tag">img</span><span class="hljs-selector-attr">[alt*=<span class="hljs-string">"art"</span>]</span> { <span class="hljs-comment">/* alt attribute contains the word art, as whole or partial word */</span>
+  <span class="hljs-attribute">outline</span>: <span class="hljs-number">5px</span> solid <span class="hljs-number">#E18728</span>;
+  <span class="hljs-attribute">outline-offset</span>: <span class="hljs-number">2px</span>;
 }
 
-.gallery2 img[alt~=&quot;art&quot;] { /* alt attribute contains art as only value or in space-separated list */
-  outline: 5px solid #E18728;
-  outline-offset: 2px;
+<span class="hljs-selector-class">.gallery2</span> <span class="hljs-selector-tag">img</span><span class="hljs-selector-attr">[alt~=<span class="hljs-string">"art"</span>]</span> { <span class="hljs-comment">/* alt attribute contains art as only value or in space-separated list */</span>
+  <span class="hljs-attribute">outline</span>: <span class="hljs-number">5px</span> solid <span class="hljs-number">#E18728</span>;
+  <span class="hljs-attribute">outline-offset</span>: <span class="hljs-number">2px</span>;
 }
 
-.gallery3 img[alt^=&quot;art&quot;] { /* alt attribute starts with the value &quot;art&quot; */
-  outline: 5px solid #E18728;
-  outline-offset: 2px;
+<span class="hljs-selector-class">.gallery3</span> <span class="hljs-selector-tag">img</span><span class="hljs-selector-attr">[alt^=<span class="hljs-string">"art"</span>]</span> { <span class="hljs-comment">/* alt attribute starts with the value "art" */</span>
+  <span class="hljs-attribute">outline</span>: <span class="hljs-number">5px</span> solid <span class="hljs-number">#E18728</span>;
+  <span class="hljs-attribute">outline-offset</span>: <span class="hljs-number">2px</span>;
 }
 
-li[data-years|=&quot;1900&quot;] { /* data-years attribute starts with 1900 as the only value or first in a dash-separated list */
-  color: red;
+<span class="hljs-selector-tag">li</span><span class="hljs-selector-attr">[data-years|=<span class="hljs-string">"1900"</span>]</span> { <span class="hljs-comment">/* data-years attribute starts with 1900 as the only value or first in a dash-separated list */</span>
+  <span class="hljs-attribute">color</span>: red;
 }
 
-a[href$=&quot;pdf&quot;]:after { /* href attribute ends with pdf */
-  content: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/pdficon_small.png);
-  padding-left: .3em;
+<span class="hljs-selector-tag">a</span><span class="hljs-selector-attr">[href$=<span class="hljs-string">"pdf"</span>]</span><span class="hljs-selector-pseudo">:after</span> { <span class="hljs-comment">/* href attribute ends with pdf */</span>
+  <span class="hljs-attribute">content</span>: <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">652</span>/pdficon_small.png);
+  <span class="hljs-attribute">padding-left</span>: .<span class="hljs-number">3em</span>;
 }
 
 
 
-/* styling for Pen, unrelated to attribute selectors */
+<span class="hljs-comment">/* styling for Pen, unrelated to attribute selectors */</span>
 
-body { 
-  font-family: sans-serif;
-  width: 90%;
-  margin: 0 auto;
-  line-height: 1.5;
+<span class="hljs-selector-tag">body</span> { 
+  <span class="hljs-attribute">font-family</span>: sans-serif;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">90%</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> auto;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.5</span>;
 }
 
-img { margin-right: .5em; }
+<span class="hljs-selector-tag">img</span> { <span class="hljs-attribute">margin-right</span>: .<span class="hljs-number">5em</span>; }
 
-hr { 
-  margin: 1em 0;
-  clear: both;
+<span class="hljs-selector-tag">hr</span> { 
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">1em</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">clear</span>: both;
 }
 
-.story {
-  text-indent: 1em;
-  font-family: serif;
-  font-size: 1.2em;
+<span class="hljs-selector-class">.story</span> {
+  <span class="hljs-attribute">text-indent</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">font-family</span>: serif;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.2em</span>;
 }
 
-.story:first-letter { font-size: 1.5em; }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;Exact Match &amp;mdash; [attribute=&quot;value&quot;]&lt;/h2&gt;
-        &lt;p&gt;Here we select the link with the exact href value &quot;https://www.css-tricks.com&quot;, and change its color and font size. Notice that the link to the almanac is not styled.&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;https://www.css-tricks.com&quot;&gt;CSS-Tricks&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;https://www.css-tricks.com/almanac&quot;&gt;CSS-Tricks Almanac&lt;/a&gt;&lt;/p&gt;
-        &lt;hr&gt;
+<span class="hljs-selector-class">.story</span><span class="hljs-selector-pseudo">:first-letter</span> { <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.5em</span>; }
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Exact Match <span class="hljs-symbol">&amp;mdash;</span> [attribute="value"]<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Here we select the link with the exact href value "https://www.css-tricks.com", and change its color and font size. Notice that the link to the almanac is not styled.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.css-tricks.com"</span>&gt;</span>CSS-Tricks<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.css-tricks.com/almanac"</span>&gt;</span>CSS-Tricks Almanac<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>&gt;</span>
         
-        &lt;h2&gt;Attribute Value Contains &amp;mdash; [attribute*=&quot;value&quot;]&lt;/h2&gt;
-        &lt;p&gt;Here we select the images with the full word or word fragment &quot;art&quot; in the alt text and give them an outline. Notice that the images with the alt text &quot;abstract &lt;i&gt;art&lt;/i&gt;&quot; and &quot;athlete &lt;i&gt;starting&lt;/i&gt; a new sport&quot; both get outlined. &lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Attribute Value Contains <span class="hljs-symbol">&amp;mdash;</span> [attribute*="value"]<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Here we select the images with the full word or word fragment "art" in the alt text and give them an outline. Notice that the images with the alt text "abstract <span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>art<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>" and "athlete <span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>starting<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> a new sport" both get outlined. <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;div class=&quot;gallery&quot;&gt;
-          &lt;img src=&quot;//placehold.it/150/150/abstract&quot; alt=&quot;abstract art&quot;&gt;
-          &lt;img src=&quot;//placehold.it/150/150/food&quot; alt=&quot;something to eat&quot;&gt;
-          &lt;img src=&quot;//placehold.it/150/150/sports&quot; alt=&quot;athlete starting a new sport&quot;&gt;
-        &lt;/div&gt;
-        &lt;hr&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"gallery"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"//placehold.it/150/150/abstract"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"abstract art"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"//placehold.it/150/150/food"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"something to eat"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"//placehold.it/150/150/sports"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"athlete starting a new sport"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>&gt;</span>
         
-        &lt;h2&gt;Attribute Value is in Space-Separated List &amp;mdash; [attribute~=&quot;value&quot;]&lt;/h2&gt;
-        &lt;p&gt;In the list below, we select images with the word &quot;art&quot; in their alt attribute, either as the only value or as a whole word in a space separated list. Notice that the image with the alt text &quot;athlete starting a new sport&quot; is not outlined like it was in the &quot;Attribute Contains&quot; example.&lt;/p&gt;
-        &lt;div class=&quot;gallery2&quot;&gt;
-          &lt;img src=&quot;//placehold.it/150/150&quot; alt=&quot;abstract art&quot;&gt;
-          &lt;img src=&quot;//placehold.it/150/150&quot; alt=&quot;something to eat&quot;&gt;
-          &lt;img src=&quot;//placehold.it/150/150&quot; alt=&quot;athlete starting a new sport&quot;&gt;
-        &lt;/div&gt;
-        &lt;hr&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Attribute Value is in Space-Separated List <span class="hljs-symbol">&amp;mdash;</span> [attribute~="value"]<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>In the list below, we select images with the word "art" in their alt attribute, either as the only value or as a whole word in a space separated list. Notice that the image with the alt text "athlete starting a new sport" is not outlined like it was in the "Attribute Contains" example.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"gallery2"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"//placehold.it/150/150"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"abstract art"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"//placehold.it/150/150"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"something to eat"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"//placehold.it/150/150"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"athlete starting a new sport"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>&gt;</span>
         
-        &lt;h2&gt;Attribute Value Starts With &amp;mdash; [attribute^=&quot;value&quot;]&lt;/h2&gt;
-        &lt;p&gt;Here we select the images with alt text that starts with &quot;art&quot;. Notice that the image with the alt text &quot;artistic pattern&quot; is selected, but the image with the alt text &quot;Arthur Miller&quot; is not because attribute selectors are case-sensitive. &lt;/p&gt;
-        &lt;div class=&quot;gallery3&quot;&gt;
-          &lt;img src=&quot;//placehold.it/150/184/abstract&quot; alt=&quot;artistic pattern&quot;&gt;
-          &lt;img src=&quot;//placehold.it/150/184/food&quot; alt=&quot;a healthy meal&quot;&gt;
-          &lt;img src=&quot;//placehold.it/150/184/sports&quot; alt=&quot;Arthur Miller&quot;&gt;
-        &lt;/div&gt;
-        &lt;hr&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Attribute Value Starts With <span class="hljs-symbol">&amp;mdash;</span> [attribute^="value"]<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Here we select the images with alt text that starts with "art". Notice that the image with the alt text "artistic pattern" is selected, but the image with the alt text "Arthur Miller" is not because attribute selectors are case-sensitive. <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"gallery3"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"//placehold.it/150/184/abstract"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"artistic pattern"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"//placehold.it/150/184/food"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"a healthy meal"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"//placehold.it/150/184/sports"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Arthur Miller"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>&gt;</span>
         
-        &lt;h2&gt;Attribute Value is First in Dash-Separated List &amp;mdash; [attribute|=&quot;value&quot;]&lt;/h2&gt;
-        &lt;p&gt;Selecting the list item with a data-decade attribute that has &quot;1900&quot; as the only value or the first in a dash separated list. Notice that only the 2nd list item is selected. The first list item has &quot;1900&quot; in its data attribute value, but it's after the dash.&lt;/p&gt;
-        &lt;ul&gt;  
-          &lt;li data-years=&quot;1800-1900&quot;&gt;The 19th Century&lt;/li&gt;
-          &lt;li data-years=&quot;1900-2000&quot;&gt;The 20th Century&lt;/li&gt;
-          &lt;li data-years=&quot;2000-2100&quot;&gt;The 21st Century&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;hr&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Attribute Value is First in Dash-Separated List <span class="hljs-symbol">&amp;mdash;</span> [attribute|="value"]<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Selecting the list item with a data-decade attribute that has "1900" as the only value or the first in a dash separated list. Notice that only the 2nd list item is selected. The first list item has "1900" in its data attribute value, but it's after the dash.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>  
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">data-years</span>=<span class="hljs-string">"1800-1900"</span>&gt;</span>The 19th Century<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">data-years</span>=<span class="hljs-string">"1900-2000"</span>&gt;</span>The 20th Century<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">data-years</span>=<span class="hljs-string">"2000-2100"</span>&gt;</span>The 21st Century<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>&gt;</span>
         
-        &lt;h2&gt;Attribute Value Ends With &amp;mdash; [attribute$=&quot;value&quot;]&lt;/h2&gt;
-        &lt;p&gt;In the paragraph below we select the link with the href that ends with &quot;pdf&quot; and apply an icon as :after content.&lt;/p&gt;
-        &lt;p class=&quot;story&quot;&gt;A humble digital file becomes self-aware and starts conversations with web developers. &lt;i&gt;Read the fascinating account in &lt;a href=&quot;//s3-us-west-2.amazonaws.com/s.cdpn.io/652/example.pdf&quot;&gt;example.pdf&lt;/a&gt;&lt;/i&gt;&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Attribute Value Ends With <span class="hljs-symbol">&amp;mdash;</span> [attribute$="value"]<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>In the paragraph below we select the link with the href that ends with "pdf" and apply an icon as :after content.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"story"</span>&gt;</span>A humble digital file becomes self-aware and starts conversations with web developers. <span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>Read the fascinating account in <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"//s3-us-west-2.amazonaws.com/s.cdpn.io/652/example.pdf"</span>&gt;</span>example.pdf<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

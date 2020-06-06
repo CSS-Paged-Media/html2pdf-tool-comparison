@@ -17,28 +17,24 @@ description:
     <summary>
         View LANG Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/l/lang/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        q:before { content: open-quote; }
-q:after { content: close-quote; }
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/l/lang/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">q</span><span class="hljs-selector-pseudo">:before</span> { <span class="hljs-attribute">content</span>: open-quote; }
+<span class="hljs-selector-tag">q</span><span class="hljs-selector-pseudo">:after</span> { <span class="hljs-attribute">content</span>: close-quote; }
 
-:lang(en) q { quotes: '&ldquo;' '&rdquo;'; }
-:lang(fr) q { quotes: '&laquo;' '&raquo;'; }
-:lang(de) q { quotes: '&raquo;' '&laquo;'; }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;&lt;q&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/q&gt;&lt;/p&gt;
+<span class="hljs-selector-pseudo">:lang(en)</span> <span class="hljs-selector-tag">q</span> { <span class="hljs-attribute">quotes</span>: <span class="hljs-string">'“'</span> <span class="hljs-string">'”'</span>; }
+<span class="hljs-selector-pseudo">:lang(fr)</span> <span class="hljs-selector-tag">q</span> { <span class="hljs-attribute">quotes</span>: <span class="hljs-string">'«'</span> <span class="hljs-string">'»'</span>; }
+<span class="hljs-selector-pseudo">:lang(de)</span> <span class="hljs-selector-tag">q</span> { <span class="hljs-attribute">quotes</span>: <span class="hljs-string">'»'</span> <span class="hljs-string">'«'</span>; }
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">q</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">q</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -58,44 +54,40 @@ q:after { content: close-quote; }
     <summary>
         View LAST-CHILD Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/l/last-child/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  font-family: Palatino, Georgia, serif;
-  max-width: 32em;
-  padding: 1em 0 0 1em;
-  line-height: 1.4;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/l/last-child/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">font-family</span>: Palatino, Georgia, serif;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">32em</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.4</span>;
 }
 
-/* by formatting the selector this way, we are less specific than `article p:first-child`
- this means ANY element that is the first child of `article` can be styled */
-article :first-child {
-color: red;
+<span class="hljs-comment">/* by formatting the selector this way, we are less specific than `article p:first-child`
+ this means ANY element that is the first child of `article` can be styled */</span>
+<span class="hljs-selector-tag">article</span> <span class="hljs-selector-pseudo">:first-child</span> {
+<span class="hljs-attribute">color</span>: red;
 }
 
-p:last-child {
-  font-size: 0.75em;
-  font-style: italic;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-pseudo">:last-child</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">0.75em</span>;
+  <span class="hljs-attribute">font-style</span>: italic;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;article&gt;
-            &lt;p&gt;&quot;Very well, Sir Francis,&quot; replied Mr. Fogg; &quot;if he had been caught he would have been condemned and punished, and then would have quietly returned to Europe.  I don't see how this affair could have delayed his master.&quot;&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>"Very well, Sir Francis," replied Mr. Fogg; "if he had been caught he would have been condemned and punished, and then would have quietly returned to Europe.  I don't see how this affair could have delayed his master."<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           
-            &lt;p&gt;The conversation fell again.  During the night the train left the mountains behind, and passed Nassik, and the next day proceeded over the flat, well-cultivated country of the Khandeish, with its straggling villages, above which rose the minarets of the pagodas.&lt;/p&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The conversation fell again.  During the night the train left the mountains behind, and passed Nassik, and the next day proceeded over the flat, well-cultivated country of the Khandeish, with its straggling villages, above which rose the minarets of the pagodas.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
           
-            &lt;p&gt;Jules Verne was a French author who pioneered the genre of science fiction in the late nineteenth and early twentieth century. Follow him on Twitter.&lt;/p&gt;
-          &lt;/article&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Jules Verne was a French author who pioneered the genre of science fiction in the late nineteenth and early twentieth century. Follow him on Twitter.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -115,44 +107,40 @@ p:last-child {
     <summary>
         View LAST-OF-TYPE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/l/last-of-type/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  font-family: Palatino, Georgia, serif;
-  max-width: 32em;
-  padding: 1em 0 0 1em;
-  line-height: 1.4;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/l/last-of-type/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">font-family</span>: Palatino, Georgia, serif;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">32em</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.4</span>;
 }
 
-p:first-of-type {
-  font-size: 1.25em;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-pseudo">:first-of-type</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.25em</span>;
 }
 
-p:last-of-type {
-  font-size: 0.75em;
-  font-style: italic;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-pseudo">:last-of-type</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">0.75em</span>;
+  <span class="hljs-attribute">font-style</span>: italic;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Around the World in Eighty Days&lt;/h1&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Around the World in Eighty Days<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;p&gt;&quot;Very well, Sir Francis,&quot; replied Mr. Fogg; &quot;if he had been caught he would have been condemned and punished, and then would have quietly returned to Europe.  I don't see how this affair could have delayed his master.&quot;&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>"Very well, Sir Francis," replied Mr. Fogg; "if he had been caught he would have been condemned and punished, and then would have quietly returned to Europe.  I don't see how this affair could have delayed his master."<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p&gt;The conversation fell again.  During the night the train left the mountains behind, and passed Nassik, and the next day proceeded over the flat, well-cultivated country of the Khandeish, with its straggling villages, above which rose the minarets of the pagodas.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The conversation fell again.  During the night the train left the mountains behind, and passed Nassik, and the next day proceeded over the flat, well-cultivated country of the Khandeish, with its straggling villages, above which rose the minarets of the pagodas.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p&gt;Jules Verne was a French author who pioneered the genre of science fiction in the late nineteenth and early twentieth century. Follow him on Twitter.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Jules Verne was a French author who pioneered the genre of science fiction in the late nineteenth and early twentieth century. Follow him on Twitter.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
          
          
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -172,31 +160,27 @@ p:last-of-type {
     <summary>
         View LINK Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/l/link/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        :link {
-  color: aquamarine;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/l/link/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-pseudo">:link</span> {
+  <span class="hljs-attribute">color</span>: aquamarine;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;a href=&quot;https://css-tricks.com&quot;&gt;CSS-Tricks&lt;/a&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://css-tricks.com"</span>&gt;</span>CSS-Tricks<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
 
-        &lt;a href=&quot;&quot;&gt;CSS-Tricks&lt;/a&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">""</span>&gt;</span>CSS-Tricks<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
         
-        &lt;a href&gt;CSS-Tricks&lt;/a&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>&gt;</span>CSS-Tricks<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
 
-        &lt;div href=&quot;https://css-tricks.com&quot;&gt;CSS-Tricks&lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://css-tricks.com"</span>&gt;</span>CSS-Tricks<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

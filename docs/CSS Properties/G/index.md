@@ -17,59 +17,55 @@ description:
     <summary>
         View GRID-ROW-COLUMN Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/g/grid-row-column/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 10px;
-  background: #eee;
-  border: 1px solid #ccc;
-  padding: 10px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/g/grid-row-column/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.grid</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-built_in">repeat</span>(<span class="hljs-number">3</span>, <span class="hljs-number">1</span>fr);
+  <span class="hljs-attribute">grid-template-rows</span>: <span class="hljs-built_in">repeat</span>(<span class="hljs-number">3</span>, <span class="hljs-number">1</span>fr);
+  <span class="hljs-attribute">grid-gap</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#eee</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#ccc</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
 }
 
-.grid &gt; div {
-  min-height: 100px;
-  background: white;
-  display: grid;
-  place-items: center;
+<span class="hljs-selector-class">.grid</span> &gt; <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">background</span>: white;
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">place-items</span>: center;
 }
 
-.grid &gt; div::after {
-  content: attr(style);
-  white-space: pre-wrap;
+<span class="hljs-selector-class">.grid</span> &gt; <span class="hljs-selector-tag">div</span><span class="hljs-selector-pseudo">::after</span> {
+  <span class="hljs-attribute">content</span>: <span class="hljs-built_in">attr</span>(style);
+  <span class="hljs-attribute">white-space</span>: pre-wrap;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;grid&quot;&gt;
-            &lt;div style=&quot;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"grid"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"
               grid-column: 1 / 3;
               grid-row: 2 / 3;
-            &quot;&gt;
-            &lt;/div&gt;
-            &lt;div style=&quot;
+            "</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"
               grid-column: 3 / -1;
               grid-row: 1 / 2;
-            &quot;&gt;
-            &lt;/div&gt;
-            &lt;div style=&quot;
+            "</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"
               grid-column: 3 / 4;
               grid-row: 2 / 4;
-            &quot;&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+            "</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -89,81 +85,77 @@ description:
     <summary>
         View GRID-TEMPLATE-COLUMNS-ROWS Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-rows https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-columns --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: 100px 300px;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-rows https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-columns --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+<span class="hljs-selector-class">.grid-container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: auto auto auto auto;
+  <span class="hljs-attribute">grid-template-rows</span>: <span class="hljs-number">100px</span> <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">grid-gap</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#2196F3</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
 }
 
-.grid-container &gt; div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+<span class="hljs-selector-class">.grid-container</span> &gt; <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">rgba</span>(<span class="hljs-number">255</span>, <span class="hljs-number">255</span>, <span class="hljs-number">255</span>, <span class="hljs-number">0.8</span>);
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">30px</span>;
 }
 
-        .grid-container-col {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+        <span class="hljs-selector-class">.grid-container-col</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: auto auto auto auto;
+  <span class="hljs-attribute">grid-gap</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#2196F3</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
 }
 
-.grid-container-col &gt; div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+<span class="hljs-selector-class">.grid-container-col</span> &gt; <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">rgba</span>(<span class="hljs-number">255</span>, <span class="hljs-number">255</span>, <span class="hljs-number">255</span>, <span class="hljs-number">0.8</span>);
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">30px</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;The grid-template-rows Property&lt;/h1&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The grid-template-rows Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;p&gt;Use the &lt;em&gt;grid-template-rows&lt;/em&gt; property to define the size of the rows in a grid layout.&lt;/p&gt;
-        &lt;p&gt;The first row in this grid is 100px high, and the second row is 300px high:&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Use the <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>grid-template-rows<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> property to define the size of the rows in a grid layout.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The first row in this grid is 100px high, and the second row is 300px high:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;div class=&quot;grid-container&quot;&gt;
-          &lt;div class=&quot;item1&quot;&gt;1&lt;/div&gt;
-          &lt;div class=&quot;item2&quot;&gt;2&lt;/div&gt;
-          &lt;div class=&quot;item3&quot;&gt;3&lt;/div&gt;  
-          &lt;div class=&quot;item4&quot;&gt;4&lt;/div&gt;
-          &lt;div class=&quot;item5&quot;&gt;5&lt;/div&gt;
-          &lt;div class=&quot;item6&quot;&gt;6&lt;/div&gt;
-          &lt;div class=&quot;item7&quot;&gt;7&lt;/div&gt;
-          &lt;div class=&quot;item8&quot;&gt;8&lt;/div&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"grid-container"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item1"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item2"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item3"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>  
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item4"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item5"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item6"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item7"</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item8"</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-        &lt;h1&gt;The grid-template-columns Property&lt;/h1&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The grid-template-columns Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;p&gt;Use the &lt;em&gt;grid-template-columns&lt;/em&gt; property to define the number of columns in the grid layout.&lt;/p&gt;
-        &lt;p&gt;This grid layout has four columns:&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Use the <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>grid-template-columns<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> property to define the number of columns in the grid layout.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This grid layout has four columns:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;div class=&quot;grid-container-col&quot;&gt;
-          &lt;div class=&quot;item1&quot;&gt;1&lt;/div&gt;
-          &lt;div class=&quot;item2&quot;&gt;2&lt;/div&gt;
-          &lt;div class=&quot;item3&quot;&gt;3&lt;/div&gt;  
-          &lt;div class=&quot;item4&quot;&gt;4&lt;/div&gt;
-          &lt;div class=&quot;item5&quot;&gt;5&lt;/div&gt;
-          &lt;div class=&quot;item6&quot;&gt;6&lt;/div&gt;
-          &lt;div class=&quot;item7&quot;&gt;7&lt;/div&gt;
-          &lt;div class=&quot;item8&quot;&gt;8&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"grid-container-col"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item1"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item2"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item3"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>  
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item4"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item5"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item6"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item7"</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item8"</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

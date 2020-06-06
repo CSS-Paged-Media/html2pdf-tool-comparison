@@ -17,28 +17,24 @@ description:
     <summary>
         View PADDING Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/p/padding/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .box {
-  margin: 0 auto;
-  background-color: aquamarine;
-  width: 400px; 
-  height: 400px;
-  padding: 20px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/p/padding/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> auto;
+  <span class="hljs-attribute">background-color</span>: aquamarine;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">400px</span>; 
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;box&quot;&gt;The width of this box is 440px, even though it is defined at 400px in the CSS.&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box"</span>&gt;</span>The width of this box is 440px, even though it is defined at 400px in the CSS.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -58,210 +54,206 @@ description:
     <summary>
         View PERSPECTIVE-ORIGIN Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/p/perspective-origin/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .wrapper {
-  width: 30%;
-  display: inline-block;
-  padding-bottom: 1em;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/p/perspective-origin/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.wrapper</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">30%</span>;
+  <span class="hljs-attribute">display</span>: inline-block;
+  <span class="hljs-attribute">padding-bottom</span>: <span class="hljs-number">1em</span>;
 }
 
-.wrapper h1 {
-  text-align: center;
-  font-size: 1.5em;
+<span class="hljs-selector-class">.wrapper</span> <span class="hljs-selector-tag">h1</span> {
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.5em</span>;
 }
 
-.cube {
-  font-size: 2em;
-  width: 2em;
-  height: 2em;
-  margin: .5em auto;
-  transform-style: preserve-3d;
-  perspective: 250px;
+<span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">margin</span>: .<span class="hljs-number">5em</span> auto;
+  <span class="hljs-attribute">transform-style</span>: preserve-<span class="hljs-number">3</span>d;
+  <span class="hljs-attribute">perspective</span>: <span class="hljs-number">250px</span>;
 }
 
-.w1 .cube {
-  perspective-origin: top left;
+<span class="hljs-selector-class">.w1</span> <span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">perspective-origin</span>: top left;
 }
 
-.w2 .cube {
-  perspective-origin: top;
+<span class="hljs-selector-class">.w2</span> <span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">perspective-origin</span>: top;
 }
 
-.w3 .cube {
-  perspective-origin: top right;
+<span class="hljs-selector-class">.w3</span> <span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">perspective-origin</span>: top right;
 }
 
-.w4 .cube {
-  perspective-origin: left;
+<span class="hljs-selector-class">.w4</span> <span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">perspective-origin</span>: left;
 }
 
-.w5 .cube {
-  perspective-origin: center;
+<span class="hljs-selector-class">.w5</span> <span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">perspective-origin</span>: center;
 }
 
-.w6 .cube {
-  perspective-origin: right;
+<span class="hljs-selector-class">.w6</span> <span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">perspective-origin</span>: right;
 }
 
-.w7 .cube {
-  perspective-origin: bottom left;
+<span class="hljs-selector-class">.w7</span> <span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">perspective-origin</span>: bottom left;
 }
 
-.w8 .cube {
-  perspective-origin: bottom;
+<span class="hljs-selector-class">.w8</span> <span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">perspective-origin</span>: bottom;
 }
 
-.w9 .cube {
-  perspective-origin: bottom right;
+<span class="hljs-selector-class">.w9</span> <span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">perspective-origin</span>: bottom right;
 }
 
-.side {
-  position: absolute;
-  width: 2em;
-  height: 2em;
-  background: rgba(255, 99, 71, 0.6);
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  color: white;
-  text-align: center;
-  line-height: 2em;
+<span class="hljs-selector-class">.side</span> {
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">rgba</span>(<span class="hljs-number">255</span>, <span class="hljs-number">99</span>, <span class="hljs-number">71</span>, <span class="hljs-number">0.6</span>);
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.5</span>);
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">2em</span>;
 }
 
-.front {
-  transform: translateZ(1em);
+<span class="hljs-selector-class">.front</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.top {
-  transform: rotateX(90deg) translateZ(1em);
+<span class="hljs-selector-class">.top</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateX</span>(<span class="hljs-number">90deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.right {
-  transform: rotateY(90deg) translateZ(1em);
+<span class="hljs-selector-class">.right</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateY</span>(<span class="hljs-number">90deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.left {
-  transform: rotateY(-90deg) translateZ(1em);
+<span class="hljs-selector-class">.left</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateY</span>(-<span class="hljs-number">90deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.bottom {
-  transform: rotateX(-90deg) translateZ(1em);
+<span class="hljs-selector-class">.bottom</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateX</span>(-<span class="hljs-number">90deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.back {
-  transform: rotateY(-180deg) translateZ(1em);
+<span class="hljs-selector-class">.back</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateY</span>(-<span class="hljs-number">180deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;wrapper w1&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;top left&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;wrapper w2&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;top&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;wrapper w3&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;top right&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;wrapper w4&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;left&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;wrapper w5&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;center&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;wrapper w6&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;right&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;wrapper w7&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;bottom left&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;wrapper w8&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;bottom&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;wrapper w9&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;bottom right&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w1"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>top left<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w2"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>top<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w3"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>top right<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w4"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>left<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w5"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>center<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w6"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>right<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w7"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>bottom left<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w8"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>bottom<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w9"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>bottom right<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -281,102 +273,98 @@ description:
     <summary>
         View PERSPECTIVE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/p/perspective/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .wrapper {
-  width: 50%;
-  float: left;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/p/perspective/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.wrapper</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">float</span>: left;
 }
 
-.w1 {
-  perspective: 1000px;
+<span class="hljs-selector-class">.w1</span> {
+  <span class="hljs-attribute">perspective</span>: <span class="hljs-number">1000px</span>;
 }
 
-.w2 {
-  perspective: 250px;
+<span class="hljs-selector-class">.w2</span> {
+  <span class="hljs-attribute">perspective</span>: <span class="hljs-number">250px</span>;
 }
 
-.wrapper h1 {
-  text-align: center;
+<span class="hljs-selector-class">.wrapper</span> <span class="hljs-selector-tag">h1</span> {
+  <span class="hljs-attribute">text-align</span>: center;
 }
 
-.cube {
-  font-size: 4em;
-  width: 2em;
-  margin: 1.5em auto;
-  transform-style: preserve-3d;
-  transform: rotateX(-40deg) rotateY(32deg);
+<span class="hljs-selector-class">.cube</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">4em</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">1.5em</span> auto;
+  <span class="hljs-attribute">transform-style</span>: preserve-<span class="hljs-number">3</span>d;
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateX</span>(-<span class="hljs-number">40deg</span>) <span class="hljs-built_in">rotateY</span>(<span class="hljs-number">32deg</span>);
 }
 
-.side {
-  position: absolute;
-  width: 2em;
-  height: 2em;
-  background: rgba(255, 99, 71, 0.6);
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  color: white;
-  text-align: center;
-  line-height: 2em;
+<span class="hljs-selector-class">.side</span> {
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">rgba</span>(<span class="hljs-number">255</span>, <span class="hljs-number">99</span>, <span class="hljs-number">71</span>, <span class="hljs-number">0.6</span>);
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.5</span>);
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">2em</span>;
 }
 
-.front {
-  transform: translateZ(1em);
+<span class="hljs-selector-class">.front</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.top {
-  transform: rotateX(90deg) translateZ(1em);
+<span class="hljs-selector-class">.top</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateX</span>(<span class="hljs-number">90deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.right {
-  transform: rotateY(90deg) translateZ(1em);
+<span class="hljs-selector-class">.right</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateY</span>(<span class="hljs-number">90deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.left {
-  transform: rotateY(-90deg) translateZ(1em);
+<span class="hljs-selector-class">.left</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateY</span>(-<span class="hljs-number">90deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.bottom {
-  transform: rotateX(-90deg) translateZ(1em);
+<span class="hljs-selector-class">.bottom</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateX</span>(-<span class="hljs-number">90deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-.back {
-  transform: rotateY(-180deg) translateZ(1em);
+<span class="hljs-selector-class">.back</span> {
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateY</span>(-<span class="hljs-number">180deg</span>) <span class="hljs-built_in">translateZ</span>(<span class="hljs-number">1em</span>);
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;wrapper w1&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;perspective: 1000px&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;wrapper w2&quot;&gt;
-            &lt;h1&gt;&lt;code&gt;perspective: 250px&lt;/code&gt;&lt;/h1&gt;
-            &lt;div class=&quot;cube&quot;&gt;
-              &lt;div class=&quot;side  front&quot;&gt;1&lt;/div&gt;
-              &lt;div class=&quot;side   back&quot;&gt;6&lt;/div&gt;
-              &lt;div class=&quot;side  right&quot;&gt;4&lt;/div&gt;
-              &lt;div class=&quot;side   left&quot;&gt;3&lt;/div&gt;
-              &lt;div class=&quot;side    top&quot;&gt;5&lt;/div&gt;
-              &lt;div class=&quot;side bottom&quot;&gt;2&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w1"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>perspective: 1000px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper w2"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>perspective: 250px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cube"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  front"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   back"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side  right"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side   left"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side    top"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"side bottom"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -396,42 +384,38 @@ description:
     <summary>
         View POSITION Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div.relative {
-  position: relative;
-  width: 400px;
-  height: 200px;
-  border: 3px solid #73AD21;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.relative</span> {
+  <span class="hljs-attribute">position</span>: relative;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">3px</span> solid <span class="hljs-number">#73AD21</span>;
 } 
 
-div.absolute {
-  position: absolute;
-  top: 80px;
-  right: 0;
-  width: 200px;
-  height: 100px;
-  border: 3px solid #73AD21;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.absolute</span> {
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">80px</span>;
+  <span class="hljs-attribute">right</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">200px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">3px</span> solid <span class="hljs-number">#73AD21</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;position: absolute;&lt;/h2&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>position: absolute;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-        &lt;p&gt;An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;div class=&quot;relative&quot;&gt;This div element has position: relative;
-          &lt;div class=&quot;absolute&quot;&gt;This div element has position: absolute;&lt;/div&gt;
-        &lt;/div&gt; 
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"relative"</span>&gt;</span>This div element has position: relative;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"absolute"</span>&gt;</span>This div element has position: absolute;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span> 
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

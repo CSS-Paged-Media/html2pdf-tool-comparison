@@ -17,58 +17,54 @@ description:
     <summary>
         View LEFT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/t/top-right-bottom-left/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  padding: 40px 0;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/t/top-right-bottom-left/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">40px</span> <span class="hljs-number">0</span>;
 }
 
-.box {
-  width: 10rem;
-  height: 10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: Silver;
-  position: relative;
+<span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">10rem</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">10rem</span>;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">align-items</span>: center;
+  <span class="hljs-attribute">background-color</span>: Silver;
+  <span class="hljs-attribute">position</span>: relative;
 }
 
-.box--positive {
-  left: 50px;
+<span class="hljs-selector-class">.box--positive</span> {
+  <span class="hljs-attribute">left</span>: <span class="hljs-number">50px</span>;
 }
 
-.box--negative {
-  left: -50px;
+<span class="hljs-selector-class">.box--negative</span> {
+  <span class="hljs-attribute">left</span>: -<span class="hljs-number">50px</span>;
 }
 
-.outline {
-  display: inline-block;
-  border: 2px dashed black;
-  margin: 40px 0 0 40px;
+<span class="hljs-selector-class">.outline</span> {
+  <span class="hljs-attribute">display</span>: inline-block;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> dashed black;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">40px</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;outline&quot;&gt;
-            &lt;div class=&quot;box box--positive&quot;&gt;
-              &lt;pre&gt;positive&lt;/pre&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"outline"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box--positive"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span>positive<span class="hljs-tag">&lt;/<span class="hljs-name">pre</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;outline&quot;&gt;
-            &lt;div class=&quot;box box--negative&quot;&gt;
-              &lt;pre&gt;negative&lt;/pre&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"outline"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box--negative"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span>negative<span class="hljs-tag">&lt;/<span class="hljs-name">pre</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -88,31 +84,27 @@ description:
     <summary>
         View LETTER-SPACING Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/l/letter-spacing/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .loose {
-  letter-spacing: 2px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/l/letter-spacing/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.loose</span> {
+  <span class="hljs-attribute">letter-spacing</span>: <span class="hljs-number">2px</span>;
 }
-.tight {
-  letter-spacing: -1px;
+<span class="hljs-selector-class">.tight</span> {
+  <span class="hljs-attribute">letter-spacing</span>: -<span class="hljs-number">1px</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;This type has no additional letter-spacing applied.&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This type has no additional letter-spacing applied.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-        &lt;p class=&quot;loose&quot;&gt;This type is letter-spaced loosely at &lt;code&gt;2px&lt;/code&gt;.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"loose"</span>&gt;</span>This type is letter-spaced loosely at <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>2px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;tight&quot;&gt;This type is letter-spaced tightly at &lt;code&gt;-1px&lt;/code&gt;&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tight"</span>&gt;</span>This type is letter-spaced tightly at <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>-1px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -132,46 +124,42 @@ description:
     <summary>
         View LINE-HEIGHT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/l/line-height/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  line-height: 1;
-  font-size: 20px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/l/line-height/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;
 }
 
-p {
-  margin: 20px auto;
-  max-width: 600px;
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">20px</span> auto;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">600px</span>;
 }
 
-.p1 {
-  line-height: 150%;
+<span class="hljs-selector-class">.p1</span> {
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">150%</span>;
 }
 
-.p2 {
-  line-height: 200%;
+<span class="hljs-selector-class">.p2</span> {
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">200%</span>;
 }
 
-.p3 {
-  line-height: 250%;
+<span class="hljs-selector-class">.p3</span> {
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">250%</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p class=&quot;p1&quot;&gt;&lt;strong&gt;Paragraph 1:&lt;/strong&gt; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"p1"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Paragraph 1:<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-        &lt;p class=&quot;p2&quot;&gt;&lt;strong&gt;Paragraph 2:&lt;/strong&gt; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"p2"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Paragraph 2:<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;p3&quot;&gt;&lt;strong&gt;Paragraph 3:&lt;/strong&gt; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"p3"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Paragraph 3:<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -191,168 +179,164 @@ p {
     <summary>
         View LIST-STYLE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/l/list-style/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        ul:nth-of-type(1) {
-  list-style-type: disc;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/l/list-style/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(1)</span> {
+  <span class="hljs-attribute">list-style-type</span>: disc;
 }
 
-ul:nth-of-type(2) {
-  list-style-type: circle;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(2)</span> {
+  <span class="hljs-attribute">list-style-type</span>: circle;
 }
 
-ul:nth-of-type(3) {
-  list-style-type: square;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(3)</span> {
+  <span class="hljs-attribute">list-style-type</span>: square;
 }
 
-ul:nth-of-type(4) {
-  list-style-type: decimal;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(4)</span> {
+  <span class="hljs-attribute">list-style-type</span>: decimal;
 }
 
-ul:nth-of-type(5) {
-  list-style-type: decimal-leading-zero;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(5)</span> {
+  <span class="hljs-attribute">list-style-type</span>: decimal-leading-zero;
 }
 
-ul:nth-of-type(6) {
-  list-style-type: lower-roman;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(6)</span> {
+  <span class="hljs-attribute">list-style-type</span>: lower-roman;
 }
 
-ul:nth-of-type(7) {
-  list-style-type: upper-roman;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(7)</span> {
+  <span class="hljs-attribute">list-style-type</span>: upper-roman;
 }
 
-ul:nth-of-type(8) {
-  list-style-type: lower-greek;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(8)</span> {
+  <span class="hljs-attribute">list-style-type</span>: lower-greek;
 }
 
-ul:nth-of-type(9) {
-  list-style-type: lower-latin;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(9)</span> {
+  <span class="hljs-attribute">list-style-type</span>: lower-latin;
 }
 
-ul:nth-of-type(10) {
-  list-style-type: upper-latin;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(10)</span> {
+  <span class="hljs-attribute">list-style-type</span>: upper-latin;
 }
 
-ul:nth-of-type(11) {
-  list-style-type: armenian;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(11)</span> {
+  <span class="hljs-attribute">list-style-type</span>: armenian;
 }
 
-ul:nth-of-type(12) {
-  list-style-type: georgian;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(12)</span> {
+  <span class="hljs-attribute">list-style-type</span>: georgian;
 }
 
-ul:nth-of-type(13) {
-  list-style-type: lower-alpha;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(13)</span> {
+  <span class="hljs-attribute">list-style-type</span>: lower-alpha;
 }
 
-ul:nth-of-type(14) {
-  list-style-type: upper-alpha;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(14)</span> {
+  <span class="hljs-attribute">list-style-type</span>: upper-alpha;
 }
 
-ul:nth-of-type(15) {
-  list-style-type: none;
+<span class="hljs-selector-tag">ul</span><span class="hljs-selector-pseudo">:nth-of-type(15)</span> {
+  <span class="hljs-attribute">list-style-type</span>: none;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;
-            &lt;li&gt;Item&lt;/li&gt;  
-          &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

@@ -17,31 +17,27 @@ description:
     <summary>
         View ONLY-CHILD Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/o/only-child/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div p:only-child {
-  color: red;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/o/only-child/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span> <span class="hljs-selector-tag">p</span><span class="hljs-selector-pseudo">:only-child</span> {
+  <span class="hljs-attribute">color</span>: red;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div&gt;
-            &lt;p&gt;This paragraph is the only child of its parent&lt;/p&gt;
-          &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is the only child of its parent<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
            
-          &lt;div&gt;
-            &lt;p&gt;This paragraph is the first child of its parent&lt;/p&gt;
-            &lt;p&gt;This paragraph is the second child of its parent&lt;/p&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is the first child of its parent<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is the second child of its parent<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -61,38 +57,34 @@ description:
     <summary>
         View ONLY-OF-TYPE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/o/only-of-type/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        ul {
-  border: 1px solid #ccc;
-  margin: 20px;
-  padding: 10px 10px 10px 30px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/o/only-of-type/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">ul</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#ccc</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span> <span class="hljs-number">10px</span> <span class="hljs-number">10px</span> <span class="hljs-number">30px</span>;
 }
 
-li:only-of-type {
-  color: red;
+<span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:only-of-type</span> {
+  <span class="hljs-attribute">color</span>: red;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul&gt;
-            &lt;li&gt;I'm all alone!&lt;/li&gt;
-          &lt;/ul&gt;  
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>I'm all alone!<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>  
           
-          &lt;ul&gt;
-            &lt;li&gt;We are together.&lt;/li&gt;
-            &lt;li&gt;We are together.&lt;/li&gt;
-            &lt;li&gt;We are together.&lt;/li&gt;
-          &lt;/ul&gt;  
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>We are together.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>We are together.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>We are together.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>  
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -112,109 +104,105 @@ li:only-of-type {
     <summary>
         View OPTIONAL Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/o/optional/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/o/optional/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
         * {
-  box-sizing: border-box;
+  <span class="hljs-attribute">box-sizing</span>: border-box;
 }
 
-:optional {
-  opacity: 0.4;
-  transition: .2s;
+<span class="hljs-selector-pseudo">:optional</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.4</span>;
+  <span class="hljs-attribute">transition</span>: .<span class="hljs-number">2s</span>;
 }
 
-:optional:hover {
-  opacity: 1;
+<span class="hljs-selector-pseudo">:optional</span><span class="hljs-selector-pseudo">:hover</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">1</span>;
 }
 
-form {
-  width: 100%;
-  max-width: 400px;
-  margin: 20px auto;
-  background: #EFEFEF;
-  padding: 1em;
+<span class="hljs-selector-tag">form</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">20px</span> auto;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#EFEFEF</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span>;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-  color: #666;
+<span class="hljs-selector-tag">label</span> {
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#666</span>;
 }
 
-.inline {
-  display: inline;
-  margin-right: 1em;
+<span class="hljs-selector-class">.inline</span> {
+  <span class="hljs-attribute">display</span>: inline;
+  <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">1em</span>;
 }
 
-input[type=&quot;text&quot;] {
-  padding: 5px;
-  width: 100%;
-  border: 1px solid silver;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=<span class="hljs-string">"text"</span>]</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid silver;
 }
 
-input[type=submit] {
-  background: deepskyblue;
-  color: white;
-  padding:10px 0;
-  border-color: rgba(0,0,0,.1);
-  font-weight: bold;
-  opacity: 1;
-  width: 100%;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=submit]</span> {
+  <span class="hljs-attribute">background</span>: deepskyblue;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">padding</span>:<span class="hljs-number">10px</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">border-color</span>: <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,.<span class="hljs-number">1</span>);
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
 }
 
-select {
-  width: 100%;
-  border: 1px solid silver;
-  padding: 5px;
+<span class="hljs-selector-tag">select</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid silver;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
 }
 
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+<span class="hljs-keyword">@import</span> url(<span class="hljs-attribute">http:</span>//weloveiconfonts.com/api/?family=fontawesome);
 
-/* fontawesome */
-[class*=&quot;fontawesome-&quot;]:before {
-  font-family: 'FontAwesome', sans-serif;
+<span class="hljs-comment">/* fontawesome */</span>
+<span class="hljs-selector-attr">[class*=<span class="hljs-string">"fontawesome-"</span>]</span><span class="hljs-selector-pseudo">:before</span> {
+  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">'FontAwesome'</span>, sans-serif;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;form&gt;
-            &lt;p&gt;
-              &lt;label for=&quot;first-name&quot;&gt;&lt;span class=&quot;fontawesome-user&quot;&gt;&lt;/span&gt; Name&lt;/label&gt;
-              &lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;John Doe&quot; /&gt;
-            &lt;/p&gt;
-            &lt;p&gt;
-              &lt;label for=&quot;email&quot;&gt;&lt;span class=&quot;fontawesome-envelope&quot;&gt;&lt;/span&gt; Email&lt;/label&gt;
-              &lt;input type=&quot;text&quot; id=&quot;email&quot; placeholder=&quot;john.doe@gmail.com&quot; required /&gt;
-            &lt;/p&gt;
-            &lt;p&gt;
-              &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;man&quot; /&gt; &lt;label class=&quot;inline&quot; for=&quot;man&quot;&gt;Man&lt;/label&gt;
-              &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;woman&quot; /&gt; &lt;label class=&quot;inline&quot; for=&quot;woman&quot;&gt;Woman&lt;/label&gt;
-            &lt;/p&gt;
-            &lt;p&gt;
-              &lt;label for=&quot;continent&quot;&gt;&lt;span class=&quot;fontawesome-globe&quot;&gt;&lt;/span&gt; Continent&lt;/label&gt;
-              &lt;select id=&quot;continent&quot;&gt;
-                &lt;option value=&quot;0&quot;&gt;Continent&lt;/option&gt;
-                &lt;option value=&quot;1&quot;&gt;North America&lt;/option&gt;
-                &lt;option value=&quot;2&quot;&gt;South America&lt;/option&gt;
-                &lt;option value=&quot;3&quot;&gt;Europe&lt;/option&gt;
-                &lt;option value=&quot;4&quot;&gt;Africa&lt;/option&gt;
-                &lt;option value=&quot;5&quot;&gt;Asia&lt;/option&gt;
-                &lt;option value=&quot;6&quot;&gt;Oceania&lt;/option&gt;
-              &lt;/select&gt;
-            &lt;/p&gt;
-            &lt;p&gt;
-              &lt;input type=&quot;submit&quot; value=&quot;Sign up&quot; /&gt;
-            &lt;/p&gt;
-          &lt;/form&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">form</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"first-name"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fontawesome-user"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> Name<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"name"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"John Doe"</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"email"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fontawesome-envelope"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> Email<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"email"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"john.doe@gmail.com"</span> <span class="hljs-attr">required</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"gender"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"man"</span> /&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"inline"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"man"</span>&gt;</span>Man<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"gender"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"woman"</span> /&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"inline"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"woman"</span>&gt;</span>Woman<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"continent"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fontawesome-globe"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> Continent<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">select</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"continent"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"0"</span>&gt;</span>Continent<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"1"</span>&gt;</span>North America<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"2"</span>&gt;</span>South America<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"3"</span>&gt;</span>Europe<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"4"</span>&gt;</span>Africa<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"5"</span>&gt;</span>Asia<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"6"</span>&gt;</span>Oceania<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">select</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"Sign up"</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -234,24 +222,20 @@ select {
     <summary>
         View OUT-OF-RANGE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/o/out-of-range/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        input:out-of-range {
-  border: 5px solid red;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/o/out-of-range/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:out-of-range</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid red;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;input type=&quot;number&quot; min=&quot;5&quot; max=&quot;10&quot;&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"number"</span> <span class="hljs-attr">min</span>=<span class="hljs-string">"5"</span> <span class="hljs-attr">max</span>=<span class="hljs-string">"10"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

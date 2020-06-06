@@ -17,30 +17,26 @@ description:
     <summary>
         View CHECKED Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/c/checked/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        input[type=checkbox] + label {
-  color: #ccc;
-  font-style: italic;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/c/checked/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=checkbox]</span> + <span class="hljs-selector-tag">label</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#ccc</span>;
+  <span class="hljs-attribute">font-style</span>: italic;
 } 
-input[type=checkbox]:checked + label {
-  color: #f00;
-  font-style: normal;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=checkbox]</span><span class="hljs-selector-pseudo">:checked</span> + <span class="hljs-selector-tag">label</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#f00</span>;
+  <span class="hljs-attribute">font-style</span>: normal;
 } 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;input type=&quot;checkbox&quot; id=&quot;ossm&quot; name=&quot;ossm&quot;&gt; 
-        &lt;label for=&quot;ossm&quot;&gt;CSS is Awesome&lt;/label&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"ossm"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"ossm"</span>&gt;</span> 
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"ossm"</span>&gt;</span>CSS is Awesome<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -60,32 +56,28 @@ input[type=checkbox]:checked + label {
     <summary>
         View CHILD Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/c/child/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        ol &gt; li {
-  color: red;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/c/child/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">ol</span> &gt; <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">color</span>: red;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ol&gt;
-            &lt;li&gt;Numbered list item 1&lt;/li&gt;
-            &lt;li&gt;Numbered list item 2&lt;/li&gt;
-            &lt;ul&gt;
-              &lt;li&gt;List item 1&lt;/li&gt;
-              &lt;li&gt;List item 2&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;li&gt;Numbered list item 3&lt;/li&gt;
-          &lt;/ol&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Numbered list item 1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Numbered list item 2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>List item 1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>List item 2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Numbered list item 3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -105,52 +97,48 @@ input[type=checkbox]:checked + label {
     <summary>
         View CLASS Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/c/class/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        /*CSS for elements with the .intro class */
-.intro {
-  font-family: sans-serif;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/c/class/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-comment">/*CSS for elements with the .intro class */</span>
+<span class="hljs-selector-class">.intro</span> {
+  <span class="hljs-attribute">font-family</span>: sans-serif;
 }
 
-/*CSS for elements with the .blue class */
-.blue {
-  background-color: #799FE5;
+<span class="hljs-comment">/*CSS for elements with the .blue class */</span>
+<span class="hljs-selector-class">.blue</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#799FE5</span>;
 }
 
-/*CSS for elements with both the intro and blue classes */
-.intro.blue {
-  padding: 1em;
-  font-size: 1.3em;
+<span class="hljs-comment">/*CSS for elements with both the intro and blue classes */</span>
+<span class="hljs-selector-class">.intro</span><span class="hljs-selector-class">.blue</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.3em</span>;
 }
 
-/* this is just to keep the demo area small */
-section {
-width: 50%;
+<span class="hljs-comment">/* this is just to keep the demo area small */</span>
+<span class="hljs-selector-tag">section</span> {
+<span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;section&gt;
-            &lt;p class=&quot;intro blue&quot;&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"intro blue"</span>&gt;</span>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nulla nunc. Quisque mi, varius ac suscipit a, bibendum ut tellus. Morbi mollis diam vel libero vestibulum, at congue turpis imperdiet.
-            &lt;/p&gt;
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
             
-            &lt;p class=&quot;intro&quot;&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"intro"</span>&gt;</span>
               Donec vestibulum convallis mauris a eleifend. Duis a turpis et sapien maximus rhoncus. Morbi at nunc ultricies, rutrum velit et, porta magna. Nunc non leo mattis, mollis mauris eu, facilisis est. Vestibulum viverra urna efficitur bibendum consectetur. Phasellus aliquet ac tellus quis tristique. Fusce fermentum venenatis dolor, id ultrices tellus condimentum vel. Donec elementum in purus vitae tristique. Etiam luctus lorem non nibh pretium volutpat a at libero.
-            &lt;/p&gt;
-            &lt;/div&gt;
-            &lt;/section&gt;
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
             
             
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

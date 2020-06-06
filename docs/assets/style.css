@@ -186,7 +186,8 @@ h1{
 }
 
 h2{
-    font-size:2.5vw
+    font-size:2.5vw;
+    margin-top:4rem;
 }
 
 footer{

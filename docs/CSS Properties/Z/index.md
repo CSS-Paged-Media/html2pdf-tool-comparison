@@ -17,33 +17,29 @@ description:
     <summary>
         View Z-INDEX Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/pr_pos_z-index.asp --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        img {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/pr_pos_z-index.asp --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">img</span> {
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">left</span>: <span class="hljs-number">0px</span>;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">0px</span>;
+  <span class="hljs-attribute">z-index</span>: -<span class="hljs-number">1</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-&lt;h1&gt;The z-index Property&lt;/h1&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The z-index Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-&lt;img src=&quot;https://www.w3schools.com/cssref/w3css.gif&quot; width=&quot;100&quot; height=&quot;140&quot;&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://www.w3schools.com/cssref/w3css.gif"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"100"</span> <span class="hljs-attr">height</span>=<span class="hljs-string">"140"</span>&gt;</span>
 
-&lt;p&gt;Because the image has a z-index of -1, it will be placed behind the heading.&lt;/p&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Because the image has a z-index of -1, it will be placed behind the heading.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -63,33 +59,29 @@ description:
     <summary>
         View ZOOM Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/z/zoom/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        img:nth-child(2) {
-  zoom: 150%;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/z/zoom/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">img</span><span class="hljs-selector-pseudo">:nth-child(2)</span> {
+  <span class="hljs-attribute">zoom</span>: <span class="hljs-number">150%</span>;
 }
-img:nth-child(3) {
-  zoom: 1.8;
+<span class="hljs-selector-tag">img</span><span class="hljs-selector-pseudo">:nth-child(3)</span> {
+  <span class="hljs-attribute">zoom</span>: <span class="hljs-number">1.8</span>;
 }
-img:nth-child(4) {
-  zoom: 0.2;
+<span class="hljs-selector-tag">img</span><span class="hljs-selector-pseudo">:nth-child(4)</span> {
+  <span class="hljs-attribute">zoom</span>: <span class="hljs-number">0.2</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;img src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/wisconsin.svg&quot;&gt;
-        &lt;img src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/wisconsin.svg&quot;&gt;
-        &lt;img src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/wisconsin.svg&quot;&gt;
-        &lt;img src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/wisconsin.svg&quot;&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/wisconsin.svg"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/wisconsin.svg"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/wisconsin.svg"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/wisconsin.svg"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

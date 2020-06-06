@@ -17,55 +17,51 @@ description:
     <summary>
         View PLACEHOLDER-SHOWN Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/p/placeholder-shown/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        input {
-  font-size: 1.5rem;
-  margin: 10px;
-  padding: 10px;
-  width: 65%;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/p/placeholder-shown/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">input</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.5rem</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">65%</span>;
 }
-input:placeholder-shown {
-  border: 5px solid red;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:placeholder-shown</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid red;
 }
 
 
 
-html, body {
-  background: #333;
+<span class="hljs-selector-tag">html</span>, <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#333</span>;
 }
 
-body {
-  padding-top: 4em;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">padding-top</span>: <span class="hljs-number">4em</span>;
 }
 
-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+<span class="hljs-selector-tag">form</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">align-items</span>: center;
+  <span class="hljs-attribute">flex-direction</span>: column;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;form&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">form</span>&gt;</span>
   
-            &lt;input type=&quot;text&quot; placeholder=&quot;Placeholder text&quot; value=&quot;Currently has a value (not showing placeholder).&quot;&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Placeholder text"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"Currently has a value (not showing placeholder)."</span>&gt;</span>
             
-            &lt;input type=&quot;text&quot; placeholder=&quot;Currently has no value (showing placeholder).&quot;&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Currently has no value (showing placeholder)."</span>&gt;</span>
             
-          &lt;/form&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
             
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -85,60 +81,56 @@ form {
     <summary>
         View PLACEHOLDER Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/p/placeholder/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        label {
-  display: block;
-  color: white;
-  margin: 0 0 4px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/p/placeholder/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">label</span> {
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">4px</span>;
 }
-input {
-  border: #000;
-  padding: 10px;
-  font-size: 1.2em;
-  width: 100%;
+<span class="hljs-selector-tag">input</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">#000</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.2em</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
 }
-input::placeholder {
-  color: red;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">::placeholder</span> {
+  <span class="hljs-attribute">color</span>: red;
 }
-label, input {
-  font-family: sans-serif;
+<span class="hljs-selector-tag">label</span>, <span class="hljs-selector-tag">input</span> {
+  <span class="hljs-attribute">font-family</span>: sans-serif;
 }
-form {
-  width: 65%;
+<span class="hljs-selector-tag">form</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">65%</span>;
 }
 
-body {
-  background: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#333</span>;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">align-items</span>: center;
 }
 * {
-  box-sizing: border-box;
+  <span class="hljs-attribute">box-sizing</span>: border-box;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;form action=&quot;&quot;&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">""</span>&gt;</span>
   
-            &lt;div&gt;
-              &lt;label for=&quot;school&quot;&gt;School Name:&lt;/label&gt;
-              &lt;input id=&quot;school&quot; name=&quot;schoo&quot; type=&quot;text&quot; placeholder=&quot;Cherry River Middle School&quot;&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"school"</span>&gt;</span>School Name:<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"school"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"schoo"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Cherry River Middle School"</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
             
             
-          &lt;/form&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

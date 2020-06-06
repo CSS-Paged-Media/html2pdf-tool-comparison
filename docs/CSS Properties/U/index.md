@@ -17,29 +17,25 @@ description:
     <summary>
         View UNICODE-BIDI Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/d/direction/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        *[dir=&quot;ltr&quot;] { direction: ltr; unicode-bidi: embed; }
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/d/direction/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        *<span class="hljs-selector-attr">[dir=<span class="hljs-string">"ltr"</span>]</span> { <span class="hljs-attribute">direction</span>: ltr; <span class="hljs-attribute">unicode-bidi</span>: embed; }
 
-*[dir=&quot;rtl&quot;] { direction: rtl; unicode-bidi: embed; }
+*<span class="hljs-selector-attr">[dir=<span class="hljs-string">"rtl"</span>]</span> { <span class="hljs-attribute">direction</span>: rtl; <span class="hljs-attribute">unicode-bidi</span>: embed; }
 
-bdo[dir=&quot;ltr&quot;] { direction: ltr; unicode-bidi: bidi-override; }
+<span class="hljs-selector-tag">bdo</span><span class="hljs-selector-attr">[dir=<span class="hljs-string">"ltr"</span>]</span> { <span class="hljs-attribute">direction</span>: ltr; <span class="hljs-attribute">unicode-bidi</span>: bidi-override; }
 
-bdo[dir=&quot;rtl&quot;] { direction: rtl; unicode-bidi: bidi-override; }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;This text will go left to right.&lt;/p&gt;
-        &lt;p&gt;&lt;bdo dir=&quot;rtl&quot;&gt;This text will go right to left.&lt;/bdo&gt;&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-selector-tag">bdo</span><span class="hljs-selector-attr">[dir=<span class="hljs-string">"rtl"</span>]</span> { <span class="hljs-attribute">direction</span>: rtl; <span class="hljs-attribute">unicode-bidi</span>: bidi-override; }
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This text will go left to right.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">bdo</span> <span class="hljs-attr">dir</span>=<span class="hljs-string">"rtl"</span>&gt;</span>This text will go right to left.<span class="hljs-tag">&lt;/<span class="hljs-name">bdo</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -59,28 +55,24 @@ bdo[dir=&quot;rtl&quot;] { direction: rtl; unicode-bidi: bidi-override; }
     <summary>
         View USER-SELECT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_user-select --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10+ and Edge */
-  user-select: none; /* Standard syntax */
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_user-select --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">-webkit-user-select</span>: none; <span class="hljs-comment">/* Safari */</span>
+  <span class="hljs-attribute">-ms-user-select</span>: none; <span class="hljs-comment">/* IE 10+ and Edge */</span>
+  <span class="hljs-attribute">user-select</span>: none; <span class="hljs-comment">/* Standard syntax */</span>
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;The user-select Property&lt;/h1&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The user-select Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;div&gt;The text of this div element cannot be selected. If you double-click me, my text will not be highlighted.&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>The text of this div element cannot be selected. If you double-click me, my text will not be highlighted.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

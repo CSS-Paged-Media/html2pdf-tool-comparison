@@ -17,27 +17,23 @@ description:
     <summary>
         View FILTER Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/filter/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        img { display: block; width: 90%; }
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/filter/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">img</span> { <span class="hljs-attribute">display</span>: block; <span class="hljs-attribute">width</span>: <span class="hljs-number">90%</span>; }
 
-img {
-  -webkit-filter: sepia(1);
-  filter: sepia(1);
+<span class="hljs-selector-tag">img</span> {
+  <span class="hljs-attribute">-webkit-filter</span>: <span class="hljs-built_in">sepia</span>(<span class="hljs-number">1</span>);
+  <span class="hljs-attribute">filter</span>: <span class="hljs-built_in">sepia</span>(<span class="hljs-number">1</span>);
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;img src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/392/redwood-ukulele-top.jpg&quot; alt=&quot;ukulele&quot;&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/392/redwood-ukulele-top.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"ukulele"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -57,51 +53,47 @@ img {
     <summary>
         View FLEX-BASIS Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-basis/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-basis/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.flex-container</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">list-style</span>: none;
   
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+  <span class="hljs-attribute">-ms-box-orient</span>: horizontal;
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: -moz-box;
+  <span class="hljs-attribute">display</span>: -ms-flexbox;
+  <span class="hljs-attribute">display</span>: -moz-flex;
+  <span class="hljs-attribute">display</span>: -webkit-flex;
+  <span class="hljs-attribute">display</span>: flex;
 }
 
-.flex-item {
-  background: tomato;
-  padding: 10px;
-  border: 5px solid red;
+<span class="hljs-selector-class">.flex-item</span> {
+  <span class="hljs-attribute">background</span>: tomato;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid red;
   
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">text-align</span>: center;
 }
 
-.flex1 { flex: 1 1 20em; }
-.flex2 { flex: 2 2 20em; } 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul class=&quot;flex-container&quot;&gt;
-            &lt;li class=&quot;flex-item flex1&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item flex2&quot;&gt;2&lt;/li&gt;
-          &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-selector-class">.flex1</span> { <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span> <span class="hljs-number">1</span> <span class="hljs-number">20em</span>; }
+<span class="hljs-selector-class">.flex2</span> { <span class="hljs-attribute">flex</span>: <span class="hljs-number">2</span> <span class="hljs-number">2</span> <span class="hljs-number">20em</span>; } 
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item flex1"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item flex2"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -121,109 +113,105 @@ img {
     <summary>
         View FLEX-DIRECTION Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-direction/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-direction/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.flex-container</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">list-style</span>: none;
   
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+  <span class="hljs-attribute">-ms-box-orient</span>: horizontal;
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: -moz-box;
+  <span class="hljs-attribute">display</span>: -ms-flexbox;
+  <span class="hljs-attribute">display</span>: -moz-flex;
+  <span class="hljs-attribute">display</span>: -webkit-flex;
+  <span class="hljs-attribute">display</span>: flex;
 }
 
-.row            { 
-  -webkit-flex-direction: row; 
-  flex-direction: row;
+<span class="hljs-selector-class">.row</span>            { 
+  <span class="hljs-attribute">-webkit-flex-direction</span>: row; 
+  <span class="hljs-attribute">flex-direction</span>: row;
 }
 
-.row-reverse    { 
-  -webkit-flex-direction: row-reverse; 
-  flex-direction: row-reverse;
+<span class="hljs-selector-class">.row-reverse</span>    { 
+  <span class="hljs-attribute">-webkit-flex-direction</span>: row-reverse; 
+  <span class="hljs-attribute">flex-direction</span>: row-reverse;
 }  
-.row-reverse li {
-  background: gold;
+<span class="hljs-selector-class">.row-reverse</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: gold;
 }
 
-.column { 
-  -webkit-flex-direction: column; 
-  flex-direction: column; 
-  float: left;
+<span class="hljs-selector-class">.column</span> { 
+  <span class="hljs-attribute">-webkit-flex-direction</span>: column; 
+  <span class="hljs-attribute">flex-direction</span>: column; 
+  <span class="hljs-attribute">float</span>: left;
 }
-.column li {
-  background: deepskyblue;
-}
-
-.column-reverse { 
-  -webkit-flex-direction: column-reverse; 
-  flex-direction: column-reverse; 
-  float: right;
-}
-.column-reverse li {
-  background: lightgreen;
+<span class="hljs-selector-class">.column</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: deepskyblue;
 }
 
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 50px;
-  height: 50px;
-  margin: 5px;
+<span class="hljs-selector-class">.column-reverse</span> { 
+  <span class="hljs-attribute">-webkit-flex-direction</span>: column-reverse; 
+  <span class="hljs-attribute">flex-direction</span>: column-reverse; 
+  <span class="hljs-attribute">float</span>: right;
+}
+<span class="hljs-selector-class">.column-reverse</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: lightgreen;
+}
+
+<span class="hljs-selector-class">.flex-item</span> {
+  <span class="hljs-attribute">background</span>: tomato;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">50px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">50px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">5px</span>;
   
-  line-height: 50px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">50px</span>;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">text-align</span>: center;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul class=&quot;flex-container row&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container row"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container row-reverse&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container row-reverse"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container column&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container column"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container column-reverse&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container column-reverse"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -243,83 +231,79 @@ img {
     <summary>
         View FLEX-FLOW Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-flow/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-flow/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.flex-container</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">list-style</span>: none;
   
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+  <span class="hljs-attribute">-ms-box-orient</span>: horizontal;
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: -moz-box;
+  <span class="hljs-attribute">display</span>: -ms-flexbox;
+  <span class="hljs-attribute">display</span>: -moz-flex;
+  <span class="hljs-attribute">display</span>: -webkit-flex;
+  <span class="hljs-attribute">display</span>: flex;
 }
 
-h1 {
-  padding-left: .5em; 
+<span class="hljs-selector-tag">h1</span> {
+  <span class="hljs-attribute">padding-left</span>: .<span class="hljs-number">5em</span>; 
 }
 
-.shorthand { 
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-flex-direction: row;
-  flex-direction: row;
+<span class="hljs-selector-class">.shorthand</span> { 
+  <span class="hljs-attribute">-webkit-flex-wrap</span>: wrap;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
+  <span class="hljs-attribute">-webkit-flex-direction</span>: row;
+  <span class="hljs-attribute">flex-direction</span>: row;
 }
 
-.longhand { 
-  -webkit-flex-flow: wrap row;
-  flex-flow: wrap row;
+<span class="hljs-selector-class">.longhand</span> { 
+  <span class="hljs-attribute">-webkit-flex-flow</span>: wrap row;
+  <span class="hljs-attribute">flex-flow</span>: wrap row;
   
 }
 
-.longhand li {
-  background: deepskyblue;
+<span class="hljs-selector-class">.longhand</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: deepskyblue;
 }
 
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
+<span class="hljs-selector-class">.flex-item</span> {
+  <span class="hljs-attribute">background</span>: tomato;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   
-  line-height: 100px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">text-align</span>: center;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;flex-wrap: wrap; flex-direction: row;&lt;/h1&gt;
-        &lt;ul class=&quot;flex-container longhand&quot;&gt;
-          &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-          &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-          &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-          &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-        &lt;/ul&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>flex-wrap: wrap; flex-direction: row;<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container longhand"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
         
-        &lt;h1&gt;flex-flow: row wrap;&lt;/h1&gt;
-        &lt;ul class=&quot;flex-container shorthand&quot;&gt;
-          &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-          &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-          &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-          &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>flex-flow: row wrap;<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container shorthand"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -339,63 +323,59 @@ h1 {
     <summary>
         View FLEX-GROW Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-grow/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-grow/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.flex-container</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">list-style</span>: none;
   
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+  <span class="hljs-attribute">-ms-box-orient</span>: horizontal;
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: -moz-box;
+  <span class="hljs-attribute">display</span>: -ms-flexbox;
+  <span class="hljs-attribute">display</span>: -moz-flex;
+  <span class="hljs-attribute">display</span>: -webkit-flex;
+  <span class="hljs-attribute">display</span>: flex;
     
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-align-items: stretch;
-  align-items: stretch;
+  <span class="hljs-attribute">-webkit-justify-content</span>: space-around;
+  <span class="hljs-attribute">justify-content</span>: space-around;
+  <span class="hljs-attribute">-webkit-flex-flow</span>: row wrap;
+  <span class="hljs-attribute">flex-flow</span>: row wrap;
+  <span class="hljs-attribute">-webkit-align-items</span>: stretch;
+  <span class="hljs-attribute">align-items</span>: stretch;
 }
 
-.flex-item:nth-of-type(1) { flex-grow: 1; }
-.flex-item:nth-of-type(2) { flex-grow: 1; }
-.flex-item:nth-of-type(3) { flex-grow: 2; }
-.flex-item:nth-of-type(4) { flex-grow: 1; }
-.flex-item:nth-of-type(5) { flex-grow: 1; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(1)</span> { <span class="hljs-attribute">flex-grow</span>: <span class="hljs-number">1</span>; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(2)</span> { <span class="hljs-attribute">flex-grow</span>: <span class="hljs-number">1</span>; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(3)</span> { <span class="hljs-attribute">flex-grow</span>: <span class="hljs-number">2</span>; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(4)</span> { <span class="hljs-attribute">flex-grow</span>: <span class="hljs-number">1</span>; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(5)</span> { <span class="hljs-attribute">flex-grow</span>: <span class="hljs-number">1</span>; }
 
-.flex-item {
+<span class="hljs-selector-class">.flex-item</span> {
   
-  background: tomato;
-  border: 3px solid rgba(0,0,0,.2);
-  line-height: 100px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  <span class="hljs-attribute">background</span>: tomato;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">3px</span> solid <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,.<span class="hljs-number">2</span>);
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">text-align</span>: center;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul class=&quot;flex-container&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-          &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -415,51 +395,47 @@ h1 {
     <summary>
         View FLEX-SHRINK Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-shrink/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-shrink/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.flex-container</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">list-style</span>: none;
   
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+  <span class="hljs-attribute">-ms-box-orient</span>: horizontal;
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: -moz-box;
+  <span class="hljs-attribute">display</span>: -ms-flexbox;
+  <span class="hljs-attribute">display</span>: -moz-flex;
+  <span class="hljs-attribute">display</span>: -webkit-flex;
+  <span class="hljs-attribute">display</span>: flex;
 }
 
-.flex-item {
-  background: tomato;
-  padding: 10px;
-  border: 5px solid red;
+<span class="hljs-selector-class">.flex-item</span> {
+  <span class="hljs-attribute">background</span>: tomato;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid red;
   
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">text-align</span>: center;
 }
 
-.flex1 { flex: 1 1 20em; }
-.flex2 { flex: 2 2 20em; } 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul class=&quot;flex-container&quot;&gt;
-            &lt;li class=&quot;flex-item flex1&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item flex2&quot;&gt;2&lt;/li&gt;
-          &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-selector-class">.flex1</span> { <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span> <span class="hljs-number">1</span> <span class="hljs-number">20em</span>; }
+<span class="hljs-selector-class">.flex2</span> { <span class="hljs-attribute">flex</span>: <span class="hljs-number">2</span> <span class="hljs-number">2</span> <span class="hljs-number">20em</span>; } 
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item flex1"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item flex2"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -479,100 +455,96 @@ h1 {
     <summary>
         View FLEX-WRAP Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-wrap/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  border: 1px solid silver;
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex-wrap/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.flex-container</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">list-style</span>: none;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid silver;
+  <span class="hljs-attribute">-ms-box-orient</span>: horizontal;
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: -moz-box;
+  <span class="hljs-attribute">display</span>: -ms-flexbox;
+  <span class="hljs-attribute">display</span>: -moz-flex;
+  <span class="hljs-attribute">display</span>: -webkit-flex;
+  <span class="hljs-attribute">display</span>: flex;
 }
 
-.nowrap  { 
-  -webkit-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+<span class="hljs-selector-class">.nowrap</span>  { 
+  <span class="hljs-attribute">-webkit-flex-wrap</span>: nowrap;
+  <span class="hljs-attribute">flex-wrap</span>: nowrap;
 }
 
-.wrap    { 
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
+<span class="hljs-selector-class">.wrap</span>    { 
+  <span class="hljs-attribute">-webkit-flex-wrap</span>: wrap;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
 }  
-.wrap li {
-  background: gold;
+<span class="hljs-selector-class">.wrap</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: gold;
 }
 
-.wrap-reverse         { 
-  -webkit-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
+<span class="hljs-selector-class">.wrap-reverse</span>         { 
+  <span class="hljs-attribute">-webkit-flex-wrap</span>: wrap-reverse;
+  <span class="hljs-attribute">flex-wrap</span>: wrap-reverse;
 }  
-.wrap-reverse li {
-  background: deepskyblue;
+<span class="hljs-selector-class">.wrap-reverse</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: deepskyblue;
 }
 
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
+<span class="hljs-selector-class">.flex-item</span> {
+  <span class="hljs-attribute">background</span>: tomato;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   
-  line-height: 100px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">text-align</span>: center;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul class=&quot;flex-container nowrap&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;6&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;7&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;8&lt;/li&gt;
-          &lt;/ul&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container nowrap"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container wrap&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;6&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;7&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;8&lt;/li&gt;
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container wrap"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container wrap-reverse&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;6&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;7&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;8&lt;/li&gt;
-          &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container wrap-reverse"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -592,46 +564,42 @@ h1 {
     <summary>
         View FLEX Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  display: flex;
-  flex-wrap: wrap;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/flex/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
 }
-body &gt; * {
-  background: #eee;
-  padding: 2rem;
-  text-align: center;
-  border: 5px solid white;
+<span class="hljs-selector-tag">body</span> &gt; * {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#eee</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">2rem</span>;
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid white;
 }
 
-.header,
-.footer {
-  flex: 1 100%;
+<span class="hljs-selector-class">.header</span>,
+<span class="hljs-selector-class">.footer</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span> <span class="hljs-number">100%</span>;
 }
-.sidebar {
-  flex: 1;
+<span class="hljs-selector-class">.sidebar</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
 }
-.main {
-  flex: 2;
+<span class="hljs-selector-class">.main</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">2</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;header class=&quot;header&quot;&gt;Header&lt;/header&gt;
-        &lt;main class=&quot;main&quot;&gt;Main&lt;/main&gt;
-        &lt;aside class=&quot;sidebar&quot;&gt;Sidebar&lt;/aside&gt;
-        &lt;footer class=&quot;footer&quot;&gt;Footer&lt;/footer&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">header</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"header"</span>&gt;</span>Header<span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"main"</span>&gt;</span>Main<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">aside</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"sidebar"</span>&gt;</span>Sidebar<span class="hljs-tag">&lt;/<span class="hljs-name">aside</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer"</span>&gt;</span>Footer<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -651,35 +619,31 @@ body &gt; * {
     <summary>
         View FLOAT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/css/css_float_clear.asp --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .div1 {
-  float: left;
-  width: 100px;
-  height: 50px;
-  margin: 10px;
-  border: 3px solid #73AD21;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/css/css_float_clear.asp --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.div1</span> {
+  <span class="hljs-attribute">float</span>: left;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">50px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">3px</span> solid <span class="hljs-number">#73AD21</span>;
 }
 
-.div2 {
-  border: 1px solid red;
+<span class="hljs-selector-class">.div2</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid red;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;Float&lt;/h2&gt;
-        &lt;div class=&quot;div1&quot;&gt;div1&lt;/div&gt;
-        &lt;div class=&quot;div2&quot;&gt;div2 - Notice that div2 is after div1 in the HTML code. However, since div1 floats to the left, the text in div2 flows around div1.&lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Float<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"div1"</span>&gt;</span>div1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"div2"</span>&gt;</span>div2 - Notice that div2 is after div1 in the HTML code. However, since div1 floats to the left, the text in div2 flows around div1.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
      
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -699,36 +663,32 @@ body &gt; * {
     <summary>
         View FONT-FAMILY Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_font-family --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .serif {
-  font-family: &quot;Times New Roman&quot;, Times, serif;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_font-family --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.serif</span> {
+  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">"Times New Roman"</span>, Times, serif;
 }
 
-.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
+<span class="hljs-selector-class">.sansserif</span> {
+  <span class="hljs-attribute">font-family</span>: Arial, Helvetica, sans-serif;
 }
 
-.monospace {
-  font-family: &quot;Lucida Console&quot;, Courier, monospace;
+<span class="hljs-selector-class">.monospace</span> {
+  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">"Lucida Console"</span>, Courier, monospace;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;CSS font-family&lt;/h1&gt;
-        &lt;p class=&quot;serif&quot;&gt;This is a paragraph, shown in the Times New Roman font.&lt;/p&gt;
-        &lt;p class=&quot;sansserif&quot;&gt;This is a paragraph, shown in the Arial font.&lt;/p&gt;
-        &lt;p class=&quot;monospace&quot;&gt;This is a paragraph, shown in the Lucida Console font.&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>CSS font-family<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"serif"</span>&gt;</span>This is a paragraph, shown in the Times New Roman font.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"sansserif"</span>&gt;</span>This is a paragraph, shown in the Arial font.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"monospace"</span>&gt;</span>This is a paragraph, shown in the Lucida Console font.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -748,39 +708,35 @@ body &gt; * {
     <summary>
         View FONT-FEATURE-SETTINGS Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-feature-settings --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        /* enable small-caps */
-.ex1 { font-feature-settings: &quot;smcp&quot; on; }
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-feature-settings --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-comment">/* enable small-caps */</span>
+<span class="hljs-selector-class">.ex1</span> { <span class="hljs-attribute">font-feature-settings</span>: <span class="hljs-string">"smcp"</span> on; }
 
-/* convert both upper and lowercase to small caps */
-.ex2 { font-feature-settings: &quot;c2sc&quot;, &quot;smcp&quot;; }
+<span class="hljs-comment">/* convert both upper and lowercase to small caps */</span>
+<span class="hljs-selector-class">.ex2</span> { <span class="hljs-attribute">font-feature-settings</span>: <span class="hljs-string">"c2sc"</span>, <span class="hljs-string">"smcp"</span>; }
 
-/* no common ligatures */
-.ex3 { font-feature-settings: &quot;liga&quot; 0; }
+<span class="hljs-comment">/* no common ligatures */</span>
+<span class="hljs-selector-class">.ex3</span> { <span class="hljs-attribute">font-feature-settings</span>: <span class="hljs-string">"liga"</span> <span class="hljs-number">0</span>; }
 
-/* enable automatic fractions */
-.ex4 { font-feature-settings: &quot;frac&quot;; }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;The font-feature-settings Property&lt;/h1&gt;
+<span class="hljs-comment">/* enable automatic fractions */</span>
+<span class="hljs-selector-class">.ex4</span> { <span class="hljs-attribute">font-feature-settings</span>: <span class="hljs-string">"frac"</span>; }
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The font-feature-settings Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;div class=&quot;ex1&quot;&gt;This is some text 0123.&lt;/div&gt;
-        &lt;div class=&quot;ex2&quot;&gt;This is some text 0123.&lt;/div&gt;
-        &lt;div class=&quot;ex3&quot;&gt;This is some text 0123.&lt;/div&gt;
-        &lt;div class=&quot;ex4&quot;&gt;This is some text 0123.&lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex1"</span>&gt;</span>This is some text 0123.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex2"</span>&gt;</span>This is some text 0123.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex3"</span>&gt;</span>This is some text 0123.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex4"</span>&gt;</span>This is some text 0123.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Internet Explorer 9 and earlier versions do not support the font-feature-settings property.&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Note:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> Internet Explorer 9 and earlier versions do not support the font-feature-settings property.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -800,43 +756,39 @@ body &gt; * {
     <summary>
         View FONT-SIZE-ADJUST Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-size-adjust --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div.a {font-family: verdana;}
-div.b {font-family: 'times new roman';}
-#div1, #div2 {font-size-adjust: 0.58;}
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-size-adjust --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.a</span> {<span class="hljs-attribute">font-family</span>: verdana;}
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.b</span> {<span class="hljs-attribute">font-family</span>: <span class="hljs-string">'times new roman'</span>;}
+<span class="hljs-selector-id">#div1</span>, <span class="hljs-selector-id">#div2</span> {<span class="hljs-attribute">font-size-adjust</span>: <span class="hljs-number">0.58</span>;}
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-&lt;h1&gt;The font-size-adjust Property&lt;/h1&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The font-size-adjust Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Only Firefox supports the font-size-adjust property.&lt;/p&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Note:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> Only Firefox supports the font-size-adjust property.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-&lt;h2&gt;Two divs with the same font-size-adjust property:&lt;/h2&gt;
-&lt;div id=&quot;div1&quot; class=&quot;a&quot;&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Two divs with the same font-size-adjust property:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"div1"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"a"</span>&gt;</span>
 You control the font size better with the font-size-adjust property.
-&lt;/div&gt;
-&lt;div id=&quot;div2&quot; class=&quot;b&quot;&gt;
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"div2"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"b"</span>&gt;</span>
 You control the font size better with the font-size-adjust property.
-&lt;/div&gt;
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-&lt;h2&gt;Two divs without the font-size-adjust property:&lt;/h2&gt;
-&lt;div class=&quot;a&quot;&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Two divs without the font-size-adjust property:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"a"</span>&gt;</span>
 You control the font size better with the font-size-adjust property.
-&lt;/div&gt;
-&lt;div class=&quot;b&quot;&gt;
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"b"</span>&gt;</span>
 You control the font size better with the font-size-adjust property.
-&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -856,49 +808,45 @@ You control the font size better with the font-size-adjust property.
     <summary>
         View FONT-SIZE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/font-size/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        html {
-  background-color: #cecece;
-  font-size: 24px;
-  line-height: 36px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/font-size/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#cecece</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">24px</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">36px</span>;
 }
 
-div {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin: 50px;
-  padding: 20px;
+<span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fff</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#ccc</span>;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">50px</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span>;
 }
 
-.module-2 {
-  font-size: 42px;
-  line-height: 36px;
+<span class="hljs-selector-class">.module-2</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">42px</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">36px</span>;
 }
 
-.module-2 p {
-  font-size: 110%;
+<span class="hljs-selector-class">.module-2</span> <span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">110%</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;module-1&quot;&gt;
-            &lt;p&gt;I am sized relative to the document.&lt;/p&gt;
-          &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"module-1"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I am sized relative to the document.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;module-2&quot;&gt;
-            &lt;p&gt;I am sized relative to the parent element.&lt;/p&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"module-2"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I am sized relative to the parent element.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -918,27 +866,23 @@ div {
     <summary>
         View FONT-STRETCH Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/css3_pr_font-stretch.asp --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div {
-  font-family: sans-serif, &quot;Helvetica Neue&quot;, &quot;Lucida Grande&quot;, Arial;
-  font-stretch: expanded;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/css3_pr_font-stretch.asp --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">font-family</span>: sans-serif, <span class="hljs-string">"Helvetica Neue"</span>, <span class="hljs-string">"Lucida Grande"</span>, Arial;
+  <span class="hljs-attribute">font-stretch</span>: expanded;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div&gt;
-            &lt;p&gt;Font Stretch Example&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Font Stretch Example<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -958,31 +902,27 @@ div {
     <summary>
         View FONT-STYLE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/font-style/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p {
-  font-family: sans-serif;
-  padding: 0 20px;
-  font-size: 20px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/font-style/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">font-family</span>: sans-serif;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span> <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;
 }
 
-.one { font-style: italic; }
-.two { font-style: oblique; }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p class=&quot;one&quot;&gt;This is italic text.&lt;/p&gt;
+<span class="hljs-selector-class">.one</span> { <span class="hljs-attribute">font-style</span>: italic; }
+<span class="hljs-selector-class">.two</span> { <span class="hljs-attribute">font-style</span>: oblique; }
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"one"</span>&gt;</span>This is italic text.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-        &lt;p class=&quot;two&quot;&gt;This is oblique text.&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"two"</span>&gt;</span>This is oblique text.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1002,28 +942,24 @@ div {
     <summary>
         View FONT-VARIANT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/font-variant/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p {
-  font-size: 20px;
-  padding: 0 20px;
-  font-variant: small-caps;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/font-variant/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span> <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">font-variant</span>: small-caps;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;This is small-caps.&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is small-caps.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-        &lt;p&gt;THIS IS REGULAR CAPS.&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>THIS IS REGULAR CAPS.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1043,79 +979,75 @@ div {
     <summary>
         View FONT-WEIGHT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/font-weight/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  padding: 0 20px;
-  font-family: 'Open Sans';
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/f/font-weight/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span> <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">'Open Sans'</span>;
 }
 
-.w100 {
-  font-weight: 100;
+<span class="hljs-selector-class">.w100</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">100</span>;
 }
 
-.w200 {
-  font-weight: 200;
+<span class="hljs-selector-class">.w200</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">200</span>;
 }
 
-.w300 {
-  font-weight: 300;
+<span class="hljs-selector-class">.w300</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">300</span>;
 }
 
-.w400 {
-  font-weight: 400;
+<span class="hljs-selector-class">.w400</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">400</span>;
 }
 
-.w500 {
-  font-weight: 500;
+<span class="hljs-selector-class">.w500</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">500</span>;
 }
 
-.w600 {
-  font-weight: 600;
+<span class="hljs-selector-class">.w600</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;
 }
 
-.w700 {
-  font-weight: 700;
+<span class="hljs-selector-class">.w700</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">700</span>;
 }
 
-.w800 {
-  font-weight: 800;
+<span class="hljs-selector-class">.w800</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">800</span>;
 }
 
-.w900 {
-  font-weight: 900;
+<span class="hljs-selector-class">.w900</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">900</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">href</span>=<span class="hljs-string">'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300'</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">'stylesheet'</span> <span class="hljs-attr">type</span>=<span class="hljs-string">'text/css'</span>&gt;</span>
   
-        &lt;p class=&quot;w100&quot;&gt;This is 100 weight&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w100"</span>&gt;</span>This is 100 weight<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;w200&quot;&gt;This is 200 weight&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w200"</span>&gt;</span>This is 200 weight<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;w300&quot;&gt;This is 300 weight (available)&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w300"</span>&gt;</span>This is 300 weight (available)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;w400&quot;&gt;This is 400 weight (available)&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w400"</span>&gt;</span>This is 400 weight (available)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;w500&quot;&gt;This is 500 weight&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w500"</span>&gt;</span>This is 500 weight<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;w600&quot;&gt;This is 600 weight (available)&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w600"</span>&gt;</span>This is 600 weight (available)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;w700&quot;&gt;This is 700 weight (available)&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w700"</span>&gt;</span>This is 700 weight (available)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;w800&quot;&gt;This is 800 weight (available)&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w800"</span>&gt;</span>This is 800 weight (available)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;w900&quot;&gt;This is 900 weight&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w900"</span>&gt;</span>This is 900 weight<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1135,31 +1067,27 @@ div {
     <summary>
         View FONT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_font --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p.a {
-  font: 20px Arial, sans-serif;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_font --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.a</span> {
+  <span class="hljs-attribute">font</span>: <span class="hljs-number">20px</span> Arial, sans-serif;
 }
 
-p.b {
-  font: italic bold 12px/30px Georgia, serif;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.b</span> {
+  <span class="hljs-attribute">font</span>: italic bold <span class="hljs-number">12px</span>/<span class="hljs-number">30px</span> Georgia, serif;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p class=&quot;a&quot;&gt;This is a paragraph. The font size is set to 20 pixels, and the font family is Arial.&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"a"</span>&gt;</span>This is a paragraph. The font size is set to 20 pixels, and the font family is Arial.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-        &lt;p class=&quot;b&quot;&gt;This is a paragraph. The font is set to italic and bold, the font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"b"</span>&gt;</span>This is a paragraph. The font is set to italic and bold, the font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

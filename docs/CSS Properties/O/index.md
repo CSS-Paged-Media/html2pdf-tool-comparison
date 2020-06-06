@@ -17,113 +17,109 @@ description:
     <summary>
         View OBJECT-FIT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/object-fit/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .object-fit_fill {
-  -o-object-fit: fill;
-     object-fit: fill;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/object-fit/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.object-fit_fill</span> {
+  <span class="hljs-attribute">-o-object-fit</span>: fill;
+     <span class="hljs-attribute">object-fit</span>: fill;
 }
 
-.object-fit_contain {
-  -o-object-fit: contain;
-     object-fit: contain;
+<span class="hljs-selector-class">.object-fit_contain</span> {
+  <span class="hljs-attribute">-o-object-fit</span>: contain;
+     <span class="hljs-attribute">object-fit</span>: contain;
 }
 
-.object-fit_cover {
-  -o-object-fit: cover;
-     object-fit: cover;
+<span class="hljs-selector-class">.object-fit_cover</span> {
+  <span class="hljs-attribute">-o-object-fit</span>: cover;
+     <span class="hljs-attribute">object-fit</span>: cover;
 }
 
-.object-fit_none {
-  -o-object-fit: none;
-     object-fit: none;
+<span class="hljs-selector-class">.object-fit_none</span> {
+  <span class="hljs-attribute">-o-object-fit</span>: none;
+     <span class="hljs-attribute">object-fit</span>: none;
 }
 
-.object-fit_scale-down {
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+<span class="hljs-selector-class">.object-fit_scale-down</span> {
+  <span class="hljs-attribute">-o-object-fit</span>: scale-down;
+     <span class="hljs-attribute">object-fit</span>: scale-down;
 }
 
-html {
-  color: #eee;
-  padding: 30px;
-  font-family: 'Source Code Pro', Monaco;
-  background-color: #333;
+<span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#eee</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">30px</span>;
+  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">'Source Code Pro'</span>, Monaco;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#333</span>;
 }
 
-p {
-  font-weight: 200;
-  font-size: 13px;
-  margin-bottom: 10px;
-  margin-top: 0;
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">200</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">13px</span>;
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">0</span>;
 }
 
-img {
-  height: 120px;
-  background-color: #444;
+<span class="hljs-selector-tag">img</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">120px</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#444</span>;
 }
 
-img[class] {
-  width: 100%;
+<span class="hljs-selector-tag">img</span><span class="hljs-selector-attr">[class]</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
 }
 
-.original-image {
-  margin-bottom: 50px;
+<span class="hljs-selector-class">.original-image</span> {
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">50px</span>;
 }
 
-.image {
-  float: left;
-  width: 40%;
-  margin: 0 30px 20px 0;
+<span class="hljs-selector-class">.image</span> {
+  <span class="hljs-attribute">float</span>: left;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">40%</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">30px</span> <span class="hljs-number">20px</span> <span class="hljs-number">0</span>;
 }
-.image:nth-child(2n) {
-  clear: left;
+<span class="hljs-selector-class">.image</span><span class="hljs-selector-pseudo">:nth-child(2n)</span> {
+  <span class="hljs-attribute">clear</span>: left;
 }
-.image:nth-child(2n+1) {
-  margin-right: 0;
+<span class="hljs-selector-class">.image</span><span class="hljs-selector-pseudo">:nth-child(2n+1)</span> {
+  <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">0</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;original-image&quot;&gt;
-            &lt;p&gt;original image&lt;/p&gt;
-            &lt;img src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png&quot;&gt; 
-            &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"original-image"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>original image<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png"</span>&gt;</span> 
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;image&quot;&gt;
-              &lt;p&gt;object-fit: fill&lt;/p&gt;
-            &lt;img class=&quot;object-fit_fill&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png&quot;&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-fit: fill<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"object-fit_fill"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png"</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;image&quot;&gt;
-              &lt;p&gt;object-fit: contain&lt;/p&gt;
-            &lt;img class=&quot;object-fit_contain&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png&quot;&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-fit: contain<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"object-fit_contain"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png"</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;image&quot;&gt;
-              &lt;p&gt;object-fit: cover&lt;/p&gt;
-            &lt;img class=&quot;object-fit_cover&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png&quot;&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-fit: cover<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"object-fit_cover"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png"</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;image&quot;&gt;
-              &lt;p&gt;object-fit: none&lt;/p&gt;
-            &lt;img class=&quot;object-fit_none&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png&quot;&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-fit: none<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"object-fit_none"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png"</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;image&quot;&gt;
-              &lt;p&gt;object-fit: scale-down&lt;/p&gt;
-            &lt;img class=&quot;object-fit_scale-down&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png&quot;&gt;
-             &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-fit: scale-down<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"object-fit_scale-down"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.png"</span>&gt;</span>
+             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -143,151 +139,147 @@ img[class] {
     <summary>
         View OBJECT-POSITION Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/object-position/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        img {
-  background-color: yellow;
-  height: 180px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/object-position/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">img</span> {
+  <span class="hljs-attribute">background-color</span>: yellow;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">180px</span>;
 }
 
-.image {
-  height: 170px;
-  object-fit: none;
-  /*  background-color: yellow;*/
+<span class="hljs-selector-class">.image</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">170px</span>;
+  <span class="hljs-attribute">object-fit</span>: none;
+  <span class="hljs-comment">/*  background-color: yellow;*/</span>
 }
 
-.image--center {
-  object-position: 50% 50%;
+<span class="hljs-selector-class">.image--center</span> {
+  <span class="hljs-attribute">object-position</span>: <span class="hljs-number">50%</span> <span class="hljs-number">50%</span>;
 }
 
-.image--bottom-right {
-  object-position: 100% 100%;
+<span class="hljs-selector-class">.image--bottom-right</span> {
+  <span class="hljs-attribute">object-position</span>: <span class="hljs-number">100%</span> <span class="hljs-number">100%</span>;
 }
 
-.image--bottom-left {
-  object-position: 0  100%;
+<span class="hljs-selector-class">.image--bottom-left</span> {
+  <span class="hljs-attribute">object-position</span>: <span class="hljs-number">0</span>  <span class="hljs-number">100%</span>;
 }
 
-.image--top-left {
-  object-position: 0  0;
+<span class="hljs-selector-class">.image--top-left</span> {
+  <span class="hljs-attribute">object-position</span>: <span class="hljs-number">0</span>  <span class="hljs-number">0</span>;
 }
 
-.image--up {
-  object-position: 50%  120%;
+<span class="hljs-selector-class">.image--up</span> {
+  <span class="hljs-attribute">object-position</span>: <span class="hljs-number">50%</span>  <span class="hljs-number">120%</span>;
 }
 
-.image--down {
-  object-position: 50%  -20%;
+<span class="hljs-selector-class">.image--down</span> {
+  <span class="hljs-attribute">object-position</span>: <span class="hljs-number">50%</span>  -<span class="hljs-number">20%</span>;
 }
 
-.image--left {
-  object-position: 120%  50%;
+<span class="hljs-selector-class">.image--left</span> {
+  <span class="hljs-attribute">object-position</span>: <span class="hljs-number">120%</span>  <span class="hljs-number">50%</span>;
 }
 
-.image--right {
-  object-position: -20%  50%;
+<span class="hljs-selector-class">.image--right</span> {
+  <span class="hljs-attribute">object-position</span>: -<span class="hljs-number">20%</span>  <span class="hljs-number">50%</span>;
 }
 
-.image--background-image {
-  object-position: 140%  90%;
-  background-image: url(&quot;http://fillmurray.com/g/50/50&quot;);
+<span class="hljs-selector-class">.image--background-image</span> {
+  <span class="hljs-attribute">object-position</span>: <span class="hljs-number">140%</span>  <span class="hljs-number">90%</span>;
+  <span class="hljs-attribute">background-image</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">"http://fillmurray.com/g/50/50"</span>);
 }
 
-html {
-  color: #eee;
-  padding: 30px;
-  font-family: 'Source Code Pro', Monaco;
-  background-color: #333;
+<span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#eee</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">30px</span>;
+  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">'Source Code Pro'</span>, Monaco;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#333</span>;
 }
 
-.container {
-  float: left;
-  margin: 0 20px 20px 0;
-  padding: 0;
-  width: 45%;
+<span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">float</span>: left;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-number">20px</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">45%</span>;
 }
-.container:nth-child(2n + 1) {
-  margin-right: 0;
-}
-
-p {
-  font-weight: 600;
-  font-size: 13px;
-  margin-bottom: 10px;
-  margin-top: 0;
+<span class="hljs-selector-class">.container</span><span class="hljs-selector-pseudo">:nth-child(2n</span> + 1) {
+  <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">0</span>;
 }
 
-img[class] {
-  width: 100%;
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">13px</span>;
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">0</span>;
 }
 
-.original-image {
-  margin-bottom: 50px;
+<span class="hljs-selector-tag">img</span><span class="hljs-selector-attr">[class]</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;original-image&quot;&gt;
-            &lt;p&gt;original image &lt;br&gt; (with a yellow background)&lt;/p&gt;
-          &lt;img src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
+<span class="hljs-selector-class">.original-image</span> {
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">50px</span>;
+}
+
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"original-image"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>original image <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span> (with a yellow background)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
           
-          &lt;div class=&quot;container&quot;&gt;
-              &lt;p&gt;object-position: 50% 50%&lt;/p&gt;
-          &lt;img class=&quot;image image--center&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-position: 50% 50%<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--center"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;container&quot;&gt;
-              &lt;p&gt;object-position: 100% 150%&lt;/p&gt;
-          &lt;img class=&quot;image image--bottom-right&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-position: 100% 150%<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--bottom-right"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;container&quot;&gt;
-              &lt;p&gt;object-position: 0 150%&lt;/p&gt;
-          &lt;img class=&quot;image image--bottom-left&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-position: 0 150%<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--bottom-left"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;container&quot;&gt;
-                &lt;p&gt;object-position: 0 0&lt;/p&gt;
-          &lt;img class=&quot;image image--top-left&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-position: 0 0<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--top-left"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;container&quot;&gt;
-              &lt;p&gt;object-position: 50% 120%&lt;/p&gt;
-          &lt;img class=&quot;image image--up&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-position: 50% 120%<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--up"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;container&quot;&gt;
-              &lt;p&gt;object-position: 50% -20%&lt;/p&gt;
-          &lt;img class=&quot;image image--down&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-position: 50% -20%<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--down"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;container&quot;&gt;
-              &lt;p&gt;object-position: 120% 50%&lt;/p&gt;
-          &lt;img class=&quot;image image--left&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-position: 120% 50%<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--left"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;container&quot;&gt;
-              &lt;p&gt;object-position: -20% 50%&lt;/p&gt;
-          &lt;img class=&quot;image image--right&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-position: -20% 50%<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--right"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
           
-          &lt;div class=&quot;container&quot;&gt;
-              &lt;p&gt;object-position: 140% 90% &lt;br&gt;(with background image)&lt;/p&gt;
-          &lt;img class=&quot;image image--background-image&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png&quot;&gt; 
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>object-position: 140% 90% <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>(with background image)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image image--background-image"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/image.png"</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -307,22 +299,18 @@ img[class] {
     <summary>
         View OFFSET-ANCHOR Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from  --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from  --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
         
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -342,22 +330,18 @@ img[class] {
     <summary>
         View OFFSET-DISTANCE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from  --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from  --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
         
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -377,22 +361,18 @@ img[class] {
     <summary>
         View OFFSET-PATH Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from  --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from  --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
         
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -412,22 +392,18 @@ img[class] {
     <summary>
         View OFFSET-ROTATE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from  --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from  --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
         
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -447,139 +423,135 @@ img[class] {
     <summary>
         View OPACITY Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/opacity/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        /* General Box Styling */
-/*===========================*/
-.container &gt; div {
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-  background: #d58a3c;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/opacity/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-comment">/* General Box Styling */</span>
+<span class="hljs-comment">/*===========================*/</span>
+<span class="hljs-selector-class">.container</span> &gt; <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">display</span>: inline-block;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#d58a3c</span>;
 }
 
-/* Begin Opacity Demo Styles */
-/*===========================*/
-div.opacity100 {
-  opacity: 1;
+<span class="hljs-comment">/* Begin Opacity Demo Styles */</span>
+<span class="hljs-comment">/*===========================*/</span>
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity100</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">1</span>;
 }
 
-div.opacity90 {
-  opacity: 0.9;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity90</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.9</span>;
 }
 
-div.opacity80 {
-  opacity: 0.8;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity80</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.8</span>;
 }
 
-div.opacity70 {
-  opacity: 0.7;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity70</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.7</span>;
 }
 
-div.opacity60 {
-  opacity: 0.6;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity60</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.6</span>;
 }
 
-div.opacity50 {
-  opacity: 0.5;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity50</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.5</span>;
 }
 
-div.opacity40 {
-  opacity: 0.4;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity40</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.4</span>;
 }
 
-div.opacity30 {
-  opacity: 0.3;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity30</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.3</span>;
 }
 
-div.opacity20 {
-  opacity: 0.2;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity20</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.2</span>;
 }
 
-div.opacity10 {
-  opacity: 0.1;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity10</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.1</span>;
 }
 
-div.opacity0 {
-  opacity: 0;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.opacity0</span> {
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;container&quot;&gt;
-            &lt;h3&gt;Opacity without child elements&lt;/h3&gt;
-            &lt;div class=&quot;opacity100&quot;&gt;opacity: 1&lt;/div&gt;
-            &lt;div class=&quot;opacity90&quot;&gt;opacity: 0.9&lt;/div&gt;
-            &lt;div class=&quot;opacity80&quot;&gt;opacity: 0.8&lt;/div&gt;
-            &lt;div class=&quot;opacity70&quot;&gt;opacity: 0.7&lt;/div&gt;
-            &lt;div class=&quot;opacity60&quot;&gt;opacity: 0.6&lt;/div&gt;
-            &lt;div class=&quot;opacity50&quot;&gt;opacity: 0.5&lt;/div&gt;
-            &lt;div class=&quot;opacity40&quot;&gt;opacity: 0.4&lt;/div&gt;
-            &lt;div class=&quot;opacity30&quot;&gt;opacity: 0.3&lt;/div&gt;
-            &lt;div class=&quot;opacity20&quot;&gt;opacity: 0.2&lt;/div&gt;
-            &lt;div class=&quot;opacity10&quot;&gt;opacity: 0.1&lt;/div&gt;
-            &lt;div class=&quot;opacity0&quot;&gt;opacity: 0&lt;/div&gt;
-          &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Opacity without child elements<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity100"</span>&gt;</span>opacity: 1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity90"</span>&gt;</span>opacity: 0.9<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity80"</span>&gt;</span>opacity: 0.8<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity70"</span>&gt;</span>opacity: 0.7<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity60"</span>&gt;</span>opacity: 0.6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity50"</span>&gt;</span>opacity: 0.5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity40"</span>&gt;</span>opacity: 0.4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity30"</span>&gt;</span>opacity: 0.3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity20"</span>&gt;</span>opacity: 0.2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity10"</span>&gt;</span>opacity: 0.1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity0"</span>&gt;</span>opacity: 0<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;container&quot;&gt;
-            &lt;h3&gt;Opacity with child elements&lt;/h3&gt;
-            &lt;div class=&quot;opacity100&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Opacity with child elements<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity100"</span>&gt;</span>
               opacity: 1
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity90&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity90"</span>&gt;</span>
               opacity: 0.9
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity80&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity80"</span>&gt;</span>
               opacity: 0.8
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity70&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity70"</span>&gt;</span>
               opacity: 0.7
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity60&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity60"</span>&gt;</span>
               opacity: 0.6
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity50&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity50"</span>&gt;</span>
               opacity: 0.5
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity40&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity40"</span>&gt;</span>
               opacity: 0.4
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity30&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity30"</span>&gt;</span>
               opacity: 0.3
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity20&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity20"</span>&gt;</span>
               opacity: 0.2
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity10&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity10"</span>&gt;</span>
               opacity: 0.1
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;opacity0&quot;&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opacity0"</span>&gt;</span>
               opacity: 0
-              &lt;p&gt;Paragraph Element&lt;/p&gt;
-            &lt;/div&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Paragraph Element<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;p&gt;&lt;small&gt;Elements with an &lt;code&gt;opacity&lt;/code&gt; value of '0' are invisible&lt;/small&gt;&lt;/p&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>Elements with an <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>opacity<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> value of '0' are invisible<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -599,63 +571,59 @@ div.opacity0 {
     <summary>
         View ORDER Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/order/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/order/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.flex-container</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">list-style</span>: none;
   
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+  <span class="hljs-attribute">-ms-box-orient</span>: horizontal;
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: -moz-box;
+  <span class="hljs-attribute">display</span>: -ms-flexbox;
+  <span class="hljs-attribute">display</span>: -moz-flex;
+  <span class="hljs-attribute">display</span>: -webkit-flex;
+  <span class="hljs-attribute">display</span>: flex;
   
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
+  <span class="hljs-attribute">-webkit-flex-flow</span>: row wrap;
+  <span class="hljs-attribute">flex-flow</span>: row wrap;
 }
 
-.flex-item:nth-of-type(1) { order: 3; }
-.flex-item:nth-of-type(2) { order: 4; }
-.flex-item:nth-of-type(3) { order: 1; }
-.flex-item:nth-of-type(4) { order: 5; }
-.flex-item:nth-of-type(5) { order: 2; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(1)</span> { <span class="hljs-attribute">order</span>: <span class="hljs-number">3</span>; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(2)</span> { <span class="hljs-attribute">order</span>: <span class="hljs-number">4</span>; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(3)</span> { <span class="hljs-attribute">order</span>: <span class="hljs-number">1</span>; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(4)</span> { <span class="hljs-attribute">order</span>: <span class="hljs-number">5</span>; }
+<span class="hljs-selector-class">.flex-item</span><span class="hljs-selector-pseudo">:nth-of-type(5)</span> { <span class="hljs-attribute">order</span>: <span class="hljs-number">2</span>; }
 
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 100px;
-  height: 100px;
-  margin: 5px;
+<span class="hljs-selector-class">.flex-item</span> {
+  <span class="hljs-attribute">background</span>: tomato;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">5px</span>;
   
-  line-height: 100px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">text-align</span>: center;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul class=&quot;flex-container&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -675,54 +643,50 @@ div.opacity0 {
     <summary>
         View ORPHANS Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/jsref/prop_style_orphans.asp --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .othercontent {
-  width: 400px;
-  border-top: 19cm solid #c3c3c3;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/jsref/prop_style_orphans.asp --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.othercontent</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">border-top</span>: <span class="hljs-number">19cm</span> solid <span class="hljs-number">#c3c3c3</span>;
 }
 
-@page {
-  /* set size of printed page */
-  size:21cm 27cm;
-  margin-top:2cm;
+<span class="hljs-keyword">@page</span> {
+  <span class="hljs-comment">/* set size of printed page */</span>
+  <span class="hljs-attribute">size</span>:<span class="hljs-number">21cm</span> <span class="hljs-number">27cm</span>;
+  <span class="hljs-attribute">margin-top</span>:<span class="hljs-number">2cm</span>;
 }
 
-  .orphans {
-    orphans:2;
+  <span class="hljs-selector-class">.orphans</span> {
+    <span class="hljs-attribute">orphans</span>:<span class="hljs-number">2</span>;
   }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;othercontent&quot;&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"othercontent"</span>&gt;</span>
             
-            &lt;p style=&quot;font-size:120%&quot; id=&quot;p1&quot;&gt;
-                orphans &lt;br&gt;
-                orphans &lt;br&gt;
-                orphans &lt;br&gt;
-                orphans &lt;br&gt;
-                orphans &lt;br&gt;
-                orphans &lt;br&gt;
-                orphans &lt;br&gt;
-                orphans &lt;br&gt;
-                orphans &lt;br&gt;
-            Line 2&lt;br&gt;
-            Line 3&lt;br&gt;
-            Line 4&lt;br&gt;
-            Line 5&lt;br&gt;
-            Line 6&lt;br&gt;
-            Line 7&lt;br&gt;
-            Line 8&lt;br&gt;
-            &lt;/p&gt; 
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"font-size:120%"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"p1"</span>&gt;</span>
+                orphans <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+                orphans <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+                orphans <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+                orphans <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+                orphans <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+                orphans <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+                orphans <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+                orphans <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+                orphans <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            Line 2<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            Line 3<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            Line 4<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            Line 5<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            Line 6<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            Line 7<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            Line 8<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span> 
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -742,40 +706,36 @@ div.opacity0 {
     <summary>
         View OUTLINE-OFFSET Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/outline-offset/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  padding: 40px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/outline-offset/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">40px</span>;
 }
 
-h2 {
-  text-align: center;
-  margin: 0 0 40px;
+<span class="hljs-selector-tag">h2</span> {
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span>;
 }
 
-.box {
-  width: 200px;
-  height: 200px;
-  background: #ccc;
-  margin: auto;
-  border: solid 8px yellow;
-  outline: solid 8px orange;
+<span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">200px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#ccc</span>;
+  <span class="hljs-attribute">margin</span>: auto;
+  <span class="hljs-attribute">border</span>: solid <span class="hljs-number">8px</span> yellow;
+  <span class="hljs-attribute">outline</span>: solid <span class="hljs-number">8px</span> orange;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;Dual border effect with outline and border&lt;/h2&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Dual border effect with outline and border<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-        &lt;div class=&quot;box&quot;&gt;&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -795,39 +755,35 @@ h2 {
     <summary>
         View OUTLINE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/outline-offset/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  padding: 40px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/outline-offset/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">40px</span>;
 }
 
-h2 {
-  text-align: center;
-  margin: 0 0 40px;
+<span class="hljs-selector-tag">h2</span> {
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span>;
 }
 
-.box {
-  width: 200px;
-  height: 200px;
-  background: #ccc;
-  margin: auto;
-  outline: solid 8px orange;
+<span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">200px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#ccc</span>;
+  <span class="hljs-attribute">margin</span>: auto;
+  <span class="hljs-attribute">outline</span>: solid <span class="hljs-number">8px</span> orange;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;outline&lt;/h2&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>outline<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-        &lt;div class=&quot;box&quot;&gt;&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -847,32 +803,28 @@ h2 {
     <summary>
         View OVERFLOW Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/overflow/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .box {
-  border: 1px solid #222;
-  width: 300px;
-  height: 300px;
-  overflow-y: hidden;
-  overflow-x: scroll;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/overflow/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#222</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">overflow-y</span>: hidden;
+  <span class="hljs-attribute">overflow-x</span>: scroll;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;box&quot;&gt;
-            &lt;img src=&quot;http://placehold.it/450x150&quot; alt=&quot;&quot; /&gt;
-            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae suscipit, autem magnam ab. Possimus perferendis officiis doloremque impedit quia quos labore optio quas cum incidunt. Blanditiis dicta, sunt numquam quos.&lt;/p&gt;
-            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae suscipit, autem magnam ab. Possimus perferendis officiis doloremque impedit quia quos labore optio quas cum incidunt. Blanditiis dicta, sunt numquam quos.&lt;/p&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"http://placehold.it/450x150"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span> /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae suscipit, autem magnam ab. Possimus perferendis officiis doloremque impedit quia quos labore optio quas cum incidunt. Blanditiis dicta, sunt numquam quos.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae suscipit, autem magnam ab. Possimus perferendis officiis doloremque impedit quia quos labore optio quas cum incidunt. Blanditiis dicta, sunt numquam quos.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -892,38 +844,34 @@ h2 {
     <summary>
         View OVERSCROLL-BEHAVIOR Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/overscroll-behavior/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p {
-  height: 100px;
-  width: 100px;
-  overflow: scroll;
-  margin: 20px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/o/overscroll-behavior/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">overflow</span>: scroll;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">20px</span>;
 }
 
-p:nth-child(2) {
-  overscroll-behavior: contain;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-pseudo">:nth-child(2)</span> {
+  <span class="hljs-attribute">overscroll-behavior</span>: contain;
 }
 
-body {
-  display: flex;
-  padding: 20px;
-  min-height: 200vh;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">200vh</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;&lt;strong&gt;Default!&lt;/strong&gt; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat placeat qui praesentium. Earum itaque architecto laboriosam voluptates beatae dolore molestiae quas magni quo non vel doloribus, accusamus repellendus quaerat aut!&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;Contain!&lt;/strong&gt; Perspiciatis dolorum corporis minus soluta! Culpa aspernatur non facilis porro. Magni qui cumque eligendi ducimus neque dolor minima, provident quod nihil? Nostrum deleniti laudantium illum corporis iure quasi error earum?&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Default!<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat placeat qui praesentium. Earum itaque architecto laboriosam voluptates beatae dolore molestiae quas magni quo non vel doloribus, accusamus repellendus quaerat aut!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Contain!<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Perspiciatis dolorum corporis minus soluta! Culpa aspernatur non facilis porro. Magni qui cumque eligendi ducimus neque dolor minima, provident quod nihil? Nostrum deleniti laudantium illum corporis iure quasi error earum?<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

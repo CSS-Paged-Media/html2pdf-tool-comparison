@@ -17,32 +17,28 @@ description:
     <summary>
         View GENERAL-SIBLING Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/g/general-sibling/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        img ~ p {
-  background-color: #FEF0B6;
-  padding: 5px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/g/general-sibling/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">img</span> ~ <span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#FEF0B6</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;&lt;strong&gt;This paragraph will not be selected.&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae blanditiis inventore, ducimus atque dolores vitae accusamus quas deleniti illum ab natus similique distinctio optio. Sed fugit harum, sequi ducimus?&lt;/p&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>This paragraph will not be selected.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae blanditiis inventore, ducimus atque dolores vitae accusamus quas deleniti illum ab natus similique distinctio optio. Sed fugit harum, sequi ducimus?<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-        &lt;img src=&quot;https://placeimg.com/200/200/arch&quot; alt=&quot;&quot; /&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://placeimg.com/200/200/arch"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span> /&gt;</span>
         
-        &lt;p&gt;&lt;strong&gt;This paragraph will be selected.&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur debitis eveniet iste ratione quibusdam hic accusamus! Eveniet dignissimos ad, nihil molestiae aspernatur consequuntur officia voluptatum tenetur velit voluptate. Temporibus! &lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>This paragraph will be selected.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur debitis eveniet iste ratione quibusdam hic accusamus! Eveniet dignissimos ad, nihil molestiae aspernatur consequuntur officia voluptatum tenetur velit voluptate. Temporibus! <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p&gt;&lt;strong&gt;And this paragraph will also be selected.&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas temporibus facere, porro et. Sed corrupti iusto reprehenderit ratione est deleniti molestias inventore consequuntur dicta tenetur! Animi excepturi quae blanditiis cum.&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>And this paragraph will also be selected.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas temporibus facere, porro et. Sed corrupti iusto reprehenderit ratione est deleniti molestias inventore consequuntur dicta tenetur! Animi excepturi quae blanditiis cum.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

@@ -17,63 +17,59 @@ description:
     <summary>
         View IMAGE-RENDERING Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/i/image-rendering/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .pixelated {
-  -ms-interpolation-mode: nearest-neighbor;
-      image-rendering: -moz-crisp-edges;
-      image-rendering: pixelated;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/i/image-rendering/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.pixelated</span> {
+  <span class="hljs-attribute">-ms-interpolation-mode</span>: nearest-neighbor;
+      <span class="hljs-attribute">image-rendering</span>: -moz-crisp-edges;
+      <span class="hljs-attribute">image-rendering</span>: pixelated;
 }
 
-.resize {
-  width: 45%;
-  clear: none;
-  float: left;
+<span class="hljs-selector-class">.resize</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">45%</span>;
+  <span class="hljs-attribute">clear</span>: none;
+  <span class="hljs-attribute">float</span>: left;
 }
-.resize:last-of-type {
-  float: right;
+<span class="hljs-selector-class">.resize</span><span class="hljs-selector-pseudo">:last-of-type</span> {
+  <span class="hljs-attribute">float</span>: right;
 }
-.resize img {
-  width: 100%;
-}
-
-img {
-  margin-bottom: 20px;
-  max-width: 100%;
+<span class="hljs-selector-class">.resize</span> <span class="hljs-selector-tag">img</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
 }
 
-body {
-  background-color: #333;
-  color: #fafafa;
-  padding: 20px;
+<span class="hljs-selector-tag">img</span> {
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">100%</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;original&quot;&gt;
-            &lt;h1&gt;Original image size&lt;/h1&gt; 
-            &lt;img src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png&quot; alt=&quot;&quot; /&gt;
-          &lt;/div&gt;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#333</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#fafafa</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span>;
+}
+
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"original"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Original image size<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span> 
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span> /&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;resize&quot;&gt;
-            &lt;h2&gt;&lt;code&gt;image-rendering: auto&lt;/code&gt;&lt;/h2&gt;
-            &lt;img src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png&quot; alt=&quot;&quot; /&gt;
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"resize"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>image-rendering: auto<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span> /&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;resize&quot;&gt;
-            &lt;h2&gt;&lt;code&gt;image-rendering: pixelated&lt;/code&gt;&lt;/h2&gt;
-            &lt;img class=&quot;pixelated&quot; src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png&quot; alt=&quot;&quot; /&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"resize"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>image-rendering: pixelated<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"pixelated"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/qrcode.png"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span> /&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -93,45 +89,41 @@ body {
     <summary>
         View INITIAL-LETTER Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/i/initial-letter/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5em;
-  line-height: 1.5;
-  padding: 50px 0;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/i/initial-letter/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">align-items</span>: center;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.5em</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.5</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">50px</span> <span class="hljs-number">0</span>;
 }
 
-article {
-  width: 60%;
+<span class="hljs-selector-tag">article</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">60%</span>;
 }
 
-article::first-letter {
-  -webkit-initial-letter: 4 5;
-  initial-letter: 4 5;
-  background: lightyellow;
-  border: 10px solid #000;
-  color: orange;
-  font-weight: bold;
-  margin-right: 1em;
-  padding: 2em;
+<span class="hljs-selector-tag">article</span><span class="hljs-selector-pseudo">::first-letter</span> {
+  <span class="hljs-attribute">-webkit-initial-letter</span>: <span class="hljs-number">4</span> <span class="hljs-number">5</span>;
+  <span class="hljs-attribute">initial-letter</span>: <span class="hljs-number">4</span> <span class="hljs-number">5</span>;
+  <span class="hljs-attribute">background</span>: lightyellow;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">10px</span> solid <span class="hljs-number">#000</span>;
+  <span class="hljs-attribute">color</span>: orange;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">2em</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;article&gt;It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way - in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.&lt;/article&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way - in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.<span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -151,51 +143,47 @@ article::first-letter {
     <summary>
         View ISOLATION Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_isolation --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .a {
-  background-color: lightgreen;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_isolation --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.a</span> {
+  <span class="hljs-attribute">background-color</span>: lightgreen;
 }
-#b {
-  width: 250px;
-  height: 250px;
+<span class="hljs-selector-id">#b</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">250px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">250px</span>;
 }
-.c {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  padding: 2px;
-  mix-blend-mode: difference;
+<span class="hljs-selector-class">.c</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid black;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">2px</span>;
+  <span class="hljs-attribute">mix-blend-mode</span>: difference;
 }
-#d {
-  isolation: auto;
+<span class="hljs-selector-id">#d</span> {
+  <span class="hljs-attribute">isolation</span>: auto;
 }
-#e {
-  isolation: isolate;
+<span class="hljs-selector-id">#e</span> {
+  <span class="hljs-attribute">isolation</span>: isolate;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-&lt;h1&gt;The isolation Property&lt;/h1&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The isolation Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-&lt;div id=&quot;b&quot; class=&quot;a&quot;&gt;
-  &lt;div id=&quot;d&quot;&gt;
-  &lt;div class=&quot;a c&quot;&gt;div d: isolation: auto;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div id=&quot;e&quot;&gt;
-  &lt;div class=&quot;a c&quot;&gt;div e: isolation: isolate;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"b"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"a"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"d"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"a c"</span>&gt;</span>div d: isolation: auto;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"e"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"a c"</span>&gt;</span>div e: isolation: isolate;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

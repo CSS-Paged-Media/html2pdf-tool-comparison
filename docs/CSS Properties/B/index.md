@@ -17,49 +17,45 @@ description:
     <summary>
         View BACKFACE-VISIBILITY Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_backface-visibility --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-   div {
-  position: relative;
-  height: 60px;
-  width: 60px;
-  background-color: red;
-  transform: rotateY(180deg);
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_backface-visibility --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+   <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">position</span>: relative;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">60px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">60px</span>;
+  <span class="hljs-attribute">background-color</span>: red;
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotateY</span>(<span class="hljs-number">180deg</span>);
 }
 
-#div1 {
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
+<span class="hljs-selector-id">#div1</span> {
+  <span class="hljs-attribute">-webkit-backface-visibility</span>: hidden; <span class="hljs-comment">/* Safari */</span>
+  <span class="hljs-attribute">backface-visibility</span>: hidden;
 }
 
-#div2 {
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: visible;
+<span class="hljs-selector-id">#div2</span> {
+  <span class="hljs-attribute">-webkit-backface-visibility</span>: hidden; <span class="hljs-comment">/* Safari */</span>
+  <span class="hljs-attribute">backface-visibility</span>: visible;
 }     
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;The backface-visibility Property&lt;/h1&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The backface-visibility Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;p&gt;This example shows the back face of two div elements.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This example shows the back face of two div elements.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p&gt;This div element has &quot;backface-visibility: hidden&quot;, and the back face of the div element is invisible:&lt;/p&gt;
-        &lt;div id=&quot;div1&quot;&gt;DIV 1&lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This div element has "backface-visibility: hidden", and the back face of the div element is invisible:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"div1"</span>&gt;</span>DIV 1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;p&gt;This div element has &quot;backface-visibility: visible&quot;, and the back face of the div element shows a mirror image of the front face:&lt;/p&gt;
-        &lt;div id=&quot;div2&quot;&gt;DIV 2&lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This div element has "backface-visibility: visible", and the back face of the div element shows a mirror image of the front face:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"div2"</span>&gt;</span>DIV 2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The backface-visibility property is not supported in Internet Explorer 9 and earlier versions. Safari supports it with a webkit prefix.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Note:<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> The backface-visibility property is not supported in Internet Explorer 9 and earlier versions. Safari supports it with a webkit prefix.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -79,68 +75,64 @@ description:
     <summary>
         View BACKGROUND-ATTACHMENT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-attachment/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        h2 {
-  text-align: center;
-  margin-top: 48px;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-attachment/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">h2</span> {
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">48px</span>;
 }
 
-div {
-  height: 200px;
-  width: 50%;
-  max-width: 600px;
-  margin: 32px auto;
-  overflow-x: hidden;
-  overflow-y: scroll;
+<span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">600px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">32px</span> auto;
+  <span class="hljs-attribute">overflow-x</span>: hidden;
+  <span class="hljs-attribute">overflow-y</span>: scroll;
 }
 
-.scroll {
-  background: url(&quot;http://lorempixel.com/600/200/animals&quot;);
-  background-attachment: scroll;
+<span class="hljs-selector-class">.scroll</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">"http://lorempixel.com/600/200/animals"</span>);
+  <span class="hljs-attribute">background-attachment</span>: scroll;
 }
 
-.fixed {
-  background: url(&quot;http://lorempixel.com/600/200/animals&quot;);
-  background-attachment: fixed;
+<span class="hljs-selector-class">.fixed</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">"http://lorempixel.com/600/200/animals"</span>);
+  <span class="hljs-attribute">background-attachment</span>: fixed;
 }
 
-.local {
-  background: url(&quot;http://lorempixel.com/600/200/animals&quot;);
-  background-attachment: local;
+<span class="hljs-selector-class">.local</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">"http://lorempixel.com/600/200/animals"</span>);
+  <span class="hljs-attribute">background-attachment</span>: local;
 }
 
-.expand {
-  height: 400px;
-  width: 100%;
+<span class="hljs-selector-class">.expand</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
 }
 
-.extra-space {
-  margin-bottom: 50px;
+<span class="hljs-selector-class">.extra-space</span> {
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">50px</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;&lt;code&gt;scroll (default)&lt;/code&gt;&lt;/h2&gt;
-        &lt;div class=&quot;scroll&quot;&gt;&lt;div class=&quot;expand&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>scroll (default)<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"scroll"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"expand"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;&lt;code&gt;fixed&lt;/code&gt;&lt;/h2&gt;
-        &lt;div class=&quot;fixed&quot;&gt;&lt;div class=&quot;expand&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>fixed<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fixed"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"expand"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;&lt;code&gt;local&lt;/code&gt;&lt;/h2&gt;
-        &lt;div class=&quot;local&quot;&gt;&lt;div class=&quot;expand&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>local<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"local"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"expand"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;br class=&quot;extra-space&quot;&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">br</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"extra-space"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -160,52 +152,48 @@ div {
     <summary>
         View BACKGROUND-BLEND-MODE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-blend-mode/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body, html {
-  margin: 0;
-  padding: 0;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-blend-mode/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span>, <span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
 }
 
-.container {
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.jpg');
-  height: 500px;
-  width: 50%;
-  display: block;
-  float: left;
-  background-color: red;
-  background-size: 100%;
-  background-repeat: no-repeat;
+<span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">background-image</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">'https://s3-us-west-2.amazonaws.com/s.cdpn.io/14179/image.jpg'</span>);
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">500px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">float</span>: left;
+  <span class="hljs-attribute">background-color</span>: red;
+  <span class="hljs-attribute">background-size</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">background-repeat</span>: no-repeat;
 }
 
-.container--blend {
-  background-blend-mode: screen;
+<span class="hljs-selector-class">.container--blend</span> {
+  <span class="hljs-attribute">background-blend-mode</span>: screen;
 }
 
-h1 {
-  color: white;
-  text-align: center;
+<span class="hljs-selector-tag">h1</span> {
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">text-align</span>: center;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;container&quot;&gt;
-            &lt;h1&gt;Example text&lt;/h1&gt;
-          &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Example text<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;container container--blend&quot;&gt;
-              &lt;h1&gt;Example text&lt;/h1&gt;
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container container--blend"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Example text<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -225,61 +213,57 @@ h1 {
     <summary>
         View BACKGROUND-CLIP Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-clip/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div { 
-  background-color: yellow;
-  width: 225px;
-  padding: 1em 0;
-  border: 5px solid rgba(156, 224, 251, .5);
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-clip/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span> { 
+  <span class="hljs-attribute">background-color</span>: yellow;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">225px</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid <span class="hljs-built_in">rgba</span>(<span class="hljs-number">156</span>, <span class="hljs-number">224</span>, <span class="hljs-number">251</span>, .<span class="hljs-number">5</span>);
 }
 
-.nomargin { margin: 0; }
+<span class="hljs-selector-class">.nomargin</span> { <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>; }
 
-#border-box { background-clip: border-box; }
+<span class="hljs-selector-id">#border-box</span> { <span class="hljs-attribute">background-clip</span>: border-box; }
 
-#padding-box { background-clip: padding-box; }
+<span class="hljs-selector-id">#padding-box</span> { <span class="hljs-attribute">background-clip</span>: padding-box; }
 
-#content-box { background-clip: content-box; }
+<span class="hljs-selector-id">#content-box</span> { <span class="hljs-attribute">background-clip</span>: content-box; }
 
-/* styling for the Pen, unrelated to background-clip */
+<span class="hljs-comment">/* styling for the Pen, unrelated to background-clip */</span>
 
-body { font-family: sans-serif; }
+<span class="hljs-selector-tag">body</span> { <span class="hljs-attribute">font-family</span>: sans-serif; }
 
-div { margin-bottom: 2em; }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;background-clip: border-box;&lt;/h2&gt;
-        &lt;div id=&quot;border-box&quot;&gt;
-          &lt;p&gt;This paragraph is the content.&lt;/p&gt;
-        &lt;/div&gt;
+<span class="hljs-selector-tag">div</span> { <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">2em</span>; }
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-clip: border-box;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"border-box"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is the content.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;background-clip: padding-box;&lt;/h2&gt;
-        &lt;div id=&quot;padding-box&quot;&gt;
-          &lt;p&gt;This paragraph is the content.&lt;/p&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-clip: padding-box;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"padding-box"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is the content.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;background-clip: content-box;&lt;/h2&gt;
-        &lt;h3&gt;browser default paragraph margins&lt;/h3&gt;
-        &lt;div id=&quot;content-box&quot;&gt;
-          &lt;p&gt;This paragraph is the content.&lt;/p&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-clip: content-box;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>browser default paragraph margins<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"content-box"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph is the content.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;background-clip: content-box;&lt;/h2&gt;
-        &lt;h3&gt;paragraph is set to margin: 0;&lt;/h3&gt;
-        &lt;div id=&quot;content-box&quot;&gt;
-          &lt;p class=&quot;nomargin&quot;&gt;This paragraph is the content.&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-clip: content-box;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>paragraph is set to margin: 0;<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"content-box"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nomargin"</span>&gt;</span>This paragraph is the content.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -299,46 +283,42 @@ div { margin-bottom: 2em; }
     <summary>
         View BACKGROUND-COLOR Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-color/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  background-color: #82a43a;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-color/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#82a43a</span>;
 }
 
-#purple {
-  background-color: #893AA4;
+<span class="hljs-selector-id">#purple</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#893AA4</span>;
 }
 
 
 
-/* styling for Pen, unrelated to background color */
-div {
-  width: 300px;
-  height: 300px;
+<span class="hljs-comment">/* styling for Pen, unrelated to background color */</span>
+<span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">300px</span>;
 }
 
-p {
-  padding: 1em;
-  color: white;
-  font-family: sans-serif;
-  font-size: 1.5em;
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">font-family</span>: sans-serif;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.5em</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;The &lt;code&gt;background-color&lt;/code&gt; for the body is #82a43a.&lt;/p&gt;
-        &lt;div id=&quot;purple&quot;&gt;
-          &lt;p&gt;The &lt;code&gt;background-color&lt;/code&gt; for this div is #893AA4.&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>background-color<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> for the body is #82a43a.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"purple"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>background-color<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> for this div is #893AA4.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -358,71 +338,67 @@ p {
     <summary>
         View BACKGROUND-IMAGE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-image/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        /* image background */
-#imageonly {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-image/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-comment">/* image background */</span>
+<span class="hljs-selector-id">#imageonly</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">652</span>/confectionary.png);
 }
 
-/* linear gradient background */
-#linear-gradient {
-  background: linear-gradient(black, white);
+<span class="hljs-comment">/* linear gradient background */</span>
+<span class="hljs-selector-id">#linear-gradient</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">linear-gradient</span>(black, white);
 }
 
-/* radial gradient background */
-#radial-gradient {
-  background: radial-gradient(circle, black, white);
+<span class="hljs-comment">/* radial gradient background */</span>
+<span class="hljs-selector-id">#radial-gradient</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">radial-gradient</span>(circle, black, white);
 }
 
-/*multiple background images */
+<span class="hljs-comment">/*multiple background images */</span>
 
-#multiimage {
-  background: 
-   url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png) bottom center no-repeat,
-   url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png) repeat; 
+<span class="hljs-selector-id">#multiimage</span> {
+  <span class="hljs-attribute">background</span>: 
+   <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">652</span>/codepen.png) bottom center no-repeat,
+   <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">652</span>/confectionary.png) repeat; 
 }
 
 
 
 
-/* styling for the Pen, unrelated to background */
-body { font-family: sans-serif; }
+<span class="hljs-comment">/* styling for the Pen, unrelated to background */</span>
+<span class="hljs-selector-tag">body</span> { <span class="hljs-attribute">font-family</span>: sans-serif; }
 
-div {
-  width: 300px;
-  height: 300px;
-  margin-bottom: 1.5em;
+<span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">1.5em</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;Image Background&lt;/h2&gt;
-        &lt;div id=&quot;imageonly&quot;&gt;
-          &lt;!-- image is from Subtle Patterns --&gt;
-        &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Image Background<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"imageonly"</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- image is from Subtle Patterns --&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;Gradient Background: Linear&lt;/h2&gt;
-        &lt;div id=&quot;linear-gradient&quot;&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Gradient Background: Linear<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"linear-gradient"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;Gradient Background: Radial&lt;/h2&gt;
-        &lt;div id=&quot;radial-gradient&quot;&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Gradient Background: Radial<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"radial-gradient"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;Multiple Backgound Images&lt;/h2&gt;
-        &lt;p&gt;Two images: CodePen logo &amp;amp; off-white pattern.&lt;/p&gt;
-        &lt;div id=&quot;multiimage&quot;&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Multiple Backgound Images<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Two images: CodePen logo <span class="hljs-symbol">&amp;amp;</span> off-white pattern.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"multiimage"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -442,34 +418,30 @@ div {
     <summary>
         View BACKGROUND-ORIGIN Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-origin/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .background-origin {
-  box-sizing: border-box;
-  height: 300px;
-  width: 300px;
-  background: url(&quot;http://lorempixel.com/300/300/cats&quot;) no-repeat;
-  border: 16px solid rgba(23, 23, 23, 0.5);
-  background-origin: padding-box;
-  background-size: cover;
-  padding: 16px;
-  margin: 0 auto;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-origin/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.background-origin</span> {
+  <span class="hljs-attribute">box-sizing</span>: border-box;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">"http://lorempixel.com/300/300/cats"</span>) no-repeat;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">16px</span> solid <span class="hljs-built_in">rgba</span>(<span class="hljs-number">23</span>, <span class="hljs-number">23</span>, <span class="hljs-number">23</span>, <span class="hljs-number">0.5</span>);
+  <span class="hljs-attribute">background-origin</span>: padding-box;
+  <span class="hljs-attribute">background-size</span>: cover;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">16px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> auto;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
           
-          &lt;div class=&quot;background-origin&quot;&gt;&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"background-origin"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -489,53 +461,49 @@ div {
     <summary>
         View BACKGROUND-POSITION Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-position/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div {
-  width: 400px;
-  height: 200px;
-  border: 5px solid #E18728;
-  margin-bottom: .5em;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png); 
-  background-repeat: no-repeat;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-position/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid <span class="hljs-number">#E18728</span>;
+  <span class="hljs-attribute">margin-bottom</span>: .<span class="hljs-number">5em</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">652</span>/codepen.png); 
+  <span class="hljs-attribute">background-repeat</span>: no-repeat;
 }
 
-#pixels { background-position: 350px 0; }
+<span class="hljs-selector-id">#pixels</span> { <span class="hljs-attribute">background-position</span>: <span class="hljs-number">350px</span> <span class="hljs-number">0</span>; }
 
-#percentages { background-position: 100% 0; }
+<span class="hljs-selector-id">#percentages</span> { <span class="hljs-attribute">background-position</span>: <span class="hljs-number">100%</span> <span class="hljs-number">0</span>; }
 
-#keywords { background-position: top right; }
+<span class="hljs-selector-id">#keywords</span> { <span class="hljs-attribute">background-position</span>: top right; }
 
 
-/* styling for Pen, unrelated to background-position */
-p { 
-  margin-top: 50px;
-  padding: 0 1em;
+<span class="hljs-comment">/* styling for Pen, unrelated to background-position */</span>
+<span class="hljs-selector-tag">p</span> { 
+  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">50px</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span> <span class="hljs-number">1em</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div id=&quot;pixels&quot;&gt;
-            &lt;p&gt;&lt;code&gt;background-position: 350px 0;&lt;/code&gt;&lt;/p&gt;
-          &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"pixels"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>background-position: 350px 0;<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div id=&quot;percentages&quot;&gt;
-            &lt;p&gt;&lt;code&gt;background-position: 100% 0;&lt;/code&gt;&lt;/p&gt;
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"percentages"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>background-position: 100% 0;<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div id=&quot;keywords&quot;&gt;
-            &lt;p&gt;&lt;code&gt;background-position: top right;&lt;/code&gt;&lt;/p&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"keywords"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>background-position: top right;<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -555,56 +523,52 @@ p {
     <summary>
         View BACKGROUND-REPEAT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-repeat/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        #repeat { background-repeat: repeat; }
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-repeat/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-id">#repeat</span> { <span class="hljs-attribute">background-repeat</span>: repeat; }
 
-#repeat-x { background-repeat: repeat-x; }
+<span class="hljs-selector-id">#repeat-x</span> { <span class="hljs-attribute">background-repeat</span>: repeat-x; }
 
-#repeat-y { background-repeat: repeat-y; }
+<span class="hljs-selector-id">#repeat-y</span> { <span class="hljs-attribute">background-repeat</span>: repeat-y; }
 
-#no-repeat { background-repeat: no-repeat; }
+<span class="hljs-selector-id">#no-repeat</span> { <span class="hljs-attribute">background-repeat</span>: no-repeat; }
 
 
 
-/* styling for the Pen */
+<span class="hljs-comment">/* styling for the Pen */</span>
 
-body { font-family: sans-serif; }
+<span class="hljs-selector-tag">body</span> { <span class="hljs-attribute">font-family</span>: sans-serif; }
 
-div {
-  width: 400px;
-  height: 125px;
-  border: 5px solid #E18728;
-  margin-bottom: 2em;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png); 
+<span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">125px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid <span class="hljs-number">#E18728</span>;
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">652</span>/codepen.png); 
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;background-repeat: repeat; &lt;/h2&gt;
-        &lt;div id=&quot;repeat&quot;&gt;
-        &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-repeat: repeat; <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"repeat"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;background-repeat: repeat-x;&lt;/h2&gt;
-        &lt;div id=&quot;repeat-x&quot;&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-repeat: repeat-x;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"repeat-x"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;background-repeat: repeat-y;&lt;/h2&gt;
-        &lt;div id=&quot;repeat-y&quot;&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-repeat: repeat-y;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"repeat-y"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;background-repeat: no-repeat;&lt;/h2&gt;
-        &lt;div id=&quot;no-repeat&quot;&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-repeat: no-repeat;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"no-repeat"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -624,54 +588,50 @@ div {
     <summary>
         View BACKGROUND-SIZE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-size/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        div {
-  width: 900px;
-  height: 400px;
-  border: 1px solid black;
-  margin-bottom: 1em;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/ferns-unsplash.jpg);
-  background-repeat: no-repeat;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/background-size/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">900px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">400px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid black;
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">background-image</span>: <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">652</span>/ferns-unsplash.jpg);
+  <span class="hljs-attribute">background-repeat</span>: no-repeat;
 }
 
-#cover { background-size: cover; }
+<span class="hljs-selector-id">#cover</span> { <span class="hljs-attribute">background-size</span>: cover; }
 
-#contain { background-size: contain; }
+<span class="hljs-selector-id">#contain</span> { <span class="hljs-attribute">background-size</span>: contain; }
 
-#multi {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/ferns-unsplash.jpg);
-  background-size: 300px 100px, cover;
+<span class="hljs-selector-id">#multi</span> {
+  <span class="hljs-attribute">background-image</span>: <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">652</span>/rectangle-overlay.png), <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">652</span>/ferns-unsplash.jpg);
+  <span class="hljs-attribute">background-size</span>: <span class="hljs-number">300px</span> <span class="hljs-number">100px</span>, cover;
 }
 
-/* styling for pen, unrelated to background-size */
-body { font-family: sans-serif; }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;!-- image from unsplash.com --&gt;
-&lt;h2&gt;background-size: cover;&lt;/h2&gt;
-&lt;div id=&quot;cover&quot;&gt;
-&lt;/div&gt;
+<span class="hljs-comment">/* styling for pen, unrelated to background-size */</span>
+<span class="hljs-selector-tag">body</span> { <span class="hljs-attribute">font-family</span>: sans-serif; }
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- image from unsplash.com --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-size: cover;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"cover"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-&lt;h2&gt;background-size: contain;&lt;/h2&gt;
-&lt;div id=&quot;contain&quot;&gt;
-&lt;/div&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>background-size: contain;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"contain"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-&lt;h2&gt;Multiple Images&lt;/h2&gt;
-&lt;p&gt;Semi-transparent white overlay at top left and fern image. Overlay sized in pixels, fern image set to cover. &lt;/p&gt;
-&lt;div id=&quot;multi&quot;&gt;
-&lt;/div&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Multiple Images<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Semi-transparent white overlay at top left and fern image. Overlay sized in pixels, fern image set to cover. <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"multi"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -691,37 +651,33 @@ body { font-family: sans-serif; }
     <summary>
         View BACKGROUND Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_background-color_elements --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        h1 {
-  background-color: green;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_background-color_elements --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">h1</span> {
+  <span class="hljs-attribute">background-color</span>: green;
 }
 
-div {
-  background-color: lightblue;
+<span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">background-color</span>: lightblue;
 }
 
-p {
-  background-color: yellow;
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">background-color</span>: yellow;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;CSS background-color example!&lt;/h1&gt;
-        &lt;div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>CSS background-color example!<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
         This is a text inside a div element.
-        &lt;p&gt;This paragraph has its own background color.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This paragraph has its own background color.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         We are still in the div element.
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -741,28 +697,24 @@ p {
     <summary>
         View BLEED Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from  --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        @page:left {
-            bleed: 10pt;	
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from  --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-keyword">@page</span><span class="hljs-selector-pseudo">:left</span> {
+            <span class="hljs-attribute">bleed</span>: <span class="hljs-number">10pt</span>;	
         }
 
-        @page:top {
-            bleed: 5cm;	
+        <span class="hljs-keyword">@page</span><span class="hljs-selector-pseudo">:top</span> {
+            <span class="hljs-attribute">bleed</span>: <span class="hljs-number">5cm</span>;	
         }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Test Bleed&lt;/h1&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Test Bleed<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -782,70 +734,66 @@ p {
     <summary>
         View BORDER-COLLAPSE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/border-collapse/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-   table {
-  border-spacing: 1em;
-  margin: 1rem auto;
-  border-collapse: collapse;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/border-collapse/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+   <span class="hljs-selector-tag">table</span> {
+  <span class="hljs-attribute">border-spacing</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">1rem</span> auto;
+  <span class="hljs-attribute">border-collapse</span>: collapse;
 }
-td {
-  padding: 1rem 1.2rem;
-  border-radius: 6px;
-  border: 1px solid red;
+<span class="hljs-selector-tag">td</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1rem</span> <span class="hljs-number">1.2rem</span>;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid red;
 }
-body {
-  text-align: center;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">text-align</span>: center;
 }     
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;table&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;2&lt;/td&gt;
-              &lt;td&gt;3&lt;/td&gt;
-              &lt;td&gt;4&lt;/td&gt;
-              &lt;td&gt;5&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;2&lt;/td&gt;
-              &lt;td&gt;3&lt;/td&gt;
-              &lt;td&gt;4&lt;/td&gt;
-              &lt;td&gt;5&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;2&lt;/td&gt;
-              &lt;td&gt;3&lt;/td&gt;
-              &lt;td&gt;4&lt;/td&gt;
-              &lt;td&gt;5&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;2&lt;/td&gt;
-              &lt;td&gt;3&lt;/td&gt;
-              &lt;td&gt;4&lt;/td&gt;
-              &lt;td&gt;5&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;2&lt;/td&gt;
-              &lt;td&gt;3&lt;/td&gt;
-              &lt;td&gt;4&lt;/td&gt;
-              &lt;td&gt;5&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/table&gt;   
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>   
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -865,47 +813,43 @@ body {
     <summary>
         View BORDER-IMAGE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/border-image/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .repeating-linear {
-  color: pink;
-  border: 10px solid pink;
-  border-image: repeating-linear-gradient( 45deg, pink, pink 1%, purple 1%, purple 8%) 10;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/border-image/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.repeating-linear</span> {
+  <span class="hljs-attribute">color</span>: pink;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">10px</span> solid pink;
+  <span class="hljs-attribute">border-image</span>: <span class="hljs-built_in">repeating-linear-gradient</span>( <span class="hljs-number">45deg</span>, pink, pink <span class="hljs-number">1%</span>, purple <span class="hljs-number">1%</span>, purple <span class="hljs-number">8%</span>) <span class="hljs-number">10</span>;
 }
 
-.repeating-linear:hover {
-  border-image: repeating-linear-gradient( 45deg, purple, purple 1%, pink 1%, pink 8%) 10;
-  color: purple;
+<span class="hljs-selector-class">.repeating-linear</span><span class="hljs-selector-pseudo">:hover</span> {
+  <span class="hljs-attribute">border-image</span>: <span class="hljs-built_in">repeating-linear-gradient</span>( <span class="hljs-number">45deg</span>, purple, purple <span class="hljs-number">1%</span>, pink <span class="hljs-number">1%</span>, pink <span class="hljs-number">8%</span>) <span class="hljs-number">10</span>;
+  <span class="hljs-attribute">color</span>: purple;
 }
-/* styling for Pen, unrelated to border-image */
+<span class="hljs-comment">/* styling for Pen, unrelated to border-image */</span>
 
 * {
-  box-sizing: border-box;
+  <span class="hljs-attribute">box-sizing</span>: border-box;
 }
 
-body {
-  background-color: #1D1F1F;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#1D1F1F</span>;
 }
 
-div {
-  margin: 4em auto;
-  width: 40vw;
-  height: 40vh;
+<span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">4em</span> auto;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">40vw</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">40vh</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;repeating-linear&quot;&gt;
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"repeating-linear"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -925,46 +869,42 @@ div {
     <summary>
         View BORDER-RADIUS Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_border_round --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p.normal {
-  border: 2px solid red;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/css/tryit.asp?filename=trycss_border_round --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.normal</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid red;
 }
 
-p.round1 {
-  border: 2px solid red;
-  border-radius: 5px;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.round1</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid red;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">5px</span>;
 }
 
-p.round2 {
-  border: 2px solid red;
-  border-radius: 8px;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.round2</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid red;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">8px</span>;
 }
 
-p.round3 {
-  border: 2px solid red;
-  border-radius: 12px;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.round3</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid red;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">12px</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-&lt;h2&gt;The border-radius Property&lt;/h2&gt;
-&lt;p&gt;This property is used to add rounded borders to an element:&lt;/p&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>The border-radius Property<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This property is used to add rounded borders to an element:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-&lt;p class=&quot;normal&quot;&gt;Normal border&lt;/p&gt;
-&lt;p class=&quot;round1&quot;&gt;Round border&lt;/p&gt;
-&lt;p class=&quot;round2&quot;&gt;Rounder border&lt;/p&gt;
-&lt;p class=&quot;round3&quot;&gt;Roundest border&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"normal"</span>&gt;</span>Normal border<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"round1"</span>&gt;</span>Round border<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"round2"</span>&gt;</span>Rounder border<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"round3"</span>&gt;</span>Roundest border<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -984,71 +924,67 @@ p.round3 {
     <summary>
         View BORDER-SPACING Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/border-spacing/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        table {
-  border-spacing: 1em;
-  margin: 1rem auto;
-  border-collapse: collapse;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/border-spacing/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">table</span> {
+  <span class="hljs-attribute">border-spacing</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">1rem</span> auto;
+  <span class="hljs-attribute">border-collapse</span>: collapse;
 }
-td {
-  padding: 1rem 1.2rem;
-  border-radius: 6px;
-  border: 1px solid red;
+<span class="hljs-selector-tag">td</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1rem</span> <span class="hljs-number">1.2rem</span>;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid red;
 }
 
-body {
-  text-align: center;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">text-align</span>: center;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;table&gt;
-          &lt;tr&gt;
-            &lt;td&gt;1&lt;/td&gt;
-            &lt;td&gt;2&lt;/td&gt;
-            &lt;td&gt;3&lt;/td&gt;
-            &lt;td&gt;4&lt;/td&gt;
-            &lt;td&gt;5&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;1&lt;/td&gt;
-            &lt;td&gt;2&lt;/td&gt;
-            &lt;td&gt;3&lt;/td&gt;
-            &lt;td&gt;4&lt;/td&gt;
-            &lt;td&gt;5&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;1&lt;/td&gt;
-            &lt;td&gt;2&lt;/td&gt;
-            &lt;td&gt;3&lt;/td&gt;
-            &lt;td&gt;4&lt;/td&gt;
-            &lt;td&gt;5&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;1&lt;/td&gt;
-            &lt;td&gt;2&lt;/td&gt;
-            &lt;td&gt;3&lt;/td&gt;
-            &lt;td&gt;4&lt;/td&gt;
-            &lt;td&gt;5&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;1&lt;/td&gt;
-            &lt;td&gt;2&lt;/td&gt;
-            &lt;td&gt;3&lt;/td&gt;
-            &lt;td&gt;4&lt;/td&gt;
-            &lt;td&gt;5&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/table&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1068,117 +1004,113 @@ body {
     <summary>
         View BORDER Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/border/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 2em;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/border/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">align-items</span>: flex-start;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
+  <span class="hljs-attribute">justify-content</span>: space-between;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">2em</span>;
 }
 
-.box {
-  background: #eaeaea;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-basis: 17%;
-  height: 200px;
-  margin-bottom: 1em;
+<span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#eaeaea</span>;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">align-items</span>: center;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">flex-basis</span>: <span class="hljs-number">17%</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>;
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">1em</span>;
 }
 
-.box-1 {
-  border: none;
+<span class="hljs-selector-class">.box-1</span> {
+  <span class="hljs-attribute">border</span>: none;
 }
 
-.box-2 {
-  border: 5px hidden red;
+<span class="hljs-selector-class">.box-2</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> hidden red;
 }
 
-.box-3 {
-  border: 5px solid orange;
+<span class="hljs-selector-class">.box-3</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid orange;
 }
 
-.box-4 {
-  border: 5px dashed orange;
+<span class="hljs-selector-class">.box-4</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> dashed orange;
 }
 
-.box-5 {
-  border: 5px dotted orange;
+<span class="hljs-selector-class">.box-5</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> dotted orange;
 }
 
-.box-6 {
-  border: 5px double orange;
+<span class="hljs-selector-class">.box-6</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> double orange;
 }
 
-.box-7 {
-  border: 5px groove orange;
+<span class="hljs-selector-class">.box-7</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> groove orange;
 }
 
-.box-8 {
-  border: 5px ridge orange;
+<span class="hljs-selector-class">.box-8</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> ridge orange;
 }
 
-.box-9 {
-  border: 5px inset orange;
+<span class="hljs-selector-class">.box-9</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> inset orange;
 }
 
-.box-10 {
-  border: 5px outset orange;
+<span class="hljs-selector-class">.box-10</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> outset orange;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;box box-1&quot;&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-1"</span>&gt;</span>
             none
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;box box-2&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-2"</span>&gt;</span>
             hidden
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;box box-3&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-3"</span>&gt;</span>
             solid
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;box box-4&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-4"</span>&gt;</span>
             dashed
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;box box-5&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-5"</span>&gt;</span>
             dotted
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;box box-6&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-6"</span>&gt;</span>
             double
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;box box-7&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-7"</span>&gt;</span>
             groove
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;box box-8&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-8"</span>&gt;</span>
             ridge
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;box box-9&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-9"</span>&gt;</span>
             inset
-          &lt;/div&gt;
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;box box-10&quot;&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box-10"</span>&gt;</span>
             outset
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1198,58 +1130,54 @@ body {
     <summary>
         View BOTTOM Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/t/top-right-bottom-left/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {
-  padding: 40px 0;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/t/top-right-bottom-left/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">40px</span> <span class="hljs-number">0</span>;
 }
 
-.box {
-  width: 10rem;
-  height: 10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: Silver;
-  position: relative;
+<span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">10rem</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">10rem</span>;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">align-items</span>: center;
+  <span class="hljs-attribute">background-color</span>: Silver;
+  <span class="hljs-attribute">position</span>: relative;
 }
 
-.box--positive {
-    bottom: 50px;
+<span class="hljs-selector-class">.box--positive</span> {
+    <span class="hljs-attribute">bottom</span>: <span class="hljs-number">50px</span>;
 }
 
-.box--negative {
-  bottom: -50px;
+<span class="hljs-selector-class">.box--negative</span> {
+  <span class="hljs-attribute">bottom</span>: -<span class="hljs-number">50px</span>;
 }
 
-.outline {
-  display: inline-block;
-  border: 2px dashed black;
-  margin: 40px 0 0 40px;
+<span class="hljs-selector-class">.outline</span> {
+  <span class="hljs-attribute">display</span>: inline-block;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> dashed black;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">40px</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;outline&quot;&gt;
-            &lt;div class=&quot;box box--positive&quot;&gt;
-              &lt;pre&gt;positive&lt;/pre&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"outline"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box--positive"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span>positive<span class="hljs-tag">&lt;/<span class="hljs-name">pre</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;div class=&quot;outline&quot;&gt;
-            &lt;div class=&quot;box box--negative&quot;&gt;
-              &lt;pre&gt;negative&lt;/pre&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"outline"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box box--negative"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span>negative<span class="hljs-tag">&lt;/<span class="hljs-name">pre</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1269,48 +1197,44 @@ body {
     <summary>
         View BOX-DECORATION-BREAK Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-decoration-break --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-       span {
-  border: 5px solid red;
-  padding:  0em 1em;
-  border-radius: 16px;
-  font-size: 24px;
-  line-height: 2;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-decoration-break --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+       <span class="hljs-selector-tag">span</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">5px</span> solid red;
+  <span class="hljs-attribute">padding</span>:  <span class="hljs-number">0em</span> <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">16px</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">24px</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">2</span>;
 }
 
-span.ex1 { 
-  -webkit-box-decoration-break: clone;
-  -o-box-decoration-break: clone;
-  box-decoration-break: clone;
+<span class="hljs-selector-tag">span</span><span class="hljs-selector-class">.ex1</span> { 
+  <span class="hljs-attribute">-webkit-box-decoration-break</span>: clone;
+  <span class="hljs-attribute">-o-box-decoration-break</span>: clone;
+  <span class="hljs-attribute">box-decoration-break</span>: clone;
 }
 
-span.ex2 { 
-  -webkit-box-decoration-break: slice;
-  -o-box-decoration-break: slice;
-  box-decoration-break: slice;
+<span class="hljs-selector-tag">span</span><span class="hljs-selector-class">.ex2</span> { 
+  <span class="hljs-attribute">-webkit-box-decoration-break</span>: slice;
+  <span class="hljs-attribute">-o-box-decoration-break</span>: slice;
+  <span class="hljs-attribute">box-decoration-break</span>: slice;
 } 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;The box-decoration-break Property&lt;/h1&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The box-decoration-break Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;h2&gt;box-decoration-break: clone:&lt;/h2&gt;
-        &lt;span class=&quot;ex1&quot;&gt;CSS&lt;br&gt;is&lt;br&gt;easy&lt;br&gt;to learn&lt;/span&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>box-decoration-break: clone:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex1"</span>&gt;</span>CSS<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>is<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>easy<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>to learn<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
         
-        &lt;h2&gt;box-decoration-break: slice (default):&lt;/h2&gt;
-        &lt;span class=&quot;ex2&quot;&gt;CSS&lt;br&gt;is&lt;br&gt;easy&lt;br&gt;to learn&lt;/span&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>box-decoration-break: slice (default):<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex2"</span>&gt;</span>CSS<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>is<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>easy<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>to learn<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
         
         
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1330,313 +1254,309 @@ span.ex2 {
     <summary>
         View BOX-SHADOW Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/box-shadow/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        body {background:#ccc}
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/box-shadow/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">body</span> {<span class="hljs-attribute">background</span>:<span class="hljs-number">#ccc</span>}
 
-.box h3{
-  text-align:center;
-	position:relative;
-	top:80px;
+<span class="hljs-selector-class">.box</span> <span class="hljs-selector-tag">h3</span>{
+  <span class="hljs-attribute">text-align</span>:center;
+	<span class="hljs-attribute">position</span>:relative;
+	<span class="hljs-attribute">top</span>:<span class="hljs-number">80px</span>;
 }
-.box {
-	width:70%;
-	height:200px;
-	background:#FFF;
-	margin:40px auto;
+<span class="hljs-selector-class">.box</span> {
+	<span class="hljs-attribute">width</span>:<span class="hljs-number">70%</span>;
+	<span class="hljs-attribute">height</span>:<span class="hljs-number">200px</span>;
+	<span class="hljs-attribute">background</span>:<span class="hljs-number">#FFF</span>;
+	<span class="hljs-attribute">margin</span>:<span class="hljs-number">40px</span> auto;
 }
-/*==================================================
+<span class="hljs-comment">/*==================================================
  * Effect 1
- * ===============================================*/
-.effect1{
-	-webkit-box-shadow: 0 10px 6px -6px #777;
-	   -moz-box-shadow: 0 10px 6px -6px #777;
-	        box-shadow: 0 10px 6px -6px #777;
+ * ===============================================*/</span>
+<span class="hljs-selector-class">.effect1</span>{
+	<span class="hljs-attribute">-webkit-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">10px</span> <span class="hljs-number">6px</span> -<span class="hljs-number">6px</span> <span class="hljs-number">#777</span>;
+	   <span class="hljs-attribute">-moz-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">10px</span> <span class="hljs-number">6px</span> -<span class="hljs-number">6px</span> <span class="hljs-number">#777</span>;
+	        <span class="hljs-attribute">box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">10px</span> <span class="hljs-number">6px</span> -<span class="hljs-number">6px</span> <span class="hljs-number">#777</span>;
 }
 
-/*==================================================
+<span class="hljs-comment">/*==================================================
  * Effect 2
- * ===============================================*/
-.effect2
+ * ===============================================*/</span>
+<span class="hljs-selector-class">.effect2</span>
 {
-  position: relative;
+  <span class="hljs-attribute">position</span>: relative;
 }
-.effect2:before, .effect2:after
+<span class="hljs-selector-class">.effect2</span><span class="hljs-selector-pseudo">:before</span>, <span class="hljs-selector-class">.effect2</span><span class="hljs-selector-pseudo">:after</span>
 {
-  z-index: -1;
-  position: absolute;
-  content: &quot;&quot;;
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
+  <span class="hljs-attribute">z-index</span>: -<span class="hljs-number">1</span>;
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+  <span class="hljs-attribute">bottom</span>: <span class="hljs-number">15px</span>;
+  <span class="hljs-attribute">left</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">80%</span>;
+  <span class="hljs-attribute">max-width</span>:<span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-webkit-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">15px</span> <span class="hljs-number">10px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-moz-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">15px</span> <span class="hljs-number">10px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">15px</span> <span class="hljs-number">10px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-webkit-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-moz-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-o-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-ms-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
 }
-.effect2:after
+<span class="hljs-selector-class">.effect2</span><span class="hljs-selector-pseudo">:after</span>
 {
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
-  right: 10px;
-  left: auto;
+  <span class="hljs-attribute">-webkit-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-moz-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-o-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-ms-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">right</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">left</span>: auto;
 }
 
-/*==================================================
+<span class="hljs-comment">/*==================================================
  * Effect 3
- * ===============================================*/
-.effect3
+ * ===============================================*/</span>
+<span class="hljs-selector-class">.effect3</span>
 {
-  position: relative;
+  <span class="hljs-attribute">position</span>: relative;
 }
-.effect3:before
+<span class="hljs-selector-class">.effect3</span><span class="hljs-selector-pseudo">:before</span>
 {
-  z-index: -1;
-  position: absolute;
-  content: &quot;&quot;;
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
+  <span class="hljs-attribute">z-index</span>: -<span class="hljs-number">1</span>;
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+  <span class="hljs-attribute">bottom</span>: <span class="hljs-number">15px</span>;
+  <span class="hljs-attribute">left</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">80%</span>;
+  <span class="hljs-attribute">max-width</span>:<span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-webkit-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">15px</span> <span class="hljs-number">10px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-moz-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">15px</span> <span class="hljs-number">10px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">15px</span> <span class="hljs-number">10px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-webkit-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-moz-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-o-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-ms-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">3deg</span>);
 }
 
-/*==================================================
+<span class="hljs-comment">/*==================================================
  * Effect 4
- * ===============================================*/
-.effect4
+ * ===============================================*/</span>
+<span class="hljs-selector-class">.effect4</span>
 {
-  position: relative;
+  <span class="hljs-attribute">position</span>: relative;
 }
-.effect4:after
+<span class="hljs-selector-class">.effect4</span><span class="hljs-selector-pseudo">:after</span>
 {
-  z-index: -1;
-  position: absolute;
-  content: &quot;&quot;;
-  bottom: 15px;
-  right: 10px;
-  left: auto;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
+  <span class="hljs-attribute">z-index</span>: -<span class="hljs-number">1</span>;
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+  <span class="hljs-attribute">bottom</span>: <span class="hljs-number">15px</span>;
+  <span class="hljs-attribute">right</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">left</span>: auto;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">80%</span>;
+  <span class="hljs-attribute">max-width</span>:<span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-webkit-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">15px</span> <span class="hljs-number">10px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-moz-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">15px</span> <span class="hljs-number">10px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">15px</span> <span class="hljs-number">10px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-webkit-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-moz-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-o-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">-ms-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
 }
 
-/*==================================================
+<span class="hljs-comment">/*==================================================
  * Effect 5
- * ===============================================*/
-.effect5
+ * ===============================================*/</span>
+<span class="hljs-selector-class">.effect5</span>
 {
-  position: relative;
+  <span class="hljs-attribute">position</span>: relative;
 }
-.effect5:before, .effect5:after
+<span class="hljs-selector-class">.effect5</span><span class="hljs-selector-pseudo">:before</span>, <span class="hljs-selector-class">.effect5</span><span class="hljs-selector-pseudo">:after</span>
 {
-  z-index: -1;
-  position: absolute;
-  content: &quot;&quot;;
-  bottom: 25px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 35px 20px #777;
-  -moz-box-shadow: 0 35px 20px #777;
-  box-shadow: 0 35px 20px #777;
-  -webkit-transform: rotate(-8deg);
-  -moz-transform: rotate(-8deg);
-  -o-transform: rotate(-8deg);
-  -ms-transform: rotate(-8deg);
-  transform: rotate(-8deg);
+  <span class="hljs-attribute">z-index</span>: -<span class="hljs-number">1</span>;
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+  <span class="hljs-attribute">bottom</span>: <span class="hljs-number">25px</span>;
+  <span class="hljs-attribute">left</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">80%</span>;
+  <span class="hljs-attribute">max-width</span>:<span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-webkit-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">35px</span> <span class="hljs-number">20px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-moz-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">35px</span> <span class="hljs-number">20px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">35px</span> <span class="hljs-number">20px</span> <span class="hljs-number">#777</span>;
+  <span class="hljs-attribute">-webkit-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">8deg</span>);
+  <span class="hljs-attribute">-moz-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">8deg</span>);
+  <span class="hljs-attribute">-o-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">8deg</span>);
+  <span class="hljs-attribute">-ms-transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">8deg</span>);
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotate</span>(-<span class="hljs-number">8deg</span>);
 }
-.effect5:after
+<span class="hljs-selector-class">.effect5</span><span class="hljs-selector-pseudo">:after</span>
 {
-  -webkit-transform: rotate(8deg);
-  -moz-transform: rotate(8deg);
-  -o-transform: rotate(8deg);
-  -ms-transform: rotate(8deg);
-  transform: rotate(8deg);
-  right: 10px;
-  left: auto;
+  <span class="hljs-attribute">-webkit-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">8deg</span>);
+  <span class="hljs-attribute">-moz-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">8deg</span>);
+  <span class="hljs-attribute">-o-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">8deg</span>);
+  <span class="hljs-attribute">-ms-transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">8deg</span>);
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">8deg</span>);
+  <span class="hljs-attribute">right</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">left</span>: auto;
 }
 
-/*==================================================
+<span class="hljs-comment">/*==================================================
  * Effect 6
- * ===============================================*/
-.effect6
+ * ===============================================*/</span>
+<span class="hljs-selector-class">.effect6</span>
 {
-  	position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  	<span class="hljs-attribute">position</span>:relative;
+    <span class="hljs-attribute">-webkit-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.3</span>), <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>) inset;
+       <span class="hljs-attribute">-moz-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.3</span>), <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>) inset;
+            <span class="hljs-attribute">box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.3</span>), <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>) inset;
 }
-.effect6:before, .effect6:after
+<span class="hljs-selector-class">.effect6</span><span class="hljs-selector-pseudo">:before</span>, <span class="hljs-selector-class">.effect6</span><span class="hljs-selector-pseudo">:after</span>
 {
-	content:&quot;&quot;;
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:50%;
-    bottom:0;
-    left:10px;
-    right:10px;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
+	<span class="hljs-attribute">content</span>:<span class="hljs-string">""</span>;
+    <span class="hljs-attribute">position</span>:absolute;
+    <span class="hljs-attribute">z-index</span>:-<span class="hljs-number">1</span>;
+    <span class="hljs-attribute">-webkit-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0.8</span>);
+    <span class="hljs-attribute">-moz-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0.8</span>);
+    <span class="hljs-attribute">box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0.8</span>);
+    <span class="hljs-attribute">top</span>:<span class="hljs-number">50%</span>;
+    <span class="hljs-attribute">bottom</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">left</span>:<span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">right</span>:<span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">-moz-border-radius</span>:<span class="hljs-number">100px</span> / <span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">border-radius</span>:<span class="hljs-number">100px</span> / <span class="hljs-number">10px</span>;
 }
-.effect6:after
+<span class="hljs-selector-class">.effect6</span><span class="hljs-selector-pseudo">:after</span>
 {
-	right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
+	<span class="hljs-attribute">right</span>:<span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">left</span>:auto;
+    <span class="hljs-attribute">-webkit-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+       <span class="hljs-attribute">-moz-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+        <span class="hljs-attribute">-ms-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+         <span class="hljs-attribute">-o-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+            <span class="hljs-attribute">transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
 }
 
-/*==================================================
+<span class="hljs-comment">/*==================================================
  * Effect 7
- * ===============================================*/
-.effect7
+ * ===============================================*/</span>
+<span class="hljs-selector-class">.effect7</span>
 {
-  	position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  	<span class="hljs-attribute">position</span>:relative;
+    <span class="hljs-attribute">-webkit-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.3</span>), <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>) inset;
+       <span class="hljs-attribute">-moz-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.3</span>), <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>) inset;
+            <span class="hljs-attribute">box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.3</span>), <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>) inset;
 }
-.effect7:before, .effect7:after
+<span class="hljs-selector-class">.effect7</span><span class="hljs-selector-pseudo">:before</span>, <span class="hljs-selector-class">.effect7</span><span class="hljs-selector-pseudo">:after</span>
 {
-	content:&quot;&quot;;
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:0;
-    bottom:0;
-    left:10px;
-    right:10px;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
+	<span class="hljs-attribute">content</span>:<span class="hljs-string">""</span>;
+    <span class="hljs-attribute">position</span>:absolute;
+    <span class="hljs-attribute">z-index</span>:-<span class="hljs-number">1</span>;
+    <span class="hljs-attribute">-webkit-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0.8</span>);
+    <span class="hljs-attribute">-moz-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0.8</span>);
+    <span class="hljs-attribute">box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0.8</span>);
+    <span class="hljs-attribute">top</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">bottom</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">left</span>:<span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">right</span>:<span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">-moz-border-radius</span>:<span class="hljs-number">100px</span> / <span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">border-radius</span>:<span class="hljs-number">100px</span> / <span class="hljs-number">10px</span>;
 }
-.effect7:after
+<span class="hljs-selector-class">.effect7</span><span class="hljs-selector-pseudo">:after</span>
 {
-	right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
+	<span class="hljs-attribute">right</span>:<span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">left</span>:auto;
+    <span class="hljs-attribute">-webkit-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+       <span class="hljs-attribute">-moz-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+        <span class="hljs-attribute">-ms-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+         <span class="hljs-attribute">-o-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+            <span class="hljs-attribute">transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
 }
 
-/*==================================================
+<span class="hljs-comment">/*==================================================
  * Effect 8
- * ===============================================*/
-.effect8
+ * ===============================================*/</span>
+<span class="hljs-selector-class">.effect8</span>
 {
-  	position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  	<span class="hljs-attribute">position</span>:relative;
+    <span class="hljs-attribute">-webkit-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.3</span>), <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>) inset;
+       <span class="hljs-attribute">-moz-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.3</span>), <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>) inset;
+            <span class="hljs-attribute">box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.3</span>), <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">40px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>) inset;
 }
-.effect8:before, .effect8:after
+<span class="hljs-selector-class">.effect8</span><span class="hljs-selector-pseudo">:before</span>, <span class="hljs-selector-class">.effect8</span><span class="hljs-selector-pseudo">:after</span>
 {
-	content:&quot;&quot;;
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:10px;
-    bottom:10px;
-    left:0;
-    right:0;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
+	<span class="hljs-attribute">content</span>:<span class="hljs-string">""</span>;
+    <span class="hljs-attribute">position</span>:absolute;
+    <span class="hljs-attribute">z-index</span>:-<span class="hljs-number">1</span>;
+    <span class="hljs-attribute">-webkit-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0.8</span>);
+    <span class="hljs-attribute">-moz-box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0.8</span>);
+    <span class="hljs-attribute">box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0.8</span>);
+    <span class="hljs-attribute">top</span>:<span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">bottom</span>:<span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">left</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">right</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">-moz-border-radius</span>:<span class="hljs-number">100px</span> / <span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">border-radius</span>:<span class="hljs-number">100px</span> / <span class="hljs-number">10px</span>;
 }
-.effect8:after
+<span class="hljs-selector-class">.effect8</span><span class="hljs-selector-pseudo">:after</span>
 {
-	right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
+	<span class="hljs-attribute">right</span>:<span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">left</span>:auto;
+    <span class="hljs-attribute">-webkit-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+       <span class="hljs-attribute">-moz-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+        <span class="hljs-attribute">-ms-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+         <span class="hljs-attribute">-o-transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
+            <span class="hljs-attribute">transform</span>:<span class="hljs-built_in">skew</span>(<span class="hljs-number">8deg</span>) <span class="hljs-built_in">rotate</span>(<span class="hljs-number">3deg</span>);
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;box effect1&quot;&gt;
-            &lt;h3&gt;Effect 1&lt;/h3&gt;
-            &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box effect1"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Effect 1<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;box effect2&quot;&gt;
-            &lt;h3&gt;Effect 2&lt;/h3&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box effect2"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Effect 2<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;box effect3&quot;&gt;
-            &lt;h3&gt;Effect 3&lt;/h3&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box effect3"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Effect 3<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;box effect4&quot;&gt;
-            &lt;h3&gt;Effect 4&lt;/h3&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box effect4"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Effect 4<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;box effect5&quot;&gt;
-            &lt;h3&gt;Effect 5&lt;/h3&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box effect5"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Effect 5<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;box effect6&quot;&gt;
-            &lt;h3&gt;Effect 6&lt;/h3&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box effect6"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Effect 6<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;box effect7&quot;&gt;
-            &lt;h3&gt;Effect 7&lt;/h3&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box effect7"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Effect 7<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div class=&quot;box effect8&quot;&gt;
-            &lt;h3&gt;Effect 8&lt;/h3&gt;
-            &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box effect8"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Effect 8<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1656,77 +1576,73 @@ span.ex2 {
     <summary>
         View BOX-SIZING Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/box-sizing/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .content-box { 
-  box-sizing: content-box; 
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/box-sizing/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.content-box</span> { 
+  <span class="hljs-attribute">box-sizing</span>: content-box; 
 }
-.padding-box {
-  box-sizing: padding-box; 
+<span class="hljs-selector-class">.padding-box</span> {
+  <span class="hljs-attribute">box-sizing</span>: padding-box; 
 }
-.border-box { 
-  box-sizing: border-box; 
+<span class="hljs-selector-class">.border-box</span> { 
+  <span class="hljs-attribute">box-sizing</span>: border-box; 
 }
 
-/* Pen Styling, unrelated to box-sizing */
-body { 
-  font-family: sans-serif; 
+<span class="hljs-comment">/* Pen Styling, unrelated to box-sizing */</span>
+<span class="hljs-selector-tag">body</span> { 
+  <span class="hljs-attribute">font-family</span>: sans-serif; 
 }
-.demo { 
-  margin: 0 0 1rem 0;
-  padding: 1rem;
-  background: #eee;
+<span class="hljs-selector-class">.demo</span> { 
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">1rem</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1rem</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#eee</span>;
 }
-h4 {
-  margin: 0 0 0.5rem 0;
+<span class="hljs-selector-tag">h4</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">0.5rem</span> <span class="hljs-number">0</span>;
 }
-div[class*=&quot;box&quot;] {
-  width: 300px;
-  padding: 20px;
-  background: #444;
-  color: white;
-  border: 10px solid red;
-  background-clip: content-box;
-  text-indent: 20px;
+<span class="hljs-selector-tag">div</span><span class="hljs-selector-attr">[class*=<span class="hljs-string">"box"</span>]</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#444</span>;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">10px</span> solid red;
+  <span class="hljs-attribute">background-clip</span>: content-box;
+  <span class="hljs-attribute">text-indent</span>: <span class="hljs-number">20px</span>;
 }
-.image {
-  width: 100px;
-  height: 100px;
+<span class="hljs-selector-class">.image</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;section class=&quot;demo&quot;&gt;
-            &lt;h4&gt;box-sizing: content-box;&lt;/h4&gt;
-          &lt;div class=&quot;content-box&quot;&gt;
-            &lt;p&gt;content&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;/section&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>box-sizing: content-box;<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"content-box"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>content<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
           
-          &lt;section class=&quot;demo&quot;&gt;
-          &lt;h4&gt;box-sizing: padding-box;&lt;/h4&gt;
-          &lt;div class=&quot;padding-box&quot;&gt;
-            &lt;p&gt;content&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;/section&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>box-sizing: padding-box;<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"padding-box"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>content<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
             
-          &lt;section class=&quot;demo&quot;&gt;  
-          &lt;h4&gt;box-sizing: border-box;&lt;/h4&gt;
-          &lt;div class=&quot;border-box&quot;&gt;
-            &lt;p&gt;content&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;/section&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>  
+          <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>box-sizing: border-box;<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"border-box"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>content<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
           
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -1746,59 +1662,55 @@ div[class*=&quot;box&quot;] {
     <summary>
         View BREAK-INSIDE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/break-inside/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .example {
-  -webkit-columns: 150px;
-  -moz-columns: 150px;
-  columns: 150px;
-  -webkit-column-gap: 2em;
-  -moz-column-gap: 2em;
-  column-gap: 2em;  
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/b/break-inside/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.example</span> {
+  <span class="hljs-attribute">-webkit-columns</span>: <span class="hljs-number">150px</span>;
+  <span class="hljs-attribute">-moz-columns</span>: <span class="hljs-number">150px</span>;
+  <span class="hljs-attribute">columns</span>: <span class="hljs-number">150px</span>;
+  <span class="hljs-attribute">-webkit-column-gap</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">-moz-column-gap</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">column-gap</span>: <span class="hljs-number">2em</span>;  
 }
 
-body {
-  font-size: 12px;
-  font-family: 'Georgia', serif;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #333;
-  background: #ecf0f1;
-  padding: 1em;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">12px</span>;
+  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">'Georgia'</span>, serif;
+  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">400</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.45</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#333</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#ecf0f1</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span>;
 }
 
-li {
-  background: white;
-  padding: 1em;
-  margin-bottom: 1.3em;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
+<span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: white;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">1.3em</span>;
+  <span class="hljs-attribute">-webkit-column-break-inside</span>: avoid;
+  <span class="hljs-attribute">page-break-inside</span>: avoid;
+  <span class="hljs-attribute">break-inside</span>: avoid;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul class=&quot;example&quot;&gt;
-            &lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-            &lt;li&gt;Mauris eu risus.&lt;/li&gt;
-            &lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
-            &lt;li&gt;Consectetuer adipiscing elit.&lt;/li&gt;
-            &lt;li&gt;Eu risus.&lt;/li&gt;
-            &lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt; 
-            &lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
-            &lt;li&gt;Aliquam tincidunt mauris eu risus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
-            &lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt; 
-          &lt;/ul&gt;   
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"example"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Mauris eu risus.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Vestibulum auctor dapibus neque.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Consectetuer adipiscing elit.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Eu risus.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Vestibulum auctor dapibus neque.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Aliquam tincidunt mauris eu risus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Vestibulum auctor dapibus neque.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>   
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

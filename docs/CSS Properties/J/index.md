@@ -17,125 +17,121 @@ description:
     <summary>
         View JUSTIFY-CONTENT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/j/justify-content/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/j/justify-content/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.flex-container</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">list-style</span>: none;
+  <span class="hljs-attribute">display</span>: flex;
 }
 
-.flex-start { 
-  justify-content: flex-start; 
+<span class="hljs-selector-class">.flex-start</span> { 
+  <span class="hljs-attribute">justify-content</span>: flex-start; 
 }
 
-.flex-end { 
-  justify-content: flex-end; 
+<span class="hljs-selector-class">.flex-end</span> { 
+  <span class="hljs-attribute">justify-content</span>: flex-end; 
 }  
-.flex-end li {
-  background: gold;
+<span class="hljs-selector-class">.flex-end</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: gold;
 }
 
-.center { 
-  justify-content: center; 
+<span class="hljs-selector-class">.center</span> { 
+  <span class="hljs-attribute">justify-content</span>: center; 
 }  
-.center li {
-  background: deepskyblue;
+<span class="hljs-selector-class">.center</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: deepskyblue;
 }
 
-.space-between { 
-  justify-content: space-between; 
+<span class="hljs-selector-class">.space-between</span> { 
+  <span class="hljs-attribute">justify-content</span>: space-between; 
 }  
-.space-between li {
-  background: lightgreen;
+<span class="hljs-selector-class">.space-between</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: lightgreen;
 }
 
-.space-around { 
-  justify-content: space-around; 
+<span class="hljs-selector-class">.space-around</span> { 
+  <span class="hljs-attribute">justify-content</span>: space-around; 
 }
-.space-around li {
-  background: hotpink; 
-}
-
-.space-evenly { 
-  justify-content: space-evenly; 
-}
-.space-evenly li {
-  background: #bada55; 
+<span class="hljs-selector-class">.space-around</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: hotpink; 
 }
 
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 60px;
-  height: 50px;
-  margin: 5px;
-  line-height: 50px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+<span class="hljs-selector-class">.space-evenly</span> { 
+  <span class="hljs-attribute">justify-content</span>: space-evenly; 
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;ul class=&quot;flex-container flex-start&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
+<span class="hljs-selector-class">.space-evenly</span> <span class="hljs-selector-tag">li</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#bada55</span>; 
+}
+
+<span class="hljs-selector-class">.flex-item</span> {
+  <span class="hljs-attribute">background</span>: tomato;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">60px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">50px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">50px</span>;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">font-weight</span>: bold;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">text-align</span>: center;
+}
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container flex-start"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container flex-end&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container flex-end"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container center&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container center"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container space-between&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container space-between"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container space-around&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container space-around"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
           
-          &lt;ul class=&quot;flex-container space-evenly&quot;&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;1&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;2&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;3&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;4&lt;/li&gt;
-            &lt;li class=&quot;flex-item&quot;&gt;5&lt;/li&gt;
-          &lt;/ul&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-container space-evenly"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-item"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

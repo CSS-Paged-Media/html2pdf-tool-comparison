@@ -17,29 +17,25 @@ description:
     <summary>
         View MARGIN Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/margin/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        h2 {
-    margin: 0 0 20px 0;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/margin/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">h2</span> {
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-number">0</span>;
 }
 
-p {
-    margin: 10px 0 0 0;
+<span class="hljs-selector-tag">p</span> {
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h2&gt;Collapsing Margins&lt;/h2&gt;
-        &lt;p&gt;Example text.&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Collapsing Margins<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Example text.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -59,45 +55,41 @@ p {
     <summary>
         View MASK-IMAGE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/mask-image/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/mask-image/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
         * {
-  box-sizing: border-box;
+  <span class="hljs-attribute">box-sizing</span>: border-box;
 }
-body {
-  margin: 0;
-  background: #8f7a66;
-}
-
-.el {
-  width: 100vw;
-  height: 100vh;
-  padding: 1rem;
-
-  background-image: url(https://images.unsplash.com/photo-1528287942171-fbe365d1d9ac?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;w=1200&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  mask-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/sun.svg);
-  mask-size: 100vmin;
-  mask-repeat: no-repeat;
-  mask-position: center;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#8f7a66</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;el&quot;&gt;&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-selector-class">.el</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100vw</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100vh</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1rem</span>;
+
+  <span class="hljs-attribute">background-image</span>: <span class="hljs-built_in">url</span>(https://images.unsplash.com/photo-<span class="hljs-number">1528287942171</span>-fbe365d1d9ac?ixlib=rb-<span class="hljs-number">1.2</span>.<span class="hljs-number">1</span>&amp;q=<span class="hljs-number">85</span>&amp;fm=jpg&amp;crop=entropy&amp;w=<span class="hljs-number">1200</span>&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  <span class="hljs-attribute">background-size</span>: contain;
+  <span class="hljs-attribute">background-position</span>: center;
+  <span class="hljs-attribute">background-repeat</span>: no-repeat;
+
+  <span class="hljs-attribute">mask-image</span>: <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">3</span>/sun.svg);
+  <span class="hljs-attribute">mask-size</span>: <span class="hljs-number">100vmin</span>;
+  <span class="hljs-attribute">mask-repeat</span>: no-repeat;
+  <span class="hljs-attribute">mask-position</span>: center;
+}
+
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"el"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -117,45 +109,41 @@ body {
     <summary>
         View MASK-REPEAT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/mask-repeat/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/mask-repeat/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
         * {
-  box-sizing: border-box;
+  <span class="hljs-attribute">box-sizing</span>: border-box;
 }
-body {
-  margin: 0;
-  background: #8f7a66;
-}
-
-.el {
-  width: 100vw;
-  height: 100vh;
-  padding: 1rem;
-
-  background-image: url(https://images.unsplash.com/photo-1528287942171-fbe365d1d9ac?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;w=1200&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  mask-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/sun.svg);
-  mask-size: 100vmin;
-  mask-repeat: no-repeat;
-  mask-position: center;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#8f7a66</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;el&quot;&gt;&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-selector-class">.el</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100vw</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100vh</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1rem</span>;
+
+  <span class="hljs-attribute">background-image</span>: <span class="hljs-built_in">url</span>(https://images.unsplash.com/photo-<span class="hljs-number">1528287942171</span>-fbe365d1d9ac?ixlib=rb-<span class="hljs-number">1.2</span>.<span class="hljs-number">1</span>&amp;q=<span class="hljs-number">85</span>&amp;fm=jpg&amp;crop=entropy&amp;w=<span class="hljs-number">1200</span>&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  <span class="hljs-attribute">background-size</span>: contain;
+  <span class="hljs-attribute">background-position</span>: center;
+  <span class="hljs-attribute">background-repeat</span>: no-repeat;
+
+  <span class="hljs-attribute">mask-image</span>: <span class="hljs-built_in">url</span>(https://s3-us-west-<span class="hljs-number">2</span>.amazonaws.com/s.cdpn.io/<span class="hljs-number">3</span>/sun.svg);
+  <span class="hljs-attribute">mask-size</span>: <span class="hljs-number">100vmin</span>;
+  <span class="hljs-attribute">mask-repeat</span>: no-repeat;
+  <span class="hljs-attribute">mask-position</span>: center;
+}
+
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"el"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -175,155 +163,151 @@ body {
     <summary>
         View MAX-HEIGHT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/max-height/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        html {
-  background: #e78629;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/max-height/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#e78629</span>;
 }
 
-p {
-  background: #212121;
-  color: #FFF;
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#212121</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span>;
 }
 
-.nesting {
-  background: white;
+<span class="hljs-selector-class">.nesting</span> {
+  <span class="hljs-attribute">background</span>: white;
 }
 
-table {
-  float: left;
-  margin-right: .5em;
-  background: white;
+<span class="hljs-selector-tag">table</span> {
+  <span class="hljs-attribute">float</span>: left;
+  <span class="hljs-attribute">margin-right</span>: .<span class="hljs-number">5em</span>;
+  <span class="hljs-attribute">background</span>: white;
 }
 
-p.max-height-px {
-  height: 50px;
-  max-height: 20px;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.max-height-px</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">50px</span>;
+  <span class="hljs-attribute">max-height</span>: <span class="hljs-number">20px</span>;
 }
 
-p.max-height-em {
-  height: 100%;
-  max-height: 8em;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.max-height-em</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">max-height</span>: <span class="hljs-number">8em</span>;
 }
 
-/**
+<span class="hljs-comment">/**
 * Two percentages will not produce a result
-*/
-p.max-height-percent {
-  height: 100%;
-  max-height: 50%;
+*/</span>
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.max-height-percent</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">max-height</span>: <span class="hljs-number">50%</span>;
 }
 
-.nesting.example1 {
-  height: 100px;
+<span class="hljs-selector-class">.nesting</span><span class="hljs-selector-class">.example1</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
 }
-.nesting.example1 .max-heightnested {
-  max-height: 20%;
-  /* works because height is an absolute length value */
-}
-
-.nesting.example2 {
-  height: 100%;
-}
-.nesting.example2 .max-heightnested {
-  height: auto;
+<span class="hljs-selector-class">.nesting</span><span class="hljs-selector-class">.example1</span> <span class="hljs-selector-class">.max-heightnested</span> {
+  <span class="hljs-attribute">max-height</span>: <span class="hljs-number">20%</span>;
+  <span class="hljs-comment">/* works because height is an absolute length value */</span>
 }
 
-.table-example1 {
-  max-height: 800px;
-  height: 100px;
+<span class="hljs-selector-class">.nesting</span><span class="hljs-selector-class">.example2</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+}
+<span class="hljs-selector-class">.nesting</span><span class="hljs-selector-class">.example2</span> <span class="hljs-selector-class">.max-heightnested</span> {
+  <span class="hljs-attribute">height</span>: auto;
 }
 
-.table-example2 {
-  max-height: 100px;
-  height: 100%;
+<span class="hljs-selector-class">.table-example1</span> {
+  <span class="hljs-attribute">max-height</span>: <span class="hljs-number">800px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Max-Height&lt;/h1&gt;
-        &lt;h3&gt;Block Level Elements&lt;/h3&gt;
-        &lt;p class=&quot;max-height-px&quot;&gt;Content in a paragraph : &lt;code&gt;height: 50px / max-height: 20px&lt;/code&gt;&lt;/p&gt;
+<span class="hljs-selector-class">.table-example2</span> {
+  <span class="hljs-attribute">max-height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+}
+
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Max-Height<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Block Level Elements<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max-height-px"</span>&gt;</span>Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 50px / max-height: 20px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;max-height-em&quot;&gt;Content in a paragraph : &lt;code&gt;height: 100% / max-height: 8em&lt;/code&gt;&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max-height-em"</span>&gt;</span>Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100% / max-height: 8em<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;max-height-percent&quot;&gt;Content in a paragraph : &lt;code&gt;height: 100% / max-height: 50%&lt;/code&gt;&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max-height-percent"</span>&gt;</span>Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100% / max-height: 50%<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;h3&gt;Elements Nested&lt;/h3&gt;
-        &lt;div class=&quot;nesting example1&quot;&gt;
-          &lt;p class=&quot;max-heightnested&quot;&gt;Example#1 : Containing element : &lt;code&gt;height: 100px&lt;/code&gt;.  Content in a paragraph : &lt;code&gt;max-height: 20%&lt;/code&gt;&lt;/p&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Elements Nested<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nesting example1"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max-heightnested"</span>&gt;</span>Example#1 : Containing element : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.  Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>max-height: 20%<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;div class=&quot;nesting example2&quot;&gt;
-          &lt;p class=&quot;max-heightnested&quot;&gt;Example#2 : Containing element : &lt;code&gt;height: 100%&lt;/code&gt;.  Content in a paragraph : &lt;code&gt;max-height: auto&lt;/code&gt;&lt;/p&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nesting example2"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max-heightnested"</span>&gt;</span>Example#2 : Containing element : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100%<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.  Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>max-height: auto<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h3&gt;Tables&lt;/h3&gt;
-        &lt;code&gt;height: 100px; max-height: 800px;&lt;/code&gt;
-        &lt;table class=&quot;browser-support-table table-example1&quot;&gt;
-                &lt;thead&gt;
-                    &lt;tr&gt;
-                &lt;th&gt;Height&lt;/th&gt;
-                        &lt;th class=&quot;chrome&quot;&gt;&lt;span&gt;Chrome&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;safari&quot;&gt;&lt;span&gt;Safari&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;firefox&quot;&gt;&lt;span&gt;Firefox&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;opera&quot;&gt;&lt;span&gt;Opera&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;ie&quot;&gt;&lt;span&gt;IE&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;android&quot;&gt;&lt;span&gt;Android&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;iOS&quot;&gt;&lt;span&gt;iOS&lt;/span&gt;&lt;/th&gt;
-                    &lt;/tr&gt;
-                &lt;/thead&gt;
-                &lt;tbody&gt;
-                    &lt;tr&gt;
-                &lt;td&gt;100px&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Tables<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100px; max-height: 800px;<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"browser-support-table table-example1"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Height<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"chrome"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Chrome<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"safari"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Safari<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"firefox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Firefox<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opera"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Opera<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ie"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>IE<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"android"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Android<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"iOS"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>iOS<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>100px<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
         
-        &lt;code&gt;height: 100%; max-height: 100px;&lt;/code&gt;
-        &lt;table class=&quot;browser-support-table table-example2&quot;&gt;
-                &lt;thead&gt;
-                    &lt;tr&gt;
-                &lt;th&gt;Height&lt;/th&gt;
-                        &lt;th class=&quot;chrome&quot;&gt;&lt;span&gt;Chrome&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;safari&quot;&gt;&lt;span&gt;Safari&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;firefox&quot;&gt;&lt;span&gt;Firefox&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;opera&quot;&gt;&lt;span&gt;Opera&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;ie&quot;&gt;&lt;span&gt;IE&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;android&quot;&gt;&lt;span&gt;Android&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;iOS&quot;&gt;&lt;span&gt;iOS&lt;/span&gt;&lt;/th&gt;
-                    &lt;/tr&gt;
-                &lt;/thead&gt;
-                &lt;tbody&gt;
-                    &lt;tr&gt;
-                &lt;td&gt;100%&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100%; max-height: 100px;<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"browser-support-table table-example2"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Height<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"chrome"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Chrome<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"safari"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Safari<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"firefox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Firefox<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opera"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Opera<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ie"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>IE<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"android"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Android<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"iOS"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>iOS<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>100%<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -343,122 +327,118 @@ p.max-height-percent {
     <summary>
         View MAX-WIDTH Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/max-width/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        html {
-  background: #444444;
-  color: #ffffff;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/max-width/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#444444</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#ffffff</span>;
 }
 
-.demo {
-  background: #000;
+<span class="hljs-selector-class">.demo</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#000</span>;
 }
 
-.max {
-  background: #e78629;
+<span class="hljs-selector-class">.max</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#e78629</span>;
 }
 
-.max600 {
-  width: 80%;
-  max-width: 600px;
+<span class="hljs-selector-class">.max600</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">80%</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">600px</span>;
 }
 
-.max320 {
-  width: 100%;
-  max-width: 320px;
+<span class="hljs-selector-class">.max320</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">320px</span>;
 }
 
-.max-percent {
-  width: 100%;
-  max-width: 50%;
+<span class="hljs-selector-class">.max-percent</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">50%</span>;
 }
 
-.em40 {
-  width: 100%;
-  max-width: 40em;
+<span class="hljs-selector-class">.em40</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">40em</span>;
 }
 
-.rem40 {
-  width: 100%;
-  max-width: 40rem;
+<span class="hljs-selector-class">.rem40</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">40rem</span>;
 }
 
-.maxtable {
-  width: 100%;
-  max-width: 600px;
+<span class="hljs-selector-class">.maxtable</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">600px</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;max-width&lt;/h1&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>max-width<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;max max600&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 80% / Maximum Width = 600px&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max max600"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 80% / Maximum Width = 600px<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;max max320&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 100% / Maximum Width = 320px&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max max320"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Maximum Width = 320px<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;max max-percent&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 100% / Maximum Width = 50%&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max max-percent"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Maximum Width = 50%<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;max em40&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 100% / Maximum Width = 40em&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max em40"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Maximum Width = 40em<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;max rem40&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 100% / Maximum Width = 40rem&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max rem40"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Maximum Width = 40rem<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;h3&gt;Tables&lt;/h3&gt;
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;table class=&quot;max maxtable&quot;&gt;
-                &lt;thead&gt;
-                    &lt;tr&gt;
-                        &lt;th class=&quot;chrome&quot;&gt;&lt;span&gt;Chrome&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;safari&quot;&gt;&lt;span&gt;Safari&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;firefox&quot;&gt;&lt;span&gt;Firefox&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;opera&quot;&gt;&lt;span&gt;Opera&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;ie&quot;&gt;&lt;span&gt;IE&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;android&quot;&gt;&lt;span&gt;Android&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;iOS&quot;&gt;&lt;span&gt;iOS&lt;/span&gt;&lt;/th&gt;
-                    &lt;/tr&gt;
-                &lt;/thead&gt;
-                &lt;tbody&gt;
-                    &lt;tr&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;24+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;5.1+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;18+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;12.1+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;8+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;1.0+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;2.1+&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
-          &lt;figcaption&gt;Width = 100% / Maximum Width = 600px&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Tables<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"max maxtable"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"chrome"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Chrome<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"safari"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Safari<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"firefox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Firefox<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opera"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Opera<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ie"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>IE<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"android"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Android<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"iOS"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>iOS<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>24+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>5.1+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>18+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>12.1+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>8+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>1.0+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>2.1+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Maximum Width = 600px<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;footer&gt;
-          &lt;p&gt;&lt;small&gt;*These examples use the entire viewport width in order to understand and grasp the concepts outlined. Squeeze your browser to witness the results.&lt;/small&gt;&lt;/p&gt;
-        &lt;/footer&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>*These examples use the entire viewport width in order to understand and grasp the concepts outlined. Squeeze your browser to witness the results.<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -478,156 +458,152 @@ p.max-height-percent {
     <summary>
         View MIN-HEIGHT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/min-height/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        html {
-  background: #e78629;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/min-height/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#e78629</span>;
 }
 
-p {
-  background: #212121;
-  color: #FFF;
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#212121</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span>;
 }
 
-.nesting {
-  background: white;
+<span class="hljs-selector-class">.nesting</span> {
+  <span class="hljs-attribute">background</span>: white;
 }
 
-table {
-  float: left;
-  margin-right: .5em;
-  background: white;
+<span class="hljs-selector-tag">table</span> {
+  <span class="hljs-attribute">float</span>: left;
+  <span class="hljs-attribute">margin-right</span>: .<span class="hljs-number">5em</span>;
+  <span class="hljs-attribute">background</span>: white;
 }
 
-p.min-height-px {
-  height: 100%;
-  min-height: 50px;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.min-height-px</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">50px</span>;
 }
 
-p.min-height-em {
-  height: 100%;
-  min-height: 8em;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.min-height-em</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">8em</span>;
 }
 
-/**
+<span class="hljs-comment">/**
 * height value determined by 
 * content and not these % values
-*/
-p.min-height-percent {
-  height: 100%;
-  min-height: 50%;
+*/</span>
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.min-height-percent</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">50%</span>;
 }
 
-.nesting.example1 {
-  height: 100px;
+<span class="hljs-selector-class">.nesting</span><span class="hljs-selector-class">.example1</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
 }
-.nesting.example1 .min-heightnested {
-  min-height: 70%;
-  /* works because height is an absolute length value */
-}
-
-.nesting.example2 {
-  height: 100%;
-}
-.nesting.example2 .min-heightnested {
-  height: auto;
+<span class="hljs-selector-class">.nesting</span><span class="hljs-selector-class">.example1</span> <span class="hljs-selector-class">.min-heightnested</span> {
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">70%</span>;
+  <span class="hljs-comment">/* works because height is an absolute length value */</span>
 }
 
-.table-example1 {
-  min-height: 500px;
-  height: 100px;
+<span class="hljs-selector-class">.nesting</span><span class="hljs-selector-class">.example2</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+}
+<span class="hljs-selector-class">.nesting</span><span class="hljs-selector-class">.example2</span> <span class="hljs-selector-class">.min-heightnested</span> {
+  <span class="hljs-attribute">height</span>: auto;
 }
 
-.table-example2 {
-  min-height: 100px;
-  height: 100%;
+<span class="hljs-selector-class">.table-example1</span> {
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">500px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Min-Height&lt;/h1&gt;
-        &lt;h3&gt;Block Level Elements&lt;/h3&gt;
-        &lt;p class=&quot;min-height-px&quot;&gt;Content in a paragraph : &lt;code&gt;height: 100% / min-height: 50px&lt;/code&gt;&lt;/p&gt;
+<span class="hljs-selector-class">.table-example2</span> {
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+}
+
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Min-Height<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Block Level Elements<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min-height-px"</span>&gt;</span>Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100% / min-height: 50px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;min-height-em&quot;&gt;Content in a paragraph : &lt;code&gt;height: 100% / min-height: 8em&lt;/code&gt;&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min-height-em"</span>&gt;</span>Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100% / min-height: 8em<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p class=&quot;min-height-percent&quot;&gt;Content in a paragraph : &lt;code&gt;height: 100% / min-height: 50%&lt;/code&gt;&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min-height-percent"</span>&gt;</span>Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100% / min-height: 50%<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;h3&gt;Elements Nested&lt;/h3&gt;
-        &lt;div class=&quot;nesting example1&quot;&gt;
-          &lt;p class=&quot;min-heightnested&quot;&gt;Example#1 : Containing element : &lt;code&gt;height: 100px&lt;/code&gt;.  Content in a paragraph : &lt;code&gt;min-height: 70%&lt;/code&gt;&lt;/p&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Elements Nested<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nesting example1"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min-heightnested"</span>&gt;</span>Example#1 : Containing element : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100px<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.  Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>min-height: 70%<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;div class=&quot;nesting example2&quot;&gt;
-          &lt;p class=&quot;min-heightnested&quot;&gt;Example#2 : Containing element : &lt;code&gt;height: 100%&lt;/code&gt;.  Content in a paragraph : &lt;code&gt;height: auto&lt;/code&gt;&lt;/p&gt;
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nesting example2"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min-heightnested"</span>&gt;</span>Example#2 : Containing element : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100%<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.  Content in a paragraph : <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: auto<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h3&gt;Tables&lt;/h3&gt;
-        &lt;code&gt;height: 100px; min-height: 500px;&lt;/code&gt;
-        &lt;table class=&quot;browser-support-table table-example1&quot;&gt;
-                &lt;thead&gt;
-                    &lt;tr&gt;
-                &lt;th&gt;Height&lt;/th&gt;
-                        &lt;th class=&quot;chrome&quot;&gt;&lt;span&gt;Chrome&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;safari&quot;&gt;&lt;span&gt;Safari&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;firefox&quot;&gt;&lt;span&gt;Firefox&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;opera&quot;&gt;&lt;span&gt;Opera&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;ie&quot;&gt;&lt;span&gt;IE&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;android&quot;&gt;&lt;span&gt;Android&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;iOS&quot;&gt;&lt;span&gt;iOS&lt;/span&gt;&lt;/th&gt;
-                    &lt;/tr&gt;
-                &lt;/thead&gt;
-                &lt;tbody&gt;
-                    &lt;tr&gt;
-                &lt;td&gt;100px&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;All&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Tables<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100px; min-height: 500px;<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"browser-support-table table-example1"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Height<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"chrome"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Chrome<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"safari"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Safari<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"firefox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Firefox<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opera"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Opera<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ie"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>IE<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"android"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Android<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"iOS"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>iOS<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>100px<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
         
-        &lt;code&gt;height: 100%; min-height: 100px;&lt;/code&gt;
-        &lt;table class=&quot;browser-support-table table-example2&quot;&gt;
-                &lt;thead&gt;
-                    &lt;tr&gt;
-                &lt;th&gt;Height&lt;/th&gt;
-                        &lt;th class=&quot;chrome&quot;&gt;&lt;span&gt;Chrome&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;safari&quot;&gt;&lt;span&gt;Safari&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;firefox&quot;&gt;&lt;span&gt;Firefox&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;opera&quot;&gt;&lt;span&gt;Opera&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;ie&quot;&gt;&lt;span&gt;IE&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;android&quot;&gt;&lt;span&gt;Android&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;iOS&quot;&gt;&lt;span&gt;iOS&lt;/span&gt;&lt;/th&gt;
-                    &lt;/tr&gt;
-                &lt;/thead&gt;
-                &lt;tbody&gt;
-                    &lt;tr&gt;
-                &lt;td&gt;100%&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                        &lt;td class=&quot;yep&quot;&gt;All&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>height: 100%; min-height: 100px;<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"browser-support-table table-example2"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Height<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"chrome"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Chrome<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"safari"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Safari<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"firefox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Firefox<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opera"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Opera<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ie"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>IE<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"android"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Android<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"iOS"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>iOS<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>100%<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -647,132 +623,128 @@ p.min-height-percent {
     <summary>
         View MIN-WIDTH Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/min-width/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        html {
-  background: #444444;
-  color: #ffffff;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/min-width/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#444444</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#ffffff</span>;
 }
 
-.demo {
-  background: #000;
+<span class="hljs-selector-class">.demo</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#000</span>;
 }
 
-.min {
-  background: #e78629;
+<span class="hljs-selector-class">.min</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#e78629</span>;
 }
 
-.min600 {
-  width: 80%;
-  min-width: 600px;
+<span class="hljs-selector-class">.min600</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">80%</span>;
+  <span class="hljs-attribute">min-width</span>: <span class="hljs-number">600px</span>;
 }
 
-.min320 {
-  width: 100%;
-  min-width: 320px;
+<span class="hljs-selector-class">.min320</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">min-width</span>: <span class="hljs-number">320px</span>;
 }
 
-.min480 {
-  width: 600px;
-  min-width: 480px;
+<span class="hljs-selector-class">.min480</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">600px</span>;
+  <span class="hljs-attribute">min-width</span>: <span class="hljs-number">480px</span>;
 }
 
-.min-percent {
-  width: 100%;
-  min-width: 50%;
+<span class="hljs-selector-class">.min-percent</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">min-width</span>: <span class="hljs-number">50%</span>;
 }
 
-.rem40 {
-  width: 100%;
-  min-width: 40em;
+<span class="hljs-selector-class">.rem40</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">min-width</span>: <span class="hljs-number">40em</span>;
 }
 
-.rem40 {
-  width: 100%;
-  min-width: 40rem;
+<span class="hljs-selector-class">.rem40</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">min-width</span>: <span class="hljs-number">40rem</span>;
 }
 
-.mintable {
-  width: 100%;
-  min-width: 600px;
+<span class="hljs-selector-class">.mintable</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">min-width</span>: <span class="hljs-number">600px</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;min-width&lt;/h1&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>min-width<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;min min600&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 80% / Minimum Width = 600px&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min min600"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 80% / Minimum Width = 600px<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;min min320&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 100% / Minimum Width = 320px&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min min320"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Minimum Width = 320px<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;min min480&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 600px / Minimum Width = 480px (won't work)&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min min480"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 600px / Minimum Width = 480px (won't work)<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;min min-percent&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 100% / Minimum Width = 50% (won't work)&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min min-percent"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Minimum Width = 50% (won't work)<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;min em40&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 100% / Minimum Width = 40em&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min em40"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Minimum Width = 40em<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;p class=&quot;min rem40&quot;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-          &lt;figcaption&gt;Width = 100% / Minimum Width = 40rem&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min rem40"</span>&gt;</span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Minimum Width = 40rem<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;h3&gt;Tables&lt;/h3&gt;
-        &lt;figure class=&quot;demo&quot;&gt;
-          &lt;table class=&quot;min mintable&quot;&gt;
-                &lt;thead&gt;
-                    &lt;tr&gt;
-                        &lt;th class=&quot;chrome&quot;&gt;&lt;span&gt;Chrome&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;safari&quot;&gt;&lt;span&gt;Safari&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;firefox&quot;&gt;&lt;span&gt;Firefox&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;opera&quot;&gt;&lt;span&gt;Opera&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;ie&quot;&gt;&lt;span&gt;IE&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;android&quot;&gt;&lt;span&gt;Android&lt;/span&gt;&lt;/th&gt;
-                        &lt;th class=&quot;iOS&quot;&gt;&lt;span&gt;iOS&lt;/span&gt;&lt;/th&gt;
-                    &lt;/tr&gt;
-                &lt;/thead&gt;
-                &lt;tbody&gt;
-                    &lt;tr&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;24+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;5.1+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;18+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;12.1+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;8+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;1.0+&lt;/td&gt;
-                        &lt;td class=&quot;yep-nope&quot;&gt;2.1+&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
-          &lt;figcaption&gt;Width = 100% / Minimum Width = 600px&lt;/figcaption&gt;
-        &lt;/figure&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Tables<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">figure</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demo"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min mintable"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"chrome"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Chrome<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"safari"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Safari<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"firefox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Firefox<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"opera"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Opera<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ie"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>IE<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"android"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Android<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"iOS"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>iOS<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>24+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>5.1+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>18+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>12.1+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>8+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>1.0+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yep-nope"</span>&gt;</span>2.1+<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>Width = 100% / Minimum Width = 600px<span class="hljs-tag">&lt;/<span class="hljs-name">figcaption</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">figure</span>&gt;</span>
         
-        &lt;footer&gt;
-          &lt;p&gt;&lt;small&gt;*These examples use the entire viewport width in order to understand and grasp the concepts outlined. Squeeze your browser to witness the results.&lt;/small&gt;&lt;/p&gt;
-        &lt;/footer&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>*These examples use the entire viewport width in order to understand and grasp the concepts outlined. Squeeze your browser to witness the results.<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -792,91 +764,87 @@ p.min-height-percent {
     <summary>
         View MIX-BLEND-MODE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/mix-blend-mode/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        html {
-  background: #fff;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/m/mix-blend-mode/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#fff</span>;
 }
 
-body {
-  height: 100%;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
 }
 
-html, body {
-  padding: 0;
-  margin: 0;
-  font-family: &quot;Nocturno Display Medium 4&quot;, Georgia;
-  font-style: normal;
-  font-weight: normal;
-  font-stretch: normal;
+<span class="hljs-selector-tag">html</span>, <span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">"Nocturno Display Medium 4"</span>, Georgia;
+  <span class="hljs-attribute">font-style</span>: normal;
+  <span class="hljs-attribute">font-weight</span>: normal;
+  <span class="hljs-attribute">font-stretch</span>: normal;
 }
 
-body {
-  background: url(http://unsplash.it/1499/1000);
-  background-size: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(http://unsplash.it/<span class="hljs-number">1499</span>/<span class="hljs-number">1000</span>);
+  <span class="hljs-attribute">background-size</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">background-size</span>: cover;
+  <span class="hljs-attribute">background-repeat</span>: no-repeat;
 }
 
-.blend {
-  mix-blend-mode: exclusion;
-  color: white;
-  display: block;
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  text-align: center;
-  font-size: 6vw;
+<span class="hljs-selector-class">.blend</span> {
+  <span class="hljs-attribute">mix-blend-mode</span>: exclusion;
+  <span class="hljs-attribute">color</span>: white;
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">-webkit-box-orient</span>: vertical;
+  <span class="hljs-attribute">-webkit-box-direction</span>: normal;
+          <span class="hljs-attribute">flex-direction</span>: column;
+  <span class="hljs-attribute">-webkit-box-pack</span>: center;
+          <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">-webkit-box-align</span>: center;
+          <span class="hljs-attribute">align-items</span>: center;
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">6vw</span>;
 }
 
-.red {
-  color: red;
+<span class="hljs-selector-class">.red</span> {
+  <span class="hljs-attribute">color</span>: red;
 }
 
-.blue {
-  color: blue;
+<span class="hljs-selector-class">.blue</span> {
+  <span class="hljs-attribute">color</span>: blue;
 }
 
-.green {
-  color: green;
+<span class="hljs-selector-class">.green</span> {
+  <span class="hljs-attribute">color</span>: green;
 }
 
-blockquote {
-  margin-bottom: 100px;
-  line-height: 1.1;
+<span class="hljs-selector-tag">blockquote</span> {
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.1</span>;
 }
 
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=&quot;blend&quot;&gt;
-            &lt;blockquote class=&quot;red&quot;&gt;&ldquo;Attack design doldrums with stylistic souplesse&rdquo;&lt;/blockquote&gt;
-            &lt;blockquote class=&quot;yellow&quot;&gt;&ldquo;Fashionable figures break away from the populist peloton&rdquo;&lt;/blockquote&gt;
-            &lt;blockquote class=&quot;green&quot;&gt;&ldquo;Comprehensive characters for culturally correct creations&rdquo;&lt;/blockquote&gt;
-          &lt;/div&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"blend"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">blockquote</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"red"</span>&gt;</span>“Attack design doldrums with stylistic souplesse”<span class="hljs-tag">&lt;/<span class="hljs-name">blockquote</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">blockquote</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"yellow"</span>&gt;</span>“Fashionable figures break away from the populist peloton”<span class="hljs-tag">&lt;/<span class="hljs-name">blockquote</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">blockquote</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"green"</span>&gt;</span>“Comprehensive characters for culturally correct creations”<span class="hljs-tag">&lt;/<span class="hljs-name">blockquote</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-          &lt;!-- 
-          All quotes are taken from House Industries&rsquo; introduction of Velo:
+          <span class="hljs-comment">&lt;!-- 
+          All quotes are taken from House Industries’ introduction of Velo:
           
           http://houseindustries.cmail1.com/t/ViewEmail/y/68885BCE0F413AE5/B9C37F14E9781D9EA7F290B8E8FDC6A0
-          --&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+          --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

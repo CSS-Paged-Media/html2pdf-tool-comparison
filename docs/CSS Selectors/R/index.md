@@ -17,35 +17,31 @@ description:
     <summary>
         View READ-ONLY Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_read-only --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        input:-moz-read-only { /* For Firefox */
-  background-color: yellow;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_read-only --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:-moz-read-only</span> { <span class="hljs-comment">/* For Firefox */</span>
+  <span class="hljs-attribute">background-color</span>: yellow;
 }
 
-input:read-only {
-  background-color: yellow;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:read-only</span> {
+  <span class="hljs-attribute">background-color</span>: yellow;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h3&gt;A demonstration of the :read-only selector.&lt;/h3&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>A demonstration of the :read-only selector.<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
 
-        &lt;p&gt;A normal input element:&lt;br&gt;&lt;input value=&quot;hello&quot;&gt;&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>A normal input element:<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"hello"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p&gt;A readonly input element:&lt;br&gt;&lt;input readonly value=&quot;hello&quot;&gt;&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>A readonly input element:<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">readonly</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"hello"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-        &lt;p&gt;The :read-only selector selects form elements with a &quot;readonly&quot; attribute.&lt;/p&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The :read-only selector selects form elements with a "readonly" attribute.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -65,36 +61,32 @@ input:read-only {
     <summary>
         View READ-WRITE Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_read-write --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        input:-moz-read-write { /* For Firefox */
-  background-color: yellow;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_read-write --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:-moz-read-write</span> { <span class="hljs-comment">/* For Firefox */</span>
+  <span class="hljs-attribute">background-color</span>: yellow;
 }
 
-input:read-write {
-  background-color: yellow;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:read-write</span> {
+  <span class="hljs-attribute">background-color</span>: yellow;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
     
-&lt;h3&gt;A demonstration of the :read-write selector.&lt;/h3&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>A demonstration of the :read-write selector.<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
 
-&lt;p&gt;A normal input element:&lt;br&gt;&lt;input value=&quot;hello&quot;&gt;&lt;/p&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>A normal input element:<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"hello"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-&lt;p&gt;A readonly input element:&lt;br&gt;&lt;input readonly value=&quot;hello&quot;&gt;&lt;/p&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>A readonly input element:<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">readonly</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"hello"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-&lt;p&gt;The :read-write selector selects form elements with no &quot;readonly&quot; attribute.&lt;/p&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The :read-write selector selects form elements with no "readonly" attribute.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -114,80 +106,76 @@ input:read-write {
     <summary>
         View REQUIRED Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/r/required/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        input:required,
-textarea:required {
-  border-color: red !important;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/r/required/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:required</span>,
+<span class="hljs-selector-tag">textarea</span><span class="hljs-selector-pseudo">:required</span> {
+  <span class="hljs-attribute">border-color</span>: red <span class="hljs-meta">!important</span>;
 }
-input:required + label {
-  color: red;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:required</span> + <span class="hljs-selector-tag">label</span> {
+  <span class="hljs-attribute">color</span>: red;
 }
 
-form {
-  padding: 20px; 
-  max-width: 500px;
-  margin: 0 auto;
+<span class="hljs-selector-tag">form</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span>; 
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">500px</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> auto;
 }
-form div {
-  padding: 5px;
+<span class="hljs-selector-tag">form</span> <span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
 }
-label {
-  display: block;
+<span class="hljs-selector-tag">label</span> {
+  <span class="hljs-attribute">display</span>: block;
 }
-input + label {
-  display: inline-block;
-  margin-right: 10px;
+<span class="hljs-selector-tag">input</span> + <span class="hljs-selector-tag">label</span> {
+  <span class="hljs-attribute">display</span>: inline-block;
+  <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">10px</span>;
 }
 
-input[type=text],
-input[type=email],
-textarea {
-  border: 1px solid #999;
-  padding: 5px;
-  width: 100%;
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=text]</span>,
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=email]</span>,
+<span class="hljs-selector-tag">textarea</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#999</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;form&gt;
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">form</span>&gt;</span>
   
-            &lt;div&gt;
-              &lt;label for=&quot;name&quot;&gt;Name&lt;/label&gt;
-              &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; /&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"name"</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"name"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"name"</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             
-            &lt;div&gt;
-              &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-              &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; required /&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"email"</span>&gt;</span>Email<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"email"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"email"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"email"</span> <span class="hljs-attr">required</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-            &lt;div&gt;
-              &lt;input type=&quot;radio&quot; name=&quot;radio-choice&quot; id=&quot;radio-choice-1&quot; value=&quot;choice-1&quot; required /&gt;
-              &lt;label for=&quot;radio-choice-1&quot;&gt;Choice 1&lt;/label&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"radio-choice"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"radio-choice-1"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"choice-1"</span> <span class="hljs-attr">required</span> /&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"radio-choice-1"</span>&gt;</span>Choice 1<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
               
-              &lt;input type=&quot;radio&quot; name=&quot;radio-choice&quot; id=&quot;radio-choice-2&quot; value=&quot;choice-2&quot; required /&gt;
-              &lt;label for=&quot;radio-choice-2&quot;&gt;Choice 2&lt;/label&gt;
-            &lt;/div&gt;
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"radio-choice"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"radio-choice-2"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"choice-2"</span> <span class="hljs-attr">required</span> /&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"radio-choice-2"</span>&gt;</span>Choice 2<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
               
-            &lt;div&gt;
-              &lt;label for=&quot;textarea&quot;&gt;Comment&lt;/label&gt;
-              &lt;textarea cols=&quot;40&quot; rows=&quot;8&quot; name=&quot;textarea&quot; id=&quot;textarea&quot; required&gt;&lt;/textarea&gt;
-            &lt;/div&gt;
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"textarea"</span>&gt;</span>Comment<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">cols</span>=<span class="hljs-string">"40"</span> <span class="hljs-attr">rows</span>=<span class="hljs-string">"8"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"textarea"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"textarea"</span> <span class="hljs-attr">required</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           
-            &lt;div class=&quot;buttons&quot;&gt;
-              &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
-            &lt;/div&gt;
-          &lt;/form&gt;  
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"buttons"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"Submit"</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>  
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -207,30 +195,26 @@ textarea {
     <summary>
         View ROOT Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/selectors/r/root/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        :root {
-  background-color: cornflowerblue;
-  padding: 3em;
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/selectors/r/root/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-pseudo">:root</span> {
+  <span class="hljs-attribute">background-color</span>: cornflowerblue;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">3em</span>;
 }
 
-body {
-  background-color: white;
-  padding: 1.5em;
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background-color</span>: white;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1.5em</span>;
 }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;We can take advantage of being able to apply CSS to the &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; element to skip the wrapper &lt;code&gt;div&lt;/code&gt; and keep our markup clean!&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>We can take advantage of being able to apply CSS to the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>html<span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> element to skip the wrapper <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>div<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> and keep our markup clean!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF

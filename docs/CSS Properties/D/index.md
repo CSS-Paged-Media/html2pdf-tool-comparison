@@ -17,29 +17,25 @@ description:
     <summary>
         View DIRECTION Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://css-tricks.com/almanac/properties/d/direction/ --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        *[dir=&quot;ltr&quot;] { direction: ltr; unicode-bidi: embed; }
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://css-tricks.com/almanac/properties/d/direction/ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        *<span class="hljs-selector-attr">[dir=<span class="hljs-string">"ltr"</span>]</span> { <span class="hljs-attribute">direction</span>: ltr; <span class="hljs-attribute">unicode-bidi</span>: embed; }
 
-*[dir=&quot;rtl&quot;] { direction: rtl; unicode-bidi: embed; }
+*<span class="hljs-selector-attr">[dir=<span class="hljs-string">"rtl"</span>]</span> { <span class="hljs-attribute">direction</span>: rtl; <span class="hljs-attribute">unicode-bidi</span>: embed; }
 
-bdo[dir=&quot;ltr&quot;] { direction: ltr; unicode-bidi: bidi-override; }
+<span class="hljs-selector-tag">bdo</span><span class="hljs-selector-attr">[dir=<span class="hljs-string">"ltr"</span>]</span> { <span class="hljs-attribute">direction</span>: ltr; <span class="hljs-attribute">unicode-bidi</span>: bidi-override; }
 
-bdo[dir=&quot;rtl&quot;] { direction: rtl; unicode-bidi: bidi-override; }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;This text will go left to right.&lt;/p&gt;
-        &lt;p&gt;&lt;bdo dir=&quot;rtl&quot;&gt;This text will go right to left.&lt;/bdo&gt;&lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+<span class="hljs-selector-tag">bdo</span><span class="hljs-selector-attr">[dir=<span class="hljs-string">"rtl"</span>]</span> { <span class="hljs-attribute">direction</span>: rtl; <span class="hljs-attribute">unicode-bidi</span>: bidi-override; }
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This text will go left to right.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">bdo</span> <span class="hljs-attr">dir</span>=<span class="hljs-string">"rtl"</span>&gt;</span>This text will go right to left.<span class="hljs-tag">&lt;/<span class="hljs-name">bdo</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
@@ -59,47 +55,43 @@ bdo[dir=&quot;rtl&quot;] { direction: rtl; unicode-bidi: bidi-override; }
     <summary>
         View DISPLAY Code
     </summary>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_display --&gt;
-&lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;style&gt;
-        p {color: red;}
+    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- Sample from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_display --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-tag">p</span> {<span class="hljs-attribute">color</span>: red;}
 
-p.ex1 {display: none;}
-p.ex2 {display: inline;}
-p.ex3 {display: block;}
-p.ex4 {display: inline-block;}
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;The display Property&lt;/h1&gt;
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.ex1</span> {<span class="hljs-attribute">display</span>: none;}
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.ex2</span> {<span class="hljs-attribute">display</span>: inline;}
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.ex3</span> {<span class="hljs-attribute">display</span>: block;}
+<span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.ex4</span> {<span class="hljs-attribute">display</span>: inline-block;}
+        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>The display Property<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
         
-        &lt;h2&gt;display: none:&lt;/h2&gt;
-        &lt;div&gt;
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. &lt;p class=&quot;ex1&quot;&gt;HELLO WORLD!&lt;/p&gt; Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>display: none:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex1"</span>&gt;</span>HELLO WORLD!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;display: inline:&lt;/h2&gt;
-        &lt;div&gt;
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. &lt;p class=&quot;ex2&quot;&gt;HELLO WORLD!&lt;/p&gt; Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>display: inline:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex2"</span>&gt;</span>HELLO WORLD!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;display: block:&lt;/h2&gt;
-        &lt;div&gt;
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. &lt;p class=&quot;ex3&quot;&gt;HELLO WORLD!&lt;/p&gt; Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
-        &lt;/div&gt;
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>display: block:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex3"</span>&gt;</span>HELLO WORLD!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         
-        &lt;h2&gt;display: inline-block:&lt;/h2&gt;
-        &lt;div&gt;
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. &lt;p class=&quot;ex4&quot;&gt;HELLO WORLD!&lt;/p&gt; Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
-        &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code>
-    </pre>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>display: inline-block:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ex4"</span>&gt;</span>HELLO WORLD!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 </details>
 
 ### Output PDF
