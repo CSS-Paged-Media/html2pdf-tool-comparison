@@ -11,8 +11,6 @@ description:
 
 ### Input HTML & CSS
 
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-content.html){:target="_blank"}
-
 <details>
     <summary>
         View ALIGN-CONTENT Code
@@ -160,20 +158,47 @@ description:
         <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-content.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_A_align-content.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_align-content.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_align-content.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_align-content.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_align-content.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_align-content.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_align-content.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_align-content.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_A_align-content.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_A_align-content.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_A_align-content.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_A_align-content.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 ALIGN-ITEMS
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-items.html){:target="_blank"}
 
 <details>
     <summary>
@@ -287,20 +312,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-items.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_A_align-items.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_align-items.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_align-items.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_align-items.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_align-items.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_align-items.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_align-items.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_align-items.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_A_align-items.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_A_align-items.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_A_align-items.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_A_align-items.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 ALIGN-SELF
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-self.html){:target="_blank"}
 
 <details>
     <summary>
@@ -349,20 +401,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/align-self.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_A_align-self.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_align-self.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_align-self.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_align-self.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_align-self.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_align-self.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_align-self.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_align-self.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_A_align-self.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_A_align-self.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_A_align-self.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_A_align-self.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 ALL
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/all.html){:target="_blank"}
 
 <details>
     <summary>
@@ -422,20 +501,47 @@ description:
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>    
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/all.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_A_all.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_all.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_all.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_all.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_all.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_all.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_all.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_all.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_A_all.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_A_all.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_A_all.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_A_all.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 APPEARANCE
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/appearance.html){:target="_blank"}
 
 <details>
     <summary>
@@ -467,13 +573,42 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"reset"</span>&gt;</span> type=text, reset
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/A/appearance.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_A_appearance.html.png) | ![typeset Preview](typeset__html_CSS_Properties_A_appearance.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_A_appearance.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_A_appearance.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_A_appearance.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_A_appearance.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_A_appearance.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_A_appearance.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_A_appearance.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_A_appearance.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_A_appearance.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_A_appearance.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 

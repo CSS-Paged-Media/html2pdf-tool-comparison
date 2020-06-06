@@ -11,8 +11,6 @@ description:
 
 ### Input HTML & CSS
 
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/active.html){:target="_blank"}
-
 <details>
     <summary>
         View ACTIVE Code
@@ -31,20 +29,47 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>click anywhere<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/active.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_active.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_active.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_active.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_active.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_active.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_A_active.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_active.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_active.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_A_active.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_A_active.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_A_active.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_A_active.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_A_active.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_A_active.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_A_active.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_A_active.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 ADJACENT-SIBLING
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/adjacent-sibling.html){:target="_blank"}
 
 <details>
     <summary>
@@ -84,20 +109,47 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/adjacent-sibling.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_adjacent-sibling.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_A_adjacent-sibling.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_adjacent-sibling.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_A_adjacent-sibling.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_A_adjacent-sibling.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_A_adjacent-sibling.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_A_adjacent-sibling.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_A_adjacent-sibling.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_A_adjacent-sibling.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 AFTER
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/after.html){:target="_blank"}
 
 <details>
     <summary>
@@ -120,20 +172,47 @@ description:
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/after.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_after.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_after.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_after.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_after.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_after.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_A_after.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_after.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_after.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_A_after.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_A_after.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_A_after.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_A_after.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_A_after.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_A_after.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_A_after.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_A_after.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 ANY-LINK
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/any-link.html){:target="_blank"}
 
 <details>
     <summary>
@@ -177,20 +256,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/any-link.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_any-link.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_any-link.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_any-link.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_any-link.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_any-link.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_A_any-link.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_any-link.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_any-link.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_A_any-link.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_A_any-link.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_A_any-link.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_A_any-link.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_A_any-link.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_A_any-link.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_A_any-link.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_A_any-link.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 ATTRIBUTE
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/attribute.html){:target="_blank"}
 
 <details>
     <summary>
@@ -306,13 +412,42 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"story"</span>&gt;</span>A humble digital file becomes self-aware and starts conversations with web developers. <span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>Read the fascinating account in <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"//s3-us-west-2.amazonaws.com/s.cdpn.io/652/example.pdf"</span>&gt;</span>example.pdf<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/attribute.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_attribute.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_attribute.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_attribute.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_attribute.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_attribute.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_A_attribute.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_attribute.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_attribute.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_A_attribute.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_A_attribute.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_A_attribute.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_A_attribute.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_A_attribute.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_A_attribute.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_A_attribute.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_A_attribute.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 

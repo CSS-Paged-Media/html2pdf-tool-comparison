@@ -11,8 +11,6 @@ description:
 
 ### Input HTML & CSS
 
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/white-space.html){:target="_blank"}
-
 <details>
     <summary>
         View WHITE-SPACE Code
@@ -64,20 +62,47 @@ This is some text. This is some text. This is some text.
 <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/white-space.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_W_white-space.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_white-space.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_white-space.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_white-space.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_white-space.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_white-space.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_white-space.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_white-space.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_W_white-space.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_W_white-space.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_W_white-space.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_W_white-space.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 WIDOWS
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/widows.html){:target="_blank"}
 
 <details>
     <summary>
@@ -120,20 +145,47 @@ This is some text. This is some text. This is some text.
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/widows.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_W_widows.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_widows.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_widows.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_widows.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_widows.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_widows.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_widows.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_widows.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_W_widows.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_W_widows.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_W_widows.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_W_widows.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 WIDTH
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/width.html){:target="_blank"}
 
 <details>
     <summary>
@@ -258,20 +310,47 @@ This is some text. This is some text. This is some text.
 <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/width.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_W_width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_width.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_width.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_width.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_width.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_width.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_width.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_W_width.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_W_width.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_W_width.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_W_width.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 WORD-BREAK
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/word-break.html){:target="_blank"}
 
 <details>
     <summary>
@@ -310,20 +389,47 @@ This is some text. This is some text. This is some text.
         <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"txt"</span>&gt;</span>Marco<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/word-break.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_W_word-break.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_word-break.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_word-break.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_word-break.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_word-break.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_word-break.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-break.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_word-break.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_W_word-break.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_W_word-break.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_W_word-break.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_W_word-break.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 WORD-SPACING
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/word-spacing.html){:target="_blank"}
 
 <details>
     <summary>
@@ -362,20 +468,47 @@ This is some text. This is some text. This is some text.
 
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/word-spacing.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_W_word-spacing.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_word-spacing.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_word-spacing.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_word-spacing.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_word-spacing.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_word-spacing.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-spacing.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_word-spacing.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_W_word-spacing.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_W_word-spacing.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_W_word-spacing.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_W_word-spacing.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 WRITING-MODE
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/writing-mode.html){:target="_blank"}
 
 <details>
     <summary>
@@ -408,13 +541,42 @@ This is some text. This is some text. This is some text.
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/W/writing-mode.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_W_writing-mode.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_writing-mode.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_writing-mode.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_W_writing-mode.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_W_writing-mode.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_W_writing-mode.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_writing-mode.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_W_writing-mode.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_W_writing-mode.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_W_writing-mode.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_W_writing-mode.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_W_writing-mode.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 

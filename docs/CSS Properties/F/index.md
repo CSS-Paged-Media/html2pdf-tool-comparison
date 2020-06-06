@@ -11,8 +11,6 @@ description:
 
 ### Input HTML & CSS
 
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/filter.html){:target="_blank"}
-
 <details>
     <summary>
         View FILTER Code
@@ -34,20 +32,47 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://s3-us-west-2.amazonaws.com/s.cdpn.io/392/redwood-ukulele-top.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"ukulele"</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/filter.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_filter.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_filter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_filter.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_filter.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_filter.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_filter.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_filter.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_filter.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_filter.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_filter.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_filter.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_filter.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FLEX-BASIS
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-basis.html){:target="_blank"}
 
 <details>
     <summary>
@@ -94,20 +119,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-basis.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-basis.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-basis.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-basis.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-basis.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-basis.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-basis.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-basis.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-basis.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_flex-basis.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_flex-basis.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_flex-basis.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_flex-basis.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FLEX-DIRECTION
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-direction.html){:target="_blank"}
 
 <details>
     <summary>
@@ -212,20 +264,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-direction.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-direction.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-direction.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-direction.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-direction.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-direction.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-direction.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-direction.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-direction.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_flex-direction.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_flex-direction.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_flex-direction.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_flex-direction.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FLEX-FLOW
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-flow.html){:target="_blank"}
 
 <details>
     <summary>
@@ -304,20 +383,47 @@ description:
         <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-flow.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-flow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-flow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-flow.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-flow.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-flow.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-flow.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-flow.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-flow.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_flex-flow.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_flex-flow.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_flex-flow.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_flex-flow.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FLEX-GROW
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-grow.html){:target="_blank"}
 
 <details>
     <summary>
@@ -376,20 +482,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-grow.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-grow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-grow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-grow.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-grow.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-grow.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-grow.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-grow.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-grow.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_flex-grow.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_flex-grow.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_flex-grow.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_flex-grow.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FLEX-SHRINK
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-shrink.html){:target="_blank"}
 
 <details>
     <summary>
@@ -436,20 +569,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-shrink.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-shrink.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-shrink.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-shrink.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-shrink.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-shrink.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-shrink.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-shrink.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-shrink.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_flex-shrink.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_flex-shrink.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_flex-shrink.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_flex-shrink.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FLEX-WRAP
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-wrap.html){:target="_blank"}
 
 <details>
     <summary>
@@ -545,20 +705,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex-wrap.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-wrap.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-wrap.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-wrap.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-wrap.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-wrap.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-wrap.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-wrap.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-wrap.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_flex-wrap.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_flex-wrap.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_flex-wrap.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_flex-wrap.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FLEX
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex.html){:target="_blank"}
 
 <details>
     <summary>
@@ -600,20 +787,47 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer"</span>&gt;</span>Footer<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/flex.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_flex.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_flex.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_flex.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_flex.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_flex.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FLOAT
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/float.html){:target="_blank"}
 
 <details>
     <summary>
@@ -644,20 +858,47 @@ description:
      
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/float.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_float.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_float.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_float.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_float.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_float.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_float.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_float.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_float.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_float.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_float.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_float.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_float.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FONT-FAMILY
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-family.html){:target="_blank"}
 
 <details>
     <summary>
@@ -689,20 +930,47 @@ description:
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-family.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-family.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-family.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-family.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-family.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-family.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_font-family.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-family.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-family.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_font-family.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_font-family.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_font-family.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_font-family.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FONT-FEATURE-SETTINGS
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-feature-settings.html){:target="_blank"}
 
 <details>
     <summary>
@@ -737,20 +1005,47 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Note:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> Internet Explorer 9 and earlier versions do not support the font-feature-settings property.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-feature-settings.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-feature-settings.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-feature-settings.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-feature-settings.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-feature-settings.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_font-feature-settings.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-feature-settings.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_font-feature-settings.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_font-feature-settings.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_font-feature-settings.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FONT-SIZE-ADJUST
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-size-adjust.html){:target="_blank"}
 
 <details>
     <summary>
@@ -789,20 +1084,47 @@ You control the font size better with the font-size-adjust property.
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-size-adjust.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-size-adjust.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-size-adjust.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-size-adjust.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-size-adjust.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_font-size-adjust.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-size-adjust.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_font-size-adjust.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_font-size-adjust.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_font-size-adjust.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FONT-SIZE
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-size.html){:target="_blank"}
 
 <details>
     <summary>
@@ -847,20 +1169,47 @@ You control the font size better with the font-size-adjust property.
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-size.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-size.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-size.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-size.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-size.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-size.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_font-size.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-size.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-size.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_font-size.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_font-size.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_font-size.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_font-size.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FONT-STRETCH
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-stretch.html){:target="_blank"}
 
 <details>
     <summary>
@@ -883,20 +1232,47 @@ You control the font size better with the font-size-adjust property.
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-stretch.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-stretch.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-stretch.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-stretch.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-stretch.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-stretch.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_font-stretch.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-stretch.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-stretch.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_font-stretch.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_font-stretch.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_font-stretch.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_font-stretch.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FONT-STYLE
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-style.html){:target="_blank"}
 
 <details>
     <summary>
@@ -923,20 +1299,47 @@ You control the font size better with the font-size-adjust property.
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"two"</span>&gt;</span>This is oblique text.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-style.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-style.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-style.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-style.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_font-style.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-style.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-style.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_font-style.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_font-style.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_font-style.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_font-style.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FONT-VARIANT
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-variant.html){:target="_blank"}
 
 <details>
     <summary>
@@ -960,20 +1363,47 @@ You control the font size better with the font-size-adjust property.
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>THIS IS REGULAR CAPS.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-variant.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-variant.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-variant.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-variant.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-variant.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-variant.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_font-variant.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-variant.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-variant.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_font-variant.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_font-variant.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_font-variant.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_font-variant.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FONT-WEIGHT
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-weight.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1048,20 +1478,47 @@ You control the font size better with the font-size-adjust property.
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w900"</span>&gt;</span>This is 900 weight<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font-weight.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-weight.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-weight.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-weight.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-weight.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-weight.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_font-weight.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-weight.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-weight.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_font-weight.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_font-weight.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_font-weight.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_font-weight.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FONT
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font.html){:target="_blank"}
 
 <details>
     <summary>
@@ -1088,13 +1545,42 @@ You control the font size better with the font-size-adjust property.
         
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/F/font.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Properties_F_font.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Properties_F_font.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Properties_F_font.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Properties_F_font.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Properties_F_font.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 

@@ -11,8 +11,6 @@ description:
 
 ### Input HTML & CSS
 
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-child.html){:target="_blank"}
-
 <details>
     <summary>
         View FIRST-CHILD Code
@@ -51,20 +49,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-child.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-child.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-child.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-child.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-child.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-child.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-child.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_F_first-child.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_F_first-child.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_F_first-child.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_F_first-child.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_F_first-child.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_F_first-child.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_F_first-child.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_F_first-child.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FIRST-LETTER
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-letter.html){:target="_blank"}
 
 <details>
     <summary>
@@ -87,20 +112,47 @@ description:
            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-letter.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-letter.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-letter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-letter.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-letter.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-letter.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-letter.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_F_first-letter.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_F_first-letter.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_F_first-letter.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_F_first-letter.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_F_first-letter.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_F_first-letter.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FIRST-LINE
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-line.html){:target="_blank"}
 
 <details>
     <summary>
@@ -164,20 +216,47 @@ description:
             <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-line.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-line.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-line.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-line.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-line.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-line.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-line.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-line.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-line.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_F_first-line.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_F_first-line.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_F_first-line.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_F_first-line.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_F_first-line.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_F_first-line.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_F_first-line.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_F_first-line.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FIRST-OF-TYPE
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-of-type.html){:target="_blank"}
 
 <details>
     <summary>
@@ -217,20 +296,47 @@ description:
          
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/first-of-type.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-of-type.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-of-type.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-of-type.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-of-type.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_F_first-of-type.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_F_first-of-type.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_F_first-of-type.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_F_first-of-type.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_F_first-of-type.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_F_first-of-type.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FOCUS-VISIBLE
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus-visible.html){:target="_blank"}
 
 <details>
     <summary>
@@ -263,20 +369,47 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"focus-visible-only"</span>&gt;</span>:focus-visible only<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus-visible.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-visible.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-visible.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-visible.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-visible.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-visible.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-visible.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_F_focus-visible.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_F_focus-visible.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_F_focus-visible.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_F_focus-visible.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_F_focus-visible.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_F_focus-visible.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FOCUS-WITHIN
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus-within.html){:target="_blank"}
 
 <details>
     <summary>
@@ -508,20 +641,47 @@ description:
           <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus-within.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-within.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-within.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-within.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-within.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-within.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-within.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_F_focus-within.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_F_focus-within.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_F_focus-within.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_F_focus-within.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_F_focus-within.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_F_focus-within.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 ## 🔬 FOCUS
 
 ### Input HTML & CSS
-
-[📄 View Input HTML on GitHub](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus.html){:target="_blank"}
 
 <details>
     <summary>
@@ -563,13 +723,42 @@ description:
         <span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">tabindex</span>=<span class="hljs-string">"-1"</span>&gt;</span>I can't be tabbed to. This is a terrible idea, generally, but it can be done using tabindex="-1". Notice that (if you click) I still have a focus state, even though you can't tab to me.<span class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <p>
+        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/F/focus.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+    </p>
 </details>
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-|---------|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_focus.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus.html.pdf){:target="_blank"} | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus.html.pdf){:target="_blank"} | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus.html.pdf){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus.html.pdf){:target="_blank"} |
+<div class="details-boxes">
+    <div>
+        <h4>mPDF</h4>
+        <img src="mpdf__html_CSS_Selectors_F_focus.html.png" alt="mPDF Preview" />
+        <p>
+            <a href="mpdf__html_CSS_Selectors_F_focus.html.pdf" target="_blank">📕 mPDF Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>typeset.sh</h4>
+        <img src="typeset__html_CSS_Selectors_F_focus.html.png" alt="typeset Preview" />
+        <p>
+            <a href="typeset__html_CSS_Selectors_F_focus.html.pdf" target="_blank">📕 typeset Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>PDFreactor</h4>
+        <img src="pdfreactor__html_CSS_Selectors_F_focus.html.png" alt="PDFreactor Preview" />
+        <p>
+            <a href="pdfreactor__html_CSS_Selectors_F_focus.html.pdf" target="_blank">📕 PDFreactor Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>wkhtmltopdf</h4>
+        <img src="wkhtmltopdf__html_CSS_Selectors_F_focus.html.png" alt="wkhtmltopdf Preview" />
+        <p>
+            <a href="wkhtmltopdf__html_CSS_Selectors_F_focus.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+</div>
 
 

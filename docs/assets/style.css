@@ -173,6 +173,11 @@ a:visited,a:hover,a:active{
     
     text-decoration:none;font-weight:bold;font-size:1.4rem;background:rgba(188, 11, 6, .02)
 }
+
+.details-boxes{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    grid-gap:2rem;
+}
     
 .boxes a span{color:#000;margin-top:2rem;display:block;font-weight:normal;font-size:1.2rem}
 
@@ -221,10 +226,6 @@ header p a:hover,
 header p a:active,
 header p a:visited{
     color:#fff;
-}
-
-article table td {
-    padding: 1rem;
 }
 
 /*
