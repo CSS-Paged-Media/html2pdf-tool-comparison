@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Corporate Invoice</title>
+    <meta charset="utf-8"/>
+    <style>@media print {
+
+        @page:first {
+        
+            @top-right {
+                content: none;
+            }
+            @top-left {
+                content: none;
+            }
+        }
+        
+        @page {
+            margin: 2cm 2.5cm 3cm 2.5cm;
+            
+            @top-left {
+                content: element(headerIdentifier);
+                vertical-align: bottom;
+            }
+            @bottom-left {
+                content: element(footerIdentifier);
+                vertical-align: top;
+                width: 100%;
+            }
+            @bottom-right {
+                content: element(companyIdentifier);
+                vertical-align: top;
+                margin-top: 4mm;
+                width: 100%;
+            }
+        }
+    }
+    
+    @-ro-preferences {
+        page-layout: 1 column;
+        initial-zoom: fit-page;
+    }
+    
+    div.spacing {
+        margin-top: 1.2em;
+    }
+    
+    div.footer, div.header {
+        font: 9pt arial, sans-serif;
+        width: 100%;
+    }
+    
+    div.footer {
+        position: running(footerIdentifier);
+    }
+    
+    div.header {
+        position: running(headerIdentifier);
+    }
+    
+    p.companyinfo {
+        position: running(companyIdentifier);
+    }
+    
+    div.header table {
+        position: relative;
+    }
+    
+    div.footer table, div.footer p {
+        position: relative;
+    }
+    
+    
+    table.header-footer {
+        padding: 0pt;
+        text-align: right;
+        border-collapse: collapse;
+        background: #F8F8F8;
+        width: 100%;
+    }
+    
+    table.header-footer td:first-child {
+        text-align: left;
+    }
+    
+    table.header-footer td.subtotaltext {
+        padding-right: 1.7em;
+    }
+    
+    table.header-footer td.subtotaltext {
+        position: absolute;
+        right: 11.5em;
+    }
+    
+    table.header-footer td.currency {
+        position: absolute;
+        right: 7em;
+    }
+    
+    table.header-footer td.subtotal {
+        position: absolute;
+        right: 1.5em;
+    }
+    
+    div.header td.subtotal::before {
+        content: string(sum, start);
+    }
+    
+    div.header td.invoicetext {
+        width: 16cm;
+    }
+    
+    div.header td.invoicetext::before {
+        content: string(invoice, start);
+    }
+    
+    div.header td.subtotaltext::before {
+        content: string(subtotaltext, start);
+    }
+    
+    div.header td.currency::before {
+        content: string(currency, start);
+    }
+    
+    div.footer td.subtotaltext::before {
+        content: string(subtotaltext, last);
+    }
+    
+    div.footer td.currency::before {
+        content: string(currency, last);
+    }
+    
+    
+    div.footer td.subtotal::before {
+        content: string(sum, last);
+    }
+    
+    div.footer td.pagecounter::before {
+        content: "Page " counter(page) "/" counter(pages);
+    }
+    
+    p.companyinfo {
+        background: white;
+        border: 0.75pt solid white;
+    }
+    
+    p.companyinfo {
+        font: 6pt arial, sans-serif;
+        color: #7F7F7F;
+        text-align: center;
+    }
+                
+    barcode {
+        -ro-replacedelement: barcode;
+    }
+    
+    img.logo {
+        height: 42pt;
+        margin-bottom: 20pt;
+    }
+    
+    div.companyinformation {
+        text-align: right;
+        font: 6pt arial, sans-serif;
+        color: #7F7F7F;
+    }
+    
+    div.addressline {
+        font: 6pt arial, sans-serif;
+        color: #7F7F7F;
+        margin-bottom: 20pt;
+        margin-top: -40pt;
+    }
+    
+    div.recipient {
+        font: 10pt arial, sans-serif;
+    }
+    
+    div.descbox {
+        float: right;
+        width: 160pt;
+        font: 8pt arial, sans-serif;
+    }
+    
+    div.descboxheader {
+        background-color: #F0F0F0;
+        border: 0.75pt solid #777;
+        text-align: center;
+        font: bold 12pt arial, sans-serif;
+    }
+    
+    div.descboxcontent {
+        border-left: 0.75pt solid #777;
+        border-bottom: 0.75pt solid #777;
+        border-right: 0.75pt solid #777;
+    }
+    
+    div.infotable {
+        border: 0.75pt solid #777;
+        margin-top: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    
+    table.infotable {
+        font: 8pt arial, sans-serif;
+        width: 100%;
+    }
+    
+    hr.floated {
+        visibility: hidden;
+        float: left;
+    }
+    
+    table.postable {
+        font: 9pt arial, sans-serif;
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0pt 10pt;
+        margin-bottom: 5pt;
+    }
+    
+    table.postable tbody tr:not(.postfooter ):nth-child(even) {
+        background-color: #FAFAFA;
+    }
+    
+    table.postable tr {
+        break-inside: avoid;
+    }
+    
+    hr.invisible {
+        visibility: hidden;
+        background: #fff;
+        color: #fff;
+        clear: both;
+        margin: 0;
+    }
+    
+    tr.postheader {
+        background-color: #F0F0F0;
+        padding: 4pt;
+    }
+    
+    tr.transfer>td:first-child {
+        overflow: hidden;
+    }
+    
+    tr.tansfer>td {
+        background-color: #F0F0F0;
+        padding: 4pt;
+    }
+    
+    tr.postheader td {
+        white-space: nowrap;
+    }
+    
+    tr.postfooter {
+        background-color: #F0F0F0;
+        padding: 4pt;
+    }
+    
+    tr.postfootercontent {
+        background-color: white;
+    }
+    
+    td {
+        vertical-align: top;
+    }
+    
+    td.subtotal {
+        text-align: right;
+        padding-right: 5pt;
+        font-weight: bold;
+    }
+    
+    td.total {
+        background-color: #fff !important;
+        border: 0.75pt solid black;
+        text-align: right;
+        padding-right: 5pt;
+        font-weight: bold;
+    }
+    
+    td.right {
+        text-align: right;
+        width: 5em;
+        padding-right: 0.5em;
+    }
+    
+    p {
+        font: 8pt arial, sans-serif;
+    }
+    
+    p.terms {
+        font-weight: bold;
+        text-decoration: underline;
+        font-style: italic;
+    }
+    
+    body.main {
+        string-set: subtotaltext "", sum "", currency "";
+        counter-reset: position;
+    }
+    
+    div.sum-subtotal {
+        string-set: sum self;
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    td.invoice {
+        string-set: invoice "Invoice " self;
+    }
+    
+    table.postable tbody tr:first-child {
+        string-set: subtotaltext "Subtotal", currency "EUR";
+    }
+    
+    table.postable tbody tr:last-child {
+        string-set: subtotaltext "", sum "", currency "";
+    }
+    
+    td.position {
+        counter-increment: position;
+        text-align: right;
+        padding-right: 10pt;
+    }
+    
+    td.position::before {
+        content: counter(position);
+    }
+    
+    div.posttext {
+        break-inside: avoid;
+        padding-top: 10pt;
+    }
+    </style>
+    <script src="scripts/angular/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+</head>
+
+<body class="main" data-ng-app="invoiceApp" data-ng-controller="invoiceController">
+    <div class="companyinformation"><img class="logo" alt="Company Logo" data-ng-src="{{data.vendor.logo}}" />
+        <div>{{data.vendor.companyname}}</div>
+        <div>{{data.vendor.address}}</div>
+        <div>{{data.vendor.zip}} {{data.vendor.city}}</div>
+        <div>{{data.vendor.country}}</div>
+        <div class="spacing">Tel. {{data.vendor.tel}}</div>
+        <div>Fax {{data.vendor.fax}}</div>
+        <div>E-Mail {{data.vendor.email}}</div>
+    </div>
+    <div class="addressline">{{data.vendor.companyname}} - {{data.vendor.address}} - {{data.vendor.zip}} {{data.vendor.city}} - {{data.vendor.country}}</div>
+    <div class="recipient">
+        <div>{{data.orderer.companyname}}</div>
+        <div>Attn: {{data.orderer.personname}}</div>
+        <div data-ng-repeat="addressLine in data.orderer.address">
+            {{addressLine}}
+        </div>
+        <div>{{data.orderer.zip}} {{data.orderer.city}}</div>
+        <div>{{data.orderer.country | uppercase}}</div>
+    </div>
+    <div class="descbox">
+        <div class="descboxheader">
+            Invoice
+        </div>
+        <div class="descboxcontent">
+            <table>
+                <tr>
+                    <td>Process no.:</td>
+                    <td>{{data.voucher.processno}}</td>
+                </tr>
+                <tr>
+                    <td>Voucher no.:</td>
+                    <td class="invoice">{{data.voucher.no}}</td>
+                </tr>
+                <tr>
+                    <td>Date:</td>
+                    <td>{{data.voucher.date | formatAsDate:data.vendor.locale}}</td>
+                </tr>
+                <tr>
+                    <td>Client reference no:</td>
+                    <td>{{data.voucher.clientrefid}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="header">
+        <table class="header header-footer">
+            <tr>
+                <td class="invoicetext"></td>
+                <td class="right subtotaltext"></td>
+                <td class="right currency"></td>
+                <td class="subtotal"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <table class="footer header-footer">
+            <tr>
+                <td class="pagecounter"></td>
+                <td class="right subtotaltext"></td>
+                <td class="right currency"></td>
+                <td class="subtotal"></td>
+            </tr>
+        </table>
+    </div>
+    <p class="companyinfo">
+        {{data.vendor.companyname}} - {{data.vendor.register}} - Geschäftsführer: {{data.vendor.director}}<br />
+        {{data.vendor.bankname}} - BLZ: {{data.vendor.bankcode}} - Kto.-Nr: {{data.vendor.bankaccno}} - Swift Code: {{data.vendor.swiftbic}} - USt.IdNr: {{data.vendor.vatid}} - St-Nr: {{data.vendor.taxno}}<br />
+        Disclaimer: All data on this page is completely fictional. Any similarity to real data is purely coincidental.<br />There is no representation that this data is accurate, complete or current.
+    </p>
+    <hr class="invisible" />
+    <div class="infotable">
+        <table class="infotable">
+            <tr>
+                <td>Valid until</td>
+                <td></td>
+                <td>Reference</td>
+                <td>{{data.voucher.clientrefid}}</td>
+                <td>Our VAT-ID no.</td>
+                <td>{{data.vendor.vatid}}</td>
+            </tr>
+            <tr>
+                <td>Shipment</td>
+                <td>e-mail</td>
+                <td>Your sign</td>
+                <td>{{data.orderer.personname}}</td>
+                <td>Our sign</td>
+                <td>{{data.vendor.sign}}</td>
+            </tr>
+            <tr>
+                <td>Terms of shipment</td>
+                <td>Standard</td>
+                <td>Your voucher</td>
+                <td>{{data.voucher.no}}</td>
+                <td>Your VAT-ID no.</td>
+                <td>{{data.orderer.vatid}}</td>
+            </tr>
+        </table>
+    </div>
+    <table class="postable">
+        <thead>
+            <tr class="postheader">
+                <td style="padding-right: 1.5mm">Pos.</td>
+                <td style="padding-right: 1.5mm">Art.-No.</td>
+                <td style="width:11cm">Description</td>
+                <td class="right">Qty. Unit</td>
+                <td class="right">Unit Price</td>
+                <td class="right">Total Price</td>
+                <td style="text-align:right">TC</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-ng-repeat="position in data.positions">
+                <td class="position" />
+                <td>{{position.khkid | formatAsArticleNumber}}</td>
+                <td>
+                    <div>{{position.articletitle}}</div>
+                    <div data-ng-repeat="desc in position.articledesc">
+                        {{desc}}
+                    </div>
+                </td>
+                <td class="right">{{position.qty}} {{position.unit}}</td>
+                <td class="right">{{position.unitprice | formatAsValue:data.vendor.locale}}</td>
+                <td class="right">{{position.total | formatAsValue:data.vendor.locale}}
+                    <div class="sum-subtotal">{{position.subtotal | formatAsValue:data.vendor.locale}}</div>
+                </td>
+                <td style="text-align:right">{{data.vat.code}}</td>
+            </tr>
+            <tr class="postfooter">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="right">Subtotal</td>
+                <td class="right">{{data.vendor.currency}}</td>
+                <td class="subtotal">{{data.subtotal | formatAsValue:data.vendor.locale}}</td>
+                <td style="text-align:right" />
+            </tr>
+            <tr class="postfooter postfootercontent">
+                <td></td>
+                <td></td>
+                <td>VAT with TC {{data.vat.code}}</td>
+                <td class="right">{{data.vat.value | formatAsPercentage:data.vendor.locale}} of</td>
+                <td class="right">{{data.subtotal | formatAsValue:data.vendor.locale}}</td>
+                <td class="right">{{data.subtotalVat | formatAsValue:data.vendor.locale}}</td>
+                <td></td>
+            </tr>
+            <tr class="postfooter">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="right">Total</td>
+                <td class="right">{{data.vendor.currency}}</td>
+                <td class="subtotal">{{data.totalWithVat | formatAsValue:data.vendor.locale}}</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer">
+        <table class="footer header-footer">
+            <tr>
+                <td class="pagecounter"></td>
+                <td class="right subtotaltext"></td>
+                <td class="right currency"></td>
+                <td class="subtotal"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="posttext">
+        <p>The invoice amount must be paid with indication of the "Voucher no." by remittance to our bank account indicated below free of bank charges for us. 
+            You may also send us a collection-only check in the currency mentioned above.</p>
+        <p>Account Holder: {{data.vendor.companyname}}<br /> Account Number: {{data.vendor.bankaccno}}<br /> IBAN: {{data.vendor.iban}}<br /> Bank Name: {{data.vendor.bankname}}<br /> Bank Address: {{data.vendor.bankaddress}}<br /> Bank SWIFT/BIC Code: {{data.vendor.swiftbic}}<br /> Bank Code: {{data.vendor.bankcode}}</p>
+        <barcode style="float: right; width: 2cm;" message="{{data.voucher.processno}};{{data.voucher.no}};{{data.voucher.date | formatAsDate:data.vendor.locale}};{{data.voucher.clientrefid}};{{data.totalWithVat | formatAsValue:data.vendor.locale}};{{data.orderer.companyname}};{{data.orderer.personname}}">
+            <datamatrix />
+        </barcode>
+        <p class="terms">Terms of payment:</p>
+        <p>10 Days without deduction {{data.totalWithVat | formatAsCurrency:data.vendor.locale:data.vendor.currency}}</p>
+    </div>
+</body>
+</html>

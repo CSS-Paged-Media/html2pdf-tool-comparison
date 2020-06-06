@@ -1109,9 +1109,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) | ![typeset Preview](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) |
-| [📕 mPDF Output](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf) | [📕 typeset Output](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) | ![typeset Preview](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.png) |
+| [📕 mPDF Output](mpdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf) | [📕 typeset Output](typeset__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_PDFreactor_Examples_compoundFormats_compoundFormats.html.pdf) |
 
 

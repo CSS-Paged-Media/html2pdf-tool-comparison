@@ -56,10 +56,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_R_resize.html.png) | ![typeset Preview](typeset__html_CSS_Properties_R_resize.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_R_resize.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_R_resize.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_R_resize.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_resize.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_R_resize.html.png) | ![typeset Preview](typeset__html_CSS_Properties_R_resize.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_R_resize.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_R_resize.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_R_resize.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_R_resize.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_resize.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_R_resize.html.pdf) |
 
 ## 🔬 RIGHT
 
@@ -123,9 +123,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_R_right.html.png) | ![typeset Preview](typeset__html_CSS_Properties_R_right.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_R_right.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_R_right.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_R_right.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_right.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_R_right.html.png) | ![typeset Preview](typeset__html_CSS_Properties_R_right.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_R_right.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_R_right.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_R_right.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_R_right.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_right.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_R_right.html.pdf) |
 
 

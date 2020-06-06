@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="la">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+        <title>Daily Newspaper</title>
+        <style>/* fonts */
+
+            @font-face {
+                font-family: Title;
+                src: url("fnt/kingthings/Kingthings_Calligraphica_2.ttf") format("truetype");
+            }
+            
+            @font-face {
+                font-family: Text;
+                font-weight: 300;
+                src: url("fnt/neuton/Neuton-Light.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: Text;
+                font-weight: 400;
+                src: url("fnt/neuton/Neuton-Regular.ttf") format("truetype");
+            }
+            
+            @font-face {
+                font-family: Text;
+                font-style: italic;
+                src: url("fnt/neuton/Neuton-Italic.ttf") format("truetype");
+            }
+            
+            /* page */
+            
+            @page { 
+                size: 325mm 480mm; 
+                margin: 10mm 
+            }
+            
+            @-ro-preferences {
+                page-layout: 1 page;
+                initial-zoom: fit-page;
+            }
+            
+            @media screen {
+                html {
+                    outline: 1px solid gray;
+                    margin: auto;
+                    margin-top: 5mm;
+                    margin-bottom: 5mm;
+                    width: 305mm;
+                    height: 460mm;
+                    padding: 10mm;
+                }
+            }
+            
+            
+            /* general style */
+            
+            body { 
+                margin: 0; 
+                padding: 0; 
+                
+                font-family: Text;
+                font-size: 5mm;
+                font-weight: 300;
+                text-align: justify;
+                color: black;
+                line-height: 1;
+                
+                hyphens: auto;
+                hyphenate-before: 3;
+                hyphenate-after: 3;
+            }
+            
+            article.bordered {
+                margin-top: 5mm;
+                border: 0.5mm solid gray;
+                padding: 2.5mm;
+            }
+            
+            article {
+                -webkit-column-gap: 5mm;
+                -moz-column-gap: 5mm;
+                column-gap: 5mm;
+                
+                margin-top: 2.5mm;
+                margin-bottom: 2.5mm;
+            }
+            
+            article::first-child {
+                margin-top: 0;
+            }
+            
+            article > hgroup {
+                font-family: Text;
+                font-weight: normal;
+                
+                -webkit-column-span: all;
+                -moz-column-span: all;
+                column-span: all;
+            }
+            
+            h1, h2 {
+                font-weight: normal;
+            }
+            
+            article > hgroup > h1,
+            article > hgroup.topstory > h1 {
+                margin-top: 0;
+                margin-bottom: 2mm;
+                text-align: left;
+            }
+            
+            article > hgroup > h1 {
+                font-size: 14mm;
+            }
+            
+            article > hgroup.topstory > h1 {
+                font-size: 20mm;
+            }
+            
+            article > hgroup > h2 {
+                margin-top: 2mm;
+                margin-bottom: 3mm;
+                font-size: 6mm;
+            }
+            
+            article > p {
+                margin-top: 0;
+                margin-bottom: 0;
+                text-indent: 2.5mm;
+            }
+            
+            figure {
+                margin: 0mm;
+                margin-top: 2.5mm;
+                margin-bottom: 2.5mm;
+                
+                -webkit-column-span: all;
+                -moz-column-span: all;
+                column-span: all;
+            }
+            
+            figure > img {
+                display: block;
+                width: 100%;
+            }
+            
+            figure > figcaption,
+            article > p.intro,
+            article > p.further {
+                font-weight: normal;
+                margin-bottom: 2.5mm;
+            }
+            
+            p.further {
+                margin-top: 2.5mm;
+                margin-bottom: 0;
+                text-align: right;
+            }
+            
+            p.further::before {
+                content: "\203A  ";
+                padding-left: 2.5mm;
+            }
+            
+            p.further a {
+                font-style: italic;
+                font-weight: normal;
+                font-size: 4.5mm;
+                color: inherit;
+                text-decoration: none;
+            }
+            
+            *.singleColumn {
+                -webkit-column-span: none;
+                -moz-column-span: none;
+                column-span: none;
+            }
+            
+            figure.singleColumn {
+                break-after: column;
+                margin-top: 0;
+            }
+            
+            hgroup.singleColumn > h1 {
+                font-size: 10mm;
+            }
+            
+            /* header */
+            
+            header.title { 
+                width: 305mm;
+                height: 47mm;
+                
+                border-bottom: 2mm solid navy;
+                
+                margin-bottom: 5mm;
+            }
+            
+            header.title > hgroup > h1 {
+                margin: 0;
+                margin-bottom: 5mm;
+                padding: 0;
+                
+                font-family: Title;
+                font-weight: normal;
+                font-size: 30mm;
+                
+                text-align: center;
+            }
+            
+            header.title > hgroup > h2 {
+                margin: 0;
+                padding: 0;
+                
+                font-family: Text;
+                font-weight: normal;
+                font-size: 5mm;
+                
+                text-transform: uppercase;
+                text-align: center;
+            }
+            
+            header.title > h2,
+            header.title > *.date,
+            header.title > *.volume {
+                margin: 0;
+                padding: 0;
+                
+                font-family: Text;
+                font-weight: normal;
+                font-size: 5mm;
+                
+                text-transform: uppercase;
+                text-align: center;
+            }
+            
+            header.title > *.date,
+            header.title > *.volume {
+                font-size: 4mm;
+                font-style: italic;
+                text-transform: inherit;
+            }
+            
+            header.title > *.date {
+                float: left;
+            }
+            
+            header.title > *.volume {
+                float: right;
+            }
+            
+            /* footer */
+            
+            footer { 
+                width: 305mm;
+                height: 8mm;
+                
+                margin: 0;
+                
+                clear: both;
+                
+                font-size: 5.8mm;
+                font-weight: normal;
+                
+                text-transform: uppercase;
+                text-align: center;
+                
+                background-color: lightgrey;
+            }
+            
+            footer span::after {
+                content: " +++ ";
+            }
+            
+            footer span:first-child::before,
+            footer span:last-child::after {
+                content: " ++ ";
+            }
+            
+            /* content layout */
+            
+            section.overview { 
+                width: 80mm;
+                height: 390mm;
+                
+                margin-bottom: 5mm;
+                margin-right: 5mm;
+                
+                float: left;
+            }
+            
+            section.middle {
+                width: 125mm;
+                height: 330mm;
+                
+                margin: 0;
+                margin-right: 5mm;
+                margin-bottom: 2.5mm;
+                
+                padding: 2.5mm;
+                padding-top: 0mm;
+                
+                outline: 0.5mm solid gray;
+                
+                float: left;
+            }
+            
+            section.middle > article {
+                -webkit-column-count: 3;
+                -moz-column-count: 3;
+                column-count: 3;
+            }
+            
+            section.right {
+                width: 85mm;
+                height: 332.5mm;
+                
+                margin: 0;
+                margin-bottom: 2.5mm;
+                
+                padding: 0;
+                
+                float: left;
+            }
+            
+            section.right > article {
+                -webkit-column-count: 2;
+                -moz-column-count: 2;
+                column-count: 2;
+            }
+            
+            section.middleRight {
+                width: 220mm;
+                height: 55mm;
+                
+                margin: 0;
+                margin-bottom: 5mm;
+                
+                float: left;
+            }
+            
+            section.middleRight > article {
+                -webkit-column-count: 5;
+                -moz-column-count: 5;
+                column-count: 5;
+            }
+            
+            /* overview */
+            
+            section.overview > div {
+                border: 1mm solid var(--box-color);
+                margin-bottom: 2.5mm;
+                padding: 0;
+            }
+            
+            section.overview header {
+                margin-bottom: 0;
+                padding: 1mm;
+                padding-bottom: 3mm;
+                background-color: var(--box-color);
+                color: white;
+            }
+            
+            section.overview > div > :not(:first-child) {
+                margin-left: 2.5mm;
+                margin-right: 2.5mm;
+            }
+            
+            section.overview > div > :last-child {
+                margin-bottom: 2.5mm;
+            }
+            
+            section.overview h1 {
+                margin-top: 0;
+                margin-bottom: 0.5mm;
+                font-size: 8mm;
+            }
+            
+            section.overview > div > p {
+                margin-top: 0;
+                margin-bottom: 1mm;
+            }
+            
+            
+            ol.line {
+                display: block;
+                clear: both;
+            }
+            
+            ol.line > li {
+                display: inline-block;
+                width: 5mm;
+                height: 5mm;
+            }
+            
+            .cyan {
+                background-color: cmyk(100%, 0%, 0%, 0%);
+            }
+            
+            .cyan-lighter {
+                background-color: cmyk(50%, 0%, 0%, 0%);
+            }
+            
+            .magenta {
+                background-color: cmyk(0%, 100%, 0%, 0%);
+            }
+            
+            .magenta-lighter {
+                background-color: cmyk(0%, 50%, 0%, 0%);
+            }
+            
+            .yellow {
+                background-color: cmyk(0%, 0%, 100%, 0%);
+            }
+            
+            .yellow-lighter {
+                background-color: cmyk(0%, 0%, 50%, 0%);
+            }
+            
+            .black {
+                background-color: cmyk(0%, 0%, 0%, 100%);
+            }
+            
+            .black-lighter {
+                background-color: cmyk(0%, 0%, 0%, 50%);
+            }
+            
+            section.overview > div.world {
+                --box-color: steelblue;
+            }
+            
+            section.overview > div.national {
+                --box-color: firebrick;
+            }
+            
+            section.overview > div.business {
+                --box-color: seagreen;
+            }
+            
+            section.overview > div.sports {
+                --box-color: goldenrod;
+            }
+            
+            section.overview > div.poll {
+                --box-color: darkslateblue;
+            }
+            
+            section.overview > div.poll > figure > canvas {
+                width: 100%;
+                height: 33mm;
+                
+                background-color: lavender;
+                background-image: -webkit-linear-gradient(-75deg, lavender, lightsteelblue);
+                background-image: -moz-linear-gradient(-75deg, lavender, lightsteelblue);
+                background-image: linear-gradient(165deg, lavender, lightsteelblue);
+            }
+            
+            section.overview > div.print {
+                --box-color: slategray;
+            }
+            
+            section.overview > div.print > div.grid {
+                width: 38mm;
+                height: 15mm;
+                float: left;
+            }
+            
+            section.overview > div.print > div.grid > div {
+                padding-top: 2mm;
+            }
+            
+            section.overview > div.print > div.grid > div:nth-child(odd) {
+                float: left;
+                font-weight: normal;
+            }
+            section.overview > div.print > div.grid > div:nth-child(even) {
+                float: right;
+            }
+            
+            section.overview > div.print > div {
+                width: 30mm;
+                height: 15mm;
+                margin-bottom: 1em;
+                float: right;
+            }
+            
+            section.overview > div.print > div > barcode {
+                margin-top: 2mm;
+                width: 100%;
+            }
+            </style>
+        <script type="text/javascript" language="JavaScript" src="script.js"></script>
+    </head>
+    <body onload="drawGraph()">
+        
+        <!-- Title Page Header -->
+        
+        <header class="title">
+            <hgroup>
+                <h1>The Real News</h1>
+                <h2>Demonstrating PDFreactor Capabilities</h2>
+            </hgroup>
+            <div class="date">Monday, May 14th 2012</div>
+            <div class="volume">Vol. 1</div>
+        </header>
+        
+        <!-- Overview Section (left) -->
+        
+        <section class="overview">
+            <div class="world">
+                <header>World</header>
+                
+                <h1>Nonumy eirmod</h1>
+                <p>Sed diam nonumy eirmod tempor Invidunt ut labore et dolore magna aliquyam erat.</p>
+                <p class="further"><a href="">more on page 2</a></p>
+                
+                <h1>Accusam et justo</h1>
+                <p>Diam voluptua at vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <p class="further"><a href="">more on page 2</a></p>
+            </div>
+            <div class="national">
+                <header>National</header>
+                
+                <h1>Takimata sanctus</h1>
+                <p>Lorem ipsum dolor sit amet. consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                <p class="further"><a href="">more on page 3</a></p>
+                
+                <h1>Duo dolores</h1>
+                <p>Duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                <p class="further"><a href="">more on page 4</a></p>
+            </div>
+            <div class="business">
+                <header>Business</header>
+                
+                <h1>Accusam et justo</h1>
+                <p>Diam voluptua at vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <p class="further"><a href="">more on page 5</a></p>
+                
+                <h1>Nonumy eirmod</h1>
+                <p>Sed diam nonumy eirmod tempor Invidunt ut labore et dolore magna aliquyam erat.</p>
+                <p class="further"><a href="">more on page 6</a></p>
+            </div>
+            <div class="sports">
+                <header>Sports</header>
+                
+                <h1>Duo dolores</h1>
+                <p>Duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                <p class="further"><a href="">more on page 7</a></p>
+                
+                <h1>Takimata sanctus</h1>
+                <p>Lorem ipsum dolor sit amet. consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                <p class="further"><a href="">more on page 7</a></p>
+            </div>
+            <div class="poll">
+                <header>Poll</header>
+                
+                <figure>
+                    <canvas id="graph"></canvas>
+                    <figcaption>Sed diam nonumy eirmod tempor Invidunt ut labore et dolore magna aliquyam erat.</figcaption>
+                </figure>
+            </div>
+            <div class="print">
+                <header>Other</header>
+                
+                <div>
+                    <barcode:barcode xmlns:barcode="http://barcode4j.krysalis.org/ns" message="Lorem Ipsum">
+                        <barcode:code128 />
+                    </barcode:barcode>
+                </div>
+                
+                <div class="grid">
+                    <div>Subscribe:</div>
+                    <div>555-0142</div>
+                    <div>Advertize:</div>
+                    <div>555-0143</div>
+                </div>
+                
+                <ol class="line">
+                    <li class="cyan-lighter">&nbsp;</li>
+                    <li class="magenta-lighter">&nbsp;</li>
+                    <li class="yellow-lighter">&nbsp;</li>
+                    <li class="black-lighter">&nbsp;</li>
+                    <li class="cyan">&nbsp;</li>
+                    <li class="magenta">&nbsp;</li>
+                    <li class="yellow">&nbsp;</li>
+                    <li class="black">&nbsp;</li>
+                </ol>
+            </div>
+        </section>
+        
+        <!-- Main Articles Section (middle) -->
+        
+        <section class="middle">
+            <article>
+                <hgroup class="topstory">
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <h2>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor Invidunt</h2>
+                </hgroup>
+                
+                <figure>
+                    <img src="whitehouse.jpg" alt="Ut labore et dolore magna aliquyam erat, sed diam voluptua."/>
+                    <figcaption>Ut labore et dolore magna aliquyam erat, sed diam voluptua.</figcaption>
+                </figure>
+                
+                <p class="intro">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                <p>Sed diam nonumy eirmod tempor Invidunt ut labore et dolore magna aliquyam erat.</p>
+                <p>Diam voluptua at vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>Invidunt ut labore et dolore magna aliquyam erat. Sed diam voluptua.</p>
+                <p>At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                <p>Sed diam nonumy eirmod tempor Invidunt ut labore et dolore magna aliquyam erat.</p>
+                
+                <p class="further"><a href="">more on page 3</a></p>
+            </article>
+            
+            <article>
+                <hgroup>
+                    <h1>Consetetur sadipscing</h1>
+                    <h2>Elitr sed diam nonumy eirmod tempor</h2>
+                </hgroup>
+                
+                <p>Invidunt ut labore et dolore magna aliquyam erat. Sed diam voluptua.</p>
+                <p>At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <p>Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                <p>Tempor Invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <p>Diam voluptua at vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                
+                <p class="further"><a href="">more on page 3</a></p>
+            </article>
+        </section>
+        
+        <!-- Other Articles Section (right) -->
+        
+        <section class="right">
+            <article>
+                <hgroup>
+                    <h1>Tempor invidu</h1>
+                    <h2>Ut labore et dolore magna aliquyam</h2>
+                </hgroup>
+                
+                <p>Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <p>Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                <p>Lorem ipsum dolor sit amet. consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                <p>Tempor Invidunt ut labore et dolore magna aliquyam erat.</p>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                <p>Invidunt ut labore et dolore magna aliquyam erat. Sed diam voluptua.</p>
+                <p>Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <p>Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                <p>Lorem ipsum dolor sit amet. consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                <p>Tempor Invidunt ut labore et dolore magna aliquyam erat.</p>
+            </article>
+            
+            <article>
+                <hgroup>
+                    <h1>Magna Aliquam</h1>
+                    <h2>Accusam et justo duo dolores rebum</h2>
+                </hgroup>
+                
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                <p>Tempor Invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                   no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor Invidunt ut labore et.</p>
+                <p>Invidunt ut labore et dolore magna aliquyam erat. Sed diam voluptua.</p>
+                
+                <p class="further"><a href="">more on page 4</a></p>
+            </article>
+            <article class="bordered">
+                <figure class="singleColumn">
+                    <img src="capitol.jpg" alt="Lorem ipsum dolor sit amet."/>
+                    <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+                </figure>
+                
+                <hgroup class="singleColumn">
+                    <h1>Sed diam voluptua</h1>
+                </hgroup>
+                
+                <p>Tempor Invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                   no sea takimata sanctus est.</p>
+                   
+                <p class="further"><a href="">more on page 5</a></p>
+            </article>
+        </section>
+        
+        <!-- Other Articles Section (bottom)  -->
+        
+        <section class="middleRight">
+            <article>
+                <hgroup>
+                    <h1>Labore et dolore magna aliquyam erat eos</h1>
+                    <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</h2>
+                </hgroup>
+                
+                <p>Lorem ipsum dolor sit amet. consetetur sadipscing elitr, sed diam nonumy eirmod.
+                   Tempor Invidunt ut labore et dolore magna aliquyam erat.</p>
+                <p>Invidunt ut labore et dolore magna aliquyam erat. Sed diam voluptua.
+                   Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                   Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                <p>Lorem ipsum dolor sit amet. consetetur sadipscing elitr, 
+                   sed diam nonumy eirmod. Tempor Invidunt ut labore et dolore magna 
+                   aliquyam erat. Sed diam voluptua.</p>
+                
+                <p class="further"><a href="">more on page 6</a></p>
+            </article>
+        </section>
+        
+        <!-- Breaking News Footer (bottom)  -->
+        
+        <footer>
+            <span>Breaking</span>
+            <span>Lorem ipsum</span>
+            <span>Dolor sit Amet</span>
+            <span>Consectetur Sadipscing</span>
+            <span>elitr, set diam</span>
+            <span>eirmod tempor</span>
+        </footer>
+    </body>
+</html>

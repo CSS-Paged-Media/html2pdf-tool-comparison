@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+        <style>
+            /***************************************************
+             * Page
+             ***************************************************/
+            
+            @page {
+                margin: 1.5cm;
+                
+                @bottom-right {
+                    content: counter(page);
+                    vertical-align: top;
+                    font-size: 12pt;
+                    color: black;
+                }
+            }
+            
+            /* Styles that should specifically not affect browsers */
+            @media print {
+                .pageBreak + * {
+                    break-before: page;
+                    margin-top: 0;
+                }
+            
+                .pageBreakBefore {
+                    break-before: page;
+                    margin-top: 0;
+                }
+                
+                h1 {
+                    break-before: page;
+                    margin-top: 0 !important;
+                }
+            }
+            
+            /* Some basic style for browsers */
+            @media screen {
+                
+                html {
+                    background-color: lightgray;
+                }
+                
+                body {
+                    max-width: 1200px;
+                    margin: 8px auto;
+                    
+                    padding: 32px;
+                    padding-top: 0;
+                    border: 1px solid darkgray;
+                    background-color: white;
+                }
+                
+                img {
+                    max-width: 18cm;
+                }
+                
+                h1 {
+                    margin-top: 1cm !important;
+                }
+            }
+            
+            /***************************************************
+             * General
+             ***************************************************/
+            
+            html {
+                font-family: arial, sans-serif;
+                font-size: 10pt;
+                color: #222222;
+            }
+            
+            div, div p, blockquote {
+                color: #222222;
+            }
+            
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: normal;
+                margin-top: 0.6cm;
+                break-after: avoid;
+            }
+            
+            h1 {
+                font-size: 24pt;
+                margin-bottom: 0.5cm;
+            }
+            
+            h2 {
+                font-size: 18pt;
+                margin: 0.4cm 0;
+            }
+            
+            h3 {
+                font-size: 14pt;
+                margin: 0.4cm 0;
+            }
+            
+            h4 {
+                font-size: 12pt;
+                text-decoration: underline;
+                margin-bottom: 0.25cm;
+            }
+            
+            p, td, th, li {
+                font-size: 10pt;
+                line-height: 1.25;
+                color: #666666;
+            }
+            
+            p {
+                text-align: justify;
+            }
+            
+            a {
+                color: #e41d03;
+                text-decoration: underline;
+            }
+            
+            barcode, math {
+                color: black;
+            }
+            
+            blockquote {
+                font-family: 'times new roman', serif;
+                font-style: italic;
+                margin: 2mm;
+                padding: 0;
+            }
+            
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+                background-color: transparent;
+            }
+            
+            table, td, th {
+                border: thin solid #e1e1e1;
+            }
+            
+            td, th {
+                padding: 0.2cm;
+            }
+            
+            th {
+                text-align: center;
+                background-color: #f5f5f5;
+            }
+            
+            
+            
+            
+            table.code, td.code, div.code, img.sample {
+                background-color: #f5f5f5;
+                break-before: avoid;
+            }
+            
+            ul, ol {
+                break-inside: avoid;
+            }
+            
+            
+            
+            
+            /***************************************************
+             * Box Classes
+             ***************************************************/
+            
+            div.code, div.result, div.experimentalNote, img.sample {
+                margin-bottom: 0.25cm;
+                border: 1pt solid #e1e1e1;
+                padding: 2.5mm;
+                break-before: avoid;
+                break-inside: avoid;
+            }
+            
+            div.code p {
+                text-align: inherit;
+            }
+            
+            :-ro-matches(div.code, div.result) p:first-of-type {
+                margin-top: 0;
+            }
+            
+            :-ro-matches(div.code, div.result) p:last-of-type {
+                margin-bottom: 0;
+            }
+            
+            code, .code {
+                font-family: 'courier new', monospace;
+                font-size: 8pt;
+                line-height: 1.2;
+            }
+            
+            code {
+                white-space: pre;
+            }
+            
+            code .comment {
+                color: #3f7f5f;
+            }
+            
+            div.result {
+                font-family: 'times new roman', serif;
+                border: 1pt solid #222222;
+                background-color: white;
+            }
+            
+            div.result p {
+                color: #222222;
+            }
+            
+            div.result p:first-child {
+                margin-top: 0;
+            }
+            
+            div.result p:last-child {
+                margin-bottom: 0;
+            }
+            
+            div.experimentalNote {
+                border-color: yellow;
+                background-color: lightyellow;
+                margin: 1cm 0;
+                text-align: justify;
+            }
+            
+            /***************************************************
+             * Break Classes
+             ***************************************************/
+            
+            .columnBreak {
+                break-after: column;
+            }
+            
+            /******************************************
+             * Preferences
+             *******************************************/
+            
+            @-ro-preferences {
+                page-layout: 1 column;
+                initial-zoom: fit-page;
+            }
+            </style>
+        <title>Comments Sample</title>
+        
+        <style>
+            body style.sample {
+                display: block;
+            }
+            
+            @media screen {
+                .pdf-feature::after {
+                    display: block;
+                    color: #e41d03;
+                    font-style: italic;
+                    margin-top: 1em;
+                    padding: 1em;
+                    border: 2pt dashed #e41d03;
+                    content: "To see what this looks like in the PDF, please convert this document into PDF using PDFreactor."
+                }
+            }
+            
+            .comment-current-color {
+                -ro-comment-content: content();
+                -ro-comment-color: currentColor;
+                -ro-comment-style: underline;
+            }
+            
+            .comment-blue {
+                -ro-comment-content: content();
+                -ro-comment-color: cyan;
+                -ro-comment-style: highlight;
+            }
+            
+            #position p:nth-child(1) .note {
+                -ro-comment-content: "I cover some text :(";
+            }
+            
+            #position p:nth-child(2) .note {
+                -ro-comment-position: page-left;
+                -ro-comment-content: "I don't cover text because I am on the left side of the page.";
+            }
+            
+            #position p:nth-child(3) .note {
+                -ro-comment-position: page-right;
+                -ro-comment-content: "I don't cover text either because I am on the right side of the page.";
+            }
+            
+            #date span.comment {
+                -ro-comment-content: content();
+                -ro-comment-title: "Custom Date";
+                -ro-comment-date: -ro-attr(data-date) -ro-attr(data-time);
+                -ro-comment-dateformat: "yyyy/dd/MMhh:mm:ss a";
+            }
+            
+            .markup-highlight {
+                -ro-comment-style: highlight;
+                -ro-comment-title: "Markup";
+                -ro-comment-content: "I am highlighted.";
+            }
+            
+            .markup-underline {
+                -ro-comment-style: underline;
+                -ro-comment-title: "Markup";
+                -ro-comment-content: "I am underlined.";
+            }
+            
+            .markup-strikeout {
+                -ro-comment-style: strikeout;
+                -ro-comment-title: "Markup";
+                -ro-comment-content: "I am struck out.";
+            }
+            
+            .markup-squiggly {
+                -ro-comment-style: squiggly;
+                -ro-comment-title: "Markup";
+                -ro-comment-content: "I am underlined squiggly.";
+            }
+            
+            span.invisible-comment {
+                -ro-comment-content: "I am an invisible comment and only visible in the sidebar";
+                -ro-comment-style: invisible;
+            }
+            
+            span.note {
+                -ro-comment-content: -ro-attr(data-content);
+                -ro-comment-title: "Note";
+                -ro-comment-style: note;
+            }
+            
+            span.comment {
+                -ro-comment-content: -ro-attr(title);
+                -ro-comment-title: -ro-attr(data-author);
+                -ro-comment-style: underline;
+            }
+            
+            commentstart {
+                -ro-comment-content: -ro-attr(comment);
+                -ro-comment-title: -ro-attr(title);
+                -ro-comment-style: highlight;
+                -ro-comment-start: -ro-attr(uid) my-comment-type;
+            }
+            
+            commentend {
+                -ro-comment-end: -ro-attr(uid) my-comment-type;
+            }
+            
+            @-ro-preferences {
+                initial-zoom: 125%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Understanding Comments</h1>
+        <p>PDF comments are a new feature introduced in PDFreactor 7. This feature enables you to create certain PDF
+            annotations from contents of your HTML document.</p>
+        <p>As this feature relies purely on the capabilities of the viewer to display comments, results may vary
+            across different PDF viewers. Also, not every viewer may be able to display the full range of
+            annotations.</p>
+        <h2>What are the basic kinds of comments?</h2>
+        <h3>Notes</h3>
+        <p>Notes are represented by small icons in the document and are usually displayed by clicking the icon. This is
+            a note: <span class="note" data-content="I am a note"></span></p>
+        <h3>Markups</h3>
+        <p>Markups modify the appearance of the text in some way. There are four different kinds of markups: <span class="markup-highlight">highlight</span>,
+            <span class="markup-underline">underline</span>, <span class="markup-strikeout">strikeout</span> and <span class="markup-squiggly">squiggly</span>. Please note that not all kinds of markup may be supported in your PDF viewer.</p>
+        <p>These are the styles for the different kinds of markup above:</p>
+<div class="code"><code>.markup-highlight {
+    -ro-comment-style: highlight;
+    -ro-comment-title: "Markup";
+    -ro-comment-content: "I am highlighted.";
+}
+
+.markup-underline {
+    -ro-comment-style: underline;
+    -ro-comment-title: "Markup";
+    -ro-comment-content: "I am underlined.";
+}
+
+.markup-strikeout {
+    -ro-comment-style: strikeout;
+    -ro-comment-title: "Markup";
+    -ro-comment-content: "I am struck out.";
+}
+
+.markup-squiggly {
+    -ro-comment-style: squiggly;
+    -ro-comment-title: "Markup";
+    -ro-comment-content: "I am underlined squiggly.";
+}</code></div>
+        <h3>Invisible Comments</h3>
+        <p>Comments can also be turned <span class="invisible-comment">invisible</span> when setting the type to <code>invisible</code>. Contrary to 
+            markups and note, invisible comments are not visually present in the text content of the document. 
+            They are however displayed in the viewer's comment sidebar.</p>
+        <p>This example shows how to make a comment invisible:</p>
+        <div class="code"><code>span.invisible-comment {
+    -ro-comment-content: "I am an invisible comment and only visible in the sidebar";
+    -ro-comment-style: invisible;
+}</code></div>
+        <h2>What are common use-cases?</h2>
+        <p>In HTML documents shown in the browser or on websites, you sometimes have annotations like tooltips, comments
+            or notes which give the user additional information.</p>
+        <p>Comments may also be interactive so that multiple users can add notes or other annotations to the text. Such
+            interactivity can also be translated into PDF by using interactive PDF comments which can be edited by users
+            and saved in the PDF file.</p>
+        <h2>How do I create comments in PDFreactor?</h2>
+        <p>Comments can be created from nearly any element of your document. The entire functionality of the comment
+            can be customized by simply using CSS.</p>
+        <h3>Creating a note</h3>
+        <p>Notes are usually created from empty elements that have certain attributes containing the data for the comment.
+            Let's assume your document structure looks like this:</p>
+        <div class="code">
+            <code>&lt;p&gt;Hello, my name is Jimmy.&lt;span class="note" data-content="Please use your full name"&gt;&lt;/span&gt;&lt;/p&gt;</code>
+        </div>
+        <p>The span would normally not appear in the PDF since it is empty. However, you may not wish to loose the
+            information stored in the attributes of the span. So you can convert it into a comment like this:</p>
+        <div class="code"><code>span.note {
+    -ro-comment-content: -ro-attr(data-content);
+    -ro-comment-title: "Note";
+    -ro-comment-style: note;
+}</code></div>
+        <p>Here is what it looks like in the PDF:</p>
+        <div class="result pdf-feature">
+            <p>Hello, my name is Jimmy.<span class="note" data-content="Please use your full name"></span></p>
+        </div>
+        <h3>Creating a markup</h3>
+        <p>Markups highlight sections of text in some way, so they are best created from elements that have some text
+            content. Let's assume your document structure looks like this:</p>
+        <div class="code">
+            <code>&lt;p&gt;
+    The following information is
+    &lt;span class="note" data-author="john.smith@inbrew.com" title="Why is it important?"&gt;
+        very important
+    &lt;/span&gt;
+    !
+&lt;/p&gt;</code>
+        </div>
+        <p>An appropriate style sheet could look like this:</p>
+        <div class="code"><code>span.comment {
+    -ro-comment-content: -ro-attr(title);
+    -ro-comment-title: -ro-attr(data-author);
+    -ro-comment-style: underline;
+}</code></div>
+        <p>Here is what it looks like in the PDF:</p>
+        <div class="result pdf-feature">
+            <p>The following information is <span class="comment" data-author="john.smith@inbrew.com" title="Why is it important?">very important!</span></p>
+        </div>
+        <h2>Advanced Comments</h2>
+        <p>In certain situations it is necessary that the comment consists of a start and an end element. In this case,
+            these start and end elements have to be connected to let PDFreactor know that these belong to the same
+            comment. If you have the following example:</p>
+        <div class="code">
+            <code>&lt;p&gt;
+    This comment
+    &lt;commentstart title="My comment" comment="I am an advanced comment." uid="c1"/&gt;
+    spans 
+&lt;/p&gt;
+&lt;p&gt;
+    multiple &lt;commentend uid="c1"/&gt; paragraphs.
+&lt;/p&gt;</code>
+        </div>
+        <p>To connect the start and end elements, you have to specify a identifier. This identifier is the value 
+            either the <code>-ro-comment-start</code> or the <code>-ro-comment-end</code> property which will define the element as either a start or end element, 
+            respectively. Should the identifier not be unique for the whole document (possibly different elements share the same identifier), you can optionally 
+            specify a type which will help to match start and end elements. </p>
+        <p>The following example connects the start and end elements via the "uid" attribute which these two elements share. It is possible that the value 
+            of the "uid" attribute is not unique for these elements, so an optional type "my-comment-type" is specified. 
+            Here is what the style sheet looks like:</p>
+        <div class="code">
+            <code>commentstart {
+    -ro-comment-content: -ro-attr(comment);
+    -ro-comment-title: -ro-attr(title);
+    -ro-comment-style: highlight;
+    -ro-comment-start: -ro-attr(uid) my-comment-type;
+}
+
+commentend {
+    -ro-comment-end: -ro-attr(uid) my-comment-type;
+}</code>
+        </div>
+        <p>Here is what it looks like in the PDF:</p>
+        <div class="result pdf-feature pageBreak">
+            <p>This comment <commentstart title="My comment" comment="I am an advanced comment." uid="c1" /> spans </p>
+            <p>Multiple<commentend uid="c1"></commentend> paragraphs.</p>
+        </div>
+        
+        <h2>How Can I Customize Comments?</h2>
+        <p>Comments can also be customized in many ways. Besides of course the content and the title, you can also customize the following:</p>
+        
+        <h3>The Position</h3>
+        <p>When using the comment style "note", the PDF viewer generates icons which can usually be clicked or hovered 
+            to show the comment. However, depending on the comment's location in the document, these icons may sometimes 
+            cover other text content which is often undesired.</p>
+        <p>In this case you can automatically move the note icons to either side of the page using the 
+            <code>-ro-comment-position</code> property.</p>
+        <div class="result pdf-feature" id="position">
+            <p>I have a note icon<span class="note"></span> but it covers some text.</p>
+            <p>I have a note icon<span class="note"></span> on the left.</p>
+            <p>I have a note icon<span class="note"></span> on the right.</p>
+        </div>
+        
+        <h3>The Color</h3>
+        <p>By default, the color depends on the style of comment. The styles "underline" and "squiggly" are green, "strikeout" is red and "highlight" 
+            and "note" are yellow.</p>
+        <p>The color can be customized using the "-ro-comment-color" property. As a value, you can use all colors supported by PDFreactor as well as the keyword "currentColor". 
+            This keyword sets the color of the comment to the same value as the color of the text.</p>
+        <div class="result pdf-feature">
+            <p>My comment <span class="comment-current-color">color is "currentColor"</span>.</p>
+            <p>I have <span class="comment-blue">a cyan highlight</span>.</p>
+        </div>
+        
+        <h3>The Date</h3>
+        <p>When no date is specified, today's date will always be used. You can customize the date by using the <code>-ro-comment-date</code> property. However, you should also 
+            specify a date format via the <code>-ro-comment-dateformat</code> property. This defaults to the standard ISO 8601 
+            date format which is <code>"yyyy-MM-dd'T'HH:mm:ss"</code>. The syntax is similar to Java's <a href="http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">SimpleDateFormat</a>.</p>
+        <div id="date" class="result pdf-feature">
+            <p>My <span class="comment" data-date="2010/02/06" data-time="11:45:12 pm">comment</span> is not from today.</p>
+        </div>
+        
+    </body>
+</html>

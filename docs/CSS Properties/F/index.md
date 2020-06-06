@@ -38,10 +38,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_filter.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_filter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_filter.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_filter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_filter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_filter.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_filter.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_filter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_filter.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_filter.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_filter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_filter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_filter.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_filter.html.pdf) |
 
 ## 🔬 FLEX-BASIS
 
@@ -98,10 +98,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-basis.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-basis.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-basis.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-basis.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-basis.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-basis.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-basis.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-basis.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-basis.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-basis.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-basis.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-basis.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-basis.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-basis.html.pdf) |
 
 ## 🔬 FLEX-DIRECTION
 
@@ -216,10 +216,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-direction.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-direction.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-direction.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-direction.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-direction.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-direction.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-direction.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-direction.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-direction.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-direction.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-direction.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-direction.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-direction.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-direction.html.pdf) |
 
 ## 🔬 FLEX-FLOW
 
@@ -308,10 +308,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-flow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-flow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-flow.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-flow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-flow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-flow.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-flow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-flow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-flow.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-flow.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-flow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-flow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-flow.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-flow.html.pdf) |
 
 ## 🔬 FLEX-GROW
 
@@ -380,10 +380,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-grow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-grow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-grow.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-grow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-grow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-grow.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-grow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-grow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-grow.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-grow.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-grow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-grow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-grow.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-grow.html.pdf) |
 
 ## 🔬 FLEX-SHRINK
 
@@ -440,10 +440,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-shrink.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-shrink.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-shrink.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-shrink.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-shrink.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-shrink.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-shrink.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-shrink.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-shrink.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-shrink.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-shrink.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-shrink.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-shrink.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-shrink.html.pdf) |
 
 ## 🔬 FLEX-WRAP
 
@@ -549,10 +549,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-wrap.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-wrap.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-wrap.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-wrap.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-wrap.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-wrap.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex-wrap.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex-wrap.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex-wrap.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex-wrap.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex-wrap.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex-wrap.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex-wrap.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex-wrap.html.pdf) |
 
 ## 🔬 FLEX
 
@@ -604,10 +604,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_flex.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_flex.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_flex.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_flex.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_flex.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_flex.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_flex.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_flex.html.pdf) |
 
 ## 🔬 FLOAT
 
@@ -648,10 +648,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_float.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_float.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_float.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_float.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_float.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_float.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_float.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_float.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_float.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_float.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_float.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_float.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_float.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_float.html.pdf) |
 
 ## 🔬 FONT-FAMILY
 
@@ -693,10 +693,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-family.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-family.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-family.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-family.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-family.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-family.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-family.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-family.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-family.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-family.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-family.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-family.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-family.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-family.html.pdf) |
 
 ## 🔬 FONT-FEATURE-SETTINGS
 
@@ -741,10 +741,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-feature-settings.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-feature-settings.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-feature-settings.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-feature-settings.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-feature-settings.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-feature-settings.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-feature-settings.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-feature-settings.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-feature-settings.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-feature-settings.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-feature-settings.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-feature-settings.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.pdf) |
 
 ## 🔬 FONT-SIZE-ADJUST
 
@@ -793,10 +793,10 @@ You control the font size better with the font-size-adjust property.
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-size-adjust.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-size-adjust.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-size-adjust.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-size-adjust.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-size-adjust.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-size-adjust.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-size-adjust.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-size-adjust.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-size-adjust.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-size-adjust.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-size-adjust.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-size-adjust.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.pdf) |
 
 ## 🔬 FONT-SIZE
 
@@ -851,10 +851,10 @@ You control the font size better with the font-size-adjust property.
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-size.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-size.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-size.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-size.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-size.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-size.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-size.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-size.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-size.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-size.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-size.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-size.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-size.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-size.html.pdf) |
 
 ## 🔬 FONT-STRETCH
 
@@ -887,10 +887,10 @@ You control the font size better with the font-size-adjust property.
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-stretch.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-stretch.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-stretch.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-stretch.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-stretch.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-stretch.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-stretch.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-stretch.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-stretch.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-stretch.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-stretch.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-stretch.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-stretch.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-stretch.html.pdf) |
 
 ## 🔬 FONT-STYLE
 
@@ -927,10 +927,10 @@ You control the font size better with the font-size-adjust property.
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-style.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-style.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-style.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-style.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-style.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-style.html.pdf) |
 
 ## 🔬 FONT-VARIANT
 
@@ -964,10 +964,10 @@ You control the font size better with the font-size-adjust property.
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-variant.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-variant.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-variant.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-variant.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-variant.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-variant.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-variant.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-variant.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-variant.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-variant.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-variant.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-variant.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-variant.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-variant.html.pdf) |
 
 ## 🔬 FONT-WEIGHT
 
@@ -1052,10 +1052,10 @@ You control the font size better with the font-size-adjust property.
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-weight.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-weight.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-weight.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-weight.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-weight.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-weight.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_font-weight.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font-weight.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font-weight.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font-weight.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font-weight.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font-weight.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font-weight.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font-weight.html.pdf) |
 
 ## 🔬 FONT
 
@@ -1092,9 +1092,9 @@ You control the font size better with the font-size-adjust property.
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_F_font.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_F_font.html.png) | ![typeset Preview](typeset__html_CSS_Properties_F_font.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_F_font.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_F_font.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_F_font.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_F_font.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_F_font.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_F_font.html.pdf) |
 
 

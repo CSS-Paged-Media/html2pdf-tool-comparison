@@ -83,10 +83,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_tab-size.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_tab-size.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_tab-size.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_tab-size.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_tab-size.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_tab-size.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_tab-size.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_tab-size.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_tab-size.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_tab-size.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_tab-size.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_tab-size.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_tab-size.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_tab-size.html.pdf) |
 
 ## 🔬 TABLE-LAYOUT
 
@@ -175,10 +175,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_table-layout.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_table-layout.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_table-layout.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_table-layout.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_table-layout.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_table-layout.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_table-layout.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_table-layout.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_table-layout.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_table-layout.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_table-layout.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_table-layout.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_table-layout.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_table-layout.html.pdf) |
 
 ## 🔬 TEXT-ALIGN-LAST
 
@@ -281,10 +281,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-align-last.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-align-last.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-align-last.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align-last.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-align-last.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-align-last.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-align-last.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-align-last.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-align-last.html.pdf) |
 
 ## 🔬 TEXT-ALIGN
 
@@ -328,10 +328,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-align.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-align.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-align.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-align.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-align.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-align.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-align.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-align.html.pdf) |
 
 ## 🔬 TEXT-DECORATION-COLOR
 
@@ -387,10 +387,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-color.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-color.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-color.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-color.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-color.html.pdf) |
 
 ## 🔬 TEXT-DECORATION-LINE
 
@@ -452,10 +452,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-line.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-line.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-line.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-line.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-line.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-line.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-line.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-line.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-line.html.pdf) |
 
 ## 🔬 TEXT-DECORATION-SKIP-INK
 
@@ -531,10 +531,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-skip-ink.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip-ink.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) |
 
 ## 🔬 TEXT-DECORATION-SKIP
 
@@ -575,10 +575,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-skip.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-skip.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-skip.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-skip.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-skip.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-skip.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-skip.html.pdf) |
 
 ## 🔬 TEXT-DECORATION-STYLE
 
@@ -637,10 +637,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-style.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-style.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-style.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration-style.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration-style.html.pdf) |
 
 ## 🔬 TEXT-DECORATION
 
@@ -695,10 +695,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-decoration.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-decoration.html.pdf) |
 
 ## 🔬 TEXT-INDENT
 
@@ -757,10 +757,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-indent.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-indent.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-indent.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-indent.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-indent.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-indent.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-indent.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-indent.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-indent.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-indent.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-indent.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-indent.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-indent.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-indent.html.pdf) |
 
 ## 🔬 TEXT-JUSTIFY
 
@@ -794,10 +794,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-justify.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-justify.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-justify.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-justify.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-justify.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-justify.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-justify.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-justify.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-justify.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-justify.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-justify.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-justify.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-justify.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-justify.html.pdf) |
 
 ## 🔬 TEXT-OVERFLOW
 
@@ -856,10 +856,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-overflow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-overflow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-overflow.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-overflow.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-overflow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-overflow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-overflow.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-overflow.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-overflow.html.pdf) |
 
 ## 🔬 TEXT-SHADOW
 
@@ -1002,10 +1002,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-shadow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-shadow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-shadow.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-shadow.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-shadow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-shadow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-shadow.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-shadow.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-shadow.html.pdf) |
 
 ## 🔬 TEXT-STROKE
 
@@ -1043,10 +1043,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-stroke.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-stroke.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-stroke.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-stroke.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-stroke.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-stroke.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-stroke.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-stroke.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-stroke.html.pdf) |
 
 ## 🔬 TEXT-TRANSFORM
 
@@ -1091,10 +1091,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-transform.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-transform.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-transform.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-transform.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-transform.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-transform.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-transform.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-transform.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-transform.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-transform.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-transform.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-transform.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-transform.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-transform.html.pdf) |
 
 ## 🔬 TEXT-UNDERLINE-OFFSET
 
@@ -1191,10 +1191,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-underline-offset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-underline-offset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-underline-offset.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-offset.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-underline-offset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-underline-offset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-underline-offset.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-underline-offset.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-underline-offset.html.pdf) |
 
 ## 🔬 TEXT-UNDERLINE-POSITION
 
@@ -1236,10 +1236,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-underline-position.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-underline-position.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-underline-position.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-position.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_text-underline-position.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-underline-position.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-underline-position.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_text-underline-position.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_text-underline-position.html.pdf) |
 
 ## 🔬 TOP
 
@@ -1303,10 +1303,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_top.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_top.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_top.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_top.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_top.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_top.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_top.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_top.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_top.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_top.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_top.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_top.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_top.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_top.html.pdf) |
 
 ## 🔬 TRANSFORM-ORIGIN
 
@@ -1358,10 +1358,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_transform-origin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform-origin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform-origin.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-origin.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_transform-origin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform-origin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform-origin.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_transform-origin.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_transform-origin.html.pdf) |
 
 ## 🔬 TRANSFORM-STYLE
 
@@ -1420,10 +1420,10 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_transform-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform-style.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-style.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_transform-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform-style.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_transform-style.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-style.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_transform-style.html.pdf) |
 
 ## 🔬 TRANSFORM
 
@@ -1479,9 +1479,9 @@ without tab
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_T_transform.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_T_transform.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_T_transform.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_T_transform.html.pdf) |
 
 

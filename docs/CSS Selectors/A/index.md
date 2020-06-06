@@ -35,10 +35,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_active.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_active.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_active.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_active.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_active.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_active.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_A_active.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_active.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_active.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_active.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_active.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_active.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_active.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_active.html.pdf) |
 
 ## 🔬 ADJACENT-SIBLING
 
@@ -88,10 +88,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_adjacent-sibling.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_adjacent-sibling.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_adjacent-sibling.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_adjacent-sibling.html.pdf) |
 
 ## 🔬 AFTER
 
@@ -124,10 +124,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_after.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_after.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_after.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_after.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_after.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_after.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_A_after.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_after.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_after.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_after.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_after.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_after.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_after.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_after.html.pdf) |
 
 ## 🔬 ANY-LINK
 
@@ -181,10 +181,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_any-link.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_any-link.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_any-link.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_any-link.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_any-link.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_any-link.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_A_any-link.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_any-link.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_any-link.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_any-link.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_any-link.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_any-link.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_any-link.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_any-link.html.pdf) |
 
 ## 🔬 ATTRIBUTE
 
@@ -310,9 +310,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_A_attribute.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_attribute.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_attribute.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_attribute.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_attribute.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_attribute.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_A_attribute.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_attribute.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_attribute.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_A_attribute.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_A_attribute.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_attribute.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_attribute.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_A_attribute.html.pdf) |
 
 

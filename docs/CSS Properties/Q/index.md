@@ -50,9 +50,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_Q_quotes.html.png) | ![typeset Preview](typeset__html_CSS_Properties_Q_quotes.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_Q_quotes.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_Q_quotes.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_Q_quotes.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_Q_quotes.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_Q_quotes.html.png) | ![typeset Preview](typeset__html_CSS_Properties_Q_quotes.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_Q_quotes.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_Q_quotes.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_Q_quotes.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_Q_quotes.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_Q_quotes.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_Q_quotes.html.pdf) |
 
 

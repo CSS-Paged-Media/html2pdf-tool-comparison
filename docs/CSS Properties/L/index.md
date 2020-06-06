@@ -69,10 +69,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_L_left.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_left.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_left.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_L_left.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_left.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_left.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_L_left.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_left.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_left.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_L_left.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_L_left.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_left.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_left.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_left.html.pdf) |
 
 ## 🔬 LETTER-SPACING
 
@@ -109,10 +109,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_L_letter-spacing.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_letter-spacing.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_letter-spacing.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_letter-spacing.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_L_letter-spacing.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_letter-spacing.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_letter-spacing.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_L_letter-spacing.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_letter-spacing.html.pdf) |
 
 ## 🔬 LINE-HEIGHT
 
@@ -164,10 +164,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_L_line-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_line-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_line-height.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_L_line-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_line-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_line-height.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_L_line-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_line-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_line-height.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_L_line-height.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_L_line-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_line-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_line-height.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_line-height.html.pdf) |
 
 ## 🔬 LIST-STYLE
 
@@ -341,9 +341,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_L_list-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_list-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_list-style.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_L_list-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_list-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_list-style.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_L_list-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_list-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_list-style.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_L_list-style.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_L_list-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_list-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_list-style.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_L_list-style.html.pdf) |
 
 

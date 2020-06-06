@@ -40,10 +40,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_U_unicode-bidi.html.png) | ![typeset Preview](typeset__html_CSS_Properties_U_unicode-bidi.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_U_unicode-bidi.html.png) | ![typeset Preview](typeset__html_CSS_Properties_U_unicode-bidi.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_U_unicode-bidi.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_U_unicode-bidi.html.pdf) |
 
 ## 🔬 USER-SELECT
 
@@ -77,9 +77,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_U_user-select.html.png) | ![typeset Preview](typeset__html_CSS_Properties_U_user-select.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_user-select.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_U_user-select.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_U_user-select.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_user-select.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_U_user-select.html.png) | ![typeset Preview](typeset__html_CSS_Properties_U_user-select.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_user-select.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_U_user-select.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_U_user-select.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_U_user-select.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_user-select.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_U_user-select.html.pdf) |
 
 

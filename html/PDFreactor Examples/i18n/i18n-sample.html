@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+        <title>International Sample</title>
+        <style>
+            /***************************************************
+             * Page
+             ***************************************************/
+            
+            @page {
+                margin: 1.5cm;
+                
+                @bottom-right {
+                    content: counter(page);
+                    vertical-align: top;
+                    font-size: 12pt;
+                    color: black;
+                }
+            }
+            
+            /* Styles that should specifically not affect browsers */
+            @media print {
+                .pageBreak + * {
+                    break-before: page;
+                    margin-top: 0;
+                }
+            
+                .pageBreakBefore {
+                    break-before: page;
+                    margin-top: 0;
+                }
+                
+                h1 {
+                    break-before: page;
+                    margin-top: 0 !important;
+                }
+            }
+            
+            /* Some basic style for browsers */
+            @media screen {
+                
+                html {
+                    background-color: lightgray;
+                }
+                
+                body {
+                    max-width: 1200px;
+                    margin: 8px auto;
+                    
+                    padding: 32px;
+                    padding-top: 0;
+                    border: 1px solid darkgray;
+                    background-color: white;
+                }
+                
+                img {
+                    max-width: 18cm;
+                }
+                
+                h1 {
+                    margin-top: 1cm !important;
+                }
+            }
+            
+            /***************************************************
+             * General
+             ***************************************************/
+            
+            html {
+                font-family: arial, sans-serif;
+                font-size: 10pt;
+                color: #222222;
+            }
+            
+            div, div p, blockquote {
+                color: #222222;
+            }
+            
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: normal;
+                margin-top: 0.6cm;
+                break-after: avoid;
+            }
+            
+            h1 {
+                font-size: 24pt;
+                margin-bottom: 0.5cm;
+            }
+            
+            h2 {
+                font-size: 18pt;
+                margin: 0.4cm 0;
+            }
+            
+            h3 {
+                font-size: 14pt;
+                margin: 0.4cm 0;
+            }
+            
+            h4 {
+                font-size: 12pt;
+                text-decoration: underline;
+                margin-bottom: 0.25cm;
+            }
+            
+            p, td, th, li {
+                font-size: 10pt;
+                line-height: 1.25;
+                color: #666666;
+            }
+            
+            p {
+                text-align: justify;
+            }
+            
+            a {
+                color: #e41d03;
+                text-decoration: underline;
+            }
+            
+            barcode, math {
+                color: black;
+            }
+            
+            blockquote {
+                font-family: 'times new roman', serif;
+                font-style: italic;
+                margin: 2mm;
+                padding: 0;
+            }
+            
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+                background-color: transparent;
+            }
+            
+            table, td, th {
+                border: thin solid #e1e1e1;
+            }
+            
+            td, th {
+                padding: 0.2cm;
+            }
+            
+            th {
+                text-align: center;
+                background-color: #f5f5f5;
+            }
+            
+            
+            
+            
+            table.code, td.code, div.code, img.sample {
+                background-color: #f5f5f5;
+                break-before: avoid;
+            }
+            
+            ul, ol {
+                break-inside: avoid;
+            }
+            
+            
+            
+            
+            /***************************************************
+             * Box Classes
+             ***************************************************/
+            
+            div.code, div.result, div.experimentalNote, img.sample {
+                margin-bottom: 0.25cm;
+                border: 1pt solid #e1e1e1;
+                padding: 2.5mm;
+                break-before: avoid;
+                break-inside: avoid;
+            }
+            
+            div.code p {
+                text-align: inherit;
+            }
+            
+            :-ro-matches(div.code, div.result) p:first-of-type {
+                margin-top: 0;
+            }
+            
+            :-ro-matches(div.code, div.result) p:last-of-type {
+                margin-bottom: 0;
+            }
+            
+            code, .code {
+                font-family: 'courier new', monospace;
+                font-size: 8pt;
+                line-height: 1.2;
+            }
+            
+            code {
+                white-space: pre;
+            }
+            
+            code .comment {
+                color: #3f7f5f;
+            }
+            
+            div.result {
+                font-family: 'times new roman', serif;
+                border: 1pt solid #222222;
+                background-color: white;
+            }
+            
+            div.result p {
+                color: #222222;
+            }
+            
+            div.result p:first-child {
+                margin-top: 0;
+            }
+            
+            div.result p:last-child {
+                margin-bottom: 0;
+            }
+            
+            div.experimentalNote {
+                border-color: yellow;
+                background-color: lightyellow;
+                margin: 1cm 0;
+                text-align: justify;
+            }
+            
+            /***************************************************
+             * Break Classes
+             ***************************************************/
+            
+            .columnBreak {
+                break-after: column;
+            }
+            
+            /******************************************
+             * Preferences
+             *******************************************/
+            
+            @-ro-preferences {
+                page-layout: 1 column;
+                initial-zoom: fit-page;
+            }
+            </style>
+        <style>
+            html {
+                font-family: 'arial unicode ms', arial, sans-serif;
+            }
+            
+            div.result {
+                font-family: 'times new roman', serif, 'arial unicode ms';
+            }
+            
+            .rtl {
+                direction: rtl;
+            }
+            
+            .ltr {
+                direction: ltr;
+            }
+            
+            .forcertl {
+                unicode-bidi: bidi-override;
+                direction: rtl;
+            }
+            
+            .samplediv {
+                break-inside: avoid;
+            }
+            
+            ol {
+                margin-left: 1cm;
+            }
+            
+            .listItemColumns {
+                -webkit-column-count: 2;
+                -moz-column-count: 2;
+                column-count: 2;
+            }
+            
+            .listItemColumns > ol {
+                margin-top: 0;
+            }
+            
+            div.result p {
+                font-size: 9pt;
+            }
+            
+            .logicalsample {
+                position: relative;
+                unicode-bidi: bidi-override;
+                margin-bottom: 2em;
+                
+                border: 1pt none darkgrey;
+                border-top-style: solid;
+                padding-top: 0.5em;
+                border-inline-start-style: solid;
+                padding-inline-start: 1em;
+            }
+            
+            .logicalsample::before {
+                content: "";
+                display: block;
+                width: 7em;
+                height: 8em;
+                background-image: radial-gradient(ellipse, darkgrey 0%, white 70%);
+                
+                float: inline-end;
+                margin: 1.5em 0;
+                margin-inline-start: 1em;
+            }
+            
+            .logicalsample::after {
+                content: "Title";
+                background-color: darkgrey;
+                color: white;
+                padding: 0.1em 0.5em;
+                
+                position: absolute;
+                top: -1em;
+                inset-inline-start: 2em;
+            }
+            
+            @-ro-preferences {
+                initial-zoom: 125%;
+            }
+    </style>
+    </head>
+    <body>
+        <h1>International Sample</h1>
+        <h2>Unicode</h2>
+        <p>The following sections contain text from various languages using many different kinds of writing systems.</p>
+        <p>This sample contains unicode characters that may not be available in the font used to display the document.
+            PDFreactor tries to find a replacement for these characters in defined fall-back fonts. If these fonts do
+            not contain the character or the fall-back fonts are not available the characters cannot be displayed.</p>
+        <h3>Arabic</h3>
+        <div class="result rtl">
+            <p>نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق.</p>
+        </div>
+        <p>A wise text which has an absolute secret and great importance, written on a green cloth and covered with blue
+            leather.</p>
+        <h3>Chinese</h3>
+        <div class="result">
+            <p>視野無限廣，窗外有藍天</p>
+        </div>
+        <p>The view is infinitely wide. There is blue sky outside the window.</p>
+        <h3>Danish</h3>
+        <div class="result">
+            <p>Quizdeltagerne spiste jordbær med fløde, mens cirkusklovnen Walther spillede på xylofon.</p>
+        </div>
+        <p>The quiz contestants ate strawberry with cream while Walter the circus clown played the xylophone.</p>
+        <h3>German</h3>
+        <div class="result">
+            <p>Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich.</p>
+        </div>
+        <p>Victor chases twelve boxers across the great dam of Sylt.</p>
+        <h3>Greek</h3>
+        <div class="result">
+            <p>Θέλει αρετή και τόλμη η ελευθερία. (Ανδρέας Κάλβος)</p>
+        </div>
+        <p>Liberty requires virtue and mettle. (Andreas Kalvos)</p>
+        <h3>Hebrew</h3>
+        <div class="result rtl">
+            <p>דג סקרן שט לו בים זך אך לפתע פגש חבורה נחמדה שצצה כך.</p>
+        </div>
+        <p>A curious fish sailed a clear sea, and suddenly found nice company that just popped up.</p>
+        <h3>Japanese</h3>
+        <div class="result">
+            <p>いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせす</p>
+        </div>
+        <p>Even the blossoming flowers / Will eventually scatter / Who in this world / is unchanging? / The deep
+            mountains of vanity-- / We cross them today / And we shall not see superficial dreams / Nor be deluded.
+            (from Iroha-uta)</p>
+        <h3>Polish</h3>
+        <div class="result">
+            <p>Pchnąć w tę łódź jeża lub ośm skrzyń fig.</p>
+        </div>
+        <p>Push into this boat a hedgehog or eight boxes of figs.</p>
+        <h3>Russian</h3>
+        <div class="result">
+            <p>Съешь ещё этих мягких французских булок да выпей же чаю.</p>
+        </div>
+        <p>Eat some more of these soft French buns and drink some tea.</p>
+        <div class="pageBreak"></div>
+        <h2>Demonstration of Bi-Directional text (BiDi) using Left-to-right and Right-to-left languages</h2>
+        <p>Different languages can use different writing systems. In European cultures or cultures influenced by
+            European ones, the direction in writing systems is usually from left to right. This is the case in Latin,
+            German or English, for example. Other languages, especially semitic ones like Arabic, Persian or Hebrew, are
+            written from right to left. Bidirectional script support offers the possibility to display text written in
+            different directions.</p>
+        <div class="samplediv">
+            <p>Using the CSS property "direction", the base direction of a certain element can be set to "ltr" or "rtl",
+                e.g.</p>
+            <div class="code"><code> .ltr { direction: ltr; } </code></div>
+        </div>
+        <div class="samplediv">
+            <p>In addition, using "unicode-bidi: bidi-override;" will override the base direction for a certain
+                element:</p>
+            <div class="code"><code> .forcertl { direction: rtl; unicode-bidi: bidi-override; } </code></div>
+        </div>
+        <p>Example: Demonstration of alternating text direction by setting the direction for the second line to
+            right-to-left.</p>
+        <div class="result">
+            <p>This text is demonstrating the BiDi capabilities of PDFreactor,</p>
+            <p class="forcertl">by overriding the base direction and using right-to-left for this line.</p>
+        </div>
+        <p>The logical order (order in which the characters are stored in the document) of the second line of this
+            example is:</p>
+        <blockquote>"by overriding the base direction and using right-to-left for this line"</blockquote>
+        <p>However, visually, the order is as follows:</p>
+        <blockquote>"enil siht rof tfel-ot-thgir gnisu dna noitcerid esab eht gnidirrevo yb"</blockquote>
+        <p>When text from different writing systems is used in one paragraph, the separate characters will keep their
+            base direction if not otherwise defined. Characters originated from left-to-right or right-to-left languages
+            respectively have the corresponding predefined order that can only be overriden by using the style
+            "unicode-bidi: bidi-override;".</p>
+        <div class="samplediv">
+            <p>Right-to-left text inside left-to-right sections will be displayed as follows:</p>
+            <div class="result">english CIBARA text</div>
+            <p>Upper-case letters represent Arabic text while lower-case letters represent English text. The logical
+                order of this text would be:</p>
+            <p>"english ARABIC text"</p>
+        </div>
+        <p>The following samples demonstrate the difference between left-to-right and right-to-left languages. The base
+            direction for the separate sections are defined corresponding to their language. English words and
+            abbreviations in right-to-left sections are displayed correctly although the base direction is not
+            overridden for them which proves the predefined direction for characters.</p>
+        <p>The text excerpts are taken from the original English and the translated Arabic and Hebrew versions of the
+            W3C document "XML in 10 Points".</p>
+        <!-- Original text "XML in 10 Points" and its translations under W3C document license, Copyright � World Wide Web Consortium. 
+        All Rights Reserved. http://www.w3.org/Consortium/Legal/2002/copyright- documents- 20021231 --><!-- excerpt from English original text, available at: http://www.w3.org/XML/1999/XML- in- 10- points.html.en -->
+        <div class="samplediv">
+            <h3>Left-to-right sample - English text excerpt:</h3>
+            <div class="result">
+                <p class="ltr" lang="en-US">5. XML is a family of technologies</p>
+                <p class="ltr" lang="en-US">XML 1.0 is the specification that defines what "tags" and "attributes" are.
+                    Beyond XML 1.0, "the XML family" is a growing set of modules that offer useful services to
+                    accomplish important and frequently demanded tasks. XLink describes a standard way to add hyperlinks
+                    to an XML file. XPointer is a syntax in development for pointing to parts of an XML document. An
+                    XPointer is a bit like a URL, but instead of pointing to documents on the Web, it points to pieces
+                    of data inside an XML file. CSS, the style sheet language, is applicable to XML as it is to HTML.
+                    XSL is the advanced language for expressing style sheets. It is based on XSLT, a transformation
+                    language used for rearranging, adding and deleting tags and attributes. The DOM is a standard set of
+                    function calls for manipulating XML (and HTML) files from a programming language. XML Schemas 1 and
+                    2 help developers to precisely define the structures of their own XML-based formats. There are
+                    several more modules and tools available or under development. Keep an eye on W3C's technical
+                    reports page.</p>
+            </div>
+        </div>
+        <!-- excerpt from Arabic translated version, available at: http://www.w3c.org.ma/XML/XML- in- 10- points.ar.html -->
+        <div class="samplediv">
+            <h3>Right-to-left sample - Arabic text excerpt:</h3>
+            <div class="result">
+                <p class="rtl" lang="ar-SA">5. إكس إم إل مجموعة تكنولوجيّات</p>
+                <p class="rtl" lang="ar-SA">XML 1.0 هي المواصفات التي تعرِّف ماذا تكون "العلامات" و "الصّفات" . حول تلك
+                    المواصفات هناك مجموعة متنامية من الوحدات التي تَعرِض خدمات مفيدة لإنجاز مهام كثيرة الطلب وهامّة .
+                    Xlink يصف طريقة رسمية لإضافة وُصلة رابطة لملفّ إكس إم إل. XPointer و XFragments قواعد تركيب نحوية
+                    للإشارة إلى أجزاء من وثيقة إكس إم إل. إشارة XPointer تتشابه مع إشارة URL ، لكنّ بدلاً من الإشارة إلى
+                    الوثائق على الويب ، تشير الى قطعٍ صغيرةٍ من البيانات داخل ملفّ إكس إم إل . CSS، لغة النمط والأسلوب،
+                    تنطبق على إكس إم إل كما تنطبق على إتش تي إم إل . XSL هي اللّغة المتقدّمة للتّعبير عن النّمط والأسلوب
+                    . أساسها XSLT، لغة تَحوُّل استُخْدِمت لإعادة ترتيب أو لإضافة أو لحذف علامات او صفات. DOM هي مجموعة
+                    رسمية لاستدعاءات الوظائف من أجل استغلال ملفّات إكس إم إل (او إتش تي إم إل) و ذلك من داخل لغة برمجة.
+                    مخطّطات إكس إم إل 1 و 2 (XML Schemas 1 and 2) تساعد المطورين بأن يُعرِّفوا بدقّة هياكل أشكالهم
+                    الشّخصية المؤسّسة على لغة إكس إم . هناك عدة وحدات و أدوات متاحة أو تحت التطوير. أنظر إلى صفحة تقارير
+                    W3C التّقنية.</p>
+            </div>
+        </div>
+        <!-- excerpt from Hebrew translated version, available at: http://www.w3c.org.il/article/xml10pts -->
+        <div class="samplediv">
+            <h3>Right-to-left sample - Hebrew text excerpt:</h3>
+            <div class="result">
+                <p class="rtl" lang="he-IL">5. XML הוא משפחה של טכנולוגיות</p>
+                <p class="rtl" lang="he-IL">XML1.0 הנו מפרט שמגדיר מהם "תגיות" ו"תכוניות". מעבר לכך "משפחת XML" הינה
+                    מערך מודולים ההולך ומתרחב המציעים שירותים שמושיים כדי לבצע משימות חשובות ותכופות. Xlink מתאר כיצד
+                    להוסיף קישורים לקובץ XML. XPointer ו- Xfragments הינם מודולים בפיתוח כדי לאפשר מצביעים בתוך מסמך
+                    XML. ה- XPointer הנו מעין URL, אך במקום להצביע על מסמכים ברשת, הוא מצביע על פיסת מידע בתוך הקובץ
+                    XML. CSS, שפה לעיצוב גליונות, זמינה ב- XML בדומה ל- HTML. XSL הינה שפה מתקדמת לעיצוב גליונות. השפה
+                    מבוססת על XSLT, שפה המשמשת לאירגון, הוספה ומחיקה של תגיות ותכוניות. ה- DOM מערך פונקציות המשמשות
+                    למניפולציות בקבצי XML (ו- HTML) ע"י תיכנות. פורמט הגדרות מבנה XML Schema1 ו- 2. ישנם עוד מודולים
+                    וכלים מוכנים או בפיתוח. שים לב לדף הדיווחים הטכניים של W3C.</p>
+            </div>
+        </div>
+        <div class="pageBreak"></div>
+        <h2>Logical Properties and Values</h2>
+        <p>Several horizontal positions and sizes can be specified depending on the text direction.
+           The following sample uses the exact same HTML and CSS twice, except for different BiDi directions.
+           The direction dependent styles and their effects are as follows:</p>
+        <div class="samplediv">
+            <p>The position of the title:</p>
+            <div class="code"><code>position: absolute;
+top: -1em;
+inset-inline-start: 2em;          <span class="comment">/*  LTR: "left: 2em"  /  RTL: "right: 2em"  */</span></code></div>
+        </div>
+        <div class="samplediv">
+            <p>The float value and margin of the image:</p>
+            <div class="code"><code>float: inline-end;                 <span class="comment">/*  LTR: "float: right"  /  RTL: "float: left"  */</span>
+margin: 1em 0.1em;
+margin-inline-start: 2em;          <span class="comment">/*  LTR: "margin-left: 2em"  /  RTL: "margin-right: 2em"  */</span></code></div>
+        </div>
+        <div class="samplediv">
+            <p>The border and padding of the box:</p>
+            <div class="code"><code>border: 1pt none darkgrey;
+border-top-style: solid;
+padding-top: 0.5em;
+border-inline-start-style: solid;  <span class="comment">/*  LTR: "border-left-style&hellip;"  /  RTL: "border-right-style&hellip;"  */</span>
+padding-inline-start: 1em;         <span class="comment">/*  LTR: "padding-left: 1em"  /  RTL: "padding-right: 1em"  */</span></code></div>
+        </div>
+        <p>Resulting in:</p>
+        <h3>LTR</h3>
+        <div class="logicalsample">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia ex eget nisl iaculis, vitae pellentesque sapien sollicitudin. Mauris iaculis, sem at laoreet tincidunt, ipsum justo placerat turpis, vitae finibus ipsum sapien ac sapien. Nullam dignissim finibus erat. Donec tincidunt scelerisque enim, et pharetra dolor blandit id. Fusce blandit sapien sollicitudin leo auctor, a mattis ex ullamcorper. Aenean hendrerit in sem et sodales. Nunc maximus sem non eros venenatis, cursus egestas mi imperdiet. Morbi in eros faucibus, ullamcorper sem eget, facilisis nunc. Vestibulum ut dignissim ligula, vel sagittis velit. Ut eget maximus leo. Aenean rhoncus euismod elementum. Nam velit orci, porttitor vel viverra scelerisque, accumsan sit amet urna. Quisque ut interdum dui. Suspendisse eu leo orci. Ut nec eros vel diam euismod consequat.</div>
+        <h3>RTL</h3>
+        <div class="logicalsample forcertl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia ex eget nisl iaculis, vitae pellentesque sapien sollicitudin. Mauris iaculis, sem at laoreet tincidunt, ipsum justo placerat turpis, vitae finibus ipsum sapien ac sapien. Nullam dignissim finibus erat. Donec tincidunt scelerisque enim, et pharetra dolor blandit id. Fusce blandit sapien sollicitudin leo auctor, a mattis ex ullamcorper. Aenean hendrerit in sem et sodales. Nunc maximus sem non eros venenatis, cursus egestas mi imperdiet. Morbi in eros faucibus, ullamcorper sem eget, facilisis nunc. Vestibulum ut dignissim ligula, vel sagittis velit. Ut eget maximus leo. Aenean rhoncus euismod elementum. Nam velit orci, porttitor vel viverra scelerisque, accumsan sit amet urna. Quisque ut interdum dui. Suspendisse eu leo orci. Ut nec eros vel diam euismod consequat.</div>
+        <p>For more information on supported logical properties and values, please see the PDFreactor manual.</p>
+        <div class="pageBreak"></div>
+        <h2>International List Numbering</h2>
+        <p>PDFreactor supports several international list-style-types, including the following:</p>
+        <div class="result listItemColumns">
+            <ol>
+                <li style="list-style-type: decimal">decimal</li>
+                <li style="list-style-type: lower-roman">lower-roman</li>
+                <li style="list-style-type: upper-roman">upper-roman</li>
+                <li style="list-style-type: lower-alpha">lower-alpha</li>
+                <li style="list-style-type: upper-alpha">upper-alpha</li>
+                <li style="list-style-type: arabic-indic">arabic-indic</li>
+                <li style="list-style-type: upper-armenian">upper-armenian</li>
+                <li style="list-style-type: lower-armenian">lower-armenian</li>
+                <li style="list-style-type: bengali">bengali</li>
+                <li style="list-style-type: cambodian">cambodian</li>
+                <li style="list-style-type: devanagari">devanagari</li>
+                <li style="list-style-type: georgian">georgian</li>
+                <li style="list-style-type: lower-greek">lower-greek</li>
+                <li style="list-style-type: upper-greek">upper-greek</li>
+                <li style="list-style-type: gujarati">gujarati</li>
+                <li style="list-style-type: gurmukhi">gurmukhi</li>
+                <li style="list-style-type: hiragana">hiragana</li>
+                <li style="list-style-type: hiragana-iroha">hiragana-iroha</li>
+                <li style="list-style-type: japanese-formal">japanese-formal</li>
+                <li style="list-style-type: japanese-informal">japanese-informal</li>
+                <li style="list-style-type: kannada">kannada</li>
+                <li style="list-style-type: katakana">katakana</li>
+                <li style="list-style-type: katakana-iroha">katakana-iroha</li>
+                <li style="list-style-type: khmer">khmer</li>
+                <li style="list-style-type: lao">lao</li>
+                <li style="list-style-type: katakana">katakana</li>
+                <li style="list-style-type: malayalam">malayalam</li>
+                <li style="list-style-type: mongolian">mongolian</li>
+                <li style="list-style-type: myanmar">myanmar</li>
+                <li style="list-style-type: oriya">oriya</li>
+                <li style="list-style-type: persian">persian</li>
+                <li style="list-style-type: simp-chinese-formal">simp-chinese-formal</li>
+                <li style="list-style-type: simp-chinese-informal">simp-chinese-informal</li>
+                <li style="list-style-type: telugu">telugu</li>
+                <li style="list-style-type: thai">thai</li>
+                <li style="list-style-type: tibetan">tibetan</li>
+                <li style="list-style-type: urdu">Urdu</li>
+            </ol>
+        </div>
+        <p>For more information on supported list-style-types, please see the PDFreactor manual.</p>
+    </body>
+</html>

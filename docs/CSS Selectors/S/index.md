@@ -86,9 +86,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_S_selection.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_S_selection.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_S_selection.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_S_selection.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_S_selection.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_S_selection.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_S_selection.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_S_selection.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_S_selection.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_S_selection.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_S_selection.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_S_selection.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_S_selection.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_S_selection.html.pdf) |
 
 

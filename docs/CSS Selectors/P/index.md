@@ -66,10 +66,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_P_placeholder-shown.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_P_placeholder-shown.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_P_placeholder-shown.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_P_placeholder-shown.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_P_placeholder-shown.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_P_placeholder-shown.html.pdf) |
 
 ## 🔬 PLACEHOLDER
 
@@ -135,9 +135,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_P_placeholder.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_P_placeholder.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_P_placeholder.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_P_placeholder.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_P_placeholder.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_P_placeholder.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_P_placeholder.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_P_placeholder.html.pdf) |
 
 

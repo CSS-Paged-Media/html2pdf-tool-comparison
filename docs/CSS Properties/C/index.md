@@ -101,10 +101,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_caption-side.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_caption-side.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_caption-side.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_caption-side.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_caption-side.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_caption-side.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_caption-side.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_caption-side.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_caption-side.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_caption-side.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_caption-side.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_caption-side.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_caption-side.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_caption-side.html.pdf) |
 
 ## 🔬 CARET-COLOR
 
@@ -149,10 +149,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_caret-color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_caret-color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_caret-color.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_caret-color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_caret-color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_caret-color.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_caret-color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_caret-color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_caret-color.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_caret-color.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_caret-color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_caret-color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_caret-color.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_caret-color.html.pdf) |
 
 ## 🔬 CLEAR
 
@@ -210,10 +210,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_clear.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_clear.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_clear.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_clear.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_clear.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_clear.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_clear.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_clear.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_clear.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_clear.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_clear.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_clear.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_clear.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_clear.html.pdf) |
 
 ## 🔬 CLIP-PATH
 
@@ -245,10 +245,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_clip-path.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_clip-path.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_clip-path.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_clip-path.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_clip-path.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_clip-path.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_clip-path.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_clip-path.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_clip-path.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_clip-path.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_clip-path.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_clip-path.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_clip-path.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_clip-path.html.pdf) |
 
 ## 🔬 COLOR
 
@@ -307,10 +307,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_color.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_color.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_color.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_color.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_color.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_color.html.pdf) |
 
 ## 🔬 COLUMN-COUNT
 
@@ -382,10 +382,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-count.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-count.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-count.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-count.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-count.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-count.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-count.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-count.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-count.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-count.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-count.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-count.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-count.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-count.html.pdf) |
 
 ## 🔬 COLUMN-FILL
 
@@ -457,10 +457,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-fill.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-fill.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-fill.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-fill.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-fill.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-fill.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-fill.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-fill.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-fill.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-fill.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-fill.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-fill.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-fill.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-fill.html.pdf) |
 
 ## 🔬 COLUMN-GAP
 
@@ -518,10 +518,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-gap.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-gap.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-gap.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-gap.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-gap.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-gap.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-gap.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-gap.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-gap.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-gap.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-gap.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-gap.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-gap.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-gap.html.pdf) |
 
 ## 🔬 COLUMN-RULE
 
@@ -711,10 +711,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-rule.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-rule.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-rule.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-rule.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-rule.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-rule.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-rule.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-rule.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-rule.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-rule.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-rule.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-rule.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-rule.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-rule.html.pdf) |
 
 ## 🔬 COLUMN-SPAN
 
@@ -809,10 +809,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-span.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-span.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-span.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-span.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-span.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-span.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-span.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-span.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-span.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-span.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-span.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-span.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-span.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-span.html.pdf) |
 
 ## 🔬 COLUMN-WIDTH
 
@@ -896,10 +896,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-width.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-width.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_column-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_column-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_column-width.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_column-width.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_column-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_column-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_column-width.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_column-width.html.pdf) |
 
 ## 🔬 COLUMNS
 
@@ -975,10 +975,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_columns.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_columns.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_columns.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_columns.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_columns.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_columns.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_columns.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_columns.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_columns.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_columns.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_columns.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_columns.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_columns.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_columns.html.pdf) |
 
 ## 🔬 CONTENT
 
@@ -1016,10 +1016,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_content.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_content.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_content.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_content.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_content.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_content.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_content.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_content.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_content.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_content.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_content.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_content.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_content.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_content.html.pdf) |
 
 ## 🔬 COUNTER-INCREMENT
 
@@ -1061,10 +1061,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_counter-increment.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_counter-increment.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_counter-increment.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_counter-increment.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_counter-increment.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_counter-increment.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_counter-increment.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_counter-increment.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_counter-increment.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_counter-increment.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_counter-increment.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_counter-increment.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_counter-increment.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_counter-increment.html.pdf) |
 
 ## 🔬 COUNTER-RESET
 
@@ -1124,10 +1124,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_counter-reset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_counter-reset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_counter-reset.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_counter-reset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_counter-reset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_counter-reset.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_counter-reset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_counter-reset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_counter-reset.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_counter-reset.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_counter-reset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_counter-reset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_counter-reset.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_counter-reset.html.pdf) |
 
 ## 🔬 CURSOR
 
@@ -1228,9 +1228,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_C_cursor.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_cursor.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_cursor.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_C_cursor.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_cursor.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_cursor.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_C_cursor.html.png) | ![typeset Preview](typeset__html_CSS_Properties_C_cursor.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_C_cursor.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_C_cursor.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_C_cursor.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_C_cursor.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_C_cursor.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_C_cursor.html.pdf) |
 
 

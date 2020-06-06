@@ -55,10 +55,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-child.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-child.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-child.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-child.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-child.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-child.html.pdf) |
 
 ## 🔬 FIRST-LETTER
 
@@ -91,10 +91,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-letter.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-letter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-letter.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-letter.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-letter.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-letter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-letter.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.pdf) |
 
 ## 🔬 FIRST-LINE
 
@@ -168,10 +168,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-line.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-line.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-line.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-line.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-line.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-line.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-line.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-line.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-line.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-line.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-line.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-line.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-line.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-line.html.pdf) |
 
 ## 🔬 FIRST-OF-TYPE
 
@@ -221,10 +221,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-of-type.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-of-type.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-of-type.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.pdf) |
 
 ## 🔬 FOCUS-VISIBLE
 
@@ -267,10 +267,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-visible.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-visible.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-visible.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-visible.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-visible.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-visible.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-visible.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.pdf) |
 
 ## 🔬 FOCUS-WITHIN
 
@@ -512,10 +512,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-within.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-within.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-within.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-within.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-within.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-within.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-within.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.pdf) |
 
 ## 🔬 FOCUS
 
@@ -567,9 +567,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_F_focus.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_F_focus.html.pdf) |
 
 

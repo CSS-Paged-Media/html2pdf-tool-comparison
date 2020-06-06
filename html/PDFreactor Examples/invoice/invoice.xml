@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="invoice.xsl" ?>
+<invoice>
+    <voucher no="2011-414-45" date="2011-06-08" clientrefid="08155-1554" processno="5465461" />
+    <vendor>
+        <companyname>FastInternet GmbH</companyname>
+        <address>Rosenweg 345</address>
+        <zip>66435</zip>
+        <city>Frankfurt/M</city>
+        <country>Germany</country>
+        <tel>+49 (0)573 567 345</tel>
+        <fax>+49 (0)573 567 346</fax>
+        <email>info@fastinternet.de</email>
+        <bankaccno>345 456 785</bankaccno>
+        <iban>DE04 5643 0239 0004 4147 70</iban>
+        <bankname>Sparbank Frankfurt AG</bankname>
+        <bankaddress>Theodor-Heuss-Strasse 345, 66240 Frankfurt/M, Germany</bankaddress>
+        <swiftbic>FFMDEST45</swiftbic>
+        <bankcode>563 365 30</bankcode>
+        <register>Amtsgericht Frankfurt/M, HRB 23456</register>
+        <director>Dr. Peter Bogenhaus, Prof. Franz R. Weber</director>
+        <taxno>030/114/00345</taxno>
+        <vatid>DE847648675</vatid>
+        <sign>AB</sign>
+     </vendor>     
+     <orderer>
+        <companyname>ACI Powersupply Ltd.</companyname>
+        <personname>Per E. Hausendahl</personname>
+        <address>Commonwealth Ave 2415</address>
+        <address>Building 2, Suite 35</address>
+        <zip>45363 </zip>
+        <city>Helsinki</city>
+        <country>FINLAND</country>
+        <vatid>FI84367951</vatid>
+        <shipment>e-mail</shipment>
+    </orderer>
+    <positions>
+        <position id="1">
+            <khkid>0815</khkid>
+            <articletitle>Desktop Computer</articletitle>
+            <articledesc>Mod. I-1819</articledesc>
+            <articledesc>(Piano Black)</articledesc>
+            <qty>5</qty>
+            <unit_price>696</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="2">
+            <khkid>0816</khkid>
+            <articletitle>Desktop Computer</articletitle>
+            <articledesc>Mod. I-1818</articledesc>
+            <articledesc>(Silver)</articledesc>
+            <qty>8</qty>
+            <unit_price>696</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="3">
+            <khkid>0785</khkid>
+            <articletitle>Server Tower</articletitle>
+            <articledesc>Mod. PX-1287</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>1</qty>
+            <unit_price>1498</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="4">
+            <khkid>0258</khkid>
+            <articletitle>Server Rack</articletitle>
+            <articledesc>Mod. R-878856</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>5</qty>
+            <unit_price>995</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="5">
+            <khkid>0880</khkid>
+            <articletitle>Laser All-In-One Printer</articletitle>
+            <articledesc>Mod. LP-384938-534</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>1</qty>
+            <unit_price>1798</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="6">
+            <khkid>0881</khkid>
+            <articletitle>Laser Printer</articletitle>
+            <articledesc>Mod. LP-5865489</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>2</qty>
+            <unit_price>398</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="7">
+            <khkid>0612</khkid>
+            <articletitle>LED-Monitor 22"</articletitle>
+            <articledesc>Mod. LM-22-857</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>9</qty>
+            <unit_price>259</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="8">
+            <khkid>0613</khkid>
+            <articletitle>LED-Monitor 24"</articletitle>
+            <articledesc>Mod. LM-24-855</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>5</qty>
+            <unit_price>289</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="9">
+            <khkid>0614</khkid>
+            <articletitle>LED-Monitor 19"</articletitle>
+            <articledesc>Mod. LM-19-4575</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>8</qty>
+            <unit_price>179</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="10">
+            <khkid>0601</khkid>
+            <articletitle>Keyboard EN</articletitle>
+            <articledesc>Mod. KE-54755</articledesc>
+            <articledesc>(White)</articledesc>
+            <qty>12</qty>
+            <unit_price>19</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="11">
+            <khkid>0602</khkid>
+            <articletitle>Keyboard EN</articletitle>
+            <articledesc>Mod. KE-54756</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>5</qty>
+            <unit_price>19</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="12">
+            <khkid>0603</khkid>
+            <articletitle>Keyboard DE</articletitle>
+            <articledesc>Mod. KE-54765</articledesc>
+            <articledesc>(White)</articledesc>
+            <qty>10</qty>
+            <unit_price>19</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="13">
+            <khkid>0620</khkid>
+            <articletitle>Mouse - USB Wireless</articletitle>
+            <articledesc>Mod. MU-15789</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>10</qty>
+            <unit_price>23</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="14">
+            <khkid>0621</khkid>
+            <articletitle>Mouse - USB Wireless</articletitle>
+            <articledesc>Mod. MU-15787</articledesc>
+            <articledesc>(White)</articledesc>
+            <qty>13</qty>
+            <unit_price>23</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="15">
+            <khkid>0895</khkid>
+            <articletitle>Toner Cartridge</articletitle>
+            <articledesc>Mod. TC-17554454</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>10</qty>
+            <unit_price>175</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="16">
+            <khkid>0896</khkid>
+            <articletitle>Toner Cartridge</articletitle>
+            <articledesc>Mod. TC-17554452</articledesc>
+            <articledesc>(Magenta)</articledesc>
+            <qty>5</qty>
+            <unit_price>185</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="17">
+            <khkid>0897</khkid>
+            <articletitle>Toner Cartridge</articletitle>
+            <articledesc>Mod. TC-17554453</articledesc>
+            <articledesc>(Yellow)</articledesc>
+            <qty>5</qty>
+            <unit_price>185</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="18">
+            <khkid>0898</khkid>
+            <articletitle>Toner Cartridge</articletitle>
+            <articledesc>Mod. TC-17554451</articledesc>
+            <articledesc>(Cyan)</articledesc>
+            <qty>5</qty>
+            <unit_price>185</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="19">
+            <khkid>8876</khkid>
+            <articletitle>Notebook N456 15.6"</articletitle>
+            <articledesc>Mod. N-889772</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>7</qty>
+            <unit_price>589</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="20">
+            <khkid>1248</khkid>
+            <articletitle>Notebook N454 15.4"</articletitle>
+            <articledesc>Mod. N-889775</articledesc>
+            <articledesc>(Silver)</articledesc>
+            <qty>10</qty>
+            <unit_price>559</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="21">
+            <khkid>5248</khkid>
+            <articletitle>Headset PC-510</articletitle>
+            <articledesc>Mod. HS-1256</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>10</qty>
+            <unit_price>39</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="22">
+            <khkid>7459</khkid>
+            <articletitle>Headset PC-510</articletitle>
+            <articledesc>Mod. HS-1257</articledesc>
+            <articledesc>(White)</articledesc>
+            <qty>10</qty>
+            <unit_price>39</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="23">
+            <khkid>1236</khkid>
+            <articletitle>Webcam PC-980</articletitle>
+            <articledesc>Mod. WC-7888</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>10</qty>
+            <unit_price>49</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="24">
+            <khkid>1237</khkid>
+            <articletitle>Webcam PC-980</articletitle>
+            <articledesc>Mod. WC-7889</articledesc>
+            <articledesc>(White)</articledesc>
+            <qty>10</qty>
+            <unit_price>49</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="27">
+            <khkid>4552</khkid>
+            <articletitle>USB Stick 8 GB</articletitle>
+            <articledesc>Mod. US-166698</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>4</qty>
+            <unit_price>10.80</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="28">
+            <khkid>5896</khkid>
+            <articletitle>DVD Drive external</articletitle>
+            <articledesc>Mod. DD-2857</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>2</qty>
+            <unit_price>11.90</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="29">
+            <khkid>7452</khkid>
+            <articletitle>DVD Burner internal</articletitle>
+            <articledesc>Mod. DB-2658</articledesc>
+            <articledesc>(Black)</articledesc>
+            <qty>10</qty>
+            <unit_price>28.70</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="30">
+            <khkid>8964</khkid>
+            <articletitle>USB Type A Male Cable (2m)</articletitle>
+            <articledesc>Mod. UC-444689</articledesc>
+            <articledesc>(White)</articledesc>
+            <qty>25</qty>
+            <unit_price>4.85</unit_price>
+            <unit>pcs</unit>
+        </position>
+        <position id="31">
+            <khkid>1111</khkid>
+            <articletitle>Ethernet LAN Network Cable (1m)</articletitle>
+            <articledesc>Mod. NC-789589</articledesc>
+            <articledesc>(White)</articledesc>
+            <qty>35</qty>
+            <unit_price>3.85</unit_price>
+            <unit>pcs</unit>
+        </position>
+    </positions>
+</invoice>

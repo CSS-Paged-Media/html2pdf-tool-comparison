@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A comparison between mPDF, typeset.sh, and PDFreactor
+title: A comparison between mPDF, typeset.sh, PDFreactor, and wkhtmltopdf
 permalink: /
 description: 
 ---

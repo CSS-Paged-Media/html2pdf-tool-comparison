@@ -524,9 +524,9 @@ config.setOutputIntent(outputIntent);<span class="hljs-tag">&lt;/<span class="hl
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_PDFreactor_Examples_accessibility_accessibility.html.png) | ![typeset Preview](typeset__html_PDFreactor_Examples_accessibility_accessibility.html.png) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_accessibility_accessibility.html.png) |
-| [📕 mPDF Output](mpdf__html_PDFreactor_Examples_accessibility_accessibility.html.pdf) | [📕 typeset Output](typeset__html_PDFreactor_Examples_accessibility_accessibility.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_accessibility_accessibility.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_PDFreactor_Examples_accessibility_accessibility.html.png) | ![typeset Preview](typeset__html_PDFreactor_Examples_accessibility_accessibility.html.png) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_accessibility_accessibility.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_PDFreactor_Examples_accessibility_accessibility.html.png) |
+| [📕 mPDF Output](mpdf__html_PDFreactor_Examples_accessibility_accessibility.html.pdf) | [📕 typeset Output](typeset__html_PDFreactor_Examples_accessibility_accessibility.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_accessibility_accessibility.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_PDFreactor_Examples_accessibility_accessibility.html.pdf) |
 
 

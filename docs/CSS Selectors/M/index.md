@@ -46,10 +46,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_M_marker.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_M_marker.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_M_marker.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_M_marker.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_M_marker.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_M_marker.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_M_marker.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_M_marker.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_M_marker.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_M_marker.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_M_marker.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_M_marker.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_M_marker.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_M_marker.html.pdf) |
 
 ## 🔬 MATCHES
 
@@ -83,9 +83,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_M_matches.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_M_matches.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_M_matches.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_M_matches.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_M_matches.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_M_matches.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_M_matches.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_M_matches.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_M_matches.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_M_matches.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_M_matches.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_M_matches.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_M_matches.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_M_matches.html.pdf) |
 
 

@@ -161,10 +161,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_V_vertical-align.html.png) | ![typeset Preview](typeset__html_CSS_Properties_V_vertical-align.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_V_vertical-align.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_V_vertical-align.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_V_vertical-align.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_V_vertical-align.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_V_vertical-align.html.png) | ![typeset Preview](typeset__html_CSS_Properties_V_vertical-align.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_V_vertical-align.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_V_vertical-align.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_V_vertical-align.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_V_vertical-align.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_V_vertical-align.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_V_vertical-align.html.pdf) |
 
 ## 🔬 VISIBILITY
 
@@ -208,9 +208,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_V_visibility.html.png) | ![typeset Preview](typeset__html_CSS_Properties_V_visibility.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_V_visibility.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_V_visibility.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_V_visibility.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_V_visibility.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_V_visibility.html.png) | ![typeset Preview](typeset__html_CSS_Properties_V_visibility.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_V_visibility.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_V_visibility.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_V_visibility.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_V_visibility.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_V_visibility.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_V_visibility.html.pdf) |
 
 

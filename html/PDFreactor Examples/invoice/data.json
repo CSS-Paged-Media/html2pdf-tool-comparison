@@ -1,0 +1,370 @@
+{
+    "vat": {
+        "code": 14,
+        "value": 0.19
+    },
+    "voucher": {
+        "no": "2011-414-45",
+        "date": "2011-06-08T00:00:00.000Z",
+        "clientrefid": "08155-1554",
+        "processno": 5465461
+    },
+    "vendor": {
+        "companyname": "FastInternet GmbH",
+        "logo": "FastInternet%20GmbH.png",
+        "address": "Rosenweg 345",
+        "zip": 66435,
+        "city": "Frankfurt/M",
+        "country": "Germany",
+        "tel": "+49 (0)573 567 345",
+        "fax": "+49 (0)573 567 346",
+        "email": "info@fastinternet.de",
+        "bankaccno": "345 456 785",
+        "iban": "DE04 5643 0239 0004 4147 70",
+        "bankname": "Sparbank Frankfurt AG",
+        "bankaddress": "Theodor-Heuss-Strasse 345, 66240 Frankfurt/M, Germany",
+        "swiftbic": "FFMDEST45",
+        "bankcode": "563 365 30",
+        "register": "Amtsgericht Frankfurt/M, HRB 23456",
+        "director": "Dr. Peter Bogenhaus, Prof. Franz R. Weber",
+        "taxno": "030/114/00345",
+        "vatid": "DE847648675",
+        "sign": "AB",
+        "locale": "en-US",
+        "currency": "EUR"
+    },
+    "orderer": {
+        "companyname": "ACI Powersupply Ltd.",
+        "personname": "Per E. Hausendahl",
+        "address": [
+            "Commonwealth Ave 2415",
+            "Building 2, Suite 35"
+        ],
+        "zip": 45363,
+        "city": "Helsinki",
+        "country": "Finland",
+        "vatid": "FI84367951",
+        "shipment": "e-mail"
+    },
+    "positions": [
+        {
+            "khkid": 815,
+            "articletitle": "Desktop Computer",
+            "articledesc": [
+                "Mod. I-1819",
+                "(Piano Black)"
+            ],
+            "qty": 5,
+            "unitprice": 696,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 816,
+            "articletitle": "Desktop Computer",
+            "articledesc": [
+                "Mod. I-1818",
+                "(Silver)"
+            ],
+            "qty": 8,
+            "unitprice": 696,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 785,
+            "articletitle": "Server Tower",
+            "articledesc": [
+                "Mod. PX-1287",
+                "(Black)"
+            ],
+            "qty": 1,
+            "unitprice": 1498,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 258,
+            "articletitle": "Server Rack",
+            "articledesc": [
+                "Mod. R-878856",
+                "(Black)"
+            ],
+            "qty": 5,
+            "unitprice": 995,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 880,
+            "articletitle": "Laser All-In-One Printer",
+            "articledesc": [
+                "Mod. LP-384938-534",
+                "(Black)"
+            ],
+            "qty": 1,
+            "unitprice": 1798,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 881,
+            "articletitle": "Laser Printer",
+            "articledesc": [
+                "Mod. LP-5865489",
+                "(Black)"
+            ],
+            "qty": 2,
+            "unitprice": 398,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 612,
+            "articletitle": "LED-Monitor 22\"",
+            "articledesc": [
+                "Mod. LM-22-857",
+                "(Black)"
+            ],
+            "qty": 9,
+            "unitprice": 259,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 613,
+            "articletitle": "LED-Monitor 24\"",
+            "articledesc": [
+                "Mod. LM-24-855",
+                "(Black)"
+            ],
+            "qty": 5,
+            "unitprice": 289,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 614,
+            "articletitle": "LED-Monitor 19\"",
+            "articledesc": [
+                "Mod. LM-19-4575",
+                "(Black)"
+            ],
+            "qty": 8,
+            "unitprice": 179,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 601,
+            "articletitle": "Keyboard EN",
+            "articledesc": [
+                "Mod. KE-54755",
+                "(White)"
+            ],
+            "qty": 12,
+            "unitprice": 19,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 602,
+            "articletitle": "Keyboard EN",
+            "articledesc": [
+                "Mod. KE-54756",
+                "(Black)"
+            ],
+            "qty": 5,
+            "unitprice": 19,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 603,
+            "articletitle": "Keyboard DE",
+            "articledesc": [
+                "Mod. KE-54765",
+                "(White)"
+            ],
+            "qty": 10,
+            "unitprice": 19,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 620,
+            "articletitle": "Mouse - USB Wireless",
+            "articledesc": [
+                "Mod. MU-15789",
+                "(Black)"
+            ],
+            "qty": 10,
+            "unitprice": 23,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 621,
+            "articletitle": "Mouse - USB Wireless",
+            "articledesc": [
+                "Mod. MU-15787",
+                "(White)"
+            ],
+            "qty": 13,
+            "unitprice": 23,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 895,
+            "articletitle": "Toner Cartridge",
+            "articledesc": [
+                "Mod. TC-17554454",
+                "(Black)"
+            ],
+            "qty": 10,
+            "unitprice": 175,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 896,
+            "articletitle": "Toner Cartridge",
+            "articledesc": [
+                "Mod. TC-17554452",
+                "(Magenta)"
+            ],
+            "qty": 5,
+            "unitprice": 185,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 897,
+            "articletitle": "Toner Cartridge",
+            "articledesc": [
+                "Mod. TC-17554453",
+                "(Yellow)"
+            ],
+            "qty": 5,
+            "unitprice": 185,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 898,
+            "articletitle": "Toner Cartridge",
+            "articledesc": [
+                "Mod. TC-17554451",
+                "(Cyan)"
+            ],
+            "qty": 5,
+            "unitprice": 185,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 8876,
+            "articletitle": "Notebook N456 15.6\"",
+            "articledesc": [
+                "Mod. N-889772",
+                "(Black)"
+            ],
+            "qty": 7,
+            "unitprice": 589,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 1248,
+            "articletitle": "Notebook N454 15.4\"",
+            "articledesc": [
+                "Mod. N-889775",
+                "(Silver)"
+            ],
+            "qty": 10,
+            "unitprice": 559,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 5248,
+            "articletitle": "Headset PC-510",
+            "articledesc": [
+                "Mod. HS-1256",
+                "(Black)"
+            ],
+            "qty": 10,
+            "unitprice": 39,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 7459,
+            "articletitle": "Headset PC-510",
+            "articledesc": [
+                "Mod. HS-1257",
+                "(White)"
+            ],
+            "qty": 10,
+            "unitprice": 39,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 1236,
+            "articletitle": "Webcam PC-980",
+            "articledesc": [
+                "Mod. WC-7888",
+                "(Black)"
+            ],
+            "qty": 10,
+            "unitprice": 49,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 1237,
+            "articletitle": "Webcam PC-980",
+            "articledesc": [
+                "Mod. WC-7889",
+                "(White)"
+            ],
+            "qty": 10,
+            "unitprice": 49,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 4552,
+            "articletitle": "USB Stick 8 GB",
+            "articledesc": [
+                "Mod. US-166698",
+                "(Black)"
+            ],
+            "qty": 4,
+            "unitprice": 10.8,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 5896,
+            "articletitle": "DVD Drive external",
+            "articledesc": [
+                "Mod. DD-2857",
+                "(Black)"
+            ],
+            "qty": 2,
+            "unitprice": 11.9,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 7452,
+            "articletitle": "DVD Burner internal",
+            "articledesc": [
+                "Mod. DB-2658",
+                "(Black)"
+            ],
+            "qty": 10,
+            "unitprice": 28.7,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 8964,
+            "articletitle": "USB Type A Male Cable (2m)",
+            "articledesc": [
+                "Mod. UC-444689",
+                "(White)"
+            ],
+            "qty": 25,
+            "unitprice": 4.85,
+            "unit": "pcs"
+        },
+        {
+            "khkid": 1111,
+            "articletitle": "Ethernet LAN Network Cable (1m)",
+            "articledesc": [
+                "Mod. NC-789589",
+                "(White)"
+            ],
+            "qty": 35,
+            "unitprice": 3.85,
+            "unit": "pcs"
+        }
+    ]
+}

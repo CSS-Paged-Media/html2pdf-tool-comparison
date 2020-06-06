@@ -74,10 +74,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_I_image-rendering.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_image-rendering.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_image-rendering.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_image-rendering.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_I_image-rendering.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_image-rendering.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_image-rendering.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_I_image-rendering.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_I_image-rendering.html.pdf) |
 
 ## 🔬 INITIAL-LETTER
 
@@ -128,10 +128,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_I_initial-letter.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_initial-letter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_initial-letter.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_initial-letter.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_I_initial-letter.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_initial-letter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_initial-letter.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_I_initial-letter.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_I_initial-letter.html.pdf) |
 
 ## 🔬 ISOLATION
 
@@ -188,9 +188,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_I_isolation.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_isolation.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_isolation.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_I_isolation.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_isolation.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_isolation.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_I_isolation.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_isolation.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_isolation.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_I_isolation.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_I_isolation.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_isolation.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_isolation.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_I_isolation.html.pdf) |
 
 

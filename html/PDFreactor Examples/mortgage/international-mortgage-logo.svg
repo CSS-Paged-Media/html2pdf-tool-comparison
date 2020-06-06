@@ -1,0 +1,10 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#000000" ry="140" rx="140" id="svg_3" cy="150" cx="150" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#000000" id="svg_5" height="120" width="160" y="120" x="70" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#2f4f4f"/>
+  <rect stroke="#000000" id="svg_8" height="100" width="50" y="170" x="100" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#000000" id="svg_10" height="40" width="40" y="170" x="170" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff"/>
+  <path id="svg_11" d="m50,120l100,-80l100,80l-10,10l-90,0l-90,0l-10,-10z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#2f4f4f"/>
+ </g>
+</svg>

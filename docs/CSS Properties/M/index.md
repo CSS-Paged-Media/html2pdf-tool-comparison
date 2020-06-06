@@ -40,10 +40,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_M_margin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_margin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_margin.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_margin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_margin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_margin.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_M_margin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_margin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_margin.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_margin.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_margin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_margin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_margin.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_margin.html.pdf) |
 
 ## 🔬 MASK-IMAGE
 
@@ -94,10 +94,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_M_mask-image.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_mask-image.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_mask-image.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mask-image.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_mask-image.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mask-image.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_M_mask-image.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_mask-image.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_mask-image.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_mask-image.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mask-image.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_mask-image.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mask-image.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_mask-image.html.pdf) |
 
 ## 🔬 MASK-REPEAT
 
@@ -148,10 +148,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_M_mask-repeat.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_mask-repeat.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_mask-repeat.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mask-repeat.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_mask-repeat.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mask-repeat.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_M_mask-repeat.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_mask-repeat.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_mask-repeat.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_mask-repeat.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mask-repeat.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_mask-repeat.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mask-repeat.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_mask-repeat.html.pdf) |
 
 ## 🔬 MAX-HEIGHT
 
@@ -312,10 +312,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_M_max-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_max-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_max-height.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_max-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_max-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_max-height.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_M_max-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_max-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_max-height.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_max-height.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_max-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_max-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_max-height.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_max-height.html.pdf) |
 
 ## 🔬 MAX-WIDTH
 
@@ -443,10 +443,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_M_max-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_max-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_max-width.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_max-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_max-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_max-width.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_M_max-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_max-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_max-width.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_max-width.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_max-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_max-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_max-width.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_max-width.html.pdf) |
 
 ## 🔬 MIN-HEIGHT
 
@@ -608,10 +608,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_M_min-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_min-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_min-height.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_min-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_min-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_min-height.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_M_min-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_min-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_min-height.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_min-height.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_min-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_min-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_min-height.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_min-height.html.pdf) |
 
 ## 🔬 MIN-WIDTH
 
@@ -749,10 +749,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_M_min-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_min-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_min-width.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_min-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_min-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_min-width.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_M_min-width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_min-width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_min-width.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_min-width.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_min-width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_min-width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_min-width.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_min-width.html.pdf) |
 
 ## 🔬 MIX-BLEND-MODE
 
@@ -849,9 +849,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_M_mix-blend-mode.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_mix-blend-mode.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_mix-blend-mode.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mix-blend-mode.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_mix-blend-mode.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mix-blend-mode.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Properties_M_mix-blend-mode.html.png) | ![typeset Preview](typeset__html_CSS_Properties_M_mix-blend-mode.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_M_mix-blend-mode.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Properties_M_mix-blend-mode.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_M_mix-blend-mode.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_M_mix-blend-mode.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_M_mix-blend-mode.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Properties_M_mix-blend-mode.html.pdf) |
 
 

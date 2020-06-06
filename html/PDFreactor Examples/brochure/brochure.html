@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <title>Tourist Brochure</title>
+    <style>
+        /****************************************************
+ * Fonts
+ ****************************************************/
+
+@font-face {
+    font-family: Handwriting;
+    src: url("fnt/JOURNAL.TTF") format("truetype");
+}
+
+
+/****************************************************
+ * Page Style
+ ****************************************************/
+
+@page {
+    
+    /* Page Sizes */
+    
+    size: A4 landscape;
+    -ro-media-size: SRA4 landscape;
+    -ro-bleed-width: 3mm;
+    -ro-crop-size: trim;
+    
+    /* Page Layout */
+    margin: -3mm;
+    padding: 0;
+    
+    /* Printer Marks */
+    -ro-marks: bleed trim registration;
+    
+    -ro-colorbar-left-top: gradient-tint;
+    -ro-colorbar-right-top: progressive-color;
+    
+    -ro-colorbar-left-bottom: cmyk(100%, 0%, 0%, 0%) cmyk(75%, 0%, 0%, 0%) cmyk(50%, 0%, 0%, 0%) cmyk(25%, 0%, 0%, 0%)
+                              cmyk(0%, 100%, 0%, 0%) cmyk(0%, 75%, 0%, 0%) cmyk(0%, 50%, 0%, 0%) cmyk(0%, 25%, 0%, 0%);
+                              
+    -ro-colorbar-right-bottom: cmyk(0%, 0%, 25%, 0%) cmyk(0%, 0%, 50%, 0%) cmyk(0%, 0%, 75%, 0%) cmyk(0%, 0%, 100%, 0%)
+                               cmyk(0%, 0%, 0%, 25%) cmyk(0%, 0%, 0%, 50%) cmyk(0%, 0%, 0%, 75%) cmyk(0%, 0%, 0%, 100%);
+}
+
+#page1, #page2 {
+    width:  297mm;
+    height: 210mm;
+    padding: 3mm;
+}
+
+/****************************************************
+ * General Style
+ ****************************************************/
+
+html, body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    hyphens: auto;
+    hyphenate-before: 3;
+    hyphenate-after: 3;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-style: italic;
+}
+
+p, li, td {
+    font-size: 3.5mm;
+    line-height: 1.5;
+    text-align: justify;
+    color: inherit;
+    margin: 0;
+}
+
+:-ro-matches(p, h1, h2, h3) + p {
+    margin-top: 2mm;
+}
+
+
+
+h1 {
+    font-family: Handwriting;
+    font-weight: normal;
+    font-size: 10mm;
+    letter-spacing: 0.5mm;
+    margin: 0;
+    margin-top: -2mm;
+    color: inherit;
+}
+
+/****************************************************
+ * Page Layout
+ ****************************************************/
+
+/* First Page */
+
+#page1 {
+    break-after: page;
+}
+
+/* First Fold */
+
+#fold1top {
+    position: absolute;
+    top: 0mm;
+    left: 0;
+    margin: 0;
+    padding: 6mm;
+    padding-left: 9mm;
+    padding-top: 9mm;
+    width: 86mm;
+    height: 56mm;
+    background-color: -ro-spot("Pantone 4735 C", 1, cmyk(0%, 16%, 28%, 28%));
+}
+
+#fold1top img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#fold1bottom {
+    position: absolute;
+    top: 71mm;
+    left: 0;
+    margin: 0;
+    padding: 6mm;
+    padding-left: 9mm;
+    padding-bottom: 9mm;
+    width: 86mm;
+    height: 130mm;
+    color: cmyk(0%, 0%, 10%, 0%);
+    background-color: -ro-spot("Pantone 404 C", 1, cmyk(0%, 5%, 15%, 59%));
+}
+
+#fold1bottom h1 {
+    margin-top: -4mm;
+}
+
+/* Second Fold */
+
+#fold2 {
+    position: absolute;
+    top: 0mm;
+    left: 101mm;
+    margin: 0;
+    padding: 0mm;
+    width: 101mm;
+    height: 216mm;
+    background-image: url("img/hermitsrest.tif");
+    background-size: auto 100%;
+    background-position: right center;
+    text-align: center;
+    color: white;
+}
+
+#fold2 h1 {
+    font-family: Handwriting;
+    font-weight: normal;
+    font-size: 25mm;
+    margin: 0;
+    margin-top: 165mm;
+    color: cmyk(0%, 15%, 60%, 20%);
+}
+
+#fold2 h2 {
+    font-family: 'times new roman', serif;
+    font-weight: normal;
+    font-size: 8mm;
+    margin: 0;
+    margin-bottom: 4mm;
+    letter-spacing: 6mm;
+    text-transform: uppercase;
+    margin-left: 6mm;
+    color: cmyk(5%, 5%, 5%, 5%);
+}
+
+/* Third Fold */
+
+#fold3top {
+    position: absolute;
+    top: 0mm;
+    left: 202mm;
+    margin: 0;
+    padding: 6mm;
+    padding-right: 9mm;
+    padding-top: 9mm;
+    width: 86mm;
+    height: 130mm;
+    background-color: -ro-spot("Pantone 7507 C", 1, cmyk(0%, 13%, 37%, 4%));
+}
+
+#fold3top h1 {
+    margin-top: -4mm;
+}
+
+#fold3bottom {
+    position: absolute;
+    top: 145mm;
+    left: 202mm;
+    margin: 0;
+    padding: 6mm;
+    padding-right: 9mm;
+    padding-bottom: 9mm;
+    width: 86mm;
+    height: 56mm;
+    color: cmyk(0%, 0%, 60%, 80%);
+    background-color: -ro-spot("Pantone 7521 C", 1, cmyk(0%, 19%, 42%, 22%));
+}
+
+#fold3bottom img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Second Page */
+
+#page2 {
+    color: cmyk(0%, 0%, 10%, 0%);
+    background-color: -ro-spot("Pantone 404 C", 1, cmyk(0%, 5%, 15%, 59%));
+}
+
+/* Second Page */
+
+/* Spread over all Folds */
+
+#spread {
+    position: absolute;
+    top: 0mm;
+    left: 0mm;
+    margin: 0;
+    padding: 0mm;
+    width: 303mm;
+    height: 65mm;
+    background-image: url("img/cedarridge.tif");
+    background-size: auto 198%;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+/* First Fold */
+
+#fold4top {
+    position: absolute;
+    top: 65mm;
+    left: 0mm;
+    margin: 0;
+    padding: 6mm;
+    padding-left: 9mm;
+    width: 187mm;
+    height: 54mm;
+}
+
+#fold4top h1 {
+    margin-top: -4mm;
+}
+
+
+#fold4bottom {
+    position: absolute;
+    top: 131mm;
+    left: 0mm;
+    margin: 0;
+    padding: 6mm;
+    padding-bottom: 9mm;
+    padding-left: 9mm;
+    width: 86mm;
+    height: 70mm;
+    color: cmyk(0%, 0%, 60%, 80%);
+    background-color: -ro-spot("Pantone 7507 C", 1, cmyk(0%, 13%, 37%, 4%));
+}
+
+#fold4bottom p {
+    width: 89%;
+}
+
+
+/* Info Box between First and Second Fold */
+
+#infoBox {
+    position: absolute;
+    left: 88mm;
+    top: 123mm;
+    width: 51mm;
+    height: 51mm;
+    padding: 3mm;
+    color: cmyk(0%, 0%, 10%, 0%);
+    background-color: -ro-spot("Pantone 4635 C", 1, cmyk(0%, 49%, 77%, 41%));
+    transform: rotate(-10deg);
+    border: 1.5mm solid -ro-spot("Pantone 7507 C", 1, cmyk(0%, 13%, 37%, 4%));
+    border-radius: 30mm;
+}
+
+#infoBox h2 {
+    font-family: Handwriting;
+    font-weight: normal;
+    font-size: 10mm;
+    letter-spacing: 0.5mm;
+    margin: 0;
+    margin-top: 3.5mm;
+    color: inherit;
+}
+
+#infoBox :-ro-matches(h2, p) {
+    text-align: center !important;
+}
+
+#infoBox p {
+    font-size: 3.5mm;
+    margin: 1mm auto ;
+    width: 83%;
+}
+
+#infoBox a {
+    color: inherit;
+    font-style: italic;
+}
+
+/* Second Fold */
+
+#fold5bottom {
+    position: absolute;
+    top: 131mm;
+    left: 101mm;
+    margin: 0;
+    padding: 6mm;
+    padding-bottom: 9mm;
+    width: 89mm;
+    height: 70mm;
+    background-image: url("img/cedarridge.tif");
+    background-size: auto 100%;
+    background-position: top 85%;
+}
+
+/* Third Fold */
+
+#fold6top {
+    position: absolute;
+    top: 65mm;
+    left: 202mm;
+    margin: 0;
+    padding: 6mm;
+    padding-right: 9mm;
+    width: 86mm;
+    height: 84mm;
+    color: cmyk(10%, 10%, 85%, 80%);
+    background-color: -ro-spot("Pantone 4735 C", 1, cmyk(0%, 16%, 28%, 28%));
+}
+
+#fold6top h1 {
+    margin-top: -4mm;
+}
+
+
+#fold6bottom {
+    position: absolute;
+    top: 160mm;
+    left: 202mm;
+    margin: 0;
+    padding: 6mm;
+    padding-right: 9mm;
+    padding-bottom: 6mm;
+    width: 86mm;
+    height: 39mm;
+    color: cmyk(0%, 0%, 10%, 0%);
+}
+
+#fold6bottom h1 {
+    font-size: 8mm;
+    margin-top: -4mm;
+    margin-bottom: 1mm;
+}
+
+#fold6bottom p {
+    font-size: 3mm;
+    margin: 1mm 0;
+    line-height: 1.25;
+}
+
+#fold6bottom p:last-child {
+    margin-bottom: 0;
+}
+
+/****************************************************
+ * Preferences
+ ****************************************************/
+
+@-ro-preferences {
+    page-layout: 1 page;
+    initial-zoom: fit-page;
+}
+
+    </style>
+</head>
+<body>
+    
+    <!-- First Page -->
+    
+    <div id="page1">
+        
+        <!-- First Fold -->
+        
+        <div id="fold1top">
+            <img src="img/rafting.tif" alt=""/>
+        </div>
+        
+        <div id="fold1bottom">
+            <h1>Activities</h1>
+            <p>Aside from casual sightseeing from the South Rim (averaging 7,000 feet above sea level), rafting, hiking, running and helicopter tours are especially popular.</p>
+            <p>The Grand Canyon Ultra Marathon is a 78-mile race over 24 hours. The floor of the valley is accessible by foot, muleback, or by boat or raft from upriver.</p>
+            <p>Hiking down to the river and back up to the rim in one day is discouraged by park officials because of the distance, steep and rocky trails, change in elevation, and danger of heat exhaustion from the much higher temperatures at the bottom. Rescues are required annually of unsuccessful rim-to-river-to-rim travelers. Nevertheless, hundreds of fit and experienced hikers complete the trip every year.</p>
+            <p>Camping on the North and South Rims is generally restricted to established campgrounds and reservations are highly recommended, especially at the busier South Rim.</p>
+            <p>There is at large camping available along many parts of the North Rim managed by Kaibab National Forest.</p>
+        </div>
+        
+        <!-- Second Fold -->
+        
+        <div id="fold2">
+            <h1>Grand Canyon</h1>
+            <h2>Arizona</h2>
+        </div>
+        
+        <!-- Third Fold -->
+        
+        <div id="fold3top">
+            <h1>History</h1>
+            <p>The Ancient Puebloans were the first people known to live in the Grand Canyon area. The cultural group has often been referred to in archaeology as the Anasazi, although the term is not preferred by the modern Puebloan peoples. The word "Anasazi" is Navajo for "Ancient Ones" or "Ancient Enemy".</p>
+            <p>In addition to the Ancestral Puebloans, a number of distinct cultures have inhabited the Grand Canyon area. The Cohonina lived to the west of the Grand Canyon, between 500 and 1200 CE. The Cohonina were ancestors of the Yuman, Havasupai, and Walapai peoples who inhabit the area today.</p>
+            <p>The Sinagua were a cultural group occupying an area to the southeast of the Grand Canyon, between the Little Colorado River and the Salt River, between approximately 500 and 1425 CE. The Sinagua may have been ancestors of several Hopi clans.</p>
+            <p>By the time of the arrival of Europeans in the 16th century, newer cultures had evolved. The Hualapai inhabit a 100-mile (160 km) stretch along the pine-clad southern side of the Grand Canyon.</p>
+        </div>
+        
+        <div id="fold3bottom">
+            <img src="img/nankoweap.tif" alt=""/>
+        </div>
+    </div>
+    
+    <!-- Second Page -->
+    
+    <div id="page2">
+        
+        <!-- Spread over all Folds -->
+        
+        <div id="spread"></div>
+        
+        <!-- First Fold -->
+        
+        <div id="fold4top">
+            <h1>About the Grand Canyon</h1>
+            <p>The Grand Canyon is a steep-sided canyon carved by the Colorado River in the United States in the state of Arizona. It is contained within and managed by Grand Canyon National Park, the Hualapai Tribal Nation, and the Havasupai Tribe. President Theodore Roosevelt was a major proponent of preservation of the Grand Canyon area, and visited it on numerous occasions to hunt and enjoy the scenery.</p>
+            <p>For thousands of years, the area has been continuously inhabited by Native Americans who built settlements within the canyon and its many caves. The Pueblo people considered the Grand Canyon ("Ongtupqa" in Hopi language) a holy site and made pilgrimages to it. The first European known to have viewed the Grand Canyon was García López de Cárdenas from Spain, who arrived in 1540.</p>
+        </div>
+        
+        <div id="fold4bottom">
+            <h1>Geological History</h1>
+            <p>Nearly two billion years of Earth's geological history has been exposed as the Colorado River and its tributaries cut their channels through layer after layer of rock while the Colorado Plateau was uplifted.</p>                
+            <p>While the specific geologic processes and timing that formed the Grand Canyon are the subject of debate by geologists, recent evidence suggests that the Colorado River established its course through the canyon at least 17 million years ago.</p>
+            
+        </div>
+        
+        <!-- Second Fold -->
+        
+        <div id="fold5bottom"></div>
+        
+        
+        <!-- Info Box between First and Second Fold -->
+        
+        <div id="infoBox">
+            <h2>Canyon Facts</h2>
+            <p>The Grand Canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a depth of over a mile (6,000 feet or 1,800 meters).</p>
+        </div>
+        
+        <!-- Third Fold -->
+        
+        <div id="fold6top">
+            <h1>Tourism</h1>
+            <p>Grand Canyon National Park is one of the world’s premier natural attractions, attracting about five million visitors per year.</p>
+            <p>Overall, 83% were from the United States: California (12.2%), Arizona (8.9%), Texas (4.8%), Florida (3.4%) and New York (3.2%) represented the top domestic visitors. Seventeen percent of visitors were from outside the United States; the most prominently represented nations were the United Kingdom (3.8%), Canada (3.5%), Japan (2.1%), Germany (1.9%) and The Netherlands (1.2%).</p>
+            <p>The South Rim is open all year round weather permitting. The North Rim is generally open mid-May to mid-October.</p>
+        </div>
+        
+        <div id="fold6bottom">
+            <h1>Attribution</h1>
+            <p>Excerpts from Wikipedia:</p>
+            <p>http://en.wikipedia.org/wiki/Grand_Canyon</p>
+            <p>Pictures from:</p>
+            <p>Page 1 "Activities" by <a href="http://www.flickr.com/people/47925188@N00">dancer4ever</a> on <a href="http://en.wikipedia.org/wiki/File:Grand_Canyon_rafting_2006.jpg">Wikipedia</a>.
+                <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">Some rights reserved.</a>
+            Page 1 Title by chensiyuan on <a href="http://en.wikipedia.org/wiki/File:Grand_canyon_hermits_rest_2010.JPG">Wikipedia</a>.
+                <a href="http://creativecommons.org/licenses/by-sa/2.5/deed.en">Some rights reserved.</a>
+            Page 1 "History" by Drenaline on <a href="http://en.wikipedia.org/wiki/File:Nankoweap.JPG">Wikipedia</a>.
+                <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">Some rights reserved.</a>
+            Page 2 by Danny M Santiago on <a href="http://en.wikipedia.org/wiki/File:Cedar_Ridge,_Grand_Canyon.jpg">Wikipedia</a>.
+                <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">Some rights reserved.</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>

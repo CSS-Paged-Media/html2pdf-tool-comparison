@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <title>Textbook</title>
+  <style>/*
+    ===================================
+         Load fonts from folder
+    ===================================
+    */
+    @font-face {
+        font-family: Gentium;
+        src: url("fonts/Gentium/GenBasR.ttf");
+    }
+    @font-face {
+        font-family: Gentium;
+        font-weight: bold;
+        src: url("fonts/Gentium/GenBasB.ttf");
+    }
+    @font-face {
+        font-family: Gentium;
+        font-style: italic;
+        src: url("fonts/Gentium/GenBasI.ttf");
+    }
+    @font-face {
+        font-family: Gentium;
+        font-weight: bold;
+        font-style: italic;
+        src: url("fonts/Gentium/GenBasBI.ttf");
+    }
+    
+    @font-face {
+        font-family: Sans;
+        src: url("fonts/OpenSans/OpenSans-Regular.ttf");
+        font-weight: normal;
+    }
+    
+    @font-face {
+        font-family: Sans;
+        src: url("fonts/OpenSans/OpenSans-Bold.ttf");
+        font-weight: bold;
+    }
+    
+    @font-face {
+        font-family: Sans;
+        src: url("fonts/OpenSans/OpenSans-Italic.ttf");
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: Sans;
+        src: url("fonts/OpenSans/OpenSans-BoldItalic.ttf");
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    /*
+    ===================================
+             Page Styles
+    ===================================
+    */
+    
+    /* Set up the the page styles that are the same for all pages */
+    @page {
+        @top-left {
+            border-bottom: 15px solid yellowgreen;  /* The green line in the header */
+        }
+        @top-right {
+            border-bottom: 15px solid yellowgreen;  /* The green line in the header */
+        }
+        
+        size: A4;
+        margin: 1.5cm;
+        padding-top: 5mm;
+    }
+    
+    /* The settings of the page named landscape */
+    @page landscape {
+        size: A4 landscape;     /* The page should be landscape and of the size A4 */
+        
+        /* Remove the header for this page */
+        @top-left {
+            border:none;
+            content: "";
+            background: none;
+        }
+        @top-right {
+            border:none;
+            content: "";
+            background: none;
+        }
+        
+        margin-left: 5mm;
+        padding-left: 5mm;
+        margin-right: 5mm;
+        padding-right: 5mm;
+    }
+    
+    @page landscape:right {
+        margin-top: 2cm;
+    }
+    
+    @page landscape:left {
+        margin-bottom: 2cm;
+    }
+    
+    /* Styles of the first page, aka the cover */
+    @page:first {
+        /* No page counter for first page */
+        counter-increment: page 0;
+        
+        /* Remove the header */
+        @top-left {
+            border:none;
+            content: "";
+            background: none;
+        }
+        @top-right {
+            border:none;
+            content: "";
+            background: none;
+        }
+        
+        /* Set the gradient on the page background */
+        background-image: radial-gradient(circle farthest-corner at 40% 40%, beige, yellowgreen);
+        
+        /* Remove the page margin as it is not needed and should not intervene the gradient */
+        margin: 0;
+    }
+    
+    /* Set the styles for all pages on the left */
+    @page:left {
+        
+        /* Set up the styles of the page numbering */
+        @top-left {
+            padding-top: 6mm;
+            padding-left: 2mm;
+            content: counter(page);
+            font-size: 20pt;
+            font-family: Sans, sans-serif;
+        }
+        
+        /* Set up the styles of the chapter titles */
+        @top-right {
+            content: string(chaptertitle) " - " string(subchaptertitle);
+            font-family: Sans, sans-serif;
+            font-style: italic;
+            padding-top: 5mm;
+            margin-right: 1cm;
+        }
+        
+        /* Set the paddings on the sides */
+        padding-right: 2cm;
+        padding-left: 1.5cm;
+    }
+    
+    /* Set the styles for all pages on the right */
+    @page:right {
+        
+        /* Set up the styles of the page numbering */
+        @top-right {
+            padding-top: 6mm;
+            padding-right: 2mm;
+            content: counter(page);
+            font-size: 20pt;
+            font-family: Sans, sans-serif;
+        }
+        
+        /* Set up the styles of the chapter titles */
+        @top-left {
+            content: string(chaptertitle) " - " string(subchaptertitle);
+            font-family: Sans, sans-serif;
+            font-style: italic;
+            padding-top: 5mm;
+            margin-left: 1cm;
+        }
+        
+        
+        /* Set the paddings on the sides */
+        padding-right: 1.5cm;
+        padding-left: 2cm;
+        
+    }
+    
+    @page:-ro-nth(1 of chapter) {
+        @top-left-corner {
+            content: none;
+        }
+        
+        @top-left {
+            content: none;
+        }
+    
+        @top-right {
+            content: none;
+        }
+    
+        @top-right-corner {
+            content: none;
+        }
+    }
+    
+    /* Set the styles for the last page */
+    @page:-ro-last {
+        
+        margin-bottom: 10cm;
+        
+        @bottom-center {
+            content: element(disclaimer);
+            background-color: beige;
+            border-top: 2cm solid yellowgreen;
+            -ro-pdf-tag-type: "Div";
+        }
+        
+        @bottom-left-corner {
+            content: "";
+            background-color: beige;
+            border-top: 2cm solid yellowgreen;
+        }
+        
+        @bottom-right-corner {
+            content: "";
+            background-color: beige;
+            border-top: 2cm solid yellowgreen;
+        }
+    }
+    
+    /* 
+        Styles used by the cover
+    */
+    #coverList p {
+        padding: 1mm 0mm 1mm 2mm;
+        margin: 1mm;
+        text-align: left;
+        color: darkslategrey;
+    }
+    
+    #coverList a {
+        color: darkslategrey;
+        text-decoration: none;
+    }
+    
+    p.coverPage {
+        text-shadow: 8pt 8pt 8pt rgba(0, 0, 0, 0.5);
+    }
+    
+    /*
+    ===================================
+           Media Styles
+    ===================================
+    */
+    
+    /*
+        When opened in a browser, some elements on the cover 
+        page like the picture should be hidden.
+    */
+    @media screen {
+        body > h1 {
+            padding-top: 1cm;
+        }
+        .coverPage, #coverList {
+            display: none;
+        }
+    }
+    
+    /*
+    ===================================
+            Chapter Styles
+    ===================================
+    */
+    body > h1 {
+        margin-top: 0;
+        padding-top: 3.4cm;
+        counter-increment: h1 1;
+        counter-reset: h2 0;
+        font-size: 40pt;
+        font-family: Sans, sans-serif;
+        line-height: 1.5;
+        text-align: center;
+        
+        text-shadow: 4pt 4pt 3pt rgba(0, 0, 0, 0.3);
+    }
+    
+    body > section {
+        page: chapter;
+    }
+    
+    body > section > h1 {
+        break-before: page;             /* The chapter should always start on a new page */
+        counter-increment: h2 1;        /* Increment the chapter counter named h2 */
+        counter-reset: h3 0 figures 0;  /* Reset counters named h3 and figures */
+        string-set: chaptertitle self;  /* Set the current chapter title as string for the header */
+        font-size: 3rem;
+        margin-top: 2cm;
+        margin-bottom: 2cm;
+        font-style: italic;
+        text-align: left;
+        
+        text-shadow: 0.05em 0.05em 2pt rgba(0, 0, 0, 0.5);
+    }
+    
+    body > section > h1::before {
+        content: counter(h2, upper-latin) " "; /* Add the chapter number */
+        position: absolute;
+        right: -1.5cm;
+        top: -1.5cm;
+        padding: 0;
+        margin: 0;
+        font-size: 3em;
+        z-index: -1;
+        color: white !important;
+        background-color: yellowgreen;
+        height: 6cm;
+        width: 6cm;
+        text-align: center;
+        font-style: initial;
+        align-content: center;
+    }
+    
+    body > section > h1::after {
+        content: "";
+        position: absolute;
+        top: calc(4.5cm - 2pt);
+        left: -1.5cm;
+        right: -1.5cm;
+        border-bottom: 2pt solid yellowgreen;
+        z-index: -1;
+    }
+    
+    body > section > section > h1 {
+        counter-increment: h3 1;  /* Increase the counter for numbering of the sub-chapters */
+        string-set: subchaptertitle self;
+        font-size: 16pt;
+        padding-top: 0.2cm;
+        clear: both;
+    }
+    
+    body > section > section > h1::before {
+        content: counter(h2, upper-latin) "." counter(h3) " ";  /* Add the Chapter and the Sub-Chapter numbers */
+        padding-right: 2mm;
+    }
+    
+    body > section > h1,
+    body > section > section > h1 {
+        font-family: Sans, sans-serif;
+    }
+    
+    body > section > h1::before,
+    body > section > section > h1::before {
+        color: yellowgreen;
+        text-shadow: none;
+    }
+    
+    
+    /*
+    ===================================
+                Boxes
+    ===================================
+    */
+    
+    /*
+        The Important Box (e.g. Summary)
+    */
+    figure.important {
+        border:2px solid yellowgreen;
+        break-inside: avoid-page;
+    }
+    
+    figure.important > figcaption {
+        background-color: yellowgreen;
+        color: white;
+        padding: 1mm 1mm 1mm 2mm;
+        font-weight: bold;
+        font-family: Sans, sans-serif;
+        font-size: 14pt;
+    }
+    
+    figure.important > div {
+        break-before: avoid-page;
+        margin: 2mm;
+    }
+    
+    /*
+        The image box with caption
+    */
+    figure.image {
+        break-inside: avoid-page;
+        margin: 0mm 5mm 2mm 5mm;
+        counter-increment: figures;
+    }
+    
+    figure.image > img {
+        box-shadow: 1mm 1mm 1mm #00000088;
+    }
+    
+    figure.image > figcaption {
+        padding: 2mm 1mm 2mm 3mm;
+        font-family: Sans, sans-serif;
+        font-size: 9pt;
+        text-align: left;
+    }
+    
+    figure.image > figcaption::before {
+        content: "Fig. " counter(h2, upper-latin) "." counter(figures) " "; /* Add figure numbering */
+        font-weight: bold;
+    }
+    /* Table captions */
+    caption {
+        font-family: Sans, sans-serif;
+        font-size: 1rem;
+        font-style: italic;
+        text-align: left;
+    }
+    /* Floats used by the image boxes */
+    .floatl {
+        float:left;
+        margin-left: 0 !important;
+    }
+    
+    .floatr {
+        float:right;
+        margin-right: 0 !important;
+    }
+    
+    /*
+        Code Box
+    */
+    div.note {
+        clear: both;
+        background-color: beige;
+        margin-top: 12pt;
+        margin-bottom: 12pt;
+        padding: 1mm 5mm 1mm 5mm;
+        border-top: 4px solid yellowgreen;
+        border-bottom: 4px solid yellowgreen;
+        break-inside: avoid-page;
+        break-before: avoid-page;
+    }
+    
+    div.note strong {
+        color: crimson;
+    }
+    
+    /*
+        Note Box
+    */
+    /* Note that the same class is used for two different elements. 
+        The class styles depend on the element */
+    p.note {  
+        background-color: beige;
+        margin-top: 5mm;
+        position: relative;
+        padding: 4mm;
+        clear: both;
+    }
+    
+    p.note::before {
+        content: "NOTE: ";
+        position: absolute;
+        left: 1mm;
+        top: -3mm;
+        font-weight: bold;
+        font-family: Sans, sans-serif;
+    }
+    
+    /*
+    ===================================
+                Tables
+    ===================================
+    */
+    
+    table {
+        clear: both; /* Make sure that there are no floats to the side of the table */
+    }
+    
+    table.wide {
+        page: landscape; /* Set the name of the page containing this table */
+    }
+    
+    table td {
+        padding: 2mm 4mm 2mm 4mm;
+        vertical-align: top;
+        break-inside: avoid-page; /* There should not be a page break inside a table cell */
+    }
+    
+    /* Styles of table header cells */
+    table th {
+        padding: 1mm 2mm 1mm 2mm;
+        text-align: inherit;
+    }
+    
+    /* The other table styles */
+    table.styled {
+        border: 2px solid yellowgreen;
+        margin: 2mm 0;
+        border-collapse: collapse;
+    }
+    
+    /* Style the table header row */
+    table.styled thead {
+        background-color: yellowgreen;
+        color:white;
+        font-family: Sans, sans-serif;
+    }
+    
+    /* Have alternating colors for the rows */
+    table.styled tr:nth-child(even) {
+        background-color: beige;
+    }
+    
+    table.styled td:first-child {
+        white-space: nowrap;
+    }
+    
+    /*
+    ===================================
+           Disclaimer
+    ===================================
+    */
+    #disclaimer {
+        position: running(disclaimer);
+        font-size: 14pt;
+        padding: 1cm 1cm;
+    }
+    
+    #disclaimer li {
+        list-style-image: url(resources/box.svg);
+    }
+    
+    /*
+    ===================================
+           General Styles
+    ===================================
+    */
+    html {
+        font-family: Gentium;
+        -ro-line-grid: create;
+    }
+    
+    p {
+        text-align: justify;
+        hyphens: auto;
+    }
+    
+    strong {
+        color: green;
+    }
+    
+    sup {
+        font-size: 0.6em;
+    }
+    
+    /*
+    ===================================
+                Preferences
+    ===================================
+    */
+    @-ro-preferences {
+        first-page-side: right;
+        page-layout: 1 column;
+        initial-zoom: fit-page;
+    }
+    </style>
+  </head>
+  <body>
+    <p class="coverPage" style="font-size: 45pt; color: darkslategrey; font-style: italic; position: absolute; top: 1.55cm; left: 2.7cm; z-index: 1;">Tell Me About</p>
+    <h1 style="position:relative">Page Layout</h1>
+    
+    <div id="coverList" style="font-size:16pt; position: absolute; bottom: 1.5cm; left: 15%;">
+            <p><a href="#HeadersAndFooters">Headers and Footers</a>
+            </p>
+            <p style="padding-left: 4mm;"> <a href="#AddingTitlesToTheHeader">Adding Titles to the Header</a>
+            </p>
+            <p style="padding-left: 6mm;"><a href="#AlternatingHeaders">Alternating Headers</a>
+            </p>
+            <p style="padding-left: 8mm;"><a href="#StylingCertainPages">Styling Certain Pages</a>
+            </p>
+            <p style="padding-left: 10mm;"><a href="#ControllingPageBreaks">Controlling Page Breaks</a>
+            </p>
+            <p style="padding-left: 12mm;"><a href="#PreventingLonelyLines">Preventing Lonely Lines</a>
+            </p>
+            <p style="padding-left: 14mm;"><a href="#RunningTableHeaders">Running Table Headers</a>
+            </p>
+    </div>
+    
+    <div style="position: absolute; top:22%; right: 0">
+        <img class="coverPage" src="resources/water-drop-on-grass.jpg" />
+        <div class="coverPage" style="text-align:right; position: absolute; color: lightgrey; bottom: 0.3em; right: 2mm; font-size: 6pt;">
+            Photo by Jiri Hodan<br/>
+            <span style="font-size: 5pt">http://www.publicdomainpictures.net/view-image.php?image=20681&#38;picture=wassertropfen-auf-gras</span>
+        </div>
+    </div>
+    
+    <section>
+        <h1>Styling the Page</h1>
+        
+        <section>
+            <h1 id="HeadersAndFooters">Headers and Footers</h1>
+            
+            <p>The most important part of styling the pages of a document - apart from the actual size
+            of the pages - are headers and footers. Here we expect to find at least page numbers.</p>
+            <p>But before numbering our pages let's have a quick look on how to create just a simple
+            text that can be found on top of every page of our document.</p>
+            <p>To set a header, use the following CSS:</p>
+            <div class="note">
+                <pre>@page {
+    @top-right {
+        content: "My first Header";
+    }
+}</pre>
+            </div>
+            <p>And here is how you set a footer:</p>
+            <div class="note">
+                <pre>@page {
+    @bottom-right {
+        content: "My first Footer";
+    }
+}</pre>
+            </div>
+            <p>That wasn't very difficult, right? By using the <i>@page</i> selector, we can 
+                apply styles to pages rather than elements. Let's take a closer look at pages now.</p>
+            
+            <figure class="floatr image" style="width:225pt">
+                <img src="resources/PageMargin.png" width="100%"/>
+                <figcaption>The areas at the edges of the page are called page margin boxes. You can find more 
+                information on them in the manual.</figcaption>
+            </figure><p>The CSS above creates a text in the top right corner of every page in our 
+                document. The text can be styled with further CSS properties, for example <i>font-size</i> or 
+                <i>color</i>.</p>
+            <p>Creating a page footer works just the same way but with the keyword "<i>bottom</i>" instead of top.</p>
+            <p>We can also use other CSS properties to style the page margin box - in this case the header - and give it
+            a more appealing look. For example, we can use <i>border-bottom</i> to draw a line between content and header.
+            This is also done in this document to create the thick green line.</p>
+            <p>The most common use case of headers and footers is page numbering. In order to
+            display the page numbers we use <strong>counters</strong>.</p>
+            <figure class="floatr image" style="width:225pt">
+                <img src="resources/PageCounter.png" width="100%"/>
+                <figcaption>Page numbers are created with counters.</figcaption>
+            </figure>
+            <p>First, we have to tell our counter what to count. Since we just want to count pages we can use the 
+                pre-defined counter "page".</p>
+            <p>Now that our counter has a name and knows what to count, we can access it in the header:</p>
+            <div class="note">
+                <pre>@page {
+    @top-right: {
+        content: "My first Header - Page " <strong>counter(page)</strong>;
+    }
+}</pre>
+            </div>
+            <p>The keyword <i>counter</i> signals that this "text" is to be replaced with the current
+                value of the counter named in the brackets.</p>
+            <p>Would you like to know more about the capabilities of counters? Maybe how to use them in headings?
+                You can find more information in the PDFreactor manual.</p>
+        </section>
+
+        <section>
+            <h1 id="AddingTitlesToTheHeader">Adding Titles to the Header</h1>
+            
+            <p>Dynamic headers will always look better than static ones. In the previous chapter we saw that the content of headers can be 
+            replaced with the current value of variables. This does not only work with numbers but also with text (aka strings).</p>
+            <p>Just like with the page counter, the value that should be shown on the page must first be set via CSS selectors:</p>
+                <div class="note">
+            <pre>h1 {
+    <strong>string-set: chaptertitle self;</strong>
+}</pre>
+            </div>
+            <p>And as with the counters the first value is the name of the variable, the second one is what should be set. 
+            In this case the keyword <i>self</i> is used to indicate that the text of the selected element - here the h1 - should be used.</p>
+            <p>Accessing this variable is just as easy as with page numbering you only need to change the keyword <i>counter</i> to <i>string</i>:</p>
+            <div class="note">
+                <pre>@page {
+    @top-left: {
+        content: "Chapter " <strong>string(chaptertitle)</strong>;
+    }
+}</pre>
+            </div>
+            <p>With this CSS rule, we now have a short text and the title of the last heading at the top left corner of each page.</p>
+        </section>
+
+        <section>
+            <h1 id="AlternatingHeaders">Alternating Headers</h1>
+            
+            <figure class="floatr image" style="width: 225pt">
+                <img src="resources/BookLayout.png" width="100%"/>
+                <figcaption>Layout features of a book</figcaption>
+            </figure>
+            <p>If you want to print and bind a document with headers and footers you often need
+            different headers for even and odd pages, as the page number should always be on the 
+            outer edge of the pages.
+            </p>
+            <p>Basically, you need to define two different headers for these cases. One for all pages on the right side
+            and one for all pages on the left side of the book. Luckily there is a CSS selector for this:</p>
+            <div class="note">
+                <pre>@page<strong>:right</strong> {
+    @top-left: {
+        content: "Chapter " string(chaptertitle);
+    }
+    @top-right: {
+        content: "Page " counter(page);
+    }
+}</pre>
+            </div>
+            <p>The so called <strong>pseudo selector</strong> ":right" limits the rules that follow to pages on the right. Of course
+            the same can be done with ":left" for the pages on the other side.</p>
+        </section>
+
+        <section>
+            <h1 id="StylingCertainPages">Styling Certain Pages</h1>
+            
+            <p>As we have seen in the previous chapter, we have different styles for pages on the right and the left. But 
+            we can also select one specific page in order to style it. A common use case is the very first page
+            of document, the cover. You don't want the header with page numbering on this page.</p>
+            <p>Selecting the first page is also the simplest case. Just use the pseudo selector ":first".
+            With this page selected you can suppress the styles of the header that has been set in the 
+            previous chapters:</p>
+            <div class="note">
+                <pre>@page<strong>:first</strong> {
+    @top-left: {
+        content: none;
+    }
+    @top-right: {
+        content: none;
+    }
+}</pre>
+            </div>
+            <p>In addition to the first page you can also style the last page of the document. A common use case for this is 
+                if you want to add a disclaimer to the end of the document. The disclaimer would replace the normal footer while 
+                also being much bigger. To select the last page use the selector ":-ro-last".</p>
+            <div class="note">
+                    <pre>@page:-ro-last {
+    margin-bottom: 6cm;
+    
+    @bottom-left {
+        content: "This is the disclaimer text.";
+    }
+}</pre>
+                </div>
+            <p>But what if you want to select a certain page somewhere in the middle of your document? For this case you have two options:
+                You can select the <strong>n<sup>th</sup> page</strong> (e.g. the second page) or you can use 
+                <strong>named pages</strong>. You can give the page a name and then select it via CSS.</p>
+            <p>Selecting a certain page number is quite straight forward using the ":-ro-nth" selector with the page number:</p>
+            <div class="note">
+                <pre>page:-ro-nth(<strong>2</strong>) {
+    size: A4 landscape;
+}</pre>
+            </div>
+            <p>Naming a page is done by its content. The naming element causes a page break
+            and gives its page the defined name:</p>
+            <div class="note">
+                <pre>table.wide {
+    <strong>page: landscape</strong>;
+}</pre>
+            </div>
+            <p>In this case "landscape" is the name the page with this table is going to have.</p>
+            <div class="note">
+                <pre>@page <strong>landscape</strong> {
+    size: A4 landscape;
+}</pre>
+            </div>
+            <p>What we have now is that all tables of the class "wide" are now on pages that have 
+            been rotated by 90 degrees so that our wide table has much more room to the sides.</p>
+
+            <p>Another common use case are special page styles for the beginning of chapters. Maybe you do not want to display 
+                headers and footers on such pages or you want different margins. In this case, you can use <strong>page groups</strong>. 
+                To define page groups, surround each chapter with a container element and place these containers on named pages. 
+                Each container represents a page group and you can select an arbitrary page of each group using the 
+                ":-ro-nth(n of chapter)" selector.</p>
+            <p>The following example removes the header on the first page of each chapter:</p>
+            <div class="note">
+                <pre>section {
+    page: chapter;
+}
+
+@page:-ro-nth(<strong>1 of chapter</strong>) {
+    @top-left {
+        content: none;
+    }
+}
+                </pre>
+            </div>
+            <p><strong>Important:</strong> For page groups to work, the container elements for each chapter must be separated 
+                by a forced page break.</p>
+
+            <p>The following table gives you an overview over some selectors and their use cases.</p>
+            <p class="note">You can find more information on how to select page margin boxes in the PDFreactor manual.</p>
+            <table class="wide styled">
+                <caption>Selectors for pages and page margin boxes</caption>
+                <thead>
+                    <tr>
+                        <th>Selector
+                        </th>
+                        <th>What is Selected
+                        </th>
+                        <th>Common Use Cases
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@page
+                        </td>
+                        <td>All pages of the document (not their content)
+                        </td>
+                        <td>Setting the page size, setting up a page counter,
+                            setting styles like a border on the top.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@page:first
+                        </td>
+                        <td>The very first page of the document
+                        </td>
+                        <td>Disabling styles for the cover page,
+                            setting specific styles for the first page, e.g. background-color
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@page:-ro-last
+                        </td>
+                        <td>The very last page of the document
+                        </td>
+                        <td>Adding a disclaimer to the end of the document
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@page:right/:left
+                        </td>
+                        <td>Selecting all pages on the right/left
+                        </td>
+                        <td>Swapping the side of the page numbering depending on the page (for printing and binding books)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@page:-ro-nth(n)
+                        </td>
+                        <td>The n<sup>th</sup> page of the document
+                        </td>
+                        <td>Applying special styles to arbitrary pages, e.g. for a preface in a book.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@page name
+                        </td>
+                        <td>Select all pages containing elements with the CSS property "page: name"
+                        </td>
+                        <td>Rotating a certain page to landscape so a wide table or image may fit,
+                            suppressing page header and styling a certain page with background-images
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@page:-ro-nth(n of name)
+                        </td>
+                        <td>Select the n<sup>th</sup> page of each page group with the given name.
+                        </td>
+                        <td>Applying special styles to repeating structires, e.g. the first page of each chapter in a book.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@page {<br/> 
+                        &nbsp;&nbsp;@top-left/<br/>
+                        &nbsp;&nbsp;@top-center/<br/>
+                        &nbsp;&nbsp;@top-right<br/>
+                        </td>
+                        <td>Select the margin box on the top left/center/right of the page
+                        </td>
+                        <td>Styling the box, adding content like page numbering
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@page {<br/> 
+                        &nbsp;&nbsp;@right-top/<br/>
+                        &nbsp;&nbsp;@right-middle/<br/>
+                        &nbsp;&nbsp;@right-bottom<br/>
+                        </td>
+                        <td>Select the margin boxes on the right of the page
+                        </td>
+                        <td>Styling the header on a landscape page (e.g. using a border. Note 
+                        that text can not be rotated alone)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </section>
+    
+    <section>
+        <h1>Page Breaks</h1>
+        <section>
+            <h1 id="ControllingPageBreaks">Controlling Page Breaks</h1> 
+            
+            <p>You may have noticed, that on the previous page the table stood alone although there was more than enough space for more
+            content. However, using CSS a page break was enforced.</p>
+            <p>Enforcing a page break is done with the CSS properties <i>break-before</i> and <i>break-after</i>. In this document 
+            for example every chapter begins on its own page.</p>
+            <div class="note">
+            <pre>h1 {
+    <strong>break-before: page</strong>;
+}</pre>
+            </div>
+            <figure class="floatr image" style="width: 187.5pt;">
+                <img src="resources/WrongPageBreak.png" width="80%"/>
+                <figcaption>That's not how it is done.</figcaption>
+            </figure>
+            <p>On the other hand there are cases where you don't want a page break to occur, for example inside a table or code box.
+            In these cases the property <i>break-inside</i> is used.</p>
+            <p>All these properties can be set to <i>page</i>, <i>avoid-page</i> and <i>auto</i>, the default value. For more information on page breaks,
+            check out the PDFreactor manual.</p>
+            <p class="note">Images are never split and put on different pages. PDFreactor will always try to have the complete
+            image on one single page.</p>
+            <table class="styled">
+                <caption>Break properties</caption>
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>What it does</th>
+                        <th>Use Cases</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>break-before:page</td>
+                        <td>The element is always on a new page</td>
+                        <td>Title of new chapter, element on landscape page, big elements e.g. images</td>
+                    </tr>
+                    <tr>
+                        <td>break-before:avoid-page</td>
+                        <td>The element is not on the top of a new page (if avoidable)</td>
+                        <td>Table with a short description right above it</td>
+                    </tr>
+                    <tr>
+                        <td>break-after:page</td>
+                        <td>The following element is always on a new page</td>
+                        <td>element (e.g. big table) on landscape page</td>
+                    </tr>
+                    <tr>
+                        <td>break-after:avoid-page</td>
+                        <td>If a page break would occur after this element, it is put on the next page instead.</td>
+                        <td>Two elements belonging together like a image and a description.</td>
+                    </tr>
+                    <tr>
+                        <td>break-inside:avoid-page</td>
+                        <td>If a page break would occur inside this element, put it on the next page instead.</td>
+                        <td>table that should not have a page break, a code box, table cells</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section>
+            <h1 id="PreventingLonelyLines">Preventing Lonely Lines</h1>
+            
+            <p>There can be situations where the line of a paragraph does not fit on a page anymore and it
+            is moved onto the next page - all alone. Poor little line. Fortunately this can be prevented.</p>
+            <figure class="floatr image" style="width: 225pt;">
+                <img src="resources/orphan.png" width="100%"/>
+                <figcaption>The single line is an orphan.</figcaption>
+            </figure>
+            <p>If a lonely line is on the next page it is called
+            a widow. If all other lines are on the next page, the line that has been left behind is referred to as an orphan.</p>
+            <p>Setting the minimum number of lines that may be alone on a page is done with CSS. The following CSS shows the 
+            default settings of PDFreactor for orphans and widows:</p>
+                <div class="note">
+                <pre>p {
+    orphans: 2;
+    widows: 2;
+}</pre>
+            </div>
+            <figure class="floatr image" style="width: 225pt;">
+                <img src="resources/noOrphan.png" width="100%"/>
+                <figcaption>The orphan has been moved to the other lines of the paragraph.</figcaption>
+            </figure>
+            <p>Changing the value to one will allow orphans and widows. Changing it to higher values will
+                prevent even multiple line widows and orphans.</p>
+        </section>
+        <section>
+            <h1 id="RunningTableHeaders">Running Table Headers</h1>
+            
+            <p>Whenever a page break occurs within a table, running headers come in handy. On each page the table header is repeated
+            at the top.</p>
+            <p>In order to use running headers, all you have to do is using the following HTML structure when creating the table:</p>
+            <div class="note">
+                <pre>&lt;table&gt;
+    <strong>&lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;
+            &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;</strong>
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</pre>
+            </div>
+            <p>This table would have only one column. For more columns just add more th/td elements.
+            Also note that for every column in the table body there must be at least an empty cell in the table head.</p>
+        </section>
+    </section>
+    <footer id="disclaimer">
+        <div>
+            <p>What we have learned in this document:</p>
+            <ul>
+                <li>Adding headers and footers with page numbers</li>
+                <li>Styling certain pages</li>
+                <li>Using CSS to properly make page breaks</li>
+                <li>Avoiding lonely lines</li>
+                <li>Creating a table with running headers</li>
+            </ul>
+            <p>You can find more information on these topics in the PDFreactor Manual.</p>
+        </div>
+    </footer>
+  </body>
+</html>

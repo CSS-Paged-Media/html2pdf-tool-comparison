@@ -39,10 +39,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_L_lang.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_lang.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_lang.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_L_lang.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_lang.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_lang.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_L_lang.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_lang.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_lang.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_L_lang.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_L_lang.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_lang.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_lang.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_L_lang.html.pdf) |
 
 ## 🔬 LAST-CHILD
 
@@ -92,10 +92,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_L_last-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_last-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-child.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_last-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-child.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_L_last-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_last-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-child.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_L_last-child.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_last-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-child.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_L_last-child.html.pdf) |
 
 ## 🔬 LAST-OF-TYPE
 
@@ -145,10 +145,10 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_L_last-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_last-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-of-type.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_last-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-of-type.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_L_last-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_last-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-of-type.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_L_last-of-type.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_last-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-of-type.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_L_last-of-type.html.pdf) |
 
 ## 🔬 LINK
 
@@ -185,9 +185,9 @@ description:
 
 ### Output PDF
 
-| mPDF | typeset.sh | PDFreactor |
-|---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Selectors_L_link.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_link.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_link.html.png) |
-| [📕 mPDF Output](mpdf__html_CSS_Selectors_L_link.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_link.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_link.html.pdf) |
+| mPDF | typeset.sh | PDFreactor | wkhtmltopdf
+|---------|---------|---------|---------|
+| ![mPDF Preview](mpdf__html_CSS_Selectors_L_link.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_link.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_link.html.png) | ![wkhtmltopdf Preview](wkhtmltopdf__html_CSS_Selectors_L_link.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Selectors_L_link.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_link.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_link.html.pdf) | [📕 wkhtmltopdf Output](wkhtmltopdf__html_CSS_Selectors_L_link.html.pdf) |
 
 
