@@ -34,7 +34,7 @@ header * {
 	flex: 1 1 0%;
 }
 
-header img {
+header a {
 	flex: 0 0 150px;
 	margin-right: 20px;
 }
@@ -104,7 +104,7 @@ footer p {
 /* Smart Phones und Tablets mit mittlerer Auflösung */
 
 @media all and (min-width: 35em) {
-	header img {
+	header a {
 		margin-right: 50px;
 	}
 	nav ul {
@@ -183,7 +183,8 @@ h1{
     margin:0;
     overflow:hidden;
     font-size:4vw;
-    font-weight:700
+    font-weight:700;
+    line-height: 87px;
 }
 
 h2{
