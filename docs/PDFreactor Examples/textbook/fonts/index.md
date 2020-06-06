@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: fonts
 permalink: /docs/PDFreactor-Examples/textbook/fonts/
 description: 

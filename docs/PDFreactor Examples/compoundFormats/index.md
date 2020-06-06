@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: compoundFormats
 permalink: /docs/PDFreactor-Examples/compoundFormats/
 description: 

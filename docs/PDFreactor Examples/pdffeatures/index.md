@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: pdffeatures
 permalink: /docs/PDFreactor-Examples/pdffeatures/
 description: 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: extensions
 permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/extensions/
 description: 

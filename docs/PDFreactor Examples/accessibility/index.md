@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: accessibility
 permalink: /docs/PDFreactor-Examples/accessibility/
 description: 

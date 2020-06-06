@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: mortgage
 permalink: /docs/PDFreactor-Examples/mortgage/
 description: 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: Script
 permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Script/
 description: 

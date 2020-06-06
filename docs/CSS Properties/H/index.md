@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: H
 permalink: /docs/CSS-Properties/H/
 description: 

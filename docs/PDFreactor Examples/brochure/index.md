@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: brochure
 permalink: /docs/PDFreactor-Examples/brochure/
 description: 

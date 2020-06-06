@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: multicolumn
 permalink: /docs/PDFreactor-Examples/multicolumn/
 description: 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: Q
 permalink: /docs/CSS-Properties/Q/
 description: 

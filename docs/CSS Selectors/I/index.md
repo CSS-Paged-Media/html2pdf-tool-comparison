@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: I
 permalink: /docs/CSS-Selectors/I/
 description: 

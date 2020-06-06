@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: C
 permalink: /docs/CSS-Properties/C/
 description: 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: mml
 permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/element/mml/
 description: 

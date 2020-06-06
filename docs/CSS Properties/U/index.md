@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: U
 permalink: /docs/CSS-Properties/U/
 description: 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: magazine
 permalink: /docs/PDFreactor-Examples/magazine/
 description: 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: CSS Properties
 permalink: /docs/CSS-Properties/
 description: 

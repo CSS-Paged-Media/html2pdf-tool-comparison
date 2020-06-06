@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: webarch
 permalink: /docs/PDFreactor-Examples/webarch/
 description: 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: Size4
 permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size4/
 description: 

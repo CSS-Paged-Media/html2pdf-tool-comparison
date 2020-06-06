@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: flexbox
 permalink: /docs/PDFreactor-Examples/flexbox/
 description: 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: R
 permalink: /docs/CSS-Selectors/R/
 description: 

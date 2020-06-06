@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: newspaper
 permalink: /docs/PDFreactor-Examples/newspaper/
 description: 

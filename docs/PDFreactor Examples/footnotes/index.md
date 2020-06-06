@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: footnotes
 permalink: /docs/PDFreactor-Examples/footnotes/
 description: 

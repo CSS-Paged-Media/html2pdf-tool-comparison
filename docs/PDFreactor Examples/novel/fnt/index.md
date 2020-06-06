@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: fnt
 permalink: /docs/PDFreactor-Examples/novel/fnt/
 description: 

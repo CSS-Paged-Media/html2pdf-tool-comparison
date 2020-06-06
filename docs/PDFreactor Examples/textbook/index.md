@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: textbook
 permalink: /docs/PDFreactor-Examples/textbook/
 description: 

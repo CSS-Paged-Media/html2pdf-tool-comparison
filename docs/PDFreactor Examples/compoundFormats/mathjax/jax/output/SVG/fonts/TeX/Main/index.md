@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: Main
 permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Main/
 description: 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: M
 permalink: /docs/CSS-Properties/M/
 description: 

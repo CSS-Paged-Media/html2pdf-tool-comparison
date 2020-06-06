@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: element
 permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/element/
 description: 

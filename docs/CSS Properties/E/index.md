@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: E
 permalink: /docs/CSS-Properties/E/
 description: 

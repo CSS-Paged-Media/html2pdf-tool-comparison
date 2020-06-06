@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: invoice
 permalink: /docs/PDFreactor-Examples/invoice/
 description: 

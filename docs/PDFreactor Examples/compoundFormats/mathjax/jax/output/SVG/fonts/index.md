@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: details
 title: fonts
 permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/
 description: 
