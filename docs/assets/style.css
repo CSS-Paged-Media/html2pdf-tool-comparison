@@ -199,7 +199,8 @@ footer p{
     text-align:right
 }
 
-article img{
+article img,
+code{
     box-shadow: 4px 4px 8px hsla(0,0%,0%,.2);
     border: 1px solid black;
 }
@@ -307,3 +308,13 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .hljs-meta {
     color: #75715e;
   }
+
+  aside section ul{
+    list-style-type: none;
+    margin-left: -2em;
+  }
+
+code {
+    max-height: 420px;
+}
+
