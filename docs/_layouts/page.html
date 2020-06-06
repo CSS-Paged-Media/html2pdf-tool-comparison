@@ -2,8 +2,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}" />
+        <title>{{ page.title }} | {{ site.title }}</title>
     </head>
   <body>
-     {{ content }}
+    {% include header.html %}
+    <main>
+        {{ content }}
+    </main>
+    {% include footer.html %}
   </body>
 </html>
