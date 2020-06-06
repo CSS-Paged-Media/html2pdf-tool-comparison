@@ -34,9 +34,9 @@ a:visited,a:hover,a:active{
 }
 
 .boxes a{
-    padding:2rem;border:1vw solid rgb(188, 11, 6);
+    padding:2rem;border:.5vw solid rgb(188, 11, 6);
     
-    text-decoration:none;font-weight:bold;font-size:1.4rem;background:rgba(188, 11, 6, .2)
+    text-decoration:none;font-weight:bold;font-size:1.4rem;background:rgba(188, 11, 6, .02)
 }
     
 .boxes a span{color:#000;margin-top:2rem;display:block;font-weight:normal;font-size:1.2rem}
@@ -66,6 +66,11 @@ footer p{
 
 main{
     padding:2rem;
+}
+
+main img{
+    box-shadow: 4px 4px 8px hsla(0,0%,0%,.2);
+    border: 1px solid black;
 }
 
 header{
