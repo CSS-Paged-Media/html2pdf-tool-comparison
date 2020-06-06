@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## TAB-SIZE
 
 [📄 Input HTML](/html/CSS%20Properties/T/tab-size.html)
@@ -19,8 +17,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_tab-size.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_tab-size.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_tab-size.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_tab-size.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_tab-size.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_tab-size.html.pdf) |
-
-<hr />
 
 ## TABLE-LAYOUT
 
@@ -33,8 +29,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_table-layout.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_table-layout.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_table-layout.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_table-layout.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_table-layout.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_table-layout.html.pdf) |
 
-<hr />
-
 ## TEXT-ALIGN-LAST
 
 [📄 Input HTML](/html/CSS%20Properties/T/text-align-last.html)
@@ -45,8 +39,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-align-last.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-align-last.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-align-last.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align-last.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align-last.html.pdf) |
-
-<hr />
 
 ## TEXT-ALIGN
 
@@ -59,8 +51,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-align.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-align.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-align.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-align.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-align.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-align.html.pdf) |
 
-<hr />
-
 ## TEXT-DECORATION-COLOR
 
 [📄 Input HTML](/html/CSS%20Properties/T/text-decoration-color.html)
@@ -71,8 +61,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-color.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-color.html.pdf) |
-
-<hr />
 
 ## TEXT-DECORATION-LINE
 
@@ -85,8 +73,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-line.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-line.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-line.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-line.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-line.html.pdf) |
 
-<hr />
-
 ## TEXT-DECORATION-SKIP-INK
 
 [📄 Input HTML](/html/CSS%20Properties/T/text-decoration-skip-ink.html)
@@ -97,8 +83,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-skip-ink.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-skip-ink.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf) |
-
-<hr />
 
 ## TEXT-DECORATION-SKIP
 
@@ -111,8 +95,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-skip.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-skip.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-skip.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-skip.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-skip.html.pdf) |
 
-<hr />
-
 ## TEXT-DECORATION-STYLE
 
 [📄 Input HTML](/html/CSS%20Properties/T/text-decoration-style.html)
@@ -123,8 +105,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration-style.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration-style.html.pdf) |
-
-<hr />
 
 ## TEXT-DECORATION
 
@@ -137,8 +117,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-decoration.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-decoration.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-decoration.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-decoration.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-decoration.html.pdf) |
 
-<hr />
-
 ## TEXT-INDENT
 
 [📄 Input HTML](/html/CSS%20Properties/T/text-indent.html)
@@ -149,8 +127,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-indent.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-indent.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-indent.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-indent.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-indent.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-indent.html.pdf) |
-
-<hr />
 
 ## TEXT-JUSTIFY
 
@@ -163,8 +139,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-justify.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-justify.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-justify.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-justify.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-justify.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-justify.html.pdf) |
 
-<hr />
-
 ## TEXT-OVERFLOW
 
 [📄 Input HTML](/html/CSS%20Properties/T/text-overflow.html)
@@ -175,8 +149,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-overflow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-overflow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-overflow.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-overflow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-overflow.html.pdf) |
-
-<hr />
 
 ## TEXT-SHADOW
 
@@ -189,8 +161,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-shadow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-shadow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-shadow.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-shadow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-shadow.html.pdf) |
 
-<hr />
-
 ## TEXT-STROKE
 
 [📄 Input HTML](/html/CSS%20Properties/T/text-stroke.html)
@@ -201,8 +171,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-stroke.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-stroke.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-stroke.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-stroke.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-stroke.html.pdf) |
-
-<hr />
 
 ## TEXT-TRANSFORM
 
@@ -215,8 +183,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-transform.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-transform.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-transform.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-transform.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-transform.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-transform.html.pdf) |
 
-<hr />
-
 ## TEXT-UNDERLINE-OFFSET
 
 [📄 Input HTML](/html/CSS%20Properties/T/text-underline-offset.html)
@@ -227,8 +193,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-underline-offset.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-underline-offset.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-underline-offset.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-offset.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-offset.html.pdf) |
-
-<hr />
 
 ## TEXT-UNDERLINE-POSITION
 
@@ -241,8 +205,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_text-underline-position.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_text-underline-position.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_text-underline-position.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_text-underline-position.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_text-underline-position.html.pdf) |
 
-<hr />
-
 ## TOP
 
 [📄 Input HTML](/html/CSS%20Properties/T/top.html)
@@ -253,8 +215,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_top.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_top.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_top.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_top.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_top.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_top.html.pdf) |
-
-<hr />
 
 ## TRANSFORM-ORIGIN
 
@@ -267,8 +227,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_transform-origin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform-origin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform-origin.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-origin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-origin.html.pdf) |
 
-<hr />
-
 ## TRANSFORM-STYLE
 
 [📄 Input HTML](/html/CSS%20Properties/T/transform-style.html)
@@ -279,8 +237,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_T_transform-style.html.png) | ![typeset Preview](typeset__html_CSS_Properties_T_transform-style.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_T_transform-style.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_T_transform-style.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_T_transform-style.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_T_transform-style.html.pdf) |
-
-<hr />
 
 ## TRANSFORM
 

@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## I18N-SAMPLE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/i18n/i18n-sample.html)

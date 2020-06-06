@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## FIRST-CHILD
 
 [📄 Input HTML](/html/CSS%20Selectors/F/first-child.html)
@@ -19,8 +17,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-child.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-child.html.pdf) |
-
-<hr />
 
 ## FIRST-LETTER
 
@@ -33,8 +29,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-letter.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-letter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-letter.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-letter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-letter.html.pdf) |
 
-<hr />
-
 ## FIRST-LINE
 
 [📄 Input HTML](/html/CSS%20Selectors/F/first-line.html)
@@ -45,8 +39,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-line.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-line.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-line.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-line.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-line.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-line.html.pdf) |
-
-<hr />
 
 ## FIRST-OF-TYPE
 
@@ -59,8 +51,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_first-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_first-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_first-of-type.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_first-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_first-of-type.html.pdf) |
 
-<hr />
-
 ## FOCUS-VISIBLE
 
 [📄 Input HTML](/html/CSS%20Selectors/F/focus-visible.html)
@@ -72,8 +62,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-visible.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-visible.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-visible.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-visible.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-visible.html.pdf) |
 
-<hr />
-
 ## FOCUS-WITHIN
 
 [📄 Input HTML](/html/CSS%20Selectors/F/focus-within.html)
@@ -84,8 +72,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_F_focus-within.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_F_focus-within.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_F_focus-within.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_F_focus-within.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_F_focus-within.html.pdf) |
-
-<hr />
 
 ## FOCUS
 

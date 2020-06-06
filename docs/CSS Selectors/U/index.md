@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## UNIVERSAL
 
 [📄 Input HTML](/html/CSS%20Selectors/U/universal.html)
@@ -19,8 +17,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_U_universal.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_U_universal.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_U_universal.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_U_universal.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_U_universal.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_U_universal.html.pdf) |
-
-<hr />
 
 ## USER-INVALID
 

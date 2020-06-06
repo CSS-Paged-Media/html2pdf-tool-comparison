@@ -12,8 +12,6 @@ description:
                             </a>
 </div>
 
-<hr />
-
 ## INVOICE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/invoice/invoice.html)

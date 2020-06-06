@@ -16,8 +16,6 @@ description:
                             </a>
 </div>
 
-<hr />
-
 ## MAGAZINE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/magazine/magazine.html)

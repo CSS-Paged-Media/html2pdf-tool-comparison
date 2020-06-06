@@ -12,8 +12,6 @@ description:
                             </a>
 </div>
 
-<hr />
-
 ## NEWSPAPER
 
 [📄 Input HTML](/html/PDFreactor%20Examples/newspaper/newspaper.html)

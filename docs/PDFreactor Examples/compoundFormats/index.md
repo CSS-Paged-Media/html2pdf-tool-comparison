@@ -16,8 +16,6 @@ description:
                             </a>
 </div>
 
-<hr />
-
 ## COMPOUNDFORMATS
 
 [📄 Input HTML](/html/PDFreactor%20Examples/compoundFormats/compoundFormats.html)

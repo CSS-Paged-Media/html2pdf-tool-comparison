@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## LEFT
 
 [📄 Input HTML](/html/CSS%20Properties/L/left.html)
@@ -19,8 +17,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_L_left.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_left.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_left.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_L_left.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_left.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_left.html.pdf) |
-
-<hr />
 
 ## LETTER-SPACING
 
@@ -33,8 +29,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_L_letter-spacing.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_letter-spacing.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_letter-spacing.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_letter-spacing.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_letter-spacing.html.pdf) |
 
-<hr />
-
 ## LINE-HEIGHT
 
 [📄 Input HTML](/html/CSS%20Properties/L/line-height.html)
@@ -45,8 +39,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_L_line-height.html.png) | ![typeset Preview](typeset__html_CSS_Properties_L_line-height.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_L_line-height.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_L_line-height.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_L_line-height.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_L_line-height.html.pdf) |
-
-<hr />
 
 ## LIST-STYLE
 

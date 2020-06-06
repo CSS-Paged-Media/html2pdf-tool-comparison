@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## JUSTIFY-CONTENT
 
 [📄 Input HTML](/html/CSS%20Properties/J/justify-content.html)

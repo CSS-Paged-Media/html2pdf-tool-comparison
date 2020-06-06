@@ -13,10 +13,6 @@ A comparison between [mPDF](https://mpdf.github.io/), [typeset.sh](https://types
 | typeset.sh | 0.6.3 |
 | PDFreactor | 10.1.10722.15 |
 
-📢 The preview image is not always a 100% correct so please also look at the result PDFs for details.
-
-💖 The HTML examples are taken from the amazing [CSS Almanac by css-tricks.com](https://css-tricks.com/almanac/), [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/), and [w3schools.com](https://www.w3schools.com/).        
-
 ## Check the following pages for the results
 * [CSS Properties](/compare.html2pdf.tools/docs/CSS-Properties/)
 * [CSS Selectors](/compare.html2pdf.tools/docs/CSS-Selectors/)

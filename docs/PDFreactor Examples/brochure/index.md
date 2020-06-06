@@ -16,8 +16,6 @@ description:
                             </a>
 </div>
 
-<hr />
-
 ## BROCHURE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/brochure/brochure.html)

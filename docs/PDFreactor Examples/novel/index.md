@@ -12,8 +12,6 @@ description:
                             </a>
 </div>
 
-<hr />
-
 ## WIZARDOFOZ
 
 [📄 Input HTML](/html/PDFreactor%20Examples/novel/wizardOfOz.html)
@@ -24,8 +22,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_PDFreactor_Examples_novel_wizardOfOz.html.png) | ![typeset Preview](typeset__html_PDFreactor_Examples_novel_wizardOfOz.html.png) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_novel_wizardOfOz.html.png) |
 | [📕 mPDF Output](mpdf__html_PDFreactor_Examples_novel_wizardOfOz.html.pdf) | [📕 typeset Output](typeset__html_PDFreactor_Examples_novel_wizardOfOz.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_novel_wizardOfOz.html.pdf) |
-
-<hr />
 
 ## WIZARDOFOZXSLT
 

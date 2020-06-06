@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## MORTGAGE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/mortgage/mortgage.html)

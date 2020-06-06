@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## REGIONS
 
 [📄 Input HTML](/html/PDFreactor%20Examples/regions/regions.html)

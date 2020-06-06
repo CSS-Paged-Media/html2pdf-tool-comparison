@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## RESIZE
 
 [📄 Input HTML](/html/CSS%20Properties/R/resize.html)
@@ -19,8 +17,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_R_resize.html.png) | ![typeset Preview](typeset__html_CSS_Properties_R_resize.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_R_resize.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_R_resize.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_R_resize.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_R_resize.html.pdf) |
-
-<hr />
 
 ## RIGHT
 

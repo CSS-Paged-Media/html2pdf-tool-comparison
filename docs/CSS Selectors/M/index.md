@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## MARKER
 
 [📄 Input HTML](/html/CSS%20Selectors/M/marker.html)
@@ -19,8 +17,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_M_marker.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_M_marker.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_M_marker.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_M_marker.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_M_marker.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_M_marker.html.pdf) |
-
-<hr />
 
 ## MATCHES
 

@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## ACTIVE
 
 [📄 Input HTML](/html/CSS%20Selectors/A/active.html)
@@ -19,8 +17,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_A_active.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_active.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_active.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_A_active.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_active.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_active.html.pdf) |
-
-<hr />
 
 ## ADJACENT-SIBLING
 
@@ -33,8 +29,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_adjacent-sibling.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.pdf) |
 
-<hr />
-
 ## AFTER
 
 [📄 Input HTML](/html/CSS%20Selectors/A/after.html)
@@ -46,8 +40,6 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_A_after.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_after.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_after.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_A_after.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_after.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_after.html.pdf) |
 
-<hr />
-
 ## ANY-LINK
 
 [📄 Input HTML](/html/CSS%20Selectors/A/any-link.html)
@@ -58,8 +50,6 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_A_any-link.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_any-link.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_any-link.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_A_any-link.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_any-link.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_any-link.html.pdf) |
-
-<hr />
 
 ## ATTRIBUTE
 

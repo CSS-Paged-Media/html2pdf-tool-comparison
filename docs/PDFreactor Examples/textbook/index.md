@@ -16,8 +16,6 @@ description:
                             </a>
 </div>
 
-<hr />
-
 ## TEXTBOOK
 
 [📄 Input HTML](/html/PDFreactor%20Examples/textbook/textbook.html)

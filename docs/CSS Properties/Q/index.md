@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## QUOTES
 
 [📄 Input HTML](/html/CSS%20Properties/Q/quotes.html)

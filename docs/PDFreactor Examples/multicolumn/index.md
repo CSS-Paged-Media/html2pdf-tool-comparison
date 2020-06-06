@@ -7,8 +7,6 @@ description:
 
 
 
-<hr />
-
 ## MULTICOLUMN
 
 [📄 Input HTML](/html/PDFreactor%20Examples/multicolumn/multicolumn.html)
