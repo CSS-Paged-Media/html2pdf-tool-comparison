@@ -4,9 +4,13 @@
         {% include meta.html %}
     </head>
   <body>
-    {% include header.html %}
+    <header>
+        <a href="/">
+            <img src="/assets/img/html2pdf.guru.png" alt="html2pdf.guru logo" />
+        </a>
+        <h1>{{ page.title }}</h1>
+    </header>
     <article role="main">
-        {% include breadcrumbs.html %}
         {{ content }}
     </article>
     <aside>

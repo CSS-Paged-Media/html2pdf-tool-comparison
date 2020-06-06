@@ -154,6 +154,13 @@ footer p {
     }
 }
 
+header h1 a,
+header h1 a:visited,
+header h1 a:hover,
+header h1 a:active{
+    color:#fff;
+}
+
 a{
     color:#195584;
     text-decoration: none;
@@ -182,7 +189,7 @@ h1{
     padding-top:0;
     margin:0;
     overflow:hidden;
-    font-size:4vw;
+    font-size:3vw;
     font-weight:700;
     line-height: 87px;
 }
