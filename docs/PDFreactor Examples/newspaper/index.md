@@ -12,7 +12,7 @@ description:
                             </a>
 </div>
 
-## <a name="NEWSPAPER" id="NEWSPAPER" href="#NEWSPAPER">#</a> NEWSPAPER
+## NEWSPAPER
 
 [📄 Input HTML](/html/PDFreactor%20Examples/newspaper/newspaper.html)
 

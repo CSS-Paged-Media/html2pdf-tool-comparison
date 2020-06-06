@@ -21,16 +21,10 @@ article,
 section,
 aside,
 footer {
-	border-radius: 0px 0.5em 0.5em;
-	border: 1px solid;
-	padding: 10px;
-	margin: 10px;
 	flex: 1 100%;
 }
 
 header {
-	background: #F1F3F4;
-	border-color: #d5d5d5;
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -83,23 +77,17 @@ nav a:focus {
 }
 
 section {
-	background: #F1F3F4;
-	border-color: slateblue;
 }
 
 article {
-	background: #ffede0;
-	border-color: #df6c20;
+    padding:2rem;
 }
 
 aside {
-	background: #ebf5d7;
-	border-color: #8db243;
+    padding:2rem;
 }
 
 footer {
-	background: #e4ebf2;
-	border-color: #8a9da8;
 	display: flex;
 	flex-flow: row wrap;
 }

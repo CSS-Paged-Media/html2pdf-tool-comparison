@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="FLEXBOX" id="FLEXBOX" href="#FLEXBOX">#</a> FLEXBOX
+## FLEXBOX
 
 [📄 Input HTML](/html/PDFreactor%20Examples/flexbox/flexbox.html)
 

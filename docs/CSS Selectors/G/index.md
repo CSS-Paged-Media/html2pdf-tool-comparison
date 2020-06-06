@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="GENERAL-SIBLING" id="GENERAL-SIBLING" href="#GENERAL-SIBLING">#</a> GENERAL-SIBLING
+## GENERAL-SIBLING
 
 [📄 Input HTML](/html/CSS%20Selectors/G/general-sibling.html)
 

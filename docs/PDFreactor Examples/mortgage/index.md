@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="MORTGAGE" id="MORTGAGE" href="#MORTGAGE">#</a> MORTGAGE
+## MORTGAGE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/mortgage/mortgage.html)
 

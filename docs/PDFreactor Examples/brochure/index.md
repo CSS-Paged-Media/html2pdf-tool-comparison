@@ -16,7 +16,7 @@ description:
                             </a>
 </div>
 
-## <a name="BROCHURE" id="BROCHURE" href="#BROCHURE">#</a> BROCHURE
+## BROCHURE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/brochure/brochure.html)
 

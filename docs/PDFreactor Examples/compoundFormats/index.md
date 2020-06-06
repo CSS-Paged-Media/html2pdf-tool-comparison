@@ -16,7 +16,7 @@ description:
                             </a>
 </div>
 
-## <a name="COMPOUNDFORMATS" id="COMPOUNDFORMATS" href="#COMPOUNDFORMATS">#</a> COMPOUNDFORMATS
+## COMPOUNDFORMATS
 
 [📄 Input HTML](/html/PDFreactor%20Examples/compoundFormats/compoundFormats.html)
 

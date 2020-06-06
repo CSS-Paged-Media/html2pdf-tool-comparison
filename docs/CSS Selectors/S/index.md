@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="SELECTION" id="SELECTION" href="#SELECTION">#</a> SELECTION
+## SELECTION
 
 [📄 Input HTML](/html/CSS%20Selectors/S/selection.html)
 

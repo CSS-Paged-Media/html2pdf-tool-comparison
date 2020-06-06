@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="ACCESSIBILITY" id="ACCESSIBILITY" href="#ACCESSIBILITY">#</a> ACCESSIBILITY
+## ACCESSIBILITY
 
 [📄 Input HTML](/html/PDFreactor%20Examples/accessibility/accessibility.html)
 

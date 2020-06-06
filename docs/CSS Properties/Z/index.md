@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="Z-INDEX" id="Z-INDEX" href="#Z-INDEX">#</a> Z-INDEX
+## Z-INDEX
 
 [📄 Input HTML](/html/CSS%20Properties/Z/z-index.html)
 
@@ -18,7 +18,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_Z_z-index.html.png) | ![typeset Preview](typeset__html_CSS_Properties_Z_z-index.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_Z_z-index.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_Z_z-index.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_Z_z-index.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_Z_z-index.html.pdf) |
 
-## <a name="ZOOM" id="ZOOM" href="#ZOOM">#</a> ZOOM
+## ZOOM
 
 [📄 Input HTML](/html/CSS%20Properties/Z/zoom.html)
 

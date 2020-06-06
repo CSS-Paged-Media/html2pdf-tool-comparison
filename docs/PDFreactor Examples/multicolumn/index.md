@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="MULTICOLUMN" id="MULTICOLUMN" href="#MULTICOLUMN">#</a> MULTICOLUMN
+## MULTICOLUMN
 
 [📄 Input HTML](/html/PDFreactor%20Examples/multicolumn/multicolumn.html)
 

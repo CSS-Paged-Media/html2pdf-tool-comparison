@@ -7,7 +7,7 @@ description:
 
 
 
-## <a name="IMAGE-RENDERING" id="IMAGE-RENDERING" href="#IMAGE-RENDERING">#</a> IMAGE-RENDERING
+## IMAGE-RENDERING
 
 [📄 Input HTML](/html/CSS%20Properties/I/image-rendering.html)
 
@@ -18,7 +18,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_I_image-rendering.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_image-rendering.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_image-rendering.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_image-rendering.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_image-rendering.html.pdf) |
 
-## <a name="INITIAL-LETTER" id="INITIAL-LETTER" href="#INITIAL-LETTER">#</a> INITIAL-LETTER
+## INITIAL-LETTER
 
 [📄 Input HTML](/html/CSS%20Properties/I/initial-letter.html)
 
@@ -29,7 +29,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_I_initial-letter.html.png) | ![typeset Preview](typeset__html_CSS_Properties_I_initial-letter.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_I_initial-letter.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_I_initial-letter.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_I_initial-letter.html.pdf) |
 
-## <a name="ISOLATION" id="ISOLATION" href="#ISOLATION">#</a> ISOLATION
+## ISOLATION
 
 [📄 Input HTML](/html/CSS%20Properties/I/isolation.html)
 
