@@ -1,7 +1,7 @@
 ---
 layout: details
 title: regions
-permalink: /docs/PDFreactor-Examples/regions/
+permalink: /PDFreactor-Examples/regions/
 description: 
 ---
 

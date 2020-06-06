@@ -1,7 +1,7 @@
 ---
 layout: details
 title: U
-permalink: /docs/CSS-Selectors/U/
+permalink: /CSS-Selectors/U/
 description: 
 ---
 

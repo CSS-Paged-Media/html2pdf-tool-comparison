@@ -1,7 +1,7 @@
 ---
 layout: details
 title: Q
-permalink: /docs/CSS-Properties/Q/
+permalink: /CSS-Properties/Q/
 description: 
 ---
 

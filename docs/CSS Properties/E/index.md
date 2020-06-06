@@ -1,7 +1,7 @@
 ---
 layout: details
 title: E
-permalink: /docs/CSS-Properties/E/
+permalink: /CSS-Properties/E/
 description: 
 ---
 

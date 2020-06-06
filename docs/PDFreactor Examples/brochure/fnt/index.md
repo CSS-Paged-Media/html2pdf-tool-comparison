@@ -1,7 +1,7 @@
 ---
 layout: details
 title: fnt
-permalink: /docs/PDFreactor-Examples/brochure/fnt/
+permalink: /PDFreactor-Examples/brochure/fnt/
 description: 
 ---
 

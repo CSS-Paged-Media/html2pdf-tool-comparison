@@ -1,97 +1,97 @@
 ---
 layout: details
 title: CSS Properties
-permalink: /docs/CSS-Properties/
+permalink: /CSS-Properties/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/A/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/A/">
                                 A
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/B/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/B/">
                                 B
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/C/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/C/">
                                 C
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/D/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/D/">
                                 D
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/E/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/E/">
                                 E
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/F/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/F/">
                                 F
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/G/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/G/">
                                 G
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/H/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/H/">
                                 H
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/I/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/I/">
                                 I
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/J/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/J/">
                                 J
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/L/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/L/">
                                 L
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/M/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/M/">
                                 M
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/O/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/O/">
                                 O
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/P/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/P/">
                                 P
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/Q/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/Q/">
                                 Q
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/R/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/R/">
                                 R
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/S/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/S/">
                                 S
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/T/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/T/">
                                 T
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/U/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/U/">
                                 U
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/V/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/V/">
                                 V
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/W/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/W/">
                                 W
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Properties/Z/">
+                            <a href="/compare.html2pdf.tools/CSS-Properties/Z/">
                                 Z
                             </a>
 </div>

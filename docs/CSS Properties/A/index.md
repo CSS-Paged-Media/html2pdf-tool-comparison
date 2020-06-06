@@ -1,7 +1,7 @@
 ---
 layout: details
 title: A
-permalink: /docs/CSS-Properties/A/
+permalink: /CSS-Properties/A/
 description: 
 ---
 

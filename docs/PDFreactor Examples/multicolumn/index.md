@@ -1,7 +1,7 @@
 ---
 layout: details
 title: multicolumn
-permalink: /docs/PDFreactor-Examples/multicolumn/
+permalink: /PDFreactor-Examples/multicolumn/
 description: 
 ---
 

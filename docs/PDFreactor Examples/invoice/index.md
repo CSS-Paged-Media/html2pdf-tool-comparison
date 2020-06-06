@@ -1,13 +1,13 @@
 ---
 layout: details
 title: invoice
-permalink: /docs/PDFreactor-Examples/invoice/
+permalink: /PDFreactor-Examples/invoice/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/invoice/scripts/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/invoice/scripts/">
                                 scripts
                             </a>
 </div>

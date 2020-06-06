@@ -1,7 +1,7 @@
 ---
 layout: details
 title: resources
-permalink: /docs/PDFreactor-Examples/pdffeatures/resources/
+permalink: /PDFreactor-Examples/pdffeatures/resources/
 description: 
 ---
 

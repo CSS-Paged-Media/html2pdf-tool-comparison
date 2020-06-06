@@ -1,7 +1,7 @@
 ---
 layout: details
 title: resources
-permalink: /docs/PDFreactor-Examples/compoundFormats/resources/
+permalink: /PDFreactor-Examples/compoundFormats/resources/
 description: 
 ---
 

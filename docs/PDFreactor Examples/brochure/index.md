@@ -1,17 +1,17 @@
 ---
 layout: details
 title: brochure
-permalink: /docs/PDFreactor-Examples/brochure/
+permalink: /PDFreactor-Examples/brochure/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/brochure/fnt/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/brochure/fnt/">
                                 fnt
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/brochure/img/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/brochure/img/">
                                 img
                             </a>
 </div>

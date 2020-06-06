@@ -1,7 +1,7 @@
 ---
 layout: details
 title: neuton
-permalink: /docs/PDFreactor-Examples/newspaper/fnt/neuton/
+permalink: /PDFreactor-Examples/newspaper/fnt/neuton/
 description: 
 ---
 

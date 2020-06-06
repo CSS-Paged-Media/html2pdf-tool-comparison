@@ -1,7 +1,7 @@
 ---
 layout: details
 title: autoload
-permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/autoload/
+permalink: /PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/autoload/
 description: 
 ---
 

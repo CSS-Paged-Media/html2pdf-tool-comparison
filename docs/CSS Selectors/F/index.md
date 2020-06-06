@@ -1,7 +1,7 @@
 ---
 layout: details
 title: F
-permalink: /docs/CSS-Selectors/F/
+permalink: /CSS-Selectors/F/
 description: 
 ---
 

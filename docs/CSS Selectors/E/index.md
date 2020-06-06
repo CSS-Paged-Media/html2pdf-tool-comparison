@@ -1,7 +1,7 @@
 ---
 layout: details
 title: E
-permalink: /docs/CSS-Selectors/E/
+permalink: /CSS-Selectors/E/
 description: 
 ---
 

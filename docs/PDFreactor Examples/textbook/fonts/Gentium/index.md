@@ -1,7 +1,7 @@
 ---
 layout: details
 title: Gentium
-permalink: /docs/PDFreactor-Examples/textbook/fonts/Gentium/
+permalink: /PDFreactor-Examples/textbook/fonts/Gentium/
 description: 
 ---
 

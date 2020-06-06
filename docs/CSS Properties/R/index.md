@@ -1,7 +1,7 @@
 ---
 layout: details
 title: R
-permalink: /docs/CSS-Properties/R/
+permalink: /CSS-Properties/R/
 description: 
 ---
 

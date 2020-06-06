@@ -1,85 +1,85 @@
 ---
 layout: details
 title: CSS Selectors
-permalink: /docs/CSS-Selectors/
+permalink: /CSS-Selectors/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/A/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/A/">
                                 A
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/B/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/B/">
                                 B
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/C/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/C/">
                                 C
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/D/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/D/">
                                 D
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/E/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/E/">
                                 E
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/F/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/F/">
                                 F
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/G/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/G/">
                                 G
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/H/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/H/">
                                 H
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/I/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/I/">
                                 I
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/L/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/L/">
                                 L
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/M/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/M/">
                                 M
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/N/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/N/">
                                 N
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/O/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/O/">
                                 O
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/P/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/P/">
                                 P
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/R/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/R/">
                                 R
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/S/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/S/">
                                 S
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/T/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/T/">
                                 T
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/U/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/U/">
                                 U
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/CSS-Selectors/V/">
+                            <a href="/compare.html2pdf.tools/CSS-Selectors/V/">
                                 V
                             </a>
 </div>

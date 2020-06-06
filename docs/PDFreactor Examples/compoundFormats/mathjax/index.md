@@ -1,17 +1,17 @@
 ---
 layout: details
 title: mathjax
-permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/
+permalink: /PDFreactor-Examples/compoundFormats/mathjax/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/extensions/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/extensions/">
                                 extensions
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/">
                                 jax
                             </a>
 </div>

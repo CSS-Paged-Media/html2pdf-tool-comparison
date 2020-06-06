@@ -1,7 +1,7 @@
 ---
 layout: details
 title: opensans
-permalink: /docs/PDFreactor-Examples/magazine/fnt/opensans/
+permalink: /PDFreactor-Examples/magazine/fnt/opensans/
 description: 
 ---
 

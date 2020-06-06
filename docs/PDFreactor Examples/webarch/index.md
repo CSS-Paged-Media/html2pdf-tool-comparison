@@ -1,7 +1,7 @@
 ---
 layout: details
 title: webarch
-permalink: /docs/PDFreactor-Examples/webarch/
+permalink: /PDFreactor-Examples/webarch/
 description: 
 ---
 

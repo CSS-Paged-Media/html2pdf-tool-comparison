@@ -1,7 +1,7 @@
 ---
 layout: details
 title: Regular
-permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Regular/
+permalink: /PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Fraktur/Regular/
 description: 
 ---
 

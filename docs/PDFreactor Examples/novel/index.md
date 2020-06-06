@@ -1,13 +1,13 @@
 ---
 layout: details
 title: novel
-permalink: /docs/PDFreactor-Examples/novel/
+permalink: /PDFreactor-Examples/novel/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/novel/fnt/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/novel/fnt/">
                                 fnt
                             </a>
 </div>

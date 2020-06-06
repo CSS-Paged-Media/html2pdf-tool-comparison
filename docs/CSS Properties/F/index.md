@@ -1,7 +1,7 @@
 ---
 layout: details
 title: F
-permalink: /docs/CSS-Properties/F/
+permalink: /CSS-Properties/F/
 description: 
 ---
 

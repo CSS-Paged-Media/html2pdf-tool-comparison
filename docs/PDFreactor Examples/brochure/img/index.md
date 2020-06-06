@@ -1,7 +1,7 @@
 ---
 layout: details
 title: img
-permalink: /docs/PDFreactor-Examples/brochure/img/
+permalink: /PDFreactor-Examples/brochure/img/
 description: 
 ---
 

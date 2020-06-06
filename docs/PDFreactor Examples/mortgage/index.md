@@ -1,7 +1,7 @@
 ---
 layout: details
 title: mortgage
-permalink: /docs/PDFreactor-Examples/mortgage/
+permalink: /PDFreactor-Examples/mortgage/
 description: 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: details
 title: flexbox
-permalink: /docs/PDFreactor-Examples/flexbox/
+permalink: /PDFreactor-Examples/flexbox/
 description: 
 ---
 

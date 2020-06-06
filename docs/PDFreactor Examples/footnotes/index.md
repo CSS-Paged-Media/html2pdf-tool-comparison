@@ -1,7 +1,7 @@
 ---
 layout: details
 title: footnotes
-permalink: /docs/PDFreactor-Examples/footnotes/
+permalink: /PDFreactor-Examples/footnotes/
 description: 
 ---
 

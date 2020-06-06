@@ -1,57 +1,57 @@
 ---
 layout: details
 title: TeX
-permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/
+permalink: /PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/AMS/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/AMS/">
                                 AMS
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Caligraphic/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Caligraphic/">
                                 Caligraphic
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Fraktur/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Fraktur/">
                                 Fraktur
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Main/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Main/">
                                 Main
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Math/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Math/">
                                 Math
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/SansSerif/">
                                 SansSerif
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Script/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Script/">
                                 Script
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size1/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size1/">
                                 Size1
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size2/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size2/">
                                 Size2
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size3/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size3/">
                                 Size3
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size4/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size4/">
                                 Size4
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Typewriter/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Typewriter/">
                                 Typewriter
                             </a>
 </div>

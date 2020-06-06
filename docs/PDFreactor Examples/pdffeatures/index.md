@@ -1,13 +1,13 @@
 ---
 layout: details
 title: pdffeatures
-permalink: /docs/PDFreactor-Examples/pdffeatures/
+permalink: /PDFreactor-Examples/pdffeatures/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/pdffeatures/resources/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/pdffeatures/resources/">
                                 resources
                             </a>
 </div>

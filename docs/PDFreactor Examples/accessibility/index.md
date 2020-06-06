@@ -1,7 +1,7 @@
 ---
 layout: details
 title: accessibility
-permalink: /docs/PDFreactor-Examples/accessibility/
+permalink: /PDFreactor-Examples/accessibility/
 description: 
 ---
 

@@ -1,17 +1,17 @@
 ---
 layout: details
 title: magazine
-permalink: /docs/PDFreactor-Examples/magazine/
+permalink: /PDFreactor-Examples/magazine/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/magazine/fnt/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/magazine/fnt/">
                                 fnt
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/magazine/img/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/magazine/img/">
                                 img
                             </a>
 </div>

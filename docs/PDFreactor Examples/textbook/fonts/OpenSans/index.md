@@ -1,7 +1,7 @@
 ---
 layout: details
 title: OpenSans
-permalink: /docs/PDFreactor-Examples/textbook/fonts/OpenSans/
+permalink: /PDFreactor-Examples/textbook/fonts/OpenSans/
 description: 
 ---
 

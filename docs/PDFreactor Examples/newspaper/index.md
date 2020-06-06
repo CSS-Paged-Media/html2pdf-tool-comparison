@@ -1,13 +1,13 @@
 ---
 layout: details
 title: newspaper
-permalink: /docs/PDFreactor-Examples/newspaper/
+permalink: /PDFreactor-Examples/newspaper/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/newspaper/fnt/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/newspaper/fnt/">
                                 fnt
                             </a>
 </div>

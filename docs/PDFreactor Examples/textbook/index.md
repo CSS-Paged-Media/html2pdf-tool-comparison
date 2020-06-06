@@ -1,17 +1,17 @@
 ---
 layout: details
 title: textbook
-permalink: /docs/PDFreactor-Examples/textbook/
+permalink: /PDFreactor-Examples/textbook/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/textbook/fonts/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/textbook/fonts/">
                                 fonts
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/textbook/resources/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/textbook/resources/">
                                 resources
                             </a>
 </div>

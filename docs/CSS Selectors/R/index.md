@@ -1,7 +1,7 @@
 ---
 layout: details
 title: R
-permalink: /docs/CSS-Selectors/R/
+permalink: /CSS-Selectors/R/
 description: 
 ---
 

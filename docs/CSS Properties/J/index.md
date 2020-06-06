@@ -1,7 +1,7 @@
 ---
 layout: details
 title: J
-permalink: /docs/CSS-Properties/J/
+permalink: /CSS-Properties/J/
 description: 
 ---
 

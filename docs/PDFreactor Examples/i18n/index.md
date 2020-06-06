@@ -1,7 +1,7 @@
 ---
 layout: details
 title: i18n
-permalink: /docs/PDFreactor-Examples/i18n/
+permalink: /PDFreactor-Examples/i18n/
 description: 
 ---
 

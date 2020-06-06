@@ -1,17 +1,17 @@
 ---
 layout: details
 title: compoundFormats
-permalink: /docs/PDFreactor-Examples/compoundFormats/
+permalink: /PDFreactor-Examples/compoundFormats/
 description: 
 ---
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/mathjax/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/">
                                 mathjax
                             </a>
 
-                            <a href="/compare.html2pdf.tools/docs/PDFreactor-Examples/compoundFormats/resources/">
+                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/resources/">
                                 resources
                             </a>
 </div>

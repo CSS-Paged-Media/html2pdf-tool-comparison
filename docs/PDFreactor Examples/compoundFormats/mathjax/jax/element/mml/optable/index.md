@@ -1,7 +1,7 @@
 ---
 layout: details
 title: optable
-permalink: /docs/PDFreactor-Examples/compoundFormats/mathjax/jax/element/mml/optable/
+permalink: /PDFreactor-Examples/compoundFormats/mathjax/jax/element/mml/optable/
 description: 
 ---
 

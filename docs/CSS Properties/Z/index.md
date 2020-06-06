@@ -1,7 +1,7 @@
 ---
 layout: details
 title: Z
-permalink: /docs/CSS-Properties/Z/
+permalink: /CSS-Properties/Z/
 description: 
 ---
 
