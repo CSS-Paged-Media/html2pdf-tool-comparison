@@ -198,13 +198,7 @@ footer p{
     text-align:right
 }
 
-main{
-    padding:2rem;
-    margin: 0 auto;
-    max-width: 720px;
-}
-
-main img{
+article img{
     box-shadow: 4px 4px 8px hsla(0,0%,0%,.2);
     border: 1px solid black;
 }
