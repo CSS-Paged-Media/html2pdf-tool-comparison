@@ -49,30 +49,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_S_shape-outside.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_S_shape-outside.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_S_shape-outside.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_S_shape-outside.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_S_shape-outside.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_shape-outside.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_S_shape-outside.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_shape-outside.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -162,30 +162,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_S_stroke-dasharray.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-dasharray.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_S_stroke-dasharray.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-dasharray.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_S_stroke-dasharray.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-dasharray.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_S_stroke-dasharray.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-dasharray.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -258,30 +258,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_S_stroke-dashoffset.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-dashoffset.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_S_stroke-dashoffset.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-dashoffset.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_S_stroke-dashoffset.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-dashoffset.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_S_stroke-dashoffset.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-dashoffset.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -349,30 +349,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_S_stroke-linecap.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-linecap.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_S_stroke-linecap.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-linecap.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_S_stroke-linecap.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-linecap.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_S_stroke-linecap.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-linecap.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -512,30 +512,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_S_stroke-linejoin.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-linejoin.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_S_stroke-linejoin.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-linejoin.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_S_stroke-linejoin.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-linejoin.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_S_stroke-linejoin.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-linejoin.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -624,30 +624,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_S_stroke-width.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-width.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_S_stroke-width.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-width.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_S_stroke-width.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-width.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_S_stroke-width.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-width.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -736,30 +736,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_S_stroke.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_S_stroke.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_S_stroke.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_S_stroke.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>

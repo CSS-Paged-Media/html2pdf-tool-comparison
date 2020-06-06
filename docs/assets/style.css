@@ -175,7 +175,7 @@ a:visited,a:hover,a:active{
 }
 
 .details-boxes{
-    display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));
     grid-gap:2rem;
 }
     

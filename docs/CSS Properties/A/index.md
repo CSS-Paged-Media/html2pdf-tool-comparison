@@ -168,30 +168,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_A_align-content.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_A_align-content.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_A_align-content.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_A_align-content.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_A_align-content.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_align-content.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_A_align-content.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_align-content.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -322,30 +322,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_A_align-items.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_A_align-items.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_A_align-items.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_A_align-items.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_A_align-items.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_align-items.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_A_align-items.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_align-items.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -411,30 +411,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_A_align-self.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_A_align-self.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_A_align-self.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_A_align-self.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_A_align-self.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_align-self.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_A_align-self.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_align-self.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -511,30 +511,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_A_all.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_A_all.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_A_all.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_A_all.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_A_all.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_all.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_A_all.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_all.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -583,30 +583,30 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="mpdf__html_CSS_Properties_A_appearance.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_A_appearance.html.png" alt="mPDF Preview" />
         <p>
-            <a href="mpdf__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="typeset__html_CSS_Properties_A_appearance.html.png" alt="typeset Preview" />
+        <img src="/{{ page.path }}/../typeset__html_CSS_Properties_A_appearance.html.png" alt="typeset Preview" />
         <p>
-            <a href="typeset__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="pdfreactor__html_CSS_Properties_A_appearance.html.png" alt="PDFreactor Preview" />
+        <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_appearance.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="pdfreactor__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="wkhtmltopdf__html_CSS_Properties_A_appearance.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_appearance.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="wkhtmltopdf__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
 </div>
