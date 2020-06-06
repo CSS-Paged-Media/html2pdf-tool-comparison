@@ -168,7 +168,7 @@ description:
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="{{ page.path }}/mpdf__html_CSS_Properties_A_align-content.html.png" alt="mPDF Preview" />
+        <img src="/{{ page.dir }}/mpdf__html_CSS_Properties_A_align-content.html.png" alt="mPDF Preview" />
         <p>
             <a href="mpdf__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
