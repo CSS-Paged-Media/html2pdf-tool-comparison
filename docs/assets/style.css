@@ -22,11 +22,13 @@ body{
 }
 
 a{
-    color:#195584
+    color:#195584;
+    text-decoration: none;
 }
 
 a:visited,a:hover,a:active{
-    color:#7b598f
+    color:#7b598f;
+    text-decoration: none;
 }
 
 .boxes{
@@ -87,4 +89,8 @@ header p a:hover,
 header p a:active,
 header p a:visited{
     color:#fff;
+}
+
+main table td {
+    padding: 1rem;
 }
