@@ -9,6 +9,9 @@
     <main>
         {{ content }}
     </main>
+    <aside>
+        {% include toc.html html=content %}
+    </aside>
     {% include footer.html %}
   </body>
 </html>
