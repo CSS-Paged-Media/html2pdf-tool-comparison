@@ -9,15 +9,12 @@ description:
 
 
 
-## Direct HTML Files
+## Files
+* [FIRST-CHILD](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-child)
+* [FIRST-LETTER](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-letter)
+* [FIRST-LINE](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-line)
+* [FIRST-OF-TYPE](/compare.html2pdf.tools/docs/CSS-Selectors/F/first-of-type)
+* [FOCUS-VISIBLE](/compare.html2pdf.tools/docs/CSS-Selectors/F/focus-visible)
+* [FOCUS-WITHIN](/compare.html2pdf.tools/docs/CSS-Selectors/F/focus-within)
+* [FOCUS](/compare.html2pdf.tools/docs/CSS-Selectors/F/focus)
 
-| HTML File | mPDF Result | typeset.sh Result | PDFreactor Result |
-|---------|---------|---------|---------|
-
-| [first-child.html](/html/CSS%20Selectors/F/first-child.html) | ![](mpdf__html_CSS_Selectors_F_first-child.html.png) [mpdf__html_CSS_Selectors_F_first-child.html.pdf](mpdf__html_CSS_Selectors_F_first-child.html.pdf) | ![](typeset__html_CSS_Selectors_F_first-child.html.png) [typeset__html_CSS_Selectors_F_first-child.html.pdf](typeset__html_CSS_Selectors_F_first-child.html.pdf) | ![](pdfreactor__html_CSS_Selectors_F_first-child.html.png) [pdfreactor__html_CSS_Selectors_F_first-child.html.pdf](pdfreactor__html_CSS_Selectors_F_first-child.html.pdf) |
-| [first-letter.html](/html/CSS%20Selectors/F/first-letter.html) | ![](mpdf__html_CSS_Selectors_F_first-letter.html.png) [mpdf__html_CSS_Selectors_F_first-letter.html.pdf](mpdf__html_CSS_Selectors_F_first-letter.html.pdf) | ![](typeset__html_CSS_Selectors_F_first-letter.html.png) [typeset__html_CSS_Selectors_F_first-letter.html.pdf](typeset__html_CSS_Selectors_F_first-letter.html.pdf) | ![](pdfreactor__html_CSS_Selectors_F_first-letter.html.png) [pdfreactor__html_CSS_Selectors_F_first-letter.html.pdf](pdfreactor__html_CSS_Selectors_F_first-letter.html.pdf) |
-| [first-line.html](/html/CSS%20Selectors/F/first-line.html) | ![](mpdf__html_CSS_Selectors_F_first-line.html.png) [mpdf__html_CSS_Selectors_F_first-line.html.pdf](mpdf__html_CSS_Selectors_F_first-line.html.pdf) | ![](typeset__html_CSS_Selectors_F_first-line.html.png) [typeset__html_CSS_Selectors_F_first-line.html.pdf](typeset__html_CSS_Selectors_F_first-line.html.pdf) | ![](pdfreactor__html_CSS_Selectors_F_first-line.html.png) [pdfreactor__html_CSS_Selectors_F_first-line.html.pdf](pdfreactor__html_CSS_Selectors_F_first-line.html.pdf) |
-| [first-of-type.html](/html/CSS%20Selectors/F/first-of-type.html) | ![](mpdf__html_CSS_Selectors_F_first-of-type.html.png) [mpdf__html_CSS_Selectors_F_first-of-type.html.pdf](mpdf__html_CSS_Selectors_F_first-of-type.html.pdf) | ![](typeset__html_CSS_Selectors_F_first-of-type.html.png) [typeset__html_CSS_Selectors_F_first-of-type.html.pdf](typeset__html_CSS_Selectors_F_first-of-type.html.pdf) | ![](pdfreactor__html_CSS_Selectors_F_first-of-type.html.png) [pdfreactor__html_CSS_Selectors_F_first-of-type.html.pdf](pdfreactor__html_CSS_Selectors_F_first-of-type.html.pdf) |
-| [focus-visible.html](/html/CSS%20Selectors/F/focus-visible.html) | ![](mpdf__html_CSS_Selectors_F_focus-visible.html.png) [mpdf__html_CSS_Selectors_F_focus-visible.html.pdf](mpdf__html_CSS_Selectors_F_focus-visible.html.pdf) | ![](typeset__html_CSS_Selectors_F_focus-visible.html.png) [typeset__html_CSS_Selectors_F_focus-visible.html.pdf](typeset__html_CSS_Selectors_F_focus-visible.html.pdf) | ![](pdfreactor__html_CSS_Selectors_F_focus-visible.html.png) [pdfreactor__html_CSS_Selectors_F_focus-visible.html.pdf](pdfreactor__html_CSS_Selectors_F_focus-visible.html.pdf) |
-| [focus-within.html](/html/CSS%20Selectors/F/focus-within.html) | ![](mpdf__html_CSS_Selectors_F_focus-within.html.png) [mpdf__html_CSS_Selectors_F_focus-within.html.pdf](mpdf__html_CSS_Selectors_F_focus-within.html.pdf) | ![](typeset__html_CSS_Selectors_F_focus-within.html.png) [typeset__html_CSS_Selectors_F_focus-within.html.pdf](typeset__html_CSS_Selectors_F_focus-within.html.pdf) | ![](pdfreactor__html_CSS_Selectors_F_focus-within.html.png) [pdfreactor__html_CSS_Selectors_F_focus-within.html.pdf](pdfreactor__html_CSS_Selectors_F_focus-within.html.pdf) |
-| [focus.html](/html/CSS%20Selectors/F/focus.html) | ![](mpdf__html_CSS_Selectors_F_focus.html.png) [mpdf__html_CSS_Selectors_F_focus.html.pdf](mpdf__html_CSS_Selectors_F_focus.html.pdf) | ![](typeset__html_CSS_Selectors_F_focus.html.png) [typeset__html_CSS_Selectors_F_focus.html.pdf](typeset__html_CSS_Selectors_F_focus.html.pdf) | ![](pdfreactor__html_CSS_Selectors_F_focus.html.png) [pdfreactor__html_CSS_Selectors_F_focus.html.pdf](pdfreactor__html_CSS_Selectors_F_focus.html.pdf) |
