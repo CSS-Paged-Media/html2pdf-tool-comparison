@@ -7,7 +7,7 @@ description:
 
 
 
-## CHECKED
+## <a name="CHECKED" id="CHECKED">#</a> CHECKED
 
 [📄 Input HTML](/html/CSS%20Selectors/C/checked.html)
 
@@ -18,7 +18,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_C_checked.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_C_checked.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_C_checked.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_C_checked.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_C_checked.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_checked.html.pdf) |
 
-## CHILD
+## <a name="CHILD" id="CHILD">#</a> CHILD
 
 [📄 Input HTML](/html/CSS%20Selectors/C/child.html)
 
@@ -29,7 +29,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_C_child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_C_child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_C_child.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_C_child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_C_child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_child.html.pdf) |
 
-## CLASS
+## <a name="CLASS" id="CLASS">#</a> CLASS
 
 [📄 Input HTML](/html/CSS%20Selectors/C/class.html)
 

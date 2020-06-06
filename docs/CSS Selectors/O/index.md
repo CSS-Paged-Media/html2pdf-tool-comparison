@@ -7,7 +7,7 @@ description:
 
 
 
-## ONLY-CHILD
+## <a name="ONLY-CHILD" id="ONLY-CHILD">#</a> ONLY-CHILD
 
 [📄 Input HTML](/html/CSS%20Selectors/O/only-child.html)
 
@@ -18,7 +18,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_only-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_only-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_only-child.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_O_only-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_only-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_only-child.html.pdf) |
 
-## ONLY-OF-TYPE
+## <a name="ONLY-OF-TYPE" id="ONLY-OF-TYPE">#</a> ONLY-OF-TYPE
 
 [📄 Input HTML](/html/CSS%20Selectors/O/only-of-type.html)
 
@@ -29,7 +29,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_only-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_only-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_only-of-type.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_O_only-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_only-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_only-of-type.html.pdf) |
 
-## OPTIONAL
+## <a name="OPTIONAL" id="OPTIONAL">#</a> OPTIONAL
 
 [📄 Input HTML](/html/CSS%20Selectors/O/optional.html)
 
@@ -40,7 +40,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_optional.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_optional.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_optional.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_O_optional.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_optional.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_optional.html.pdf) |
 
-## OUT-OF-RANGE
+## <a name="OUT-OF-RANGE" id="OUT-OF-RANGE">#</a> OUT-OF-RANGE
 
 [📄 Input HTML](/html/CSS%20Selectors/O/out-of-range.html)
 

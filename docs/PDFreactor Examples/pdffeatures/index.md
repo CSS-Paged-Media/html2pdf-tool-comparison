@@ -12,7 +12,7 @@ description:
                             </a>
 </div>
 
-## BOOKMARKS
+## <a name="BOOKMARKS" id="BOOKMARKS">#</a> BOOKMARKS
 
 [📄 Input HTML](/html/PDFreactor%20Examples/pdffeatures/bookmarks.html)
 
@@ -23,7 +23,7 @@ description:
 | ![mPDF Preview](mpdf__html_PDFreactor_Examples_pdffeatures_bookmarks.html.png) | ![typeset Preview](typeset__html_PDFreactor_Examples_pdffeatures_bookmarks.html.png) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_pdffeatures_bookmarks.html.png) |
 | [📕 mPDF Output](mpdf__html_PDFreactor_Examples_pdffeatures_bookmarks.html.pdf) | [📕 typeset Output](typeset__html_PDFreactor_Examples_pdffeatures_bookmarks.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_pdffeatures_bookmarks.html.pdf) |
 
-## COMMENTS
+## <a name="COMMENTS" id="COMMENTS">#</a> COMMENTS
 
 [📄 Input HTML](/html/PDFreactor%20Examples/pdffeatures/comments.html)
 

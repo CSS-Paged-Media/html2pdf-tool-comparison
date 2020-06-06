@@ -7,7 +7,7 @@ description:
 
 
 
-## I18N-SAMPLE
+## <a name="I18N-SAMPLE" id="I18N-SAMPLE">#</a> I18N-SAMPLE
 
 [📄 Input HTML](/html/PDFreactor%20Examples/i18n/i18n-sample.html)
 

@@ -7,7 +7,7 @@ description:
 
 
 
-## FOOTNOTES
+## <a name="FOOTNOTES" id="FOOTNOTES">#</a> FOOTNOTES
 
 [📄 Input HTML](/html/PDFreactor%20Examples/footnotes/footnotes.html)
 

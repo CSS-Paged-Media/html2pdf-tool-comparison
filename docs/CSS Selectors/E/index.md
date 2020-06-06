@@ -7,7 +7,7 @@ description:
 
 
 
-## EMPTY
+## <a name="EMPTY" id="EMPTY">#</a> EMPTY
 
 [📄 Input HTML](/html/CSS%20Selectors/E/empty.html)
 
@@ -18,7 +18,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_E_empty.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_E_empty.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_E_empty.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_E_empty.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_E_empty.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_E_empty.html.pdf) |
 
-## ENABLED
+## <a name="ENABLED" id="ENABLED">#</a> ENABLED
 
 [📄 Input HTML](/html/CSS%20Selectors/E/enabled.html)
 

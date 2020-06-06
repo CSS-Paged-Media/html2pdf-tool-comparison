@@ -7,7 +7,7 @@ description:
 
 
 
-## DIRECTION
+## <a name="DIRECTION" id="DIRECTION">#</a> DIRECTION
 
 [📄 Input HTML](/html/CSS%20Properties/D/direction.html)
 
@@ -18,7 +18,7 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_D_direction.html.png) | ![typeset Preview](typeset__html_CSS_Properties_D_direction.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_D_direction.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_D_direction.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_D_direction.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_D_direction.html.pdf) |
 
-## DISPLAY
+## <a name="DISPLAY" id="DISPLAY">#</a> DISPLAY
 
 [📄 Input HTML](/html/CSS%20Properties/D/display.html)
 

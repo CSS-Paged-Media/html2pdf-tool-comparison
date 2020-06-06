@@ -7,7 +7,7 @@ description:
 
 
 
-## EMPTY-CELLS
+## <a name="EMPTY-CELLS" id="EMPTY-CELLS">#</a> EMPTY-CELLS
 
 [📄 Input HTML](/html/CSS%20Properties/E/empty-cells.html)
 
