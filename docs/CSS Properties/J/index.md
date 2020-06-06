@@ -13,6 +13,6 @@ description:
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_J_justify-content.html.png) [📕 mPDF Output](mpdf__html_CSS_Properties_J_justify-content.html.pdf) | ![typeset Preview](typeset__html_CSS_Properties_J_justify-content.html.png) [📕 typeset Output](typeset__html_CSS_Properties_J_justify-content.html.pdf) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_J_justify-content.html.png) [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_J_justify-content.html.pdf)
-
+| ![mPDF Preview](mpdf__html_CSS_Properties_J_justify-content.html.png) | ![typeset Preview](typeset__html_CSS_Properties_J_justify-content.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_J_justify-content.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_J_justify-content.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_J_justify-content.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_J_justify-content.html.pdf) |
 

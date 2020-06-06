@@ -13,6 +13,6 @@ description:
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
-| ![mPDF Preview](mpdf__html_CSS_Properties_E_empty-cells.html.png) [📕 mPDF Output](mpdf__html_CSS_Properties_E_empty-cells.html.pdf) | ![typeset Preview](typeset__html_CSS_Properties_E_empty-cells.html.png) [📕 typeset Output](typeset__html_CSS_Properties_E_empty-cells.html.pdf) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_E_empty-cells.html.png) [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_E_empty-cells.html.pdf)
-
+| ![mPDF Preview](mpdf__html_CSS_Properties_E_empty-cells.html.png) | ![typeset Preview](typeset__html_CSS_Properties_E_empty-cells.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_E_empty-cells.html.png) |
+| [📕 mPDF Output](mpdf__html_CSS_Properties_E_empty-cells.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_E_empty-cells.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_E_empty-cells.html.pdf) |
 
