@@ -164,16 +164,13 @@ a:visited,a:hover,a:active{
     text-decoration: none;
 }
 
-.boxes{
-    display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));grid-gap:2rem;
-}
-
 .boxes a{
     padding:2rem;border:.5rem solid rgb(188, 11, 6);
     
     text-decoration:none;font-weight:bold;font-size:1.4rem;background:rgba(188, 11, 6, .02)
 }
 
+.boxes,
 .details-boxes{
     display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));
     grid-gap:2rem;
@@ -329,4 +326,9 @@ header h1 a:hover,
 header h1 a:active{
     color:#fff;
     margin-right:0;
+}
+
+article h2:first-of-type,
+aside h2:first-of-type {
+    margin-top: 0;
 }
