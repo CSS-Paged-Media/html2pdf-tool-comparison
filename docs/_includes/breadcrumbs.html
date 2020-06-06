@@ -1,6 +1,5 @@
 <div id="breadcrumbs">
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-    <a href="/">html2pdf.guru</a>
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.last %}
         / {{ page.title }}
