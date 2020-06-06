@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/Z/
 description: 
 ---
 
-# Z
-
 
 
 ## Z-INDEX

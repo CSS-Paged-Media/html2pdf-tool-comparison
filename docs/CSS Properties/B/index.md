@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/B/
 description: 
 ---
 
-# B
-
 
 
 ## BACKFACE-VISIBILITY

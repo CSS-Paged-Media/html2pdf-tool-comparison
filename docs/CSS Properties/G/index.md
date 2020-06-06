@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/G/
 description: 
 ---
 
-# G
-
 
 
 ## GRID-ROW-COLUMN

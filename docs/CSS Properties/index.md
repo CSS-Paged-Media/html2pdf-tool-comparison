@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/
 description: 
 ---
 
-# CSS Properties
-
 ## Sub Pages
 * [A](/compare.html2pdf.tools/docs/CSS-Properties/A/)
 * [B](/compare.html2pdf.tools/docs/CSS-Properties/B/)

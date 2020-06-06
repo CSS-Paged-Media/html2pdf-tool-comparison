@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/F/
 description: 
 ---
 
-# F
-
 
 
 ## FIRST-CHILD

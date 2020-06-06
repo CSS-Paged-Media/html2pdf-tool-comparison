@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/B/
 description: 
 ---
 
-# B
-
 
 
 ## BEFORE

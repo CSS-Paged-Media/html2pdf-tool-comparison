@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/U/
 description: 
 ---
 
-# U
-
 
 
 ## UNIVERSAL

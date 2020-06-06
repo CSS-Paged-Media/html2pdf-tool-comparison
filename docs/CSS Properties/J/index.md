@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/J/
 description: 
 ---
 
-# J
-
 
 
 ## JUSTIFY-CONTENT

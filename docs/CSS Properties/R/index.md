@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/R/
 description: 
 ---
 
-# R
-
 
 
 ## RESIZE

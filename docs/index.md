@@ -20,3 +20,4 @@ description:
 ## Check the following pages for the results
 * [CSS Properties](/compare.html2pdf.tools/docs/CSS-Properties/)
 * [CSS Selectors](/compare.html2pdf.tools/docs/CSS-Selectors/)
+* [PDFreactor Examples](/compare.html2pdf.tools/docs/PDFreactor-Examples/)

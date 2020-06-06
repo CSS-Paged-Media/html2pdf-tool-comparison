@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/F/
 description: 
 ---
 
-# F
-
 
 
 ## FILTER

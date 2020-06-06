@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/P/
 description: 
 ---
 
-# P
-
 
 
 ## PADDING

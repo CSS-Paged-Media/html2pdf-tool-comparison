@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/W/
 description: 
 ---
 
-# W
-
 
 
 ## WHITE-SPACE

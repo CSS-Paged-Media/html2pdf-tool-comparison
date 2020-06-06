@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/G/
 description: 
 ---
 
-# G
-
 
 
 ## GENERAL-SIBLING

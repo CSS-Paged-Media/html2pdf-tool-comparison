@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/U/
 description: 
 ---
 
-# U
-
 
 
 ## UNICODE-BIDI

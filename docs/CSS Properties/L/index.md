@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/L/
 description: 
 ---
 
-# L
-
 
 
 ## LEFT

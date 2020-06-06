@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/D/
 description: 
 ---
 
-# D
-
 
 
 ## DIRECTION

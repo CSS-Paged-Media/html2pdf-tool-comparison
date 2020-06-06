@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/H/
 description: 
 ---
 
-# H
-
 
 
 ## HANGING-PUNCTUATION

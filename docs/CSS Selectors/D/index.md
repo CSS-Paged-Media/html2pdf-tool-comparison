@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/D/
 description: 
 ---
 
-# D
-
 
 
 ## DEFAULT

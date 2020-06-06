@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/V/
 description: 
 ---
 
-# V
-
 
 
 ## VALID

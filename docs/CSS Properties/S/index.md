@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/S/
 description: 
 ---
 
-# S
-
 
 
 ## SHAPE-OUTSIDE

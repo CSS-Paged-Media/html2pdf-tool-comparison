@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/S/
 description: 
 ---
 
-# S
-
 
 
 ## SELECTION

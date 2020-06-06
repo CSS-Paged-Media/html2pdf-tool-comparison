@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/E/
 description: 
 ---
 
-# E
-
 
 
 ## EMPTY-CELLS

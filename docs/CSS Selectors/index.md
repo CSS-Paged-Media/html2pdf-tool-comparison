@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/
 description: 
 ---
 
-# CSS Selectors
-
 ## Sub Pages
 * [A](/compare.html2pdf.tools/docs/CSS-Selectors/A/)
 * [B](/compare.html2pdf.tools/docs/CSS-Selectors/B/)

@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/A/
 description: 
 ---
 
-# A
-
 
 
 ## ACTIVE

@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/L/
 description: 
 ---
 
-# L
-
 
 
 ## LANG

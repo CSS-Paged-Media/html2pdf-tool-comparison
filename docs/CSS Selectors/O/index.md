@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/O/
 description: 
 ---
 
-# O
-
 
 
 ## ONLY-CHILD

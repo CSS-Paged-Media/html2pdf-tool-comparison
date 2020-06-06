@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/Q/
 description: 
 ---
 
-# Q
-
 
 
 ## QUOTES

@@ -69,3 +69,19 @@ footer p{
 main{
     padding:2rem;
 }
+
+header{
+    padding: 2rem;
+    background-color: rgb(188, 11, 6);
+    color: #fff;
+    text-shadow: 2px 2px hsla(0,0%,0%,.2);
+    box-shadow: 10px 0 10px 10px hsla(0, 0%, 0%, .2);
+    margin-bottom: 1rem;
+}
+
+header p a,
+header p a:hover,
+header p a:active,
+header p a:visited{
+    color:#fff;
+}

@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/O/
 description: 
 ---
 
-# O
-
 
 
 ## OBJECT-FIT

@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/H/
 description: 
 ---
 
-# H
-
 
 
 ## HOVER

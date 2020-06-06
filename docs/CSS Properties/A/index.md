@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/A/
 description: 
 ---
 
-# A
-
 
 
 ## ALIGN-CONTENT

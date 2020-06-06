@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/I/
 description: 
 ---
 
-# I
-
 
 
 ## IMAGE-RENDERING

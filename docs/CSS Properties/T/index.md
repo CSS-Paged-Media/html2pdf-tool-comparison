@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/T/
 description: 
 ---
 
-# T
-
 
 
 ## TAB-SIZE

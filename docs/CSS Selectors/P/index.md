@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/P/
 description: 
 ---
 
-# P
-
 
 
 ## PLACEHOLDER-SHOWN

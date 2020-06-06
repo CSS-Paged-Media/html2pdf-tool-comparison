@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/C/
 description: 
 ---
 
-# C
-
 
 
 ## CAPTION-SIDE

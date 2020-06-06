@@ -5,8 +5,6 @@ permalink: /docs/CSS-Selectors/R/
 description: 
 ---
 
-# R
-
 
 
 ## READ-ONLY

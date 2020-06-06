@@ -5,8 +5,6 @@ permalink: /docs/CSS-Properties/V/
 description: 
 ---
 
-# V
-
 
 
 ## VERTICAL-ALIGN
