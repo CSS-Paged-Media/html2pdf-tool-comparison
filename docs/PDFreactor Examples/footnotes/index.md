@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## FOOTNOTES
 
 [📄 Input HTML](/html/PDFreactor%20Examples/footnotes/footnotes.html)

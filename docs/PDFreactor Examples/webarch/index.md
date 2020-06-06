@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## WEBARCH
 
 [📄 Input HTML](/html/PDFreactor%20Examples/webarch/webarch.html)

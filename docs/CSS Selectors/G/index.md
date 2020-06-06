@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## GENERAL-SIBLING
 
 [📄 Input HTML](/html/CSS%20Selectors/G/general-sibling.html)

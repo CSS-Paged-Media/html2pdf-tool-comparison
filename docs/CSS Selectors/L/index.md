@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## LANG
 
 [📄 Input HTML](/html/CSS%20Selectors/L/lang.html)
@@ -17,6 +19,8 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_L_lang.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_lang.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_lang.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_L_lang.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_lang.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_lang.html.pdf) |
+
+<hr />
 
 ## LAST-CHILD
 
@@ -29,6 +33,8 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_L_last-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_last-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-child.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_last-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-child.html.pdf) |
 
+<hr />
+
 ## LAST-OF-TYPE
 
 [📄 Input HTML](/html/CSS%20Selectors/L/last-of-type.html)
@@ -39,6 +45,8 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_L_last-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_last-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-of-type.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_last-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-of-type.html.pdf) |
+
+<hr />
 
 ## LINK
 

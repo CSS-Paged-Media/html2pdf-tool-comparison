@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## WHITE-SPACE
 
 [📄 Input HTML](/html/CSS%20Properties/W/white-space.html)
@@ -17,6 +19,8 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_white-space.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_white-space.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_white-space.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_W_white-space.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_white-space.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_white-space.html.pdf) |
+
+<hr />
 
 ## WIDOWS
 
@@ -29,6 +33,8 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_widows.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_widows.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_widows.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_W_widows.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_widows.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_widows.html.pdf) |
 
+<hr />
+
 ## WIDTH
 
 [📄 Input HTML](/html/CSS%20Properties/W/width.html)
@@ -39,6 +45,8 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_width.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_width.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_width.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_W_width.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_width.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_width.html.pdf) |
+
+<hr />
 
 ## WORD-BREAK
 
@@ -51,6 +59,8 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_word-break.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_word-break.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_word-break.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_W_word-break.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_word-break.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-break.html.pdf) |
 
+<hr />
+
 ## WORD-SPACING
 
 [📄 Input HTML](/html/CSS%20Properties/W/word-spacing.html)
@@ -61,6 +71,8 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Properties_W_word-spacing.html.png) | ![typeset Preview](typeset__html_CSS_Properties_W_word-spacing.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_W_word-spacing.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_W_word-spacing.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_W_word-spacing.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_W_word-spacing.html.pdf) |
+
+<hr />
 
 ## WRITING-MODE
 

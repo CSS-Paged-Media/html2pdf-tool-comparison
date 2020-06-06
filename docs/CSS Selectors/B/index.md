@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## BEFORE
 
 [📄 Input HTML](/html/CSS%20Selectors/B/before.html)
@@ -17,6 +19,8 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_B_before.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_B_before.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_B_before.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_B_before.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_B_before.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_before.html.pdf) |
+
+<hr />
 
 ## BLANK
 

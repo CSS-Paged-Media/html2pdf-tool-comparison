@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## SELECTION
 
 [📄 Input HTML](/html/CSS%20Selectors/S/selection.html)

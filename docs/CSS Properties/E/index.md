@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## EMPTY-CELLS
 
 [📄 Input HTML](/html/CSS%20Properties/E/empty-cells.html)

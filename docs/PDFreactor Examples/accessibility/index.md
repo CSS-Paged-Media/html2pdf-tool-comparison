@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## ACCESSIBILITY
 
 [📄 Input HTML](/html/PDFreactor%20Examples/accessibility/accessibility.html)

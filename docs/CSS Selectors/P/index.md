@@ -7,6 +7,8 @@ description:
 
 
 
+<hr />
+
 ## PLACEHOLDER-SHOWN
 
 [📄 Input HTML](/html/CSS%20Selectors/P/placeholder-shown.html)
@@ -17,6 +19,8 @@ description:
 |---------|---------|---------|
 | ![mPDF Preview](mpdf__html_CSS_Selectors_P_placeholder-shown.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_P_placeholder-shown.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.pdf) |
+
+<hr />
 
 ## PLACEHOLDER
 
