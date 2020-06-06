@@ -7,7 +7,7 @@ description:
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/extensions/MathML/">
+                            <a href="/PDFreactor-Examples/compoundFormats/mathjax/extensions/MathML/">
                                 MathML
                             </a>
 </div>

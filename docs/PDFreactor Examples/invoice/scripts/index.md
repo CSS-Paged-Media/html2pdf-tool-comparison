@@ -7,7 +7,7 @@ description:
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/invoice/scripts/angular/">
+                            <a href="/PDFreactor-Examples/invoice/scripts/angular/">
                                 angular
                             </a>
 </div>

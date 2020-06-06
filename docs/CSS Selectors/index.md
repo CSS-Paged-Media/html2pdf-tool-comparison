@@ -7,79 +7,79 @@ description:
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/A/">
+                            <a href="/CSS-Selectors/A/">
                                 A
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/B/">
+                            <a href="/CSS-Selectors/B/">
                                 B
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/C/">
+                            <a href="/CSS-Selectors/C/">
                                 C
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/D/">
+                            <a href="/CSS-Selectors/D/">
                                 D
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/E/">
+                            <a href="/CSS-Selectors/E/">
                                 E
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/F/">
+                            <a href="/CSS-Selectors/F/">
                                 F
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/G/">
+                            <a href="/CSS-Selectors/G/">
                                 G
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/H/">
+                            <a href="/CSS-Selectors/H/">
                                 H
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/I/">
+                            <a href="/CSS-Selectors/I/">
                                 I
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/L/">
+                            <a href="/CSS-Selectors/L/">
                                 L
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/M/">
+                            <a href="/CSS-Selectors/M/">
                                 M
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/N/">
+                            <a href="/CSS-Selectors/N/">
                                 N
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/O/">
+                            <a href="/CSS-Selectors/O/">
                                 O
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/P/">
+                            <a href="/CSS-Selectors/P/">
                                 P
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/R/">
+                            <a href="/CSS-Selectors/R/">
                                 R
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/S/">
+                            <a href="/CSS-Selectors/S/">
                                 S
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/T/">
+                            <a href="/CSS-Selectors/T/">
                                 T
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/U/">
+                            <a href="/CSS-Selectors/U/">
                                 U
                             </a>
 
-                            <a href="/compare.html2pdf.tools/CSS-Selectors/V/">
+                            <a href="/CSS-Selectors/V/">
                                 V
                             </a>
 </div>

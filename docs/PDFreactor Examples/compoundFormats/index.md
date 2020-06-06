@@ -7,11 +7,11 @@ description:
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/">
+                            <a href="/PDFreactor-Examples/compoundFormats/mathjax/">
                                 mathjax
                             </a>
 
-                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/resources/">
+                            <a href="/PDFreactor-Examples/compoundFormats/resources/">
                                 resources
                             </a>
 </div>

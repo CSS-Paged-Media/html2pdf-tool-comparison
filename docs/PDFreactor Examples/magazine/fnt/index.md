@@ -7,7 +7,7 @@ description:
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/magazine/fnt/opensans/">
+                            <a href="/PDFreactor-Examples/magazine/fnt/opensans/">
                                 opensans
                             </a>
 </div>

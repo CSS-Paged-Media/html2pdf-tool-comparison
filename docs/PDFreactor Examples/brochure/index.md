@@ -7,11 +7,11 @@ description:
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/brochure/fnt/">
+                            <a href="/PDFreactor-Examples/brochure/fnt/">
                                 fnt
                             </a>
 
-                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/brochure/img/">
+                            <a href="/PDFreactor-Examples/brochure/img/">
                                 img
                             </a>
 </div>

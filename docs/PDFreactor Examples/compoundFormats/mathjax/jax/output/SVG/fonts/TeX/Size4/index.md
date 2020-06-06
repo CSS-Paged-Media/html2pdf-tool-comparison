@@ -7,7 +7,7 @@ description:
 
 ## Index
 <div class="boxes">
-                            <a href="/compare.html2pdf.tools/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size4/Regular/">
+                            <a href="/PDFreactor-Examples/compoundFormats/mathjax/jax/output/SVG/fonts/TeX/Size4/Regular/">
                                 Regular
                             </a>
 </div>
