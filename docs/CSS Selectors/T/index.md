@@ -7,9 +7,9 @@ description:
 
 
 
-## TARGET
+## 🔬 TARGET
 
-[📄 Input HTML](/html/CSS%20Selectors/T/target.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/T/target.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_T_target.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_T_target.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_T_target.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_T_target.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_T_target.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_T_target.html.pdf) |
 
-## TYPE
+## 🔬 TYPE
 
-[📄 Input HTML](/html/CSS%20Selectors/T/type.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/T/type.html)
 
 ### Output PDF
 

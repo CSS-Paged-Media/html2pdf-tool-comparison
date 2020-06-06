@@ -7,9 +7,9 @@ description:
 
 
 
-## QUOTES
+## 🔬 QUOTES
 
-[📄 Input HTML](/html/CSS%20Properties/Q/quotes.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/Q/quotes.html)
 
 ### Output PDF
 

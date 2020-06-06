@@ -7,9 +7,9 @@ description:
 
 
 
-## JUSTIFY-CONTENT
+## 🔬 JUSTIFY-CONTENT
 
-[📄 Input HTML](/html/CSS%20Properties/J/justify-content.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/J/justify-content.html)
 
 ### Output PDF
 

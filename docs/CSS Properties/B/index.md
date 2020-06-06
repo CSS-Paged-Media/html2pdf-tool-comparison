@@ -7,9 +7,9 @@ description:
 
 
 
-## BACKFACE-VISIBILITY
+## 🔬 BACKFACE-VISIBILITY
 
-[📄 Input HTML](/html/CSS%20Properties/B/backface-visibility.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/backface-visibility.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_backface-visibility.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_backface-visibility.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_backface-visibility.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_backface-visibility.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_backface-visibility.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_backface-visibility.html.pdf) |
 
-## BACKGROUND-ATTACHMENT
+## 🔬 BACKGROUND-ATTACHMENT
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-attachment.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background-attachment.html)
 
 ### Output PDF
 
@@ -29,9 +29,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background-attachment.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background-attachment.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background-attachment.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background-attachment.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background-attachment.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background-attachment.html.pdf) |
 
-## BACKGROUND-BLEND-MODE
+## 🔬 BACKGROUND-BLEND-MODE
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-blend-mode.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background-blend-mode.html)
 
 ### Output PDF
 
@@ -40,9 +40,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background-blend-mode.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background-blend-mode.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background-blend-mode.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background-blend-mode.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background-blend-mode.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background-blend-mode.html.pdf) |
 
-## BACKGROUND-CLIP
+## 🔬 BACKGROUND-CLIP
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-clip.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background-clip.html)
 
 ### Output PDF
 
@@ -51,9 +51,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background-clip.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background-clip.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background-clip.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background-clip.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background-clip.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background-clip.html.pdf) |
 
-## BACKGROUND-COLOR
+## 🔬 BACKGROUND-COLOR
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-color.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background-color.html)
 
 ### Output PDF
 
@@ -62,9 +62,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background-color.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background-color.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background-color.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background-color.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background-color.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background-color.html.pdf) |
 
-## BACKGROUND-IMAGE
+## 🔬 BACKGROUND-IMAGE
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-image.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background-image.html)
 
 ### Output PDF
 
@@ -73,9 +73,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background-image.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background-image.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background-image.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background-image.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background-image.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background-image.html.pdf) |
 
-## BACKGROUND-ORIGIN
+## 🔬 BACKGROUND-ORIGIN
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-origin.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background-origin.html)
 
 ### Output PDF
 
@@ -84,9 +84,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background-origin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background-origin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background-origin.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background-origin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background-origin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background-origin.html.pdf) |
 
-## BACKGROUND-POSITION
+## 🔬 BACKGROUND-POSITION
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-position.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background-position.html)
 
 ### Output PDF
 
@@ -95,9 +95,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background-position.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background-position.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background-position.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background-position.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background-position.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background-position.html.pdf) |
 
-## BACKGROUND-REPEAT
+## 🔬 BACKGROUND-REPEAT
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-repeat.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background-repeat.html)
 
 ### Output PDF
 
@@ -106,9 +106,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background-repeat.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background-repeat.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background-repeat.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background-repeat.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background-repeat.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background-repeat.html.pdf) |
 
-## BACKGROUND-SIZE
+## 🔬 BACKGROUND-SIZE
 
-[📄 Input HTML](/html/CSS%20Properties/B/background-size.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background-size.html)
 
 ### Output PDF
 
@@ -117,9 +117,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background-size.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background-size.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background-size.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background-size.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background-size.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background-size.html.pdf) |
 
-## BACKGROUND
+## 🔬 BACKGROUND
 
-[📄 Input HTML](/html/CSS%20Properties/B/background.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/background.html)
 
 ### Output PDF
 
@@ -128,9 +128,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_background.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_background.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_background.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_background.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_background.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_background.html.pdf) |
 
-## BLEED
+## 🔬 BLEED
 
-[📄 Input HTML](/html/CSS%20Properties/B/bleed.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/bleed.html)
 
 ### Output PDF
 
@@ -139,9 +139,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_bleed.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_bleed.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_bleed.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_bleed.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_bleed.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_bleed.html.pdf) |
 
-## BORDER-COLLAPSE
+## 🔬 BORDER-COLLAPSE
 
-[📄 Input HTML](/html/CSS%20Properties/B/border-collapse.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/border-collapse.html)
 
 ### Output PDF
 
@@ -150,9 +150,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_border-collapse.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_border-collapse.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_border-collapse.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_border-collapse.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_border-collapse.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_border-collapse.html.pdf) |
 
-## BORDER-IMAGE
+## 🔬 BORDER-IMAGE
 
-[📄 Input HTML](/html/CSS%20Properties/B/border-image.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/border-image.html)
 
 ### Output PDF
 
@@ -161,9 +161,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_border-image.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_border-image.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_border-image.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_border-image.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_border-image.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_border-image.html.pdf) |
 
-## BORDER-RADIUS
+## 🔬 BORDER-RADIUS
 
-[📄 Input HTML](/html/CSS%20Properties/B/border-radius.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/border-radius.html)
 
 ### Output PDF
 
@@ -172,9 +172,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_border-radius.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_border-radius.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_border-radius.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_border-radius.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_border-radius.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_border-radius.html.pdf) |
 
-## BORDER-SPACING
+## 🔬 BORDER-SPACING
 
-[📄 Input HTML](/html/CSS%20Properties/B/border-spacing.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/border-spacing.html)
 
 ### Output PDF
 
@@ -183,9 +183,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_border-spacing.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_border-spacing.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_border-spacing.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_border-spacing.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_border-spacing.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_border-spacing.html.pdf) |
 
-## BORDER
+## 🔬 BORDER
 
-[📄 Input HTML](/html/CSS%20Properties/B/border.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/border.html)
 
 ### Output PDF
 
@@ -194,9 +194,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_border.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_border.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_border.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_border.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_border.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_border.html.pdf) |
 
-## BOTTOM
+## 🔬 BOTTOM
 
-[📄 Input HTML](/html/CSS%20Properties/B/bottom.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/bottom.html)
 
 ### Output PDF
 
@@ -205,9 +205,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_bottom.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_bottom.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_bottom.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_bottom.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_bottom.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_bottom.html.pdf) |
 
-## BOX-DECORATION-BREAK
+## 🔬 BOX-DECORATION-BREAK
 
-[📄 Input HTML](/html/CSS%20Properties/B/box-decoration-break.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/box-decoration-break.html)
 
 ### Output PDF
 
@@ -216,9 +216,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_box-decoration-break.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_box-decoration-break.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_box-decoration-break.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_box-decoration-break.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_box-decoration-break.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_box-decoration-break.html.pdf) |
 
-## BOX-SHADOW
+## 🔬 BOX-SHADOW
 
-[📄 Input HTML](/html/CSS%20Properties/B/box-shadow.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/box-shadow.html)
 
 ### Output PDF
 
@@ -227,9 +227,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_box-shadow.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_box-shadow.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_box-shadow.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_box-shadow.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_box-shadow.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_box-shadow.html.pdf) |
 
-## BOX-SIZING
+## 🔬 BOX-SIZING
 
-[📄 Input HTML](/html/CSS%20Properties/B/box-sizing.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/box-sizing.html)
 
 ### Output PDF
 
@@ -238,9 +238,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_B_box-sizing.html.png) | ![typeset Preview](typeset__html_CSS_Properties_B_box-sizing.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_B_box-sizing.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_B_box-sizing.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_B_box-sizing.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_B_box-sizing.html.pdf) |
 
-## BREAK-INSIDE
+## 🔬 BREAK-INSIDE
 
-[📄 Input HTML](/html/CSS%20Properties/B/break-inside.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/B/break-inside.html)
 
 ### Output PDF
 

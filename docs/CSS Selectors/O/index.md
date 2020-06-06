@@ -7,9 +7,9 @@ description:
 
 
 
-## ONLY-CHILD
+## 🔬 ONLY-CHILD
 
-[📄 Input HTML](/html/CSS%20Selectors/O/only-child.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/only-child.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_only-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_only-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_only-child.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_O_only-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_only-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_only-child.html.pdf) |
 
-## ONLY-OF-TYPE
+## 🔬 ONLY-OF-TYPE
 
-[📄 Input HTML](/html/CSS%20Selectors/O/only-of-type.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/only-of-type.html)
 
 ### Output PDF
 
@@ -29,9 +29,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_only-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_only-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_only-of-type.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_O_only-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_only-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_only-of-type.html.pdf) |
 
-## OPTIONAL
+## 🔬 OPTIONAL
 
-[📄 Input HTML](/html/CSS%20Selectors/O/optional.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/optional.html)
 
 ### Output PDF
 
@@ -40,9 +40,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_O_optional.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_O_optional.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_O_optional.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_O_optional.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_O_optional.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_O_optional.html.pdf) |
 
-## OUT-OF-RANGE
+## 🔬 OUT-OF-RANGE
 
-[📄 Input HTML](/html/CSS%20Selectors/O/out-of-range.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/O/out-of-range.html)
 
 ### Output PDF
 

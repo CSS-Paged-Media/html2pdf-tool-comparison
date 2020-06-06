@@ -7,9 +7,9 @@ description:
 
 
 
-## EMPTY
+## 🔬 EMPTY
 
-[📄 Input HTML](/html/CSS%20Selectors/E/empty.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/E/empty.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_E_empty.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_E_empty.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_E_empty.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_E_empty.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_E_empty.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_E_empty.html.pdf) |
 
-## ENABLED
+## 🔬 ENABLED
 
-[📄 Input HTML](/html/CSS%20Selectors/E/enabled.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/E/enabled.html)
 
 ### Output PDF
 

@@ -7,9 +7,9 @@ description:
 
 
 
-## GENERAL-SIBLING
+## 🔬 GENERAL-SIBLING
 
-[📄 Input HTML](/html/CSS%20Selectors/G/general-sibling.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/G/general-sibling.html)
 
 ### Output PDF
 

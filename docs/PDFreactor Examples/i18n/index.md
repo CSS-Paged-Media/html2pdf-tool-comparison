@@ -7,9 +7,9 @@ description:
 
 
 
-## I18N-SAMPLE
+## 🔬 I18N-SAMPLE
 
-[📄 Input HTML](/html/PDFreactor%20Examples/i18n/i18n-sample.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/i18n/i18n-sample.html)
 
 ### Output PDF
 

@@ -7,9 +7,9 @@ description:
 
 
 
-## ACCESSIBILITY
+## 🔬 ACCESSIBILITY
 
-[📄 Input HTML](/html/PDFreactor%20Examples/accessibility/accessibility.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/accessibility/accessibility.html)
 
 ### Output PDF
 

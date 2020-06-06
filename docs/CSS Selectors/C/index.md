@@ -7,9 +7,9 @@ description:
 
 
 
-## CHECKED
+## 🔬 CHECKED
 
-[📄 Input HTML](/html/CSS%20Selectors/C/checked.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/C/checked.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_C_checked.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_C_checked.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_C_checked.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_C_checked.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_C_checked.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_checked.html.pdf) |
 
-## CHILD
+## 🔬 CHILD
 
-[📄 Input HTML](/html/CSS%20Selectors/C/child.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/C/child.html)
 
 ### Output PDF
 
@@ -29,9 +29,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_C_child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_C_child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_C_child.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_C_child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_C_child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_C_child.html.pdf) |
 
-## CLASS
+## 🔬 CLASS
 
-[📄 Input HTML](/html/CSS%20Selectors/C/class.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/C/class.html)
 
 ### Output PDF
 

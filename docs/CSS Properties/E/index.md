@@ -7,9 +7,9 @@ description:
 
 
 
-## EMPTY-CELLS
+## 🔬 EMPTY-CELLS
 
-[📄 Input HTML](/html/CSS%20Properties/E/empty-cells.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/E/empty-cells.html)
 
 ### Output PDF
 

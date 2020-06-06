@@ -7,9 +7,9 @@ description:
 
 
 
-## SELECTION
+## 🔬 SELECTION
 
-[📄 Input HTML](/html/CSS%20Selectors/S/selection.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/S/selection.html)
 
 ### Output PDF
 

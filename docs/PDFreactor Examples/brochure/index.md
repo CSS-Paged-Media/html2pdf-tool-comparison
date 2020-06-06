@@ -16,9 +16,9 @@ description:
                             </a>
 </div>
 
-## BROCHURE
+## 🔬 BROCHURE
 
-[📄 Input HTML](/html/PDFreactor%20Examples/brochure/brochure.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/brochure/brochure.html)
 
 ### Output PDF
 

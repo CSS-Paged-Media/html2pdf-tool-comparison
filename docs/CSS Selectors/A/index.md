@@ -7,9 +7,9 @@ description:
 
 
 
-## ACTIVE
+## 🔬 ACTIVE
 
-[📄 Input HTML](/html/CSS%20Selectors/A/active.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/active.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_A_active.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_active.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_active.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_A_active.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_active.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_active.html.pdf) |
 
-## ADJACENT-SIBLING
+## 🔬 ADJACENT-SIBLING
 
-[📄 Input HTML](/html/CSS%20Selectors/A/adjacent-sibling.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/adjacent-sibling.html)
 
 ### Output PDF
 
@@ -29,9 +29,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_adjacent-sibling.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_A_adjacent-sibling.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_adjacent-sibling.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_adjacent-sibling.html.pdf) |
 
-## AFTER
+## 🔬 AFTER
 
-[📄 Input HTML](/html/CSS%20Selectors/A/after.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/after.html)
 
 ### Output PDF
 
@@ -40,9 +40,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_A_after.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_after.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_after.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_A_after.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_after.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_after.html.pdf) |
 
-## ANY-LINK
+## 🔬 ANY-LINK
 
-[📄 Input HTML](/html/CSS%20Selectors/A/any-link.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/any-link.html)
 
 ### Output PDF
 
@@ -51,9 +51,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_A_any-link.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_A_any-link.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_A_any-link.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_A_any-link.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_A_any-link.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_A_any-link.html.pdf) |
 
-## ATTRIBUTE
+## 🔬 ATTRIBUTE
 
-[📄 Input HTML](/html/CSS%20Selectors/A/attribute.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/A/attribute.html)
 
 ### Output PDF
 

@@ -7,9 +7,9 @@ description:
 
 
 
-## UNICODE-BIDI
+## 🔬 UNICODE-BIDI
 
-[📄 Input HTML](/html/CSS%20Properties/U/unicode-bidi.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/U/unicode-bidi.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_U_unicode-bidi.html.png) | ![typeset Preview](typeset__html_CSS_Properties_U_unicode-bidi.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_U_unicode-bidi.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_U_unicode-bidi.html.pdf) |
 
-## USER-SELECT
+## 🔬 USER-SELECT
 
-[📄 Input HTML](/html/CSS%20Properties/U/user-select.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/U/user-select.html)
 
 ### Output PDF
 

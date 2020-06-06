@@ -12,9 +12,9 @@ description:
                             </a>
 </div>
 
-## WIZARDOFOZ
+## 🔬 WIZARDOFOZ
 
-[📄 Input HTML](/html/PDFreactor%20Examples/novel/wizardOfOz.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/novel/wizardOfOz.html)
 
 ### Output PDF
 
@@ -23,9 +23,9 @@ description:
 | ![mPDF Preview](mpdf__html_PDFreactor_Examples_novel_wizardOfOz.html.png) | ![typeset Preview](typeset__html_PDFreactor_Examples_novel_wizardOfOz.html.png) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_novel_wizardOfOz.html.png) |
 | [📕 mPDF Output](mpdf__html_PDFreactor_Examples_novel_wizardOfOz.html.pdf) | [📕 typeset Output](typeset__html_PDFreactor_Examples_novel_wizardOfOz.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_novel_wizardOfOz.html.pdf) |
 
-## WIZARDOFOZXSLT
+## 🔬 WIZARDOFOZXSLT
 
-[📄 Input HTML](/html/PDFreactor%20Examples/novel/wizardOfOzXSLT.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/novel/wizardOfOzXSLT.html)
 
 ### Output PDF
 

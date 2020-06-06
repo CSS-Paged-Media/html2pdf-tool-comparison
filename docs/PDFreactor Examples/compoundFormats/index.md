@@ -16,9 +16,9 @@ description:
                             </a>
 </div>
 
-## COMPOUNDFORMATS
+## 🔬 COMPOUNDFORMATS
 
-[📄 Input HTML](/html/PDFreactor%20Examples/compoundFormats/compoundFormats.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/compoundFormats/compoundFormats.html)
 
 ### Output PDF
 

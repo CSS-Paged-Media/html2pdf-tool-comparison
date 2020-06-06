@@ -12,9 +12,9 @@ description:
                             </a>
 </div>
 
-## NEWSPAPER
+## 🔬 NEWSPAPER
 
-[📄 Input HTML](/html/PDFreactor%20Examples/newspaper/newspaper.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/newspaper/newspaper.html)
 
 ### Output PDF
 

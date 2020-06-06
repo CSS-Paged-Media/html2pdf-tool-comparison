@@ -7,9 +7,9 @@ description:
 
 
 
-## FLEXBOX
+## 🔬 FLEXBOX
 
-[📄 Input HTML](/html/PDFreactor%20Examples/flexbox/flexbox.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/flexbox/flexbox.html)
 
 ### Output PDF
 

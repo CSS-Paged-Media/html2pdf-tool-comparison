@@ -7,9 +7,9 @@ description:
 
 
 
-## DEFAULT
+## 🔬 DEFAULT
 
-[📄 Input HTML](/html/CSS%20Selectors/D/default.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/default.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_D_default.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_D_default.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_default.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_D_default.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_D_default.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_default.html.pdf) |
 
-## DESCENDANT
+## 🔬 DESCENDANT
 
-[📄 Input HTML](/html/CSS%20Selectors/D/descendant.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/descendant.html)
 
 ### Output PDF
 
@@ -29,9 +29,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_D_descendant.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_D_descendant.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_descendant.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_D_descendant.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_D_descendant.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_descendant.html.pdf) |
 
-## DIR
+## 🔬 DIR
 
-[📄 Input HTML](/html/CSS%20Selectors/D/dir.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/dir.html)
 
 ### Output PDF
 
@@ -40,9 +40,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_D_dir.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_D_dir.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_D_dir.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_D_dir.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_D_dir.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_D_dir.html.pdf) |
 
-## DISABLED
+## 🔬 DISABLED
 
-[📄 Input HTML](/html/CSS%20Selectors/D/disabled.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/D/disabled.html)
 
 ### Output PDF
 

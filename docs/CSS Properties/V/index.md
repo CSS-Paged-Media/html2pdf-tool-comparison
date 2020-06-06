@@ -7,9 +7,9 @@ description:
 
 
 
-## VERTICAL-ALIGN
+## 🔬 VERTICAL-ALIGN
 
-[📄 Input HTML](/html/CSS%20Properties/V/vertical-align.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/V/vertical-align.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_V_vertical-align.html.png) | ![typeset Preview](typeset__html_CSS_Properties_V_vertical-align.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_V_vertical-align.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_V_vertical-align.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_V_vertical-align.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_V_vertical-align.html.pdf) |
 
-## VISIBILITY
+## 🔬 VISIBILITY
 
-[📄 Input HTML](/html/CSS%20Properties/V/visibility.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/V/visibility.html)
 
 ### Output PDF
 

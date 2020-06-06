@@ -7,9 +7,9 @@ description:
 
 
 
-## PADDING
+## 🔬 PADDING
 
-[📄 Input HTML](/html/CSS%20Properties/P/padding.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/padding.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_P_padding.html.png) | ![typeset Preview](typeset__html_CSS_Properties_P_padding.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_P_padding.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_P_padding.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_P_padding.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_padding.html.pdf) |
 
-## PERSPECTIVE-ORIGIN
+## 🔬 PERSPECTIVE-ORIGIN
 
-[📄 Input HTML](/html/CSS%20Properties/P/perspective-origin.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/perspective-origin.html)
 
 ### Output PDF
 
@@ -29,9 +29,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_P_perspective-origin.html.png) | ![typeset Preview](typeset__html_CSS_Properties_P_perspective-origin.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_P_perspective-origin.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_P_perspective-origin.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_P_perspective-origin.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_perspective-origin.html.pdf) |
 
-## PERSPECTIVE
+## 🔬 PERSPECTIVE
 
-[📄 Input HTML](/html/CSS%20Properties/P/perspective.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/perspective.html)
 
 ### Output PDF
 
@@ -40,9 +40,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_P_perspective.html.png) | ![typeset Preview](typeset__html_CSS_Properties_P_perspective.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_P_perspective.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_P_perspective.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_P_perspective.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_P_perspective.html.pdf) |
 
-## POSITION
+## 🔬 POSITION
 
-[📄 Input HTML](/html/CSS%20Properties/P/position.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/P/position.html)
 
 ### Output PDF
 

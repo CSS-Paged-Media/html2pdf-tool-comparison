@@ -12,9 +12,9 @@ description:
                             </a>
 </div>
 
-## INVOICE
+## 🔬 INVOICE
 
-[📄 Input HTML](/html/PDFreactor%20Examples/invoice/invoice.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/invoice/invoice.html)
 
 ### Output PDF
 

@@ -7,9 +7,9 @@ description:
 
 
 
-## MULTICOLUMN
+## 🔬 MULTICOLUMN
 
-[📄 Input HTML](/html/PDFreactor%20Examples/multicolumn/multicolumn.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/multicolumn/multicolumn.html)
 
 ### Output PDF
 

@@ -7,9 +7,9 @@ description:
 
 
 
-## REGIONS
+## 🔬 REGIONS
 
-[📄 Input HTML](/html/PDFreactor%20Examples/regions/regions.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/regions/regions.html)
 
 ### Output PDF
 

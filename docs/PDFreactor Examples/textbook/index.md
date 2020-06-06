@@ -16,9 +16,9 @@ description:
                             </a>
 </div>
 
-## TEXTBOOK
+## 🔬 TEXTBOOK
 
-[📄 Input HTML](/html/PDFreactor%20Examples/textbook/textbook.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/PDFreactor%20Examples/textbook/textbook.html)
 
 ### Output PDF
 

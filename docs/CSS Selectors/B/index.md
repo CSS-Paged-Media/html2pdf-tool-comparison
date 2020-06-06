@@ -7,9 +7,9 @@ description:
 
 
 
-## BEFORE
+## 🔬 BEFORE
 
-[📄 Input HTML](/html/CSS%20Selectors/B/before.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/B/before.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_B_before.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_B_before.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_B_before.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_B_before.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_B_before.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_B_before.html.pdf) |
 
-## BLANK
+## 🔬 BLANK
 
-[📄 Input HTML](/html/CSS%20Selectors/B/blank.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/B/blank.html)
 
 ### Output PDF
 

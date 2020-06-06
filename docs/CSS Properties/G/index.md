@@ -7,9 +7,9 @@ description:
 
 
 
-## GRID-ROW-COLUMN
+## 🔬 GRID-ROW-COLUMN
 
-[📄 Input HTML](/html/CSS%20Properties/G/grid-row-column.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/G/grid-row-column.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Properties_G_grid-row-column.html.png) | ![typeset Preview](typeset__html_CSS_Properties_G_grid-row-column.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Properties_G_grid-row-column.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Properties_G_grid-row-column.html.pdf) | [📕 typeset Output](typeset__html_CSS_Properties_G_grid-row-column.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Properties_G_grid-row-column.html.pdf) |
 
-## GRID-TEMPLATE-COLUMNS-ROWS
+## 🔬 GRID-TEMPLATE-COLUMNS-ROWS
 
-[📄 Input HTML](/html/CSS%20Properties/G/grid-template-columns-rows.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/G/grid-template-columns-rows.html)
 
 ### Output PDF
 

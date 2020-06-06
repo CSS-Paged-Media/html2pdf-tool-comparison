@@ -7,9 +7,9 @@ description:
 
 
 
-## LANG
+## 🔬 LANG
 
-[📄 Input HTML](/html/CSS%20Selectors/L/lang.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/L/lang.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_L_lang.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_lang.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_lang.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_L_lang.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_lang.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_lang.html.pdf) |
 
-## LAST-CHILD
+## 🔬 LAST-CHILD
 
-[📄 Input HTML](/html/CSS%20Selectors/L/last-child.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/L/last-child.html)
 
 ### Output PDF
 
@@ -29,9 +29,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_L_last-child.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_last-child.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-child.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-child.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_last-child.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-child.html.pdf) |
 
-## LAST-OF-TYPE
+## 🔬 LAST-OF-TYPE
 
-[📄 Input HTML](/html/CSS%20Selectors/L/last-of-type.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/L/last-of-type.html)
 
 ### Output PDF
 
@@ -40,9 +40,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_L_last-of-type.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_L_last-of-type.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_L_last-of-type.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_L_last-of-type.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_L_last-of-type.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_L_last-of-type.html.pdf) |
 
-## LINK
+## 🔬 LINK
 
-[📄 Input HTML](/html/CSS%20Selectors/L/link.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/L/link.html)
 
 ### Output PDF
 

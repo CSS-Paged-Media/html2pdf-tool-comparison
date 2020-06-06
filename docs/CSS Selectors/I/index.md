@@ -7,9 +7,9 @@ description:
 
 
 
-## ID
+## 🔬 ID
 
-[📄 Input HTML](/html/CSS%20Selectors/I/id.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/id.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_I_id.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_I_id.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_I_id.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_I_id.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_I_id.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_id.html.pdf) |
 
-## IN-RANGE
+## 🔬 IN-RANGE
 
-[📄 Input HTML](/html/CSS%20Selectors/I/in-range.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/in-range.html)
 
 ### Output PDF
 
@@ -29,9 +29,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_I_in-range.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_I_in-range.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_I_in-range.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_I_in-range.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_I_in-range.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_in-range.html.pdf) |
 
-## INVALID
+## 🔬 INVALID
 
-[📄 Input HTML](/html/CSS%20Selectors/I/invalid.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/invalid.html)
 
 ### Output PDF
 
@@ -40,9 +40,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_I_invalid.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_I_invalid.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_I_invalid.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_I_invalid.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_I_invalid.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_I_invalid.html.pdf) |
 
-## IS
+## 🔬 IS
 
-[📄 Input HTML](/html/CSS%20Selectors/I/is.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/I/is.html)
 
 ### Output PDF
 

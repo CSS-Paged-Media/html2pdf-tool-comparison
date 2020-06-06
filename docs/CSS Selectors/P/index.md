@@ -7,9 +7,9 @@ description:
 
 
 
-## PLACEHOLDER-SHOWN
+## 🔬 PLACEHOLDER-SHOWN
 
-[📄 Input HTML](/html/CSS%20Selectors/P/placeholder-shown.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/P/placeholder-shown.html)
 
 ### Output PDF
 
@@ -18,9 +18,9 @@ description:
 | ![mPDF Preview](mpdf__html_CSS_Selectors_P_placeholder-shown.html.png) | ![typeset Preview](typeset__html_CSS_Selectors_P_placeholder-shown.html.png) | ![PDFreactor Preview](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.png) |
 | [📕 mPDF Output](mpdf__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 typeset Output](typeset__html_CSS_Selectors_P_placeholder-shown.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_CSS_Selectors_P_placeholder-shown.html.pdf) |
 
-## PLACEHOLDER
+## 🔬 PLACEHOLDER
 
-[📄 Input HTML](/html/CSS%20Selectors/P/placeholder.html)
+[📄 Input HTML](https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/P/placeholder.html)
 
 ### Output PDF
 
