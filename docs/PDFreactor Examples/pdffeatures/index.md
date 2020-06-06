@@ -18,7 +18,8 @@ description:
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
-| ![mPDF Preview](mpdf__html_PDFreactor_Examples_pdffeatures_bookmarks.html.png) [📕 mPDF Output](mpdf__html_PDFreactor_Examples_pdffeatures_bookmarks.html.pdf) | ![typeset Preview](typeset__html_PDFreactor_Examples_pdffeatures_bookmarks.html.png) [📕 typeset Output](typeset__html_PDFreactor_Examples_pdffeatures_bookmarks.html.pdf) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_pdffeatures_bookmarks.html.png) [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_pdffeatures_bookmarks.html.pdf)
+| ![mPDF Preview](mpdf__html_PDFreactor_Examples_pdffeatures_bookmarks.html.png) | ![typeset Preview](typeset__html_PDFreactor_Examples_pdffeatures_bookmarks.html.png) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_pdffeatures_bookmarks.html.png) |
+| [📕 mPDF Output](mpdf__html_PDFreactor_Examples_pdffeatures_bookmarks.html.pdf) | [📕 typeset Output](typeset__html_PDFreactor_Examples_pdffeatures_bookmarks.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_pdffeatures_bookmarks.html.pdf) |
 
 ## COMMENTS
 
@@ -26,6 +27,7 @@ description:
 
 | mPDF | typeset.sh | PDFreactor |
 |---------|---------|---------|
-| ![mPDF Preview](mpdf__html_PDFreactor_Examples_pdffeatures_comments.html.png) [📕 mPDF Output](mpdf__html_PDFreactor_Examples_pdffeatures_comments.html.pdf) | ![typeset Preview](typeset__html_PDFreactor_Examples_pdffeatures_comments.html.png) [📕 typeset Output](typeset__html_PDFreactor_Examples_pdffeatures_comments.html.pdf) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_pdffeatures_comments.html.png) [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_pdffeatures_comments.html.pdf)
+| ![mPDF Preview](mpdf__html_PDFreactor_Examples_pdffeatures_comments.html.png) | ![typeset Preview](typeset__html_PDFreactor_Examples_pdffeatures_comments.html.png) | ![PDFreactor Preview](pdfreactor__html_PDFreactor_Examples_pdffeatures_comments.html.png) |
+| [📕 mPDF Output](mpdf__html_PDFreactor_Examples_pdffeatures_comments.html.pdf) | [📕 typeset Output](typeset__html_PDFreactor_Examples_pdffeatures_comments.html.pdf) | [📕 PDFreactor Output](pdfreactor__html_PDFreactor_Examples_pdffeatures_comments.html.pdf) |
 
 
