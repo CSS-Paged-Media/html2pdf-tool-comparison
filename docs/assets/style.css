@@ -30,19 +30,17 @@ a:visited,a:hover,a:active{
 }
 
 .boxes{
-    display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));grid-gap:2rem;margin:2rem
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));grid-gap:2rem;
 }
 
 .boxes a{
-    padding:2rem;border:1vw solid;border-image:linear-gradient(45deg,#00b131 8.33%,#f93753 8.33%,#f93753 16.67%,#f70 16.67%,#f70 25%,#edeb00 25%,#edeb00 33.33%,#195584 33.33%,#195584 41.67%,#7b598f 41.67%,#7b598f 50%,#00b131 50%,#00b131 58.33%,#f93753 58.33%,#f93753 66.67%,#f70 66.67%,#f70 75%,#edeb00 75%,#edeb00 83.33%,#195584 83.33%,#195584 91.67%,#7b598f 91.67%,#7b598f 100%) 6% stretch;text-decoration:none;font-weight:bold;font-size:1.4rem;background:#e0ffff
+    padding:2rem;border:1vw solid rgb(188, 11, 6);
+    
+    text-decoration:none;font-weight:bold;font-size:1.4rem;background:rgba(188, 11, 6, .2)
 }
     
 .boxes a span{color:#000;margin-top:2rem;display:block;font-weight:normal;font-size:1.2rem}
 
-
-.boxes a:hover{
-    border-image:linear-gradient(45deg,#7b598f 8.33%,#195584 8.33%,#195584 16.67%,#edeb00 16.67%,#edeb00 25%,#f70 25%,#f70 33.33%,#f93753 33.33%,#f93753 41.67%,#00b131 41.67%,#00b131 50%,#7b598f 50%,#7b598f 58.33%,#195584 58.33%,#195584 66.67%,#edeb00 66.67%,#edeb00 75%,#f70 75%,#f70 83.33%,#f93753 83.33%,#f93753 91.67%,#00b131 91.67%,#00b131 100%) 6% stretch
-}
     
 h1{
     letter-spacing:.2em;
