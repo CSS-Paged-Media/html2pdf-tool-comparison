@@ -18,6 +18,10 @@ description: Test Section 'Paged Media' to compare different html2pdf tools.
                             <a href="/Paged-Media/Page-Selectors/">
                                 Page Selectors
                             </a>
+
+                            <a href="/Paged-Media/Page-Size/">
+                                Page Size
+                            </a>
 </div>
 
 

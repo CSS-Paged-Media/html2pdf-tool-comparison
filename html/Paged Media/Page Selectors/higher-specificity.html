@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            h2{
+                page-break-before: always;
+                page-break-after: always;
+            }
+            
+            @page:first {
+                color: green;
+
+                @top-left {
+                    content: "Hello";
+                    color: blue;
+                }
+                @top-right {
+                    content: "World!";
+                }
+            }
+
+            @page { 
+                color: red;
+
+                @top-center {
+                    content: "Hello World!";
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+    </body>
+</html>

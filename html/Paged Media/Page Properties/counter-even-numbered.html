@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            h2{
+                page-break-before: always;
+                page-break-after: always;
+            }
+            @page{
+                @top-center {
+                    font-weight: bold;
+                    font-size: 2em;
+                    content: counter(page);
+                }
+            }
+
+            @page {
+                counter-increment: page 2;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+    </body>
+</html>

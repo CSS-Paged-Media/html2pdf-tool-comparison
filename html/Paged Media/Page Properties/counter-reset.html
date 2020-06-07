@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                counter-reset: chapter;
+            }
+            h2{
+                page-break-before: always;
+                page-break-after: always;
+            }
+            h2:before {
+                content: "Chapter " counter(chapter) ". ";
+                counter-increment: chapter;
+            }
+            #reset{
+                counter-reset: chapter;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2 id="reset">Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+        <h2>Page</h2>
+    </body>
+</html>
