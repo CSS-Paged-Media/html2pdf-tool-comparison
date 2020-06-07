@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <style>
+html,body
+{
+	height:100%;
+	margin:0;
+	padding:0
+}
+
+body
+{
+	font-size:1.2rem;
+	font-family:monospace
+}
+
+a
+{
+	color:#195584
+}
+
+a:visited,a:hover,a:active
+{
+	color:#7b598f
+}
+
+.boxes
+{
+	display:grid;
+	grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+	grid-gap:2rem;
+	margin:2rem
+}
+
+.boxes a
+{
+	padding:2rem;
+	border:1vw solid;
+	text-decoration:none;
+	font-weight:700;
+	font-size:1.4rem;
+	background:#e0ffff
+}
+
+.boxes a span
+{
+	color:#000;
+	margin-top:2rem;
+	display:block;
+	font-weight:400;
+	font-size:1.2rem
+}
+
+h1
+{
+	letter-spacing:.2em;
+	padding:2rem;
+	padding-top:0;
+	margin:0;
+	overflow:hidden;
+	font-weight:700
+}
+
+	@page
+	{
+		margin:2cm;
+		background:#ffffe0
+	}
+
+	img{
+		max-width: 100%;
+	}
+
+	@page:first
+	{
+		@top-right{
+			content: "";
+		}
+		@top-left{
+			content: "";
+		}
+		@bottom-right{
+			content: "";
+		}
+		@bottom-left{
+			content: "";
+		}
+		margin-top:6cm
+	}
+
+	@page:left
+	{
+		@top-left{
+			content: "Create Color Images from HEX colors with PHP";
+		}
+		@bottom-right{
+			content: counter(page);
+		}
+		margin-right:4cm
+	}
+
+	@page:right
+	{
+		@top-right{
+			content: "Create Color Images from HEX colors with PHP";
+		}
+		@bottom-left{
+			content: counter(page);
+		}
+		margin-left:4cm
+	}
+
+	body
+	{
+		font-size:24pt
+	}
+
+	html *,a,a:visited,a:hover,a:active
+	{
+		color:#000;
+		font-family:Georgia,serif
+	}
+
+	code{
+		word-break:break-word;
+	}
+
+	a:after
+	{
+		display:block;
+		margin-top:1cm;
+		content:attr(href);
+		overflow-wrap:break-word;
+		word-wrap:break-word;
+		-ms-word-break:break-all;
+		word-break:break-all;
+		word-break:break-word;
+		-ms-hyphens:auto;
+		-moz-hyphens:auto;
+		-webkit-hyphens:auto;
+		hyphens:auto
+	}
+
+	h2
+	{
+		page-break-before:always
+	}
+
+	h2:nth-child(1):before
+	{
+		page-break-after:always;
+		display:block;
+		font-size:1.4rem;
+		font-weight:400;
+		content:"Source: https://convertingcolors.com/blog/article/create_color_images_from_hex_colors_with_php.html"
+	}
+
+	h1:after
+	{
+		display:block;
+		margin-top:4cm;
+		content:"Beautiful Color Palettes with PHP";
+		line-height:12vw;
+		font-size:6vw
+	}
+
+	.boxes
+	{
+		display:block
+	}
+
+	.boxes a
+	{
+		page-break-inside:avoid;
+		display:block;
+		width:calc(100vw - 4cm);
+		margin-bottom:1cm;
+		padding:1cm;
+		border:1mm solid;
+		border-color:#000;
+		border-image:none
+	}
+
+	.boxes a span
+	{
+		font-size:1.4rem
+	}
+
+	
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #23241f;
+  }
+  
+  .hljs,
+  .hljs-tag,
+  .hljs-subst {
+    color: #f8f8f2;
+  }
+  
+  .hljs-strong,
+  .hljs-emphasis {
+    color: #a8a8a2;
+  }
+  
+  .hljs-bullet,
+  .hljs-quote,
+  .hljs-number,
+  .hljs-regexp,
+  .hljs-literal,
+  .hljs-link {
+    color: #ae81ff;
+  }
+  
+  .hljs-code,
+  .hljs-title,
+  .hljs-section,
+  .hljs-selector-class {
+    color: #a6e22e;
+  }
+  
+  .hljs-strong {
+    font-weight: bold;
+  }
+  
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-name,
+  .hljs-attr {
+    color: #f92672;
+  }
+  
+  .hljs-symbol,
+  .hljs-attribute {
+    color: #66d9ef;
+  }
+  
+  .hljs-params,
+  .hljs-class .hljs-title {
+    color: #f8f8f2;
+  }
+  
+  .hljs-string,
+  .hljs-type,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-selector-id,
+  .hljs-selector-attr,
+  .hljs-selector-pseudo,
+  .hljs-addition,
+  .hljs-variable,
+  .hljs-template-variable {
+    color: #e6db74;
+  }
+  
+  .hljs-comment,
+  .hljs-deletion,
+  .hljs-meta {
+    color: #75715e;
+  }
+    </style>
+  </head>
+  <body>
+	<header role="banner">
+		<h1>Create Color Images from HEX colors with PHP</h1>
+	</header>
+	<main role="main">
+		<p><img src="https://convertingcolors.com/images/create_color_images_from_hex_colors_with_php/result_6_colors.png" alt="Result six colors" title="Result six colors"></p>
+			<p>As a source for our image, we take a PHP array which contains the HEX values of the background and text colors we want to use for our image.</p>
+			<pre><code class="hljs php"><span class="hljs-meta">&lt;?php</span>
+				$aColors = [
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'E24667'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'FFFFFF'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'FFC9D5'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'000000'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'C046E2'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'000000'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'806066'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'FFFFFF'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'000000'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'FFFFFF'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'808080'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'FFFFFF'</span>
+					]
+				];</code></pre>
+			<p>Via <a href="https://www.php.net/array_walk" target="_blank" rel="noreferrer noopener">array_walk</a>, we add the RGB versions of the colors to the array by adding two new keys, background_rgb and text_rgb. We also add the text message we want to see on the image with the key text_msg.</p>
+			<pre><code class="hljs php">array_walk($aColors, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(&amp;$aColor, $key)</span></span>{</code></pre>
+			<p>Within the array_walk, we convert the <a href="https://convertingcolors.com/format-hex.html" target="_blank" rel="noreferrer noopener">HEX color</a> value to RGB. For details on the conversion, please see <a href="https://convertingcolors.com/blog/article/convert_hex_to_rgb_with_php.html" target="_blank" rel="noreferrer noopener">the blog post Convert HEX to RGB with PHP
+			</a>.</p>
+			<pre><code class="hljs php">    <span class="hljs-keyword">list</span>(
+					$iBackgroundRed, 
+					$iBackgroundGreen, 
+					$iBackgroundBlue
+				) = array_map(
+					<span class="hljs-string">'hexdec'</span>, 
+					str_split($aColor[<span class="hljs-string">'background'</span>], <span class="hljs-number">2</span>)
+				);</code></pre>
+			<p>Again we convert the <a href="https://convertingcolors.com/format-hex.html" target="_blank" rel="noreferrer noopener">HEX color</a>, but this time for the text color.</p>
+			<pre><code class="hljs php">    <span class="hljs-keyword">list</span>(
+					$iTextRed, 
+					$iTextGreen, 
+					$iTextBlue
+				) = array_map(
+					<span class="hljs-string">'hexdec'</span>, 
+					str_split($aColor[<span class="hljs-string">'text'</span>], <span class="hljs-number">2</span>)
+				);</code></pre>
+			<p>Then we add these values to our $aColor array and finally set the text message to the background <a href="https://convertingcolors.com/format-hex.html" target="_blank" rel="noreferrer noopener">HEX color</a>.</p>
+			<pre><code class="hljs php">    $aColor[<span class="hljs-string">'background_rgb'</span>] = [
+					<span class="hljs-string">'red'</span>   =&gt; $iBackgroundRed, 
+					<span class="hljs-string">'green'</span> =&gt; $iBackgroundGreen, 
+					<span class="hljs-string">'blue'</span>  =&gt; $iBackgroundBlue
+				];
+				$aColor[<span class="hljs-string">'text_rgb'</span>] = [
+					<span class="hljs-string">'red'</span>   =&gt; $iTextRed, 
+					<span class="hljs-string">'green'</span> =&gt; $iTextGreen, 
+					<span class="hljs-string">'blue'</span>  =&gt; $iTextBlue
+				];
+			
+				$aColor[<span class="hljs-string">'text_msg'</span>] = <span class="hljs-string">'#'</span> . $aColor[<span class="hljs-string">'background'</span>];
+			});</code></pre>
+			<p>After the extension of the array with the <a href="https://convertingcolors.com/format-rgb.html" target="_blank" rel="noreferrer noopener">RGB color</a> values, we define a new image object with the <a href="https://www.php.net/imagecreate" target="_blank" rel="noreferrer noopener">imagecreate</a> function. The width of the image is 1600 and the height 1200 pixel.</p>
+			<pre><code class="hljs php">$oImage         = imagecreate(<span class="hljs-number">1600</span>, <span class="hljs-number">1200</span>);</code></pre>
+			<p>We store the width and height in separate variables because we need them later for some calculations. Also, in that way, if you want to change the image size, you only need to change it in one place (the <a href="https://www.php.net/imagecreate" target="_blank" rel="noreferrer noopener">imagecreate</a> call).</p>
+			<pre><code class="hljs php">$iImageWidth    = imagesx($oImage);
+			$iImageHeight   = imagesy($oImage);</code></pre>
+			<p>For the text message we want to display, we need to have some font file for it. In this example, I use the <a href="https://www.fontsquirrel.com/fonts/amble" target="_blank" rel="noreferrer noopener">Amble font, which you can find here</a>.</p>
+			<pre><code class="hljs php">$sFontFile      = <span class="hljs-string">'fonts/amble/Amble-Bold.ttf'</span>;</code></pre>
+			<p>In the case we have multiple colors in our array, we want to show a color palette. If only one color is there, we show this color over the full image. For that, we need to divide the image width with the number of colors, so we get to know how wide each color section should be.</p>
+			<pre><code class="hljs php">$iColorWidth    = $iImageWidth / count($aColors);</code></pre>
+			<p>In each of these sections, we display the colors HEX code as a text message, and the length of the text should not overflow the width of a single color. Therefore we adjust the font size by dividing the color width by 6.</p>
+			<pre><code class="hljs php">$iFontSize      = $iColorWidth / <span class="hljs-number">6</span>;</code></pre>
+			<p>To know in our loop at which color we are right now, we also define a counter.</p>
+			<pre><code class="hljs php">$iColorCount    = <span class="hljs-number">0</span>;</code></pre>
+			<p>Now we can finally loop through the colors and put the colors and messages on the picture. First, we need to allocate the color for the image. That is also why we needed to convert our HEX values to RGB.</p>
+			<pre><code class="hljs php"><span class="hljs-keyword">foreach</span>($aColors <span class="hljs-keyword">as</span> $aColor){
+			
+				$iBackgroundColor = imagecolorallocate(
+					$oImage, 
+					$aColor[<span class="hljs-string">'background_rgb'</span>][<span class="hljs-string">'red'</span>], 
+					$aColor[<span class="hljs-string">'background_rgb'</span>][<span class="hljs-string">'green'</span>], 
+					$aColor[<span class="hljs-string">'background_rgb'</span>][<span class="hljs-string">'blue'</span>]
+				);
+				$iTextColor       = imagecolorallocate(
+					$oImage, 
+					$aColor[<span class="hljs-string">'text_rgb'</span>][<span class="hljs-string">'red'</span>], 
+					$aColor[<span class="hljs-string">'text_rgb'</span>][<span class="hljs-string">'green'</span>], 
+					$aColor[<span class="hljs-string">'text_rgb'</span>][<span class="hljs-string">'blue'</span>]
+				);</code></pre>
+			<p>Now it is time to set the background color on the correct pixels, and for this, we use <a href="https://www.php.net/imagesetpixel" target="_blank" rel="noreferrer noopener">imagesetpixel</a>. We loop through all pixels for this color's width, and the image height as all colors should show from top to bottom.</p>
+			<pre><code class="hljs php">    <span class="hljs-keyword">for</span>($iX = <span class="hljs-number">0</span>; $iX &lt; $iColorWidth; $iX++){
+					<span class="hljs-keyword">for</span>($iY = <span class="hljs-number">0</span>; $iY &lt; $iImageHeight; $iY++){
+						imagesetpixel(
+							$oImage, 
+							$iX + ($iColorCount * $iColorWidth), 
+							$iY, 
+							$iBackgroundColor
+						);
+					}
+				}</code></pre>
+			<p>To figure out where to place our text, so it is in the center of the color section (color width and image height), we get the bounding box (<a href="https://www.php.net/imagettfbbox" target="_blank" rel="noreferrer noopener">imagettfbbox</a>) of our text message using the font file we defined above.</p>
+			<pre><code class="hljs php">    $aBoundingBox = imagettfbbox($iFontSize, <span class="hljs-number">0</span>, $sFontFile, $aColor[<span class="hljs-string">'text_msg'</span>]);</code></pre>
+			<p>Now we take the lower right corner, X position ($aBoundingBox[2]) and the upper right corner, X position ($aBoundingBox[4]), and get the higher value via the <a href="https://www.php.net/max" target="_blank" rel="noreferrer noopener">max</a> function, <a href="https://www.php.net/abs" target="_blank" rel="noreferrer noopener">abs</a> returns us an absolute value of the higher number. This way, we get the width of the text.</p>
+			<p>Same we do for the upper right corner, Y position ($aBoundingBox[5]) and the upper left corner, Y position ($aBoundingBox[7]). With this, we get the height of our text message.</p>
+			<pre><code class="hljs php">    $iTextWidth  = abs(max($aBoundingBox[<span class="hljs-number">2</span>], $aBoundingBox[<span class="hljs-number">4</span>]));
+				$iTextHeight = abs(max($aBoundingBox[<span class="hljs-number">5</span>], $aBoundingBox[<span class="hljs-number">7</span>]));</code></pre>
+			<p>With the help of the text size, we can calculate the X and Y coordinates of the messages on our main image.</p>
+			<pre><code class="hljs php">    $iTextXCoordinate = intval(($iColorWidth - $iTextWidth) / <span class="hljs-number">2</span>);
+				$iTextYCoordinate = intval(($iImageHeight + $iTextHeight) / <span class="hljs-number">2</span>);</code></pre>
+			<p>Lastly, we set the text on the actual image, and at the end of the foreach loop through the colors, the counter gets increased. </p>
+			<pre><code class="hljs php">    imagettftext(
+					$oImage, 
+					$iFontSize, 
+					<span class="hljs-number">0</span>, 
+					($iTextXCoordinate + ($iColorCount * $iColorWidth)), 
+					$iTextYCoordinate, 
+					$iTextColor, 
+					$sFontFile, 
+					$aColor[<span class="hljs-string">'text_msg'</span>]
+				);
+			
+				$iColorCount++;
+			}</code></pre>
+			<p>If we directly want to show the image, then we need to set the Content-Type via the <a href="https://www.php.net/header" target="_blank" rel="noreferrer noopener">header</a> function and print the image with the <a href="https://www.php.net/imagepng" target="_blank" rel="noreferrer noopener">imagepng</a> function.</p>
+			<pre><code class="hljs php">header(<span class="hljs-string">"Content-Type: image/png"</span>);
+			imagepng($oImage);</code></pre>
+			<p>If the image should be stored instead, we need to pass the file path for the new image as the second parameter to the <a href="https://www.php.net/imagepng" target="_blank" rel="noreferrer noopener">imagepng</a> function.</p>
+			<pre><code class="hljs php">imagepng($oImage, <span class="hljs-string">'myimage.png'</span>);</code></pre>
+			<p>After showing or storing the image, we destroy it to free any memory associated with the image object.</p>
+			<pre><code class="hljs php">imagedestroy($oImage);</code></pre>
+			<h2>The Result</h2>
+			<h3>One Color</h3>
+			<p><img src="https://convertingcolors.com/images/create_color_images_from_hex_colors_with_php/result_1_color.png" alt="Result one color" title="Result one color"></p>
+			<h3>Two Colors</h3>
+			<p><img src="https://convertingcolors.com/images/create_color_images_from_hex_colors_with_php/result_2_colors.png" alt="Result two colors" title="Result two colors"></p>
+			<h3>Four Colors</h3>
+			<p><img src="https://convertingcolors.com/images/create_color_images_from_hex_colors_with_php/result_4_colors.png" alt="Result four colors" title="Result four colors"></p>
+			<h3>Six Colors</h3>
+			<p><img src="https://convertingcolors.com/images/create_color_images_from_hex_colors_with_php/result_6_colors.png" alt="Result six colors" title="Result six colors"></p>
+			<h2>The Complete Code</h2>
+			<pre><code class="hljs php"><span class="hljs-meta">&lt;?php</span>
+				$aColors = [
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'E24667'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'FFFFFF'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'FFC9D5'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'000000'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'C046E2'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'000000'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'806066'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'FFFFFF'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'000000'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'FFFFFF'</span>
+					],
+					[
+						<span class="hljs-string">'background'</span> =&gt; <span class="hljs-string">'808080'</span>,
+						<span class="hljs-string">'text'</span>       =&gt; <span class="hljs-string">'FFFFFF'</span>
+					]
+				];
+			
+				array_walk($aColors, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(&amp;$aColor, $key)</span></span>{
+					<span class="hljs-keyword">list</span>(
+						$iBackgroundRed, 
+						$iBackgroundGreen, 
+						$iBackgroundBlue
+					) = array_map(
+						<span class="hljs-string">'hexdec'</span>, 
+						str_split($aColor[<span class="hljs-string">'background'</span>], <span class="hljs-number">2</span>)
+					);
+			
+					<span class="hljs-keyword">list</span>(
+						$iTextRed, 
+						$iTextGreen, 
+						$iTextBlue
+					) = array_map(
+						<span class="hljs-string">'hexdec'</span>, 
+						str_split($aColor[<span class="hljs-string">'text'</span>], <span class="hljs-number">2</span>)
+					);
+			
+					$aColor[<span class="hljs-string">'background_rgb'</span>] = [
+						<span class="hljs-string">'red'</span>   =&gt; $iBackgroundRed, 
+						<span class="hljs-string">'green'</span> =&gt; $iBackgroundGreen, 
+						<span class="hljs-string">'blue'</span>  =&gt; $iBackgroundBlue
+					];
+					$aColor[<span class="hljs-string">'text_rgb'</span>] = [
+						<span class="hljs-string">'red'</span>   =&gt; $iTextRed, 
+						<span class="hljs-string">'green'</span> =&gt; $iTextGreen, 
+						<span class="hljs-string">'blue'</span>  =&gt; $iTextBlue
+					];
+			
+					$aColor[<span class="hljs-string">'text_msg'</span>] = <span class="hljs-string">'#'</span> . $aColor[<span class="hljs-string">'background'</span>];
+				});
+			
+				$oImage         = imagecreate(<span class="hljs-number">1600</span>, <span class="hljs-number">1200</span>);
+				$iImageWidth    = imagesx($oImage);
+				$iImageHeight   = imagesy($oImage);
+			
+				$sFontFile      = <span class="hljs-string">'fonts/amble/Amble-Bold.ttf'</span>;
+				$iColorWidth    = $iImageWidth / count($aColors);
+				$iFontSize      = $iColorWidth / <span class="hljs-number">6</span>;
+				$iColorCount    = <span class="hljs-number">0</span>;
+			
+				<span class="hljs-keyword">foreach</span>($aColors <span class="hljs-keyword">as</span> $aColor){
+					$iBackgroundColor = imagecolorallocate(
+						$oImage, 
+						$aColor[<span class="hljs-string">'background_rgb'</span>][<span class="hljs-string">'red'</span>], 
+						$aColor[<span class="hljs-string">'background_rgb'</span>][<span class="hljs-string">'green'</span>], 
+						$aColor[<span class="hljs-string">'background_rgb'</span>][<span class="hljs-string">'blue'</span>]
+					);
+					$iTextColor       = imagecolorallocate(
+						$oImage, 
+						$aColor[<span class="hljs-string">'text_rgb'</span>][<span class="hljs-string">'red'</span>], 
+						$aColor[<span class="hljs-string">'text_rgb'</span>][<span class="hljs-string">'green'</span>], 
+						$aColor[<span class="hljs-string">'text_rgb'</span>][<span class="hljs-string">'blue'</span>]
+					);
+			
+					<span class="hljs-keyword">for</span>($iX = <span class="hljs-number">0</span>; $iX &lt; $iColorWidth; $iX++){
+						<span class="hljs-keyword">for</span>($iY = <span class="hljs-number">0</span>; $iY &lt; $iImageHeight; $iY++){
+							imagesetpixel(
+								$oImage, 
+								$iX + ($iColorCount * $iColorWidth), 
+								$iY, 
+								$iBackgroundColor
+							);
+						}
+					}
+			
+					$aBoundingBox = imagettfbbox($iFontSize, <span class="hljs-number">0</span>, $sFontFile, $aColor[<span class="hljs-string">'text_msg'</span>]);
+			
+					$iTextWidth  = abs(max($aBoundingBox[<span class="hljs-number">2</span>], $aBoundingBox[<span class="hljs-number">4</span>]));
+					$iTextHeight = abs(max($aBoundingBox[<span class="hljs-number">5</span>], $aBoundingBox[<span class="hljs-number">7</span>]));
+			
+					$iTextXCoordinate = intval(($iColorWidth - $iTextWidth) / <span class="hljs-number">2</span>);
+					$iTextYCoordinate = intval(($iImageHeight + $iTextHeight) / <span class="hljs-number">2</span>);
+			
+					imagettftext(
+						$oImage, 
+						$iFontSize, 
+						<span class="hljs-number">0</span>, 
+						($iTextXCoordinate + ($iColorCount * $iColorWidth)), 
+						$iTextYCoordinate, 
+						$iTextColor, 
+						$sFontFile, 
+						$aColor[<span class="hljs-string">'text_msg'</span>]
+					);
+			
+					$iColorCount++;
+				}
+			
+				header(<span class="hljs-string">"Content-Type: image/png"</span>);
+				imagepng($oImage);
+				imagedestroy($oImage);</code></pre>
+	</main>
+  </body>
+</html>
