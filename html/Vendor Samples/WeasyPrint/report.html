@@ -1,0 +1,591 @@
+<!doctype html>
+<!-- Sample taken from https://github.com/Kozea/WeasyPrint/tree/gh-pages/samples/report -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>@charset "UTF-8";
+        @font-face {
+          font-family: Fira Sans;
+          font-weight: 400;
+          src: url(FiraSans-Regular.otf); }
+        
+        @font-face {
+          font-family: Fira Sans;
+          font-style: italic;
+          font-weight: 400;
+          src: url(FiraSans-Italic.otf); }
+        
+        @font-face {
+          font-family: Fira Sans;
+          font-weight: 300;
+          src: url(FiraSans-Light.otf); }
+        
+        @font-face {
+          font-family: Fira Sans;
+          font-style: italic;
+          font-weight: 300;
+          src: url(FiraSans-LightItalic.otf); }
+        
+        @font-face {
+          font-family: Fira Sans;
+          font-weight: bold;
+          src: url(FiraSans-Bold.otf); }
+        
+        @page {
+          @top-left {
+            background: #fbc847;
+            content: counter(page);
+            height: 1cm;
+            text-align: center;
+            width: 1cm; }
+          @top-center {
+            background: #fbc847;
+            content: '';
+            display: block;
+            height: .05cm;
+            opacity: .5;
+            width: 100%; }
+          @top-right {
+            content: string(heading);
+            font-size: 9pt;
+            height: 1cm;
+            vertical-align: middle;
+            width: 100%; } }
+        
+        @page :blank {
+          @top-left {
+            background: none;
+            content: ''; }
+          @top-center {
+            content: none; }
+          @top-right {
+            content: none; } }
+        
+        @page no-chapter {
+          @top-left {
+            background: none;
+            content: none; }
+          @top-center {
+            content: none; }
+          @top-right {
+            content: none; } }
+        
+        @page :first {
+          background: url(report-cover.jpg) no-repeat center;
+          background-size: cover;
+          margin: 0; }
+        
+        @page chapter {
+          background: #fbc847;
+          margin: 0;
+          @top-left {
+            content: none; }
+          @top-center {
+            content: none; }
+          @top-right {
+            content: none; } }
+        
+        html {
+          color: #393939;
+          font-family: Fira Sans;
+          font-size: 11pt;
+          font-weight: 300;
+          line-height: 1.5; }
+          html body h1 {
+            color: #fbc847;
+            font-size: 38pt;
+            margin: 5cm 2cm 0 2cm;
+            page: no-chapter;
+            width: 100%; }
+          html body h2, html body h3, html body h4 {
+            color: black;
+            font-weight: 400; }
+          html body h2 {
+            break-before: always;
+            font-size: 28pt;
+            string-set: heading content(); }
+          html body h3 {
+            font-weight: 300;
+            font-size: 15pt; }
+          html body h4 {
+            font-size: 13pt; }
+          html body article#cover {
+            align-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+            height: 297mm; }
+            html body article#cover address {
+              background: #fbc847;
+              flex: 1 50%;
+              margin: 0 -2cm;
+              padding: 1cm 0;
+              white-space: pre-wrap; }
+              html body article#cover address:first-of-type {
+                padding-left: 3cm; }
+          html body article#contents {
+            break-before: right;
+            break-after: left;
+            page: no-chapter; }
+            html body article#contents h2 {
+              font-size: 20pt;
+              font-weight: 400;
+              margin-bottom: 3cm; }
+            html body article#contents h3 {
+              font-weight: 500;
+              margin: 3em 0 1em; }
+              html body article#contents h3::before {
+                background: #fbc847;
+                content: '';
+                display: block;
+                height: .08cm;
+                margin-bottom: .25cm;
+                width: 2cm; }
+            html body article#contents ul {
+              list-style: none;
+              padding-left: 0; }
+              html body article#contents ul li {
+                border-top: .25pt solid #c1c1c1;
+                margin: .25cm 0;
+                padding-top: .25cm; }
+                html body article#contents ul li::before {
+                  color: #fbc847;
+                  content: '• ';
+                  font-size: 40pt;
+                  line-height: 16pt;
+                  vertical-align: bottom; }
+                html body article#contents ul li a {
+                  color: inherit;
+                  text-decoration: inherit; }
+                  html body article#contents ul li a::before {
+                    content: target-text(attr(href)); }
+                  html body article#contents ul li a::after {
+                    color: #fbc847;
+                    content: target-counter(attr(href), page);
+                    float: right; }
+          html body article#columns section {
+            columns: 2;
+            column-gap: 1cm;
+            padding-top: 1cm; }
+            html body article#columns section p {
+              text-align: justify; }
+              html body article#columns section p:first-of-type {
+                font-weight: 700; }
+          html body article#competences h3 {
+            background: #fbc847;
+            margin: 0 -3cm 1cm;
+            padding: 1cm 1cm 1cm 3cm;
+            width: 21cm; }
+          html body article#competences section {
+            padding: .5cm 0; }
+            html body article#competences section#table-content::before {
+              background: url(table-content.svg) no-repeat center #fbc847;
+              background-size: 50%;
+              content: '';
+              display: inline-block;
+              float: left;
+              height: 2cm;
+              margin-right: .5cm;
+              vertical-align: middle;
+              width: 2cm; }
+            html body article#competences section#heading::before {
+              background: url(heading.svg) no-repeat center #fbc847;
+              background-size: 50%;
+              content: '';
+              display: inline-block;
+              float: left;
+              height: 2cm;
+              margin-right: .5cm;
+              vertical-align: middle;
+              width: 2cm; }
+            html body article#competences section#multi-columns::before {
+              background: url(multi-columns.svg) no-repeat center #fbc847;
+              background-size: 50%;
+              content: '';
+              display: inline-block;
+              float: left;
+              height: 2cm;
+              margin-right: .5cm;
+              vertical-align: middle;
+              width: 2cm; }
+            html body article#competences section#internal-links::before {
+              background: url(internal-links.svg) no-repeat center #fbc847;
+              background-size: 50%;
+              content: '';
+              display: inline-block;
+              float: left;
+              height: 2cm;
+              margin-right: .5cm;
+              vertical-align: middle;
+              width: 2cm; }
+            html body article#competences section#style::before {
+              background: url(style.svg) no-repeat center #fbc847;
+              background-size: 50%;
+              content: '';
+              display: inline-block;
+              float: left;
+              height: 2cm;
+              margin-right: .5cm;
+              vertical-align: middle;
+              width: 2cm; }
+            html body article#competences section h4 {
+              margin: 0; }
+            html body article#competences section p {
+              margin-top: 0; }
+          html body article#offers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; }
+            html body article#offers h2, html body article#offers h3 {
+              width: 100%; }
+            html body article#offers section {
+              width: 30%; }
+              html body article#offers section h4 {
+                margin-bottom: 0; }
+              html body article#offers section ul {
+                list-style: none;
+                margin: 0;
+                padding-left: 0; }
+                html body article#offers section ul li:not(:last-of-type) {
+                  margin: .5cm 0; }
+              html body article#offers section p {
+                background: #fbc847;
+                display: block;
+                font-size: 15pt;
+                font-weight: 700;
+                margin-bottom: 0;
+                padding: .25cm 0;
+                text-align: center; }
+          html body article#chapter {
+            align-items: center;
+            display: flex;
+            height: 297mm;
+            justify-content: center;
+            page: chapter; }
+          html body article#typography section {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 1cm 0; }
+            html body article#typography section h4 {
+              border-top: 1pt solid;
+              flex: 1 25%;
+              margin: 0; }
+            html body article#typography section h4 + * {
+              flex: 1 75%;
+              margin: 0;
+              padding-left: .5cm; }
+            html body article#typography section p {
+              text-align: justify; }
+            html body article#typography section ul {
+              line-height: 2;
+              list-style: none; }
+            html body article#typography section#small-caps p {
+              font-variant: small-caps; }
+            html body article#typography section#ligatures dl {
+              display: flex;
+              flex-wrap: wrap; }
+              html body article#typography section#ligatures dl dt {
+                font-weight: 400;
+                width: 30%; }
+              html body article#typography section#ligatures dl dd {
+                flex: 1 70%;
+                margin: 0;
+                padding: 0; }
+            html body article#typography section#ligatures .none {
+              font-variant-ligatures: none; }
+            html body article#typography section#ligatures .common {
+              font-variant-ligatures: common-ligatures; }
+            html body article#typography section#ligatures .discretionary {
+              font-variant-ligatures: discretionary-ligatures; }
+            html body article#typography section#ligatures .contextual {
+              font-variant-ligatures: contextual; }
+            html body article#typography section#numbers dl {
+              display: flex;
+              flex-wrap: wrap; }
+              html body article#typography section#numbers dl dt {
+                font-weight: 400;
+                width: 30%; }
+              html body article#typography section#numbers dl dd {
+                flex: 1 70%;
+                margin: 0;
+                padding: 0; }
+            html body article#typography section#numbers #fractions {
+              font-variant-numeric: diagonal-fractions; }
+            html body article#typography section#numbers #ordinals {
+              font-variant-numeric: ordinal; }
+            html body article#typography section#numbers #slashed {
+              font-variant-numeric: slashed-zero; }
+            html body article#typography section#numbers #super {
+              font-variant-position: super; }
+            html body article#typography section#numbers #sub {
+              font-variant-position: sub; }
+            html body article#typography section#figures dl {
+              columns: 4; }
+              html body article#typography section#figures dl dt {
+                font-weight: 400; }
+              html body article#typography section#figures dl dd {
+                display: flex;
+                margin: 0;
+                padding: 0; }
+                html body article#typography section#figures dl dd ul {
+                  padding: 0 1em 0 0; }
+            html body article#typography section#figures #oldstyle {
+              font-variant-numeric: oldstyle-nums; }
+            html body article#typography section#figures #tabular {
+              font-variant-numeric: tabular-nums; }
+            html body article#typography section#figures #old-tabular {
+              font-variant-numeric: oldstyle-nums tabular-nums; }</style>
+    <title>Report</title>
+    <meta name="description" content="Report example">
+  </head>
+
+  <body>
+    <article id="cover">
+      <h1>Report example</h1>
+      <address>
+        WeasyPrint Company
+        Boulevard Stalingrad
+        Villeurbanne City France
+      </address>
+      <address>
+        community@kozea.fr
+        +33 4 78 84 19 28
+        https://community.kozea.fr
+      </address>
+    </article>
+
+    <article id="contents">
+      <h2>Table of contents</h2>
+      <h3>Part one</h3>
+      <ul>
+        <li><a href="#columns-title"></a></li>
+        <li><a href="#competences-title"></a></li>
+      </ul>
+
+      <h3>Part two</h3>
+      <ul>
+        <li><a href="#offers-title"></a></li>
+        <li><a href="#chapter-title"></a></li>
+        <li><a href="#typography-title"></a></li>
+      </ul>
+    </article>
+
+    <article id="columns">
+      <h2 id="columns-title">Big title on left page, with text on columns</h2>
+
+      <h3>This is a little subtitle, here to explain what we are talking about</h3>
+
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat faucibus vestibulum.
+          Mauris varius orci quam. Nam dui mauris, dictum at elementum at, mollis pulvinar est.
+          Nunc lobortis pharetra erat, id rutrum lorem malesuada in.
+        </p>
+        <p>
+          Phasellus id nisl nec arcu tempor ultricies non id tortor. Mauris ex nibh, viverra vitae nisi eget, placerat pharetra est.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id maximus diam. Cras molestie nisl vitae iaculis convallis.
+          Vivamus molestie vitae nisl sed interdum. Nunc aliquam massa rhoncus finibus convallis.
+          Vivamus sed vulputate risus. Nunc dignissim magna velit, quis lobortis ex volutpat eget.
+          Proin dictum mauris condimentum consequat faucibus.
+        </p>
+        <p>
+          Duis maximus mauris ac purus eleifend, sit amet blandit nulla lacinia.
+          Maecenas massa dolor, suscipit at erat eget, maximus dignissim dolor. Praesent consectetur maximus libero, eu facilisis ligula finibus et.
+          Cras rhoncus eros sit amet lorem auctor, a efficitur leo tincidunt. Sed viverra interdum odio, eget pulvinar tortor blandit lacinia.
+          Praesent consequat congue commodo. Phasellus eu massa feugiat, imperdiet nisi a, sagittis ipsum.
+        </p>
+        <p>
+          Suspendisse et gravida nunc. Quisque at felis nisl. Nam eget efficitur nunc.
+          Vivamus fermentum imperdiet massa, porttitor elementum mauris faucibus scelerisque.
+          Pellentesque ut metus tortor. Fusce vulputate ex at turpis consectetur, in vestibulum odio placerat.
+          Suspendisse tempor sapien rutrum, cursus sem a, tincidunt odio. Sed in consequat augue.
+          Proin finibus felis neque, ac hendrerit lorem consequat nec.
+        </p>
+        <p>
+          Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce quam mi, dapibus et augue sit amet, porttitor volutpat orci.
+          Vestibulum ac ligula at justo placerat pulvinar vel non velit. Duis vel iaculis nibh, non tristique lectus.
+          Phasellus vel ex bibendum, accumsan tellus a, commodo nisi.
+        </p>
+        <p>
+          Mauris tincidunt dolor ligula, et egestas lectus rutrum consectetur. Donec ac ex mollis, vestibulum libero in, convallis risus.
+        </p>
+      </section>
+    </article>
+
+    <article id="competences">
+      <h2 id="competences-title">This is another big title, on a page full of work presentation</h2>
+
+      <h3>We present you some of WeasyPrint's features.</h3>
+
+      <section id="table-content">
+        <h4>Table of contents</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi ante, tincidunt quis vehicula
+          sed, vehicula sed augue. Cras eget ante turpis.
+        </p>
+      </section>
+
+      <section id="heading">
+        <h4>Heading titles and page counters</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi ante, tincidunt quis vehicula
+          sed, vehicula sed augue. Cras eget ante turpis.
+        </p>
+      </section>
+
+      <section id="multi-columns">
+        <h4>Multi-column text</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi ante, tincidunt quis vehicula
+          sed, vehicula sed augue. Cras eget ante turpis.
+        </p>
+      </section>
+
+      <section id="internal-links">
+        <h4>Internal links</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi ante, tincidunt quis vehicula
+          sed, vehicula sed augue. Cras eget ante turpis.
+        </p>
+      </section>
+
+      <section id="style">
+        <h4>Different page types</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi ante, tincidunt quis vehicula
+          sed, vehicula sed augue. Cras eget ante turpis.
+        </p>
+      </section>
+    </article>
+
+    <article id="offers">
+      <h2 id="offers-title">Big title on the first right page</h2>
+
+      <section>
+        <h4>Offer #1</h4>
+        <p>€135</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Nullam at diam eget urna consequat.</li>
+          <li>Sed fringilla quam at augue semper aliquam.</li>
+          <li>Cras nec lacus eu turpis finibus vulputate.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h4>Offer #2</h4>
+        <p>€175</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Nullam at diam eget urna consequat.</li>
+          <li>Sed fringilla quam at augue semper aliquam.</li>
+          <li>Mauris viverra nulla vel semper mollis.</li>
+          <li>Nulla quis massa eu urna suscipit vehicula.</li>
+          <li>Curabitur a odio id risus pharetra iaculis.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h4>Offer #3</h4>
+        <p>€200</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Nullam at diam eget urna consequat.</li>
+          <li>Sed fringilla quam at augue semper aliquam.</li>
+          <li>Mauris viverra nulla vel semper mollis.</li>
+          <li>Cras nec lacus eu turpis finibus vulputate.</li>
+          <li>Nulla quis massa eu urna suscipit vehicula.</li>
+          <li>Curabitur a odio id risus pharetra iaculis.</li>
+          <li>Mauris viverra nulla vel semper mollis.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </section>
+    </article>
+
+    <article id="chapter">
+      <h2 id="chapter-title">This is a chapter of a new section</h2>
+    </article>
+
+    <article id="typography">
+      <h2 id="typography-title">About some typography features</h2>
+
+      <section>
+        <h4>Italic and Bold Text</h4>
+        <p>
+          Lorem ipsum dolor <em>sit amet, consectetur adipiscing elit.</em> Ut
+          pulvinar dolor <strong>ac orci finibus elementum. Praesent</strong>
+          sit amet ligula turpis.
+        </p>
+      </section>
+
+      <section id="small-caps">
+        <h4>Small caps text</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar
+          dolor ac orci finibus elementum.
+        </p>
+      </section>
+
+      <section id="ligatures">
+        <h4>Ligatures</h4>
+        <dl>
+          <dt>Classical</dt>
+          <dd><span class="none">Offer</span> → <span class="common">Offer</span></dd>
+          <dt>Discretionary</dt>
+          <dd><span class="none">Often</span> → <span class="discretionary">Often</span></dd>
+          <dt>Contextual</dt>
+          <dd><span class="none">#&amp;</span> → <span class="contextual">#&amp;</span></dd>
+        </dl>
+      </section>
+
+      <section id="numbers">
+        <h4>Numbers</h4>
+        <dl>
+          <dt>Fractions</dt>
+          <dd>421/42 → <span id="fractions">421/42</span></dd>
+          <dt>Ordinals</dt>
+          <dd>2a 3o → <span id="ordinals">2a 3o</span></dd>
+          <dt>Slashed zero</dt>
+          <dd>1000 → <span id="slashed">1000</span></dd>
+          <dt>Superscript</dt>
+          <dd>a2 → <span id="super">a2</span></dd>
+          <dt>Subscript</dt>
+          <dd>C8H10N4O2 → <span id="sub">C8H10N4O2</span></dd>
+        </ul>
+      </section>
+
+      <section id="figures">
+        <h4>Figures</h4>
+        <dl>
+          <dt>Lining</dt>
+          <dd>
+            <ul>
+              <li>409,280</li>
+              <li>367,112</li>
+            </ul>
+          </dd>
+          <dt>Old-Style</dt>
+          <dd>
+            <ul id="oldstyle">
+              <li>409,280</li>
+              <li>367,112</li>
+            </ul>
+          </dd>
+          <dt>Tabular</dt>
+          <dd>
+            <ul id="tabular">
+              <li>409,280</li>
+              <li>367,112</li>
+            </ul>
+          </dd>
+          <dt>Old &amp; Tab.</dt>
+          <dd>
+            <ul id="old-tabular">
+              <li>409,280</li>
+              <li>367,112</li>
+            </ul>
+          </dd>
+        </dl>
+      </section>
+    </article>
+  </body>
+</html>
