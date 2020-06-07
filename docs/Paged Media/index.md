@@ -11,6 +11,10 @@ description: Test Section 'Paged Media' to compare different html2pdf tools.
                                 Page Margin Boxes
                             </a>
 
+                            <a href="/Paged-Media/Page-Properties/">
+                                Page Properties
+                            </a>
+
                             <a href="/Paged-Media/Page-Selectors/">
                                 Page Selectors
                             </a>
