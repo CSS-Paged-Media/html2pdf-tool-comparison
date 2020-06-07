@@ -30,54 +30,54 @@ I use the following code snippets to create the PDF files. If you want to see th
 
 #### mPDF
 
-<pre><code class="hljs xml">$oMPdf = new \Mpdf\Mpdf();
+<pre><code class="hljs php">$oMPdf = <span class="hljs-keyword">new</span> \Mpdf\Mpdf();
 $oMPdf-&gt;WriteHTML($sHtmlFileContent);
 $oMPdf-&gt;Output(
-    "result/mpdf.pdf", 
-    false
+    <span class="hljs-string">"result/mpdf.pdf"</span>, 
+    <span class="hljs-keyword">false</span>
 );</code></pre>
 
 #### typeset.sh
 
-<pre><code class="hljs xml">$resourceCache = new \typesetsh\Resource\Cache("./cache-dir/");
-$resourceCache-&gt;downloadLimit = 5242880;
+<pre><code class="hljs php">$resourceCache = <span class="hljs-keyword">new</span> \typesetsh\Resource\Cache(<span class="hljs-string">"./cache-dir/"</span>);
+$resourceCache-&gt;downloadLimit = <span class="hljs-number">5242880</span>;
 
-$resolveUrl = function($url) use ($resourceCache) {
-    if (strpos($url, "http://") === 0 || strpos($url, "https://") === 0) {
+$resolveUrl = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">($url)</span> <span class="hljs-title">use</span> <span class="hljs-params">($resourceCache)</span> </span>{
+    <span class="hljs-keyword">if</span> (strpos($url, <span class="hljs-string">"http://"</span>) === <span class="hljs-number">0</span> || strpos($url, <span class="hljs-string">"https://"</span>) === <span class="hljs-number">0</span>) {
         $file = $resourceCache-&gt;fetch($url);
 
-        return $file;
+        <span class="hljs-keyword">return</span> $file;
     }
 
-    throw new Exception("Access denied for local resource `$url`");
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-keyword">Exception</span>(<span class="hljs-string">"Access denied for local resource `$url`"</span>);
 };
 
 $oTypesetPdf = typesetsh\createPdf($sHtmlFileContent, $resolveUrl);
-$oTypesetPdf-&gt;toFile("result/typeset.pdf");</code></pre>
+$oTypesetPdf-&gt;toFile(<span class="hljs-string">"result/typeset.pdf"</span>);</code></pre>
 
 #### PDFreactor
 
-<pre><code class="hljs xml">$oPdfReactor = new PDFreactor();
-$aPdfReactorConfig = array(
-    "document" =&gt; $sHtmlFileContent
+<pre><code class="hljs php">$oPdfReactor = <span class="hljs-keyword">new</span> PDFreactor();
+$aPdfReactorConfig = <span class="hljs-keyword">array</span>(
+    <span class="hljs-string">"document"</span> =&gt; $sHtmlFileContent
 );
 file_put_contents(
-    "result/pdfreactor.pdf", 
+    <span class="hljs-string">"result/pdfreactor.pdf"</span>, 
     $oPdfReactor-&gt;convertAsBinary($aPdfReactorConfig)
 );</code></pre>
 
 #### wkhtmltopdf
 
-<pre><code class="hljs xml">$snappy = new Knp\Snappy\Pdf("/usr/local/bin/wkhtmltopdf");
+<pre><code class="hljs php">$snappy = <span class="hljs-keyword">new</span> Knp\Snappy\Pdf(<span class="hljs-string">"/usr/local/bin/wkhtmltopdf"</span>);
 $snappy-&gt;generateFromHtml(
     $sHtmlFileContent, 
-    "result/wkhtmltopdf.pdf"
+    <span class="hljs-string">"result/wkhtmltopdf.pdf"</span>
 );</code></pre>
 
 #### WeasyPrint
 
-<pre><code class="hljs xml">exec("python -m weasyprint '$sInputHTMLFilePath' '" . __DIR__ . "/result/weasyprint.pdf'", $output);</code></pre>
+<pre><code class="hljs php">exec(<span class="hljs-string">"python -m weasyprint '$sInputHTMLFilePath' '"</span> . <span class="hljs-keyword">__DIR__</span> . <span class="hljs-string">"/result/weasyprint.pdf'"</span>, $output);</code></pre>
 
 #### Prince
 
-<pre><code class="hljs xml">exec("prince '$sInputHTMLFilePath' -o '" . __DIR__ . "/result/princexml.pdf'", $output);</code></pre>
+<pre><code class="hljs php">exec(<span class="hljs-string">"prince '$sInputHTMLFilePath' -o '"</span> . <span class="hljs-keyword">__DIR__</span> . <span class="hljs-string">"/result/princexml.pdf'"</span>, $output);</code></pre>
