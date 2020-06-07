@@ -24,7 +24,7 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
                 <span class="hljs-attribute">page-break-after</span>: always;
             }
             <span class="hljs-keyword">@page</span>{
-                <span class="hljs-attribute">size</span>: <span class="hljs-number">4in</span> <span class="hljs-number">8in</span> landscape;
+                <span class="hljs-attribute">size</span>:A4 landscape;
             }
         </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
@@ -180,7 +180,7 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
                 <span class="hljs-attribute">page-break-after</span>: always;
             }
             <span class="hljs-keyword">@page</span>{
-                <span class="hljs-attribute">size</span>: <span class="hljs-number">4in</span> <span class="hljs-number">8in</span> portrait;
+                <span class="hljs-attribute">size</span>:A4 portrait;
             }
         </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
