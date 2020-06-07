@@ -2,7 +2,7 @@
 layout: details
 title: O
 permalink: /CSS-Properties/O/
-description: Test Section "O" to compare different html2pdf tools.
+description: Test Section 'O' to compare different html2pdf tools.
 ---
 
 

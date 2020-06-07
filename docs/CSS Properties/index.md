@@ -2,7 +2,7 @@
 layout: list
 title: CSS Properties
 permalink: /CSS-Properties/
-description: Test Section "CSS Properties" to compare different html2pdf tools.
+description: Test Section 'CSS Properties' to compare different html2pdf tools.
 ---
 
 ## 📑 Index

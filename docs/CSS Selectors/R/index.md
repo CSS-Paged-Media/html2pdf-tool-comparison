@@ -2,7 +2,7 @@
 layout: details
 title: R
 permalink: /CSS-Selectors/R/
-description: Test Section "R" to compare different html2pdf tools.
+description: Test Section 'R' to compare different html2pdf tools.
 ---
 
 

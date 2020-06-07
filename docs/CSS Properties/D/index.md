@@ -2,7 +2,7 @@
 layout: details
 title: D
 permalink: /CSS-Properties/D/
-description: Test Section "D" to compare different html2pdf tools.
+description: Test Section 'D' to compare different html2pdf tools.
 ---
 
 

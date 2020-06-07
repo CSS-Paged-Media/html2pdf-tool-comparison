@@ -2,7 +2,7 @@
 layout: details
 title: P
 permalink: /CSS-Selectors/P/
-description: Test Section "P" to compare different html2pdf tools.
+description: Test Section 'P' to compare different html2pdf tools.
 ---
 
 
