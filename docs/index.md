@@ -13,5 +13,5 @@ On this website, I show you the rendering results of different html2pdf tools.
 <div class="boxes"><a href="/CSS-Properties/">CSS Properties</a>
 <a href="/CSS-Selectors/">CSS Selectors</a>
 <a href="/Paged-Media/">Paged Media</a>
-<a href="/venv/">venv</a>
+<a href="/Vendor-Samples/">Vendor Samples</a>
 </div>
