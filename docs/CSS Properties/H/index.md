@@ -2,7 +2,7 @@
 layout: details
 title: H
 permalink: /CSS-Properties/H/
-description: 
+description: Test Section "H" to compare different html2pdf tools.
 ---
 
 

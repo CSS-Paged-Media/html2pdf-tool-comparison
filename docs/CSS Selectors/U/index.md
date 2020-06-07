@@ -2,7 +2,7 @@
 layout: details
 title: U
 permalink: /CSS-Selectors/U/
-description: 
+description: Test Section "U" to compare different html2pdf tools.
 ---
 
 

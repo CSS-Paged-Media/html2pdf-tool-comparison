@@ -2,7 +2,7 @@
 layout: details
 title: B
 permalink: /CSS-Properties/B/
-description: 
+description: Test Section "B" to compare different html2pdf tools.
 ---
 
 

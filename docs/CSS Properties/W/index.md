@@ -2,7 +2,7 @@
 layout: details
 title: W
 permalink: /CSS-Properties/W/
-description: 
+description: Test Section "W" to compare different html2pdf tools.
 ---
 
 

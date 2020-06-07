@@ -2,7 +2,7 @@
 layout: list
 title: CSS Selectors
 permalink: /CSS-Selectors/
-description: 
+description: Test Section "CSS Selectors" to compare different html2pdf tools.
 ---
 
 ## 📑 Index

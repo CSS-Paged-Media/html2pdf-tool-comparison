@@ -2,7 +2,7 @@
 layout: details
 title: E
 permalink: /CSS-Selectors/E/
-description: 
+description: Test Section "E" to compare different html2pdf tools.
 ---
 
 

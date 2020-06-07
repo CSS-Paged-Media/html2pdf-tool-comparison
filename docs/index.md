@@ -1,8 +1,8 @@
 ---
 layout: page
-title: A comparison between mPDF, typeset.sh, PDFreactor, and wkhtmltopdf
+title: Home
 permalink: /
-description: 
+description: A comparison between mPDF, typeset.sh, PDFreactor, and wkhtmltopdf.
 ---
 
 ## 👋 Hey! Nice that you are here!

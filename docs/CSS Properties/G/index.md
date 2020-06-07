@@ -2,7 +2,7 @@
 layout: details
 title: G
 permalink: /CSS-Properties/G/
-description: 
+description: Test Section "G" to compare different html2pdf tools.
 ---
 
 
