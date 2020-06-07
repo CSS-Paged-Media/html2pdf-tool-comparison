@@ -137,6 +137,19 @@
                         copy(__DIR__ . '/error.pdf', 'result/weasyprint_' . $sOutputBaseName);
                     }
                 }
+
+                // Render princexml
+                $sPrincexmlStatus = '';
+                if(!is_file(__DIR__ . '/result/princexml_' . $sOutputBaseName)){
+                    $sPrincexmlStatus = 'Ok';
+                    try{
+                        echo 'prince "' . $sFilePath . '" -o "' . __DIR__ . '/result/princexml_' . $sOutputBaseName . '"';
+                        exec('prince "' . $sFilePath . '" -o "' . __DIR__ . '/result/princexml_' . $sOutputBaseName . '"', $output);
+                    }catch(Exception $e){
+                        $sPrincexmlStatus = str_replace(__DIR__, '', $e->getMessage());
+                        copy(__DIR__ . '/error.pdf', 'result/princexml_' . $sOutputBaseName);
+                    }
+                }
             }
 
             if(is_dir($sFilePath)){
@@ -178,7 +191,7 @@
                 if(!is_dir($sNewPath)){
                     mkdir($sNewPath);
                 }
-                $aCases    = ['mpdf_', 'typeset_', 'pdfreactor_', 'wkhtmltopdf_', 'weasyprint_'];
+                $aCases    = ['mpdf_', 'typeset_', 'pdfreactor_', 'wkhtmltopdf_', 'weasyprint_', 'princexml_'];
                 $sFromPath = __DIR__ . DIRECTORY_SEPARATOR . 'result' . DIRECTORY_SEPARATOR;
                 foreach($aCases as $sCase){
                     $sBaseFile    = $sFromPath . $sCase;
@@ -314,6 +327,13 @@
                                     <a href="/{{ page.path }}/../weasyprint_$sSingleOutputBaseName" target="_blank">📕 WeasyPrint Output</a>
                                 </p>
                             </div>
+                            <div>
+                                <h4>Prince</h4>
+                                <img src="/{{ page.path }}/../princexml_$sSingleThumb" alt="Prince Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../princexml_$sSingleOutputBaseName" target="_blank">📕 Prince Output</a>
+                                </p>
+                            </div>
                         </div>
 
                         EOT;
@@ -397,7 +417,7 @@ description: Test Section \'{header}\' to compare different html2pdf tools.
         layout: page
         title: Home
         permalink: /
-        description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, and WeasyPrint.
+        description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, and Prince.
         ---
 
         ## 👋 Hey! Nice that you are here!
@@ -415,6 +435,6 @@ description: Test Section \'{header}\' to compare different html2pdf tools.
     $sHtmlPath = __DIR__ . '/html';
 
     // Render PDF
-    #renderPdfs($sHtmlPath);
+    renderPdfs($sHtmlPath);
 
     generateResultPages($sHtmlPath);

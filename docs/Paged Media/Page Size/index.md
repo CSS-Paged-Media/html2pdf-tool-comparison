@@ -87,6 +87,13 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Size_size-landscape.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Size_size-landscape.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Size_size-landscape.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 SIZE-MEDIA-NAMES
@@ -175,6 +182,13 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Size_size-media-names.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Size_size-media-names.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Size_size-media-names.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 SIZE-PORTRAIT
@@ -257,6 +271,13 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Size_size-portrait.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Size_size-portrait.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Size_size-portrait.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 SIZE
@@ -337,6 +358,13 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Size_size.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Size_size.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Size_size.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Size_size.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

@@ -120,6 +120,13 @@ without tab
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_tab-size.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_tab-size.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_tab-size.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TABLE-LAYOUT
@@ -244,6 +251,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_table-layout.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_table-layout.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_table-layout.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_table-layout.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -386,6 +400,13 @@ without tab
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-align-last.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-align-last.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-align-last.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-ALIGN
@@ -465,6 +486,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-align.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-align.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-align.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-align.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -558,6 +586,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration-color.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration-color.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-color.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-color.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -657,6 +692,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration-line.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration-line.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-line.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-line.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -772,6 +814,13 @@ without tab
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-skip-ink.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-DECORATION-SKIP
@@ -848,6 +897,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration-skip.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration-skip.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-skip.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-skip.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -946,6 +1002,13 @@ without tab
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration-style.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-style.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-style.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-DECORATION
@@ -1036,6 +1099,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-decoration.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1134,6 +1204,13 @@ without tab
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-indent.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-indent.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-indent.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-JUSTIFY
@@ -1203,6 +1280,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-justify.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-justify.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-justify.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-justify.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1299,6 +1383,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-overflow.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-overflow.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-overflow.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-overflow.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1481,6 +1572,13 @@ without tab
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-shadow.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-shadow.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-shadow.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-STROKE
@@ -1554,6 +1652,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-stroke.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-stroke.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-stroke.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-stroke.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1636,6 +1741,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-transform.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-transform.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-transform.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-transform.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1772,6 +1884,13 @@ without tab
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-underline-offset.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-underline-offset.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-underline-offset.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-UNDERLINE-POSITION
@@ -1849,6 +1968,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-underline-position.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_text-underline-position.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-underline-position.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-underline-position.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1952,6 +2078,13 @@ without tab
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_top.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_top.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_top.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TRANSFORM-ORIGIN
@@ -2039,6 +2172,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_transform-origin.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_transform-origin.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform-origin.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform-origin.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -2137,6 +2277,13 @@ without tab
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_transform-style.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform-style.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform-style.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TRANSFORM
@@ -2228,6 +2375,13 @@ without tab
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_transform.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_T_transform.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

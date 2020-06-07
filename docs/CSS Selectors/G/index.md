@@ -80,6 +80,13 @@ description: Test Section 'G' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_G_general-sibling.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_G_general-sibling.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_G_general-sibling.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 

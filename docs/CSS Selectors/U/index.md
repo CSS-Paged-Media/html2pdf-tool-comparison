@@ -76,6 +76,13 @@ description: Test Section 'U' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_U_universal.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_U_universal.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_U_universal.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 USER-INVALID
@@ -147,6 +154,13 @@ description: Test Section 'U' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_U_user-invalid.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_U_user-invalid.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_U_user-invalid.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_U_user-invalid.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

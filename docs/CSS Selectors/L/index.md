@@ -76,6 +76,13 @@ description: Test Section 'L' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_L_lang.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_L_lang.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_L_lang.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 LAST-CHILD
@@ -161,6 +168,13 @@ description: Test Section 'L' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_L_last-child.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_L_last-child.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_L_last-child.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_L_last-child.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -250,6 +264,13 @@ description: Test Section 'L' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_L_last-of-type.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_L_last-of-type.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_L_last-of-type.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 LINK
@@ -322,6 +343,13 @@ description: Test Section 'L' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_L_link.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_L_link.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_L_link.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_L_link.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

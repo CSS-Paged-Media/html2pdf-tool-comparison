@@ -201,6 +201,13 @@ description: Test Section 'A' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_A_align-content.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_A_align-content.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ALIGN-ITEMS
@@ -362,6 +369,13 @@ description: Test Section 'A' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_A_align-items.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_A_align-items.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ALIGN-SELF
@@ -456,6 +470,13 @@ description: Test Section 'A' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_A_align-self.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_A_align-self.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_A_align-self.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -565,6 +586,13 @@ description: Test Section 'A' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_A_all.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_A_all.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 APPEARANCE
@@ -642,6 +670,13 @@ description: Test Section 'A' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_A_appearance.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_A_appearance.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_A_appearance.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

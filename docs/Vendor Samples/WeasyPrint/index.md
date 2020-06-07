@@ -224,6 +224,13 @@ html {
             <a href="/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 REPORT
@@ -868,6 +875,13 @@ html {
             <a href="/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_report.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TICKET
@@ -1076,6 +1090,13 @@ html {
         <img src="/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

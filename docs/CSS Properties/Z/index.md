@@ -81,6 +81,13 @@ description: Test Section 'Z' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_Z_z-index.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_Z_z-index.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_Z_z-index.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ZOOM
@@ -155,6 +162,13 @@ description: Test Section 'Z' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_Z_zoom.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_Z_zoom.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_Z_zoom.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_Z_zoom.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

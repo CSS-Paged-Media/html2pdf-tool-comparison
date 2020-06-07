@@ -75,6 +75,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_filter.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FLEX-BASIS
@@ -167,6 +174,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-basis.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-basis.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -321,6 +335,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-direction.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FLEX-FLOW
@@ -447,6 +468,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-flow.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FLEX-GROW
@@ -553,6 +581,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-grow.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FLEX-SHRINK
@@ -645,6 +680,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-shrink.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-shrink.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -790,6 +832,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-wrap.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FLEX
@@ -879,6 +928,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FLOAT
@@ -955,6 +1011,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_float.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_float.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1034,6 +1097,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-family.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-family.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1116,6 +1186,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-feature-settings.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-feature-settings.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1202,6 +1279,13 @@ You control the font size better with the font-size-adjust property.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-size-adjust.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size-adjust.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1296,6 +1380,13 @@ You control the font size better with the font-size-adjust property.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FONT-STRETCH
@@ -1364,6 +1455,13 @@ You control the font size better with the font-size-adjust property.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-stretch.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-stretch.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1440,6 +1538,13 @@ You control the font size better with the font-size-adjust property.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-style.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FONT-VARIANT
@@ -1509,6 +1614,13 @@ You control the font size better with the font-size-adjust property.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-variant.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-variant.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -1633,6 +1745,13 @@ You control the font size better with the font-size-adjust property.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-weight.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FONT
@@ -1705,6 +1824,13 @@ You control the font size better with the font-size-adjust property.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

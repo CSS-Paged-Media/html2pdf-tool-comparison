@@ -105,6 +105,13 @@ This is some text. This is some text. This is some text.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_W_white-space.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 WIDOWS
@@ -193,6 +200,13 @@ This is some text. This is some text. This is some text.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_W_widows.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_W_widows.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -367,6 +381,13 @@ This is some text. This is some text. This is some text.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_W_width.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 WORD-BREAK
@@ -451,6 +472,13 @@ This is some text. This is some text. This is some text.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_W_word-break.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_W_word-break.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -539,6 +567,13 @@ This is some text. This is some text. This is some text.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_W_word-spacing.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 WRITING-MODE
@@ -617,6 +652,13 @@ This is some text. This is some text. This is some text.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_W_writing-mode.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_W_writing-mode.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

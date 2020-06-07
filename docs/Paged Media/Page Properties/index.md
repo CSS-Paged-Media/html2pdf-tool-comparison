@@ -95,6 +95,13 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Properties_counter-even-numbered.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Properties_counter-even-numbered.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Properties_counter-even-numbered.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 COUNTER-INCREMENT
@@ -178,6 +185,13 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Properties_counter-increment.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Properties_counter-increment.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Properties_counter-increment.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Properties_counter-increment.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -269,6 +283,13 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Properties_counter-reset.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Properties_counter-reset.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Properties_counter-reset.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 COUNTER
@@ -353,6 +374,13 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Properties_counter.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Properties_counter.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Properties_counter.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Properties_counter.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>

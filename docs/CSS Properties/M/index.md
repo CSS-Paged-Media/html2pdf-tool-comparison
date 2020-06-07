@@ -77,6 +77,13 @@ description: Test Section 'M' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_margin.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_M_margin.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_M_margin.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 MASK-IMAGE
@@ -165,6 +172,13 @@ description: Test Section 'M' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_mask-image.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_M_mask-image.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_M_mask-image.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 MASK-REPEAT
@@ -251,6 +265,13 @@ description: Test Section 'M' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_mask-repeat.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_mask-repeat.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_M_mask-repeat.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_M_mask-repeat.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -451,6 +472,13 @@ description: Test Section 'M' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_max-height.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_M_max-height.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_M_max-height.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 MAX-WIDTH
@@ -614,6 +642,13 @@ description: Test Section 'M' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_max-width.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_max-width.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_M_max-width.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_M_max-width.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
@@ -815,6 +850,13 @@ description: Test Section 'M' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_min-height.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_M_min-height.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_M_min-height.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 MIN-WIDTH
@@ -990,6 +1032,13 @@ description: Test Section 'M' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_min-width.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_M_min-width.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_M_min-width.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 MIX-BLEND-MODE
@@ -1122,6 +1171,13 @@ description: Test Section 'M' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_mix-blend-mode.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_M_mix-blend-mode.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Prince</h4>
+        <img src="/{{ page.path }}/../princexml__html_CSS_Properties_M_mix-blend-mode.html.png" alt="Prince Preview" />
+        <p>
+            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_M_mix-blend-mode.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
 </div>
