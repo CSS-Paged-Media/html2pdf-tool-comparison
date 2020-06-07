@@ -124,6 +124,19 @@
                         copy(__DIR__ . '/error.pdf', 'result/wkhtmltopdf_' . $sOutputBaseName);
                     }
                 }
+
+                // Render weasyprint
+                $sWeasyprintStatus = '';
+                if(!is_file(__DIR__ . '/result/weasyprint_' . $sOutputBaseName)){
+                    $sWeasyprintStatus = 'Ok';
+                    try{
+                        echo 'python -m weasyprint "' . $sFilePath . '" "' . __DIR__ . '/result/weasyprint_' . $sOutputBaseName . '"<br />';
+                        exec('python -m weasyprint "' . $sFilePath . '" "' . __DIR__ . '/result/weasyprint_' . $sOutputBaseName . '"', $output);
+                    }catch(Exception $e){
+                        $sWeasyprintStatus = str_replace(__DIR__, '', $e->getMessage());
+                        copy(__DIR__ . '/error.pdf', 'result/weasyprint_' . $sOutputBaseName);
+                    }
+                }
             }
 
             if(is_dir($sFilePath)){
@@ -165,21 +178,21 @@
                 if(!is_dir($sNewPath)){
                     mkdir($sNewPath);
                 }
-                $aCases    = ['mpdf_', 'typeset_', 'pdfreactor_', 'wkhtmltopdf_'];
+                $aCases    = ['mpdf_', 'typeset_', 'pdfreactor_', 'wkhtmltopdf_', 'weasyprint_'];
                 $sFromPath = __DIR__ . DIRECTORY_SEPARATOR . 'result' . DIRECTORY_SEPARATOR;
                 foreach($aCases as $sCase){
                     $sBaseFile    = $sFromPath . $sCase;
                     $sNewBaseFile = $sNewPath . DIRECTORY_SEPARATOR . $sCase;
 
                     if(!is_file($sNewBaseFile . $sOutputBaseName)){
-                       /* if( 
+                        if( 
                             copy(
                                 $sBaseFile . $sOutputBaseName, 
                                 $sNewBaseFile . $sOutputBaseName
                             )
                         ){
-                            unlink($sBaseFile . $sOutputBaseName);
-                        }*/
+                            #unlink($sBaseFile . $sOutputBaseName);
+                        }
                     }
                 }
                 #rmdir($sFromPath);
@@ -211,7 +224,7 @@
 
                     if(is_dir($sDirPath)){
                         $sSubPages .= '
-                            <a href="' . str_replace([__DIR__ . DIRECTORY_SEPARATOR . 'html', ' '], ['', '-'], $sPath) . '/' . str_replace([' '], ['-'], basename($sFilePath)) . '/' . $sDirFileName . '/">
+                            <a href="' . str_replace([__DIR__ . DIRECTORY_SEPARATOR . 'html', ' '], ['', '-'], $sPath) . '/' . str_replace([' '], ['-'], basename($sFilePath)) . '/' . str_replace([' '], ['-'], $sDirFileName) . '/">
                                 ' . basename($sDirFileName) . '
                             </a>' . PHP_EOL;
                     }else{
@@ -253,21 +266,55 @@
             
                         ### Input HTML & CSS
 
-                        [📄 View Input HTML on GitHub]($sSingleHtmlPath){:target="_blank"}
-
                         <details>
                             <summary>
                                 View $sSingleHeader Code
                             </summary>
                             $sCode
+                            <p>
+                                <a href="$sSingleHtmlPath" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
+                            </p>
                         </details>
 
                         ### Output PDF
                 
-                        | mPDF | typeset.sh | PDFreactor | wkhtmltopdf
-                        |---------|---------|---------|---------|
-                        | ![mPDF Preview](mpdf_$sSingleThumb) | ![typeset Preview](typeset_$sSingleThumb) | ![PDFreactor Preview](pdfreactor_$sSingleThumb) | ![wkhtmltopdf Preview](wkhtmltopdf_$sSingleThumb) |
-                        | [📕 mPDF Output](mpdf_$sSingleOutputBaseName){:target="_blank"} | [📕 typeset Output](typeset_$sSingleOutputBaseName){:target="_blank"} | [📕 PDFreactor Output](pdfreactor_$sSingleOutputBaseName){:target="_blank"} | [📕 wkhtmltopdf Output](wkhtmltopdf_$sSingleOutputBaseName){:target="_blank"} |
+                        <div class="details-boxes">
+                            <div>
+                                <h4>mPDF</h4>
+                                <img src="/{{ page.path }}/../mpdf_$sSingleThumb" alt="mPDF Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../mpdf_$sSingleOutputBaseName" target="_blank">📕 mPDF Output</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4>typeset.sh</h4>
+                                <img src="/{{ page.path }}/../typeset_$sSingleThumb" alt="typeset Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../typeset_$sSingleOutputBaseName" target="_blank">📕 typeset Output</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4>PDFreactor</h4>
+                                <img src="/{{ page.path }}/../pdfreactor_$sSingleThumb" alt="PDFreactor Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../pdfreactor_$sSingleOutputBaseName" target="_blank">📕 PDFreactor Output</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4>wkhtmltopdf</h4>
+                                <img src="/{{ page.path }}/../wkhtmltopdf_$sSingleThumb" alt="wkhtmltopdf Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../wkhtmltopdf_$sSingleOutputBaseName" target="_blank">📕 wkhtmltopdf Output</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4>WeasyPrint</h4>
+                                <img src="/{{ page.path }}/../weasyprint_$sSingleThumb" alt="WeasyPrint Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../weasyprint_$sSingleOutputBaseName" target="_blank">📕 WeasyPrint Output</a>
+                                </p>
+                            </div>
+                        </div>
 
                         EOT;
 
@@ -276,7 +323,7 @@
                 }
 
                 if($sSubPages){
-                    $sSubPages = '## Index' . PHP_EOL . '<div class="boxes">' . $sSubPages . '</div>';
+                    $sSubPages = '## 📑 Index' . PHP_EOL . '<div class="boxes">' . $sSubPages . '</div>';
                 }
 
                 $sLayout = 'list';
@@ -289,7 +336,7 @@
 layout: {layout}
 title: {header}
 permalink: {permalink}/
-description: 
+description: Test Section \'{header}\' to compare different html2pdf tools.
 ---
 
 {subpages}
@@ -348,10 +395,14 @@ description:
         $sReadMD = <<<EOT
         ---
         layout: page
-        title: A comparison between mPDF, typeset.sh, PDFreactor, and wkhtmltopdf
+        title: Home
         permalink: /
-        description: 
+        description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, and WeasyPrint.
         ---
+
+        ## 👋 Hey! Nice that you are here!
+
+        On this website, I show you the rendering results of different html2pdf tools.
 
         ## 🔬 Test Sections
         $sSubPages
