@@ -131,6 +131,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_caption-side.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_caption-side.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_caption-side.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 CARET-COLOR
@@ -204,6 +211,13 @@ description: Test Section 'C' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_caret-color.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_caret-color.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_caret-color.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_caret-color.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -294,6 +308,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_clear.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_clear.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_clear.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 CLIP-PATH
@@ -354,6 +375,13 @@ description: Test Section 'C' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_clip-path.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_clip-path.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_clip-path.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_clip-path.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -443,6 +471,13 @@ description: Test Section 'C' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_color.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_color.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_color.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_color.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -547,6 +582,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_column-count.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-count.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-count.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 COLUMN-FILL
@@ -649,6 +691,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_column-fill.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-fill.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-fill.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 COLUMN-GAP
@@ -735,6 +784,13 @@ description: Test Section 'C' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_column-gap.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_column-gap.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-gap.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-gap.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -957,6 +1013,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_column-rule.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-rule.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-rule.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 COLUMN-SPAN
@@ -1082,6 +1145,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_column-span.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-span.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-span.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 COLUMN-WIDTH
@@ -1196,6 +1266,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_column-width.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-width.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_column-width.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 COLUMNS
@@ -1302,6 +1379,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_columns.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_columns.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_columns.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 CONTENT
@@ -1368,6 +1452,13 @@ description: Test Section 'C' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_content.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_content.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_content.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_content.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -1440,6 +1531,13 @@ description: Test Section 'C' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_counter-increment.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_counter-increment.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_counter-increment.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_counter-increment.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -1530,6 +1628,13 @@ description: Test Section 'C' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_counter-reset.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_counter-reset.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_counter-reset.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_counter-reset.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -1661,6 +1766,13 @@ description: Test Section 'C' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_cursor.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_C_cursor.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_cursor.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_C_cursor.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>

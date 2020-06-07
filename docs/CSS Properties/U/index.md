@@ -70,6 +70,13 @@ description: Test Section 'U' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_U_unicode-bidi.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_U_unicode-bidi.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_U_unicode-bidi.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 USER-SELECT
@@ -132,6 +139,13 @@ description: Test Section 'U' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_U_user-select.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_U_user-select.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_U_user-select.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_U_user-select.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>

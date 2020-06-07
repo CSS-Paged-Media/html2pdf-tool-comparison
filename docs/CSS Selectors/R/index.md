@@ -76,6 +76,13 @@ description: Test Section 'R' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_R_read-only.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_R_read-only.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_R_read-only.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 READ-WRITE
@@ -146,6 +153,13 @@ description: Test Section 'R' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_R_read-write.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_R_read-write.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_R_read-write.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_R_read-write.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -264,6 +278,13 @@ description: Test Section 'R' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_R_required.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_R_required.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_R_required.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ROOT
@@ -328,6 +349,13 @@ description: Test Section 'R' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_R_root.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_R_root.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_R_root.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_R_root.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>

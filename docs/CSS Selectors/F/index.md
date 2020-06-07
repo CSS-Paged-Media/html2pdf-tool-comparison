@@ -85,6 +85,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_first-child.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_first-child.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_first-child.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FIRST-LETTER
@@ -146,6 +153,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_first-letter.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_first-letter.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_first-letter.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -252,6 +266,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_first-line.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_first-line.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_first-line.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FIRST-OF-TYPE
@@ -332,6 +353,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_first-of-type.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_first-of-type.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_first-of-type.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FOCUS-VISIBLE
@@ -403,6 +431,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_focus-visible.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_focus-visible.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_focus-visible.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -677,6 +712,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_focus-within.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_focus-within.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_focus-within.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 FOCUS
@@ -757,6 +799,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_focus.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Selectors_F_focus.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_focus.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Selectors_F_focus.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>

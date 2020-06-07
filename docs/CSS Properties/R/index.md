@@ -86,6 +86,13 @@ description: Test Section 'R' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_R_resize.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_R_resize.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_R_resize.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 RIGHT
@@ -178,6 +185,13 @@ description: Test Section 'R' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_R_right.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_R_right.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_R_right.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_R_right.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>

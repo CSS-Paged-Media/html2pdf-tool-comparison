@@ -68,6 +68,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-center.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-center.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-center.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 BOTTOM-LEFT-CORNER
@@ -129,6 +136,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -194,6 +208,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-left.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-left.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-left.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 BOTTOM-RIGHT-CORNER
@@ -255,6 +276,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -320,6 +348,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-right.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-right.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_bottom-right.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 LEFT-BOTTOM
@@ -381,6 +416,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -446,6 +488,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-middle.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_left-middle.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_left-middle.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 LEFT-TOP
@@ -507,6 +556,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-top.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-top.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_left-top.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_left-top.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -572,6 +628,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-bottom.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_right-bottom.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_right-bottom.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 RIGHT-MIDDLE
@@ -633,6 +696,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-middle.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-middle.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_right-middle.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_right-middle.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -698,6 +768,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-top.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_right-top.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_right-top.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TOP-CENTER
@@ -759,6 +836,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-center.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-center.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-center.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-center.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -824,6 +908,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-left-corner.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-left-corner.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-left-corner.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TOP-LEFT
@@ -885,6 +976,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-left.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-left.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-left.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-left.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>
@@ -950,6 +1048,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-right-corner.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-right-corner.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-right-corner.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TOP-RIGHT
@@ -1011,6 +1116,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-right.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../wkhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-right.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>WeasyPrint</h4>
+        <img src="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-right.html.png" alt="WeasyPrint Preview" />
+        <p>
+            <a href="/{{ page.path }}/../weasyprint__html_Paged_Media_Page_Margin_Boxes_top-right.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
 </div>

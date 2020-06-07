@@ -294,6 +294,11 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     margin-left: -2em;
   }
 
+  aside section ul li a{
+    padding: .5rem 0;
+    display: inline-block;
+  }
+
 code {
     max-height: 420px;
 }
