@@ -361,6 +361,7 @@ aside section:first-of-type h2:first-of-type {
   position: relative;
   border-radius: 3px 3px 0 0;
   display:inline-block;
+  margin-bottom: 1em;
 }
 
 .browser-mockup > div{
