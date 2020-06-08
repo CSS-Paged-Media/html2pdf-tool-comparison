@@ -31,7 +31,7 @@ footer {
 
 header {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column;
 }
 
 header * {
@@ -99,6 +99,9 @@ footer {
 /* Smart Phones und Tablets mit mittlerer Auflösung */
 
 @media all and (min-width: 35em) {
+  header{
+	  flex-flow: row wrap;
+  }
 	header a {
 		margin-right: 50px;
 	}
@@ -125,6 +128,9 @@ footer {
 /* Large screens */
 
 @media all and (min-width: 50em) {
+  header{
+	  flex-flow: row wrap;
+  }
 	article {
 		/* Der Article wird 2.5x so breit wie die beiden asides! */
 		
@@ -160,6 +166,11 @@ a:visited,a:hover,a:active{
     
 .boxes a span{color:#000;margin-top:2rem;display:block;font-weight:normal;font-size:1.2rem}
 
+.breadcrumbs{
+  text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
     
 h1{
     letter-spacing:.2em;
