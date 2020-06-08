@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Home
+title:  A comparison of different html2pdf tools.
 permalink: /
 description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
 ---
 
 ## 👋 Hey! Nice that you are here!
 
-On this website, I show you the rendering results of different html2pdf tools.
+On this website, I show you the rendering results of different html2pdf tools. I compare mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
 
 ## 🔬 Test Sections
 <div class="boxes"><a href="/CSS-Properties/">CSS Properties</a>
