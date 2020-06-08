@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<!-- Sample taken from https://www.pdfreactor.com/samples/ -->
+<html lang="en-US">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+        <title>Tagged PDF and PDF/A compliance</title>
+        <style>
+            /***************************************************
+ * Page
+ ***************************************************/
+
+@page {
+    margin: 1.5cm;
+    
+    @bottom-right {
+        content: counter(page);
+        vertical-align: top;
+        font-size: 12pt;
+        color: black;
+    }
+}
+
+/* Styles that should specifically not affect browsers */
+@media print {
+    .pageBreak + * {
+        break-before: page;
+        margin-top: 0;
+    }
+
+    .pageBreakBefore {
+        break-before: page;
+        margin-top: 0;
+    }
+    
+    h1 {
+        break-before: page;
+        margin-top: 0 !important;
+    }
+}
+
+/* Some basic style for browsers */
+@media screen {
+    
+    html {
+        background-color: lightgray;
+    }
+    
+    body {
+        max-width: 1200px;
+        margin: 8px auto;
+        
+        padding: 32px;
+        padding-top: 0;
+        border: 1px solid darkgray;
+        background-color: white;
+    }
+    
+    img {
+        max-width: 18cm;
+    }
+    
+    h1 {
+        margin-top: 1cm !important;
+    }
+}
+
+/***************************************************
+ * General
+ ***************************************************/
+
+html {
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+    color: #222222;
+}
+
+div, div p, blockquote {
+    color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-top: 0.6cm;
+    break-after: avoid;
+}
+
+h1 {
+    font-size: 24pt;
+    margin-bottom: 0.5cm;
+}
+
+h2 {
+    font-size: 18pt;
+    margin: 0.4cm 0;
+}
+
+h3 {
+    font-size: 14pt;
+    margin: 0.4cm 0;
+}
+
+h4 {
+    font-size: 12pt;
+    text-decoration: underline;
+    margin-bottom: 0.25cm;
+}
+
+p, td, th, li {
+    font-size: 10pt;
+    line-height: 1.25;
+    color: #666666;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: #e41d03;
+    text-decoration: underline;
+}
+
+barcode, math {
+    color: black;
+}
+
+blockquote {
+    font-family: 'times new roman', serif;
+    font-style: italic;
+    margin: 2mm;
+    padding: 0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+table, td, th {
+    border: thin solid #e1e1e1;
+}
+
+td, th {
+    padding: 0.2cm;
+}
+
+th {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+
+
+
+table.code, td.code, div.code, img.sample {
+    background-color: #f5f5f5;
+    break-before: avoid;
+}
+
+ul, ol {
+    break-inside: avoid;
+}
+
+
+
+
+/***************************************************
+ * Box Classes
+ ***************************************************/
+
+div.code, div.result, div.experimentalNote, img.sample {
+    margin-bottom: 0.25cm;
+    border: 1pt solid #e1e1e1;
+    padding: 2.5mm;
+    break-before: avoid;
+    break-inside: avoid;
+}
+
+div.code p {
+    text-align: inherit;
+}
+
+:-ro-matches(div.code, div.result) p:first-of-type {
+    margin-top: 0;
+}
+
+:-ro-matches(div.code, div.result) p:last-of-type {
+    margin-bottom: 0;
+}
+
+code, .code {
+    font-family: 'courier new', monospace;
+    font-size: 8pt;
+    line-height: 1.2;
+}
+
+code {
+    white-space: pre;
+}
+
+code .comment {
+    color: #3f7f5f;
+}
+
+div.result {
+    font-family: 'times new roman', serif;
+    border: 1pt solid #222222;
+    background-color: white;
+}
+
+div.result p {
+    color: #222222;
+}
+
+div.result p:first-child {
+    margin-top: 0;
+}
+
+div.result p:last-child {
+    margin-bottom: 0;
+}
+
+div.experimentalNote {
+    border-color: yellow;
+    background-color: lightyellow;
+    margin: 1cm 0;
+    text-align: justify;
+}
+
+/***************************************************
+ * Break Classes
+ ***************************************************/
+
+.columnBreak {
+    break-after: column;
+}
+
+/******************************************
+ * Preferences
+ *******************************************/
+
+@-ro-preferences {
+    page-layout: 1 column;
+    initial-zoom: fit-page;
+}
+
+        </style>
+        <style>
+            table {
+                width: 100%;
+            }
+            #exampleTable {
+                margin-top: 1.3cm;
+                margin-bottom: 0.1cm;
+                text-align: center;
+            }
+            #exampleTable > caption {
+                color: #666666;
+                font-size: 0.8em;
+                font-weight: bold;
+                padding-bottom: 1pt;
+            }
+            #rightBlock {
+                float: right;
+                width: 45%;
+                overflow: hidden;
+            }
+            #rightblock img {
+                height: 20.44cm;
+            }
+            #leftBlock {
+                width: 50%;
+            }
+            #leftBlock h2 {
+                margin-top: 0cm;
+            }
+            #leftBlock + * {
+                clear: right;
+            }
+
+            #newChapter {
+                margin-top: 1cm;
+            }
+            
+            div p {
+                color: #666666;
+            }
+            
+            .note::before {
+                display: block;
+                background-color: #f5f5f5;
+                text-align: center;
+                font-weight: bold;
+                content: "Note:";
+            }
+            .note > div, .note::before {
+                border: thin solid #e1e1e1;
+                font-size: 10pt;
+                line-height: 1.25;
+                color: #666666;
+                padding: 0.2cm;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tagged PDF and PDF/A compliance</h1>
+
+        <div id="rightBlock">
+            <img src="https://via.placeholder.com/460x1040" alt="Adobe Acrobat DC screenshot"></img>
+        </div>
+
+        <div id="leftBlock">
+            <h2>Tagged PDF</h2>
+
+            <p>Tagged PDF files contain information about the structure of the document. The information about the structure
+            is transported via so-called "PDF tags". Tagging a PDF makes it more accessible to screen readers, handhelds and similar devices.
+            Enabled tagging also improves the copy and paste behavior. For example, copying a whole paragraph in a tagged PDF created with PDFreactor
+            will ignore the line breaks which are displayed in the PDF document. Furthermore tagging applies reflow.</p>
+
+            <p>Using the <code>setAddTags</code> API method, you can add PDF tags to the PDF documents generated with PDFreactor. If you are generating
+            a PDF from HTML documents, the HTML elements are automatically mapped to the corresponding PDF tags, so all you have to
+            do is setting this property to enable tagging.</p>
+
+            <p>The following example maps the HTML element image to the PDF tag "Figure", and the content of its alt attribute to an alternative description
+            for this tag.</p>
+
+            <div class="code"><code>img {
+    -ro-pdf-tag-type: "Figure";
+}
+img[alt] {
+    -ro-alt-text: -ro-attr(alt);
+}</code></div>
+
+            <p>The screenshot (taken from Adobe Acrobat DC) on the right shows that PDFreactor is capable to tag even complex structures such as tables properly.
+            The table below was placed on the bottom of the page to demonstrate that PDFreactor wont repeat the &lt;Table&gt; or &lt;THead&gt; tag even though
+            the table splits onto another page.</p>
+
+            <p>A tagged PDF will often be bigger then an equivalent PDF file that does not include PDF tags. You can enable the full compression mode to
+            reduce the document size. To do so, the method setFullCompression can be used in the PDFreactor integration:</p>
+
+            <div class="code"><code>config.setFullCompression(true);</code></div>
+        </div>
+
+        <table id="exampleTable">
+            <caption>Example table</caption>
+            <thead>
+                <tr>
+                    <th>Employee</th>
+                    <th>Mail</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>johne.doe@example.com</td>
+                    <td>202-555-0152</td>
+                </tr>
+                <tr>
+                    <td>Austin King</td>
+                    <td>austin.king@example.com</td>
+                    <td>202-555-0191</td>
+                </tr>
+                <tr>
+                    <td>Edward Alsop</td>
+                    <td>edward.alsop@example.com</td>
+                    <td>202-555-0113</td>
+                </tr>
+                <tr>
+                    <td>Brian Mitchell</td>
+                    <td>brian.mitchell@example.com</td>
+                    <td>202-555-0131</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="newChapter">PDF/A Conformance</h2>
+
+        <p>PDF/A differs from PDF by prohibiting features ill-suited to long-term archiving, such as
+        font linking (as opposed to font embedding).</p>
+
+        <p>The PDF/A standard does not define an archiving strategy or the goals of an archiving system.
+        It identifies a "profile" for electronic documents that ensures the documents can be reproduced exactly the
+        same way using various software in years to come. A key element to this reproducibility is the requirement for
+        PDF/A documents to be 100% self-contained. All of the information necessary for displaying the document in the same
+        manner is embedded in the file. This includes, but is not limited to, all content (text, raster images and vector
+        graphics), fonts and color information. A PDF/A document is not permitted to be reliant on information from external
+        sources (e.g. font programs and data streams), but may include annotations (e.g. hypertext links) that link to 
+        external documents.</p>
+
+        <p>PDFreactor supports the creation of all PDF/A conformant files.</p>
+
+        <p>Many companies and government organizations worldwide require PDF/A conformant documents.</p>
+
+        <p>PDF/A-1a is the most strict PDF/A standard while the newer PDF/A standards are more lenient, e.g. allowing
+        transparency and attachments.</p>
+
+        <h3>Common PDF/A conformance requirements</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>PDF/A restriction</th>
+                    <th>PDFreactor actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>All used fonts are embedded.</td>
+                    <td>PDFreactor ignores the option to disable font embedding.</td>
+                </tr>
+                <tr>
+                    <td>All images are embedded.</td>
+                    <td>Images are always automatically embedded by PDFreactor.</td>
+                </tr>
+                <tr>
+                    <td>Multi-media content is prohibited.</td>
+                    <td>Embedding objects is automatically prevented by PDFreactor, when PDF/A conformance is set.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript is prohibited.</td>
+                    <td>No JavaScript is embedded, when PDF/A conformance is set. (This does not prohibit JavaScript in the
+                    source HTML document to processed during conversions)</td>
+                </tr>
+                <tr>
+                    <td>Encryption is disallowed.</td>
+                    <td>This is automatically prevented, when the PDF/A conformance is set.</td>
+                </tr>
+                <tr>
+                    <td>The PDF must be tagged.</td>
+                    <td>This is automatically done by PDFreactor, when PDF/A conformance is set.</td>
+                </tr>
+                <tr>
+                    <td>Metadata included in the PDF is required to be standard-based XMP.</td>
+                    <td>This is automatically done by PDFreactor, when PDF/A conformance is set.</td>
+                </tr>
+                <tr>
+                    <td>Colors are specified in a device-independent manner.</td>
+                    <td>In PDFreactor colors are defined either as RGB or CMYK. When PDF/A conformance is set,
+                    one of these color spaces has to be set in conjunction with a color space profile.
+                    CMYK requires an ICC profile to be set, RGB colors use a default sRGB profile, if no other is set.
+                    Using RGB colors in CMYK PDF/A documents or vice versa is prohibited.
+                    Color keywords and shades specified via the "gray" function are converted to the appropriate color 
+                    space losslessly. </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>PDF/A-1a specific conformance requirements</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>PDF/A-1a restriction</th>
+                    <th>PDFreactor actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Transparency is disallowed.</td>
+                    <td>PDFreactor will ignore certain kinds of transparency of images. Other occurrences of transparency will cause an exception
+                    to be thrown.</td>
+                </tr>
+                <tr>
+                    <td>Attachments are disallowed.</td>
+                    <td>This is automatically prevented, when PDF/A-1a conformance is set.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>To create a PDF/A conformant document, the method setConformance can be used in the PDFreactor integration:</p>
+
+        <div class="code"><code>config.setConformance(Conformance.PDFA3A);</code></div>
+
+        <p>If CMYK colors are used in a document to be converted into a PDF/A-conformant file, an Output Intent has to
+        be set. It is possible to use the following API methods:</p>
+
+        <div class="code"><code>Configuration config = new Configuration();
+
+OutputIntent outputIntent = new OutputIntent();
+outputIntent.setIdentifier("ICC profile identifier");
+
+// Use this if you are loading the ICC profile via URL
+outputIntent.setUrl("URL/to/ICC/profile");
+
+// Use this if you want to specify the ICC profile's binary data
+outputIntent.setData("ICC profile binary data");
+
+config.setOutputIntent(outputIntent);</code></div>
+
+        <p>The first parameter is a string identifying the intended output device or production condition in human-
+        or machine-readable form. The second parameter points to ICC profile file or contains data of such a profile.</p>
+
+        <div class="note">
+            <div>When PDF/A conformance is set, encryption, restrictions, comments, full compression and other non PDF/A-conformant features are automatically
+            overwritten, regardless of their own settings.</div>
+            <div>Setting PDF/A-1a conformance generates PDFs with Adobe PDF version 1.4 in which some PDF tags are forbidden e.g. &lt;TBody&gt;.
+            PDFreactor will skip all forbidden tags automatically, but handle table headers correctly.</div>
+        </div>
+
+    </body>
+</html>

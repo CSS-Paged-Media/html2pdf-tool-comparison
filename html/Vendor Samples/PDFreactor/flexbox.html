@@ -1,0 +1,754 @@
+<!DOCTYPE htmL>
+<!-- Sample taken from https://www.pdfreactor.com/samples/ -->
+<html lang="en-US">
+    <head>
+        <style>@media screen {
+            .flex {
+                width: 15cm;
+            }
+        }
+        
+        @media page {
+            .flex {
+                width: auto;
+            }
+        }
+        
+        .flex {
+            border: 1px solid grey;
+            background-color: seashell;
+            padding: 0.5cm;
+            display: flex;
+            break-before: avoid;
+        }
+        
+        .flex div {
+            margin: 0.1cm;
+            height: 1cm;
+            background-color: lightgreen;
+            border: 1px solid grey;
+            text-align: center;
+            padding: 0.2cm;
+            font-size: 0.8em;
+            font-family: Courier, monospace;
+        }
+        
+        .grow div {
+            flex-grow: 1;
+        }
+        
+        .grow2 div:nth-of-type(3) {
+            flex-grow: 3;
+        }
+        
+        .alignSingle div:nth-of-type(4) {
+            margin-left: 8cm;
+            background-color: red;
+        }
+        
+        .rowWrap {
+            -ro-flow-into: rowWrapRegion;
+            -webkit-flow-into: rowWrapRegion;
+            flow-into: rowWrapRegion;
+        }
+        
+        .fakePage {
+            margin: 1cm;
+            border: 1px solid black;
+            width: 7cm;
+            height: 4.5cm;
+            break-before: avoid;
+        }
+        
+        .rowWrapRegion1, .rowWrapRegion2 {
+            -ro-flow-from: rowWrapRegion;
+            webkit-flow-from: rowWrapRegion;
+            flow-from: rowWrapRegion;
+            padding: 0.2cm;
+        }
+        
+        .columnWrap {
+            -ro-flow-into: columnWrapRegion;
+            -webkit-flow-into: columnWrapRegion;
+            flow-into: columnWrapRegion;
+        }
+        
+        .columnWrapRegion1, .columnWrapRegion2 {
+            -ro-flow-from: columnWrapRegion;
+            webkit-flow-from: columnWrapRegion;
+            flow-from: columnWrapRegion;
+            padding: 0.2cm;
+        }
+        </style>
+        <style>/***************************************************
+ * Page
+ ***************************************************/
+
+@page {
+    margin: 1.5cm;
+    
+    @bottom-right {
+        content: counter(page);
+        vertical-align: top;
+        font-size: 12pt;
+        color: black;
+    }
+}
+
+/* Styles that should specifically not affect browsers */
+@media print {
+    .pageBreak + * {
+        break-before: page;
+        margin-top: 0;
+    }
+
+    .pageBreakBefore {
+        break-before: page;
+        margin-top: 0;
+    }
+    
+    h1 {
+        break-before: page;
+        margin-top: 0 !important;
+    }
+}
+
+/* Some basic style for browsers */
+@media screen {
+    
+    html {
+        background-color: lightgray;
+    }
+    
+    body {
+        max-width: 1200px;
+        margin: 8px auto;
+        
+        padding: 32px;
+        padding-top: 0;
+        border: 1px solid darkgray;
+        background-color: white;
+    }
+    
+    img {
+        max-width: 18cm;
+    }
+    
+    h1 {
+        margin-top: 1cm !important;
+    }
+}
+
+/***************************************************
+ * General
+ ***************************************************/
+
+html {
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+    color: #222222;
+}
+
+div, div p, blockquote {
+    color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-top: 0.6cm;
+    break-after: avoid;
+}
+
+h1 {
+    font-size: 24pt;
+    margin-bottom: 0.5cm;
+}
+
+h2 {
+    font-size: 18pt;
+    margin: 0.4cm 0;
+}
+
+h3 {
+    font-size: 14pt;
+    margin: 0.4cm 0;
+}
+
+h4 {
+    font-size: 12pt;
+    text-decoration: underline;
+    margin-bottom: 0.25cm;
+}
+
+p, td, th, li {
+    font-size: 10pt;
+    line-height: 1.25;
+    color: #666666;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: #e41d03;
+    text-decoration: underline;
+}
+
+barcode, math {
+    color: black;
+}
+
+blockquote {
+    font-family: 'times new roman', serif;
+    font-style: italic;
+    margin: 2mm;
+    padding: 0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+table, td, th {
+    border: thin solid #e1e1e1;
+}
+
+td, th {
+    padding: 0.2cm;
+}
+
+th {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+
+
+
+table.code, td.code, div.code, img.sample {
+    background-color: #f5f5f5;
+    break-before: avoid;
+}
+
+ul, ol {
+    break-inside: avoid;
+}
+
+
+
+
+/***************************************************
+ * Box Classes
+ ***************************************************/
+
+div.code, div.result, div.experimentalNote, img.sample {
+    margin-bottom: 0.25cm;
+    border: 1pt solid #e1e1e1;
+    padding: 2.5mm;
+    break-before: avoid;
+    break-inside: avoid;
+}
+
+div.code p {
+    text-align: inherit;
+}
+
+:-ro-matches(div.code, div.result) p:first-of-type {
+    margin-top: 0;
+}
+
+:-ro-matches(div.code, div.result) p:last-of-type {
+    margin-bottom: 0;
+}
+
+code, .code {
+    font-family: 'courier new', monospace;
+    font-size: 8pt;
+    line-height: 1.2;
+}
+
+code {
+    white-space: pre;
+}
+
+code .comment {
+    color: #3f7f5f;
+}
+
+div.result {
+    font-family: 'times new roman', serif;
+    border: 1pt solid #222222;
+    background-color: white;
+}
+
+div.result p {
+    color: #222222;
+}
+
+div.result p:first-child {
+    margin-top: 0;
+}
+
+div.result p:last-child {
+    margin-bottom: 0;
+}
+
+div.experimentalNote {
+    border-color: yellow;
+    background-color: lightyellow;
+    margin: 1cm 0;
+    text-align: justify;
+}
+
+/***************************************************
+ * Break Classes
+ ***************************************************/
+
+.columnBreak {
+    break-after: column;
+}
+
+/******************************************
+ * Preferences
+ *******************************************/
+
+@-ro-preferences {
+    page-layout: 1 column;
+    initial-zoom: fit-page;
+}
+</style>
+        <title>Flexbox Sample</title>
+    </head>
+    <body>
+        <h1>Flexbox Sample</h1>
+        <h2>Create a flexbox layout</h2>
+        <p>Flexbox layout is an easy way to arrange multiple items inside a container.</p>
+        <p>To create a flex container, simply apply <code>display: flex</code> to the desired container.</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+}</code>
+        </div>
+        <p>The children of a flex container are called flex items. They will flow horizontally by default, so they will be positioned in a row:</p>
+        <div class="flex">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+        </div>
+        <p>The flow direction can be modified using the <code>flex-direction</code> property. Setting <code>flex-direction: column</code> will cause the flex items
+            to flow vertically in a column:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-direction: column;
+}</code>
+        </div>
+        <div class="flex" style="flex-direction: column">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+        </div>
+        <p>Setting <code>flex-direction: row-reverse</code> will cause the flex items to flow in a row in
+        reverse order:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-direction: row-reverse;
+}</code>
+        </div>
+        <div class="flex" style="flex-direction: row-reverse">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+        </div>
+        <p>As we saw in the example above, <code>flex-direction: row-reverse</code> reverses the item order and aligns the items to the right. Let's align them to the left instead:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}</code>
+        </div>
+        <div class="flex" style="flex-direction: row-reverse; justify-content: flex-end">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+        </div>
+        <p>If the flex items are arranged in a column, they can be aligned to the bottom of the flex container using <code>justify-content: flex-end</code>:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}</code>
+        </div>
+        <div class="flex" style="flex-direction: column; justify-content: flex-end; height: 10cm;">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+        </div>
+        <p>Flex items can be centered by using both <code>align-items</code> and <code>justify-content</code>:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}</code>
+        </div>
+        <div class="flex" style="flex-direction: row; align-items: center; justify-content: center; height: 5cm;">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+        </div>
+        <p>Flex items can also be justified.</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    justify-content: space-between;
+}</code></div>
+        <div class="flex" style="justify-content: space-between;">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+        </div>
+        <h2>Growing flex items</h2>
+        <p>Flex items grow to fill the row when the <code>flex-grow</code> property is set to a positive value:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+}
+.flex div {
+    flex-grow: 1;
+}</code>
+        </div>
+        <div class="flex grow">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+        </div>
+        <p>Different values of <code>flex-grow</code> for items in the same row cause different amounts of growth:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+}
+.flex div {
+    flex-grow: 1;
+}
+.flex div:nth-of-type(3) {
+    flex-grow: 3;
+}</code>
+        </div>
+        <div class="flex grow grow2">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+        </div>
+        <h2>Wrapping flex items in rows or columns</h2>
+        <p>You can wrap flex items in multiple rows by specifying <code>flex-wrap: wrap</code> or <code>flex-flow: row wrap</code>, which is a shorthand for <code>flex-direction: row; flex-wrap: wrap</code>:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-flow: row wrap;
+}</code>
+        </div>
+        <div class="flex" style="flex-flow: row wrap; width: 7.5cm;">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+            <div>
+                <p>Item E</p>
+            </div>
+            <div>
+                <p>Item F</p>
+            </div>
+            <div>
+                <p>Item G</p>
+            </div>
+            <div>
+                <p>Item H</p>
+            </div>
+        </div>
+        <p>The flow of the flex items can also be reversed:</p>
+        <div class="code"><code>.flex {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}</code>
+        </div>
+        <div class="flex" style="flex-flow: row-reverse wrap; width: 7.5cm;">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+            <div>
+                <p>Item E</p>
+            </div>
+            <div>
+                <p>Item F</p>
+            </div>
+            <div>
+                <p>Item G</p>
+            </div>
+            <div>
+                <p>Item H</p>
+            </div>
+        </div>
+        <p>Flex items can also be wrapped into columns:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+}</code>
+        </div>
+        <div class="flex column" style="flex-flow: column wrap; align-content: flex-start; width: 7.5cm; height: 7.5cm;">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+            <div>
+                <p>Item E</p>
+            </div>
+            <div>
+                <p>Item F</p>
+            </div>
+            <div>
+                <p>Item G</p>
+            </div>
+            <div>
+                <p>Item H</p>
+            </div>
+        </div>
+        <p>When no height is set on the flex container the columns wrap at the bottom edge of the page:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+}</code>
+        </div>
+        <div class="flex column" style="flex-flow: column wrap; align-content: flex-start; width: 7.5cm;">
+            <div>
+                <p>Item A</p>
+            </div>
+            <div>
+                <p>Item B</p>
+            </div>
+            <div>
+                <p>Item C</p>
+            </div>
+            <div>
+                <p>Item D</p>
+            </div>
+            <div>
+                <p>Item E</p>
+            </div>
+            <div>
+                <p>Item F</p>
+            </div>
+            <div>
+                <p>Item G</p>
+            </div>
+            <div>
+                <p>Item H</p>
+            </div>
+        </div>
+        
+        <h2>Flex items and pagination</h2>
+        <p>When PDFreactor paginates documents with flex layouts, the flex items are paginated according to the wrap layout mode specified for the flex container.</p>
+        <p>If the container specifies <code>flex-flow: row wrap</code> and a page break occurs between two rows, the rows are continued on the next page:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-flow: row wrap;
+}</code>
+        </div>
+        <div class="rowWrap">
+            <div class="flex" style="flex-wrap: wrap; flex-flow: row wrap">
+                <div>
+                    <p>Item A</p>
+                </div>
+                <div>
+                    <p>Item B</p>
+                </div>
+                <div>
+                    <p>Item C</p>
+                </div>
+                <div>
+                    <p>Item D</p>
+                </div>
+                <div>
+                    <p>Item E</p>
+                </div>
+                <div>
+                    <p>Item F</p>
+                </div>
+                <div>
+                    <p>Item G</p>
+                </div>
+                <div>
+                    <p>Item H</p>
+                </div>
+            </div>
+        </div>
+        <div class="fakePage rowWrapRegion1"></div>
+        <div class="fakePage rowWrapRegion2"></div>
+        
+        <p>If the container specifies <code>flex-flow: column wrap</code> and a page break occurs between two columns, the columns are continued on the next page:</p>
+        <div class="code">
+            <code>.flex {
+    display: flex;
+    flex-flow: column wrap;
+}</code>
+        </div>
+        <div class="columnWrap">
+            <div class="flex" style="flex-wrap: wrap; flex-flow: column wrap">
+                <div>
+                    <p>Item A</p>
+                </div>
+                <div>
+                    <p>Item B</p>
+                </div>
+                <div>
+                    <p>Item C</p>
+                </div>
+                <div>
+                    <p>Item D</p>
+                </div>
+                <div>
+                    <p>Item E</p>
+                </div>
+                <div>
+                    <p>Item F</p>
+                </div>
+                <div>
+                    <p>Item G</p>
+                </div>
+                <div>
+                    <p>Item H</p>
+                </div>
+                <div>
+                    <p>Item I</p>
+                </div>
+                <div>
+                    <p>Item J</p>
+                </div>
+                <div>
+                    <p>Item K</p>
+                </div>
+            </div>
+        </div>
+        <div class="fakePage columnWrapRegion1"></div>
+        <div class="fakePage columnWrapRegion2"></div>
+    </body>
+</html>

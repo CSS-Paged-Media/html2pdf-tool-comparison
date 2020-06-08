@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<!-- Sample taken from https://www.pdfreactor.com/samples/ -->
+<html lang="en-US">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+        <title>Multi-column Sample</title>
+        
+        <style>/***************************************************
+            * Page
+            ***************************************************/
+           
+           @page {
+               margin: 1.5cm;
+               
+               @bottom-right {
+                   content: counter(page);
+                   vertical-align: top;
+                   font-size: 12pt;
+                   color: black;
+               }
+           }
+           
+           /* Styles that should specifically not affect browsers */
+           @media print {
+               .pageBreak + * {
+                   break-before: page;
+                   margin-top: 0;
+               }
+           
+               .pageBreakBefore {
+                   break-before: page;
+                   margin-top: 0;
+               }
+               
+               h1 {
+                   break-before: page;
+                   margin-top: 0 !important;
+               }
+           }
+           
+           /* Some basic style for browsers */
+           @media screen {
+               
+               html {
+                   background-color: lightgray;
+               }
+               
+               body {
+                   max-width: 1200px;
+                   margin: 8px auto;
+                   
+                   padding: 32px;
+                   padding-top: 0;
+                   border: 1px solid darkgray;
+                   background-color: white;
+               }
+               
+               img {
+                   max-width: 18cm;
+               }
+               
+               h1 {
+                   margin-top: 1cm !important;
+               }
+           }
+           
+           /***************************************************
+            * General
+            ***************************************************/
+           
+           html {
+               font-family: arial, sans-serif;
+               font-size: 10pt;
+               color: #222222;
+           }
+           
+           div, div p, blockquote {
+               color: #222222;
+           }
+           
+           h1, h2, h3, h4, h5, h6 {
+               font-weight: normal;
+               margin-top: 0.6cm;
+               break-after: avoid;
+           }
+           
+           h1 {
+               font-size: 24pt;
+               margin-bottom: 0.5cm;
+           }
+           
+           h2 {
+               font-size: 18pt;
+               margin: 0.4cm 0;
+           }
+           
+           h3 {
+               font-size: 14pt;
+               margin: 0.4cm 0;
+           }
+           
+           h4 {
+               font-size: 12pt;
+               text-decoration: underline;
+               margin-bottom: 0.25cm;
+           }
+           
+           p, td, th, li {
+               font-size: 10pt;
+               line-height: 1.25;
+               color: #666666;
+           }
+           
+           p {
+               text-align: justify;
+           }
+           
+           a {
+               color: #e41d03;
+               text-decoration: underline;
+           }
+           
+           barcode, math {
+               color: black;
+           }
+           
+           blockquote {
+               font-family: 'times new roman', serif;
+               font-style: italic;
+               margin: 2mm;
+               padding: 0;
+           }
+           
+           table {
+               margin-left: auto;
+               margin-right: auto;
+               border-collapse: collapse;
+               background-color: transparent;
+           }
+           
+           table, td, th {
+               border: thin solid #e1e1e1;
+           }
+           
+           td, th {
+               padding: 0.2cm;
+           }
+           
+           th {
+               text-align: center;
+               background-color: #f5f5f5;
+           }
+           
+           
+           
+           
+           table.code, td.code, div.code, img.sample {
+               background-color: #f5f5f5;
+               break-before: avoid;
+           }
+           
+           ul, ol {
+               break-inside: avoid;
+           }
+           
+           
+           
+           
+           /***************************************************
+            * Box Classes
+            ***************************************************/
+           
+           div.code, div.result, div.experimentalNote, img.sample {
+               margin-bottom: 0.25cm;
+               border: 1pt solid #e1e1e1;
+               padding: 2.5mm;
+               break-before: avoid;
+               break-inside: avoid;
+           }
+           
+           div.code p {
+               text-align: inherit;
+           }
+           
+           :-ro-matches(div.code, div.result) p:first-of-type {
+               margin-top: 0;
+           }
+           
+           :-ro-matches(div.code, div.result) p:last-of-type {
+               margin-bottom: 0;
+           }
+           
+           code, .code {
+               font-family: 'courier new', monospace;
+               font-size: 8pt;
+               line-height: 1.2;
+           }
+           
+           code {
+               white-space: pre;
+           }
+           
+           code .comment {
+               color: #3f7f5f;
+           }
+           
+           div.result {
+               font-family: 'times new roman', serif;
+               border: 1pt solid #222222;
+               background-color: white;
+           }
+           
+           div.result p {
+               color: #222222;
+           }
+           
+           div.result p:first-child {
+               margin-top: 0;
+           }
+           
+           div.result p:last-child {
+               margin-bottom: 0;
+           }
+           
+           div.experimentalNote {
+               border-color: yellow;
+               background-color: lightyellow;
+               margin: 1cm 0;
+               text-align: justify;
+           }
+           
+           /***************************************************
+            * Break Classes
+            ***************************************************/
+           
+           .columnBreak {
+               break-after: column;
+           }
+           
+           /******************************************
+            * Preferences
+            *******************************************/
+           
+           @-ro-preferences {
+               page-layout: 1 column;
+               initial-zoom: fit-page;
+           }
+
+           /* Fonts */
+
+@page landscape {
+    size: A4 landscape;
+}
+
+
+
+/* General */
+
+h2:not(:first-of-type) {
+    break-before: page;
+    margin-top: 0;
+}
+
+div.sample {
+    border: thin solid black;
+    hyphens: auto;
+}
+
+
+/* Sample: Dictionary */
+
+div.dictionary {
+    line-height: 1.2;
+    hyphenate-before: 3;
+    hyphenate-after: 4;
+    
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    
+    -webkit-column-gap: 0.25in;
+    -moz-column-gap: 0.25in;
+    column-gap: 0.25in;
+    
+    padding: 0.25in;
+    
+    width: 5in;
+    margin: auto;
+    
+    font-family: 'times new roman', serif;
+    font-size: 10pt;
+    
+    background-color: rgb(250,250,250);
+}
+
+div.dictionary dl {
+    margin: 0;
+}
+
+div.dictionary dt, 
+div.dictionary dd {
+    margin-left: 0.1in;
+    break-before: avoid;
+}
+
+div.dictionary dt {
+    text-indent: -0.1in;
+    float: left;
+    padding-right: 0.1in;
+}
+
+div.dictionary dd + div.dictionary dt {
+    break-before: auto;
+}
+
+div.dictionary .smcap {
+    font-variant: small-caps;
+}
+
+div.dictionary .lowercase {
+    text-transform: lowercase;
+}
+
+
+/* Sample: Journal */
+
+div.script {
+    width: 5.5in;
+    height: 6in;
+    
+    -webkit-column-width: 2.5in;
+    -moz-column-width: 2.5in;
+    column-width: 2.5in;
+    
+    -webkit-column-gap: 0.5in;
+    -moz-column-gap: 0.5in;
+    column-gap: 0.5in;
+    
+    -webkit-column-fill: auto;
+    -moz-column-fill: auto;
+    column-fill: auto;
+    
+    margin: auto;
+    
+    padding: 0.25in;
+    padding-left: 0.5in;
+    padding-right: 0.75in;
+    
+    background-image: -webkit-linear-gradient(0deg, burlywood -20%, beige 7%, beige 93%, burlywood 120%);
+    background-image: -moz-linear-gradient(0deg, burlywood -20%, beige 7%, beige 93%, burlywood 120%);
+    background-image: linear-gradient(90deg, burlywood -20%, beige 7%, beige 93%, burlywood 120%);
+    
+    hyphens: none;
+}
+
+div.script p {
+    font-size: 14pt;
+    line-height: 1.6;
+    color: black;
+}
+
+div.script p:first-child {
+    margin-top: 0;
+}
+
+
+/* Sample: Restaurant Menu */
+
+div.menu {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    
+    -webkit-column-gap: 0.25in;
+    -moz-column-gap: 0.25in;
+    column-gap: 0.25in;
+    
+    -webkit-column-rule: thin solid gray;
+    -moz-column-rule: thin solid gray;
+    column-rule: thin solid gray;
+    
+    padding: 0.1in 0.25in 0.2in;
+    
+    counter-reset: nr 16;
+}
+
+div.menu h1,
+div.menu h2,
+div.menu p,
+div.menu li {
+    font-family: 'times new roman', serif;
+}
+
+div.menu h1 {
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    column-span: all;
+    
+    margin-top: 0;
+    padding-top: 3.5pt;
+    padding-bottom: 4pt;
+    
+    text-align: center;
+    
+    color: black;
+    
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20pt;
+    
+    break-before: auto;
+}
+
+div.menu h1 + * {
+    margin-top: 0;
+}
+
+div.menu h2 {
+    margin-top: 0;
+    
+    text-align: left;
+    
+    color: black;
+    
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 14pt;
+    
+    break-before: auto;
+}
+
+div.menu p,
+div.menu li {
+    color: black;
+    font-size: 12pt;
+}
+
+div.menu img {
+    display: block;
+    
+    width: 100%; 
+    
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    column-span: all;
+    
+    margin-top: 0.25in;
+    margin-bottom: 0.25in;
+}
+
+div.menu li {
+    list-style-type: none;
+    line-height: 1;
+    
+    margin-top: 0.1in;
+    
+    text-indent: -0.1in;
+    
+    counter-increment: nr;
+}
+
+div.menu li::before {
+    content: counter(nr) ".";
+    
+    float: left;
+    
+    width: 0.25in;
+    margin-left: -0.35in;
+    margin-right: 0.2in;
+    
+    text-align: right;
+}
+
+
+/* Sample: Article */
+
+div.article {
+    height: 2.5in;
+    
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    
+    padding: 0.1in;
+    
+    background-image: -webkit-linear-gradient(3deg, indianred 15px, white 16px);
+    background-image: -moz-linear-gradient(3deg, indianred 15px, white 16px);
+    background-image: linear-gradient(87deg, indianred 15px, white 16px);
+}
+
+div.article h1 {
+    text-align: right;
+    
+    color: black;
+    
+    font-family: 'times new roman', serif;
+    font-size: 20pt;
+    font-weight: bold;
+    
+    break-before: auto;
+    
+    break-after: column;
+    
+    margin-top: 0;
+}
+
+div.article p {
+    font-family: 'times new roman', serif;
+    font-size: 10.25pt;
+    line-height: 1.3;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 0.25in;
+    
+    color: black;
+}
+
+div.article p:first-of-type,
+div.article img + p {
+    text-indent: 0in;
+}
+
+div.article img {
+    display: block;
+    
+    margin: auto;
+    
+    break-before: column;
+    
+    break-after: column;
+    
+    height: 100%;
+}
+
+/* Sample: Base-line */
+
+div.grid {
+    page: landscape; 
+}
+
+div.surround h2 {
+    margin: 0;
+    break-before: avoid;
+}
+
+div.container > h2 {
+    margin-bottom: 5pt;
+    font-family: 'courier new', monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+
+div.gridlayout {
+    -ro-line-grid: create;
+    padding: 3pt; 
+    line-height: 1.2;
+    height: 5.2in;
+    width: 3.28in;
+    
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    
+    -webkit-column-fill: auto;
+    -moz-column-fill: auto;
+    column-fill: auto;
+}
+
+div.container {
+    float: left;
+    margin-right: 6px;
+}
+
+div.gridlayout h2 {
+    margin: 12pt 0 6pt;
+}
+
+div.gridlayout h2:first-child {
+    margin-top: 0;
+}
+
+div.gridlayout p {
+    line-height: inherit;
+    margin: 0;
+}
+
+div.none {
+    -ro-line-snap: none;
+}
+
+div.baseline {
+    -ro-line-snap: baseline;
+}
+
+div.contain {
+    -ro-line-snap: contain;
+}
+
+p.source {
+    text-align: left;
+}
+
+span.nobreak {
+    white-space: pre;
+}
+
+           </style>
+    </head>
+    <body>
+        <h1>Multi-column Sample</h1>
+        
+        <h2>Dictionary Layout</h2>
+        
+        <p>The following example shows how to create a basic multi-column 
+           document with two columns, balanced content and a small gap.
+        </p> 
+        
+        <div class="sample dictionary">
+            <dl>
+                
+                <dt><b>Peace</b>, <i>n.</i></dt>
+                <dd><b>1.</b> Calm, repose, quiet, tranquillity, stillness, silence.</dd>
+                <dd><b>2.</b> Amity, concord, harmony, truce, <span class="smcap lowercase">ARMISTICE</span>.</dd>
+                
+                <dt><b>Peaceable</b>, <i>a.</i></dt>
+                <dd><b>1.</b> Peaceful, pacific, free from war.</dd>
+                <dd><b>2.</b> Gentle, mild, amicable, friendly, disposed to peace, not quarrelsome.</dd>
+                <dd><b>3.</b> Quiet, tranquil, placid, unmoved, undisturbed, serene.</dd>
+                
+                <dt><b>Peaceful</b>, <i>a.</i></dt>
+                <dd><b>1.</b> Quiet, calm, still, undisturbed, placid, tranquil, serene.</dd>
+                <dd><b>2.</b> Mild, gentle, kindly, friendly.</dd>
+                
+                <dt><b>Peace-maker</b>, <i>n.</i></dt>
+                <dd>Mediator, intercessor.</dd>
+                
+                <dt><b>Peace-making</b>, <i>a.</i></dt>
+                <dd>Conciliatory, mild, appeasing.</dd>
+                
+                <dt><b>Peace-offering</b>, <i>n.</i></dt>
+                <dd><b>1.</b> Atonement, satisfaction, amends, reparation, atoning sacrifice.</dd>
+                <dd><b>2.</b> Mediation, olive-branch, intercession.</dd>
+                
+                <dt><b>Peak</b>, <i>n.</i></dt>
+                <dd>Top (<i>of a mountain</i>), summit, crest, crown, pinnacle.</dd>
+                
+                <dt><b>Peak</b>, <i>v. n.</i></dt>
+                <dd><b>1.</b> Grow thin or lean, become emaciated.</dd>
+                <dd><b>2.</b> Sneak, make a mean figure.</dd>
+                
+                <dt><b>Peaked</b>, <i>a.</i></dt>
+                <dd>Pointed.</dd>
+                
+                <dt><b>Peal</b>, <i>n.</i></dt>
+                <dd>Blast, burst, blare, clang.</dd>
+                
+                <dt><b>Peal</b>, <i>v. n.</i></dt>
+                <dd>Resound, echo, re-echo, boom, thunder, roar.</dd>
+                
+                <dt><b>Pea-nut</b>, <i>n.</i></dt>
+                <dd>Ground-nut, earth-nut (<i>Arachis hypog&#230;a</i>).</dd>
+                
+                <dt><b>Pearlash</b>, <i>n.</i></dt>
+                <dd>Sub-carbonate of potassa (<i>impure</i>), calcined potash.</dd>
+                
+                <dt><b>Pearl-powder</b>, <i>n.</i></dt>
+                <dd><span class="smcap">Pearl-white</span>.</dd>
+                
+                <dt><b>Pearl-white</b>, <i>n.</i></dt>
+                <dd>Pearl-powder, sub-muriate of bismuth.</dd>
+                
+                <dt><b>Pearly</b>, <i>a.</i></dt>
+                <dd><b>1.</b> Abounding in pearls.</dd>
+                <dd><b>2.</b> Clear, pure, transparent, nacreous.</dd>
+                
+                <dt><b>Peasant</b>, <i>n.</i></dt>
+                <dd>Rustic, countryman, hind, swain.</dd>
+                
+                <dt><b>Pebble</b>, <i>n.</i></dt>
+                <dd>Stone (<i>of small size</i>), pebble-stone.</dd>
+                
+                <dt><b>Pebble-stone</b>, <i>n.</i></dt>
+                <dd>Pebble.</dd>
+                
+                <dt><b>Peccability</b>, <i>n.</i></dt>
+                <dd>Frailty, infirmity, weakness, liability to sin.</dd>
+                
+                <dt><b>Peccable</b>, <i>a.</i></dt>
+                <dd>Frail, weak, imperfect, erring, sinning, liable to sin.</dd>
+                
+                <dt><b>Peccadillo</b>, <i>n.</i></dt>
+                <dd>Petty fault, slight offence.</dd>
+                
+                <dt><b>Peccant</b>, <i>a.</i></dt>
+                <dd><b>1.</b> Sinning, erring, guilty, criminal.</dd>
+                <dd><b>2.</b> Morbid, malignant, corrupting, corroding.</dd>
+                
+                <dt><b>Peculation</b>, <i>n.</i></dt>
+                <dd>Embezzlement.</dd>
+                
+                <dt><b>Peculiar</b>, <i>a.</i></dt>
+                <dd><b>1.</b> That specially pertains, that belongs exclusively.</dd>
+                <dd><b>2.</b> Singular, particular, characteristic, special, exceptional, rare, not common, not general.</dd>
+                
+                <dt><b>Peculiarity</b>, <i>n.</i></dt>
+                <dd>Individuality, idiocrasy, idiosyncrasy, characteristic, speciality, singularity.</dd>
+                
+                <dt><b>Pecuniary</b>, <i>a.</i></dt>
+                <dd>Monetary, financial.</dd>
+               
+                <dt><b>Pedagogue</b>, <i>n.</i></dt>
+                <dd>[<i>A contemptuous term.</i>] Schoolmaster, teacher.</dd>
+                
+                <dt><b>Pedant</b>, <i>n.</i></dt>
+                <dd>Pretender to learning.</dd>
+                
+                <dt><b>Pedantic</b>, <i>a.</i></dt>
+                <dd>Conceited, pragmatical, vain of knowledge, ostentations of learning.</dd>
+                
+            </dl>
+        </div>
+        
+        <p class="source">Excerpt from "Dictionary of English Synonymes" by Richard Soule via Project Gutenberg:
+            <span class="nobreak">http://www.gutenberg.org/files/38390/38390-h/38390-h.htm</span></p>
+        
+        <div class="code">
+            <code>div.dictionary {
+    height 6in; /* if not set the box shrinks to the balanced column's height */
+    column-count: 2; /* defines two columns */
+    column-gap: 0.25in; /* defines the gap width */
+    ...
+}</code>
+        </div>
+        
+        
+        <h2>Journal Layout</h2>
+        
+        <p>In this example the columns are defined by width and their content 
+           is laid out to fully fill each column before beginning the next 
+           rather than balancing all column heights equally. The gap is a 
+           little bigger, to leave room for written side-notes.
+        </p>
+        
+        <div class="sample script">
+            <p>Monday, 8th.<br/>Fresh Breezes and Cloudy weather the most part of these 24 hours. At 10 a.m. weighed and came to sail; at Noon the South Foreland bore North-East 1/2 North, distant 6 or 7 Miles. Wind West by North, North-West.</p>
+            
+            <p>Tuesday, 9th.<br/>Gentle breezes and Cloudy weather. At 7 p.m. the Tide being against us, Anchored in 13 fathoms of Water; Dungeness South-West by West. At 11 a.m. Weighed and made Sail down Channel; at Noon, Beachy Head, North by East 1/2 East, distant 6 Leagues, Latitude observed 50 degrees 30 minutes North. Wind North-West to North.</p>
+            
+            <p>Wednesday, 10th.<br/>Variable: light Airs and Clear weather. At 8 p.m. Beachy Head North-East by East, distant 4 Leagues, and at 8 a.m. it bore North-East by North, 9 Leagues. Found the Variation of the Compass to be 23 degrees West; at Noon the Isle of Wight North-West by North. Wind West by North, North-East by East.</p>
+            
+            <p>Thursday, 11th.<br/>Light Airs and Clear weather. At 8 p.m. Dunnose North by West 5 Leagues, and at 4 a.m. it bore North-North-East 1/2 East, distant 5 Leagues. Wind Variable.</p>
+            
+        </div>
+        
+        <p class="source">Excerpt from "Captain Cook's Journal, First Voyage", Chapter 1 "England to Rio Janeiro" by James Cook via Project Gutenberg:
+            <span class="nobreak">http://www.gutenberg.org/files/8106/8106-h/8106-h.htm</span></p>
+        
+        <div class="code"><code>div.script {
+    width: 5.5in;
+    height: 6in; /* if not set columns will use space until end of the page */
+    column-width: 2.5in; /* define column width, makes two for this box */
+    column-gap: 0.5in;
+    column-fill: auto; /* disables balanced column layout */
+}</code></div>
+        
+        
+        <h2>Restaurant Menu with Spanning Content</h2>
+        
+        <p>The following example shows an advanced layout with rules between
+           columns and a headline and an image spanning the columns.
+        </p>
+        
+        <div class="sample menu">
+            <h1>Sushi</h1>
+            
+            <p><b>Sushi</b> (<span lang="ja">すし, 寿司, 鮨, 鮓, 寿斗, 寿し, 壽司</span>)
+               is a Japanese food consisting of cooked vinegared rice 
+               (<i>shari</i>) combined with other ingredients (<i>neta</i>). 
+               Neta and forms of sushi presentation vary, but the ingredient 
+               which all sushi have in common is <i>shari</i>. The most common 
+               <i>neta</i> is seafood.
+            </p>
+            
+            <div>
+                <img src="https://via.placeholder.com/1000x244" alt="Sushi" />
+            </div>
+            
+            <h2>Maki Sushi</h2>
+            
+            <ol>
+                <li><b>Avocado Maki</b><br/><i>avocado, rice and nori (dried seaweed)</i>
+                </li>
+                <li><b>Kappa Maki</b><br/><i>cucumber, rice and nori (dried seaweed)</i>
+                </li>
+                <li><b>Sake Maki</b><br/><i>salmon, rice and nori (dried seaweed)</i>
+                </li>
+                <li><b>Tekka Maki</b><br/><i>tuna, rice and nori (dried seaweed)</i>
+                </li>
+                
+            </ol>
+            
+            <h2>Nigiri Sushi</h2>
+            
+            <ol>
+                <li><b>Sake Nigiri</b><br/><i>salmon, rice</i>
+                </li>
+                <li><b>Ebi Nigiri</b><br/><i>shrimp, rice</i>
+                </li>
+                <li><b>Maguro Nigiri</b><br/><i>tuna, rice</i>
+                </li>
+            </ol>
+            
+        </div>
+        
+        <p class="source">Excerpt "Sushi" from Wikipedia:
+            <span class="nobreak">http://en.wikipedia.org/wiki/Sushi</span></p>
+        
+        <div class="code"><code>div.menu {
+    column-count: 2;
+    column-gap: 0.25in;
+    column-rule: thin solid gray; /* adds a thin gray line between columns*/
+    ...
+}
+div.menu h1 {
+    column-span: all; /* heading spans all the columns */
+    ...
+}
+div.menu img {
+    display: block;
+    width: 100%;
+    margin-top: 0.25in;
+    margin-bottom: 0.25in;
+    column-span: all; /* picture spans all the columns */
+    ...
+}</code></div>
+        
+        
+        
+        <h2>Article with Single-Content Columns</h2>
+        
+        <p>This simple example shows how content like a heading or image can
+           be made sole content of a column using manual column breaks.
+        </p>
+        
+        <div class="sample article">
+            <h1>United States Capitol</h1>
+            <p>The United States Capitol is the meeting place of the United 
+               States Congress, the legislature of the federal government of 
+               the United States.
+            </p>
+            <p>Located in Wash&shy;ing&shy;ton, D.C., it sits atop Capitol Hill 
+               at the eastern end of the National Mall. Though it has never 
+               been the geographic center of the federal district, the Capitol 
+               is the origin by which both the quadrants of the District are 
+               divided and the city was planned. Officially, both the east and 
+               west sides of the Capitol are referred to as "fronts."
+           </p>
+           <img src="https://via.placeholder.com/603x1293" alt="United States Capitol"/>
+           <p>Historically, however, only the east front of the building was 
+               intended for the arrival of visitors and dignitaries.
+           </p>
+           <p>Like the federal buildings for the executive and judicial 
+              branches, it is built in the distinctive neoclassical style and 
+              has a white exterior.
+           </p>
+        </div>
+        
+        <p class="source">Excerpt "United States Capitol" from Wikipedia:
+            <span class="nobreak">http://en.wikipedia.org/wiki/United_States_Capitol</span></p>
+        
+        <div class="code"><code>div.article {
+    height: 2.5in;
+    column-count: 5;
+    ...
+}
+div.article h1 {
+    break-after: column; /* explicit break ensures heading has own column */
+    ...
+}
+div.article img {
+    display: block;
+    height: 100%; /* makes the picture as high as the column it's in */
+    margin: auto;
+    break-before: column; /* explicit breaks ensure picture has own column */
+    break-after: column;
+}</code></div>
+        
+        <div class="grid" lang="la">
+            
+        <h2>Ensuring Vertical Rhythm for Improved Readability</h2>
+        
+        <p>This sample shows how the different values of the property <code>-ro-line-snap</code>
+        are used to align the text vertically to a virtual grid, giving the content a more pleasant look.</p>
+            <div class="surround">
+                <div class="container">
+                    <h2>-ro-line-snap: none</h2>
+                    <div class="sample gridlayout none">
+                        <h2>Lorem</h2> 
+                        <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p> <h2>Lorem</h2> <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p> <h2>Lorem</h2> <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <h2>-ro-line-snap: baseline</h2>
+                    <div class="sample gridlayout baseline">
+                        <h2>Lorem</h2> 
+                        <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p> <h2>Lorem</h2> <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no  sea takimata sanctus est Lorem ipsum dolor sit amet.</p> <h2>Lorem</h2> <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et  accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <h2>-ro-line-snap: contain</h2>
+                    <div class="sample gridlayout contain">
+                        <h2>Lorem</h2> 
+                        <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p> <h2>Lorem</h2> <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At  vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no  sea takimata sanctus est Lorem ipsum dolor sit amet.</p> <h2>Lorem</h2> <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et  accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="code" style="clear: left;"><code>div.gridlayout {
+    column-count: 3;
+    -ro-line-grid: create; /* create the virtual grid to which lines can snap */
+    line-height: 1.2; /* sets the distance between the virtual grid lines */
+    ...
+}
+div.none {
+    -ro-line-snap: none; /* text is not vertically aligned to grid */
+}
+div.baseline {
+    -ro-line-snap: baseline; /* text baseline is vertically aligned to grid */
+}
+div.contain {
+    -ro-line-snap: contain; /* larger text is aligned in the middle of grid lines */
+}
+        </code></div>
+        
+        <p>As seen in the first box, without a line grid differently sized elements 
+        like the headers shift the lines. There is a noticeable deviation in the vertical postion 
+        of lines in two adjacent columns. Also single lines at the bottom of a column may
+        stand out.</p>
+        
+        <p>To prevent this unaethestic positioning, the lines of all columns need to be aligned
+        to a common, invisible grid. With the CSS property <code>-ro-line-grid</code>,
+        such a virtual grid is created. By setting the property <code>-ro-line-snap</code>,
+        lines can be aligned to this grid.</p>
+        
+        <p>In the second box, the baselines of the text are aligned to said invisible grid.
+        Adjacent lines now have the same vertical position, which improves the readability
+        and gives the text a tidier look. Note that the distance between the headings
+        and paragraphs has become larger, as the first line has to be moved further down in
+        order to match its baseline with the grid.</p>
+        
+        <p>In the third box, the property is set to <code>contain</code>. 
+        This has no different effect on the normal text, however for text with a different
+        line-height or font, this yields a different result. While headings are no longer
+        baseline aligned, the result can, depending on the specific scenario, be space-saving.
+        Whether it visually fits the surrounding design has to be tried.</p>
+        
+        <p>In all cases the top and bottom margins of paragraphs and headings may require 
+        adjustments to produce the desired result.</p>
+        
+    </body>
+</html>
