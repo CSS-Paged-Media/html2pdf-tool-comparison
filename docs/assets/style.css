@@ -411,3 +411,52 @@ aside section:first-of-type h2:first-of-type {
   border:0;
   box-shadow:none;
 }
+
+/* To the top rocket */
+.rocket-outer{
+  text-align:right;
+  position:sticky;
+  bottom:2rem;
+  margin:2rem;
+  float:right;
+  text-decoration:none;
+  color:inherit;
+}
+
+.rocket{
+  padding:0.5em;
+  display:inline-block;
+  transform: rotate(-45deg);
+}
+
+.rocket-outer::after{
+    content: "To the top";
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1em;
+    top: -1px;
+    position: relative;
+}
+
+.rocket:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/* Shake by https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
+@keyframes shake {
+  10%, 90% {
+    transform: rotate(-45deg) translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: rotate(-45deg) translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: rotate(-45deg) translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: rotate(-45deg) translate3d(4px, 0, 0);
+  }
+}
