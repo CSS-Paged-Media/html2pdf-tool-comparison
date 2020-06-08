@@ -65,6 +65,13 @@ description: Test Section 'O' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_object-fit.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_object-fit.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_object-fit.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 OBJECT-POSITION
@@ -123,6 +130,13 @@ description: Test Section 'O' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_O_object-position.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_object-position.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_object-position.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_object-position.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -185,6 +199,13 @@ description: Test Section 'O' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_offset-anchor.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_offset-anchor.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_offset-anchor.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 OFFSET-DISTANCE
@@ -243,6 +264,13 @@ description: Test Section 'O' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_O_offset-distance.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_offset-distance.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_offset-distance.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_offset-distance.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -305,6 +333,13 @@ description: Test Section 'O' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_offset-path.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_offset-path.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_offset-path.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 OFFSET-ROTATE
@@ -363,6 +398,13 @@ description: Test Section 'O' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_O_offset-rotate.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_offset-rotate.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_offset-rotate.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_offset-rotate.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -425,6 +467,13 @@ description: Test Section 'O' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_opacity.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_opacity.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_opacity.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ORDER
@@ -483,6 +532,13 @@ description: Test Section 'O' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_O_order.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_order.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_order.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_order.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -545,6 +601,13 @@ description: Test Section 'O' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_orphans.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_orphans.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_orphans.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 OUTLINE-OFFSET
@@ -603,6 +666,13 @@ description: Test Section 'O' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_O_outline-offset.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_outline-offset.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_outline-offset.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_outline-offset.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -665,6 +735,13 @@ description: Test Section 'O' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_outline.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_outline.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_outline.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 OVERFLOW
@@ -725,6 +802,13 @@ description: Test Section 'O' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_overflow.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_overflow.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_overflow.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 OVERSCROLL-BEHAVIOR
@@ -783,6 +867,13 @@ description: Test Section 'O' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_O_overscroll-behavior.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_O_overscroll-behavior.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_overscroll-behavior.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_O_overscroll-behavior.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

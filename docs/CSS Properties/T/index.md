@@ -65,6 +65,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_tab-size.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_tab-size.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_tab-size.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TABLE-LAYOUT
@@ -123,6 +130,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_table-layout.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_table-layout.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_table-layout.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_table-layout.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -185,6 +199,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-align-last.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-align-last.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-align-last.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-ALIGN
@@ -243,6 +264,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-align.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-align.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-align.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-align.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -305,6 +333,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-color.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-color.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-color.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-DECORATION-LINE
@@ -363,6 +398,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-line.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-line.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-line.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-line.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -425,6 +467,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-skip-ink.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-skip-ink.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-DECORATION-SKIP
@@ -483,6 +532,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-skip.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-skip.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-skip.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-skip.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -545,6 +601,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration-style.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-style.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration-style.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-DECORATION
@@ -603,6 +666,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-decoration.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-decoration.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -665,6 +735,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-indent.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-indent.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-indent.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-JUSTIFY
@@ -723,6 +800,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-justify.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-justify.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-justify.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-justify.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -785,6 +869,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-overflow.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-overflow.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-overflow.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-SHADOW
@@ -843,6 +934,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-shadow.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-shadow.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-shadow.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-shadow.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -905,6 +1003,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-stroke.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-stroke.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-stroke.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-TRANSFORM
@@ -963,6 +1068,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-transform.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-transform.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-transform.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-transform.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -1025,6 +1137,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-underline-offset.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-underline-offset.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-underline-offset.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TEXT-UNDERLINE-POSITION
@@ -1083,6 +1202,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-underline-position.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_text-underline-position.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-underline-position.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_text-underline-position.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -1145,6 +1271,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_top.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_top.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_top.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TRANSFORM-ORIGIN
@@ -1203,6 +1336,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform-origin.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform-origin.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_transform-origin.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_transform-origin.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -1265,6 +1405,13 @@ description: Test Section 'T' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform-style.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_transform-style.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_transform-style.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TRANSFORM
@@ -1323,6 +1470,13 @@ description: Test Section 'T' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_T_transform.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_transform.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_T_transform.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

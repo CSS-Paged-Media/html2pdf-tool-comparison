@@ -65,6 +65,13 @@ description: Test Section 'S' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_shape-outside.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_shape-outside.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 STROKE-DASHARRAY
@@ -123,6 +130,13 @@ description: Test Section 'S' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_S_stroke-dasharray.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-dasharray.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-dasharray.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -185,6 +199,13 @@ description: Test Section 'S' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-dashoffset.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-dashoffset.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 STROKE-LINECAP
@@ -243,6 +264,13 @@ description: Test Section 'S' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_S_stroke-linecap.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-linecap.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-linecap.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -305,6 +333,13 @@ description: Test Section 'S' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-linejoin.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-linejoin.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 STROKE-WIDTH
@@ -365,6 +400,13 @@ description: Test Section 'S' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-width.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke-width.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 STROKE
@@ -423,6 +465,13 @@ description: Test Section 'S' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_S_stroke.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_S_stroke.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

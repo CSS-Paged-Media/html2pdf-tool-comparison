@@ -65,6 +65,13 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 REPORT
@@ -125,6 +132,13 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_report.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 TICKET
@@ -183,6 +197,13 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

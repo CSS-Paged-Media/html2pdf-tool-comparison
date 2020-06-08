@@ -9,6 +9,31 @@
     use com\realobjects\pdfreactor\webservice\client\LogLevel as LogLevel;
     use com\realobjects\pdfreactor\webservice\client\ViewerPreferences as ViewerPreferences;
     
+
+    use Nesk\Puphpeteer\Puppeteer;
+
+
+    function highlightCode($sRawCode, $sLang = 'html'){
+        try {
+            $hl = new \Highlight\Highlighter();
+            // Highlight some code.
+            $highlighted = $hl->highlight($sLang, $sRawCode);
+        
+            $sCode = "<pre><code class=\"hljs {$highlighted->language}\">";
+            $sCode .= $highlighted->value;
+            $sCode .= "</code></pre>";
+        }
+        catch (DomainException $e) {
+            // This is thrown if the specified language does not exist
+        
+            $sCode = "<pre><code>";
+            $sCode .= htmlentities($sRawCode);
+            $sCode .= "</code></pre>";
+        }
+
+        return $sCode;
+    }
+
     function renderPdfs($sTestPath){
         if(!is_dir(__DIR__ . DIRECTORY_SEPARATOR . 'result' . DIRECTORY_SEPARATOR)){
             mkdir(__DIR__ . DIRECTORY_SEPARATOR . 'result' . DIRECTORY_SEPARATOR);
@@ -41,6 +66,58 @@
                     $sFilePath . '.pdf'
                 );
 
+                // Render Browser Screenshot
+                $sPuppeteerStatus = '';
+                if(!is_file(__DIR__ . '/result/browser_screenshot_' . $sOutputBaseName . '.png')){
+                    $sPuppeteerStatus = 'Ok';
+                    try{
+                        $puppeteer = new Puppeteer;
+                        $browser = $puppeteer->launch();
+                        
+                        $page = $browser->newPage();
+                        $page->setContent($sHtmlFileContent);
+                        $page->screenshot([
+                            'path' => __DIR__ . '/result/browser_screenshot_' . $sOutputBaseName . '.png',
+                            'fullPage' => true
+                            ]);
+                        /*$page->emulateMediaType('screen');
+                        $page->pdf([
+                            'path' => __DIR__ . '/result/puppeteer_' . $sOutputBaseName,
+                            'preferCSSPageSize' => true,
+                            'printBackground' => true,
+                            ]);
+                        */
+                        $browser->close();
+                    }catch(Exception $e){
+                        $sPuppeteerStatus = str_replace(__DIR__, '', $e->getMessage());
+                        echo $sPuppeteerStatus . '<br />';
+                    }
+                }
+
+                // Render puppeteer pdf
+                $sPuppeteerStatus = '';
+                if(!is_file(__DIR__ . '/result/puppeteer_' . $sOutputBaseName)){
+                    $sPuppeteerStatus = 'Ok';
+                    try{
+                        $puppeteer = new Puppeteer;
+                        $browser = $puppeteer->launch();
+                        
+                        $page = $browser->newPage();
+                        $page->setContent($sHtmlFileContent);
+                        //$page->emulateMedia('screen');
+                        $page->pdf([
+                            'path' => __DIR__ . '/result/puppeteer_' . $sOutputBaseName,
+                            'preferCSSPageSize' => true,
+                            'printBackground' => true,
+                            ]);
+                        
+                        $browser->close();
+                    }catch(Exception $e){
+                        $sPuppeteerStatus = str_replace(__DIR__, '', $e->getMessage());
+                        echo $sPuppeteerStatus . '<br />';
+                        echo __DIR__ . '/result/puppeteer_' . $sOutputBaseName . '<br />';
+                    }
+                }
 
                 // Render mPDF PDF
                 $sMPdfStatus = '';
@@ -84,6 +161,7 @@
                         $oTypesetPdf->toFile('result/typeset_' . $sOutputBaseName);
                     }catch(Exception $e){
                         $sTypesetStatus = str_replace(__DIR__, '', $e->getMessage());
+                        echo $sTypesetStatus . '<br />';
                         copy(__DIR__ . '/error.pdf', 'result/typeset_' . $sOutputBaseName);
                     }
                 }
@@ -150,6 +228,21 @@
                         copy(__DIR__ . '/error.pdf', 'result/princexml_' . $sOutputBaseName);
                     }
                 }
+
+                // Render AHFormatter
+                /*$sAHFormatterStatus = '';
+                if(!is_file(__DIR__ . '/result/ahformatter_' . $sOutputBaseName)){
+                    $sAHFormatterStatus = 'Ok';
+                    try{
+                        echo '/usr/AHFormatterV70_64/run.sh -x 4 -d "' . $sFilePath . '" -o "' . __DIR__ . '/result/ahformatter_' . $sOutputBaseName . '"';
+                        exec('/usr/AHFormatterV70_64/run.sh -x 4 -d "' . $sFilePath . '" -o "' . __DIR__ . '/result/ahformatter_' . $sOutputBaseName . '"', $output);
+print_r($output);          
+                    }catch(Exception $e){
+                        $sAHFormatterStatus = str_replace(__DIR__, '', $e->getMessage());
+                        copy(__DIR__ . '/error.pdf', 'result/ahformatter_' . $sOutputBaseName);
+                    }
+                }
+                */
             }
 
             if(is_dir($sFilePath)){
@@ -191,17 +284,22 @@
                 if(!is_dir($sNewPath)){
                     mkdir($sNewPath);
                 }
-                $aCases    = ['mpdf_', 'typeset_', 'pdfreactor_', 'wkhtmltopdf_', 'weasyprint_', 'princexml_'];
+                $aCases    = ['browser_screenshot_', 'mpdf_', 'typeset_', 'pdfreactor_', 'wkhtmltopdf_', 'weasyprint_', 'princexml_', 'puppeteer_'];
                 $sFromPath = __DIR__ . DIRECTORY_SEPARATOR . 'result' . DIRECTORY_SEPARATOR;
                 foreach($aCases as $sCase){
+                    $sSearchFor = $sOutputBaseName;
+                    if($sCase == 'browser_screenshot_'){
+                        $sSearchFor = $sOutputBaseName . '.png';
+                    }
+
                     $sBaseFile    = $sFromPath . $sCase;
                     $sNewBaseFile = $sNewPath . DIRECTORY_SEPARATOR . $sCase;
 
-                    if(!is_file($sNewBaseFile . $sOutputBaseName)){
+                    if(!is_file($sNewBaseFile . $sSearchFor)){
                         if( 
                             copy(
-                                $sBaseFile . $sOutputBaseName, 
-                                $sNewBaseFile . $sOutputBaseName
+                                $sBaseFile . $sSearchFor, 
+                                $sNewBaseFile . $sSearchFor
                             )
                         ){
                             #unlink($sBaseFile . $sOutputBaseName);
@@ -257,37 +355,19 @@
                         $sSingleThumb = str_replace('.pdf', '.png', $sSingleOutputBaseName);
                         $sBaseFileLink = basename($sDirFileName);
 
-                        $hl = new \Highlight\Highlighter();
-                        $sRawCode = file_get_contents($sDownloadPath);
-                        try {
-                            // Highlight some code.
-                            $highlighted = $hl->highlight('html', $sRawCode);
-                        
-                            $sCode = "<pre><code class=\"hljs {$highlighted->language}\">";
-                            $sCode .= $highlighted->value;
-                            $sCode .= "</code></pre>";
-                        }
-                        catch (DomainException $e) {
-                            // This is thrown if the specified language does not exist
-                        
-                            $sCode = "<pre><code>";
-                            $sCode .= htmlentities($sRawCode);
-                            $sCode .= "</code></pre>";
-                        }
                         $sSingleTemplate = <<<EOT
                         ## 🔬 $sSingleHeader
             
                         ### Input HTML & CSS
 
-                        <details>
-                            <summary>
-                                View $sSingleHeader Code
-                            </summary>
-                            $sCode
-                            <p>
-                                <a href="$sSingleHtmlPath" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-                            </p>
-                        </details>
+                        <div class="browser-mockup with-url">
+                            <div>
+                                <img src="/{{ page.path }}/../browser_screenshot_$sSingleOutputBaseName.png" alt="Browser Preview of $sSingleHeader" />
+                            </div>
+                        </div>
+                        <p>
+                            <a href="$sSingleHtmlPath" target="_blank" rel="noopener">📄 Download on GitHub</a>
+                        </p>
 
                         ### Output PDF
                 
@@ -332,6 +412,13 @@
                                 <img src="/{{ page.path }}/../princexml_$sSingleThumb" alt="Prince Preview" />
                                 <p>
                                     <a href="/{{ page.path }}/../princexml_$sSingleOutputBaseName" target="_blank">📕 Prince Output</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4>Puppeteer</h4>
+                                <img src="/{{ page.path }}/../puppeteer_$sSingleThumb" alt="Puppeteer Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../puppeteer_$sSingleOutputBaseName" target="_blank">📕 Puppeteer Output</a>
                                 </p>
                             </div>
                         </div>
@@ -411,13 +498,60 @@ description: Test Section \'{header}\' to compare different html2pdf tools.
         if($sSubPages){
             $sSubPages = '<div class="boxes">' . $sSubPages . '</div>';
         }
+        $smPDFCode = highlightCode(
+            '$oMPdf = new \Mpdf\Mpdf();
+$oMPdf->WriteHTML($sHtmlFileContent);
+$oMPdf->Output(
+    "result/mpdf.pdf", 
+    false
+);', 'php');
+
+        $stypesetCode = highlightCode(
+            '$resourceCache = new \typesetsh\Resource\Cache("./cache-dir/");
+$resourceCache->downloadLimit = 5242880;
+
+$resolveUrl = function($url) use ($resourceCache) {
+    if (strpos($url, "http://") === 0 || strpos($url, "https://") === 0) {
+        $file = $resourceCache->fetch($url);
+
+        return $file;
+    }
+
+    throw new Exception("Access denied for local resource `$url`");
+};
+
+$oTypesetPdf = typesetsh\createPdf($sHtmlFileContent, $resolveUrl);
+$oTypesetPdf->toFile("result/typeset.pdf");', 'php');
+
+        $sPDFreactorCode = highlightCode(
+            '$oPdfReactor = new PDFreactor();
+$aPdfReactorConfig = array(
+    "document" => $sHtmlFileContent
+);
+file_put_contents(
+    "result/pdfreactor.pdf", 
+    $oPdfReactor->convertAsBinary($aPdfReactorConfig)
+);', 'php');
+
+        $swkhtmltopdfCode = highlightCode(
+            '$snappy = new Knp\Snappy\Pdf("/usr/local/bin/wkhtmltopdf");
+$snappy->generateFromHtml(
+    $sHtmlFileContent, 
+    "result/wkhtmltopdf.pdf"
+);', 'php');
+
+        $sweasyprintCode = highlightCode(
+            'exec("python -m weasyprint \'$sInputHTMLFilePath\' \'" . __DIR__ . "/result/weasyprint.pdf\'", $output);', 'php');
+
+        $sprinceCode = highlightCode(
+            'exec("prince \'$sInputHTMLFilePath\' -o \'" . __DIR__ . "/result/princexml.pdf\'", $output);', 'php');
 
         $sReadMD = <<<EOT
         ---
         layout: page
         title: Home
         permalink: /
-        description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, and Prince.
+        description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
         ---
 
         ## 👋 Hey! Nice that you are here!
@@ -426,6 +560,42 @@ description: Test Section \'{header}\' to compare different html2pdf tools.
 
         ## 🔬 Test Sections
         $sSubPages
+
+        ## 🔬 Test Conditions
+
+        For all tests, each tool uses the exact same HTML and CSS input. I do not set any special options the tools might offer, instead I use the most basic call to render a PDF (with external resources).
+
+        For the rendering with Prince and PDFreactor, I use free personal licenses. That's why PDFs generated with these tools have a small logo on the top right corner of each page.
+
+        The vendor samples might contain tool-specific syntax. This syntax is not understood by the other tools. That's why some of these tests look best for the vendor providing them.
+
+        ### Code to Render
+
+        I use the following code snippets to create the PDF files. If you want to see the code for this website have a look at the [GitHub Repository](https://github.com/azettl/compare.html2pdf.tools).
+
+        #### mPDF
+
+        $smPDFCode
+        
+        #### typeset.sh
+        
+        $stypesetCode
+        
+        #### PDFreactor
+        
+        $sPDFreactorCode
+        
+        #### wkhtmltopdf
+        
+        $swkhtmltopdfCode
+        
+        #### WeasyPrint
+        
+        $sweasyprintCode
+        
+        #### Prince
+        
+        $sprinceCode
         EOT;
         file_put_contents($sReadFile, $sReadMD);
 

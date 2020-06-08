@@ -65,6 +65,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_C_checked.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_C_checked.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_C_checked.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 CHILD
@@ -125,6 +132,13 @@ description: Test Section 'C' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_C_child.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_C_child.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_C_child.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 CLASS
@@ -183,6 +197,13 @@ description: Test Section 'C' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_C_class.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_C_class.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_C_class.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_C_class.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

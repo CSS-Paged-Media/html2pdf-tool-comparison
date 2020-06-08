@@ -65,6 +65,13 @@ description: Test Section 'B' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_B_before.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_B_before.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_B_before.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 BLANK
@@ -123,6 +130,13 @@ description: Test Section 'B' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_B_blank.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_B_blank.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_B_blank.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_B_blank.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

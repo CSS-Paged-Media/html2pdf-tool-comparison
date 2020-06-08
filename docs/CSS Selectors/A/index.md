@@ -65,6 +65,13 @@ description: Test Section 'A' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_A_active.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_active.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_active.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ADJACENT-SIBLING
@@ -123,6 +130,13 @@ description: Test Section 'A' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_A_adjacent-sibling.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_A_adjacent-sibling.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_adjacent-sibling.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_adjacent-sibling.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -185,6 +199,13 @@ description: Test Section 'A' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_A_after.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_after.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_after.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ANY-LINK
@@ -245,6 +266,13 @@ description: Test Section 'A' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_A_any-link.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_any-link.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_any-link.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ATTRIBUTE
@@ -303,6 +331,13 @@ description: Test Section 'A' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_A_attribute.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_A_attribute.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_attribute.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_A_attribute.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

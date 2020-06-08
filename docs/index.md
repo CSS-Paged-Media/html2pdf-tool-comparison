@@ -2,7 +2,7 @@
 layout: page
 title: Home
 permalink: /
-description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, and Prince.
+description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
 ---
 
 ## 👋 Hey! Nice that you are here!

@@ -65,6 +65,13 @@ description: Test Section 'W' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_white-space.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 WIDOWS
@@ -123,6 +130,13 @@ description: Test Section 'W' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_W_widows.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_widows.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -185,6 +199,13 @@ description: Test Section 'W' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_width.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 WORD-BREAK
@@ -243,6 +264,13 @@ description: Test Section 'W' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_W_word-break.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_word-break.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -305,6 +333,13 @@ description: Test Section 'W' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_word-spacing.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 WRITING-MODE
@@ -363,6 +398,13 @@ description: Test Section 'W' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_W_writing-mode.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_writing-mode.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

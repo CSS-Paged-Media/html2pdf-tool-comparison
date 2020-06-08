@@ -65,6 +65,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_blank-first.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_blank-first.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_blank-first.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 BLANK-LEFT
@@ -123,6 +130,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_blank-left.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_blank-left.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_blank-left.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_blank-left.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -185,6 +199,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_blank-right.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_blank-right.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_blank-right.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 BLANK
@@ -243,6 +264,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_blank.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_blank.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_blank.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_blank.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -305,6 +333,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_first.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_first.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_first.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 HIGHER-SPECIFICITY
@@ -363,6 +398,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_higher-specificity.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_higher-specificity.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_higher-specificity.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_higher-specificity.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -425,6 +467,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_left.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_left.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_left.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 RIGHT
@@ -483,6 +532,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_right.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_Paged_Media_Page_Selectors_right.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_right.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Selectors_right.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

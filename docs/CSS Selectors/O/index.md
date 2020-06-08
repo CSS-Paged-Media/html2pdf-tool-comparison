@@ -65,6 +65,13 @@ description: Test Section 'O' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_O_only-child.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_O_only-child.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_O_only-child.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ONLY-OF-TYPE
@@ -123,6 +130,13 @@ description: Test Section 'O' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_O_only-of-type.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_O_only-of-type.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_O_only-of-type.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_O_only-of-type.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -185,6 +199,13 @@ description: Test Section 'O' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_O_optional.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_O_optional.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_O_optional.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 OUT-OF-RANGE
@@ -243,6 +264,13 @@ description: Test Section 'O' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_O_out-of-range.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_O_out-of-range.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_O_out-of-range.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_O_out-of-range.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

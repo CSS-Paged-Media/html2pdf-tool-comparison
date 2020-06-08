@@ -19,7 +19,8 @@
     "azettl/php-nano-template": "^0.0.5",
     "azettl/pdfreactor": "^10.1",
     "scrivo/highlight.php": "v9.18.1.1",
-    "knplabs/knp-snappy": "^1.2"
+    "knplabs/knp-snappy": "^1.2",
+    "nesk/puphpeteer": "^1.6"
   },
 	"repositories": [
     {

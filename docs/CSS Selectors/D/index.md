@@ -65,6 +65,13 @@ description: Test Section 'D' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_D_default.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_D_default.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_D_default.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 DESCENDANT
@@ -123,6 +130,13 @@ description: Test Section 'D' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_D_descendant.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_D_descendant.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_D_descendant.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_D_descendant.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
@@ -185,6 +199,13 @@ description: Test Section 'D' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_D_dir.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_D_dir.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_D_dir.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 DISABLED
@@ -243,6 +264,13 @@ description: Test Section 'D' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Selectors_D_disabled.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Selectors_D_disabled.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_D_disabled.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_D_disabled.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

@@ -65,6 +65,13 @@ description: Test Section 'H' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_H_hanging-punctuation.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_H_hanging-punctuation.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_H_hanging-punctuation.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 HEIGHT
@@ -125,6 +132,13 @@ description: Test Section 'H' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_H_height.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_H_height.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_H_height.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 HYPHENS
@@ -183,6 +197,13 @@ description: Test Section 'H' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_H_hyphens.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_H_hyphens.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_H_hyphens.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_H_hyphens.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>

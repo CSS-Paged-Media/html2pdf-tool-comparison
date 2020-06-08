@@ -65,6 +65,13 @@ description: Test Section 'I' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_I_image-rendering.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_I_image-rendering.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_I_image-rendering.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 INITIAL-LETTER
@@ -125,6 +132,13 @@ description: Test Section 'I' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_I_initial-letter.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_I_initial-letter.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_I_initial-letter.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
 </div>
 
 ## 🔬 ISOLATION
@@ -183,6 +197,13 @@ description: Test Section 'I' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_I_isolation.html.png" alt="Prince Preview" />
         <p>
             <a href="/{{ page.path }}/../princexml__html_CSS_Properties_I_isolation.html.pdf" target="_blank">📕 Prince Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Puppeteer</h4>
+        <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_I_isolation.html.png" alt="Puppeteer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_I_isolation.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
 </div>
