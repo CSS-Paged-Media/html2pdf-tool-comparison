@@ -74,6 +74,10 @@ description: Test Section 'S' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 STROKE-DASHARRAY
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'S' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 STROKE-DASHOFFSET
 
@@ -208,6 +216,10 @@ description: Test Section 'S' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 STROKE-LINECAP
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'S' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 STROKE-LINEJOIN
 
@@ -342,6 +358,10 @@ description: Test Section 'S' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 STROKE-WIDTH
 
 ### Input HTML & CSS
@@ -409,6 +429,10 @@ description: Test Section 'S' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 STROKE
 
 ### Input HTML & CSS
@@ -475,5 +499,9 @@ description: Test Section 'S' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

@@ -74,6 +74,10 @@ description: Test Section 'I' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 INITIAL-LETTER
 
 ### Input HTML & CSS
@@ -141,6 +145,10 @@ description: Test Section 'I' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 ISOLATION
 
 ### Input HTML & CSS
@@ -207,5 +215,9 @@ description: Test Section 'I' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

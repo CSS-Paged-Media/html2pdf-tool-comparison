@@ -74,6 +74,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FLEX-BASIS
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FLEX-DIRECTION
 
@@ -208,6 +216,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FLEX-FLOW
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FLEX-GROW
 
@@ -342,6 +358,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FLEX-SHRINK
 
 ### Input HTML & CSS
@@ -408,6 +428,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FLEX-WRAP
 
@@ -476,6 +500,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FLEX
 
 ### Input HTML & CSS
@@ -542,6 +570,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FLOAT
 
@@ -610,6 +642,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FONT-FAMILY
 
 ### Input HTML & CSS
@@ -676,6 +712,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FONT-FEATURE-SETTINGS
 
@@ -744,6 +784,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FONT-SIZE-ADJUST
 
 ### Input HTML & CSS
@@ -810,6 +854,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FONT-SIZE
 
@@ -878,6 +926,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FONT-STRETCH
 
 ### Input HTML & CSS
@@ -944,6 +996,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FONT-STYLE
 
@@ -1012,6 +1068,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FONT-VARIANT
 
 ### Input HTML & CSS
@@ -1078,6 +1138,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FONT-WEIGHT
 
@@ -1146,6 +1210,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FONT
 
 ### Input HTML & CSS
@@ -1212,5 +1280,9 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

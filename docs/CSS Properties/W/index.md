@@ -74,6 +74,10 @@ description: Test Section 'W' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 WIDOWS
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'W' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 WIDTH
 
@@ -208,6 +216,10 @@ description: Test Section 'W' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 WORD-BREAK
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'W' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 WORD-SPACING
 
@@ -342,6 +358,10 @@ description: Test Section 'W' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 WRITING-MODE
 
 ### Input HTML & CSS
@@ -408,5 +428,9 @@ description: Test Section 'W' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

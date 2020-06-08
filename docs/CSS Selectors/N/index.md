@@ -74,6 +74,10 @@ description: Test Section 'N' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 NTH-CHILD
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'N' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 NTH-LAST-CHILD
 
@@ -208,6 +216,10 @@ description: Test Section 'N' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 NTH-LAST-OF-TYPE
 
 ### Input HTML & CSS
@@ -275,6 +287,10 @@ description: Test Section 'N' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 NTH-OF-TYPE
 
 ### Input HTML & CSS
@@ -341,5 +357,9 @@ description: Test Section 'N' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

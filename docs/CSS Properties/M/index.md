@@ -74,6 +74,10 @@ description: Test Section 'M' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 MASK-IMAGE
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'M' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 MASK-REPEAT
 
@@ -208,6 +216,10 @@ description: Test Section 'M' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 MAX-HEIGHT
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'M' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 MAX-WIDTH
 
@@ -342,6 +358,10 @@ description: Test Section 'M' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 MIN-HEIGHT
 
 ### Input HTML & CSS
@@ -408,6 +428,10 @@ description: Test Section 'M' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 MIN-WIDTH
 
@@ -476,6 +500,10 @@ description: Test Section 'M' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 MIX-BLEND-MODE
 
 ### Input HTML & CSS
@@ -542,5 +570,9 @@ description: Test Section 'M' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

@@ -74,6 +74,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BOTTOM-LEFT-CORNER
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BOTTOM-LEFT
 
@@ -208,6 +216,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BOTTOM-RIGHT-CORNER
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BOTTOM-RIGHT
 
@@ -342,6 +358,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 LEFT-BOTTOM
 
 ### Input HTML & CSS
@@ -408,6 +428,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 LEFT-MIDDLE
 
@@ -476,6 +500,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 LEFT-TOP
 
 ### Input HTML & CSS
@@ -542,6 +570,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 RIGHT-BOTTOM
 
@@ -610,6 +642,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 RIGHT-MIDDLE
 
 ### Input HTML & CSS
@@ -676,6 +712,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 RIGHT-TOP
 
@@ -744,6 +784,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TOP-CENTER
 
 ### Input HTML & CSS
@@ -810,6 +854,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TOP-LEFT-CORNER
 
@@ -878,6 +926,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TOP-LEFT
 
 ### Input HTML & CSS
@@ -944,6 +996,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TOP-RIGHT-CORNER
 
@@ -1012,6 +1068,10 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TOP-RIGHT
 
 ### Input HTML & CSS
@@ -1078,5 +1138,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

@@ -74,6 +74,10 @@ description: Test Section 'A' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 ADJACENT-SIBLING
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'A' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 AFTER
 
@@ -208,6 +216,10 @@ description: Test Section 'A' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 ANY-LINK
 
 ### Input HTML & CSS
@@ -275,6 +287,10 @@ description: Test Section 'A' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 ATTRIBUTE
 
 ### Input HTML & CSS
@@ -341,5 +357,9 @@ description: Test Section 'A' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

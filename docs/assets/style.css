@@ -414,13 +414,12 @@ aside section:first-of-type h2:first-of-type {
 
 /* To the top rocket */
 .rocket-outer{
-  text-align:right;
-  position:absolute;
-  bottom:2rem;
-  right:2rem;
-  display:inline-block;
-  text-decoration:none;
-  color:inherit;
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
 }
 
 .rocket{

@@ -74,6 +74,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 CARET-COLOR
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'C' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 CLEAR
 
@@ -208,6 +216,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 CLIP-PATH
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'C' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 COLOR
 
@@ -342,6 +358,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 COLUMN-COUNT
 
 ### Input HTML & CSS
@@ -408,6 +428,10 @@ description: Test Section 'C' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 COLUMN-FILL
 
@@ -476,6 +500,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 COLUMN-GAP
 
 ### Input HTML & CSS
@@ -542,6 +570,10 @@ description: Test Section 'C' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 COLUMN-RULE
 
@@ -610,6 +642,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 COLUMN-SPAN
 
 ### Input HTML & CSS
@@ -676,6 +712,10 @@ description: Test Section 'C' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 COLUMN-WIDTH
 
@@ -744,6 +784,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 COLUMNS
 
 ### Input HTML & CSS
@@ -810,6 +854,10 @@ description: Test Section 'C' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 CONTENT
 
@@ -878,6 +926,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 COUNTER-INCREMENT
 
 ### Input HTML & CSS
@@ -944,6 +996,10 @@ description: Test Section 'C' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 COUNTER-RESET
 
@@ -1012,6 +1068,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 CURSOR
 
 ### Input HTML & CSS
@@ -1078,5 +1138,9 @@ description: Test Section 'C' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

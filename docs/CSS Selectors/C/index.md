@@ -74,6 +74,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 CHILD
 
 ### Input HTML & CSS
@@ -141,6 +145,10 @@ description: Test Section 'C' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 CLASS
 
 ### Input HTML & CSS
@@ -207,5 +215,9 @@ description: Test Section 'C' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

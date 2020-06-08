@@ -74,6 +74,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FIRST-LETTER
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FIRST-LINE
 
@@ -208,6 +216,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FIRST-OF-TYPE
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FOCUS-VISIBLE
 
@@ -342,6 +358,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FOCUS-WITHIN
 
 ### Input HTML & CSS
@@ -409,6 +429,10 @@ description: Test Section 'F' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 FOCUS
 
 ### Input HTML & CSS
@@ -475,5 +499,9 @@ description: Test Section 'F' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

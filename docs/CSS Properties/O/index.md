@@ -74,6 +74,10 @@ description: Test Section 'O' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 OBJECT-POSITION
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'O' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 OFFSET-ANCHOR
 
@@ -208,6 +216,10 @@ description: Test Section 'O' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 OFFSET-DISTANCE
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'O' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 OFFSET-PATH
 
@@ -342,6 +358,10 @@ description: Test Section 'O' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 OFFSET-ROTATE
 
 ### Input HTML & CSS
@@ -408,6 +428,10 @@ description: Test Section 'O' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 OPACITY
 
@@ -476,6 +500,10 @@ description: Test Section 'O' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 ORDER
 
 ### Input HTML & CSS
@@ -542,6 +570,10 @@ description: Test Section 'O' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 ORPHANS
 
@@ -610,6 +642,10 @@ description: Test Section 'O' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 OUTLINE-OFFSET
 
 ### Input HTML & CSS
@@ -676,6 +712,10 @@ description: Test Section 'O' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 OUTLINE
 
@@ -744,6 +784,10 @@ description: Test Section 'O' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 OVERFLOW
 
 ### Input HTML & CSS
@@ -811,6 +855,10 @@ description: Test Section 'O' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 OVERSCROLL-BEHAVIOR
 
 ### Input HTML & CSS
@@ -877,5 +925,9 @@ description: Test Section 'O' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

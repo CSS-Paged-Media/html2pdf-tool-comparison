@@ -74,6 +74,10 @@ description: Test Section 'E' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 ENABLED
 
 ### Input HTML & CSS
@@ -140,5 +144,9 @@ description: Test Section 'E' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

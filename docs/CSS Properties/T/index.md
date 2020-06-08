@@ -74,6 +74,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TABLE-LAYOUT
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TEXT-ALIGN-LAST
 
@@ -208,6 +216,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TEXT-ALIGN
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TEXT-DECORATION-COLOR
 
@@ -342,6 +358,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TEXT-DECORATION-LINE
 
 ### Input HTML & CSS
@@ -408,6 +428,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TEXT-DECORATION-SKIP-INK
 
@@ -476,6 +500,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TEXT-DECORATION-SKIP
 
 ### Input HTML & CSS
@@ -542,6 +570,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TEXT-DECORATION-STYLE
 
@@ -610,6 +642,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TEXT-DECORATION
 
 ### Input HTML & CSS
@@ -676,6 +712,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TEXT-INDENT
 
@@ -744,6 +784,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TEXT-JUSTIFY
 
 ### Input HTML & CSS
@@ -810,6 +854,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TEXT-OVERFLOW
 
@@ -878,6 +926,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TEXT-SHADOW
 
 ### Input HTML & CSS
@@ -944,6 +996,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TEXT-STROKE
 
@@ -1012,6 +1068,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TEXT-TRANSFORM
 
 ### Input HTML & CSS
@@ -1078,6 +1138,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TEXT-UNDERLINE-OFFSET
 
@@ -1146,6 +1210,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TEXT-UNDERLINE-POSITION
 
 ### Input HTML & CSS
@@ -1212,6 +1280,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TOP
 
@@ -1280,6 +1352,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TRANSFORM-ORIGIN
 
 ### Input HTML & CSS
@@ -1346,6 +1422,10 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 TRANSFORM-STYLE
 
@@ -1414,6 +1494,10 @@ description: Test Section 'T' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 TRANSFORM
 
 ### Input HTML & CSS
@@ -1480,5 +1564,9 @@ description: Test Section 'T' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

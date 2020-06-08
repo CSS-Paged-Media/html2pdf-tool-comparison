@@ -74,6 +74,10 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BLANK-LEFT
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BLANK-RIGHT
 
@@ -208,6 +216,10 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BLANK
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 FIRST
 
@@ -342,6 +358,10 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 HIGHER-SPECIFICITY
 
 ### Input HTML & CSS
@@ -408,6 +428,10 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 LEFT
 
@@ -476,6 +500,10 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 RIGHT
 
 ### Input HTML & CSS
@@ -542,5 +570,9 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 

@@ -74,6 +74,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BACKGROUND-ATTACHMENT
 
 ### Input HTML & CSS
@@ -140,6 +144,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BACKGROUND-BLEND-MODE
 
@@ -208,6 +216,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BACKGROUND-CLIP
 
 ### Input HTML & CSS
@@ -274,6 +286,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BACKGROUND-COLOR
 
@@ -342,6 +358,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BACKGROUND-IMAGE
 
 ### Input HTML & CSS
@@ -408,6 +428,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BACKGROUND-ORIGIN
 
@@ -476,6 +500,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BACKGROUND-POSITION
 
 ### Input HTML & CSS
@@ -542,6 +570,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BACKGROUND-REPEAT
 
@@ -610,6 +642,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BACKGROUND-SIZE
 
 ### Input HTML & CSS
@@ -676,6 +712,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BACKGROUND
 
@@ -744,6 +784,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BLEED
 
 ### Input HTML & CSS
@@ -810,6 +854,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BORDER-COLLAPSE
 
@@ -878,6 +926,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BORDER-IMAGE
 
 ### Input HTML & CSS
@@ -944,6 +996,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BORDER-RADIUS
 
@@ -1012,6 +1068,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BORDER-SPACING
 
 ### Input HTML & CSS
@@ -1078,6 +1138,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BORDER
 
@@ -1146,6 +1210,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BOTTOM
 
 ### Input HTML & CSS
@@ -1212,6 +1280,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BOX-DECORATION-BREAK
 
@@ -1280,6 +1352,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BOX-SHADOW
 
 ### Input HTML & CSS
@@ -1346,6 +1422,10 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 ## 🔬 BOX-SIZING
 
@@ -1414,6 +1494,10 @@ description: Test Section 'B' to compare different html2pdf tools.
     </div>
 </div>
 
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
+
 ## 🔬 BREAK-INSIDE
 
 ### Input HTML & CSS
@@ -1480,5 +1564,9 @@ description: Test Section 'B' to compare different html2pdf tools.
         </p>
     </div>
 </div>
+
+<a href="#top" class="rocket-outer">
+    <span class="rocket">🚀</span>
+</a>
 
 
