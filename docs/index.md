@@ -82,3 +82,19 @@ $snappy-&gt;generateFromHtml(
 #### Prince
 
 <pre><code class="hljs php">exec(<span class="hljs-string">"prince '$sInputHTMLFilePath' -o '"</span> . <span class="hljs-keyword">__DIR__</span> . <span class="hljs-string">"/result/princexml.pdf'"</span>, $output);</code></pre>
+
+#### Puppeteer
+
+<pre><code class="hljs php">$puppeteer = <span class="hljs-keyword">new</span> Puppeteer;
+$browser = $puppeteer-&gt;launch();
+
+$page = $browser-&gt;newPage();
+$page-&gt;setContent($sHtmlFileContent);
+<span class="hljs-comment">//$page-&gt;emulateMedia('screen');</span>
+$page-&gt;pdf([
+    <span class="hljs-string">'path'</span> =&gt; <span class="hljs-keyword">__DIR__</span> . <span class="hljs-string">'/result/puppeteer.pdf'</span>,
+    <span class="hljs-string">'preferCSSPageSize'</span> =&gt; <span class="hljs-keyword">true</span>,
+    <span class="hljs-string">'printBackground'</span> =&gt; <span class="hljs-keyword">true</span>,
+    ]);
+
+$browser-&gt;close();</code></pre>
