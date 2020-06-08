@@ -415,11 +415,10 @@ aside section:first-of-type h2:first-of-type {
 /* To the top rocket */
 .rocket-outer{
   text-align:right;
-  position:sticky;
+  position:absolute;
   bottom:2rem;
-  margin:2rem;
+  right:2rem;
   display:inline-block;
-  float:right;
   text-decoration:none;
   color:inherit;
 }
