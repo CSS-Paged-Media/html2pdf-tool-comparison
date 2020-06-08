@@ -13,36 +13,9 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View BLANK-FIRST Code
+        View BLANK-FIRST Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-            <span class="hljs-selector-tag">h2</span>{
-                <span class="hljs-attribute">break-before</span>: left
-            }
-            <span class="hljs-keyword">@page</span><span class="hljs-selector-pseudo">:blank</span><span class="hljs-selector-pseudo">:first</span>{
-                <span class="hljs-attribute">background-color</span>: red;
-            }
-        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Selectors_blank-first.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/blank-first.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -101,36 +74,9 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View BLANK-LEFT Code
+        View BLANK-LEFT Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-            <span class="hljs-selector-tag">h2</span>{
-                <span class="hljs-attribute">break-before</span>: left
-            }
-            <span class="hljs-keyword">@page</span><span class="hljs-selector-pseudo">:blank</span><span class="hljs-selector-pseudo">:left</span>{
-                <span class="hljs-attribute">background-color</span>: red;
-            }
-        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Selectors_blank-left.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/blank-left.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -189,36 +135,9 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View BLANK-RIGHT Code
+        View BLANK-RIGHT Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-            <span class="hljs-selector-tag">h2</span>{
-                <span class="hljs-attribute">break-before</span>: left
-            }
-            <span class="hljs-keyword">@page</span><span class="hljs-selector-pseudo">:blank</span><span class="hljs-selector-pseudo">:right</span>{
-                <span class="hljs-attribute">background-color</span>: red;
-            }
-        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Selectors_blank-right.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/blank-right.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -277,36 +196,9 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View BLANK Code
+        View BLANK Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-            <span class="hljs-selector-tag">h2</span>{
-                <span class="hljs-attribute">break-before</span>: left
-            }
-            <span class="hljs-keyword">@page</span><span class="hljs-selector-pseudo">:blank</span>{
-                <span class="hljs-attribute">background-color</span>: red;
-            }
-        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Selectors_blank.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/blank.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -365,37 +257,9 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View FIRST Code
+        View FIRST Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-            <span class="hljs-selector-tag">h2</span>{
-                <span class="hljs-attribute">page-break-before</span>: always;
-                <span class="hljs-attribute">page-break-after</span>: always;
-            }
-            <span class="hljs-keyword">@page</span><span class="hljs-selector-pseudo">:first</span>{
-                <span class="hljs-attribute">background-color</span>: red;
-            }
-        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Selectors_first.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/first.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -454,54 +318,9 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View HIGHER-SPECIFICITY Code
+        View HIGHER-SPECIFICITY Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            h2{
-                page-break-before: always;
-                page-break-after: always;
-            }
-            
-            @page:first {
-                color: green;
-
-                @top-left {
-                    content: "Hello";
-                    color: blue;
-                }
-                @top-right {
-                    content: "World!";
-                }
-            }
-
-            @page { 
-                color: red;
-
-                @top-center {
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Selectors_higher-specificity.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/higher-specificity.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -560,37 +379,9 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View LEFT Code
+        View LEFT Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-            <span class="hljs-selector-tag">h2</span>{
-                <span class="hljs-attribute">page-break-before</span>: always;
-                <span class="hljs-attribute">page-break-after</span>: always;
-            }
-            <span class="hljs-keyword">@page</span><span class="hljs-selector-pseudo">:left</span>{
-                <span class="hljs-attribute">background-color</span>: red;
-            }
-        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Selectors_left.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/left.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -649,37 +440,9 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View RIGHT Code
+        View RIGHT Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-            <span class="hljs-selector-tag">h2</span>{
-                <span class="hljs-attribute">page-break-before</span>: always;
-                <span class="hljs-attribute">page-break-after</span>: always;
-            }
-            <span class="hljs-keyword">@page</span><span class="hljs-selector-pseudo">:right</span>{
-                <span class="hljs-attribute">background-color</span>: red;
-            }
-        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Selectors_right.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/right.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>

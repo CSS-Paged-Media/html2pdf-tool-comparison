@@ -13,25 +13,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View BOTTOM-CENTER Code
+        View BOTTOM-CENTER Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @bottom-center{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@bottom-center<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-center.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-center.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -90,25 +74,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View BOTTOM-LEFT-CORNER Code
+        View BOTTOM-LEFT-CORNER Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @bottom-left-corner{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@bottom-left-corner<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-left-corner.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -167,25 +135,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View BOTTOM-LEFT Code
+        View BOTTOM-LEFT Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @bottom-left{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@bottom-left<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-left.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-left.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -244,25 +196,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View BOTTOM-RIGHT-CORNER Code
+        View BOTTOM-RIGHT-CORNER Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @bottom-right-corner{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@bottom-right-corner<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-right-corner.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -321,25 +257,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View BOTTOM-RIGHT Code
+        View BOTTOM-RIGHT Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @bottom-right{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@bottom-right<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-right.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-right.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -398,25 +318,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View LEFT-BOTTOM Code
+        View LEFT-BOTTOM Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @left-bottom{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@left-bottom<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-bottom.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -475,25 +379,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View LEFT-MIDDLE Code
+        View LEFT-MIDDLE Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @left-middle{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@left-middle<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_left-middle.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-middle.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -552,25 +440,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View LEFT-TOP Code
+        View LEFT-TOP Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @left-top{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@left-top<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_left-top.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-top.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -629,25 +501,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View RIGHT-BOTTOM Code
+        View RIGHT-BOTTOM Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @right-bottom{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@right-bottom<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_right-bottom.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-bottom.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -706,25 +562,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View RIGHT-MIDDLE Code
+        View RIGHT-MIDDLE Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @right-middle{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@right-middle<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_right-middle.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-middle.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -783,25 +623,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View RIGHT-TOP Code
+        View RIGHT-TOP Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @right-top{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@right-top<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_right-top.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-top.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -860,25 +684,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View TOP-CENTER Code
+        View TOP-CENTER Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @top-center{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@top-center<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-center.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-center.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -937,25 +745,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View TOP-LEFT-CORNER Code
+        View TOP-LEFT-CORNER Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @top-left-corner{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@top-left-corner<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-left-corner.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-left-corner.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -1014,25 +806,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View TOP-LEFT Code
+        View TOP-LEFT Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @top-left{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@top-left<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-left.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-left.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -1091,25 +867,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View TOP-RIGHT-CORNER Code
+        View TOP-RIGHT-CORNER Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @top-right-corner{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@top-right-corner<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-right-corner.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-right-corner.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -1168,25 +928,9 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 <details>
     <summary>
-        View TOP-RIGHT Code
+        View TOP-RIGHT Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            @page{
-                @top-right{
-                    background-color: red;
-                    color: white;
-                    content: "Hello World!";
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>@top-right<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-right.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-right.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>

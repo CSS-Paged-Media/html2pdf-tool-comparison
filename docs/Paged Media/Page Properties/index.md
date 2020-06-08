@@ -13,45 +13,9 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View COUNTER-EVEN-NUMBERED Code
+        View COUNTER-EVEN-NUMBERED Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            h2{
-                page-break-before: always;
-                page-break-after: always;
-            }
-            @page{
-                @top-center {
-                    font-weight: bold;
-                    font-size: 2em;
-                    content: counter(page);
-                }
-            }
-
-            @page {
-                counter-increment: page 2;
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter-even-numbered.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter-even-numbered.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -110,40 +74,9 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View COUNTER-INCREMENT Code
+        View COUNTER-INCREMENT Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-            <span class="hljs-selector-tag">body</span> {
-                <span class="hljs-attribute">counter-reset</span>: chapter;
-            }
-            <span class="hljs-selector-tag">h2</span>{
-                <span class="hljs-attribute">page-break-before</span>: always;
-                <span class="hljs-attribute">page-break-after</span>: always;
-            }
-            <span class="hljs-selector-tag">h2</span><span class="hljs-selector-pseudo">:before</span> {
-                <span class="hljs-attribute">content</span>: <span class="hljs-string">"Chapter "</span> <span class="hljs-built_in">counter</span>(chapter) <span class="hljs-string">". "</span>;
-                <span class="hljs-attribute">counter-increment</span>: chapter;
-            }
-        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter-increment.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter-increment.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -202,44 +135,9 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View COUNTER-RESET Code
+        View COUNTER-RESET Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
-            <span class="hljs-selector-tag">body</span> {
-                <span class="hljs-attribute">counter-reset</span>: chapter;
-            }
-            <span class="hljs-selector-tag">h2</span>{
-                <span class="hljs-attribute">page-break-before</span>: always;
-                <span class="hljs-attribute">page-break-after</span>: always;
-            }
-            <span class="hljs-selector-tag">h2</span><span class="hljs-selector-pseudo">:before</span> {
-                <span class="hljs-attribute">content</span>: <span class="hljs-string">"Chapter "</span> <span class="hljs-built_in">counter</span>(chapter) <span class="hljs-string">". "</span>;
-                <span class="hljs-attribute">counter-increment</span>: chapter;
-            }
-            <span class="hljs-selector-id">#reset</span>{
-                <span class="hljs-attribute">counter-reset</span>: chapter;
-            }
-        </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"reset"</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter-reset.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter-reset.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
@@ -298,41 +196,9 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
 
 <details>
     <summary>
-        View COUNTER Code
+        View COUNTER Browser Output
     </summary>
-    <pre><code class="hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span>
-            h2{
-                page-break-before: always;
-                page-break-after: always;
-            }
-            @page{
-                @top-center {
-                    font-weight: bold;
-                    font-size: 2em;
-                    content: counter(page);
-                }
-            }
-        <span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Page<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter.html.pdf.png" />
     <p>
         <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
     </p>
