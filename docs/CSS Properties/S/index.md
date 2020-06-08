@@ -11,15 +11,14 @@ description: Test Section 'S' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View SHAPE-OUTSIDE Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_shape-outside.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/shape-outside.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_shape-outside.html.pdf.png" alt="Browser Preview of SHAPE-OUTSIDE" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/shape-outside.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -72,15 +71,14 @@ description: Test Section 'S' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View STROKE-DASHARRAY Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-dasharray.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-dasharray.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-dasharray.html.pdf.png" alt="Browser Preview of STROKE-DASHARRAY" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-dasharray.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -133,15 +131,14 @@ description: Test Section 'S' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View STROKE-DASHOFFSET Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-dashoffset.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-dashoffset.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-dashoffset.html.pdf.png" alt="Browser Preview of STROKE-DASHOFFSET" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-dashoffset.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -194,15 +191,14 @@ description: Test Section 'S' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View STROKE-LINECAP Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-linecap.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-linecap.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-linecap.html.pdf.png" alt="Browser Preview of STROKE-LINECAP" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-linecap.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -255,15 +251,14 @@ description: Test Section 'S' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View STROKE-LINEJOIN Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-linejoin.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-linejoin.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-linejoin.html.pdf.png" alt="Browser Preview of STROKE-LINEJOIN" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-linejoin.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -316,15 +311,14 @@ description: Test Section 'S' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View STROKE-WIDTH Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-width.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-width.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke-width.html.pdf.png" alt="Browser Preview of STROKE-WIDTH" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke-width.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -377,15 +371,14 @@ description: Test Section 'S' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View STROKE Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_S_stroke.html.pdf.png" alt="Browser Preview of STROKE" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/S/stroke.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 

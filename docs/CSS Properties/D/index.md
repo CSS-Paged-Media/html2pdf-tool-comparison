@@ -11,15 +11,14 @@ description: Test Section 'D' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View DIRECTION Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_D_direction.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/D/direction.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_D_direction.html.pdf.png" alt="Browser Preview of DIRECTION" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/D/direction.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -72,15 +71,14 @@ description: Test Section 'D' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View DISPLAY Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_D_display.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/D/display.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_D_display.html.pdf.png" alt="Browser Preview of DISPLAY" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/D/display.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 

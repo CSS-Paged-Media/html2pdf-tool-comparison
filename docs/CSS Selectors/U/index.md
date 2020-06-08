@@ -11,15 +11,14 @@ description: Test Section 'U' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View UNIVERSAL Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Selectors_U_universal.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/U/universal.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Selectors_U_universal.html.pdf.png" alt="Browser Preview of UNIVERSAL" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/U/universal.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -72,15 +71,14 @@ description: Test Section 'U' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View USER-INVALID Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Selectors_U_user-invalid.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/U/user-invalid.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Selectors_U_user-invalid.html.pdf.png" alt="Browser Preview of USER-INVALID" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/U/user-invalid.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 

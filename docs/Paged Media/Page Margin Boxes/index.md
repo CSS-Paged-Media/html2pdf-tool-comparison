@@ -11,15 +11,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View BOTTOM-CENTER Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-center.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-center.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-center.html.pdf.png" alt="Browser Preview of BOTTOM-CENTER" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-center.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -72,15 +71,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View BOTTOM-LEFT-CORNER Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-left-corner.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.pdf.png" alt="Browser Preview of BOTTOM-LEFT-CORNER" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-left-corner.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -133,15 +131,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View BOTTOM-LEFT Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-left.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-left.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-left.html.pdf.png" alt="Browser Preview of BOTTOM-LEFT" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-left.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -194,15 +191,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View BOTTOM-RIGHT-CORNER Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-right-corner.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.pdf.png" alt="Browser Preview of BOTTOM-RIGHT-CORNER" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-right-corner.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -255,15 +251,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View BOTTOM-RIGHT Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-right.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-right.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_bottom-right.html.pdf.png" alt="Browser Preview of BOTTOM-RIGHT" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-right.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -316,15 +311,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View LEFT-BOTTOM Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-bottom.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.pdf.png" alt="Browser Preview of LEFT-BOTTOM" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-bottom.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -377,15 +371,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View LEFT-MIDDLE Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_left-middle.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-middle.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_left-middle.html.pdf.png" alt="Browser Preview of LEFT-MIDDLE" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-middle.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -438,15 +431,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View LEFT-TOP Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_left-top.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-top.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_left-top.html.pdf.png" alt="Browser Preview of LEFT-TOP" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-top.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -499,15 +491,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View RIGHT-BOTTOM Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_right-bottom.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-bottom.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_right-bottom.html.pdf.png" alt="Browser Preview of RIGHT-BOTTOM" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-bottom.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -560,15 +551,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View RIGHT-MIDDLE Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_right-middle.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-middle.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_right-middle.html.pdf.png" alt="Browser Preview of RIGHT-MIDDLE" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-middle.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -621,15 +611,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View RIGHT-TOP Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_right-top.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-top.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_right-top.html.pdf.png" alt="Browser Preview of RIGHT-TOP" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-top.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -682,15 +671,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View TOP-CENTER Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-center.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-center.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-center.html.pdf.png" alt="Browser Preview of TOP-CENTER" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-center.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -743,15 +731,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View TOP-LEFT-CORNER Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-left-corner.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-left-corner.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-left-corner.html.pdf.png" alt="Browser Preview of TOP-LEFT-CORNER" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-left-corner.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -804,15 +791,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View TOP-LEFT Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-left.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-left.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-left.html.pdf.png" alt="Browser Preview of TOP-LEFT" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-left.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -865,15 +851,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View TOP-RIGHT-CORNER Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-right-corner.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-right-corner.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-right-corner.html.pdf.png" alt="Browser Preview of TOP-RIGHT-CORNER" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-right-corner.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -926,15 +911,14 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View TOP-RIGHT Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-right.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-right.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Margin_Boxes_top-right.html.pdf.png" alt="Browser Preview of TOP-RIGHT" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-right.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 

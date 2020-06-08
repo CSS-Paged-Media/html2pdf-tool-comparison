@@ -11,15 +11,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MARKER Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Selectors_M_marker.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/M/marker.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Selectors_M_marker.html.pdf.png" alt="Browser Preview of MARKER" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/M/marker.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -72,15 +71,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MATCHES Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Selectors_M_matches.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/M/matches.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Selectors_M_matches.html.pdf.png" alt="Browser Preview of MATCHES" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/M/matches.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 

@@ -11,15 +11,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MARGIN Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_margin.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/margin.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_margin.html.pdf.png" alt="Browser Preview of MARGIN" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/margin.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -72,15 +71,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MASK-IMAGE Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_mask-image.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mask-image.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_mask-image.html.pdf.png" alt="Browser Preview of MASK-IMAGE" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mask-image.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -133,15 +131,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MASK-REPEAT Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_mask-repeat.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mask-repeat.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_mask-repeat.html.pdf.png" alt="Browser Preview of MASK-REPEAT" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mask-repeat.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -194,15 +191,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MAX-HEIGHT Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_max-height.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/max-height.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_max-height.html.pdf.png" alt="Browser Preview of MAX-HEIGHT" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/max-height.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -255,15 +251,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MAX-WIDTH Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_max-width.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/max-width.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_max-width.html.pdf.png" alt="Browser Preview of MAX-WIDTH" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/max-width.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -316,15 +311,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MIN-HEIGHT Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_min-height.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/min-height.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_min-height.html.pdf.png" alt="Browser Preview of MIN-HEIGHT" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/min-height.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -377,15 +371,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MIN-WIDTH Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_min-width.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/min-width.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_min-width.html.pdf.png" alt="Browser Preview of MIN-WIDTH" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/min-width.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -438,15 +431,14 @@ description: Test Section 'M' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View MIX-BLEND-MODE Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_mix-blend-mode.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mix-blend-mode.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_CSS_Properties_M_mix-blend-mode.html.pdf.png" alt="Browser Preview of MIX-BLEND-MODE" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/M/mix-blend-mode.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 

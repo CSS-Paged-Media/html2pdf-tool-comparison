@@ -11,15 +11,14 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View COUNTER-EVEN-NUMBERED Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter-even-numbered.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter-even-numbered.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter-even-numbered.html.pdf.png" alt="Browser Preview of COUNTER-EVEN-NUMBERED" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter-even-numbered.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -72,15 +71,14 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View COUNTER-INCREMENT Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter-increment.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter-increment.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter-increment.html.pdf.png" alt="Browser Preview of COUNTER-INCREMENT" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter-increment.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -133,15 +131,14 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View COUNTER-RESET Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter-reset.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter-reset.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter-reset.html.pdf.png" alt="Browser Preview of COUNTER-RESET" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter-reset.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -194,15 +191,14 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View COUNTER Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Paged_Media_Page_Properties_counter.html.pdf.png" alt="Browser Preview of COUNTER" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Properties/counter.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 

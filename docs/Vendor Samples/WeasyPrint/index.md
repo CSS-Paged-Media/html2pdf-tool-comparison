@@ -11,15 +11,14 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View INVOICE Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_invoice.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Vendor%20Samples/WeasyPrint/invoice.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_invoice.html.pdf.png" alt="Browser Preview of INVOICE" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Vendor%20Samples/WeasyPrint/invoice.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -72,15 +71,14 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View REPORT Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_report.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Vendor%20Samples/WeasyPrint/report.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_report.html.pdf.png" alt="Browser Preview of REPORT" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Vendor%20Samples/WeasyPrint/report.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
@@ -133,15 +131,14 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
 
 ### Input HTML & CSS
 
-<details>
-    <summary>
-        View TICKET Browser Output
-    </summary>
-    <img src="/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_ticket.html.pdf.png" />
-    <p>
-        <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Vendor%20Samples/WeasyPrint/ticket.html" target="_blank" rel="noopener">📄 Get Input HTML on GitHub</a>
-    </p>
-</details>
+<div class="browser-mockup with-url">
+    <div>
+        <img src="/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_ticket.html.pdf.png" alt="Browser Preview of TICKET" />
+    </div>
+</div>
+<p>
+    <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Vendor%20Samples/WeasyPrint/ticket.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+</p>
 
 ### Output PDF
 
