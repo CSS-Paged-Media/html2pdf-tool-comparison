@@ -374,7 +374,7 @@ aside section:first-of-type h2:first-of-type {
   display: block;
   padding-left:.4em;
   position: absolute;
-  content: 'Browser Preview based on Puppeteer (headless Chromium)';
+  content: 'Screenshot made with Puppeteer (headless Chromium)';
   width: calc(100% - 6em - 1em);
   height: 1.2em;
   top: -1.6em;
