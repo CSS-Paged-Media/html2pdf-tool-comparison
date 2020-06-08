@@ -331,6 +331,7 @@ aside section:first-of-type h2:first-of-type {
 *::-webkit-scrollbar-thumb {
   background-color: rgb(188, 11, 6);
   outline: 1px solid slategrey;
+  cursor: pointer;
 }
 /* Scrollbar End */
 
@@ -380,6 +381,10 @@ aside section:first-of-type h2:first-of-type {
   left: 5.5em;
   border-radius: 2px;
   background-color: white;
+  text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 1;
 }
 
 .browser-mockup > * {
