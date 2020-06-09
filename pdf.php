@@ -423,6 +423,10 @@ print_r($output);
                             </div>
                         </div>
 
+                        <a href="#top" class="rocket-outer">
+                            <span class="rocket">🚀</span>
+                        </a>
+
                         EOT;
 
                         $sFiles .= $sSingleTemplate . PHP_EOL;
@@ -546,10 +550,26 @@ $snappy->generateFromHtml(
         $sprinceCode = highlightCode(
             'exec("prince \'$sInputHTMLFilePath\' -o \'" . __DIR__ . "/result/princexml.pdf\'", $output);', 'php');
 
+        $sPuppeteerCode = highlightCode(
+            '$puppeteer = new Puppeteer;
+$browser = $puppeteer->launch();
+
+$page = $browser->newPage();
+$page->setContent($sHtmlFileContent);
+//$page->emulateMedia(\'screen\');
+$page->pdf([
+    \'path\' => __DIR__ . \'/result/puppeteer.pdf\',
+    \'preferCSSPageSize\' => true,
+    \'printBackground\' => true,
+    ]);
+
+$browser->close();', 'php'
+        );
         $sReadMD = <<<EOT
         ---
         layout: page
         title: Home
+        title:  A comparison of different html2pdf tools.
         permalink: /
         description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
         ---
@@ -557,6 +577,7 @@ $snappy->generateFromHtml(
         ## 👋 Hey! Nice that you are here!
 
         On this website, I show you the rendering results of different html2pdf tools.
+        On this website, I show you the rendering results of different html2pdf tools. I compare mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
 
         ## 🔬 Test Sections
         $sSubPages
@@ -596,6 +617,10 @@ $snappy->generateFromHtml(
         #### Prince
         
         $sprinceCode
+        
+        #### Puppeteer
+        
+        $sPuppeteerCode
         EOT;
         file_put_contents($sReadFile, $sReadMD);
 
