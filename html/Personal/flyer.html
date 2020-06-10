@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <style>
+	@page
+	{
+        size:8.5in 5.5in;
+        counter-reset: footnote;
+        marks:crop;
+        bleed:0.125in;
+        margin:0;
+        
+        @footnote{
+          border-top: 0.0625in solid rgb(188, 11, 6);
+        }
+  }
+  
+  
+  .footnote {
+      float: footnote;
+      color:#000;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 8pt;
+      margin-bottom:0.125in;
+  }
+                
+                .footnote::footnote-call {
+                    content: counter(footnote, asterisks)
+                }
+                
+                .footnote::footnote-marker {
+                    content: counter(footnote, asterisks) " ";
+                }
+
+    body{
+        font-family: 'Kalam', cursive;
+        font-weight: 700;
+    }
+
+
+    h1,
+    h1 a{
+      background-color:rgb(188, 11, 6);
+      color:#fff;
+      text-align: center;
+      line-height: 2;
+    }
+
+    h2:first-of-type{
+      margin-top: 2in;
+    }
+
+    h2{
+      text-align: center;
+    }
+
+    div {
+      background-color:rgb(188, 11, 6);
+      padding:0.125in;
+      position: absolute;
+      right:.25in;
+      top:.25in;
+    }
+    </style>
+  </head>
+  <body>    
+    <div>
+      <img src="https://www.html2pdf.guru/assets/img/html2pdf.guru.png" />
+    </div>
+    <h2>Not sure which HTML 2 PDF Tool to use?</h2>
+    <h1>Check out <a target="_blank" href="https://www.html2pdf.guru">html2pdf.guru</a></h1>
+    <h2>to see a comparison of seven different tools<span class="footnote">mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.</span>!</h2>  
+  </body>
+</html>

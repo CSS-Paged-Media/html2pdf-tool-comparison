@@ -1,0 +1,417 @@
+<!doctype html>
+<!-- sample taken from https://codepen.io/chenmenglin/pen/RqPQVj -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <style>
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  padding: 0;
+  background: #e0e0e0;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  position: relative;
+  top: 40%;
+  display: table;
+  margin: -50px auto;
+  padding: 10px 15px;
+  background: #f0f0f0;
+  box-shadow: 0px 1px 10px -5px #000;
+  border-radius: 3px;
+}
+li {
+  display: table-cell;
+  position: relative;
+  width: 14px;
+  height: 100px;
+  overflow: hidden;
+}
+li::before {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: 0;
+  width: 2px;
+  bottom: 18px;
+}
+li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  height: 18px;
+  line-height: 18px;
+  color: #802020;
+  font-family: 'Courier New', mono;
+  font-weight: bold;
+  font-size: 14px;
+}
+li:nth-child(2).digit-0::before,
+li:nth-child(3).digit-0::before,
+li:nth-child(4).digit-0::before,
+li:nth-child(5).digit-0::before,
+li:nth-child(6).digit-0::before,
+li:nth-child(7).digit-0::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-0::after,
+li:nth-child(3).digit-0::after,
+li:nth-child(4).digit-0::after,
+li:nth-child(5).digit-0::after,
+li:nth-child(6).digit-0::after,
+li:nth-child(7).digit-0::after {
+  content: '0';
+}
+li:nth-child(2).digit-1::before,
+li:nth-child(3).digit-1::before,
+li:nth-child(4).digit-1::before,
+li:nth-child(5).digit-1::before,
+li:nth-child(6).digit-1::before,
+li:nth-child(7).digit-1::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-1::after,
+li:nth-child(3).digit-1::after,
+li:nth-child(4).digit-1::after,
+li:nth-child(5).digit-1::after,
+li:nth-child(6).digit-1::after,
+li:nth-child(7).digit-1::after {
+  content: '1';
+}
+li:nth-child(2).digit-2::before,
+li:nth-child(3).digit-2::before,
+li:nth-child(4).digit-2::before,
+li:nth-child(5).digit-2::before,
+li:nth-child(6).digit-2::before,
+li:nth-child(7).digit-2::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-2::after,
+li:nth-child(3).digit-2::after,
+li:nth-child(4).digit-2::after,
+li:nth-child(5).digit-2::after,
+li:nth-child(6).digit-2::after,
+li:nth-child(7).digit-2::after {
+  content: '2';
+}
+li:nth-child(2).digit-3::before,
+li:nth-child(3).digit-3::before,
+li:nth-child(4).digit-3::before,
+li:nth-child(5).digit-3::before,
+li:nth-child(6).digit-3::before,
+li:nth-child(7).digit-3::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-3::after,
+li:nth-child(3).digit-3::after,
+li:nth-child(4).digit-3::after,
+li:nth-child(5).digit-3::after,
+li:nth-child(6).digit-3::after,
+li:nth-child(7).digit-3::after {
+  content: '3';
+}
+li:nth-child(2).digit-4::before,
+li:nth-child(3).digit-4::before,
+li:nth-child(4).digit-4::before,
+li:nth-child(5).digit-4::before,
+li:nth-child(6).digit-4::before,
+li:nth-child(7).digit-4::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-4::after,
+li:nth-child(3).digit-4::after,
+li:nth-child(4).digit-4::after,
+li:nth-child(5).digit-4::after,
+li:nth-child(6).digit-4::after,
+li:nth-child(7).digit-4::after {
+  content: '4';
+}
+li:nth-child(2).digit-5::before,
+li:nth-child(3).digit-5::before,
+li:nth-child(4).digit-5::before,
+li:nth-child(5).digit-5::before,
+li:nth-child(6).digit-5::before,
+li:nth-child(7).digit-5::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-5::after,
+li:nth-child(3).digit-5::after,
+li:nth-child(4).digit-5::after,
+li:nth-child(5).digit-5::after,
+li:nth-child(6).digit-5::after,
+li:nth-child(7).digit-5::after {
+  content: '5';
+}
+li:nth-child(2).digit-6::before,
+li:nth-child(3).digit-6::before,
+li:nth-child(4).digit-6::before,
+li:nth-child(5).digit-6::before,
+li:nth-child(6).digit-6::before,
+li:nth-child(7).digit-6::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-6::after,
+li:nth-child(3).digit-6::after,
+li:nth-child(4).digit-6::after,
+li:nth-child(5).digit-6::after,
+li:nth-child(6).digit-6::after,
+li:nth-child(7).digit-6::after {
+  content: '6';
+}
+li:nth-child(2).digit-7::before,
+li:nth-child(3).digit-7::before,
+li:nth-child(4).digit-7::before,
+li:nth-child(5).digit-7::before,
+li:nth-child(6).digit-7::before,
+li:nth-child(7).digit-7::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-7::after,
+li:nth-child(3).digit-7::after,
+li:nth-child(4).digit-7::after,
+li:nth-child(5).digit-7::after,
+li:nth-child(6).digit-7::after,
+li:nth-child(7).digit-7::after {
+  content: '7';
+}
+li:nth-child(2).digit-8::before,
+li:nth-child(3).digit-8::before,
+li:nth-child(4).digit-8::before,
+li:nth-child(5).digit-8::before,
+li:nth-child(6).digit-8::before,
+li:nth-child(7).digit-8::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-8::after,
+li:nth-child(3).digit-8::after,
+li:nth-child(4).digit-8::after,
+li:nth-child(5).digit-8::after,
+li:nth-child(6).digit-8::after,
+li:nth-child(7).digit-8::after {
+  content: '8';
+}
+li:nth-child(2).digit-9::before,
+li:nth-child(3).digit-9::before,
+li:nth-child(4).digit-9::before,
+li:nth-child(5).digit-9::before,
+li:nth-child(6).digit-9::before,
+li:nth-child(7).digit-9::before {
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #404040;
+}
+li:nth-child(2).digit-9::after,
+li:nth-child(3).digit-9::after,
+li:nth-child(4).digit-9::after,
+li:nth-child(5).digit-9::after,
+li:nth-child(6).digit-9::after,
+li:nth-child(7).digit-9::after {
+  content: '9';
+}
+li:nth-child(9).digit-0::before,
+li:nth-child(10).digit-0::before,
+li:nth-child(11).digit-0::before,
+li:nth-child(12).digit-0::before,
+li:nth-child(13).digit-0::before,
+li:nth-child(14).digit-0::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-0::after,
+li:nth-child(10).digit-0::after,
+li:nth-child(11).digit-0::after,
+li:nth-child(12).digit-0::after,
+li:nth-child(13).digit-0::after,
+li:nth-child(14).digit-0::after {
+  content: '0';
+}
+li:nth-child(9).digit-1::before,
+li:nth-child(10).digit-1::before,
+li:nth-child(11).digit-1::before,
+li:nth-child(12).digit-1::before,
+li:nth-child(13).digit-1::before,
+li:nth-child(14).digit-1::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-1::after,
+li:nth-child(10).digit-1::after,
+li:nth-child(11).digit-1::after,
+li:nth-child(12).digit-1::after,
+li:nth-child(13).digit-1::after,
+li:nth-child(14).digit-1::after {
+  content: '1';
+}
+li:nth-child(9).digit-2::before,
+li:nth-child(10).digit-2::before,
+li:nth-child(11).digit-2::before,
+li:nth-child(12).digit-2::before,
+li:nth-child(13).digit-2::before,
+li:nth-child(14).digit-2::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-2::after,
+li:nth-child(10).digit-2::after,
+li:nth-child(11).digit-2::after,
+li:nth-child(12).digit-2::after,
+li:nth-child(13).digit-2::after,
+li:nth-child(14).digit-2::after {
+  content: '2';
+}
+li:nth-child(9).digit-3::before,
+li:nth-child(10).digit-3::before,
+li:nth-child(11).digit-3::before,
+li:nth-child(12).digit-3::before,
+li:nth-child(13).digit-3::before,
+li:nth-child(14).digit-3::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-3::after,
+li:nth-child(10).digit-3::after,
+li:nth-child(11).digit-3::after,
+li:nth-child(12).digit-3::after,
+li:nth-child(13).digit-3::after,
+li:nth-child(14).digit-3::after {
+  content: '3';
+}
+li:nth-child(9).digit-4::before,
+li:nth-child(10).digit-4::before,
+li:nth-child(11).digit-4::before,
+li:nth-child(12).digit-4::before,
+li:nth-child(13).digit-4::before,
+li:nth-child(14).digit-4::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-4::after,
+li:nth-child(10).digit-4::after,
+li:nth-child(11).digit-4::after,
+li:nth-child(12).digit-4::after,
+li:nth-child(13).digit-4::after,
+li:nth-child(14).digit-4::after {
+  content: '4';
+}
+li:nth-child(9).digit-5::before,
+li:nth-child(10).digit-5::before,
+li:nth-child(11).digit-5::before,
+li:nth-child(12).digit-5::before,
+li:nth-child(13).digit-5::before,
+li:nth-child(14).digit-5::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #404040, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-5::after,
+li:nth-child(10).digit-5::after,
+li:nth-child(11).digit-5::after,
+li:nth-child(12).digit-5::after,
+li:nth-child(13).digit-5::after,
+li:nth-child(14).digit-5::after {
+  content: '5';
+}
+li:nth-child(9).digit-6::before,
+li:nth-child(10).digit-6::before,
+li:nth-child(11).digit-6::before,
+li:nth-child(12).digit-6::before,
+li:nth-child(13).digit-6::before,
+li:nth-child(14).digit-6::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-6::after,
+li:nth-child(10).digit-6::after,
+li:nth-child(11).digit-6::after,
+li:nth-child(12).digit-6::after,
+li:nth-child(13).digit-6::after,
+li:nth-child(14).digit-6::after {
+  content: '6';
+}
+li:nth-child(9).digit-7::before,
+li:nth-child(10).digit-7::before,
+li:nth-child(11).digit-7::before,
+li:nth-child(12).digit-7::before,
+li:nth-child(13).digit-7::before,
+li:nth-child(14).digit-7::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-7::after,
+li:nth-child(10).digit-7::after,
+li:nth-child(11).digit-7::after,
+li:nth-child(12).digit-7::after,
+li:nth-child(13).digit-7::after,
+li:nth-child(14).digit-7::after {
+  content: '7';
+}
+li:nth-child(9).digit-8::before,
+li:nth-child(10).digit-8::before,
+li:nth-child(11).digit-8::before,
+li:nth-child(12).digit-8::before,
+li:nth-child(13).digit-8::before,
+li:nth-child(14).digit-8::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #404040, 10px 0px 0px 0px #f0f0f0, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-8::after,
+li:nth-child(10).digit-8::after,
+li:nth-child(11).digit-8::after,
+li:nth-child(12).digit-8::after,
+li:nth-child(13).digit-8::after,
+li:nth-child(14).digit-8::after {
+  content: '8';
+}
+li:nth-child(9).digit-9::before,
+li:nth-child(10).digit-9::before,
+li:nth-child(11).digit-9::before,
+li:nth-child(12).digit-9::before,
+li:nth-child(13).digit-9::before,
+li:nth-child(14).digit-9::before {
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #404040, 6px 0px 0px 0px #404040, 8px 0px 0px 0px #f0f0f0, 10px 0px 0px 0px #404040, 12px 0px 0px 0px #f0f0f0, 14px 0px 0px 0px #f0f0f0;
+}
+li:nth-child(9).digit-9::after,
+li:nth-child(10).digit-9::after,
+li:nth-child(11).digit-9::after,
+li:nth-child(12).digit-9::after,
+li:nth-child(13).digit-9::after,
+li:nth-child(14).digit-9::after {
+  content: '9';
+}
+li.start,
+li.end {
+  width: 6px;
+}
+li.start::before,
+li.end::before {
+  bottom: 9px;
+  box-shadow: 2px 0px 0px 0px #404040, 4px 0px 0px 0px #f0f0f0, 6px 0px 0px 0px #404040;
+}
+li.mid {
+  width: 10px;
+}
+li.mid::before {
+  bottom: 9px;
+  box-shadow: 2px 0px 0px 0px #f0f0f0, 4px 0px 0px 0px #802020, 6px 0px 0px 0px #f0f0f0, 8px 0px 0px 0px #802020, 10px 0px 0px 0px #f0f0f0;
+}
+    </style>
+  </head>
+  <body>
+    <ul>
+        <li class="start"></li>
+        <li class="digit-0"></li>
+        <li class="digit-4"></li>
+        <li class="digit-2"></li>
+        <li class="digit-1"></li>
+        <li class="digit-0"></li>
+        <li class="digit-0"></li>
+        <li class="mid"></li>
+        <li class="digit-0"></li>
+        <li class="digit-0"></li>
+        <li class="digit-5"></li>
+        <li class="digit-2"></li>
+        <li class="digit-6"></li>
+        <li class="digit-4"></li>
+        <li class="end"></li>
+      </ul>
+  </body>
+</html>
