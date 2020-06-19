@@ -14,7 +14,7 @@
   ],
   "require": {
     "php": "^7.3",
-    "typesetsh/typesetsh": "^0.6.1",
+    "typesetsh/typesetsh": "^0.7.0",
 	  "mpdf/mpdf": "^8.0",
     "azettl/php-nano-template": "^0.0.5",
     "azettl/pdfreactor": "^10.1",

@@ -8,7 +8,6 @@
     use com\realobjects\pdfreactor\webservice\client\PDFreactor as PDFreactor;
     use com\realobjects\pdfreactor\webservice\client\LogLevel as LogLevel;
     use com\realobjects\pdfreactor\webservice\client\ViewerPreferences as ViewerPreferences;
-    
 
     use Nesk\Puphpeteer\Puppeteer;
 
@@ -568,7 +567,6 @@ $browser->close();', 'php'
         $sReadMD = <<<EOT
         ---
         layout: page
-        title: Home
         title:  A comparison of different html2pdf tools.
         permalink: /
         description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
@@ -576,7 +574,6 @@ $browser->close();', 'php'
 
         ## 👋 Hey! Nice that you are here!
 
-        On this website, I show you the rendering results of different html2pdf tools.
         On this website, I show you the rendering results of different html2pdf tools. I compare mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
 
         ## 🔬 Test Sections
@@ -622,6 +619,7 @@ $browser->close();', 'php'
         
         $sPuppeteerCode
         EOT;
+        echo $sReadFile;
         file_put_contents($sReadFile, $sReadMD);
 
         generateResultSubPages($sHtmlPath, $sRootPath);
@@ -632,4 +630,4 @@ $browser->close();', 'php'
     // Render PDF
     renderPdfs($sHtmlPath);
 
-    generateResultPages($sHtmlPath);
+  generateResultPages($sHtmlPath);
