@@ -13,13 +13,13 @@ endobj
 <</Type/Outlines/First 6 0 R/Last 7 0 R/Count 2>>
 endobj
 5 0 obj
-<</Type/Page/LastModified(D:20200619221828+0000)/Resources<</XObject<</xo1 8 0 R>>/Font<</tf1 9 0 R/tf2 10 0 R>>>>/Contents 11 0 R/MediaBox[0 0 630 414]/Parent 3 0 R/Annots[12 0 R]/BleedBox[0 0 630 414]/TrimBox[9 9 621 405]>>
+<</Type/Page/LastModified(D:20200701184027+0000)/Resources<</XObject<</xo1 8 0 R>>/Font<</tf1 9 0 R/tf2 10 0 R>>>>/Contents 11 0 R/MediaBox[0 0 630 414]/Parent 3 0 R/BleedBox[0 0 630 414]/TrimBox[9 9 621 405]/Annots[12 0 R]>>
 endobj
 6 0 obj
-<</Title(Not sure which HTML 2 PDF Tool to use?)/Parent 4 0 R/Prev null/Next null/First null/Last null/Count 0/F 0/Dest[5 0 R/FitH 405]>>
+<</Title(Not sure which HTML 2 PDF Tool to use?)/Parent 4 0 R/Prev null/Next null/First null/Last null/Count 0/F 0/Dest[5 0 R/FitH 261]>>
 endobj
 7 0 obj
-<</Title(Check out html2pdf.guru)/Parent 4 0 R/Prev null/Next null/First 13 0 R/Last 13 0 R/Count 1/F 2/Dest[5 0 R/FitH 239.4]>>
+<</Title(Check out html2pdf.guru)/Parent 4 0 R/Prev null/Next null/First 13 0 R/Last 13 0 R/Count 1/F 2/Dest[5 0 R/FitH 223.32]>>
 endobj
 8 0 obj
 <</Subtype/Image/Width 150/Height 87/ColorSpace/DeviceRGB/BitsPerComponent 8/Type/XObject/Length 39161/SMask 14 0 R/Filter/FlateDecode>>
@@ -136,7 +136,7 @@ endobj
 <</Subtype/Link/Type/Annot/Rect[297.804 223.32 447.708 175.32]/A 19 0 R/Border[0 0 0]>>
 endobj
 13 0 obj
-<</Title(to see a comparison of seven different toolsmPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.0 !)/Parent 7 0 R/Prev null/Next null/First null/Last null/Count 0/F 0/Dest[5 0 R/FitH 175.32]>>
+<</Title(to see a comparison of seven different toolsmPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.0 !)/Parent 7 0 R/Prev null/Next null/First null/Last null/Count 0/F 0/Dest[5 0 R/FitH 159.24]>>
 endobj
 14 0 obj
 <</Subtype/Image/Width 150/Height 87/ColorSpace/DeviceGray/BitsPerComponent 8/Type/XObject/Length 13061/Filter/FlateDecode>>
@@ -146,7 +146,7 @@ endstream
 
 endobj
 15 0 obj
-<</Subtype/CIDFontType2/Type/Font/BaseFont/Kalam-Bold/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/FontDescriptor 20 0 R/DW 631/W[5[385 478] 19[237] 23[583] 36[608] 40[617 666] 43[542] 45[651] 49[546 756] 53[549] 57[544] 70[510] 72[489 539 488 435 481 563 260] 80[493 266 819 554 456 538] 87[362 467 451 486 422 710]]>>
+<</Subtype/CIDFontType2/Type/Font/BaseFont/Kalam-Bold/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/FontDescriptor 20 0 R/DW 237/W[5[385 478] 23[583] 36[608] 40[617 666] 43[542] 45[651] 49[546 756 631] 53[549] 57[544] 70[510] 72[489 539 488 435 481 563 260] 80[493 266 819 554 456 538] 87[362 467 451 486 422 710]]>>
 endobj
 16 0 obj
 <</Type/CMap/Filter[/FlateDecode]/CMapName(Adobe-Identity-UCS)/Length 402/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>>>
@@ -295,24 +295,24 @@ xref
 0000000387 00000 n 
 0000000628 00000 n 
 0000000781 00000 n 
-0000000925 00000 n 
-0000040257 00000 n 
-0000040382 00000 n 
-0000040511 00000 n 
-0000041234 00000 n 
-0000041338 00000 n 
-0000041581 00000 n 
-0000054802 00000 n 
-0000055159 00000 n 
-0000055738 00000 n 
-0000056070 00000 n 
-0000056618 00000 n 
-0000056688 00000 n 
-0000056930 00000 n 
-0000057175 00000 n 
-0000063182 00000 n 
+0000000926 00000 n 
+0000040258 00000 n 
+0000040383 00000 n 
+0000040512 00000 n 
+0000041235 00000 n 
+0000041339 00000 n 
+0000041582 00000 n 
+0000054803 00000 n 
+0000055156 00000 n 
+0000055735 00000 n 
+0000056067 00000 n 
+0000056615 00000 n 
+0000056685 00000 n 
+0000056927 00000 n 
+0000057172 00000 n 
+0000063179 00000 n 
 trailer
 <</Size 24/Root 1 0 R/ID null/Info 2 0 R>>
 startxref
-84981
+84978
 %%EOF
