@@ -99,3 +99,12 @@ $page-&gt;pdf([
     ]);
 
 $browser-&gt;close();</code></pre>
+
+#### openhtmltopdf
+<pre><code class="hljs java">OutputStream os = <span class="hljs-keyword">new</span> FileOutputStream(sHtmlFileContent);
+PdfRendererBuilder builder = <span class="hljs-keyword">new</span> PdfRendererBuilder();
+builder.useFastMode();
+
+builder.withUri(<span class="hljs-string">"file:///path/to/result/openhtmltopdf.pdf"</span>);
+builder.toStream(os);
+builder.run();</code></pre>
