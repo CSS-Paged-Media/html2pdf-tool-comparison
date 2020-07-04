@@ -72,6 +72,13 @@ description: Test Section 'W' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_white-space.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_white-space.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -141,6 +148,13 @@ description: Test Section 'W' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_widows.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_widows.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_widows.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -214,6 +228,13 @@ description: Test Section 'W' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_width.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_width.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -283,6 +304,13 @@ description: Test Section 'W' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_word-break.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_word-break.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_word-break.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -356,6 +384,13 @@ description: Test Section 'W' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_word-spacing.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_word-spacing.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -425,6 +460,13 @@ description: Test Section 'W' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_writing-mode.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_writing-mode.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_W_writing-mode.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>

@@ -72,6 +72,13 @@ description: Test Section 'V' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_V_vertical-align.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_V_vertical-align.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_V_vertical-align.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -141,6 +148,13 @@ description: Test Section 'V' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_V_visibility.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_V_visibility.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_V_visibility.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_V_visibility.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>

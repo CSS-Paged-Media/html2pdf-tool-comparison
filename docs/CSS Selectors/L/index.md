@@ -72,6 +72,13 @@ description: Test Section 'L' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_L_lang.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_L_lang.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_L_lang.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -141,6 +148,13 @@ description: Test Section 'L' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_L_last-child.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_L_last-child.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_L_last-child.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_L_last-child.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -214,6 +228,13 @@ description: Test Section 'L' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_L_last-of-type.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_L_last-of-type.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_L_last-of-type.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -283,6 +304,13 @@ description: Test Section 'L' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_L_link.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_L_link.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_L_link.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_L_link.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>

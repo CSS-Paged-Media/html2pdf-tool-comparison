@@ -72,6 +72,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_bottom-center.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-center.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-center.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -141,6 +148,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-left-corner.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -214,6 +228,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_bottom-left.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-left.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-left.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -283,6 +304,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-right-corner.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -356,6 +384,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_bottom-right.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-right.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_bottom-right.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -425,6 +460,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-bottom.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -498,6 +540,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_left-middle.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-middle.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-middle.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -567,6 +616,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_left-top.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_left-top.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-top.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_left-top.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -640,6 +696,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_right-bottom.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-bottom.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-bottom.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -709,6 +772,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_right-middle.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_right-middle.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-middle.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-middle.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -782,6 +852,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_right-top.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-top.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_right-top.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -851,6 +928,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_top-center.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_top-center.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-center.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-center.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -924,6 +1008,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_top-left-corner.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-left-corner.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-left-corner.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -993,6 +1084,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_top-left.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_top-left.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-left.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-left.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -1066,6 +1164,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_top-right-corner.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-right-corner.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-right-corner.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -1135,6 +1240,13 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
         <img src="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_top-right.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_Paged_Media_Page_Margin_Boxes_top-right.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-right.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Margin_Boxes_top-right.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>

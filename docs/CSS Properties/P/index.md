@@ -72,6 +72,13 @@ description: Test Section 'P' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_P_padding.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_padding.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_padding.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -141,6 +148,13 @@ description: Test Section 'P' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_P_perspective-origin.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_P_perspective-origin.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_perspective-origin.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_perspective-origin.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -214,6 +228,13 @@ description: Test Section 'P' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_P_perspective.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_perspective.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_perspective.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -283,6 +304,13 @@ description: Test Section 'P' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_P_position.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_P_position.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_position.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_position.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>

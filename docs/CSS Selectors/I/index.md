@@ -72,6 +72,13 @@ description: Test Section 'I' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_I_id.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_I_id.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_I_id.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -141,6 +148,13 @@ description: Test Section 'I' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_I_in-range.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_I_in-range.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_I_in-range.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_I_in-range.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
@@ -214,6 +228,13 @@ description: Test Section 'I' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_I_invalid.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_I_invalid.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_I_invalid.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -283,6 +304,13 @@ description: Test Section 'I' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Selectors_I_is.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/{{ page.path }}/../puppeteer__html_CSS_Selectors_I_is.html.pdf" target="_blank">📕 Puppeteer Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>openhtmltopdf</h4>
+        <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_I_is.html.png" alt="openhtmltopdf Preview" />
+        <p>
+            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_I_is.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
 </div>
