@@ -85,6 +85,7 @@ section {
 }
 
 article {
+    max-width: calc(100% - 4rem);
     padding:2rem;
 }
 
