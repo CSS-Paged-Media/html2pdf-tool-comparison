@@ -86,6 +86,13 @@ description: Test Section 'N' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_N_not.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_not.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_not.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -169,6 +176,13 @@ description: Test Section 'N' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_N_nth-child.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_N_nth-child.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_nth-child.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_nth-child.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -256,6 +270,13 @@ description: Test Section 'N' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_N_nth-last-child.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_nth-last-child.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_nth-last-child.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -341,6 +362,13 @@ description: Test Section 'N' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_N_nth-last-of-type.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_nth-last-of-type.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_nth-last-of-type.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -424,6 +452,13 @@ description: Test Section 'N' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_N_nth-of-type.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_N_nth-of-type.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_nth-of-type.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_N_nth-of-type.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>

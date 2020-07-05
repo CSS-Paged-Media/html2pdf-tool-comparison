@@ -2,12 +2,12 @@
 layout: page
 title:  A comparison of different html2pdf tools.
 permalink: /
-description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, Puppeteer, openhtmltopdf, and pdfHTML (iText 7 add-on).
+description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, Puppeteer, openhtmltopdf, pdfHTML (iText 7 add-on), and Flying Saucer.
 ---
 
 ## 👋 Hey! Nice that you are here!
 
-On this website, I show you the rendering results of different html2pdf tools. I compare mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, Puppeteer, openhtmltopdf, and pdfHTML (iText 7 add-on).
+On this website, I show you the rendering results of different html2pdf tools. I compare mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, Puppeteer, openhtmltopdf, pdfHTML (iText 7 add-on), and Flying Saucer.
 
 ## 🔬 Test Sections
 <div class="boxes"><a href="/CSS-Properties/">CSS Properties</a>
@@ -114,3 +114,14 @@ builder.run();</code></pre>
 File pdfDest = <span class="hljs-keyword">new</span> File(resultFilepath);
 ConverterProperties converterProperties = <span class="hljs-keyword">new</span> ConverterProperties();
 HtmlConverter.convertToPdf(<span class="hljs-keyword">new</span> FileInputStream(htmlSource), <span class="hljs-keyword">new</span> FileOutputStream(pdfDest), converterProperties);</code></pre>
+
+#### Flying Saucer
+<pre><code class="hljs java">String url = <span class="hljs-keyword">new</span> File(aFile.getAbsolutePath()).toURI().toURL().toString();
+OutputStream os = <span class="hljs-keyword">new</span> FileOutputStream(resultFilepath);
+
+ITextRenderer renderer = <span class="hljs-keyword">new</span> ITextRenderer();
+renderer.setDocument(url);
+renderer.layout();
+renderer.createPDF(os);
+
+os.close();</code></pre>

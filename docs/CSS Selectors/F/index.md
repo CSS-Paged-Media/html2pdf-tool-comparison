@@ -86,6 +86,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_first-child.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_first-child.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_first-child.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -169,6 +176,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_first-letter.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_first-letter.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_first-letter.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_first-letter.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -256,6 +270,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_first-line.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_first-line.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_first-line.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -339,6 +360,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_first-of-type.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_first-of-type.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_first-of-type.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_first-of-type.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -426,6 +454,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_focus-visible.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_focus-visible.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_focus-visible.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -511,6 +546,13 @@ description: Test Section 'F' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_focus-within.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_focus-within.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_focus-within.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -594,6 +636,13 @@ description: Test Section 'F' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_focus.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_F_focus.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_focus.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Selectors_F_focus.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>

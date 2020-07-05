@@ -86,6 +86,13 @@ description: Test Section 'Personal' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_Personal_blog-post.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_Personal_blog-post.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_Personal_blog-post.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -169,6 +176,13 @@ description: Test Section 'Personal' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../itextpdfhtml__html_Personal_book-cover.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/{{ page.path }}/../itextpdfhtml__html_Personal_book-cover.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_Personal_book-cover.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_Personal_book-cover.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -256,6 +270,13 @@ description: Test Section 'Personal' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_Personal_business-card.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_Personal_business-card.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_Personal_business-card.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -339,6 +360,13 @@ description: Test Section 'Personal' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../itextpdfhtml__html_Personal_color-names.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/{{ page.path }}/../itextpdfhtml__html_Personal_color-names.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_Personal_color-names.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_Personal_color-names.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -426,6 +454,13 @@ description: Test Section 'Personal' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_Personal_color-palette.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_Personal_color-palette.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_Personal_color-palette.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -509,6 +544,13 @@ description: Test Section 'Personal' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../itextpdfhtml__html_Personal_flyer.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/{{ page.path }}/../itextpdfhtml__html_Personal_flyer.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_Personal_flyer.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_Personal_flyer.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -596,6 +638,13 @@ description: Test Section 'Personal' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_Personal_getbootstrap-grid.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_Personal_getbootstrap-grid.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_Personal_getbootstrap-grid.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -681,6 +730,13 @@ description: Test Section 'Personal' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../itextpdfhtml__html_Personal_pure-css-barcode.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_Personal_pure-css-barcode.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_Personal_pure-css-barcode.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -764,6 +820,13 @@ description: Test Section 'Personal' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../itextpdfhtml__html_Personal_unicode-symbols-pictographs.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/{{ page.path }}/../itextpdfhtml__html_Personal_unicode-symbols-pictographs.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>Flying Saucer</h4>
+        <img src="/{{ page.path }}/../flyingsaucer__html_Personal_unicode-symbols-pictographs.html.png" alt="Flying Saucer Preview" />
+        <p>
+            <a href="/{{ page.path }}/../flyingsaucer__html_Personal_unicode-symbols-pictographs.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
