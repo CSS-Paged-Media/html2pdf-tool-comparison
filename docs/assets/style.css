@@ -81,7 +81,8 @@ nav a:focus {
 	background-color: #dfac20;
 }
 
-section {
+.center {
+  text-align: center;
 }
 
 article {
