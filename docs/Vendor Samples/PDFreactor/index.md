@@ -79,6 +79,13 @@ description: Test Section 'PDFreactor' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_PDFreactor_accessibility.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_accessibility.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_accessibility.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -155,6 +162,13 @@ description: Test Section 'PDFreactor' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_PDFreactor_flexbox.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_PDFreactor_flexbox.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_flexbox.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_flexbox.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>
@@ -235,6 +249,13 @@ description: Test Section 'PDFreactor' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_PDFreactor_footnotes.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_footnotes.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_footnotes.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -313,6 +334,13 @@ description: Test Section 'PDFreactor' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_PDFreactor_multicolumn.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_multicolumn.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_multicolumn.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -389,6 +417,13 @@ description: Test Section 'PDFreactor' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_PDFreactor_regions.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_PDFreactor_regions.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_regions.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_PDFreactor_regions.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>

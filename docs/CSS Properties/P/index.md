@@ -79,6 +79,13 @@ description: Test Section 'P' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_padding.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_P_padding.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_P_padding.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -155,6 +162,13 @@ description: Test Section 'P' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_perspective-origin.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_perspective-origin.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_P_perspective-origin.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_P_perspective-origin.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>
@@ -235,6 +249,13 @@ description: Test Section 'P' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_perspective.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_P_perspective.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_P_perspective.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -311,6 +332,13 @@ description: Test Section 'P' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_position.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_P_position.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_P_position.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_P_position.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>

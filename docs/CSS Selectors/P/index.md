@@ -79,6 +79,13 @@ description: Test Section 'P' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_P_placeholder-shown.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_P_placeholder-shown.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_P_placeholder-shown.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -155,6 +162,13 @@ description: Test Section 'P' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_P_placeholder.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Selectors_P_placeholder.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_P_placeholder.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Selectors_P_placeholder.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>

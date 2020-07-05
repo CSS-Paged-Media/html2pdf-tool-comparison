@@ -79,6 +79,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_blank-first.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_blank-first.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_blank-first.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -155,6 +162,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_blank-left.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_blank-left.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_blank-left.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_blank-left.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>
@@ -235,6 +249,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_blank-right.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_blank-right.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_blank-right.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -311,6 +332,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_blank.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_blank.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_blank.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_blank.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>
@@ -391,6 +419,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_first.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_first.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_first.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -467,6 +502,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_higher-specificity.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_higher-specificity.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_higher-specificity.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_higher-specificity.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>
@@ -547,6 +589,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_left.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_left.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_left.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -623,6 +672,13 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_right.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Selectors_right.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_right.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Selectors_right.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>

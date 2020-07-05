@@ -79,6 +79,13 @@ description: Test Section 'H' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_H_hanging-punctuation.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_H_hanging-punctuation.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_H_hanging-punctuation.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -157,6 +164,13 @@ description: Test Section 'H' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_H_height.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_H_height.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_H_height.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -233,6 +247,13 @@ description: Test Section 'H' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_H_hyphens.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_H_hyphens.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_H_hyphens.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_H_hyphens.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>

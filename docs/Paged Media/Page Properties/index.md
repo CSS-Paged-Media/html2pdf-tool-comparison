@@ -79,6 +79,13 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Properties_counter-even-numbered.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Properties_counter-even-numbered.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Properties_counter-even-numbered.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -155,6 +162,13 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Properties_counter-increment.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Properties_counter-increment.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Properties_counter-increment.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Properties_counter-increment.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>
@@ -235,6 +249,13 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Properties_counter-reset.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Properties_counter-reset.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Properties_counter-reset.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+        </p>
+    </div>
 </div>
 
 <a href="#top" class="rocket-outer">
@@ -311,6 +332,13 @@ description: Test Section 'Page Properties' to compare different html2pdf tools.
         <img src="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Properties_counter.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/{{ page.path }}/../openhtmltopdf__html_Paged_Media_Page_Properties_counter.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+        </p>
+    </div>
+    <div>
+        <h4>pdfHTML (iText 7 add-on)</h4>
+        <img src="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Properties_counter.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <p>
+            <a href="/{{ page.path }}/../itextpdfhtml__html_Paged_Media_Page_Properties_counter.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
 </div>

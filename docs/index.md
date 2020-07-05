@@ -2,12 +2,12 @@
 layout: page
 title:  A comparison of different html2pdf tools.
 permalink: /
-description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
+description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, Puppeteer, openhtmltopdf, and pdfHTML (iText 7 add-on).
 ---
 
 ## 👋 Hey! Nice that you are here!
 
-On this website, I show you the rendering results of different html2pdf tools. I compare mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, and Puppeteer.
+On this website, I show you the rendering results of different html2pdf tools. I compare mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, Puppeteer, openhtmltopdf, and pdfHTML (iText 7 add-on).
 
 ## 🔬 Test Sections
 <div class="boxes"><a href="/CSS-Properties/">CSS Properties</a>
@@ -101,10 +101,16 @@ $page-&gt;pdf([
 $browser-&gt;close();</code></pre>
 
 #### openhtmltopdf
-<pre><code class="hljs java">OutputStream os = <span class="hljs-keyword">new</span> FileOutputStream(sHtmlFileContent);
+<pre><code class="hljs java">OutputStream os = <span class="hljs-keyword">new</span> FileOutputStream(sHtmlFilePath);
 PdfRendererBuilder builder = <span class="hljs-keyword">new</span> PdfRendererBuilder();
 builder.useFastMode();
 
 builder.withUri(<span class="hljs-string">"file:///path/to/result/openhtmltopdf.pdf"</span>);
 builder.toStream(os);
 builder.run();</code></pre>
+
+#### pdfHTML (iText 7 add-on)
+<pre><code class="hljs java">File htmlSource = <span class="hljs-keyword">new</span> File(sHtmlFilePath);
+File pdfDest = <span class="hljs-keyword">new</span> File(resultFilepath);
+ConverterProperties converterProperties = <span class="hljs-keyword">new</span> ConverterProperties();
+HtmlConverter.convertToPdf(<span class="hljs-keyword">new</span> FileInputStream(htmlSource), <span class="hljs-keyword">new</span> FileOutputStream(pdfDest), converterProperties);</code></pre>
