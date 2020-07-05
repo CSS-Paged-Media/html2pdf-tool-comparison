@@ -2,3 +2,6 @@ composer.lock
 vendor/*
 cache-dir/*
 error.png
+.idea
+*.iml
+java/comazettlhtml2pdf/target/*
