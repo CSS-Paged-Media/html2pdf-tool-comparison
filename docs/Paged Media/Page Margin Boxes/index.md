@@ -18,6 +18,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-center.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAYm90dG9tLWNlbnRlcnsKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7CiAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlOwogICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ6ICJIZWxsbyBXb3JsZCEiOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvaGVhZD4KICAgIDxib2R5PgogICAgICAgIDxoMj5AYm90dG9tLWNlbnRlcjwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -110,6 +116,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-left-corner.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAYm90dG9tLWxlZnQtY29ybmVyewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7CiAgICAgICAgICAgICAgICAgICAgY29udGVudDogIkhlbGxvIFdvcmxkISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgyPkBib3R0b20tbGVmdC1jb3JuZXI8L2gyPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -202,6 +214,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-left.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAYm90dG9tLWxlZnR7CiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmVkOwogICAgICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTsKICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAiSGVsbG8gV29ybGQhIjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+QGJvdHRvbS1sZWZ0PC9oMj4KICAgIDwvYm9keT4KPC9odG1sPg==" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -294,6 +312,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-right-corner.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAYm90dG9tLXJpZ2h0LWNvcm5lcnsKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7CiAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlOwogICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ6ICJIZWxsbyBXb3JsZCEiOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvaGVhZD4KICAgIDxib2R5PgogICAgICAgIDxoMj5AYm90dG9tLXJpZ2h0LWNvcm5lcjwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -386,6 +410,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/bottom-right.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAYm90dG9tLXJpZ2h0ewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7CiAgICAgICAgICAgICAgICAgICAgY29udGVudDogIkhlbGxvIFdvcmxkISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgyPkBib3R0b20tcmlnaHQ8L2gyPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -478,6 +508,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-bottom.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAbGVmdC1ib3R0b217CiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmVkOwogICAgICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTsKICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAiSGVsbG8gV29ybGQhIjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+QGxlZnQtYm90dG9tPC9oMj4KICAgIDwvYm9keT4KPC9odG1sPg==" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -570,6 +606,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-middle.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAbGVmdC1taWRkbGV7CiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmVkOwogICAgICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTsKICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAiSGVsbG8gV29ybGQhIjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+QGxlZnQtbWlkZGxlPC9oMj4KICAgIDwvYm9keT4KPC9odG1sPg==" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -662,6 +704,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/left-top.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAbGVmdC10b3B7CiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmVkOwogICAgICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTsKICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAiSGVsbG8gV29ybGQhIjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+QGxlZnQtdG9wPC9oMj4KICAgIDwvYm9keT4KPC9odG1sPg==" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -754,6 +802,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-bottom.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAcmlnaHQtYm90dG9tewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7CiAgICAgICAgICAgICAgICAgICAgY29udGVudDogIkhlbGxvIFdvcmxkISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgyPkByaWdodC1ib3R0b208L2gyPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -846,6 +900,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-middle.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAcmlnaHQtbWlkZGxlewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7CiAgICAgICAgICAgICAgICAgICAgY29udGVudDogIkhlbGxvIFdvcmxkISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgyPkByaWdodC1taWRkbGU8L2gyPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -938,6 +998,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/right-top.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAcmlnaHQtdG9wewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7CiAgICAgICAgICAgICAgICAgICAgY29udGVudDogIkhlbGxvIFdvcmxkISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgyPkByaWdodC10b3A8L2gyPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -1030,6 +1096,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-center.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAdG9wLWNlbnRlcnsKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7CiAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlOwogICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ6ICJIZWxsbyBXb3JsZCEiOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvaGVhZD4KICAgIDxib2R5PgogICAgICAgIDxoMj5AdG9wLWNlbnRlcjwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -1122,6 +1194,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-left-corner.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAdG9wLWxlZnQtY29ybmVyewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7CiAgICAgICAgICAgICAgICAgICAgY29udGVudDogIkhlbGxvIFdvcmxkISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgyPkB0b3AtbGVmdC1jb3JuZXI8L2gyPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -1214,6 +1292,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-left.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAdG9wLWxlZnR7CiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmVkOwogICAgICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTsKICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAiSGVsbG8gV29ybGQhIjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+QHRvcC1sZWZ0PC9oMj4KICAgIDwvYm9keT4KPC9odG1sPg==" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -1306,6 +1390,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-right-corner.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAdG9wLXJpZ2h0LWNvcm5lcnsKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7CiAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlOwogICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ6ICJIZWxsbyBXb3JsZCEiOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvaGVhZD4KICAgIDxib2R5PgogICAgICAgIDxoMj5AdG9wLXJpZ2h0LWNvcm5lcjwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -1398,6 +1488,12 @@ description: Test Section 'Page Margin Boxes' to compare different html2pdf tool
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Margin%20Boxes/top-right.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgQHBhZ2V7CiAgICAgICAgICAgICAgICBAdG9wLXJpZ2h0ewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7CiAgICAgICAgICAgICAgICAgICAgY29udGVudDogIkhlbGxvIFdvcmxkISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgyPkB0b3AtcmlnaHQ8L2gyPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF

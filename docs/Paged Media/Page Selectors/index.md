@@ -18,6 +18,12 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/blank-first.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBicmVhay1iZWZvcmU6IGxlZnQKICAgICAgICAgICAgfQogICAgICAgICAgICBAcGFnZTpibGFuazpmaXJzdHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -110,6 +116,12 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/blank-left.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBicmVhay1iZWZvcmU6IGxlZnQKICAgICAgICAgICAgfQogICAgICAgICAgICBAcGFnZTpibGFuazpsZWZ0ewogICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmVkOwogICAgICAgICAgICB9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvaGVhZD4KICAgIDxib2R5PgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgIDwvYm9keT4KPC9odG1sPg==" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -202,6 +214,12 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/blank-right.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBicmVhay1iZWZvcmU6IGxlZnQKICAgICAgICAgICAgfQogICAgICAgICAgICBAcGFnZTpibGFuazpyaWdodHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -294,6 +312,12 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/blank.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBicmVhay1iZWZvcmU6IGxlZnQKICAgICAgICAgICAgfQogICAgICAgICAgICBAcGFnZTpibGFua3sKICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDsKICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -386,6 +410,12 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/first.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBwYWdlLWJyZWFrLWJlZm9yZTogYWx3YXlzOwogICAgICAgICAgICAgICAgcGFnZS1icmVhay1hZnRlcjogYWx3YXlzOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEBwYWdlOmZpcnN0ewogICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmVkOwogICAgICAgICAgICB9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvaGVhZD4KICAgIDxib2R5PgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgIDwvYm9keT4KPC9odG1sPg==" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -478,6 +508,12 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/higher-specificity.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBwYWdlLWJyZWFrLWJlZm9yZTogYWx3YXlzOwogICAgICAgICAgICAgICAgcGFnZS1icmVhay1hZnRlcjogYWx3YXlzOwogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBAcGFnZTpmaXJzdCB7CiAgICAgICAgICAgICAgICBjb2xvcjogZ3JlZW47CgogICAgICAgICAgICAgICAgQHRvcC1sZWZ0IHsKICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAiSGVsbG8iOwogICAgICAgICAgICAgICAgICAgIGNvbG9yOiBibHVlOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgQHRvcC1yaWdodCB7CiAgICAgICAgICAgICAgICAgICAgY29udGVudDogIldvcmxkISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEBwYWdlIHsgCiAgICAgICAgICAgICAgICBjb2xvcjogcmVkOwoKICAgICAgICAgICAgICAgIEB0b3AtY2VudGVyIHsKICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAiSGVsbG8gV29ybGQhIjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -570,6 +606,12 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/left.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBwYWdlLWJyZWFrLWJlZm9yZTogYWx3YXlzOwogICAgICAgICAgICAgICAgcGFnZS1icmVhay1hZnRlcjogYWx3YXlzOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEBwYWdlOmxlZnR7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7CiAgICAgICAgICAgIH0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -662,6 +704,12 @@ description: Test Section 'Page Selectors' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Selectors/right.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBwYWdlLWJyZWFrLWJlZm9yZTogYWx3YXlzOwogICAgICAgICAgICAgICAgcGFnZS1icmVhay1hZnRlcjogYWx3YXlzOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEBwYWdlOnJpZ2h0ewogICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmVkOwogICAgICAgICAgICB9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvaGVhZD4KICAgIDxib2R5PgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgIDwvYm9keT4KPC9odG1sPg==" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF

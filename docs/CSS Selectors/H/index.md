@@ -18,6 +18,12 @@ description: Test Section 'H' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/H/hover.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjwhLS0gU2FtcGxlIGZyb20gaHR0cHM6Ly9jc3MtdHJpY2tzLmNvbS9hbG1hbmFjL3NlbGVjdG9ycy9oL2hvdmVyLyAtLT4KPGh0bWwgbGFuZz0iZW4iPgogICAgPGhlYWQ+CiAgICAgICAgPHN0eWxlPgogICAgICAgIGE6aG92ZXIgewogIGNvbG9yOiBncmVlbjsKICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZSBvdmVybGluZTsKfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8YSBocmVmPSJodHRwczovL2dvb2dsZS5jb20iPkdvIHRvIEdvb2dsZTwvYT4KICAgIDwvYm9keT4KPC9odG1sPg==" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF

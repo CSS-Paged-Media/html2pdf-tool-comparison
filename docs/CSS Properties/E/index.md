@@ -18,6 +18,12 @@ description: Test Section 'E' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Properties/E/empty-cells.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjwhLS0gU2FtcGxlIGZyb20gaHR0cHM6Ly9jc3MtdHJpY2tzLmNvbS9hbG1hbmFjL3Byb3BlcnRpZXMvZS9lbXB0eS1jZWxscy8gLS0+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAvKiBERU1PIFNUWUxFUyAqLwoudGFibGUtc2hvdyB7CiAgZW1wdHktY2VsbHM6IHNob3c7Cn0KCi50YWJsZS1oaWRlIHsKICBlbXB0eS1jZWxsczogaGlkZTsKfQoKLyogUFJFU0VOVEFUT05BTCBTVFlMRVMgKi8KYm9keSB7CiAgYmFja2dyb3VuZDogIzMzMzsKICBwYWRkaW5nOiAyNXB4IDA7CiAgY29sb3I6ICNmZmY7CiAgZm9udC1mYW1pbHk6IEhlbHZldGljYTsKICBmb250LXNpemU6IDNlbTsKICB0ZXh0LWFsaWduOiBjZW50ZXI7Cn0KCnRhYmxlIHsKICBtYXJnaW46IDI1cHggYXV0bzsKfQoKdGQgewogIGJhY2tncm91bmQ6ICNmZmY7CiAgYm9yZGVyOiAxcHggc29saWQgIzk5OTsKICBwYWRkaW5nOiAxMHB4IDE1cHg7CiAgY29sb3I6IGdyZWVuOwogIGN1cnNvcjogcG9pbnRlcjsKfQoKdGQ6aG92ZXIgewogIGJhY2tncm91bmQ6ICNlYWVhZWE7Cn0KCmgxIHsKICBmb250LXNpemU6IC41ZW07Cn0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgxPlNob3cgRW1wdHkgQ2VsbHM8L2gxPgoKICAgICAgICA8dGFibGUgY2xhc3M9InRhYmxlLXNob3ciPgogICAgICAgICAgPHRib2R5PgogICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgPHRkPiZjaGVjazs8L3RkPgogICAgICAgICAgICAgIDx0ZD4mY2hlY2s7PC90ZD4KICAgICAgICAgICAgICA8dGQ+PC90ZD4KICAgICAgICAgICAgICA8dGQ+JmNoZWNrOzwvdGQ+CiAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICA8L3Rib2R5PgogICAgICAgIDwvdGFibGU+CiAgICAgICAgCiAgICAgICAgPGgxPkhpZGUgVGhlIENlbGxzPC9oMT4KICAgICAgICAKICAgICAgICA8dGFibGUgY2xhc3M9InRhYmxlLWhpZGUiPgogICAgICAgICAgIDx0Ym9keT4KICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgIDx0ZD4mY2hlY2s7PC90ZD4KICAgICAgICAgICAgICA8dGQ+JmNoZWNrOzwvdGQ+CiAgICAgICAgICAgICAgPHRkPjwvdGQ+CiAgICAgICAgICAgICAgPHRkPiZjaGVjazs8L3RkPgogICAgICAgICAgICA8L3RyPgogICAgICAgICAgPC90Ym9keT4KICAgICAgICA8L3RhYmxlPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF

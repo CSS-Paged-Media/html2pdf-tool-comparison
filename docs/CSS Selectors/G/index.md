@@ -18,6 +18,12 @@ description: Test Section 'G' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/CSS%20Selectors/G/general-sibling.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjwhLS0gU2FtcGxlIGZyb20gaHR0cHM6Ly9jc3MtdHJpY2tzLmNvbS9hbG1hbmFjL3NlbGVjdG9ycy9nL2dlbmVyYWwtc2libGluZy8gLS0+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICBpbWcgfiBwIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkVGMEI2OwogIHBhZGRpbmc6IDVweDsKfQoKICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPHA+PHN0cm9uZz5UaGlzIHBhcmFncmFwaCB3aWxsIG5vdCBiZSBzZWxlY3RlZC48L3N0cm9uZz4gTG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2ljaW5nIGVsaXQuIE1vbGVzdGlhcyBiZWF0YWUgYmxhbmRpdGlpcyBpbnZlbnRvcmUsIGR1Y2ltdXMgYXRxdWUgZG9sb3JlcyB2aXRhZSBhY2N1c2FtdXMgcXVhcyBkZWxlbml0aSBpbGx1bSBhYiBuYXR1cyBzaW1pbGlxdWUgZGlzdGluY3RpbyBvcHRpby4gU2VkIGZ1Z2l0IGhhcnVtLCBzZXF1aSBkdWNpbXVzPzwvcD4KCiAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vcGxhY2VpbWcuY29tLzIwMC8yMDAvYXJjaCIgYWx0PSIiIC8+CiAgICAgICAgCiAgICAgICAgPHA+PHN0cm9uZz5UaGlzIHBhcmFncmFwaCB3aWxsIGJlIHNlbGVjdGVkLjwvc3Ryb25nPiBMb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2VjdGV0dXIgYWRpcGlzaWNpbmcgZWxpdC4gRGlzdGluY3RpbyBjb25zZXF1YXR1ciBkZWJpdGlzIGV2ZW5pZXQgaXN0ZSByYXRpb25lIHF1aWJ1c2RhbSBoaWMgYWNjdXNhbXVzISBFdmVuaWV0IGRpZ25pc3NpbW9zIGFkLCBuaWhpbCBtb2xlc3RpYWUgYXNwZXJuYXR1ciBjb25zZXF1dW50dXIgb2ZmaWNpYSB2b2x1cHRhdHVtIHRlbmV0dXIgdmVsaXQgdm9sdXB0YXRlLiBUZW1wb3JpYnVzISA8L3A+CiAgICAgICAgCiAgICAgICAgPHA+PHN0cm9uZz5BbmQgdGhpcyBwYXJhZ3JhcGggd2lsbCBhbHNvIGJlIHNlbGVjdGVkLjwvc3Ryb25nPiBMb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2VjdGV0dXIgYWRpcGlzaWNpbmcgZWxpdC4gVm9sdXB0YXMgdGVtcG9yaWJ1cyBmYWNlcmUsIHBvcnJvIGV0LiBTZWQgY29ycnVwdGkgaXVzdG8gcmVwcmVoZW5kZXJpdCByYXRpb25lIGVzdCBkZWxlbml0aSBtb2xlc3RpYXMgaW52ZW50b3JlIGNvbnNlcXV1bnR1ciBkaWN0YSB0ZW5ldHVyISBBbmltaSBleGNlcHR1cmkgcXVhZSBibGFuZGl0aWlzIGN1bS48L3A+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF

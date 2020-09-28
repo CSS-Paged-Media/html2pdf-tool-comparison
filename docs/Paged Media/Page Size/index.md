@@ -18,6 +18,12 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Size/size-landscape.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBwYWdlLWJyZWFrLWJlZm9yZTogYWx3YXlzOwogICAgICAgICAgICAgICAgcGFnZS1icmVhay1hZnRlcjogYWx3YXlzOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEBwYWdlewogICAgICAgICAgICAgICAgc2l6ZTpBNCBsYW5kc2NhcGU7CiAgICAgICAgICAgIH0KICAgICAgICA8L3N0eWxlPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgPC9ib2R5Pgo8L2h0bWw+" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -110,6 +116,12 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Size/size-media-names.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBwYWdlLWJyZWFrLWJlZm9yZTogYWx3YXlzOwogICAgICAgICAgICAgICAgcGFnZS1icmVhay1hZnRlcjogYWx3YXlzOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEBwYWdlOmZpcnN0ewogICAgICAgICAgICAgICAgc2l6ZTpsZXR0ZXI7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgQHBhZ2U6bGVmdHsKICAgICAgICAgICAgICAgIHNpemU6QTU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgQHBhZ2U6cmlnaHR7CiAgICAgICAgICAgICAgICBzaXplOkpJUy1CNDsKICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -202,6 +214,12 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Size/size-portrait.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBwYWdlLWJyZWFrLWJlZm9yZTogYWx3YXlzOwogICAgICAgICAgICAgICAgcGFnZS1icmVhay1hZnRlcjogYWx3YXlzOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEBwYWdlewogICAgICAgICAgICAgICAgc2l6ZTpBNCBwb3J0cmFpdDsKICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF
@@ -294,6 +312,12 @@ description: Test Section 'Page Size' to compare different html2pdf tools.
 </div>
 <p>
     <a href="https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master//html/Paged%20Media/Page%20Size/size.html" target="_blank" rel="noopener">📄 Download on GitHub</a>
+    <form method="POST" action="https://printcss.live/open" target="_blank">
+      <input type="hidden" name="css" value="" />
+      <input type="hidden" name="html" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICAgIDxoZWFkPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgaDJ7CiAgICAgICAgICAgICAgICBwYWdlLWJyZWFrLWJlZm9yZTogYWx3YXlzOwogICAgICAgICAgICAgICAgcGFnZS1icmVhay1hZnRlcjogYWx3YXlzOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEBwYWdlewogICAgICAgICAgICAgICAgc2l6ZTogNGluIDRpbjsKICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICAgICAgPGgyPlBhZ2U8L2gyPgogICAgICAgIDxoMj5QYWdlPC9oMj4KICAgICAgICA8aDI+UGFnZTwvaDI+CiAgICA8L2JvZHk+CjwvaHRtbD4=" />
+      
+      <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+    </form>
 </p>
 
 ### Output PDF

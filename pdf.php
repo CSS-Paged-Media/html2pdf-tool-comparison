@@ -353,6 +353,8 @@ print_r($output);
                         $sSingleHeader = strtoupper($sSingleName);
                         $sSingleThumb = str_replace('.pdf', '.png', $sSingleOutputBaseName);
                         $sBaseFileLink = basename($sDirFileName);
+                        
+                        $sContentForPrintCSSLive = base64_encode(file_get_contents($sSingleHtmlPath));
 
                         $sSingleTemplate = <<<EOT
                         ## 🔬 $sSingleHeader
@@ -366,6 +368,12 @@ print_r($output);
                         </div>
                         <p>
                             <a href="$sSingleHtmlPath" target="_blank" rel="noopener">📄 Download on GitHub</a>
+                            <form method="POST" action="https://printcss.live/open" target="_blank">
+                              <input type="hidden" name="css" value="" />
+                              <input type="hidden" name="html" value="$sContentForPrintCSSLive" />
+                              
+                              <input type="submit" name="submit" value="Open on printcss.live" title="Open on printcss.live" style="background:url(https://printcss.live/img/logo.png);background-repeat:no-repeat;background-size:90%;background-position: center;color: transparent;cursor: pointer;padding: 8px;" />
+                            </form>
                         </p>
 
                         ### Output PDF
@@ -418,6 +426,27 @@ print_r($output);
                                 <img src="/{{ page.path }}/../puppeteer_$sSingleThumb" alt="Puppeteer Preview" />
                                 <p>
                                     <a href="/{{ page.path }}/../puppeteer_$sSingleOutputBaseName" target="_blank">📕 Puppeteer Output</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4>openhtmltopdf</h4>
+                                <img src="/{{ page.path }}/../openhtmltopdf_$sSingleThumb" alt="openhtmltopdf Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../openhtmltopdf_$sSingleOutputBaseName" target="_blank">📕 openhtmltopdf Output</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4>pdfHTML (iText 7 add-on)</h4>
+                                <img src="/{{ page.path }}/../itextpdfhtml_$sSingleThumb" alt="pdfHTML (iText 7 add-on) Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../itextpdfhtml_$sSingleOutputBaseName" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4>Flying Saucer</h4>
+                                <img src="/{{ page.path }}/../flyingsaucer_$sSingleThumb" alt="Flying Saucer Preview" />
+                                <p>
+                                    <a href="/{{ page.path }}/../flyingsaucer_$sSingleOutputBaseName" target="_blank">📕 Flying Saucer Output</a>
                                 </p>
                             </div>
                         </div>
