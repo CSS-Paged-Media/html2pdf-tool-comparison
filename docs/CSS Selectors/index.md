@@ -7,79 +7,79 @@ description: Test Section 'CSS Selectors' to compare different html2pdf tools.
 
 ## 📑 Index
 <div class="boxes">
-                            <a href="/CSS-Selectors/A/">
+                            <a href="/html2pdf/CSS-Selectors/A/">
                                 A
                             </a>
 
-                            <a href="/CSS-Selectors/B/">
+                            <a href="/html2pdf/CSS-Selectors/B/">
                                 B
                             </a>
 
-                            <a href="/CSS-Selectors/C/">
+                            <a href="/html2pdf/CSS-Selectors/C/">
                                 C
                             </a>
 
-                            <a href="/CSS-Selectors/D/">
+                            <a href="/html2pdf/CSS-Selectors/D/">
                                 D
                             </a>
 
-                            <a href="/CSS-Selectors/E/">
+                            <a href="/html2pdf/CSS-Selectors/E/">
                                 E
                             </a>
 
-                            <a href="/CSS-Selectors/F/">
+                            <a href="/html2pdf/CSS-Selectors/F/">
                                 F
                             </a>
 
-                            <a href="/CSS-Selectors/G/">
+                            <a href="/html2pdf/CSS-Selectors/G/">
                                 G
                             </a>
 
-                            <a href="/CSS-Selectors/H/">
+                            <a href="/html2pdf/CSS-Selectors/H/">
                                 H
                             </a>
 
-                            <a href="/CSS-Selectors/I/">
+                            <a href="/html2pdf/CSS-Selectors/I/">
                                 I
                             </a>
 
-                            <a href="/CSS-Selectors/L/">
+                            <a href="/html2pdf/CSS-Selectors/L/">
                                 L
                             </a>
 
-                            <a href="/CSS-Selectors/M/">
+                            <a href="/html2pdf/CSS-Selectors/M/">
                                 M
                             </a>
 
-                            <a href="/CSS-Selectors/N/">
+                            <a href="/html2pdf/CSS-Selectors/N/">
                                 N
                             </a>
 
-                            <a href="/CSS-Selectors/O/">
+                            <a href="/html2pdf/CSS-Selectors/O/">
                                 O
                             </a>
 
-                            <a href="/CSS-Selectors/P/">
+                            <a href="/html2pdf/CSS-Selectors/P/">
                                 P
                             </a>
 
-                            <a href="/CSS-Selectors/R/">
+                            <a href="/html2pdf/CSS-Selectors/R/">
                                 R
                             </a>
 
-                            <a href="/CSS-Selectors/S/">
+                            <a href="/html2pdf/CSS-Selectors/S/">
                                 S
                             </a>
 
-                            <a href="/CSS-Selectors/T/">
+                            <a href="/html2pdf/CSS-Selectors/T/">
                                 T
                             </a>
 
-                            <a href="/CSS-Selectors/U/">
+                            <a href="/html2pdf/CSS-Selectors/U/">
                                 U
                             </a>
 
-                            <a href="/CSS-Selectors/V/">
+                            <a href="/html2pdf/CSS-Selectors/V/">
                                 V
                             </a>
 </div>

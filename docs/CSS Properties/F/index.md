@@ -33,70 +33,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_filter.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_filter.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_filter.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_filter.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_filter.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_filter.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_filter.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_filter.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_filter.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_filter.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_filter.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -131,70 +131,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-basis.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-basis.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-basis.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-basis.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-basis.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-basis.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-basis.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-basis.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-basis.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-basis.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-basis.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -229,70 +229,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-direction.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-direction.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-direction.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-direction.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-direction.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-direction.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-direction.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-direction.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-direction.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-direction.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-direction.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -327,70 +327,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-flow.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-flow.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-flow.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-flow.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-flow.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-flow.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-flow.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-flow.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-flow.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-flow.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-flow.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -425,70 +425,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-grow.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-grow.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-grow.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-grow.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-grow.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-grow.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-grow.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-grow.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-grow.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-grow.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-grow.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -523,70 +523,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-shrink.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-shrink.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-shrink.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-shrink.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-shrink.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-shrink.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-shrink.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-shrink.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-shrink.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-shrink.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-shrink.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -621,70 +621,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-wrap.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-wrap.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-wrap.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-wrap.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-wrap.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-wrap.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-wrap.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-wrap.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-wrap.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-wrap.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex-wrap.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -719,70 +719,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_flex.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -817,70 +817,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_float.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_float.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_float.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_float.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_float.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_float.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_float.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_float.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_float.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_float.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_float.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -915,70 +915,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-family.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-family.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-family.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-family.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-family.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-family.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-family.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-family.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-family.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-family.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-family.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -1013,70 +1013,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-feature-settings.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-feature-settings.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-feature-settings.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-feature-settings.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-feature-settings.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-feature-settings.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-feature-settings.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-feature-settings.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-feature-settings.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -1111,70 +1111,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-size-adjust.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-size-adjust.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-size-adjust.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-size-adjust.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size-adjust.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-size-adjust.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-size-adjust.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-size-adjust.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-size-adjust.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -1209,70 +1209,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-size.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-size.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-size.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-size.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-size.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-size.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-size.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-size.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-size.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-size.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -1307,70 +1307,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-stretch.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-stretch.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-stretch.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-stretch.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-stretch.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-stretch.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-stretch.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-stretch.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-stretch.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-stretch.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-stretch.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -1405,70 +1405,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-style.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-style.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-style.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-style.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-style.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-style.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-style.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-style.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-style.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-style.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-style.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -1503,70 +1503,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-variant.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-variant.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-variant.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-variant.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-variant.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-variant.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-variant.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-variant.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-variant.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-variant.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-variant.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -1601,70 +1601,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-weight.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-weight.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-weight.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-weight.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-weight.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-weight.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-weight.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-weight.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-weight.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-weight.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font-weight.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>
@@ -1699,70 +1699,70 @@ description: Test Section 'F' to compare different html2pdf tools.
         <h4>mPDF</h4>
         <img src="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font.html.png" alt="mPDF Preview" />
         <p>
-            <a href="/{{ page.path }}/../mpdf__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 mPDF Output</a>
+            <a href="/html2pdf/{{ page.path }}/../mpdf__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
         <img src="/{{ page.path }}/../typeset__html_CSS_Properties_F_font.html.png" alt="typeset Preview" />
         <p>
-            <a href="/{{ page.path }}/../typeset__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 typeset Output</a>
+            <a href="/html2pdf/{{ page.path }}/../typeset__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
         <img src="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font.html.png" alt="PDFreactor Preview" />
         <p>
-            <a href="/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 PDFreactor Output</a>
+            <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
         <img src="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font.html.png" alt="wkhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
         <img src="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font.html.png" alt="WeasyPrint Preview" />
         <p>
-            <a href="/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 WeasyPrint Output</a>
+            <a href="/html2pdf/{{ page.path }}/../weasyprint__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
         <img src="/{{ page.path }}/../princexml__html_CSS_Properties_F_font.html.png" alt="Prince Preview" />
         <p>
-            <a href="/{{ page.path }}/../princexml__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 Prince Output</a>
+            <a href="/html2pdf/{{ page.path }}/../princexml__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
         <img src="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font.html.png" alt="Puppeteer Preview" />
         <p>
-            <a href="/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 Puppeteer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../puppeteer__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
         <img src="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font.html.png" alt="openhtmltopdf Preview" />
         <p>
-            <a href="/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
+            <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
         <img src="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
-            <a href="/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
+            <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
         <img src="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font.html.png" alt="Flying Saucer Preview" />
         <p>
-            <a href="/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 Flying Saucer Output</a>
+            <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_CSS_Properties_F_font.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
     </div>
 </div>

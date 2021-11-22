@@ -10,12 +10,12 @@ description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, Wea
 On this website, I show you the rendering results of different html2pdf tools. I compare mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, Puppeteer, openhtmltopdf, pdfHTML (iText 7 add-on), and Flying Saucer.
 
 ## 🔬 Test Sections
-<div class="boxes"><a href="/CSS-Properties/">CSS Properties</a>
-<a href="/CSS-Selectors/">CSS Selectors</a>
-<a href="/E-Commerce/">E-Commerce</a>
-<a href="/Paged-Media/">Paged Media</a>
-<a href="/Personal/">Personal</a>
-<a href="/Vendor-Samples/">Vendor Samples</a>
+<div class="boxes"><a href="/html2pdf/CSS-Properties/">CSS Properties</a>
+<a href="/html2pdf/CSS-Selectors/">CSS Selectors</a>
+<a href="/html2pdf/E-Commerce/">E-Commerce</a>
+<a href="/html2pdf/Paged-Media/">Paged Media</a>
+<a href="/html2pdf/Personal/">Personal</a>
+<a href="/html2pdf/Vendor-Samples/">Vendor Samples</a>
 </div>
 
 ## 🔬 Test Conditions
