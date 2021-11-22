@@ -13,7 +13,7 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
 
 <div class="browser-mockup with-url">
     <div>
-        <img src="/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_invoice.html.pdf.png" alt="Browser Preview of INVOICE" />
+        <img src="/html2pdf/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_invoice.html.pdf.png" alt="Browser Preview of INVOICE" />
     </div>
 </div>
 <p>
@@ -31,70 +31,70 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="/{{ page.path }}/../mpdf__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="mPDF Preview" />
+        <img src="/html2pdf/{{ page.path }}/../mpdf__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="mPDF Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../mpdf__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="/{{ page.path }}/../typeset__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="typeset Preview" />
+        <img src="/html2pdf/{{ page.path }}/../typeset__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="typeset Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../typeset__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="/{{ page.path }}/../pdfreactor__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="PDFreactor Preview" />
+        <img src="/html2pdf/{{ page.path }}/../pdfreactor__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="PDFreactor Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="/{{ page.path }}/../wkhtmltopdf__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
-        <img src="/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="WeasyPrint Preview" />
+        <img src="/html2pdf/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
-        <img src="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="Prince Preview" />
+        <img src="/html2pdf/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="Prince Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
-        <img src="/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="Puppeteer Preview" />
+        <img src="/html2pdf/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
-        <img src="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="openhtmltopdf Preview" />
+        <img src="/html2pdf/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
-        <img src="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <img src="/html2pdf/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
-        <img src="/{{ page.path }}/../flyingsaucer__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="Flying Saucer Preview" />
+        <img src="/html2pdf/{{ page.path }}/../flyingsaucer__html_Vendor_Samples_WeasyPrint_invoice.html.png" alt="Flying Saucer Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_Vendor_Samples_WeasyPrint_invoice.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
@@ -111,7 +111,7 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
 
 <div class="browser-mockup with-url">
     <div>
-        <img src="/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_report.html.pdf.png" alt="Browser Preview of REPORT" />
+        <img src="/html2pdf/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_report.html.pdf.png" alt="Browser Preview of REPORT" />
     </div>
 </div>
 <p>
@@ -129,70 +129,70 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="/{{ page.path }}/../mpdf__html_Vendor_Samples_WeasyPrint_report.html.png" alt="mPDF Preview" />
+        <img src="/html2pdf/{{ page.path }}/../mpdf__html_Vendor_Samples_WeasyPrint_report.html.png" alt="mPDF Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../mpdf__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="/{{ page.path }}/../typeset__html_Vendor_Samples_WeasyPrint_report.html.png" alt="typeset Preview" />
+        <img src="/html2pdf/{{ page.path }}/../typeset__html_Vendor_Samples_WeasyPrint_report.html.png" alt="typeset Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../typeset__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="/{{ page.path }}/../pdfreactor__html_Vendor_Samples_WeasyPrint_report.html.png" alt="PDFreactor Preview" />
+        <img src="/html2pdf/{{ page.path }}/../pdfreactor__html_Vendor_Samples_WeasyPrint_report.html.png" alt="PDFreactor Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="/{{ page.path }}/../wkhtmltopdf__html_Vendor_Samples_WeasyPrint_report.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_Vendor_Samples_WeasyPrint_report.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
-        <img src="/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_report.html.png" alt="WeasyPrint Preview" />
+        <img src="/html2pdf/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_report.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
-        <img src="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_report.html.png" alt="Prince Preview" />
+        <img src="/html2pdf/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_report.html.png" alt="Prince Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
-        <img src="/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_report.html.png" alt="Puppeteer Preview" />
+        <img src="/html2pdf/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_report.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
-        <img src="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_WeasyPrint_report.html.png" alt="openhtmltopdf Preview" />
+        <img src="/html2pdf/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_WeasyPrint_report.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
-        <img src="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_WeasyPrint_report.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <img src="/html2pdf/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_WeasyPrint_report.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
-        <img src="/{{ page.path }}/../flyingsaucer__html_Vendor_Samples_WeasyPrint_report.html.png" alt="Flying Saucer Preview" />
+        <img src="/html2pdf/{{ page.path }}/../flyingsaucer__html_Vendor_Samples_WeasyPrint_report.html.png" alt="Flying Saucer Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_Vendor_Samples_WeasyPrint_report.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
@@ -209,7 +209,7 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
 
 <div class="browser-mockup with-url">
     <div>
-        <img src="/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_ticket.html.pdf.png" alt="Browser Preview of TICKET" />
+        <img src="/html2pdf/{{ page.path }}/../browser_screenshot__html_Vendor_Samples_WeasyPrint_ticket.html.pdf.png" alt="Browser Preview of TICKET" />
     </div>
 </div>
 <p>
@@ -227,70 +227,70 @@ description: Test Section 'WeasyPrint' to compare different html2pdf tools.
 <div class="details-boxes">
     <div>
         <h4>mPDF</h4>
-        <img src="/{{ page.path }}/../mpdf__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="mPDF Preview" />
+        <img src="/html2pdf/{{ page.path }}/../mpdf__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="mPDF Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../mpdf__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 mPDF Output</a>
         </p>
     </div>
     <div>
         <h4>typeset.sh</h4>
-        <img src="/{{ page.path }}/../typeset__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="typeset Preview" />
+        <img src="/html2pdf/{{ page.path }}/../typeset__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="typeset Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../typeset__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 typeset Output</a>
         </p>
     </div>
     <div>
         <h4>PDFreactor</h4>
-        <img src="/{{ page.path }}/../pdfreactor__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="PDFreactor Preview" />
+        <img src="/html2pdf/{{ page.path }}/../pdfreactor__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="PDFreactor Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../pdfreactor__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 PDFreactor Output</a>
         </p>
     </div>
     <div>
         <h4>wkhtmltopdf</h4>
-        <img src="/{{ page.path }}/../wkhtmltopdf__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="wkhtmltopdf Preview" />
+        <img src="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="wkhtmltopdf Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../wkhtmltopdf__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 wkhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>WeasyPrint</h4>
-        <img src="/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="WeasyPrint Preview" />
+        <img src="/html2pdf/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="WeasyPrint Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../weasyprint__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 WeasyPrint Output</a>
         </p>
     </div>
     <div>
         <h4>Prince</h4>
-        <img src="/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="Prince Preview" />
+        <img src="/html2pdf/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="Prince Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../princexml__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 Prince Output</a>
         </p>
     </div>
     <div>
         <h4>Puppeteer</h4>
-        <img src="/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="Puppeteer Preview" />
+        <img src="/html2pdf/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="Puppeteer Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../puppeteer__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 Puppeteer Output</a>
         </p>
     </div>
     <div>
         <h4>openhtmltopdf</h4>
-        <img src="/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="openhtmltopdf Preview" />
+        <img src="/html2pdf/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="openhtmltopdf Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../openhtmltopdf__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 openhtmltopdf Output</a>
         </p>
     </div>
     <div>
         <h4>pdfHTML (iText 7 add-on)</h4>
-        <img src="/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
+        <img src="/html2pdf/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="pdfHTML (iText 7 add-on) Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../itextpdfhtml__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 pdfHTML (iText 7 add-on) Output</a>
         </p>
     </div>
     <div>
         <h4>Flying Saucer</h4>
-        <img src="/{{ page.path }}/../flyingsaucer__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="Flying Saucer Preview" />
+        <img src="/html2pdf/{{ page.path }}/../flyingsaucer__html_Vendor_Samples_WeasyPrint_ticket.html.png" alt="Flying Saucer Preview" />
         <p>
             <a href="/html2pdf/{{ page.path }}/../flyingsaucer__html_Vendor_Samples_WeasyPrint_ticket.html.pdf" target="_blank">📕 Flying Saucer Output</a>
         </p>
