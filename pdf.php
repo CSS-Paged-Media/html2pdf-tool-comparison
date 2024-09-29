@@ -348,7 +348,7 @@ print_r($output);
                         $sSingleName = str_replace('.html', '', $sMDFileName);
                         $sSinglePath = str_replace([__DIR__ . DIRECTORY_SEPARATOR . 'html/', ' '], ['', '-'], $sPath)
                         . DIRECTORY_SEPARATOR . $sMDFileName;
-                        $sSingleHtmlPath = 'https://raw.githubusercontent.com/azettl/compare.html2pdf.tools/master/' . str_replace([__DIR__, '.pdf', ' '], ['', '', '%20'], $sDirPath);
+                        $sSingleHtmlPath = 'https://raw.githubusercontent.com/CSS-Paged-Media/html2pdf-tool-comparison/master/' . str_replace([__DIR__, '.pdf', ' '], ['', '', '%20'], $sDirPath);
                         $sDownloadPath =  str_replace(['.pdf'], [''], $sDirPath);
                         $sSingleHeader = strtoupper($sSingleName);
                         $sSingleThumb = str_replace('.pdf', '.png', $sSingleOutputBaseName);
@@ -618,7 +618,7 @@ $browser->close();', 'php'
 
         ### Code to Render
 
-        I use the following code snippets to create the PDF files. If you want to see the code for this website have a look at the [GitHub Repository](https://github.com/azettl/compare.html2pdf.tools).
+        I use the following code snippets to create the PDF files. If you want to see the code for this website have a look at the [GitHub Repository](https://github.com/CSS-Paged-Media/html2pdf-tool-comparison).
 
         #### mPDF
 

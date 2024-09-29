@@ -10,12 +10,12 @@ description: A comparison between mPDF, typeset.sh, PDFreactor, wkhtmltopdf, Wea
 On this website, I show you the rendering results of different html2pdf tools. I compare mPDF, typeset.sh, PDFreactor, wkhtmltopdf, WeasyPrint, Prince, Puppeteer, openhtmltopdf, pdfHTML (iText 7 add-on), and Flying Saucer.
 
 ## 🔬 Test Sections
-<div class="boxes"><a href="/html2pdf/CSS-Properties/">CSS Properties</a>
-<a href="/html2pdf/CSS-Selectors/">CSS Selectors</a>
-<a href="/html2pdf/E-Commerce/">E-Commerce</a>
-<a href="/html2pdf/Paged-Media/">Paged Media</a>
-<a href="/html2pdf/Personal/">Personal</a>
-<a href="/html2pdf/Vendor-Samples/">Vendor Samples</a>
+<div class="boxes"><a href="/html2pdf-tool-comparison/CSS-Properties/">CSS Properties</a>
+<a href="/html2pdf-tool-comparison/CSS-Selectors/">CSS Selectors</a>
+<a href="/html2pdf-tool-comparison/E-Commerce/">E-Commerce</a>
+<a href="/html2pdf-tool-comparison/Paged-Media/">Paged Media</a>
+<a href="/html2pdf-tool-comparison/Personal/">Personal</a>
+<a href="/html2pdf-tool-comparison/Vendor-Samples/">Vendor Samples</a>
 </div>
 
 ## 🔬 Test Conditions
@@ -28,7 +28,7 @@ The vendor samples might contain tool-specific syntax. This syntax is not unders
 
 ### Code to Render
 
-I use the following code snippets to create the PDF files. If you want to see the code for this website have a look at the [GitHub Repository](https://github.com/azettl/compare.html2pdf.tools).
+I use the following code snippets to create the PDF files. If you want to see the code for this website have a look at the [GitHub Repository](https://github.com/CSS-Paged-Media/html2pdf-tool-comparison).
 
 #### mPDF
 
